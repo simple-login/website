@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 4 Password Strength Meter Translations Example</title>
+    <link rel="stylesheet" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container">
+        <h1></h1>
+        <form role="form" style="margin-bottom: 20px;">
+            <div class="row" id="pwd-container">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="password"></label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-sm-offset-2" style="padding-top: 30px;">
+                    <div class="pwstrength_viewport_progress"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="messages" class="col-sm-12"></div>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-sm-12">
+<pre>jQuery(document).ready(function () {
+  "use strict";
+  i18next.init({
+    lng: 'es',
+    resources: {
+      es: {
+        translation: {
+          "wordLength": "Tu contrase&ntilde;a es demasiado corta",
+          "wordNotEmail": "No uses tu email como tu contrase&ntilde;a",
+          "wordSimilarToUsername": "Tu contrase&ntilde;a no puede contener tu nombre de usuario",
+          "wordTwoCharacterClasses": "Mezcla diferentes clases de caracteres",
+          "wordRepetitions": "Demasiadas repeticiones",
+          "wordSequences": "Tu contrase&ntilde;a contiene secuencias",
+          "errorList": "Errores:",
+          "veryWeak": "Muy D&eacute;bil",
+          "weak": "D&eacute;bil",
+          "normal": "Normal",
+          "medium": "Media",
+          "strong": "Fuerte",
+          "veryStrong": "Muy Fuerte",
+
+          "start": "Comience a escribir la contrase&ntilde;a",
+          "label": "Contrase&ntilde;a",
+          "pageTitle": "Bootstrap 4 Password Strength Meter - Ejemplo de Traducciones",
+          "goBack": "Atr&aacute;s"
+        }
+      }
+    }
+  }, function () {
+    // Initialized and ready to go
+
+    var options = {};
+    options.ui = {
+        container: "#pwd-container",
+        showVerdictsInsideProgressBar: true,
+        viewports: {
+            progress: ".pwstrength_viewport_progress"
+        },
+        showErrors: true
+    };
+    options.common = {
+        debug: true,
+        onLoad: function () {
+            $('#messages').html(i18next.t('start'));
+        }
+    };
+    $(':password').pwstrength(options);
+
+    $('.container').find('label').html(i18next.t('label')).end()
+                   .find('h1').html(i18next.t('pageTitle')).end()
+                   .find('a').html(i18next.t('goBack'));
+  });
+});</pre>
+            </div>
+        </div>
+        <p><a href=".."></a></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../i18next.js"></script>
+    <script type="text/javascript" src="../pwstrength.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function () {
+          "use strict";
+          i18next.init({
+            lng: 'es',
+            resources: {
+              es: {
+                translation: {
+                  "wordLength": "Tu contrase&ntilde;a es demasiado corta",
+                  "wordNotEmail": "No uses tu email como tu contrase&ntilde;a",
+                  "wordSimilarToUsername": "Tu contrase&ntilde;a no puede contener tu nombre de usuario",
+                  "wordTwoCharacterClasses": "Mezcla diferentes clases de caracteres",
+                  "wordRepetitions": "Demasiadas repeticiones",
+                  "wordSequences": "Tu contrase&ntilde;a contiene secuencias",
+                  "errorList": "Errores:",
+                  "veryWeak": "Muy D&eacute;bil",
+                  "weak": "D&eacute;bil",
+                  "normal": "Normal",
+                  "medium": "Media",
+                  "strong": "Fuerte",
+                  "veryStrong": "Muy Fuerte",
+
+                  "start": "Comience a escribir la contrase&ntilde;a",
+                  "label": "Contrase&ntilde;a",
+                  "pageTitle": "Bootstrap 4 Password Strength Meter - Ejemplo de Traducciones",
+                  "goBack": "Atr&aacute;s"
+                }
+              }
+            }
+          }, function () {
+            // Initialized and ready to go
+
+            var options = {};
+            options.ui = {
+                container: "#pwd-container",
+                showVerdictsInsideProgressBar: true,
+                viewports: {
+                    progress: ".pwstrength_viewport_progress"
+                },
+                showErrors: true
+            };
+            options.common = {
+                debug: true,
+                onLoad: function () {
+                    $('#messages').html(i18next.t('start'));
+                }
+            };
+            $(':password').pwstrength(options);
+
+            $('.container').find('label').html(i18next.t('label')).end()
+                           .find('h1').html(i18next.t('pageTitle')).end()
+                           .find('a').html(i18next.t('goBack'));
+          });
+      });
+    </script>
+</body>
+</html>

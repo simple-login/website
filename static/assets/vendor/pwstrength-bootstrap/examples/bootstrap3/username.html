@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 3 Password Strength Meter Example - Interact with Other Inputs</title>
+    <link rel="stylesheet" media="screen" href="bootstrap3.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Bootstrap 3 Password Strength Meter Example - Interact with Other Inputs</h1>
+        <form role="form" style="margin-bottom: 20px;">
+            <div class="row" id="pwd-container">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-sm-offset-2" style="padding-top: 30px;">
+                    <div class="pwstrength_viewport_progress"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="messages" class="col-sm-12"></div>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-sm-12">
+<pre>jQuery(document).ready(function () {
+    "use strict";
+    var options = {};
+    options.ui = {
+        bootstrap3: true,
+        container: "#pwd-container",
+        showVerdictsInsideProgressBar: true,
+        viewports: {
+            progress: ".pwstrength_viewport_progress"
+        }
+    };
+    options.common = {
+        debug: true,
+        usernameField: "#username"
+    };
+    $(':password').pwstrength(options);
+});</pre>
+            </div>
+        </div>
+        <p><a href="..">Go back</a></p>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="../pwstrength.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            "use strict";
+            var options = {};
+            options.ui = {
+                bootstrap3: true,
+                container: "#pwd-container",
+                showVerdictsInsideProgressBar: true,
+                viewports: {
+                    progress: ".pwstrength_viewport_progress"
+                }
+            };
+            options.common = {
+                debug: true,
+                usernameField: "#username"
+            };
+            $(':password').pwstrength(options);
+        });
+    </script>
+</body>
+</html>

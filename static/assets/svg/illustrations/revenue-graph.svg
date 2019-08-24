@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 501.8 402.8" style="enable-background:new 0 0 501.8 402.8;" xml:space="preserve">
+<style type="text/css">
+	.revenue-graph-0{fill:#E7EAF3;}
+	.revenue-graph-1{fill:#BDC5D1;}
+	.revenue-graph-2{fill:#377DFF;}
+	.revenue-graph-3{fill:#FFFFFF;}
+	.revenue-graph-4{fill:none;stroke:#1e2022;}
+	.revenue-graph-5{fill:#1E2022;}
+</style>
+<g id="Shadows">
+	<path class="revenue-graph-0 fill-gray-300" d="M195.7,89.7c1.4,2.3,9.6,16.8,9.1,28.4c-2.6-1-13.2-5.8-13.2-5.8l-0.7-3.9l-2.9-11.1l-1.6-4.3l-2.7-5.6L182,85
+		l4.7,1.1L195.7,89.7z"/>
+	<path class="revenue-graph-0 fill-gray-300" d="M155.1,106c0-3.3,1.2,44.1,15.9,50c-7.9,2.3-20.8,0.5-20.8,0.5l-4.1-3.9l-1.2-2.9l-0.7-10.5v-3.7l0.1-6.2
+		l0.6-9l0.5-3.2l1.8-4.1l0.8-1.5c0,0,2.1,0.6,2.9,0.6S155.1,107.4,155.1,106z"/>
+</g>
+<polygon class="revenue-graph-0 fill-gray-300" points="247.3,0 247.3,225.9 256.9,225.9 256.9,274.9 483,274.9 483,0 "/>
+<rect x="247.3" class="revenue-graph-1 fill-gray-400" width="235.7" height="17.7"/>
+<rect x="291" y="40" class="revenue-graph-2 fill-primary" width="158.9" height="45.3"/>
+<rect x="300.2" y="48.8" class="revenue-graph-3 fill-white" width="142.1" height="4.1"/>
+<rect x="300.2" y="58.5" class="revenue-graph-3 fill-white" width="142.1" height="4.1"/>
+<rect x="300.2" y="68.3" class="revenue-graph-3 fill-white" width="142.1" height="4.1"/>
+<rect x="291" y="103.5" class="revenue-graph-2 fill-primary" width="158.9" height="45.3"/>
+<circle class="revenue-graph-3 fill-white" cx="312.1" cy="126.1" r="13.5"/>
+<rect x="335.6" y="112.6" class="revenue-graph-3 fill-white" width="103.4" height="13"/>
+<rect x="335.6" y="130.1" class="revenue-graph-3 fill-white" width="103.4" height="4.8"/>
+<rect x="273.9" y="168.4" class="revenue-graph-3 fill-white" width="181.7" height="73.4"/>
+<path class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" d="M255,402.8V225.9h-56.6v176.9 M218.7,235.2v-8.1l4.7-0.2v3.7l9.8,4.6H218.7z"/>
+<path class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" d="M181.8,402.8V284.5h-56.6v118.3 M146.9,298.1V290l4.7-0.2v3.7l9.8,4.6H146.9z"/>
+<polyline class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" points="51.9,402.8 51.9,335.4 108.6,335.4 108.6,402.8 "/>
+<path class="revenue-graph-2 fill-primary" d="M190.7,152.4c3.9,0,35.6,4.5,49.4,11.6c-1.9,9.3-14.3,63.8-14.3,63.8H218c0,0-2.9-45.9-3.5-45.6
+	c-4.2,2.2-20.8,7.6-38.6,7.9"/>
+<path class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" d="M199.5,95.5c2.7,1.9,6.9,5.6,7.8,7.2C218,89.4,235.7,76,237.1,74.4s1.9-10.2,1.9-12.1s2.6-6.9,5.1-6.9v22.7
+	c0,0-29.5,41.4-34.4,41.4c-2.5,0-12.9-4.3-18.1-7.1"/>
+<path class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" d="M181.9,85c7.9,1.1,18.2,6.3,18.2,8.3c0,2.4-5.1,11.4-9.1,15.1"/>
+<path class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" d="M189.3,45.2c0.5-0.8,0.8-1.8,0.8-2.8c0-3.5-3-4-4.3-5.1c-1.4-1.2-0.8-4.8-4.7-4.8c-3.5,0-5.2,3.7-7.5,5.1
+	c-2.7,1.7-8,0.3-11.5,3.9c-1.7,1.7-2.1,6.1-3.2,7.6c-1.4,2.1-3.9,2.8-3.9,6c0,2,1.4,5.1,3.2,6.4"/>
+<path class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" d="M175.3,79.3c21.2,10.8,19.5,69.8,15.4,73c-4.5,3.5-41.6,5.2-45,0c-1.6-2.4-2.7-18.8-0.7-35.6"/>
+<path class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" d="M155,85.1c2.5-3.3,5.4-5.7,9-6.8"/>
+<path class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" d="M134.1,102.8c-6,6.8-14.9,24.2-14.9,27.4c0,7.9,26.6,42.6,30,42.6c1.4-2.4,3.7-7.5,3.7-7.5s-16-29.8-18.9-33.7
+	c2.5-2.4,11.7-14.8,13.3-18.6c0.2-0.5,0.4-1.1,0.5-1.6"/>
+<path class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" d="M150.4,112c-3,0.2-17.3-7.5-17.3-11.2c0-3,15.6-19.2,22.4-15.5c1,0.5,1.6,1.5,2,2.7"/>
+<path class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" d="M175.3,79.3v-5"/>
+<path class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" d="M164,65.6v14.1c0,2,2.8,3,5.7,3"/>
+<path class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" d="M175.3,74.4c0.4,0,0.9-0.1,1.3-0.2c5.8-1.4,8.9-9.4,6.9-17.9c-0.4-1.5-0.9-3-1.5-4.5"/>
+<path class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-miterlimit="10" d="M161.9,57.6c-2,0.6-3.1,2.6-2.5,4.6c0.5,1.6,1.9,2.7,3.6,2.7c0.2,0,0.5,0,0.7-0.1c0.1,0.3,0.2,0.5,0.3,0.8"/>
+<path class="revenue-graph-2 fill-primary" d="M146,152.4v0.3c3.7,6.8,6.8,12.6,6.8,12.6s-2.3,5.1-3.7,7.5c-0.5,0-1.7-0.9-3.2-2.4v119.8h6.8l37.9-137.8
+	C188.3,154.4,154.8,159.1,146,152.4z"/>
+<path class="revenue-graph-5 fill-dark" opacity=".05" d="M146,152.4v0.3c3.7,6.8,6.8,12.6,6.8,12.6s-2.3,5.1-3.7,7.5c-0.5,0-1.7-0.9-3.2-2.4v119.8h6.8l37.9-137.8
+	C188.3,154.4,154.8,159.1,146,152.4z"/>
+<polyline class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="146.9,290 146.9,298.1 161.5,298.1 151.6,293.5 151.6,289.8 "/>
+<polyline class="revenue-graph-4 fill-none stroke-dark" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" points="218.7,227.1 218.7,235.2 233.2,235.2 223.4,230.7 223.4,226.9 "/>
+</svg>

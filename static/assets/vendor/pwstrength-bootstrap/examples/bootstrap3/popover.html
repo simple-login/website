@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 3 Password Strength Meter Example - Popover</title>
+    <link rel="stylesheet" media="screen" href="bootstrap3.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Bootstrap 3 Password Strength Meter Example - Popover</h1>
+        <form role="form" style="margin-bottom: 20px;">
+            <div class="row" id="pwd-container">
+                <div class="col-lg-4">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="username" placeholder="Name">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-sm-12">
+<pre>jQuery(document).ready(function () {
+    "use strict";
+    var options = {};
+    options.ui = {
+        bootstrap3: true,
+        showPopover: true,
+        showErrors: true,
+        showProgressBar: false
+    };
+    options.rules = {
+        activated: {
+            wordTwoCharacterClasses: true,
+            wordRepetitions: true
+        }
+    };
+    $(':password').pwstrength(options);
+});</pre>
+            </div>
+        </div>
+        <p><a href="..">Go back</a></p>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="../pwstrength.js"></script>
+    <script type="text/javascript" src="bootstrap3.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            "use strict";
+            var options = {};
+            options.ui = {
+                bootstrap3: true,
+                showPopover: true,
+                showErrors: true,
+                showProgressBar: false
+            };
+            options.rules = {
+                activated: {
+                    wordTwoCharacterClasses: true,
+                    wordRepetitions: true
+                }
+            };
+            $(':password').pwstrength(options);
+        });
+    </script>
+</body>
+</html>

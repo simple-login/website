@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 2 Password Strength Meter Example - Popover</title>
+    <link rel="stylesheet" media="screen" href="bootstrap2.css" />
+</head>
+<body>
+    <div class="container" style="margin-left: 20px;">
+        <h1>Bootstrap 2 Password Strength Meter Example - Popover</h1>
+        <form style="margin-bottom: 20px;">
+            <fieldset>
+                <legend>Please type in your password</legend>
+                User: <input type="text" id="username" /><br />
+                Pass: <input type="password" id="password" />
+            </fieldset>
+        </form>
+        <div class="row">
+            <div class="span12">
+<pre>jQuery(document).ready(function () {
+    "use strict";
+    var options = {};
+    options.ui = {
+        showPopover: true,
+        showErrors: true,
+        bootstrap2: true
+    };
+    $(':password').pwstrength(options);
+});</pre>
+            </div>
+        </div>
+        <p><a href="..">Go back</a></p>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap2.js"></script>
+    <script type="text/javascript" src="../pwstrength.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            "use strict";
+            var options = {};
+            options.ui = {
+                showPopover: true,
+                showErrors: true,
+                bootstrap2: true
+            };
+            $(':password').pwstrength(options);
+        });
+    </script>
+</body>
+</html>

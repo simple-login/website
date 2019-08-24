@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 4 Password Strength Meter Example - Popover</title>
+    <link rel="stylesheet" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Bootstrap 4 Password Strength Meter Example - Popover</h1>
+        <form role="form" style="margin-bottom: 20px;">
+            <div class="row" id="pwd-container">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="username" placeholder="Name">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-sm-offset-2" style="padding-top: 30px;">
+                    <div class="pwstrength_viewport_progress"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="messages" class="col-sm-12"></div>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-sm-12">
+<pre>jQuery(document).ready(function () {
+    "use strict";
+    var options = {};
+    options.ui = {
+        container: "#pwd-container",
+        viewports: {
+            progress: ".pwstrength_viewport_progress"
+        },
+        showPopover: true,
+        showErrors: true
+    };
+    options.common = {
+        debug: true,
+        onLoad: function () {
+            $('#messages').text('Start typing password');
+        }
+    };
+    $(':password').pwstrength(options);
+});</pre>
+            </div>
+        </div>
+        <p><a href="..">Go back</a></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../pwstrength.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            "use strict";
+            var options = {};
+            options.ui = {
+                container: "#pwd-container",
+                viewports: {
+                    progress: ".pwstrength_viewport_progress"
+                },
+                showPopover: true,
+                showErrors: true
+            };
+            options.common = {
+                debug: true,
+                onLoad: function () {
+                    $('#messages').text('Start typing password');
+                }
+            };
+            $(':password').pwstrength(options);
+        });
+    </script>
+</body>
+</html>

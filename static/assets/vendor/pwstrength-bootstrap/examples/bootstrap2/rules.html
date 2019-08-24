@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap 2 Password Strength Meter Example - Custom Rules</title>
+    <link rel="stylesheet" media="screen" href="bootstrap2.css" />
+</head>
+<body>
+    <div class="container" style="margin-left: 20px;">
+        <h1>Bootstrap 2 Password Strength Meter Example - Custom Rules</h1>
+        <form>
+            <fieldset>
+                <legend>Please type in your password</legend>
+                User: <input type="text" id="username" /><br />
+                Pass: <input type="password" id="password" />
+            </fieldset>
+        </form>
+        <p>The words "password", "3141592" and "yeah" have been blocked by the
+        custom rules. So if the password contains one of the blocked words,
+        then the password will be marked as weak.</p>
+        <div class="row">
+            <div class="span12">
+<pre>jQuery(document).ready(function () {
+    "use strict";
+    var options = { ui: { bootstrap2: true } },
+        $password = $(':password').pwstrength(options),
+        common_words = ["password", "3141592", "yeah"];
+
+    $password.pwstrength("addRule", "commonWords", function (options, word, score) {
+        var result = false;
+        $.each(common_words, function (i, item) {
+            var re = new RegExp(item, "gi");
+            if (word.match(re)) {
+                result = score;
+            }
+        });
+        return result;
+    }, -100, true);
+});</pre>
+            </div>
+        </div>
+        <p><a href="..">Go back</a></p>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="../pwstrength.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            "use strict";
+            var options = { ui: { bootstrap2: true } },
+                $password = $(':password').pwstrength(options),
+                common_words = ["password", "3141592", "yeah"];
+
+            $password.pwstrength("addRule", "commonWords", function (options, word, score) {
+                var result = false;
+                $.each(common_words, function (i, item) {
+                    var re = new RegExp(item, "gi");
+                    if (word.match(re)) {
+                        result = score;
+                    }
+                });
+                return result;
+            }, -100, true);
+        });
+    </script>
+</body>
+</html>

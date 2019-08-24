@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>SimpleLogin | the most developer-friendly social login solution</title>
+  <meta name="description"
+        content="Built from the ground up, SimpleLogin strikes to have the best experiences for developers.">
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta property="fb:app_id" content="388804475105146"/>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="/assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="/assets/vendor/slick-carousel/slick/slick.css">
+
+  <link rel="stylesheet" href="/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="/assets/css/theme.css">
+
+  <link rel="stylesheet" href="/custom.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145852331-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-145852331-1');
+  </script>
+
+</head>
+<body>
+
+
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--white-bg-on-scroll u-header--sticky-top-md u-header--bg-transparent"
+          data-header-fix-moment="500"
+          data-header-fix-effect="slide">
+    <div class="u-header__section">
+      <div id="logoAndNav" class="container">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space">
+          <!-- Logo -->
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="/" aria-label="SimpleLogin">
+            <img src="/icon.svg">
+          </a>
+          <!-- End Logo -->
+
+          <!-- Responsive Toggle Button -->
+          <button type="button" class="navbar-toggler btn u-hamburger"
+                  aria-label="Toggle navigation"
+                  aria-expanded="false"
+                  aria-controls="navBar"
+                  data-toggle="collapse"
+                  data-target="#navBar">
+            <span id="hamburgerTrigger" class="u-hamburger__box">
+              <span class="u-hamburger__inner"></span>
+            </span>
+          </button>
+          <!-- End Responsive Toggle Button -->
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
+            <ul class="js-scroll-nav navbar-nav align-items-md-center u-header__navbar-nav">
+                <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="/developer.html">Developer</a>
+              </li>
+
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="https://docs.simplelogin.io" target="_blank">Docs</a>
+              </li>
+
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="https://simplelogin.now.sh">Demo</a>
+              </li>
+
+              <li class="nav-item u-header__nav-last-item">
+                <a class="btn btn-primary btn-sm transition-3d-hover" href="https://app.simplelogin.io/auth/register" target="_blank">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main id="content" role="main">
+    <!-- Hero Section -->
+    <div id="SVGHero" class="svg-preloader gradient-overlay-half-indigo-v1 position-relative overflow-hidden">
+      <div class="container space-2 space-top-md-5 space-top-lg-4">
+        <div class="w-lg-60 text-center mx-lg-auto">
+          <div class="mb-5">
+            <h1 class="display-4 font-size-md-down-5 font-weight-medium mb-3">The most <span class="text-primary">developer-friendly</span> social login solution.</h1>
+            <p class="lead">Built from the ground up, SimpleLogin strikes to have the best experiences for developers.</p>
+          </div>
+          <a class="btn btn-soft-indigo btn-wide transition-3d-hover" href="https://docs.simplelogin.io">
+            Check out our Doc
+            <small class="fas fa-arrow-right ml-2"></small>
+          </a>
+          <small class="d-block d-sm-inline-block text-muted my-3 my-sm-0 mx-sm-3">or</small>
+          <a class="btn btn-primary btn-wide transition-3d-hover" href="https://app.simplelogin.io/auth/register">Try SimpleLogin now</a>
+        </div>
+      </div>
+
+      <!-- Mockup -->
+      <div class="container space-2">
+        <div class="position-relative w-lg-75 text-center mx-lg-auto">
+          <div class="position-relative shadow-lg z-index-2 rounded-lg">
+            <img class="img-fluid rounded-lg" src="/dev1.png" alt="Image Description">
+          </div>
+
+          <figure class="max-width-15 w-100 position-absolute top-0 right-0">
+            <div class="mt-n11 mr-n11">
+              <img class="js-svg-injector" src="/assets/svg/components/dots.svg" alt="Image Description"
+                   data-parent="#SVGHero">
+            </div>
+          </figure>
+          <figure class="max-width-15 w-100 position-absolute bottom-0 left-0">
+            <div class="mb-n7 ml-n7">
+              <img class="js-svg-injector" src="/assets/svg/components/dots.svg" alt="Image Description"
+                   data-parent="#SVGHero">
+            </div>
+          </figure>
+        </div>
+      </div>
+      <!-- End Mockup -->
+
+      <!-- SVG Background Shape -->
+      <figure class="ie-half-circle-1-1 w-35 position-absolute top-0 right-0 z-index-n1 mt-n11 mr-n11">
+        <img class="js-svg-injector" src="/assets/svg/components/half-circle-1.svg" alt="Image Description"
+             data-parent="#SVGHero">
+      </figure>
+
+      <figure class="ie-half-circle-2-1 w-25 position-absolute bottom-0 left-0 z-index-n1 mb-n11 ml-n11">
+        <img class="js-svg-injector" src="/assets/svg/components/half-circle-2.svg" alt="Image Description"
+             data-parent="#SVGHero">
+      </figure>
+      <!-- End SVG Background Shape -->
+    </div>
+    <!-- End Hero Section -->
+
+    <!-- Icons Section -->
+    <div class="position-relative gradient-overlay-half-primary-v3 overflow-hidden">
+      <div class="container space-top-2 space-top-lg-3">
+        <!-- Title -->
+        <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+          <h2 class="text-white font-weight-medium">Finally a login solution that respects user privacy.</h2>
+          <p class="text-white-70">
+            Whether you're already an OAuth expert or just getting started, we have you covered.
+          </p>
+        </div>
+        <!-- End Title -->
+
+        <!-- Icon Blocks -->
+        <div class="w-lg-80 mx-lg-auto mb-11">
+          <div class="row mb-9">
+            <div class="col-6 col-md-4 mb-7">
+              <!-- Icon Block -->
+              <span class="d-block text-white font-size-2 mb-3">
+                <span class="fas fa-align-center"></span>
+              </span>
+              <h4 class="h6 text-white font-weight-semi-bold mb-3">Easy integration</h4>
+              <p class="text-white-70">SimpleLogin has libraries/guides in popular languages/technologies.</p>
+              <!-- End Icon Block -->
+            </div>
+
+            <div class="col-6 col-md-4 mb-7">
+              <!-- Icon Block -->
+              <span class="d-block text-white font-size-2 mb-3">
+                <span class="fas fa-code-branch"></span>
+              </span>
+              <h4 class="h6 text-white font-weight-semi-bold mb-3">Respect user privacy</h4>
+              <p class="text-white-70"> Having SimpleLogin on your website shows that you care about your users privacy.</p>
+              <!-- End Icon Block -->
+            </div>
+
+            <div class="col-6 col-md-4 mb-7 mb-md-0">
+              <!-- Icon Block -->
+              <span class="d-block text-white font-size-2 mb-3">
+                <span class="fas fa-shapes"></span>
+              </span>
+              <h4 class="h6 text-white font-weight-semi-bold mb-3">Fair business model
+                <span class="badge badge-warning font-weight-medium badge-pill ml-1">Coming soon</span>
+              </h4>
+              <p class="text-white-70">Half of the revenue generated by subscription payments is distributed to website/app owners, aka you.</p>
+              <!-- End Icon Block -->
+            </div>
+
+            <div class="col-6 col-md-4 mb-7 mb-md-0">
+              <!-- Icon Block -->
+              <span class="d-block text-white font-size-2 mb-3">
+                <span class="fas fa-clone"></span>
+              </span>
+              <h4 class="h6 text-white font-weight-semi-bold mb-3">Follow the standard</h4>
+              <p class="text-white-70">SimpleLogin implements fully OAuth2/OpenID Connect, the industry standard for login solution.</p>
+              <!-- End Icon Block -->
+            </div>
+
+            <div class="col-6 col-md-4">
+              <!-- Icon Block -->
+              <span class="d-block text-white font-size-2 mb-3">
+                <span class="fas fa-check-circle"></span>
+              </span>
+              <h4 class="h6 text-white font-weight-semi-bold mb-3">No tracking</h4>
+              <p class="text-white-70">SimpleLogin does not track your users.</p>
+              <!-- End Icon Block -->
+            </div>
+
+            <div class="col-6 col-md-4">
+              <!-- Icon Block -->
+              <span class="d-block text-white font-size-2 mb-3">
+                <span class="fas fa-compress"></span>
+              </span>
+              <h4 class="h6 text-white font-weight-semi-bold mb-3">Open Source
+                <span class="badge badge-warning font-weight-medium badge-pill ml-1">Coming soon</span>
+              </h4>
+              <p class="text-white-70">SimpleLogin will be fully open source. All SimpleLogin client libraries are already public</p>
+              <!-- End Icon Block -->
+            </div>
+          </div>
+
+          <!-- Buttons -->
+          <div class="text-center">
+            <div class="mb-3">
+              <a class="btn btn-sm btn-white btn-wide text-primary transition-3d-hover" href="https://app.simplelogin.io/auth/register">Sign up and Start Building</a>
+              <small class="d-block d-sm-inline-block text-white-70 my-3 my-sm-0 mx-sm-3">or</small>
+              <a class="btn btn-sm btn-indigo btn-wide transition-3d-hover" href="#">Check out our Doc</a>
+            </div>
+
+          </div>
+          <!-- End Buttons -->
+        </div>
+        <!-- End Icon Blocks -->
+
+        <div class="w-85 w-md-75 w-lg-65 text-center mx-auto">
+          <img class="img-fluid" src="../../assets/svg/illustrations/ai-creation.svg" alt="Image Description">
+        </div>
+      </div>
+
+      <!-- SVG Background Shape -->
+      <figure class="w-35 position-absolute top-0 right-0 z-index-n1">
+        <div class="mt-n11 mr-n11">
+          <img class="js-svg-injector" src="../../assets/svg/components/half-circle-3.svg" alt="Image Description"
+               data-parent="#SVGHero">
+        </div>
+      </figure>
+      <figure class="w-25 position-absolute bottom-0 left-0 z-index-n1">
+        <div class="mb-n11 ml-n11">
+          <img class="js-svg-injector" src="../../assets/svg/components/half-circle-2.svg" alt="Image Description"
+               data-parent="#SVGHero">
+        </div>
+      </figure>
+      <!-- End SVG Background Shape -->
+    </div>
+    <!-- End Icons Section -->
+
+    <!-- Features Section -->
+    <div class="container">
+      <div class="border-bottom space-2 space-lg-3">
+        <div class="row">
+          <div class="col-lg-9 order-lg-2 mb-7 mb-lg-0">
+            <div class="pr-lg-5">
+              <div class="bg-dark rounded min-height-450 p-5">
+                <!-- Nav -->
+                <ul class="nav nav-pills nav-white nav-justified font-weight-medium" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="pills-one-code-sample-tab" data-toggle="pill" href="#pills-one-code-sample" role="tab" aria-controls="pills-one-code-sample" aria-selected="true">
+                      Vanilla JS
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-two-code-sample-tab" data-toggle="pill" href="#pills-two-code-sample" role="tab" aria-controls="pills-two-code-sample" aria-selected="false">
+                      Flask
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-three-code-sample-tab" data-toggle="pill" href="#pills-three-code-sample" role="tab" aria-controls="pills-three-code-sample" aria-selected="false">
+                      Django
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="pills-four-code-sample-tab" data-toggle="pill" href="#pills-four-code-sample" role="tab" aria-controls="pills-four-code-sample" aria-selected="false">
+                      NodeJS
+                    </a>
+                  </li>
+                </ul>
+                <!-- End Nav -->
+
+                <!-- Tab Content -->
+                <div class="tab-content">
+                  <div class="tab-pane fade pt-5 show active" id="pills-one-code-sample" role="tabpanel" aria-labelledby="pills-one-code-sample-tab">
+                      <pre><code class="language-html">
+&lt;button onclick="simpleLogin()"&gt;
+  Login with SimpleLogin
+&lt;/button&gt;
+
+&lt;!-- Include SimpleLogin JS SDK --&gt;
+&lt;script src="https://simplelogin.io/sdk/sdk.js"&gt;&lt;/script&gt;
+                      </code></pre>
+                      <pre><code class="language-js">
+SL.init("demo");
+
+function simpleLogin() {
+    SL.login(function(user){
+      // This is where you log user in :)
+      console.log("SimpleLogin user", user);
+    });
+}
+                      </code></pre>
+                  </div>
+
+                  <div class="tab-pane fade text-white-70 pt-5" id="pills-two-code-sample" role="tabpanel" aria-labelledby="pills-two-code-sample-tab">
+                      <pre><code class="language-python">
+import requests_oauthlib, os
+
+# Your SimpleLogin OAuth Client-ID, Client-Secret
+CLIENT_ID = os.environ.get("CLIENT_ID")
+CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+
+@app.route("/login")
+def login():
+    sl = requests_oauthlib.OAuth2Session(
+        CLIENT_ID,
+        redirect_uri="http://localhost:5000/callback"
+    )
+    redirect_url, _ = sl.authorization_url(
+      "https://app.simplelogin.io/oauth2/authorize"
+    )
+
+    return flask.redirect(redirect_url)
+
+
+@app.route("/callback")
+def callback():
+    sl = requests_oauthlib.OAuth2Session(CLIENT_ID)
+    sl.fetch_token(
+        "https://app.simplelogin.io/oauth2/token",
+        client_secret=CLIENT_SECRET,
+        authorization_response=flask.request.url
+    )
+
+    user_info = sl.get("https://app.simplelogin.io/oauth2/userinfo").json()
+    print(user_info["email"], user_info["name"], user_info["avatar_url"])
+    return "Welcome " + user_info["name"]
+                      </code></pre>
+                  </div>
+
+                  <div class="tab-pane fade text-white-70 pt-5" id="pills-three-code-sample" role="tabpanel" aria-labelledby="pills-three-code-sample-tab">
+                      <pre><code class="language-bash">
+# Based on social-auth-app-django library
+pip install git+ssh://git@github.com/simple-login/social-core.git@sl
+                      </code></pre>
+                      <pre><code class="language-python">
+# settings.py
+AUTHENTICATION_BACKENDS = [
+    'social_core.backends.simplelogin.SimpleLoginOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
+]
+
+SOCIAL_AUTH_SIMPLELOGIN_KEY = 'your-oauth-client-id'
+SOCIAL_AUTH_SIMPLELOGIN_SECRET = 'your-oauth-client-secret'
+
+                      </code></pre>
+                      <pre><code class="language-html">
+&lt;!-- In your login template --&gt;
+&lt;a href="{% url 'social:begin' 'simplelogin' %}"&gt;Login with SimpleLogin&lt;/a&gt;
+                      </code></pre>
+                  </div>
+
+                  <div class="tab-pane fade text-white-70 pt-5" id="pills-four-code-sample" role="tabpanel" aria-labelledby="pills-four-code-sample-tab">
+                      <pre><code class="language-js">
+// config SimpleLogin OIDC
+passport.use('simplelogin', new OidcStrategy({
+  issuer: 'https://app.simplelogin.io',
+  authorizationURL: 'https://app.simplelogin.io/oauth2/authorize',
+  tokenURL: 'https://app.simplelogin.io/oauth2/token',
+  userInfoURL: 'https://app.simplelogin.io/oauth2/userinfo',
+  clientID: process.env.CLIENT_ID, // OAuth config from env thanks to dotenv
+  clientSecret: process.env.CLIENT_SECRET,
+  callbackURL: process.env.URL + '/authorization-code/callback',
+  scope: 'openid profile'
+}, (issuer, sub, profile, accessToken, refreshToken, done) => {
+  return done(null, profile);
+}));
+
+// show user info
+app.use('/profile', (req, res) => {
+  console.log("user:", req);
+  res.render('profile', {
+    title: 'User Info',
+    user: req.user._json
+  });
+});
+                      </code></pre>
+                  </div>
+
+                  <div class="tab-pane fade text-white-70 pt-5" id="pills-five-code-sample" role="tabpanel" aria-labelledby="pills-five-code-sample-tab">
+                    Coming soon...
+                  </div>
+
+                  <div class="tab-pane fade text-white-70 pt-5" id="pills-six-code-sample" role="tabpanel" aria-labelledby="pills-six-code-sample-tab">
+                    Coming soon...
+                  </div>
+                </div>
+                <!-- End Tab Content -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 order-lg-1">
+            <div class="mb-5">
+              <h2 class="font-weight-medium">Created by developer for developer</h2>
+              <p>SimpleLogin is compatible with all Oauth2/OpenID Connect libraries.</p>
+            </div>
+
+            <!-- List -->
+            <div class="row mb-4">
+              <div class="col">
+                <div class="media align-items-center text-secondary mb-3">
+                  <img class="mr-2" src="../../assets/svg/components/checked-icon.svg" alt="Icon" width="16" height="16">
+                  <div class="media-body">
+                    Python (Flask)
+                  </div>
+                </div>
+                <div class="media align-items-center text-secondary mb-3">
+                  <img class="mr-2" src="../../assets/svg/components/checked-icon.svg" alt="Icon" width="16" height="16">
+                  <div class="media-body">
+                    Python (Django)
+                  </div>
+                </div>
+
+                <div class="media align-items-center text-secondary mb-3">
+                  <img class="mr-2" src="../../assets/svg/components/checked-icon.svg" alt="Icon" width="16" height="16">
+                  <div class="media-body">
+                    NodeJS (Passport.js)
+                  </div>
+                </div>
+
+                <div class="media align-items-center text-secondary mb-3">
+                  <img class="mr-2" src="../../assets/svg/components/checked-icon.svg" alt="Icon" width="16" height="16">
+                  <div class="media-body">
+                    Client-side javascript
+                  </div>
+                </div>
+                <div class="media align-items-center text-secondary mb-3">
+                  <img class="mr-2" src="../../assets/svg/components/checked-icon.svg" alt="Icon" width="16" height="16">
+                  <div class="media-body">
+                    ReactJS, VueJS <span class="badge badge-secondary badge-pill ml-1">Coming soon</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End List -->
+
+            <a class="btn btn-primary transition-3d-hover" href="https://dev.to/simplelogin/">Our Dev Blog <small class="fas fa-arrow-right ml-1"></small></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Features Section -->
+
+    <!-- Subscribe Section -->
+    <div class="container space-2 space-md-3">
+      <!-- Title -->
+      <div class="w-md-80 w-lg-50 text-center mx-md-auto">
+        <div class="mb-9">
+          <span class="btn btn-xs btn-soft-primary btn-pill mb-2">Subscribe</span>
+          <h2 class="font-weight-normal">Stay in the know</h2>
+          <p class="mb-0">Subscribe now to get the latest developments from SimpleLogin.</p>
+        </div>
+      </div>
+      <!-- End Title -->
+
+      <!-- Form -->
+      <form class="js-validate w-lg-75 mx-lg-auto" action="https://simplelogin.us3.list-manage.com/subscribe/post?u=741aff1e06558772026a5d179&amp;id=2c50266643" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div class="form-row">
+          <div class="col-sm-4 mb-2 mb-sm-0">
+            <div class="js-form-message">
+              <label class="sr-only" for="signupSrName">Name</label>
+              <div class="input-group">
+                <input type="text" class="form-control" name="NAME" id="signupSrName" placeholder="Name" aria-label="Name" required
+                       data-msg="Name must contain only letters.">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 mb-2 mb-sm-0">
+            <div class="js-form-message">
+              <label class="sr-only" for="signupSrEmail">Email</label>
+              <div class="input-group">
+                <input type="email" class="form-control" name="EMAIL" id="signupSrEmail" placeholder="Email" aria-label="Email" required
+                       data-msg="Please enter a valid email address.">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <button type="submit" class="btn btn-block btn-primary transition-3d-hover">Submit</button>
+          </div>
+        </div>
+      </form>
+      <!-- End Form -->
+    </div>
+    <!-- End Subscribe Section -->
+
+
+  </main>
+  <!-- ========== END MAIN CONTENT ========== -->
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="gradient-half-primary-v1">
+    <div class="container space-top-2 space-bottom-1">
+      <div class="row justify-content-lg-start mb-7">
+        <div class="col-sm-9 col-lg-4 mb-7">
+          <!-- Logo -->
+          <a class="d-inline-flex align-items-center mb-3" href="/" aria-label="SimpleLogin">
+            <span class="brand brand-light">SimpleLogin</span>
+          </a>
+          <!-- End Logo -->
+
+          <p class="small text-white-70">
+            SimpleLogin is a social login solution that protects user identity.
+          </p>
+          <p class="small text-white-70">
+            SimpleLogin strives to offer a simple experience for both users and partners/developers.
+          </p>
+        </div>
+
+        <div class="col-6 col-sm-4 col-lg-2 ml-lg-auto mb-4">
+          <h3 class="h6 text-white">Developer</h3>
+
+          <!-- List Group -->
+          <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+            <li><a class="list-group-item list-group-item-action" href="https://docs.simplelogin.io">Documentation</a></li>
+            <li><a class="list-group-item list-group-item-action" href="https://github.com/simple-login">Github</a></li>
+            <li><a class="list-group-item list-group-item-action" href="https://dev.to/simplelogin/">Blog (Dev.to)</a></li>
+          </ul>
+          <!-- End List Group -->
+        </div>
+
+        <div class="col-6 col-sm-4 col-lg-2 mb-4">
+          <h3 class="h6 text-white">Company</h3>
+
+          <!-- List Group -->
+          <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+            <li><a class="list-group-item list-group-item-action" href="https://medium.com/simplelogin/how-was-simplelogin-born-2fbd8f79b212">About</a></li>
+            <li><a class="list-group-item list-group-item-action" href="https://twitter.com/simple_login">Twitter</a></li>
+          </ul>
+          <!-- End List Group -->
+        </div>
+
+        <div class="col-6 col-sm-4 col-lg-2 mb-4">
+          <h3 class="h6 text-white">Resources</h3>
+
+          <!-- List Group -->
+          <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+            <li><a class="list-group-item list-group-item-action" href="/faq.html">FAQ</a></li>
+            <li><a class="list-group-item list-group-item-action" href="/terms.html">Terms</a></li>
+            <li><a class="list-group-item list-group-item-action" href="/privacy.html">Privacy</a></li>
+          </ul>
+          <!-- End List Group -->
+        </div>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <!-- Social Networks -->
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <a class="btn btn-sm btn-icon btn-soft-light btn-bg-transparent" href="https://twitter.com/simple_login">
+                <span class="fab fa-twitter btn-icon__inner"></span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-sm btn-icon btn-soft-light btn-bg-transparent" href="https://github.com/simple-login">
+                <span class="fab fa-github btn-icon__inner"></span>
+              </a>
+            </li>
+          </ul>
+          <!-- End Social Networks -->
+        </div>
+
+        <div class="col-sm-6 text-sm-right">
+          <!-- Copyright -->
+          <p class="small text-white-70 mb-0">&copy; SimpleLogin. 2019. All rights reserved.</p>
+          <!-- End Copyright -->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ========== END FOOTER ========== -->
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="#"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fas fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+  <script src="/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+  <script src="/assets/vendor/slick-carousel/slick/slick.js"></script>
+
+  <!-- JS Front -->
+  <script src="/assets/js/hs.core.js"></script>
+  <script src="/assets/js/components/hs.header.js"></script>
+  <script src="/assets/js/components/hs.unfold.js"></script>
+  <script src="/assets/js/components/hs.svg-injector.js"></script>
+  <script src="/assets/js/components/hs.validation.js"></script>
+  <script src="/assets/js/components/hs.slick-carousel.js"></script>
+  <script src="/assets/js/components/hs.go-to.js"></script>
+
+  <script src="/prism.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 767.98,
+        hideTimeOut: 0
+      });
+
+      // initialization of svg injector module
+      $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+    });
+
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of unfold component
+      $.HSCore.components.HSUnfold.init($('[data-unfold-target]'), {
+        afterOpen: function () {
+          $(this).find('input[type="search"]').focus();
+        }
+      });
+
+      // initialization of form validation
+      $.HSCore.components.HSValidation.init('.js-validate', {
+        rules: {
+          confirmPassword: {
+            equalTo: '#signupPassword'
+          }
+        }
+      });
+
+      // initialization of slick carousel
+      $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+    });
+  </script>
+</body>
+</html>

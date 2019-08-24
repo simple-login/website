@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tweetie Demo - Simple Twitter Feed Plugin</title>
+  <meta name="description" content="Simple yet powerful plugin to show your Tweets on your site.">
+  <meta name="keywords" content="Twitter, jQuery, Plugin, Tweetie, JavaScript, PHP">
+  <meta name="author" content="Sonny T.">
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-21599784-2']);
+      _gaq.push(['_setDomainName', 'sonnyt.com']);
+      _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="container">
+    <controls :options="options"></controls>
+    <preview :options="filteredOptions"></preview>
+    <export :options="optionsString"></export>
+  </div>
+
+  <script id="controls-template" type="text/x-template">
+    <div id="controls" class="controls">
+      <h3>Options</h3>
+
+      <div class="form">
+        <label for="api">API Path</label>
+        <input type="text" name="api" id="api" v-model.lazy="options.url" />
+      </div>
+
+      <div class="form">
+        <label for="template">Template</label>
+        <textarea name="template" id="template" cols="30" rows="3" v-model.lazy="options.template"></textarea>
+      </div>
+
+      <div class="form">
+        <label for="dateFormat">Date Format</label>
+        <input type="text" name="dateFormat" id="dateFormat" v-model.lazy="options.dateFormat" />
+      </div>
+
+      <div class="form">
+        <label for="type">Type</label>
+        <select name="type" id="type" v-model.lazy="options.type">
+          <option value="timeline">Timeline</option>
+          <option value="list">List</option>
+          <option value="hashtag">Hashtag</option>
+          <option value="search">Search</option>
+        </select>
+      </div>
+
+      <hr />
+
+      <div class="form">
+        <label for="count">Count</label>
+        <input type="number" name="count" id="count" v-model.lazy="options.params.count" />
+      </div>
+      
+      <div v-if="options.type === 'timeline'">
+        <div class="form">
+          <label for="screen_name">Screen Name</label>
+          <input type="text" name="count" id="screen_name" v-model.lazy="options.params.screen_name" />
+        </div>
+
+        <div class="form">
+          <label for="exclude_replies">
+            <input type="checkbox" name="count" id="exclude_replies" v-model.lazy="options.params.exclude_replies" /> Exclude Replies
+          </label>
+        </div>
+      </div>
+
+      <div v-if="options.type === 'list'">
+        <div class="form">
+          <label for="list_id">List ID</label>
+          <input type="text" name="list_id" id="list_id" v-model.lazy="options.params.list_id" />
+        </div>
+
+        <div class="form">
+          <label for="slug">Slug</label>
+          <input type="text" name="slug" id="slug" v-model.lazy="options.params.slug" />
+        </div>
+      </div>
+
+      <div v-if="options.type === 'search'">
+        <div class="form">
+          <label for="q">Search Term</label>
+          <input type="text" name="q" id="q" v-model.lazy="options.params.q" />
+        </div>
+      </div>
+
+      <div v-if="options.type === 'hashtag'">
+        <div class="form">
+          <label for="q">Hashtag</label>
+          <input type="text" name="q" id="q" v-model.lazy="options.params.q" />
+        </div>
+      </div>
+
+      <div class="form">
+        <label for="include_rts">
+          <input type="checkbox" name="include_rts" id="include_rts" v-model.lazy="options.params.include_rts" /> Include Retweets
+        </label>
+      </div>
+    </div>
+  </script>
+
+  <script id="preview-template" type="text/x-template">
+    <div id="preview" class="preview">
+      <h3>Preview</h3>
+      <ul id="tweetie"></ul>
+    </div>
+  </script>
+
+  <script id="export-template" type="text/x-template">
+    <div id="export" class="export">
+      <h3>Code</h3>
+      <xmp>$('#tweets').tweetie({{options}});</xmp>
+      <br />
+      <a class="github-button" href="https://github.com/sonnyt/tweetie" data-size="large" data-show-count="true" aria-label="Star sonnyt/tweetie on GitHub">Star</a>
+      <a class="github-button" href="https://github.com/sonnyt/tweetie/archive/master.zip" data-size="large" aria-label="Download sonnyt/tweetie on GitHub">Download</a>
+    </div>
+  </script>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="https://unpkg.com/vue"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="tweetie.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
