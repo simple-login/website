@@ -1,0 +1,160 @@
+<!-- ========== FOOTER ========== -->
+<footer class="gradient-half-primary-v1">
+    <div class="container space-top-2 space-bottom-1">
+      <div class="row justify-content-lg-start mb-7">
+        <div class="col-sm-9 col-lg-4 mb-7">
+          <!-- Logo -->
+          <a class="d-inline-flex align-items-center mb-3" href="/" aria-label="SimpleLogin">
+            <span class="brand brand-light">SimpleLogin</span>
+          </a>
+          <!-- End Logo -->
+
+          <p class="small text-white-70">
+            SimpleLogin is a social login solution that protects user identity.
+          </p>
+          <p class="small text-white-70">
+            SimpleLogin strives to offer a simple experience for both users and partners/developers.
+          </p>
+        </div>
+
+        <div class="col-6 col-sm-4 col-lg-2 ml-lg-auto mb-4">
+          <h3 class="h6 text-white">Developer</h3>
+
+          <!-- List Group -->
+          <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+            <li><a class="list-group-item list-group-item-action" href="https://docs.simplelogin.io">Documentation</a></li>
+            <li><a class="list-group-item list-group-item-action" href="https://github.com/simple-login">Github</a></li>
+            <li><a class="list-group-item list-group-item-action" href="https://dev.to/simplelogin/">Blog (Dev.to)</a></li>
+          </ul>
+          <!-- End List Group -->
+        </div>
+
+        <div class="col-6 col-sm-4 col-lg-2 mb-4">
+          <h3 class="h6 text-white">Company</h3>
+
+          <!-- List Group -->
+          <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+            <li><a class="list-group-item list-group-item-action" href="https://medium.com/simplelogin/how-was-simplelogin-born-2fbd8f79b212">About</a></li>
+            <li><a class="list-group-item list-group-item-action" href="https://twitter.com/simple_login">Twitter</a></li>
+          </ul>
+          <!-- End List Group -->
+        </div>
+
+        <div class="col-6 col-sm-4 col-lg-2 mb-4">
+          <h3 class="h6 text-white">Resources</h3>
+
+          <!-- List Group -->
+          <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+            <li><a class="list-group-item list-group-item-action" href="/faq.html">FAQ</a></li>
+            <li><a class="list-group-item list-group-item-action" href="/terms.html">Terms</a></li>
+            <li><a class="list-group-item list-group-item-action" href="/privacy.html">Privacy</a></li>
+          </ul>
+          <!-- End List Group -->
+        </div>
+      </div>
+
+      <div class="row align-items-center">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <!-- Social Networks -->
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <a class="btn btn-sm btn-icon btn-soft-light btn-bg-transparent" href="https://twitter.com/simple_login">
+                <span class="fab fa-twitter btn-icon__inner"></span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="btn btn-sm btn-icon btn-soft-light btn-bg-transparent" href="https://github.com/simple-login">
+                <span class="fab fa-github btn-icon__inner"></span>
+              </a>
+            </li>
+          </ul>
+          <!-- End Social Networks -->
+        </div>
+
+        <div class="col-sm-6 text-sm-right">
+          <!-- Copyright -->
+          <p class="small text-white-70 mb-0">&copy; SimpleLogin. 2019. All rights reserved.</p>
+          <!-- End Copyright -->
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ========== END FOOTER ========== -->
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="#"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fas fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="/assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="/assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+  <script src="/assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+  <script src="/assets/vendor/slick-carousel/slick/slick.js"></script>
+
+  <!-- JS Front -->
+  <script src="/assets/js/hs.core.js"></script>
+  <script src="/assets/js/components/hs.header.js"></script>
+  <script src="/assets/js/components/hs.unfold.js"></script>
+  <script src="/assets/js/components/hs.svg-injector.js"></script>
+  <script src="/assets/js/components/hs.validation.js"></script>
+  <script src="/assets/js/components/hs.slick-carousel.js"></script>
+  <script src="/assets/js/components/hs.go-to.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 767.98,
+        hideTimeOut: 0
+      });
+
+      // initialization of svg injector module
+      $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+    });
+
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of unfold component
+      $.HSCore.components.HSUnfold.init($('[data-unfold-target]'), {
+        afterOpen: function () {
+          $(this).find('input[type="search"]').focus();
+        }
+      });
+
+      // initialization of form validation
+      $.HSCore.components.HSValidation.init('.js-validate', {
+        rules: {
+          confirmPassword: {
+            equalTo: '#signupPassword'
+          }
+        }
+      });
+
+      // initialization of slick carousel
+      $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+    });
+  </script>
+</body>
+</html>
