@@ -19,6 +19,12 @@
   <!-- Yandex -->
   <meta name="yandex-verification" content="48bd1902d2d7444a" />
 
+  {{ if .Params.canonicalUrl }}
+    <link rel="canonical" href="{{ .Params.canonicalUrl }}">
+  {{ else }}
+    <link rel="canonical" href="{{ .Permalink }}">
+  {{ end }}
+
   <!-- Favicon -->
   <link rel="shortcut icon" href="/favicon.ico">
 
