@@ -1,3 +1,9 @@
 baseURL = "https://simplelogin.io/"
 languageCode = "en-us"
 title = "SimpleLogin | the only login solution that protects your identity"
+enableRobotsTXT = true
+canonifyURLs = true
+
+# and if you think your md file names or locations might change:
+[permalinks]
+    post = "/blog/:title/"
