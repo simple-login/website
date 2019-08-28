@@ -296,8 +296,8 @@ passport.use('SimpleLogin', new OidcStrategy({
     authorizationURL: 'https://app.simplelogin.io/oauth2/authorize',
     tokenURL: 'https://app.simplelogin.io/oauth2/token',
     userInfoURL: 'https://app.simplelogin.io/oauth2/userinfo',
-    clientID: process.env.CLIENT_ID, // OAuth config from env thanks to dotenv
-    clientSecret: process.env.CLIENT_SECRET,
+    clientID: process.env.CLIENT_ID, // SimpleLogin AppId
+    clientSecret: process.env.CLIENT_SECRET, // SimpleLogin AppSecret
     callbackURL: process.env.URL + '/authorization-code/callback',
     scope: 'openid profile'
 }, (issuer, sub, profile, accessToken, refreshToken, done) => {
