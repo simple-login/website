@@ -1,0 +1,60 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 24/11/2017 09:32
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+}
+
+.flaticon-001-user-1:before { content: "\f100"; }
+.flaticon-002-user:before { content: "\f101"; }
+.flaticon-003-trash:before { content: "\f102"; }
+.flaticon-004-tablet:before { content: "\f103"; }
+.flaticon-005-cctv-2:before { content: "\f104"; }
+.flaticon-006-cctv-1:before { content: "\f105"; }
+.flaticon-007-cctv:before { content: "\f106"; }
+.flaticon-008-shopping-cart:before { content: "\f107"; }
+.flaticon-009-shopping-basket:before { content: "\f108"; }
+.flaticon-010-folder:before { content: "\f109"; }
+.flaticon-011-file:before { content: "\f10a"; }
+.flaticon-012-credit-card:before { content: "\f10b"; }
+.flaticon-013-eye-scan:before { content: "\f10c"; }
+.flaticon-014-shield-11:before { content: "\f10d"; }
+.flaticon-015-smartphone:before { content: "\f10e"; }
+.flaticon-016-padlock:before { content: "\f10f"; }
+.flaticon-017-open-lock:before { content: "\f110"; }
+.flaticon-018-shield-10:before { content: "\f111"; }
+.flaticon-019-shield-9:before { content: "\f112"; }
+.flaticon-020-shield-8:before { content: "\f113"; }
+.flaticon-021-shield-7:before { content: "\f114"; }
+.flaticon-022-shield-6:before { content: "\f115"; }
+.flaticon-023-shield-5:before { content: "\f116"; }
+.flaticon-024-shield-4:before { content: "\f117"; }
+.flaticon-025-shield-3:before { content: "\f118"; }
+.flaticon-026-fingerprint:before { content: "\f119"; }
+.flaticon-027-shield-2:before { content: "\f11a"; }
+.flaticon-028-monitor:before { content: "\f11b"; }
+.flaticon-029-shield-1:before { content: "\f11c"; }
+.flaticon-030-shield:before { content: "\f11d"; }
