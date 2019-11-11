@@ -1,3 +1,14 @@
 code {
     font-size: .8em !important;
 }
+
+#hero-image {
+    width: 100%
+}
+
+@media (min-width: 992px) {
+    #hero-image {
+        position: relative;
+        top: -100px;
+    }
+}
