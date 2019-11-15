@@ -22,10 +22,10 @@
 
       <div class="col-lg-6">
         <!-- SVG Illustration -->
-        <figure id="SVGHero" class="svg-preloader ie-hiker-man w-md-75 w-lg-100">
+        <div id="SVGHero" class="svg-preloader ie-hiker-man w-md-75 w-lg-100">
           <img class="js-svg-injector" src="/home1.png" alt="Image Description"  id="hero-image"
                 data-parent="#SVGHero">
-        </figure>
+        </div>
         <!-- End SVG Illustration -->
       </div>
     </div>
@@ -33,143 +33,95 @@
   </div>
   <!-- End Hero Section -->
 
-
-  <!-- Mockup Block Section -->
-  <div class="container space-bottom-1">
-    <!-- Title -->
-    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-3">
-      <span class="btn btn-xs btn-soft-primary btn-pill mb-2">#privacy</span>
-      <h2 class="text-primary">Your Privacy Comes <span class="font-weight-semi-bold">First</span></h2>
+  <!-- Features Section -->
+  <div class="container text-center mb-5">
+    <div class="mb-9">
+      <h2 class="h3 font-weight-light">How it works</h2>
     </div>
-    <!-- End Title -->
 
-    <div class="row justify-content-lg-between align-items-center">
-      <div class="col-md-6 col-lg-5 mb-md-0">
-        <div class="pr-md-4">
-          <!-- Info -->
-          <div class="media mb-7">
-            <span class="btn btn-sm btn-icon btn-soft-primary rounded-circle mr-3">
-              <span class="btn-icon__inner">A.</span>
-            </span>
-            <div class="media-body">
-              <h3 class="h5 text-primary">Hide your personal email address</h3>
+    <div class="position-relative pt-11 pb-7">
+      <div class="position-relative z-index-2 p-2 p-sm-0">
+        <!-- News Carousel -->
+        <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3 mb-5"
+             data-slides-show="3"
+             data-slides-scroll="1"
+             data-pagi-classes="d-lg-none u-slick__pagination u-slick__pagination--white mt-5 mb-0"
+             data-responsive='[{
+               "breakpoint": 1200,
+               "settings": {
+                 "slidesToShow": 3
+               }
+             }, {
+               "breakpoint": 992,
+               "settings": {
+                 "slidesToShow": 2
+               }
+             }, {
+               "breakpoint": 768,
+               "settings": {
+                 "slidesToShow": 2
+               }
+             }, {
+               "breakpoint": 554,
+               "settings": {
+                 "slidesToShow": 1
+               }
+             }]'>
+          <!-- Card Block -->
+          <div class="js-slide mt-1 mb-2">
+            <div class="w-100 bg-white shadow-soft rounded py-6 px-4">
+              <h3 class="h5 font-weight-semi-bold mb-5">A. Hide your personal email address</h3>
+
+              <figure id="featuresSVG1" class="svg-preloader w-100 mx-auto mb-4">
+                <img class="js-svg-injector w-100" src="/images/custom-alias.png" alt="Custom Alias image"
+                     data-parent="#featuresSVG1">
+              </figure>
+
               <p>Create quickly a random, secure email alias on any website.</p>
-              <p>All emails going to an alias will be  forwarded to your personal inbox.</p>
+              <p>All emails going to an alias will be forwarded to your personal inbox.</p>
             </div>
           </div>
-          <!-- End Info -->
+          <!-- End Card Block -->
 
-          <!-- Info -->
-          <div class="media mb-7">
-            <span class="btn btn-sm btn-icon btn-soft-primary rounded-circle mr-3">
-              <span class="btn-icon__inner">B.</span>
-            </span>
-            <div class="media-body">
-              <h3 class="h5 text-primary">You control who can send you emails</h3>
+          <!-- Card Block -->
+          <div class="js-slide mt-1 mb-2">
+            <div class="w-100 bg-white shadow-soft rounded py-6 px-4">
+              <h3 class="h5 font-weight-semi-bold mb-5">B. Control who can send you emails</h3>
+
+              <figure id="featuresSVG2" class="svg-preloader w-100 mx-auto mb-4">
+                <img class="js-svg-injector w-100" src="/images/block-alias.png" alt="Block Alias image"
+                     data-parent="#featuresSVG2">
+              </figure>
+
               <p>Simply block an alias if it's too spammy.</p>
             </div>
           </div>
-          <!-- End Info -->
-        </div>
-      </div>
+          <!-- End Card Block -->
 
-      <div id="SVGellipseMockup" class="col-md-6 svg-preloader">
-        <!-- SVG Mockup -->
-        <figure class="ie-ellipse-mockup">
-          <img class="js-svg-injector" src="/assets/svg/illustrations/ellipse-mockup.svg" alt="Image Description"
-                data-img-paths='[
-                  {"targetId": "#SVGellipseMockupImg1", "newPath": "/home2.png"}
-                ]'
-                data-parent="#SVGellipseMockup">
-        </figure>
-        <!-- End SVG Mockup -->
-      </div>
-    </div>
-  </div>
-  <!-- End Mockup Block Section -->
+          <!-- Card Block -->
+          <div class="js-slide mt-1 mb-2">
+            <div class="w-100 bg-white shadow-soft rounded py-6 px-4">
+              <h3 class="h5 font-weight-semi-bold mb-5">C. Reply with an alias</h3>
 
-  <!-- Mockup Block Section -->
-  <div class="container space-bottom-1">
-    <div class="row justify-content-lg-between align-items-center">
-      <div class="col-md-6 col-lg-5 order-md-2 mb-md-0">
-        <div class="pl-md-4">
-          <!-- Info -->
-          <div class="media mb-7">
-            <span class="btn btn-sm btn-icon btn-soft-success rounded-circle mr-3">
-              <span class="btn-icon__inner">C.</span>
-            </span>
-            <div class="media-body">
-              <h3 class="h5 text-success">Reply with an alias</h3>
+              <figure id="featuresSVG3" class="svg-preloader w-100 mx-auto mb-4">
+                <img class="js-svg-injector w-100" src="/images/reply-alias.png" alt="Reply Alias image"
+                     data-parent="#featuresSVG3">
+              </figure>
+
               <p>Never show your personal email even when you reply.</p>
               <p>Simply hit "Reply" button in your favorite email client and the reply will go through our server to look like it comes from the alias.</p>
             </div>
           </div>
-          <!-- End Info -->
+          <!-- End Card Block -->
         </div>
+        
       </div>
 
-      <div id="SVGellipseMockupReverse" class="col-md-6 order-md-1 svg-preloader">
-        <!-- SVG Mockup -->
-        <figure class="ie-ellipse-mockup">
-          <img class="js-svg-injector" src="/assets/svg/illustrations/ellipse-mockup-reverse.svg" alt="Image Description"
-                data-img-paths='[
-                  {"targetId": "#SVGellipseMockupReverseImg1", "newPath": "/home3.png"}
-                ]'
-                data-parent="#SVGellipseMockupReverse">
-        </figure>
-        <!-- End SVG Mockup -->
-      </div>
+      <!-- Background -->
+      <div class="gradient-half-primary-v1 position-absolute top-0 right-0 bottom-0 left-0 rounded-lg mx-sm-7"></div>
     </div>
   </div>
-  <!-- End Mockup Block Section -->
-
-  <!-- Mockup Block Section -->
-  <div class="container space-bottom-1">
-    <div class="row justify-content-lg-between align-items-center">
-      <div class="col-md-6 col-lg-5 mb-md-0">
-        <div class="pr-md-4">
-          <!-- Info -->
-          <div class="media mb-7">
-            <span class="btn btn-sm btn-icon btn-soft-primary rounded-circle mr-3">
-              <span class="btn-icon__inner">D.</span>
-            </span>
-            <div class="media-body">
-              <h3 class="h5 text-primary">No more sign-up form</h3>
-              <p>You can quickly sign in on any website that has "Sign in with SimpleLogin" button.</p>
-              <p>No more "password must be at least 8 characters long", no more disposable temporary email, logging in should be quick.</p>
-            </div>
-          </div>
-          <!-- End Info -->
-
-          <!-- Info -->
-          <div class="media mb-7">
-            <span class="btn btn-sm btn-icon btn-soft-primary rounded-circle mr-3">
-              <span class="btn-icon__inner">E.</span>
-            </span>
-            <div class="media-body">
-              <h3 class="h5 text-primary">You choose what information you want to share</h3>
-              <p>You can decide and custom what information you want to share to a website. </p>
-              <p>By default a new alias is created for each website.</p>
-            </div>
-          </div>
-          <!-- End Info -->
-        </div>
-      </div>
-
-      <div id="SVGellipseMockup2" class="col-md-6 svg-preloader">
-        <!-- SVG Mockup -->
-        <figure class="ie-ellipse-mockup">
-          <img class="js-svg-injector" src="/assets/svg/illustrations/ellipse-mockup.svg" alt="Image Description"
-                data-img-paths='[
-                  {"targetId": "#SVGellipseMockupImg1", "newPath": "/home4.png"}
-                ]'
-                data-parent="#SVGellipseMockup2">
-        </figure>
-        <!-- End SVG Mockup -->
-      </div>
-    </div>
-  </div>
-  <!-- End Mockup Block Section -->
+  <!-- End Features Section -->
 
   <!-- Testimonials Section -->
   <div class="bg-light">
@@ -183,7 +135,7 @@
 
       <!-- Slick Carousel -->
       <div class="js-slick-carousel u-slick u-slick-zoom u-slick--gutters-3"
-           data-slides-show="3"
+           data-slides-show="2"
            data-slides-to-scroll="3"
            data-center-mode="false"
            data-autoplay="false"
@@ -284,6 +236,52 @@
     </div>
   </div>
   <!-- End Testimonials Section -->
+
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h4>Roadmap</h4>
+        <ul class="timeline">
+          <li>
+            No more sign-up form
+            <span class="float-right">
+              <span class="badge badge-success font-weight-medium badge-pill ml-1">Live</span>
+            </span>
+            <p>You can quickly sign in on any website that has "Sign in with SimpleLogin" button.</p>
+            <p>No more "password must be at least 8 characters long", no more disposable temporary email, logging in should be quick.</p>
+            <img src="/images/signin-button.png" class="w-25">
+          </li>
+
+          <li>
+            You choose what information you want to share
+            <span class="float-right">
+              <span class="badge badge-success font-weight-medium badge-pill ml-1">Live</span>
+            </span>
+            <p>You can decide and custom what information you want to share to a website.</p>
+            <img src="/images/custom-info.png" class="w-50">
+          </li>
+
+          <li>
+            Fair business model
+            <span class="float-right">
+              <span class="badge badge-warning font-weight-medium badge-pill ml-1">Coming soon</span>
+            </span>
+            <p>Half of the revenue generated by subscription payments is distributed to website/app owners</p>
+          </li>
+
+          <li>
+            Open source
+            <span class="float-right">
+              <span class="badge badge-warning font-weight-medium badge-pill ml-1">Coming soon</span>
+            </span>
+            <p>SimpleLogin will be fully open source. All SimpleLogin client libraries are already public</p>
+          </li>
+
+          
+        </ul>
+      </div>
+    </div>
+</div>
 
   <!-- FAQ Section -->
   <div class="container">
