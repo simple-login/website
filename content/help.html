@@ -1,0 +1,104 @@
+---
+title: "SimpleLogin | Help"
+url: "/help"
+canonicalUrl: "https://simplelogin.io/help/"
+description: "Help on using SimpleLogin."
+---
+
+<main id="content" role="main">
+  <div class="container space-1 space-top-md-3 space-bottom-md-0">
+    <div class="w-md-80 w-lg-60 text-center mx-auto">
+      <!-- Title -->
+      <div class="mb-5">
+        <h1 class="display-4 font-size-md-down-5 mb-0">Help</span></h1>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container space-2 space-md-1">
+    <div class="row">
+      <div id="stickyBlockStartPoint" class="col-lg-3 mb-7 mb-lg-0">
+        <!-- Nav -->
+        <nav class="js-sticky-block card border-0 bg-primary"
+              data-offset-target="#logoAndNav"
+              data-parent="#stickyBlockStartPoint"
+              data-sticky-view="lg"
+              data-start-point="#stickyBlockStartPoint"
+              data-end-point="#stickyBlockEndPoint"
+              data-offset-top="24"
+              data-offset-bottom="24">
+          <ul class="js-scroll-nav list-group list-group-transparent list-group-white list-group-flush list-group-borderless py-3 px-5">
+            <li>
+              <a class="list-group-item list-group-item-action py-3" href="#gmail">Gmail</a>
+            </li>
+            <li>
+              <a class="list-group-item list-group-item-action py-3" href="#protonmail">ProtonMail</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- End Nav -->
+      </div>
+
+      <div class="col-lg-9">
+        <div id="basics" class="space-bottom-2">
+          <!-- Title -->
+          <div class="mb-3">
+            <h3 class="text-primary font-weight-semi-bold">Avoid SimpleLogin emails going to spam</h3>
+          </div>
+          <!-- End Title -->
+
+          <p>
+            SimpleLogin NEVER sends spam. In addition, no one can <a href="https://en.wikipedia.org/wiki/Email_spoofing">spoof</a> SimpleLogin emails thanks to SPF, Dkim and Dmarc protection.
+          </p>
+
+          <p>
+            However some email providers mistakenly put SimpleLogin emails into Spam or Junk folder ☹️. To mark SimpleLogin as safe senders, please follow these short tutorials. For information, emails coming from SimpleLogin are sent either via <em>simplelogin.io</em> or <em>simplelogin.co</em> domain.
+          </p>
+
+          <div id="gmail"></div>
+          <p>
+            And please, please do NOT put SimpleLogin emails into Spam ☠️!
+          </p>
+          
+          <p>
+            Instead, if an alias is too spammy, please disable it on SimpleLogin dashboard.
+          </p>
+
+          <hr class="my-3">
+          <h4>Gmail</h4>
+
+          <p>
+            Create a rule marking all emails from <em>@simplelogin.co</em> or <em>@simplelogin.io</em> domains as safe. The <b>from rule</b> used in the screencast is the following:
+          </p>
+          <pre>
+            @simplelogin.co OR @simplelogin.io
+          </pre>
+
+          <!-- Hack to work around the fragment wrong position -->
+          <div id="protonmail"></div>
+
+          <video width="100%" controls="controls">
+            <source src="/videos/gmail.mov" type="video/mp4">
+          </video>
+
+
+          <hr class="my-3">
+
+          <h4>ProtonMail</h4>
+          <p>
+            Create a rule marking all emails that end with <em>@simplelogin.co</em> or <em>@simplelogin.io</em> domains as safe.
+          </p>
+
+          <video width="100%" controls="controls">
+            <source src="/videos/protonmail.mov" type="video/mp4">
+          </video>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</main>
+
