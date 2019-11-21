@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "SimpleLogin | Protect your online identity with Email Alias"
 enableRobotsTXT = true
 canonifyURLs = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
 
 # and if you think your md file names or locations might change:
 [permalinks]
