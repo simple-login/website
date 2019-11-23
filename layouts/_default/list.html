@@ -1,0 +1,44 @@
+{{ partial "header.html" . }}
+
+<main id="content" role="main">
+  <div class="container space-2 space-top-md-3">
+
+    <article class="mb-5">
+      <header>
+        <h1 class="h2 text-center font-weight-medium">{{.Title}}</h1>
+      </header>
+      
+      {{.Content}}
+    </article>
+
+
+    <!-- Ranges through content/posts/*.md -->
+    {{ range .Pages }}
+    <div class="mb-5">
+      <a href="{{.Permalink}}">
+        <h3 class="h5 font-weight-light">
+          {{.Title}}
+        </h3>
+      </a>
+
+      
+      <p class="mb-1">
+        {{.Summary}}
+        <a href="{{.Permalink}}">read more</a>
+      </p>
+
+      <small class="font-weight-lighter">
+        {{ .Date.Format "January 2, 2006" }} -
+        Reading time: {{.ReadingTime}} minutes
+      </small>
+
+    </div>
+    {{ end }}
+
+
+  </div>
+</main>
+
+
+
+{{ partial "footer.html" . }}

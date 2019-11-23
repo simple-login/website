@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+
+<main id="content" role="main">
+    <div class="container space-2 space-top-md-3">
+        <div class="row">
+            <div class="col">
+                <h1 class="h2">{{ .Title}}</h1>
+            </div>
+        </div>
+
+        {{ if .Param "OriginalUrl" }}
+        <small class="font-weight-light">
+            Originally posted on
+            <a href='{{.Param "OriginalUrl"}}'>
+                {{.Param "OriginalWebsite"}}
+            </a>
+        </small>
+        {{end}}
+
+        <div class="mb-3"></div>
+
+        {{ .Content }}
+
+        <p class="font-weight-lighter">
+            Written by
+            <a href='{{$.Param "AuthorLink"}}'>
+                {{$.Param "Author"}}
+            </a>
+        </p>
+    </div>
+</main>
+
+{{ partial "footer.html" . }}
