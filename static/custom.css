@@ -55,3 +55,8 @@ ul.timeline > li:before {
     height: 20px;
     z-index: 400;
 }
+
+em {
+    font-style: normal;
+    background-color: #FFFF00;
+}
