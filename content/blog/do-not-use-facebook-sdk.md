@@ -4,6 +4,7 @@ date: 2019-11-03T11:13:42+01:00
 summary: "Social Login buttons like the ubiquitous **Login with Facebook/Google/Twitter/...** button is convenient for users. However some providers like Facebook inject an *iframe* behind the scene that can track user behavior on the website. "
 author: "Son Nguyen Kim"
 authorLink: "https://twitter.com/nguyenkims"
+authorAvatar: "/images/son.jpg"
 originalUrl: "https://dev.to/simplelogin/if-you-care-about-user-privacy-do-not-use-facebook-js-sdk-1j3e"
 originalWebsite: "dev.to"
 ---

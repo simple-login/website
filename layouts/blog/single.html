@@ -22,9 +22,9 @@
         {{ .Content }}
 
         <p class="font-weight-lighter">
-            Written by
+            Written by <img src='{{$.Param "AuthorAvatar"}}' style="width: 30px; border-radius: 50%;"> {{$.Param "Author"}}
             <a href='{{$.Param "AuthorLink"}}'>
-                {{$.Param "Author"}}
+                [Follow on Twitter]
             </a>
         </p>
     </div>

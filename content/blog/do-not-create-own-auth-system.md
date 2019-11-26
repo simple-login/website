@@ -4,6 +4,7 @@ date: 2019-09-13T10:10:42+01:00
 summary: "Implementing correctly an authentication system is hard. And *users don't like it.*"
 author: "Son Nguyen Kim"
 authorLink: "https://twitter.com/nguyenkims"
+authorAvatar: "/images/son.jpg"
 originalUrl: "https://dev.to/simplelogin/why-you-shouldn-t-create-your-own-authentication-system-hjg"
 originalWebsite: "dev.to"
 ---
