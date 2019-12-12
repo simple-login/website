@@ -58,5 +58,13 @@ ul.timeline > li:before {
 
 em {
     font-style: normal;
-    background-color: #FFFF00;
+    background-position-y: -0%;
+    background-image: linear-gradient( white 50%, gold 50%);
+    transition: background 500ms ease;
+    background-size: 2px;
+    background-size: auto 175%;
+}
+
+em:hover {
+    background-position-y: 100%;
 }
