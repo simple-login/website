@@ -1,9 +1,22 @@
-To deploy:
+SimpleLogin - privacy-first email alias and Single Sign-On (SSO) Identity Provider
+---
 
-> hugo && now -n new-website --prod public
+https://simplelogin.io
 
-To develop:
+This repo contains the code behind the main website at https://www.simplelogin.io
 
-> hugo server
+It's developed using https://gohugo.io, a static site generator.
 
-and then open http://localhost:1313/ 
+To run it locally, please install `hugo` first (see https://gohugo.io/getting-started/quick-start/ for how to install Hugo), then run the following command:
+
+```bash
+hugo server
+```
+
+The website is now available on http://localhost:1313/  
+
+The project uses https://zeit.co/home, a Static Hosting Service to deploy. To deploy
+
+```bash
+hugo && now -n new-website --prod public
+```
