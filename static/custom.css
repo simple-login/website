@@ -59,7 +59,7 @@ ul.timeline > li:before {
 em {
     font-style: normal;
     background-position-y: -0%;
-    background-image: linear-gradient( white 50%, gold 50%);
+    background-image: linear-gradient( transparent 50%, gold 50%);
     transition: background 500ms ease;
     background-size: 2px;
     background-size: auto 175%;
