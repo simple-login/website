@@ -169,5 +169,29 @@
       $.HSCore.components.HSGoTo.init('.js-go-to');
     });
   </script>
+  <script>
+    (function() {
+      // only enable on prod
+      if (window.location.host !== 'simplelogin.io'){
+        console.log("GoatCounter should only be enabled in prod");
+        return;
+      }
+      
+      if (localStorage.getItem('goatcounter-ignore') === 't'){
+        console.log("GoatCounter is disabled");
+        return;
+      }
+
+      console.log("init GoatCounter");
+
+      var script = document.createElement('script');
+      window.counter = 'https://sl.goatcounter.com/count'
+      script.async = 1;
+      script.src = '//gc.zgo.at/count.js';
+  
+      var ins = document.getElementsByTagName('script')[0];
+      ins.parentNode.insertBefore(script, ins)
+    })();
+  </script>
 </body>
 </html>
