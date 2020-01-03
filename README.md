@@ -13,7 +13,7 @@ To run it locally, please install `hugo` first (see https://gohugo.io/getting-st
 hugo server
 ```
 
-The website is now available on http://localhost:1313/  
+The website is now available on http://localhost:1313/
 
 The project uses https://zeit.co/home, a Static Hosting Service to deploy. To deploy
 
