@@ -172,7 +172,7 @@
   <script>
     (function() {
       // only enable on prod
-      if (window.location.host !== 'simplelogin.io'){
+      if (!window.location.host.endsWith('simplelogin.io')){
         console.log("GoatCounter should only be enabled in prod");
         return;
       }
