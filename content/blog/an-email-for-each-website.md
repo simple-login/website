@@ -13,6 +13,12 @@ originalWebsite: "dev.to"
 
 When this question was asked by my girlfriend (now wife 😅), my immediate answer was "Stop giving away your email" and I suggested creating a secondary email for "suspicious" websites. In addition, using the same email everywhere is like leaving the same **footprint** on the Internet, allowing advertisers to `cross-reference` your online behavior, affecting therefore your privacy.
 
+{{< rawhtml >}}
+<p align="left">
+    <img src="/blog/footprint.jpeg" class="img-fluid" style="max-height: 250px">
+</p>
+{{< /rawhtml >}}
+
 She followed the advice, created a second email and was happy at first. But now she doesn't even check this mailbox as there are so many spams in it 💁🏻‍♀️.
 
 So creating a second email is not a true solution. She needs more than 2, maybe hundreds. *And why not an email for each website*? But she cannot go to gmail or outlook to create hundreds of accounts, this is unmanageable. There must be a better way.
