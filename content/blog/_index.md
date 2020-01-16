@@ -1,3 +1,3 @@
 ---
-title: SimpleLogin Blog
+title: SimpleLogin | Blog
 ---
