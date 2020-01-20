@@ -12,19 +12,24 @@ Lot of users complain that every time they need an email, they need to go to Sim
 There must be a better way!
 
 Entering alias *directory*, a way to quickly create an email address whenever you need one.
-Just use
+Just use:
 
-> `your-directory`/ANYTHING@simplelogin.co
+{{< rawhtml >}}
+
+<div class="pl-3 py-2 bg-light">
+    your_directory<span style="font-size: 20px">/</span><b>anything</b>@simplelogin.co   OR <br>
+    your_directory<span style="font-size: 24px">+</span><b>anything</b>@simplelogin.co   OR <br>
+    your_directory<span style="font-size: 24px">#</span><b>anything</b>@simplelogin.co <br>
+</div>
+{{< /rawhtml >}}
 
 next time you need an email address.
 
-{{< rawhtml >}}
-<p align="left">
-    <img src="/blog/alias-directory.png" class="img-fluid" style="max-height: 450px">
-</p>
-{{< /rawhtml >}}
+*anything* could really be anything, it's up to you to invent the most creative alias 😉.
 
-Directory is quite similar to the `username` concept popularized by [33mail](https://www.33mail.com). We have decided to NOT use the same naming because of several reasons:
+*your_directory* is the name your directory. Voilà, simple, right?
+
+If you come from [33mail](https://www.33mail.com), directory is quite similar to the 33mail's `username`. We have decided to NOT use the same naming because of several reasons:
 
 - `username` doesn't sound right technically. As it's used in "@username.33mail.com", it should be rather named `subdomain` or maybe `namespace`.
 
@@ -34,7 +39,7 @@ Directory is quite similar to the `username` concept popularized by [33mail](htt
 
     > printable characters !#$%&'*+-/=?^_`{|}~;
 
-    are all valid characters.
+    are all valid characters. We also support `#` and `+` as separator.
 
 - It's almost impossible to implement a strict [DMARC Alignment](https://en.wikipedia.org/wiki/DMARC#Alignment) for wildcard subdomains. As setting up DMARC is highly recommended to reduce the chance your emails ending up in the recipient's Spam folder, supporting this alias format is maybe not a good idea.
 
