@@ -1,6 +1,6 @@
 baseURL = "https://simplelogin.io/"
 languageCode = "en-us"
-title = "SimpleLogin | Open source solution to protect your email address"
+title = "SimpleLogin | Open source email alias solution"
 enableRobotsTXT = true
 canonifyURLs = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
