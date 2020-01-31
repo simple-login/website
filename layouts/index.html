@@ -373,11 +373,9 @@
             <div class="card-header card-collapse" :id="'basicsHeading' + index">
               <h5 class="mb-0">
                 <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
-                        data-toggle="collapse"
-                        v-bind:data-target="'#basicsCollapse' + index"
-                        aria-expanded="false"
-                        v-bind:aria-controls="'basicsCollapse' + index">
-                        <span v-html="qa.q"></span>
+                  data-toggle="collapse" v-bind:data-target="'#basicsCollapse' + index" aria-expanded="false"
+                  v-bind:aria-controls="'basicsCollapse' + index">
+                  <span v-html="qa.q"></span>
 
                   <span class="card-btn-arrow">
                     <span class="fas fa-arrow-down small"></span>
@@ -385,9 +383,8 @@
                 </button>
               </h5>
             </div>
-            <div :id="'basicsCollapse' + index" class="collapse"
-                  v-bind:aria-labelledby="'basicsHeading' + index"
-                  data-parent="#basicsAccordion">
+            <div :id="'basicsCollapse' + index" class="collapse" v-bind:aria-labelledby="'basicsHeading' + index"
+              data-parent="#basicsAccordion">
               <div class="card-body" v-html="qa.a">
               </div>
             </div>
