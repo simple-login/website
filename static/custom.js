@@ -96,6 +96,10 @@ var faqApp = new Vue({
       {
         q: `Is email alias permanent?`,
         a: `As a normal email address, an email alias is always there unless you delete it.`
+      },
+      {
+        q: `I don't find answer to my question here`,
+        a: `Please send your question to <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a>. You can also create an issue on our <a href="https://github.com/simple-login/app/issues">GitHub Issues</a>.`
       }
 
     ]
