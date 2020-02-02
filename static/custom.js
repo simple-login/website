@@ -17,6 +17,14 @@ var faqApp = new Vue({
   data: {
     qas: [
       {
+        q: `What exactly is an <em>email alias</em>?`,
+        a: `Email alias is similar to <a href="https://en.wikipedia.org/wiki/Email_forwarding">forward</a> email
+          address: all emails sent to an alias will be forwarded to your inbox. <br>
+          Thanks to SimpleLogin technology, you can also send emails <b>from</b> an alias. <br>
+          For your contact, the alias is therefore your email address.
+          `
+      },
+      {
         q: `Why do I need SimpleLogin?`,
         a: `When you give away your personal email online, there is a good chance that your email address would end up with a spammer or leaked during a breach. You could check whether your email is leaked using website like <a href="https://haveibeenpwned.com">have i been pwned?</a>. <br><br>
 
@@ -86,12 +94,10 @@ var faqApp = new Vue({
         a: `No your email content is forwarded <b>as-is</b>, attachments included. SimpleLogin doesn't modify email content and only relies on email <b>headers</b> to do its "magic".`
       },
       {
-        q: `What exactly is an email alias?`,
-        a: `Email alias is similar to <a href="https://en.wikipedia.org/wiki/Email_forwarding">forward</a> email
-          address: all emails sent to an alias will be forwarded to your inbox. <br>
-          Thanks to SimpleLogin technology, you can also send emails <b>from</b> an alias. <br>
-          For your contact, the alias is therefore your email address.
-          `
+        q: `What is a <em>reverse-alias</em>?`,
+        a: `A reverse-alias is a <b>special</b> alias that allows you to send email <b>from your alias</b>. <br>
+        A reverse-alias is created for each alias you want to send email from and each contact you want to send email to. <br>
+        When you send an email to a reverse-alias from your personal email, the email will be sent from your alias to the contact.`
       },
       {
         q: `Is email alias permanent?`,
