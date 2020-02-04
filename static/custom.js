@@ -35,7 +35,7 @@ var faqApp = new Vue({
         q: "What is the difference between SimpleLogin and other email forwarding services?",
         a: `
           <ul>
-          <li>Fully open source: both SimpleLogin server and client code (browser extension, JS library) are <a href="https://github.com/simple-login/app">open source</a> so anyone can freely inspect and (hopefully) improve the code. You would not trust a blackbox to handle your emails, do you?</li>
+          <li>Fully open source: both SimpleLogin server and client code (browser extension, JS library) are <a href="https://github.com/simple-login/app">open source</a> so anyone can freely inspect and (hopefully) improve the code. You wouldn't trust a blackbox to handle your emails, would you?</li>
 
           <li>No ads, no tracker.</li>
 
