@@ -41,6 +41,8 @@ var faqApp = new Vue({
 
           <li>The only email forwarding solution that is <em>self-hostable</em>, i.e. you could run SimpleLogin on your server. With our detailed self-hosting instructions and most of components running as Docker container, anyone who knows ssh is able to deploy SimpleLogin on their server.</li>
 
+          <li>You can send/reply emails from alias. There's also no caps or limits on this feature.</li>
+
           <li>Not just email alias: SimpleLogin is also a privacy-focused and developer-friendly <em>identity provider</em> that: <br>
           - respects user privacy <br>
           - is simple to use for developers. <br>
