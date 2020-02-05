@@ -5,6 +5,8 @@ canonicalUrl: "https://simplelogin.io/dnt/"
 description: "Disable Analytics."
 ---
 
+<script src="/local-storage-polyfill.js"></script>
+
 <div>
 Disable Analytics
 </div>
@@ -12,12 +14,12 @@ Disable Analytics
 <script>
 // Disable GoatCounter if this script is called
 
-window.localStorage.setItem('goatcounter-ignore', 't');
+store.set('goatcounter-ignore', 't');
 
 alert("GoatCounter disabled");
 
 window.location.href = "/";
 
 </script>
-  
+
 

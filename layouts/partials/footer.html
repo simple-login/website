@@ -176,6 +176,8 @@
     $.HSCore.components.HSGoTo.init('.js-go-to');
   });
 </script>
+<script src="/local-storage-polyfill.js"></script>
+
 <script>
   (function () {
     // only enable on prod
@@ -187,7 +189,7 @@
       return;
     }
 
-    if (localStorage.getItem('goatcounter-ignore') === 't') {
+    if (store.get('goatcounter-ignore') === 't') {
       console.log("GoatCounter is disabled");
       return;
     }
