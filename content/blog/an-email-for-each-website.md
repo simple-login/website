@@ -1,5 +1,5 @@
 ---
-title: "We should have an email for each website"
+title: "We should have a different email for each website"
 date: 2019-12-15T11:13:42+01:00
 summary: 'Why do I receive so many spams? When this question was asked by my girlfriend (now wife 😅), my immediate answer was "Stop giving away your email" and I suggested creating a secondary email for "suspicious" websites'
 author: "Son Nguyen Kim"
