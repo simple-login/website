@@ -66,8 +66,16 @@ var faqApp = new Vue({
       },
       {
         q: `What happens if SimpleLogin is gone?`,
-        a: `SimpleLogin and how to run it is open source on <a href="https://github.com/simple-login/app">Github</a> so you could run it on your server if one day SimpleLogin disappears. The migration is relatively easy as you can export all your data from SimpleLogin. <br><br>
-            SimpleLogin is quite inexpensive to run. As we and our family/friends rely on SimpleLogin, we will keep the service running if ever we decide to move on to the next adventure.
+        a: `
+        There are several reasons that you don't have to worry about SimpleLogin going down: <br><br>
+
+        - Our team and our family/friends rely on SimpleLogin: we'll keep SimpleLogin running, at least for existing users. If we decide to quit the adventure, we will close registrations for new users but existing users are not affected. <br><br>
+
+        - SimpleLogin is already profitable. Even though in beta, we already have enough paying customers to cover our server & maintenance cost. The service can run on its own. <br><br>
+
+        - There are already several SimpleLogin "instances" (i.e. server that runs the same SimpleLogin code but on another domain). As SimpleLogin code is open source and we give detailed instructions on how to run the code, several people have already run SimpleLogin for their personal use. That is to say, if ever the team leaves the company, you can run your own SimpleLogin or use someone else's instance. As you can export and import your data easily from different SimpleLogin instances, the eventual migration is seamless. <br><br>
+
+            TL,DR: you can count on SimpleLogin for being around for a very long time.
           `
       },
       {
