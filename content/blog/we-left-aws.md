@@ -15,11 +15,11 @@ For past adventures, I mostly use third-party email delivery services like Postm
 
 I naively believed that would work as AWS is after all a VPS hosting service and everything can be run on EC2.  As it turns out, we ended up spending way too much time and effort to have our EC2 instances handle email delivery correctly:
 
-- Setting up PTR (or rDNS) record on AWS is only achievable via a request ticket and requires several exchanges. In comparison, on UpCloud (our current cloud provider) this could be done directly on the dashboard.
+- Setting up PTR (or [rDNS](https://en.wikipedia.org/wiki/Reverse_DNS_lookup)) record on AWS is only achievable via a [request ticket](https://aws.amazon.com/blogs/aws/reverse-dns-for-ec2s-elastic-ip-addresses/) and requires several exchanges. In comparison, on UpCloud (our current cloud provider) this could be done directly on the dashboard.
 
-- AWS Elastic IP addresses have a **bad** reputation. We tried to whitelist these IPs but some RBL ([Realtime Blacklist](https://en.wikipedia.org/wiki/Domain_Name_System-based_Blackhole_List)) just take forever. And their UX/UI is so bad that we feel we are losing way too much time on this mundane task. After attempts to whitelist some IPs, we tested other, newer AWS data centers hoping for better results. Unfortunately, all Elastic IPs we tried were blacklisted by several RBL.
+- AWS Elastic IP addresses have a **bad** reputation. We tried to whitelist these IPs but some RBL ([Realtime Blacklist](https://en.wikipedia.org/wiki/Domain_Name_System-based_Blackhole_List)) just take forever. And their UX/UI is terrible. We needed to move fast and I feel this mundane task is slowing us down. After attempts to whitelist some IPs, we tested other, newer AWS data centers hoping for better results. Unfortunately, all Elastic IPs we tried were blacklisted by several RBL.
 
-- AWS suddenly decided to block our port 25 claiming our email server had become an open relay which was simply not the case. Fortunately that was before the beta so only we were affected. It would be a catastrophe if this happened to our users. We speculate that AWS wants to push for using their SES ([Simple Email Service](https://aws.amazon.com/ses/)). SES is a nice service but as explained earlier, not compatible with our goals. SES is used by some of our self-hosting users though. There's a section in our [self-hosting doc](https://github.com/simple-login/app/blob/master/docs/ses.md) that shows how to plug SES into SimpleLogin.
+- AWS suddenly decided to block our port 25 claiming our email server had become an open relay which was simply not the case. Fortunately that was before the beta so only we were affected. It would be a catastrophe if this happened to our users. We speculate that AWS wants to push for using their SES ([Simple Email Service](https://aws.amazon.com/ses/)). SES is a nice service but as explained earlier, it is not compatible with our goals. SES is used by some of our self-hosting users though. There's a section in our [self-hosting doc](https://github.com/simple-login/app/blob/master/docs/ses.md) that shows how to plug SES into SimpleLogin.
 
 By our experience, AWS doesn’t have in place a good enough mechanism to stop spammers from using their Elastic IPs, leading to their bad network reputation.
 
@@ -38,7 +38,7 @@ So we decided it’s maybe better to make SimpleLogin cloud-agnostic and we'll j
 - We could experience first-hand the difficulties of self-hosting SimpleLogin, otherwise speaking "eat your own dog food".
 
 - We could set up a true redundancy mechanism with SimpleLogin deployed on 2 (or more) separate cloud providers.
-- This point is not really important but it's just so refreshing to use a simple UX/UI than the complex AWS UI.
+- This point is not really important but it's just so refreshing to use a simple UI rather than the complex AWS Console.
 
 We studied some popular options like DigitalOcean, OVH (OVH is very popular in France), Linode, etc and decided to give UpCloud a serious try due to several reasons:
 
