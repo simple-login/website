@@ -206,37 +206,12 @@ description: "SimpleLogin Pricing"
     <div id="basicsAccordion" class="w-lg-75 mx-lg-auto">
       <!-- Card -->
       <div class="card mb-3">
-        <div class="card-header card-collapse" id="basicsHeadingThree">
-          <h5 class="mb-0">
-            <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
-              data-toggle="collapse" data-target="#basicsCollapseThree" aria-expanded="false"
-              aria-controls="basicsCollapseThree">
-              What happens when I reach the maximum number of alias?
-              <span class="card-btn-arrow">
-                <span class="fas fa-arrow-down small"></span>
-              </span>
-            </button>
-          </h5>
-        </div>
-        <div id="basicsCollapseThree" class="collapse" aria-labelledby="basicsHeadingThree"
-          data-parent="#basicsAccordion">
-          <div class="card-body">
-            When you click on "Sign In With SimpleLogin", an alias will be picked randomly from the alias you have
-            created. <br>
-            In all the cases, your personal email is NOT communicated to the website.
-          </div>
-        </div>
-      </div>
-      <!-- End Card -->
-
-      <!-- Card -->
-      <div class="card mb-3">
         <div class="card-header card-collapse" id="basicsHeadingFour">
           <h5 class="mb-0">
             <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
               data-toggle="collapse" data-target="#basicsCollapseFour" aria-expanded="false"
               aria-controls="basicsCollapseFour">
-              What happens to my alias when I stop the subscription?
+              What happens to my aliases when I stop the subscription?
 
               <span class="card-btn-arrow">
                 <span class="fas fa-arrow-down small"></span>
@@ -254,6 +229,30 @@ description: "SimpleLogin Pricing"
             - As features like catch-all or directory allow you to create aliases on-the-fly, those aliases cannot be
             automatically created if you have more than 5 aliases. <br>
             - You cannot add new domain, directory or mailbox. <br>
+          </div>
+        </div>
+      </div>
+      <!-- End Card -->
+
+      <!-- Card -->
+      <div class="card mb-3">
+        <div class="card-header card-collapse" id="basicsHeadingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
+              data-toggle="collapse" data-target="#basicsCollapseThree" aria-expanded="false"
+              aria-controls="basicsCollapseThree">
+              What happens when I reach the maximum number of alias in free plan?
+              <span class="card-btn-arrow">
+                <span class="fas fa-arrow-down small"></span>
+              </span>
+            </button>
+          </h5>
+        </div>
+        <div id="basicsCollapseThree" class="collapse" aria-labelledby="basicsHeadingThree"
+          data-parent="#basicsAccordion">
+          <div class="card-body">
+            If you are in the free plan, you cannot create new aliases when you reach the maximum number of aliases (i.e. 5 aliases). <br>
+            Aliases that would otherwise be created automatically via the catch-all domain or directory feature also cannot be created. <br>
           </div>
         </div>
       </div>
