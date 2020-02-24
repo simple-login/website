@@ -201,156 +201,33 @@ description: "SimpleLogin Pricing"
     </div>
     <!-- End Title -->
 
-
     <!-- Basics Accordion -->
-    <div id="basicsAccordion" class="w-lg-75 mx-lg-auto">
-      <!-- Card -->
-      <div class="card mb-3">
-        <div class="card-header card-collapse" id="basicsHeadingFour">
-          <h5 class="mb-0">
-            <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
-              data-toggle="collapse" data-target="#basicsCollapseFour" aria-expanded="false"
-              aria-controls="basicsCollapseFour">
-              What happens to my aliases when I stop the subscription?
+    <div id="faq-pricing-app">
+      <div id="basicsAccordion" class="w-lg-75 mx-lg-auto">
+        <!-- Card -->
+        <div class="card mb-3" v-for="(qa, index) in qas">
+          <div class="card-header card-collapse" :id="'basicsHeading' + index">
+            <h5 class="mb-0">
+              <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
+                data-toggle="collapse" v-bind:data-target="'#basicsCollapse' + index" aria-expanded="false"
+                v-bind:aria-controls="'basicsCollapse' + index">
+                <span v-html="qa.q"></span>
 
-              <span class="card-btn-arrow">
-                <span class="fas fa-arrow-down small"></span>
-              </span>
-            </button>
-          </h5>
-        </div>
-        <div id="basicsCollapseFour" class="collapse" aria-labelledby="basicsHeadingFour"
-          data-parent="#basicsAccordion">
-          <div class="card-body" style="line-height: 2rem;">
-            When your subscription ends, all aliases you created continue working normally, both on receiving and
-            sending emails. Concretely: <br>
-            - All aliases/domains/directories/mailboxes you have created are kept and continue working normally. <br>
-            - You cannot create new aliases if you exceed the free plan limit, i.e. have more than 5 aliases. <br>
-            - As features like catch-all or directory allow you to create aliases on-the-fly, those aliases cannot be
-            automatically created if you have more than 5 aliases. <br>
-            - You cannot add new domain, directory or mailbox. <br><br>
-
-            For example, if you have 100 aliases by the time your subscription ends, these
-            100 aliases will continue receiving and sending emails normally. You cannot however create new aliases.
+                <span class="card-btn-arrow">
+                  <span class="fas fa-arrow-down small"></span>
+                </span>
+              </button>
+            </h5>
+          </div>
+          <div :id="'basicsCollapse' + index" class="collapse" v-bind:aria-labelledby="'basicsHeading' + index"
+            data-parent="#basicsAccordion">
+            <div class="card-body" v-html="qa.a">
+            </div>
           </div>
         </div>
+        <!-- End Card -->
+
       </div>
-      <!-- End Card -->
-
-      <!-- Card -->
-      <div class="card mb-3">
-        <div class="card-header card-collapse" id="basicsHeadingThree">
-          <h5 class="mb-0">
-            <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
-              data-toggle="collapse" data-target="#basicsCollapseThree" aria-expanded="false"
-              aria-controls="basicsCollapseThree">
-              What happens when I reach the maximum number of alias in free plan?
-              <span class="card-btn-arrow">
-                <span class="fas fa-arrow-down small"></span>
-              </span>
-            </button>
-          </h5>
-        </div>
-        <div id="basicsCollapseThree" class="collapse" aria-labelledby="basicsHeadingThree"
-          data-parent="#basicsAccordion">
-          <div class="card-body">
-            If you are in the free plan, you cannot create new aliases when you reach the maximum number of aliases
-            (i.e. 5 aliases). <br>
-            Aliases that would otherwise be created automatically via the catch-all domain or directory feature also
-            cannot be created. <br>
-          </div>
-        </div>
-      </div>
-      <!-- End Card -->
-
-      <!-- Card -->
-      <div class="card mb-3">
-        <div class="card-header card-collapse" id="basicsHeadingOne">
-          <h5 class="mb-0">
-            <button class="btn btn-link btn-block d-flex justify-content-between card-btn p-3" data-toggle="collapse"
-              data-target="#basicsCollapseOne" aria-expanded="false" aria-controls="basicsCollapseOne">
-              Do you offer discounts?
-
-              <span class="card-btn-arrow">
-                <span class="fas fa-arrow-down small"></span>
-              </span>
-            </button>
-          </h5>
-        </div>
-        <div id="basicsCollapseOne" class="collapse" aria-labelledby="basicsHeadingOne" data-parent="#basicsAccordion">
-          <div class="card-body">
-            We offer free premium account for education (student, professor or technical staff working at an educational
-            institute). <br>
-            Just send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> with your student ID or
-            certificate.
-
-          </div>
-        </div>
-      </div>
-      <!-- End Card -->
-
-      <!-- Card -->
-      <div class="card mb-3">
-        <div class="card-header card-collapse" id="basicsHeadingTwo">
-          <h5 class="mb-0">
-            <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
-              data-toggle="collapse" data-target="#basicsCollapseTwo" aria-expanded="false"
-              aria-controls="basicsCollapseTwo">
-              What is your refund policy?
-
-              <span class="card-btn-arrow">
-                <span class="fas fa-arrow-down small"></span>
-              </span>
-            </button>
-          </h5>
-        </div>
-        <div id="basicsCollapseTwo" class="collapse" aria-labelledby="basicsHeadingTwo" data-parent="#basicsAccordion">
-          <div class="card-body">
-            We offer 7-days money back guarantee, you do not need a reason but we appreciate your feedback.
-          </div>
-        </div>
-      </div>
-      <!-- End Card -->
-
-      <!-- Card -->
-      <div class="card mb-3">
-        <div class="card-header card-collapse" id="basicsHeadingFive">
-          <h5 class="mb-0">
-            <button class="btn btn-link btn-block d-flex justify-content-between card-btn p-3" data-toggle="collapse"
-              data-target="#basicsCollapseFive" aria-expanded="false" aria-controls="basicsCollapseFive">
-              Which payment methods do you support?
-
-              <span class="card-btn-arrow">
-                <span class="fas fa-arrow-down small"></span>
-              </span>
-            </button>
-          </h5>
-        </div>
-        <div id="basicsCollapseFive" class="collapse" aria-labelledby="basicsHeadingFive" data-parent="#basicsAccordion">
-          <div class="card-body">
-            We use <a href="https://paddle.com">Paddle</a> for handling payments and Paddle currently supports the
-            following payment methods: <br>
-            - Mastercard <br>
-            - Visa <br>
-            - Maestro <br>
-            - American Express <br>
-            - Discover <br>
-            - Diners Club <br>
-            - JCB <br>
-            - PayPal <br>
-            - Apple Pay <br>
-            - Wire Transfers (ACH/SEPA/BACS) <br>
-            More information can be found on <a
-              href="https://paddle.com/support/which-payment-methods-do-you-support/">Paddle supported payment
-              methods</a>. <br>
-
-            Send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> if you want to use other payment options (e.g. IBAN transfer, Cryptocurrency, etc).
-
-          </div>
-        </div>
-      </div>
-      <!-- End Card -->
-
     </div>
     <!-- End Basics Accordion -->
   </div>

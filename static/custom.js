@@ -125,3 +125,65 @@ var faqApp = new Vue({
     ]
   }
 })
+
+
+var faqPricingApp = new Vue({
+  el: '#faq-pricing-app',
+  delimiters: ["[", "]"],
+  data: {
+    qas: [
+      {
+        q: `What happens to my aliases when I stop the subscription?`,
+        a: `When your subscription ends, all aliases you created continue working normally, both on receiving and
+        sending emails. Concretely: <br>
+        - All aliases/domains/directories/mailboxes you have created are kept and continue working normally. <br>
+        - You cannot create new aliases if you exceed the free plan limit, i.e. have more than 5 aliases. <br>
+        - As features like catch-all or directory allow you to create aliases on-the-fly, those aliases cannot be
+        automatically created if you have more than 5 aliases. <br>
+        - You cannot add new domain, directory or mailbox. <br><br>
+
+        For example, if you have 100 aliases by the time your subscription ends, these
+        100 aliases will continue receiving and sending emails normally. You cannot however create new aliases.
+          `
+      },
+      {
+        q: `What happens when I reach the maximum number of alias in free plan?`,
+        a: `If you are in the free plan, you cannot create new aliases when you reach the maximum number of aliases
+        (i.e. 5 aliases). <br>
+        Aliases that would otherwise be created automatically via the catch-all domain or directory feature also
+        cannot be created. <br>
+          `
+      },
+      {
+        q: "Do you offer discounts?",
+        a: `
+        We offer free premium account for education (student, professor or technical staff working at an educational
+          institute). <br>
+          Just send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> with your student ID or
+          certificate.
+          `
+      },
+      {
+        q: `Which payment methods do you support?`,
+        a: `We use <a href="https://paddle.com">Paddle</a> for handling payments and Paddle currently supports the
+        following payment methods: <br>
+        - Mastercard <br>
+        - Visa <br>
+        - Maestro <br>
+        - American Express <br>
+        - Discover <br>
+        - Diners Club <br>
+        - JCB <br>
+        - PayPal <br>
+        - Apple Pay <br>
+        - Wire Transfers (ACH/SEPA/BACS) <br>
+        More information can be found on <a
+          href="https://paddle.com/support/which-payment-methods-do-you-support/">Paddle supported payment
+          methods</a>. <br>
+
+        Send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> if you want to use other payment options (e.g. IBAN transfer, Cryptocurrency, etc).`
+      }
+
+    ]
+  }
+})
