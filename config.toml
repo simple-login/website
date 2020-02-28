@@ -1,4 +1,4 @@
-baseURL = "https://simplelogin.io/"
+# baseURL = "https://simplelogin.io/"
 languageCode = "en-us"
 title = "SimpleLogin | Open source email alias solution"
 enableRobotsTXT = true
