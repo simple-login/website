@@ -80,3 +80,7 @@ blockquote {
 blockquote p {
     display: inline;
 }
+
+.u-header__navbar-brand, .u-header__navbar-brand>img {
+    width: 12rem;
+}
