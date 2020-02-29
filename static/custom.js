@@ -17,7 +17,7 @@ var faqApp = new Vue({
   data: {
     qas: [
       {
-        q: `What exactly is an <em>email alias</em>?`,
+        q: `What exactly is an <b>email alias</b>?`,
         a: `Email alias is similar to <a href="https://en.wikipedia.org/wiki/Email_forwarding">forward</a> email
           address: all emails sent to an alias will be forwarded to your inbox. <br>
           Thanks to SimpleLogin technology, you can also send emails <b>from</b> an alias. <br>
@@ -87,7 +87,7 @@ var faqApp = new Vue({
             We are simply different products for different usecases.`
       },
       {
-        q: `What is <em>alias directory</em> or <em>catch-all</em> feature?`,
+        q: `What is <b>alias directory</b> or <b>catch-all</b> feature?`,
         a: `These 2 features both allow you to create alias <em>on-the-fly</em>, meaning you don't have to open SimpleLogin to create a new alias. <br>
           Enabling <b>catch-all</b> on your domain allows you to use <em>ANYTHING@my-domain.com</em> as alias with <b>ANYTHING</b> being any word. The only limit is it has to have less than 128 characters. <br>
 
@@ -104,7 +104,7 @@ var faqApp = new Vue({
         a: `No your email content is forwarded <b>as-is</b>, attachments included. SimpleLogin doesn't modify email content and only relies on email <b>headers</b> to do its "magic".`
       },
       {
-        q: `What is a <em>reverse-alias</em>?`,
+        q: `What is a <b>reverse-alias</b>?`,
         a: `A reverse-alias is a <b>special</b> alias that allows you to send email <b>from your alias</b>. <br>
         A reverse-alias is created for each alias you want to send email from and each contact you want to send email to. <br>
         When you send an email to a reverse-alias from your personal email, the email will be sent from your alias to the contact.`
