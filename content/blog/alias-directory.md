@@ -11,7 +11,7 @@ Lot of users complain that every time they need an email, they need to go to Sim
 
 There must be a better way!
 
-Entering alias *directory*, a way to quickly create an email address whenever you need one.
+Entering alias **directory**, a way to quickly create an email address whenever you need one.
 Just use:
 
 {{< rawhtml >}}
@@ -25,9 +25,9 @@ Just use:
 
 next time you need an email address.
 
-*anything* could really be anything, it's up to you to invent the most creative alias 😉.
+**anything** could really be anything, it's up to you to invent the most creative alias 😉.
 
-*your_directory* is the name your directory. Voilà, simple, right?
+**your_directory** is the name your directory. Voilà, simple, right?
 
 If you come from [33mail](https://www.33mail.com), directory is quite similar to the 33mail's `username`. We have decided to NOT use the same naming because of several reasons:
 

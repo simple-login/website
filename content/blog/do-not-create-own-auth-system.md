@@ -20,7 +20,7 @@ It's not just about storing username/password in the database. In a standard web
 
 On the front-end side, the app needs to have a decent UI: a login form that at least validates the email and password, a sign-up form, a reset-password form. Not to mention modern authentication expects support for [MFA](https://en.wikipedia.org/wiki/Multi-factor_authentication) and soon (hopefully) [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
-More importantly, your users don't want to go through a lengthy registration process and create yet another username/password. Without a proper *password manager* (which probably 99% users don't use), they tend to reuse the same password which is bad in terms of security!
+More importantly, your users don't want to go through a lengthy registration process and create yet another username/password. Without a proper **password manager** (which probably 99% users don't use), they tend to reuse the same password which is bad in terms of security!
 
 So why choosing the hard path and face the risk of password leaks, database hackings and above all, inferior user experience? Of course some applications need to have their own authentication system (banking app is an example but that's also changing with [PSD2](https://en.wikipedia.org/wiki/Payment_Services_Directive)) but they are rather minority.
 

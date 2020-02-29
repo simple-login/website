@@ -21,9 +21,9 @@ When this question was asked by my girlfriend (now wife 😅), my immediate answ
 
 She followed the advice, created a second email and was happy at first. But now she doesn't even check this mailbox as there are so many spams in it 💁🏻‍♀️.
 
-So creating a second email is not a true solution. She needs more than 2, maybe hundreds. *And why not an email for each website*? But she cannot go to gmail or outlook to create hundreds of accounts, this is unmanageable. There must be a better way.
+So creating a second email is not a true solution. She needs more than 2, maybe hundreds. **And why not an email for each website**? But she cannot go to Gmail or Outlook to create hundreds of accounts, this is unmanageable. There must be a better way.
 
-The solution is `email alias`. An alias is actually a normal email address but all mails sent to an alias will be *forwarded* to your real email. Alias acts therefore as a *shield* (or a proxy) for your real email address. An alias can be disabled anytime, making the spams stop.
+The solution is `email alias`. An alias is actually a normal email address but all mails sent to an alias will be **forwarded** to your real email. Alias acts therefore as a **shield** (or a proxy) for your real email address. An alias can be disabled anytime, making the spams stop.
 
 Nowadays, some websites allow to unsubscribe quickly but a lot of them still make unsubscribing a difficult process. Some wouldn't even honor the request. And this doesn't stop the websites from cross-referencing your data with your email being the common key.
 
