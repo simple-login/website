@@ -2,3 +2,4 @@ public/
 .vscode/
 .idea/
 .now
+.DS_Store
