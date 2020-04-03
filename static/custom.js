@@ -157,10 +157,13 @@ var faqPricingApp = new Vue({
       {
         q: "Do you offer discounts?",
         a: `
-        We offer free premium account for education (student, professor or technical staff working at an educational
-          institute). <br>
-          Just send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> with your student ID or
-          certificate.
+        We offer important discounts or free premium for: <br>
+
+        - students, professors or technical staffs working at an educational institute <br>
+        - activists, dissidents or journalists <br>
+        - charity organizations <br>
+
+        Just send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a>.
           `
       },
       {
