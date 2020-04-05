@@ -67,15 +67,14 @@ var faqApp = new Vue({
       {
         q: `What happens if SimpleLogin is gone?`,
         a: `
-        There are several reasons that you don't have to worry about SimpleLogin going down: <br><br>
+        This is probably the hardest question that a company has to answer :). <br><br>
 
-        - Our team and our family/friends rely on SimpleLogin: we'll keep SimpleLogin running, at least for existing users. If we decide to quit the adventure, we will close registrations for new users but existing users are not affected. <br><br>
+        As we are using SimpleLogin on a daily basis, for both our personal and professinal usage, in the worst case, we will close registrations for new users so SimpleLogin can only be used by existing users. <br><br>
 
-        - SimpleLogin is already profitable. Even though in beta, we already have enough paying customers to cover our server & maintenance cost. The service can run on its own. <br><br>
+        For information, <a href="https://www.spamgourmet.com/index.pl">Spamgourmet</a>, a similar email forwarding service has been running for more than 20 years now. Spamgourmet is actually <a href="/blog/spamgourmet/">an inspiration</a> for SimpleLogin.
+        <br><br>
 
-        - There are already several SimpleLogin "instances" (i.e. server that runs the same SimpleLogin code but on another domain). As SimpleLogin code is open source and we give detailed instructions on how to run the code, several people have already run SimpleLogin for their personal use. That is to say, if ever the team leaves the company, you can run your own SimpleLogin or use someone else's instance. As you can export and import your data easily from different SimpleLogin instances, the eventual migration is seamless. <br><br>
-
-            TL,DR: you can count on SimpleLogin for being around for a very long time.
+        If all this is still not enough, you can also run a SimpleLogin instance yourself as SimpleLogin code is open source and we give detailed instructions on how to run it.
           `
       },
       {
