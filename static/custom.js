@@ -189,3 +189,11 @@ var faqPricingApp = new Vue({
     ]
   }
 })
+
+// parse the slref and store in cookie
+const urlParams = new URLSearchParams(window.location.search);
+const refCode = urlParams.get('slref');
+if (refCode !== null){
+  console.log("Save refCode into cookie", refCode);
+  Cookies.set('slref', refCode, { domain: window.location.hostname });
+}
