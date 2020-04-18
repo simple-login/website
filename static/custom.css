@@ -84,3 +84,11 @@ blockquote p {
 .u-header__navbar-brand, .u-header__navbar-brand>img {
     width: 12rem;
 } */
+
+/* For toggle animation on the hero image, thanks to Sami */
+.Awesome_Toggle_Button_Nub {
+	transition: transform .1s ease-out;
+}
+.Awesome_Toggle_Button.State_On .Awesome_Toggle_Button_Nub {
+	transform: translateX(.9em);
+}

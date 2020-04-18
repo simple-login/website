@@ -197,3 +197,10 @@ if (refCode !== null){
   console.log("Save refCode into cookie", refCode);
   Cookies.set('slref', refCode, { domain: window.location.hostname });
 }
+
+
+// Thanks to Sami
+// Toggle animation
+$('#hero-svg').on('click', '.Awesome_Toggle_Button', (e) => {
+  $(e.target).closest('.Awesome_Toggle_Button').toggleClass('State_On');
+});
