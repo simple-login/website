@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+<main id="content" role="main">
+    <div class="container space-1">
+        <div class="row text-center">
+            <div class="col">
+                <h1 class="h1 text-primary">{{.Param "PageTitle"}}</h1>
+
+            </div>
+        </div>
+
+        <div class="mb-3"></div>
+
+        {{ .Content }}
+
+    </div>
+</main>
+
+{{ partial "footer.html" . }}
