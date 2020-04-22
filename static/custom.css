@@ -1,3 +1,8 @@
+li {
+    /* use the same color as p */
+    color: #77838f;
+}
+
 code {
     font-size: .8em !important;
 }
