@@ -2,7 +2,7 @@
 title: "SimpleLogin Security"
 pageTitle: "Security Overview"
 url: "/security"
-canonicalUrl: "https://simplelogin.io/terms/"
+canonicalUrl: "https://simplelogin.io/security/"
 description: "SimpleLogin Security."
 layout: "single_markdown"
 ---
