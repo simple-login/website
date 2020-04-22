@@ -47,12 +47,7 @@ Here are Hardenize reports for our domains:
 - [simplelogin.co](https://www.hardenize.com/report/simplelogin.co/1587326594)
 - [slmail.me](https://www.hardenize.com/report/slmail.me/1587417887#email_dmarc)
 
-{{< rawhtml >}}
-<a href="https://www.hardenize.com/report/simplelogin.io?summary" target="_blank"
-   referrerpolicy="origin" rel="noopener"><img referrerpolicy="origin" border="0"
-   src="https://badge.hardenize.com/v2/images/hardenize-badge-simplelogin.io.png"
-   width="70" height="110" hspace="0" vspace="0" alt="Hardenize Badge"></a>
-{{< /rawhtml >}}
+
 ---
 
 ## Mail Servers
