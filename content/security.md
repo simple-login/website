@@ -15,6 +15,7 @@ Keeping your data safe and secure is a huge responsibility and a top priority fo
 ## Domains
 
 SimpleLogin currently operates on the following domains:
+
 - simplelogin.io
 - simplelogin.co
 - simplelogin.fr
