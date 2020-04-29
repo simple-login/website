@@ -423,49 +423,47 @@ app.use('/profile', (req, res) => {
 </div>
 <!-- End Testimonials Section -->
 
-<!-- Subscribe Section -->
-<div class="container space-bottom-2 space-bottom-md-3">
-    <!-- Title -->
-    <div class="w-md-80 w-lg-50 text-center mx-md-auto">
-    <div class="mb-9">
-        <span class="btn btn-xs btn-soft-primary btn-pill mb-2">Subscribe</span>
-        <h2 class="font-weight-normal">Stay in the know</h2>
-        <p class="mb-0">Subscribe now to get the latest developments from SimpleLogin.</p>
-    </div>
-    </div>
-    <!-- End Title -->
+<!-- FAQ Section -->
+<div class="bg-light">
+    <div class="container pt-2 pb-3">
+      <!-- Title -->
+      <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5">
+        <h2 class="text-primary mt-7">Frequently asked <span class="font-weight-semi-bold">questions</span></h2>
+      </div>
+      <!-- End Title -->
 
-    <!-- Form -->
-    <form class="js-validate w-lg-75 mx-lg-auto" action="https://simplelogin.us3.list-manage.com/subscribe/post?u=741aff1e06558772026a5d179&amp;id=2c50266643" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div class="form-row">
-        <div class="col-sm-4 mb-2 mb-sm-0">
-        <div class="js-form-message">
-            <label class="sr-only" for="signupSrName">Name</label>
-            <div class="input-group">
-            <input type="text" class="form-control" name="NAME" id="signupSrName" placeholder="Name" aria-label="Name" required
-                    data-msg="Name must contain only letters.">
+      <!-- Basics Accordion -->
+      <div id="faq-partner-app">
+        <div id="basicsAccordion">
+          <!-- Card -->
+          <div class="card mb-3" v-for="(qa, index) in qas">
+            <div class="card-header card-collapse" :id="'basicsHeading' + index">
+              <h5 class="mb-0">
+                <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
+                  data-toggle="collapse" v-bind:data-target="'#basicsCollapse' + index" aria-expanded="false"
+                  v-bind:aria-controls="'basicsCollapse' + index">
+                  <span v-html="qa.q"></span>
+
+                  <span class="card-btn-arrow">
+                    <span class="fas fa-arrow-down small"></span>
+                  </span>
+                </button>
+              </h5>
             </div>
-        </div>
-        </div>
-
-        <div class="col-sm-4 mb-2 mb-sm-0">
-        <div class="js-form-message">
-            <label class="sr-only" for="signupSrEmail">Email</label>
-            <div class="input-group">
-            <input type="email" class="form-control" name="EMAIL" id="signupSrEmail" placeholder="Email" aria-label="Email" required
-                    data-msg="Please enter a valid email address.">
+            <div :id="'basicsCollapse' + index" class="collapse" v-bind:aria-labelledby="'basicsHeading' + index"
+              data-parent="#basicsAccordion">
+              <div class="card-body" v-html="qa.a">
+              </div>
             </div>
-        </div>
-        </div>
+          </div>
+          <!-- End Card -->
 
-        <div class="col-sm-4">
-        <button type="submit" class="btn btn-block btn-primary transition-3d-hover">Submit</button>
         </div>
+      </div>
     </div>
-    </form>
-    <!-- End Form -->
-</div>
-<!-- End Subscribe Section -->
+  </div>
+  <!-- End FAQ Section -->
+
 
 
 </main>
