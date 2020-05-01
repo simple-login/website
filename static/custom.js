@@ -25,28 +25,49 @@ var faqApp = new Vue({
           `
       },
       {
-        q: `Why do I need SimpleLogin?`,
-        a: `When you give away your personal email online, there is a good chance that your email address would end up with a spammer or leaked during a breach. You could check whether your email is leaked using website like <a href="https://haveibeenpwned.com">have i been pwned?</a>. <br><br>
+        q: `I can use my plus(+) trick to create unlimited email addresses, why do I need SimpleLogin?`,
+        a: `
+        Email subaddressing, also known as the plus (+) trick,  is popularized by Gmail and supported by some email services, allows you to create new email addresses by appending "+" to your current email address. Says your email is name@protonmail.com, you can quickly create another address like name+facebook@protonmail.com for Facebook, name+groupon@protonmail.com for Groupon, etc. <br>
 
-            SimpleLogin could also help manage your <em>business emails</em>. If you own a domain and don't want to pay a full solution like GSuite, you could add the domain into SimpleLogin and create emails like <b>contact@my-domain.com</b>, <b>partner@my-domain.com</b> with aliases. All our business emails (the <b>@simplelogin.io</b>) are actually aliases.
+        Though practical, it has some downsides: <br>
+
+        - You cannot reply from the + address: your real email will appear as the sender. <br>
+
+        - The + trick is well-known and some websites don't allow sign-ups with email addresses that contain +. <br>
+
+        - Using + trick doesn't protect your privacy: one can easily remove the + part to have your real email. If your + address appears in the data breach, your real address is probably also in the hands of spammers. You could check whether your email is leaked using website like <a href="https://haveibeenpwned.com">have i been pwned</a> <br>
+
+        - By removing the + part, advertisers can link these + addresses together to have your browsing history. <br><br>
+
+        SimpleLogin aliases don't have any of these downsides. <br>
+
+        In addition SimpleLogin could also help manage your <em>business emails</em>. If you own a domain and don't want to pay a full solution like GSuite, you could add the domain into SimpleLogin and create emails like <b>contact@my-domain.com</b>, <b>partner@my-domain.com</b> with aliases. All our business emails (the <b>@simplelogin.io</b>) are actually aliases.
+
           `
       },
       {
         q: "What is the difference between SimpleLogin and other email forwarding services?",
         a: `
+          SimpleLogin is the most advanced email alias solution and is in active development. Here are some differences between SimpleLogin and other email forwarding/alias services: <br><br>
+
           <ul>
-          <li>Fully open source: both SimpleLogin server and client code (browser extension, JS library) are <a href="https://github.com/simple-login/app">open source</a> so anyone can freely inspect and (hopefully) improve the code. You wouldn't trust a blackbox to handle your emails, would you?</li>
+          <li>Fully open source: both SimpleLogin server and client code (browser extension, JS library, mobile apps) are <a href="https://github.com/simple-login/app">open source</a> so anyone can freely inspect and improve the code.
+          </li>
+
+          <li>Covers all major platforms: Chrome/Firefox/Safari extension for desktop, iOS and Android apps for mobile. </li>
+
+          <li>The only email forwarding solution that can be <em>self-hosted</em>, i.e. you could run SimpleLogin on your server. With our detailed self-hosting instructions and most of components running as Docker container, anyone who knows ssh is able to deploy SimpleLogin on their server.</li>
+
+          <li>You can send/reply emails from alias. There's no limits on the number of sends/replies.</li>
+
+          <li>Unlimited bandwidth. </li>
 
           <li>No ads, no tracker.</li>
-
-          <li>The only email forwarding solution that is <em>self-hostable</em>, i.e. you could run SimpleLogin on your server. With our detailed self-hosting instructions and most of components running as Docker container, anyone who knows ssh is able to deploy SimpleLogin on their server.</li>
-
-          <li>You can send/reply emails from alias. There's also no caps or limits on this feature.</li>
 
           <li>Not just email alias: SimpleLogin is also a privacy-focused and developer-friendly <em>identity provider</em> that: <br>
           - respects user privacy <br>
           - is simple to use for developers. <br>
-          SimpleLogin is a privacy-focused alternative to the "Login with Facebook/Google/Apple" buttons.
+          SimpleLogin offers a privacy-focused alternative to the "Login with Facebook/Google/Apple" buttons.
           </li>
 
 
@@ -57,7 +78,16 @@ var faqApp = new Vue({
           `
       },
       {
-        q: `What is your business model?`,
+        q: `How SimpleLogin is different than temporary email services?`,
+        a: `
+          SimpleLogin alias are permanent as opposed to the temporary email addresses created on services like <a href="https://temp-mail.org/en/">temp-mail.org</a>, <a href="https://10minutemail.net">10minutemail.net</a>, etc. <br>
+
+            SimpleLogin also doesn't store the emails, they are stored in your mailbox. <br>
+
+            SimpleLogin is simply a different product for a different need.`
+      },
+      {
+        q: `What is SimpleLogin business model?`,
         a: `Our revenue comes only from subscriptions, that means the product will stay ad-free forever.`
       },
       {
@@ -72,14 +102,6 @@ var faqApp = new Vue({
 
         If all this is still not enough, you can also run a SimpleLogin instance yourself as SimpleLogin code is open source and we give detailed instructions on how to run it.
           `
-      },
-      {
-        q: `How SimpleLogin is different than temporary email services?`,
-        a: `SimpleLogin alias are permanent as opposed to the temporary emails created on services like <a href="https://temp-mail.org/en/">temp-mail.org</a>, <a href="https://10minutemail.net">10minutemail.net</a>, etc. <br>
-
-            SimpleLogin also doesn't store the emails. <br>
-
-            We are simply different products for different usecases.`
       },
       {
         q: `What is <b>alias directory</b> or <b>catch-all</b> feature?`,
@@ -164,8 +186,6 @@ var faqPricingApp = new Vue({
         - charity organizations <br>
 
         Please send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> for more info. <br><br>
-
-
           `
       },
       {
