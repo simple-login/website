@@ -724,7 +724,8 @@ viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="
             </div>
             <div :id="'basicsCollapse' + index" class="collapse" v-bind:aria-labelledby="'basicsHeading' + index"
               data-parent="#basicsAccordion">
-              <div class="card-body" v-html="qa.a">
+              <div class="card-body">
+                <p  v-html="qa.a"></p>
               </div>
             </div>
           </div>
