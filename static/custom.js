@@ -152,13 +152,20 @@ var faqPricingApp = new Vue({
       {
         q: "Do you offer discounts?",
         a: `
-        We offer important discounts or free premium for: <br>
+        We offer students a premium license for free during the scholarship.
+        Just send us an email to <a href="mailto:edu@simplelogin.io">edu@simplelogin.io</a> from your school email (typically a .edu address) along with your SimpleLogin account so we can upgrade your account to 1 year of premium plan. If you don't have a school email address, a copy of your student card or another equivalent document suffices. <br><br>
 
-        - students, professors or technical staffs working at an educational institute <br>
+        By the end of each period (i.e. every year), you'll receive a reminder email to renew the license. If you are a student by that time, please send us another email from your .edu account for verification so that your license can be extended for another year. <br><br>
+
+        We also offer important discounts or free premium for: <br>
+
+        - professors or technical staffs working at an educational institute <br>
         - activists, dissidents or journalists <br>
         - charity organizations <br>
 
-        Just send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a>.
+        Please send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> for more info. <br><br>
+
+
           `
       },
       {
