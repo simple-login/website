@@ -2,9 +2,9 @@
 title: "Introducing Safari extension - a lot more difficult than we thought"
 date: 2020-02-05T10:13:42+01:00
 summary: 'After months of working, the first version of our Safari extension is finally available!'
-author: "Son Nguyen Kim"
-authorLink: "https://twitter.com/nguyenkims"
-authorAvatar: "/images/son.jpg"
+author: "SimpleLogin team"
+authorLink: "https://twitter.com/simple_login"
+authorAvatar: "/logo-square.svg"
 ---
 
 After months of working, SimpleLogin Safari extension is finally available, big kudos to [Thanh-Nhon](/about), our iOS/Mac expert!

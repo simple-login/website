@@ -2,9 +2,9 @@
 title: "Introducing Alias Directory | Why it's better than Username"
 date: 2020-01-14T11:13:42+01:00
 summary: 'Lot of users complain that every time they need an email, they need to go to SimpleLogin dashboard to create an alias and this flow is just too slow. There must be a better way!'
-author: "Son Nguyen Kim"
-authorLink: "https://twitter.com/nguyenkims"
-authorAvatar: "/images/son.jpg"
+author: "SimpleLogin team"
+authorLink: "https://twitter.com/simple_login"
+authorAvatar: "/logo-square.svg"
 ---
 
 Lot of users complain that every time they need an email, they need to go to SimpleLogin dashboard to create an alias and this flow is just too slow.

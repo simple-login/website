@@ -2,9 +2,9 @@
 title: "Introducing Mailboxes"
 date: 2020-02-27T10:13:42+01:00
 summary: "The feature the most requested is finally ready: you can now add several *real* email addresses into SimpleLogin and choose which one to use when creating aliases..."
-author: "Son Nguyen Kim"
-authorLink: "https://twitter.com/nguyenkims"
-authorAvatar: "/images/son.jpg"
+author: "SimpleLogin team"
+authorLink: "https://twitter.com/simple_login"
+authorAvatar: "/logo-square.svg"
 ---
 
 Our most requested feature is finally ready: you can now add several **real** email addresses into SimpleLogin and choose which one to use when creating aliases! A real email address is called **mailbox** in SimpleLogin.
