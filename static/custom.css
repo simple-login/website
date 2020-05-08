@@ -85,6 +85,16 @@ blockquote {
 blockquote p {
     display: inline;
 }
+
+.bigger {
+    font-size: 22px;
+    color: #ea319f;
+}
+
+.highlight {
+    color: #ea319f;
+}
+
 /*
 .u-header__navbar-brand, .u-header__navbar-brand>img {
     width: 12rem;
