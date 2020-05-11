@@ -1,5 +1,5 @@
 ---
-title: "Introducing Safari extension - a lot more difficult than we thought"
+title: "Introducing SimpleLogin Safari extension"
 date: 2020-02-05T10:13:42+01:00
 summary: 'After months of working, the first version of our Safari extension is finally available!'
 author: "SimpleLogin team"
