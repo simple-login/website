@@ -33,7 +33,7 @@ If you come from [33mail](https://www.33mail.com), directory is quite similar to
 
 - `username` doesn't sound right technically. As it's used in "@username.33mail.com", it should be rather named `subdomain` or maybe `namespace`.
 
-- Our directory ambition is much more than a wildcard alias. With both directory and custom domain, one could use `hr/` to handle emails for HR department, `tech/backend/` for all emails related to backend team. This is because directory structure is recursive, allowing much more combinations.
+- Our directory ambition is much more than a wildcard alias. With both directory and custom domain, one could use `hr/` to handle emails for HR department, `tech/backend/` for all emails related to backend team. This is because directory structure is recursive, allowing much more combinations. Currently directories **only** work with SimpleLogin domains and the possibility to use directories with your custom domains are in progress. You can track its progress on our [roadmap](https://trello.com/c/CSBsfCh9/59-support-multiple-directory-mailbox-for-custom-domain).
 
 - `/` is a perfectly valid email character. According to [Wikipedia](https://en.wikipedia.org/wiki/Email_address)
 
