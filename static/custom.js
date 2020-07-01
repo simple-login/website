@@ -1,25 +1,24 @@
 const urlParams = new URLSearchParams(window.location.search);
 
-
 /* Make sure to not show the hello-bar again if you have already closed it.
 Inspired from https://stackoverflow.com/a/13699319/1428034 */
 
-$('.close').click(function (e) {
+$(".close").click(function (e) {
   e.preventDefault();
-  $.cookie('hellobar', 'closed', { path: '/' });
+  $.cookie("hellobar", "closed", { path: "/" });
 });
 
 // Check if alert has been closed
-if ($.cookie('hellobar') !== 'closed') {
-  const utmSource = urlParams.get('utm_source');
-  if (utmSource === "LesPepitesTech.com"){
+if ($.cookie("hellobar") !== "closed") {
+  const utmSource = urlParams.get("utm_source");
+  if (utmSource === "LesPepitesTech.com") {
     console.log("Show hello bar for LesPepitesTech");
-    $('#hello-bar').removeClass("d-none");
+    $("#hello-bar").removeClass("d-none");
   }
 }
 
 var faqApp = new Vue({
-  el: '#faq-app',
+  el: "#faq-app",
   delimiters: ["[", "]"],
   data: {
     qas: [
@@ -29,7 +28,7 @@ var faqApp = new Vue({
           address: all emails sent to an alias will be forwarded to your inbox. <br>
           Thanks to SimpleLogin technology, you can also send emails <b>from</b> an alias. <br>
           For your contact, the alias is therefore your email address.
-          `
+          `,
       },
       {
         q: `I can use my plus(+) trick to create unlimited email addresses, why do I need SimpleLogin?`,
@@ -50,10 +49,11 @@ var faqApp = new Vue({
 
         In addition SimpleLogin could also help manage your <em>business emails</em>. If you own a domain and don't want to pay a full solution like GSuite, you could add the domain into SimpleLogin and create emails like <b>contact@my-domain.com</b>, <b>partner@my-domain.com</b> with aliases. All our business emails (the <b>@simplelogin.io</b>) are actually aliases.
 
-          `
+          `,
       },
       {
-        q: "What is the difference between SimpleLogin and other email forwarding services?",
+        q:
+          "What is the difference between SimpleLogin and other email forwarding services?",
         a: `
           SimpleLogin is the most advanced email alias solution and is in active development. Here are some differences between SimpleLogin and other email forwarding/alias services: <br><br>
 
@@ -82,7 +82,7 @@ var faqApp = new Vue({
 
           <li>Open roadmap at <a href="https://trello.com/b/4d6A69I4/open-roadmap">Trello</a>: you know the exciting features we are working on.</li>
           </ul>
-          `
+          `,
       },
       {
         q: `How SimpleLogin is different than temporary email services?`,
@@ -91,11 +91,11 @@ var faqApp = new Vue({
 
             SimpleLogin also doesn't store the emails, they are stored in your mailbox. <br>
 
-            SimpleLogin is simply a different product for a different need.`
+            SimpleLogin is simply a different product for a different need.`,
       },
       {
         q: `What is SimpleLogin business model?`,
-        a: `Our revenue comes only from subscriptions, that means the product will stay ad-free forever.`
+        a: `Our revenue comes only from subscriptions, that means the product will stay ad-free forever.`,
       },
       {
         q: `What happens if SimpleLogin is gone?`,
@@ -108,51 +108,49 @@ var faqApp = new Vue({
         <br><br>
 
         If all this is still not enough, you can also run a SimpleLogin instance yourself as SimpleLogin code is open source and we give detailed instructions on how to run it.
-          `
+          `,
       },
       {
         q: `What is <b>alias directory</b> or <b>catch-all</b> feature?`,
         a: `These 2 features both allow you to create alias <em>on-the-fly</em>, meaning you don't have to open SimpleLogin to create a new alias. <br>
           Enabling <b>catch-all</b> on your domain allows you to use <em>ANYTHING@my-domain.com</em> as alias with <b>ANYTHING</b> being any word. The only limit is it has to have less than 128 characters. <br>
 
-          <b>Alias Directory</b> is similar to catch-all, you can use <em>your_directory+ANYTHING@simplelogin.co</em> as alias. <b>your_directory</b> is the name of the directory you created. `
+          <b>Alias Directory</b> is similar to catch-all, you can use <em>your_directory+ANYTHING@simplelogin.co</em> as alias. <b>your_directory</b> is the name of the directory you created. `,
       },
       {
         q: `I receive an email forwarded to my personal email from an alias. How can I reply to that email? Do I need to go to SimpleLogin to initiate the reply?`,
         a: `You can reply directly from your email client. Just click on the "reply" button, the reply will be routed via SimpleLogin and SimpleLogin will make it coming from your alias. Your personal email will stay invisible to the original sender. <br><br>
           Technically, the <b>From</b> header in your email is replaced by a special alias dynamically generated for each sender. When you reply, your reply is actually sent to this special alias and SimpleLogin will relay the reply back to the sender, making sure the email is sent from your alias. All information about your personal email address is removed during that process.
-          `
+          `,
       },
       {
         q: `Are my emails modified?`,
-        a: `No your email content is forwarded <b>as-is</b>, attachments included. SimpleLogin doesn't modify email content and only relies on email <b>headers</b> to do its "magic".`
+        a: `No your email content is forwarded <b>as-is</b>, attachments included. SimpleLogin doesn't modify email content and only relies on email <b>headers</b> to do its "magic".`,
       },
       {
         q: `What is a <b>reverse-alias</b>?`,
         a: `A reverse-alias is a <b>special</b> alias that allows you to send email <b>from your alias</b>. <br>
         A reverse-alias is created for each alias you want to send email from and each contact you want to send email to. <br>
-        When you send an email to a reverse-alias from your personal email, the email will be sent from your alias to the contact.`
+        When you send an email to a reverse-alias from your personal email, the email will be sent from your alias to the contact.`,
       },
       {
         q: `Is email alias permanent?`,
-        a: `As a normal email address, an email alias is always there unless you delete it.`
+        a: `As a normal email address, an email alias is always there unless you delete it.`,
       },
       {
         q: `Where is SimpleLogin server located?`,
-        a: `We use UpCloud, a Finland cloud provider. Our server is currently located in its France-Germany datacenter.`
+        a: `We use UpCloud, a Finland cloud provider. Our server is currently located in its France-Germany datacenter.`,
       },
       {
         q: `I don't find answer to my question here`,
-        a: `Please send your question to <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a>. You can also create an issue on our <a href="https://github.com/simple-login/app/issues">GitHub Issues</a>.`
-      }
-
-    ]
-  }
-})
-
+        a: `Please send your question to <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a>. You can also create an issue on our <a href="https://github.com/simple-login/app/issues">GitHub Issues</a>.`,
+      },
+    ],
+  },
+});
 
 var faqPricingApp = new Vue({
-  el: '#faq-pricing-app',
+  el: "#faq-pricing-app",
   delimiters: ["[", "]"],
   data: {
     qas: [
@@ -168,7 +166,7 @@ var faqPricingApp = new Vue({
 
         For example, if you have 100 aliases by the time your subscription ends, these
         100 aliases will continue receiving and sending emails normally. You cannot however create new aliases.
-          `
+          `,
       },
       {
         q: `What happens when I reach the maximum number of alias in free plan?`,
@@ -176,7 +174,7 @@ var faqPricingApp = new Vue({
         (i.e. 15 aliases). <br>
         Aliases that would otherwise be created automatically via the catch-all domain or directory feature also
         cannot be created. <br>
-          `
+          `,
       },
       {
         q: "Do you offer discounts?",
@@ -193,7 +191,7 @@ var faqPricingApp = new Vue({
         - charity organizations <br>
 
         Please send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> for more info. <br><br>
-          `
+          `,
       },
       {
         q: `Which payment methods do you support?`,
@@ -213,15 +211,14 @@ var faqPricingApp = new Vue({
           href="https://paddle.com/support/which-payment-methods-do-you-support/">Paddle supported payment
           methods</a>. <br>
 
-        Send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> if you want to use other payment options (e.g. IBAN transfer, Cryptocurrency, etc).`
-      }
-
-    ]
-  }
-})
+        Send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> if you want to use other payment options (e.g. IBAN transfer, Cryptocurrency, etc).`,
+      },
+    ],
+  },
+});
 
 var faqPartnerApp = new Vue({
-  el: '#faq-partner-app',
+  el: "#faq-partner-app",
   delimiters: ["[", "]"],
   data: {
     qas: [
@@ -236,7 +233,7 @@ var faqPartnerApp = new Vue({
       their data, does not have any incentive to utilize your user data. <br>
       In addition, we believe in a fair model: users come to your website because your website brings value
       to them and we are in a win-win relationship, so you deserve to have a share of the benefit.
-          `
+          `,
       },
       {
         q: `Ok, got it. But how about the recent "Sign in with Apple" ?`,
@@ -245,7 +242,7 @@ var faqPartnerApp = new Vue({
         Apple can also be considered as an ad platform with their Apple Search Ads so better to not put Apple
         in a (much) higher position than Facebook or Google in terms of privacy. <br>
         Arguments about transparent pricing and fair model apply to Apple too 😉
-          `
+          `,
       },
       {
         q: "Why should I trust SimpleLogin?",
@@ -254,13 +251,13 @@ var faqPartnerApp = new Vue({
                   can be self-hosted. Anyone can freely audit the code or setup their own SimpleLogin server. <br>
                   SimpleLogin revenue is based on a transparent and sustainable model that allows us to have a
                   privacy-first and tracker-free product.
-          `
+          `,
       },
       {
         q: `Do you plan to release a SDK to support native, windows, etc app?`,
         a: `Yes absolutely! We started with the web platform simply because they can be used for mobile app as
         well via a Android WebView or IOS UIWebView. We plan to provide a SDK and some examples for Android,
-        iOS, Windows quite soon. Stay tuned!`
+        iOS, Windows quite soon. Stay tuned!`,
       },
       {
         q: `How does the "revenue sharing" work?`,
@@ -296,15 +293,14 @@ var faqPartnerApp = new Vue({
       <br>
 
         monthly_revenue = 50000 * 1/2 * 1 / 5 = 5000$
-      <br>`
-      }
-
-    ]
-  }
-})
+      <br>`,
+      },
+    ],
+  },
+});
 
 var faqTechApp = new Vue({
-  el: '#faq-tech-app',
+  el: "#faq-tech-app",
   delimiters: ["[", "]"],
   data: {
     qas: [
@@ -313,37 +309,35 @@ var faqTechApp = new Vue({
         a: `The current limit is 10MB. For large attachments, we suggest using a file upload service and send the link instead. You can find some file sharing services that respect our privacy on <a href="https://www.privacytools.io/software/file-sharing/">PrivacyTools</a> <br>
         Another reason of having this limit is the PGP encryption is a heavy process, supporting a bigger size can put a big load on our server. <br>
         10MB is also the default size limit used in Postfix, a popular email MTA that SimpleLogin is using.
-          `
+          `,
       },
       {
         q: `I accidentally deleted an alias, can I restore it?`,
         a: `When an alias is deleted, it's put into a global <b>trash</b> and we make sure that it can't be reused. All historic information on the alias (the account that creates the alias, alias contacts, etc) are deleted to respect your privacy. <br>
         This applies to all aliases created with SimpleLogin domains (aleeas.com, simplelogin.co, simplelogin.fr, slmail.me). <br>
         You can however restore an alias created with your custom domain.
-          `
+          `,
       },
       {
         q: "Where is SimpleLogin PGP key?",
         a: `
         Our <a download href="/hi_at_simplelogin.asc">PGP key</a> for <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a>.
         It's also on <a href="https://keys.openpgp.org/search?q=hi%40simplelogin.io">keys.openpgp.org</a>
-          `
-      }
-
-    ]
-  }
-})
+          `,
+      },
+    ],
+  },
+});
 
 // parse the slref and store in cookie
-const refCode = urlParams.get('slref');
-if (refCode !== null){
+const refCode = urlParams.get("slref");
+if (refCode !== null) {
   console.log("Save refCode into cookie", refCode);
-  Cookies.set('slref', refCode, { domain: window.location.hostname });
+  Cookies.set("slref", refCode, { domain: window.location.hostname });
 }
-
 
 // Thanks to Sami
 // Toggle animation
-$('#hero-svg').on('click', '.Awesome_Toggle_Button', (e) => {
-  $(e.target).closest('.Awesome_Toggle_Button').toggleClass('State_On');
+$("#hero-svg").on("click", ".Awesome_Toggle_Button", (e) => {
+  $(e.target).closest(".Awesome_Toggle_Button").toggleClass("State_On");
 });
