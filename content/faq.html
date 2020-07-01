@@ -1,0 +1,210 @@
+---
+title: "SimpleLogin | FAQ"
+url: "/faq"
+canonicalUrl: "https://simplelogin.io/faq/"
+description: "SimpleLogin Frequently Asked Questions"
+---
+
+<!-- ========== MAIN CONTENT ========== -->
+<main id="content" role="main">
+  <!-- Header Section -->
+  <div class="container space-1 space-top-lg-1">
+    <!-- Title -->
+    <div class="w-lg-75 text-center mx-lg-auto mb-7">
+      <span class="btn btn-xs btn-soft-success btn-pill mb-2 mt-7">Help</span>
+      <h2 class="h1 font-size-md-down-3 font-weight-semi-bold">
+        Frequently asked <span class="font-weight-semi-bold">questions</span>
+      </h2>
+    </div>
+    <!-- End Title -->
+  </div>
+  <!-- End Header Section -->
+
+  <!-- Tech questions -->
+  <div class="container">
+    <!-- Title -->
+    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mt-7">
+      <h2 class="text-primary">Tech questions</h2>
+    </div>
+    <!-- End Title -->
+
+    <!-- Basics Accordion -->
+    <div id="faq-tech-app">
+      <div id="basicsAccordion">
+        <!-- Card -->
+        <div class="card mb-3" v-for="(qa, index) in qas">
+          <div class="card-header card-collapse" :id="'tech-item-' + index">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
+                data-toggle="collapse"
+                v-bind:data-target="'#tech-collapse-item-' + index"
+                aria-expanded="false"
+                v-bind:aria-controls="'tech-collapse-item-' + index"
+              >
+                <span v-html="qa.q"></span>
+
+                <span class="card-btn-arrow">
+                  <span class="fas fa-arrow-down small"></span>
+                </span>
+              </button>
+            </h5>
+          </div>
+          <div
+            :id="'tech-collapse-item-' + index"
+            class="collapse"
+            v-bind:aria-labelledby="'tech-item-' + index"
+            data-parent="#basicsAccordion"
+          >
+            <div class="card-body" style="line-height: 1.6;">
+              <p v-html="qa.a"></p>
+            </div>
+          </div>
+        </div>
+        <!-- End Card -->
+      </div>
+    </div>
+  </div>
+  <!-- END Tech questions -->
+
+  <!-- General questions -->
+  <div class="container">
+    <!-- Title -->
+    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
+      <h2 class="text-primary">General questions</h2>
+    </div>
+    <!-- End Title -->
+
+    <!-- Basics Accordion -->
+    <div id="faq-app">
+      <div id="basicsAccordion">
+        <!-- Card -->
+        <div class="card mb-3" v-for="(qa, index) in qas">
+          <div class="card-header card-collapse" :id="'basicsHeading' + index">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
+                data-toggle="collapse"
+                v-bind:data-target="'#general-item-' + index"
+                aria-expanded="false"
+                v-bind:aria-controls="'general-item-' + index"
+              >
+                <span v-html="qa.q"></span>
+
+                <span class="card-btn-arrow">
+                  <span class="fas fa-arrow-down small"></span>
+                </span>
+              </button>
+            </h5>
+          </div>
+          <div
+            :id="'general-item-' + index"
+            class="collapse"
+            v-bind:aria-labelledby="'basicsHeading' + index"
+            data-parent="#basicsAccordion"
+          >
+            <div class="card-body">
+              <p v-html="qa.a"></p>
+            </div>
+          </div>
+        </div>
+        <!-- End Card -->
+      </div>
+    </div>
+  </div>
+  <!-- END General questions -->
+
+  <!-- Partner questions -->
+  <div class="container pt-2 pb-3">
+    <!-- Title -->
+    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5">
+      <h2 class="text-primary mt-7">Partner/Developer questions</h2>
+    </div>
+    <!-- End Title -->
+
+    <div id="faq-partner-app">
+      <div id="basicsAccordion">
+        <!-- Card -->
+        <div class="card mb-3" v-for="(qa, index) in qas">
+          <div class="card-header card-collapse" :id="'basicsHeading' + index">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
+                data-toggle="collapse"
+                v-bind:data-target="'#partner-item-' + index"
+                aria-expanded="false"
+                v-bind:aria-controls="'partner-item-' + index"
+              >
+                <span v-html="qa.q"></span>
+
+                <span class="card-btn-arrow">
+                  <span class="fas fa-arrow-down small"></span>
+                </span>
+              </button>
+            </h5>
+          </div>
+          <div
+            :id="'partner-item-' + index"
+            class="collapse"
+            v-bind:aria-labelledby="'basicsHeading' + index"
+            data-parent="#basicsAccordion"
+          >
+            <div class="card-body" style="line-height: 1.6;">
+              <p v-html="qa.a"></p>
+            </div>
+          </div>
+        </div>
+        <!-- End Card -->
+      </div>
+    </div>
+  </div>
+  <!-- END Partner questions -->
+
+  <!-- Plan questions -->
+  <div class="container">
+    <!-- Title -->
+    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5 mt-7">
+      <h2 class="text-primary">Plan/Pricing questions</h2>
+    </div>
+    <!-- End Title -->
+
+    <!-- Basics Accordion -->
+    <div id="faq-pricing-app">
+      <div id="basicsAccordion">
+        <!-- Card -->
+        <div class="card mb-3" v-for="(qa, index) in qas">
+          <div class="card-header card-collapse" :id="'basicsHeading' + index">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
+                data-toggle="collapse"
+                v-bind:data-target="'#plan-item-' + index"
+                aria-expanded="false"
+                v-bind:aria-controls="'plan-item-' + index"
+              >
+                <span v-html="qa.q"></span>
+
+                <span class="card-btn-arrow">
+                  <span class="fas fa-arrow-down small"></span>
+                </span>
+              </button>
+            </h5>
+          </div>
+          <div
+            :id="'plan-item-' + index"
+            class="collapse"
+            v-bind:aria-labelledby="'basicsHeading' + index"
+            data-parent="#basicsAccordion"
+          >
+            <div class="card-body" style="line-height: 1.6;">
+              <p v-html="qa.a"></p>
+            </div>
+          </div>
+        </div>
+        <!-- End Card -->
+      </div>
+    </div>
+  </div>
+  <!-- Plan questions -->
+</main>
+<!-- ========== END MAIN CONTENT ========== -->

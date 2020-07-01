@@ -303,6 +303,37 @@ var faqPartnerApp = new Vue({
   }
 })
 
+var faqTechApp = new Vue({
+  el: '#faq-tech-app',
+  delimiters: ["[", "]"],
+  data: {
+    qas: [
+      {
+        q: `What is the maximum email size?`,
+        a: `The current limit is 10MB. For large attachments, we suggest using a file upload service and send the link instead. You can find some file sharing services that respect our privacy on <a href="https://www.privacytools.io/software/file-sharing/">PrivacyTools</a> <br>
+        Another reason of having this limit is the PGP encryption is a heavy process, supporting a bigger size can put a big load on our server. <br>
+        10MB is also the default size limit used in Postfix, a popular email MTA that SimpleLogin is using.
+          `
+      },
+      {
+        q: `I accidentally deleted an alias, can I restore it?`,
+        a: `When an alias is deleted, it's put into a global <b>trash</b> and we make sure that it can't be reused. All historic information on the alias (the account that creates the alias, alias contacts, etc) are deleted to respect your privacy. <br>
+        This applies to all aliases created with SimpleLogin domains (aleeas.com, simplelogin.co, simplelogin.fr, slmail.me). <br>
+        You can however restore an alias created with your custom domain.
+          `
+      },
+      {
+        q: "Where is SimpleLogin PGP key?",
+        a: `
+        Our <a download href="/hi_at_simplelogin.asc">PGP key</a> for <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a>.
+        It's also on <a href="https://keys.openpgp.org/search?q=hi%40simplelogin.io">keys.openpgp.org</a>
+          `
+      }
+
+    ]
+  }
+})
+
 // parse the slref and store in cookie
 const refCode = urlParams.get('slref');
 if (refCode !== null){
