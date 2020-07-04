@@ -11,7 +11,9 @@ layout: "single_markdown"
 
 The privacy of your data — and it is your data, not ours! — is a big deal to us. In this policy, we lay out: what data we collect and why; how your data is handled; and your rights to your data.
 
-In the following policy, SimpleLogin refers to the service offered by SimpleLogin (the "Company" or "We") through the https://simplelogin.io website (the "Service").
+In the following policy, SimpleLogin refers to the service offered by SimpleLogin SAS (the "Company" or "We") through the https://simplelogin.io website (the "Service").
+
+The Company is registered in France under the SIREN number 884302134.
 
 By visiting our website and using the Service provided here, you agree to the terms outlined in this privacy policy.
 
