@@ -13,7 +13,7 @@ if ($.cookie("hellobar") !== "closed") {
   const utmSource = urlParams.get("utm_source");
   if (utmSource === "LesPepitesTech.com") {
     console.log("Show hello bar for LesPepitesTech");
-    $("#hello-bar").removeClass("d-none");
+    $("#pepitestech-bar").removeClass("d-none");
   }
 }
 
