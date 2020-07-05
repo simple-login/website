@@ -1,22 +1,3 @@
-const urlParams = new URLSearchParams(window.location.search);
-
-/* Make sure to not show the hello-bar again if you have already closed it.
-Inspired from https://stackoverflow.com/a/13699319/1428034 */
-
-$(".close").click(function (e) {
-  e.preventDefault();
-  $.cookie("hellobar", "closed", { path: "/" });
-});
-
-// Check if alert has been closed
-if ($.cookie("hellobar") !== "closed") {
-  const utmSource = urlParams.get("utm_source");
-  if (utmSource === "LesPepitesTech.com") {
-    console.log("Show hello bar for LesPepitesTech");
-    $("#pepitestech-bar").removeClass("d-none");
-  }
-}
-
 var faqApp = new Vue({
   el: "#faq-app",
   delimiters: ["[", "]"],
@@ -330,10 +311,32 @@ var faqTechApp = new Vue({
 });
 
 // parse the slref and store in cookie
+const urlParams = new URLSearchParams(window.location.search);
 const refCode = urlParams.get("slref");
 if (refCode !== null) {
-  console.log("Save refCode into cookie", refCode);
+  //Save refCode into cookie
   Cookies.set("slref", refCode, { domain: window.location.hostname });
+}
+
+/* Make sure to not show the hello-bar again if you have already closed it.
+    Inspired from https://stackoverflow.com/a/13699319/1428034 */
+
+$(".close").click(function (e) {
+  e.preventDefault();
+  $.cookie("hellobar", "closed", { path: "/" });
+});
+
+// Check if alert has been closed
+// only show the hellobar on home page
+if ($.cookie("hellobar") !== "closed" && location.pathname == "/") {
+  const utmSource = urlParams.get("utm_source");
+  if (utmSource === "LesPepitesTech.com") {
+    // Show LesPepitesTech hellobar
+    $("#pepitestech-bar").removeClass("d-none");
+  } else {
+    // Show generic hellobar
+    $("#hello-bar").removeClass("d-none");
+  }
 }
 
 // Thanks to Sami
