@@ -7,7 +7,7 @@ description: "SimpleLogin Privacy Policy."
 layout: "single_markdown"
 ---
 
-**Last updated: April 22, 2020**
+**Last updated: July 6, 2020**
 
 The privacy of your data — and it is your data, not ours! — is a big deal to us. In this policy, we lay out: what data we collect and why; how your data is handled; and your rights to your data.
 
