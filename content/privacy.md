@@ -70,7 +70,10 @@ In SimpleLogin, you have the option to delete your account. Your account along w
 
 ## Information We Collect Automatically
 
-- IP Logging: By default, SimpleLogin does not keep permanent IP logs. IP addresses can appear in Postfix (our MTA) and Nginx (our webserver) logs. Logs older than 7 days are deleted. However your IP address may be retained permanently if you are engaged in activities that breach our terms and conditions (spamming, DDoS attacks, brute force attacks, etc). The legal basis of this processing is our legitimate interest to protect our service against nefarious activities
+- Your emails: SimpleLogin does **not** store your emails. An email is deleted from SimpleLogin server as soon as it reaches its destination, i.e. your mailboxes for an email sent **to** your alias or your contact mailbox in case an email is sent **from** your alias. Emails that cannot be delivered are kept for 7 days so you can view and decide what to do with them.
+
+
+- IP Logging: By default, SimpleLogin does **not** keep permanent IP logs. IP addresses can appear in Postfix (our MTA) and Nginx (our webserver) logs. Logs older than 7 days are deleted. However your IP address may be retained permanently if you are engaged in activities that breach our terms and conditions (spamming, DDoS attacks, brute force attacks, etc). The legal basis of this processing is our legitimate interest to protect our service against nefarious activities
 
 
 - Native Applications: When you use our native applications such as iOS and Android apps, we (or the mobile app platform providers) may collect certain information in addition to the information mentioned elsewhere in this Policy. We may use mobile analytics software to send crash information to our developers so that we can fix bugs rapidly. Some platforms (such as the Google Play Store or the Apple App Store) may also collect aggregate, anonymous statistics governed by the privacy policy and terms and conditions of the Google Play Store or the Apple App Store. None of the software on our apps will ever access or track any location-based information from your device at any time. Any personal data acquired during this process is anonymized.
