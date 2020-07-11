@@ -328,16 +328,16 @@ $(".close").click(function (e) {
 
 // Check if alert has been closed
 // only show the hellobar on home page
-if ($.cookie("hellobar") !== "closed" && location.pathname == "/") {
-  const utmSource = urlParams.get("utm_source");
-  if (utmSource === "LesPepitesTech.com") {
-    // Show LesPepitesTech hellobar
-    $("#pepitestech-bar").removeClass("d-none");
-  } else {
-    // Show generic hellobar
-    $("#hello-bar").removeClass("d-none");
-  }
-}
+// if ($.cookie("hellobar") !== "closed" && location.pathname == "/") {
+//   const utmSource = urlParams.get("utm_source");
+//   if (utmSource === "LesPepitesTech.com") {
+//     // Show LesPepitesTech hellobar
+//     $("#pepitestech-bar").removeClass("d-none");
+//   } else {
+//     // Show generic hellobar
+//     $("#hello-bar").removeClass("d-none");
+//   }
+// }
 
 // Thanks to Sami
 // Toggle animation
