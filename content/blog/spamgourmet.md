@@ -7,7 +7,7 @@ authorLink: "https://twitter.com/nguyenkims"
 authorAvatar: "/images/son.jpg"
 ---
 
-I learnt about [Spamgourmet](https://www.spamgourmet.com/index.pl) via a friend who has been using the service for more than 10 years. Even though I couldn't create a new account on Spamgourmet (the registration is closed), I only heard nice things about this service.
+I learned about [Spamgourmet](https://www.spamgourmet.com/index.pl) via a friend who has been using the service for more than 10 years. Even though I couldn't create a new account on Spamgourmet (the registration is closed), I only heard nice things about this service.
 
 {{< rawhtml >}}
 <p align="center">
@@ -31,11 +31,11 @@ Then I stumbled upon this [sad topic](https://bbs.spamgourmet.com/viewtopic.php?
 
 For those who might ask, is SimpleLogin a concurrent to Spamgourmet? Actually no because:
 
-- Spamgourmet Alias (or `address`) is temporary by design: by default an alias can only receive up to [20 emails](https://www.spamgourmet.com/index.pl?printpage=faq.html) unless you use the Advanced Mode. A SimpleLogin alias is designed as an email replacement and is permanent unless you delete it.
+- Spamgourmet Alias (or `address`) is temporary by design: by default, an alias can only receive up to [20 emails](https://www.spamgourmet.com/index.pl?printpage=faq.html) unless you use the Advanced Mode. A SimpleLogin alias is designed as an email replacement and is permanent unless you delete it.
 - Spamgourmet targets at "geeky" people, hence the technical feel of the website. SimpleLogin targets the general public.
-- Spamgourmet goal is to avoid spams. While SimpleLogin alias also protects users from spams, SimpleLogin's ambition is to offer an alternative to "Sign in with Facebook|Google|Apple" button and make alias a complete replacement to email.
+- Spamgourmet goal is to avoid spams. While SimpleLogin alias also protects users from spams, SimpleLogin's ambition is to offer an alternative to the "Sign in with Facebook|Google|Apple" button and make alias a complete replacement to email.
 - Spamgourmet registration is now closed.
-- And more importantly, the market is big enough for all email alias services. Most of the people I talk with don't know about the existence of email alias and its benefit. Time is actually more spent on market education than competing with concurrences.
+- And more importantly, the market is big enough for all email alias services. Most of the people I talk with don't know about the existence of email alias and its benefit. Time is more spent on market education than competing with concurrences.
 
 {{< rawhtml >}}
 <figure align="center">

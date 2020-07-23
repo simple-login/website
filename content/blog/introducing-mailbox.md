@@ -34,4 +34,4 @@ The mailbox doesn't have to be your personal email: you can also create aliases 
 
 You can create and manage mailboxes on your [dashboard](https://app.simplelogin.io/dashboard/mailbox).
 
-Adding additional mailboxes is available in the Premium plan or during the trial period. Same for other features: mailboxes created during trial period are kept and continue working normally when the trial ends.
+Adding additional mailboxes is available in the Premium plan or during the trial period. Same for other features: mailboxes created during the trial period are kept and continue working normally when the trial ends.

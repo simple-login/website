@@ -22,11 +22,11 @@ The Android app code is on [Android Github repository](https://github.com/simple
 
 ---
 
-With the release of the mobile apps, SimpleLogin now covers most major platforms:
+With the release of mobile apps, SimpleLogin now covers most major platforms:
 
 #### Desktop
 
-* [Chrome](https://chrome.google.com/webstore/detail/simplelogin-extension/dphilobhebphkdjbpfohgikllaljmgbn) and other Chromium-based browser like Edge, Opera, Brave, etc.
+* [Chrome](https://chrome.google.com/webstore/detail/simplelogin-extension/dphilobhebphkdjbpfohgikllaljmgbn) and other Chromium-based browsers like Edge, Opera, Brave, etc.
 * [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/simplelogin/)
 * [Safari](https://apps.apple.com/us/app/simplelogin/id1494051017?mt=12&fbclid=IwAR0M0nnEKgoieMkmx91TSXrtcScj7GouqRxGgXeJz2un_5ydhIKlbAI79Io)
 
@@ -41,6 +41,6 @@ With the release of the mobile apps, SimpleLogin now covers most major platforms
 </p>
 {{< /rawhtml >}}
 
-This mobile first version doesn't have all features as on the web app but it's quickly catching up, stay tuned!
+This mobile-first version doesn't have all features as on the web app but it's quickly catching up, stay tuned!
 
 

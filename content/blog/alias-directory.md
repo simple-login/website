@@ -7,7 +7,7 @@ authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
 ---
 
-Lot of users complain that every time they need an email, they need to go to SimpleLogin dashboard to create an alias and this flow is just too slow.
+A lot of users complain that every time they need an email, they need to go to SimpleLogin dashboard to create an alias and this flow is just too slow.
 
 There must be a better way!
 
@@ -29,21 +29,21 @@ next time you need an email address.
 
 **your_directory** is the name your directory. Voilà, simple, right?
 
-If you come from [33mail](https://www.33mail.com), directory is quite similar to the 33mail's `username`. We have decided to NOT use the same naming because of several reasons:
+If you come from [33mail](https://www.33mail.com), a directory is quite similar to the 33mail's `username`. We have decided to NOT use the same naming because of several reasons:
 
 - `username` doesn't sound right technically. As it's used in "@username.33mail.com", it should be rather named `subdomain` or maybe `namespace`.
 
-- Our directory ambition is much more than a wildcard alias. With both directory and custom domain, one could use `hr/` to handle emails for HR department, `tech/backend/` for all emails related to backend team. This is because directory structure is recursive, allowing much more combinations. Currently directories **only** work with SimpleLogin domains and the possibility to use directories with your custom domains are in progress. You can track its progress on our [roadmap](https://trello.com/c/CSBsfCh9/59-support-multiple-directory-mailbox-for-custom-domain).
+- Our directory ambition is much more than a wildcard alias. With both directory and custom domain, one could use `hr/` to handle emails for HR department, `tech/backend/` for all emails related to the backend team. This is because directory structure is recursive, allowing more combinations. For the moment, directories **only** work with SimpleLogin domains and the possibility to use directories with your custom domains are in progress. You can track its progress on our [roadmap](https://trello.com/c/CSBsfCh9/59-support-multiple-directory-mailbox-for-custom-domain).
 
 - `/` is a perfectly valid email character. According to [Wikipedia](https://en.wikipedia.org/wiki/Email_address)
 
     > printable characters !#$%&'*+-/=?^_`{|}~;
 
-    are all valid characters. We also support `#` and `+` as separator.
+    are all valid characters. We also support `#` and `+` as a separator.
 
 - It's almost impossible to implement a strict [DMARC Alignment](https://en.wikipedia.org/wiki/DMARC#Alignment) for wildcard subdomains. As setting up DMARC is highly recommended to reduce the chance your emails ending up in the recipient's Spam folder, supporting this alias format is maybe not a good idea.
 
-This feature is currently only available in premium plan.
+This feature is currently only available in the premium plan.
 
 
 

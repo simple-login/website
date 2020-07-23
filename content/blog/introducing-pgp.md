@@ -9,11 +9,11 @@ authorAvatar: "/logo-square.svg"
 
 Pretty Good Privacy (PGP) is a program to encrypt your emails, texts, files, etc. As emails on Gmail, Yahoo, Outlook and other popular email services are stored in **cleartext**, PGP can be a solution to keep your emails from being read & analyzed by these big techs.
 
-PGP is based on [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography). Essentially you have 2 keys: a public key and a private key. Your public key is **known** to everyone whereas **only** you have access to the private key. Message encrypted with the public key can only be decrypted with the private key. You can learn more about PGP on [openpgp](https://www.openpgp.org).
+PGP is based on [public-key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography). Essentially you have 2 keys: a public key and a private key. Your public key is **known** to everyone whereas **only** you have access to the private key. A message encrypted with the public key can only be decrypted with the private key. You can learn more about PGP on [openpgp](https://www.openpgp.org).
 
 > In practice, if someone wants to send you a secret message that only you can read, this person encrypts the message using your public key.
 
-Without PGP the emails sent to an alias are forwarded by SimpleLogin **as-is** to your mailbox, leaving anyone in-between or your email service able to read your emails.
+Without PGP, the emails sent to an alias are forwarded by SimpleLogin **as-is** to your mailbox, leaving anyone in-between or your email service being able to read your emails.
 
 {{< rawhtml >}}
 <img src="/blog/without-pgp.png" class="w-100 my-3" style="max-width: 800px">
@@ -34,7 +34,7 @@ As emails are not stored on SimpleLogin, only you can read your emails.
 
 You can create and manage your keys when adding/editing your mailboxes. Check it out your [mailbox dashboard ↗](https://app.simplelogin.io/dashboard/mailbox).
 
-As PGP encryption is resource intensive, this feature is only available in the Premium plan or during the trial period.
+As PGP encryption is resource-intensive, this feature is only available in the Premium plan or during the trial period.
 
-After the trial, SimpleLogin stop encrypting the forwarded emails.
+After the trial, SimpleLogin stops encrypting the forwarded emails.
 
