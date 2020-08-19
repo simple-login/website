@@ -107,3 +107,8 @@ blockquote p {
 .Awesome_Toggle_Button.State_On .Awesome_Toggle_Button_Nub {
 	transform: translateX(.9em);
 }
+
+.blog h4, .blog h3, .blog h2, .blog h1 {
+    color: #343a40;
+}
+
