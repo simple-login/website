@@ -1,7 +1,7 @@
 <script type="application/ld+json">
 {
     "@context" : "http://schema.org",
-    "@type" : "BlogPosting",
+    "@type" : "Organization",
     "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "{{ .Site.BaseURL }}"
@@ -21,6 +21,11 @@
     "dateModified" : "{{ .Date }}",
     "url" : "{{ .Permalink }}",
     "wordCount" : "{{ .WordCount }}",
-    "keywords" : [ {{ if isset .Params "tags" }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}"Blog" ]
+    "keywords" : [ {{ if isset .Params "tags" }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}"Blog" ],
+    "sameAs": [
+      "https://twitter.com/simple_login",
+      "https://www.facebook.com/slfbpage/",
+      "https://www.linkedin.com/company/simple-login"
+    ]
 }
 </script>
