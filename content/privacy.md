@@ -3,7 +3,7 @@ title: "SimpleLogin Privacy Policy"
 pageTitle: "Privacy Policy"
 url: "/privacy"
 canonicalUrl: "https://simplelogin.io/privacy/"
-description: "SimpleLogin Privacy Policy."
+description: "SimpleLogin Privacy Policy. The privacy of your data — and it is your data, not ours! — is a big deal to us."
 layout: "single_markdown"
 ---
 

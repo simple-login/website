@@ -3,7 +3,7 @@ title: "SimpleLogin Security"
 pageTitle: "Security Overview"
 url: "/security"
 canonicalUrl: "https://simplelogin.io/security/"
-description: "SimpleLogin Security."
+description: "SimpleLogin Security. Keeping your data safe and secure is a huge responsibility and a top priority for us. Here's how we make it happen."
 layout: "single_markdown"
 ---
 
