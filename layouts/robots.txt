@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: {{ "sitemap.xml" | absLangURL }}
+Sitemap: https://simplelogin.io/sitemap.xml
