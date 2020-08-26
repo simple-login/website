@@ -11,7 +11,7 @@ I learned about [Spamgourmet](https://www.spamgourmet.com/index.pl) via a friend
 
 {{< rawhtml >}}
 <p align="center">
-    <img src="/blog/sg.png" class="img-fluid" style="max-height: 200px">
+    <img src="/blog/sg.png" class="img-fluid" style="max-height: 200px" alt="SpamGourmet logo">
 </p>
 {{< /rawhtml >}}
 
@@ -39,7 +39,7 @@ For those who might ask, is SimpleLogin a concurrent to Spamgourmet? Actually no
 
 {{< rawhtml >}}
 <figure align="center">
-    <img src="/blog/screenshot.png" class="img-fluid" style="max-height: 350px">
+    <img src="/blog/screenshot.png" class="img-fluid" style="max-height: 350px" alt="SimpleLogin UI">
     <figcaption class="text-center mt-2" style="font-size: 12px; color: #ea319f">SimpleLogin UI</figcaption>
 </figure>
 {{< /rawhtml >}}

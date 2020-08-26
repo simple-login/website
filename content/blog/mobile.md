@@ -16,7 +16,7 @@ The Android app code is on [Android Github repository](https://github.com/simple
 
 {{< rawhtml >}}
 <p align="left">
-    <img src="/blog/mobile.png" class="img-fluid" style="max-height: 350px">
+    <img src="/blog/mobile.png" class="img-fluid" style="max-height: 350px" alt="Android & iOS screenshots">
 </p>
 {{< /rawhtml >}}
 
@@ -37,7 +37,7 @@ With the release of mobile apps, SimpleLogin now covers most major platforms:
 
 {{< rawhtml >}}
 <p align="left">
-    <img src="/blog/devices.png" class="img-fluid" style="max-height: 450px">
+    <img src="/blog/devices.png" class="img-fluid" style="max-height: 450px" alt="All supported devices">
 </p>
 {{< /rawhtml >}}
 

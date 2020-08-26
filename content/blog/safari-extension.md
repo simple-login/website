@@ -13,7 +13,7 @@ You can install it on the [AppStore](https://apps.apple.com/us/app/simplelogin/i
 
 {{< rawhtml >}}
 <p align="left">
-    <img src="/blog/safari-extension.png" class="img-fluid" style="max-height: 250px">
+    <img src="/blog/safari-extension.png" class="img-fluid" style="max-height: 250px" alt="Safari screenshot">
 </p>
 {{< /rawhtml >}}
 
@@ -29,7 +29,7 @@ These browsers in total represent about 95% of desktop browser share.
 {{< rawhtml >}}
 <div class="w-lg-80">
 <p align="left">
-    <img src="/blog/browser-share.png" class="img-fluid">
+    <img src="/blog/browser-share.png" class="img-fluid" alt="Browser market share">
 </p>
 <p style="font-size: 12px" class="text-center">Source: https://gs.statcounter.com/browser-market-share/desktop/worldwide</p>
 </div>

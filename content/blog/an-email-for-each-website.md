@@ -15,7 +15,7 @@ When this question was asked by my girlfriend (now wife 😅), my immediate answ
 
 {{< rawhtml >}}
 <p align="left">
-    <img src="/blog/footprint.jpeg" class="img-fluid" style="max-height: 250px">
+    <img src="/blog/footprint.jpeg" class="img-fluid" alt="Fingerprint image" style="max-height: 250px">
 </p>
 {{< /rawhtml >}}
 

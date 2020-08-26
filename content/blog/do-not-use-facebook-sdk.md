@@ -15,12 +15,15 @@ However behind the scene, some SDKs (I'm looking at you Facebook!) inject an ifr
 
 > Loading this iframe allows Facebook to know that this specific user is currently on your website
 
-<img src="/blog/facebook-js-sdk/facebook-sdk.png" class="w-75">
-
+{{< rawhtml >}}
+<img src="/blog/facebook-js-sdk/facebook-sdk.png" class="w-75" alt="Facebook SDK screenshot">
+{{< /rawhtml >}}
 
 The iframe is actually injected in a second script loaded by the `https://connect.facebook.net/en_US/sdk.js`:
 
-<img src="/blog/facebook-js-sdk/facebook-iframe.png" class="w-50">
+{{< rawhtml >}}
+<img src="/blog/facebook-js-sdk/facebook-iframe.png" class="w-50" alt="Facebook iFrame screenshot">
+{{< /rawhtml >}}
 
 So what should we do to provide this **Login with Facebook** button to our users? The good news is this is actually easy as Facebook implements OAuth2/OpenID standard so you can use any OAuth2/OpenID library to add the Facebook login button. You can also add other login providers like Google, Github, Apple ... at the same time as those are also OAuth2/OpenID compliant.
 

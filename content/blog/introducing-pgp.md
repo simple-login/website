@@ -16,7 +16,7 @@ PGP is based on [public-key cryptography](https://en.wikipedia.org/wiki/Public-k
 Without PGP, the emails sent to an alias are forwarded by SimpleLogin **as-is** to your mailbox, leaving anyone in-between or your email service being able to read your emails.
 
 {{< rawhtml >}}
-<img src="/blog/without-pgp.png" class="w-100 my-3" style="max-width: 800px">
+<img src="/blog/without-pgp.png" class="w-100 my-3" style="max-width: 800px" alt="Without PGP">
 {{< /rawhtml >}}
 
 ---
@@ -26,7 +26,7 @@ With PGP enabled, all emails arrived at SimpleLogin are **encrypted** with your 
 As emails are not stored on SimpleLogin, only you can read your emails.
 
 {{< rawhtml >}}
-<img src="/blog/with-pgp.png" class="w-100 my-3" style="max-width: 800px">
+<img src="/blog/with-pgp.png" class="w-100 my-3" style="max-width: 800px" alt="With PGP">
 {{< /rawhtml >}}
 
 

@@ -14,10 +14,10 @@ This feature is particularly useful if you have several email addresses, maybe f
 {{< rawhtml >}}
 <div class="row">
     <div class="col-md-6">
-        <img src="/blog/mailbox-gmail.png" class="img-fluid" style="max-height: 250px">
+        <img src="/blog/mailbox-gmail.png" class="img-fluid" style="max-height: 250px" alt="Gmail">
     </div>
     <div class="col-md-6">
-        <img src="/blog/mailbox-protonmail.png" class="img-fluid" style="max-height: 250px">
+        <img src="/blog/mailbox-protonmail.png" class="img-fluid" style="max-height: 250px" alt="Protonmail">
     </div>
 </div>
 {{< /rawhtml >}}
