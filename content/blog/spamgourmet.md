@@ -16,7 +16,7 @@ I learned about [Spamgourmet](https://www.spamgourmet.com/index.pl) via a friend
 {{< /rawhtml >}}
 
 
-The website seems out of date with its yellowish background and it's indeed old: it has been running since 2000! The service is free and if people like it, they could donate or buy a T-Shirt. Spamgourmet is also [open source](https://sourceforge.net/projects/spamgourmet/) so anyone could run it on their server.
+The website seems out of date with its yellowish background and it's indeed old: it has been running since 2000! The service is free and if people like it, they could donate or buy a T-Shirt. Spamgourmet is also [open-source](https://sourceforge.net/projects/spamgourmet/) so anyone could run it on their server.
 
 A simple, honest, transparent service like Spamgourmet is a great inspiration for SimpleLogin because of several reasons:
 

@@ -39,7 +39,7 @@ var faqApp = new Vue({
           SimpleLogin is the most advanced email alias solution and is in active development. Here are some differences between SimpleLogin and other email forwarding/alias services: <br><br>
 
           <ul>
-          <li>Fully open source: both SimpleLogin server and client code (browser extension, JS library, mobile apps) are <a href="https://github.com/simple-login/app">open source</a> so anyone can freely inspect and improve the code.
+          <li>Fully open-source: both SimpleLogin server and client code (browser extension, JS library, mobile apps) are <a href="https://github.com/simple-login/app">open-source</a> so anyone can freely inspect and improve the code.
           </li>
 
           <li>Covers all major platforms: Chrome/Firefox/Safari extension for desktop, iOS and Android apps for mobile. </li>
@@ -75,7 +75,7 @@ var faqApp = new Vue({
             SimpleLogin is simply a different product for a different need.`,
       },
       {
-        q: `What is SimpleLogin business model?`,
+        q: `What is SimpleLogin's business model?`,
         a: `Our revenue comes only from subscriptions, that means the product will stay ad-free forever.`,
       },
       {
@@ -88,7 +88,7 @@ var faqApp = new Vue({
         For information, <a href="https://www.spamgourmet.com/index.pl">Spamgourmet</a>, a similar email forwarding service has been running for more than 20 years now. Spamgourmet is actually <a href="/blog/spamgourmet/">an inspiration</a> for SimpleLogin.
         <br><br>
 
-        If all this is still not enough, you can also run a SimpleLogin instance yourself as SimpleLogin code is open source and we give detailed instructions on how to run it.
+        If all this is still not enough, you can also run a SimpleLogin instance yourself as SimpleLogin code is open-source and we give detailed instructions on how to run it.
           `,
       },
       {
@@ -123,7 +123,7 @@ var faqApp = new Vue({
         a: `We use UpCloud, a Finland cloud provider. Our server is currently located in its France-Germany datacenter.`,
       },
       {
-        q: `I don't find answer to my question here`,
+        q: `I can't find an answer to my question here`,
         a: `Please send your question to <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a>. You can also create an issue on our <a href="https://github.com/simple-login/app/issues">GitHub Issues</a>.`,
       },
     ],
@@ -228,7 +228,7 @@ var faqPartnerApp = new Vue({
       {
         q: "Why should I trust SimpleLogin?",
         a: `
-        SimpleLogin code is fully open source on <a href="https://github.com/simple-login">Github</a> and
+        SimpleLogin code is fully open-source on <a href="https://github.com/simple-login">Github</a> and
                   can be self-hosted. Anyone can freely audit the code or setup their own SimpleLogin server. <br>
                   SimpleLogin revenue is based on a transparent and sustainable model that allows us to have a
                   privacy-first and tracker-free product.
