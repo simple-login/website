@@ -335,23 +335,24 @@ function ctaMounted(){
       this.text = "Get SimpleLogin for Firefox >>"
     }
 
-    // Safari Desktop
-    else if (browserName == "Safari" && platform == "desktop"){
-      this.link = "https://apps.apple.com/app/id1494051017";
-      this.text = "Get SimpleLogin for Safari >>"
-    }
+    // TODO: enable Safari & Mobile links later
+    // // Safari Desktop
+    // else if (browserName == "Safari" && platform == "desktop"){
+    //   this.link = "https://apps.apple.com/app/id1494051017";
+    //   this.text = "Get SimpleLogin for Safari >>"
+    // }
 
-    // iOS
-    else if (osName == "iOS" && platform == "mobile"){
-      this.link = "https://apps.apple.com/app/id1494359858";
-      this.text = "Get SimpleLogin for iPhone >>"
-    }
+    // // iOS
+    // else if (osName == "iOS" && platform == "mobile"){
+    //   this.link = "https://apps.apple.com/app/id1494359858";
+    //   this.text = "Get SimpleLogin for iPhone >>"
+    // }
 
-    // android
-    else if (osName == "android" && platform == "mobile"){
-      this.link = "https://play.google.com/store/apps/details?id=io.simplelogin.android";
-      this.text = "Get SimpleLogin for Android >>"
-    }
+    // // android
+    // else if (osName == "android" && platform == "mobile"){
+    //   this.link = "https://play.google.com/store/apps/details?id=io.simplelogin.android";
+    //   this.text = "Get SimpleLogin for Android >>"
+    // }
 }
 
 new Vue({
