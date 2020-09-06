@@ -1,0 +1,8 @@
+{
+    "cSpell.enableFiletypes": [
+        "html"
+    ],
+    "search.exclude": {
+        "static/assets": true
+    }
+}
