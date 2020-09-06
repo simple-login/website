@@ -9,7 +9,7 @@ authorAvatar: "/logo-square.svg"
 
 After months of working, SimpleLogin Safari extension is finally available, big kudos to [Thanh-Nhon](/about), our iOS/Mac expert!
 
-You can install it on the [AppStore](https://apps.apple.com/us/app/simplelogin/id1494051017?mt=12&fbclid=IwAR0M0nnEKgoieMkmx91TSXrtcScj7GouqRxGgXeJz2un_5ydhIKlbAI79Io). The code is open-source on [GitHub](https://github.com/simple-login/mac-app).
+You can install it on the [AppStore](https://apps.apple.com/app/id1494051017). The code is open-source on [GitHub](https://github.com/simple-login/mac-app).
 
 {{< rawhtml >}}
 <p align="left">

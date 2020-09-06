@@ -28,7 +28,7 @@ With the release of mobile apps, SimpleLogin now covers most major platforms:
 
 * [Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn) and other Chromium-based browsers like Edge, Opera, Brave, etc.
 * [Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/)
-* [Safari](https://apps.apple.com/us/app/simplelogin/id1494051017?mt=12&fbclid=IwAR0M0nnEKgoieMkmx91TSXrtcScj7GouqRxGgXeJz2un_5ydhIKlbAI79Io)
+* [Safari](https://apps.apple.com/app/id1494051017)
 
 #### Mobile
 
