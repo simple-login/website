@@ -10,7 +10,7 @@ authorAvatar: "/logo-square.svg"
 We are happy to announce that SimpleLogin Android & iOS apps are now available, big thanks to [Thanh-Nhon](/about), our mobile guy!
 
 You can install the app on the [Play Store](https://play.google.com/store/apps/details?id=io.simplelogin.android) or
-[App Store](https://apps.apple.com/us/app/simplelogin-anti-spam/id1494359858).
+[App Store](https://apps.apple.com/app/id1494359858).
 
 The Android app code is on [Android Github repository](https://github.com/simple-login/Simple-Login-Android) and iOS on [iOS Github repository](https://github.com/simple-login/Simple-Login-iOS).
 
@@ -33,7 +33,7 @@ With the release of mobile apps, SimpleLogin now covers most major platforms:
 #### Mobile
 
 - [Android](https://play.google.com/store/apps/details?id=io.simplelogin.android)
-- [iOS](https://apps.apple.com/us/app/simplelogin-anti-spam/id1494359858)
+- [iOS](https://apps.apple.com/app/id1494359858)
 
 {{< rawhtml >}}
 <p align="left">
