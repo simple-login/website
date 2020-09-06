@@ -310,6 +310,67 @@ var faqTechApp = new Vue({
   },
 });
 
+/** Display CTA action and text according to the device **/
+
+const ctaData = {
+  link: "https://app.simplelogin.io/auth/register",
+  text: "Get your aliases today >>"
+}
+
+function ctaMounted(){
+  const browser = bowser.getParser(window.navigator.userAgent);
+    const browserName = browser.getBrowser().name; // Safari, Chrome, Firefox
+    const platform = browser.getPlatform().type; // mobile, desktop
+    const osName = browser.getOS().name; // iOS, macOS
+
+    // Chrome Desktop
+    if (browserName == "Chrome" && platform == "desktop"){
+      this.link = "https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn";
+      this.text = "Get SimpleLogin for Chrome >>"
+    }
+
+    // Firefox Desktop
+    else if (browserName == "Firefox" && platform == "desktop"){
+      this.link = "https://addons.mozilla.org/firefox/addon/simplelogin/";
+      this.text = "Get SimpleLogin for Firefox >>"
+    }
+
+    // Safari Desktop
+    else if (browserName == "Safari" && platform == "desktop"){
+      this.link = "https://apps.apple.com/app/id1494051017";
+      this.text = "Get SimpleLogin for Safari >>"
+    }
+
+    // iOS
+    else if (osName == "iOS" && platform == "mobile"){
+      this.link = "https://apps.apple.com/app/id1494359858";
+      this.text = "Get SimpleLogin for iPhone >>"
+    }
+
+    // android
+    else if (osName == "android" && platform == "mobile"){
+      this.link = "https://play.google.com/store/apps/details?id=io.simplelogin.android";
+      this.text = "Get SimpleLogin for Android >>"
+    }
+}
+
+new Vue({
+  el: "#cta-app",
+  delimiters: ["[", "]"],
+  data: ctaData,
+  mounted: ctaMounted
+})
+
+new Vue({
+  el: "#cta-app2",
+  delimiters: ["[", "]"],
+  data: ctaData,
+  mounted: ctaMounted
+})
+
+/** END Display CTA action and text according to the device **/
+
+
 // parse the slref and store in cookie
 const urlParams = new URLSearchParams(window.location.search);
 const refCode = urlParams.get("slref");

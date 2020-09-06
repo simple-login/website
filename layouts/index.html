@@ -6,8 +6,10 @@
     <!-- Hero Section -->
     <div class="container mb-7">
       <div class="row justify-content-lg-between mb-1">
+
+        <!-- Hero text & CTA-->
         <div class="col-lg-6 mb-1 mb-lg-0 space-top-3">
-          <!-- Info -->
+
           <div class="mb-5">
             <div class="font-weight-light" style="font-size: 12px">
               <a href="https://github.com/simple-login/app" target="_blank" rel="noopener">
@@ -30,15 +32,16 @@
 
           </div>
 
-          <div class="mb-3">
-            <a class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3"
-              href="https://app.simplelogin.io/auth/register">
-              <span style="font-weight: 400;">Get your aliases today >></span>
+          <div class="mb-3" id="cta-app">
+            <a :href="link" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
+              <span style="font-weight: 400;">
+                [text]
+              </span>
             </a>
           </div>
 
-          <!-- End Info -->
         </div>
+        <!-- End Hero text & CTA -->
 
         <div class="col-lg-6 mt-3">
           <!-- SVG Illustration -->
@@ -691,12 +694,11 @@
           </h3>
         </div>
 
-        <div class="col-6 text-center">
-          <a class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3 border border-primary"
-            href="https://app.simplelogin.io/auth/register">Create
-            SimpleLogin Account >></a>
+        <div id="cta-app2" class="col-6 text-center">
+          <a :href="link" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3 border border-primary">
+              [text]
+          </a>
         </div>
-
       </div>
     </div>
   </div>
