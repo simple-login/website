@@ -5,8 +5,6 @@ summary: "Social Login buttons like the ubiquitous **Login with Facebook/Google/
 author: "Son Nguyen Kim"
 authorLink: "https://twitter.com/nguyenkims"
 authorAvatar: "/images/son.jpg"
-originalUrl: "https://dev.to/simplelogin/if-you-care-about-user-privacy-do-not-use-facebook-js-sdk-1j3e"
-originalWebsite: "dev.to"
 ---
 
 Social Login buttons like the ubiquitous **Login with Facebook/Google/Twitter/...** button is convenient for users as they don't have to go through a lengthy registration process and create yet another username/password. And without a proper password manager (which probably 99% users don't use), they tend to reuse the same password which is bad in terms of security!
