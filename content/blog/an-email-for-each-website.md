@@ -5,8 +5,6 @@ summary: 'Why do I receive so many spams? When this question was asked by my gir
 author: "Son Nguyen Kim"
 authorLink: "https://twitter.com/nguyenkims"
 authorAvatar: "/images/son.jpg"
-originalUrl: "https://dev.to/sonnk/we-should-have-an-email-for-each-website-fhh"
-originalWebsite: "dev.to"
 ---
 
 > Why do I receive so many spams?
