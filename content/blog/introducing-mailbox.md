@@ -9,18 +9,14 @@ authorAvatar: "/logo-square.svg"
 
 Our most requested feature is finally ready: you can now add several **real** email addresses into SimpleLogin and choose which one to use when creating aliases! A real email address is called **mailbox** in SimpleLogin.
 
-This feature is particularly useful if you have several email addresses, maybe for different uses: a Gmail account for social networks & forums, a Prontonmail account for professional emails, etc.
+This feature is particularly useful if you have several email addresses, maybe for different uses: a Gmail account for social networks & forums, a Protonmail account for professional emails, etc.
 
 {{< rawhtml >}}
-<div class="row">
-    <div class="col-md-6">
-        <img src="/blog/mailbox-gmail.png" class="img-fluid" style="max-height: 250px" alt="Gmail">
-    </div>
-    <div class="col-md-6">
-        <img src="/blog/mailbox-protonmail.png" class="img-fluid" style="max-height: 250px" alt="Protonmail">
-    </div>
-</div>
+
+<img src="/images/multiple-mailboxes.png" class="img-fluid" style="max-width: 800px; margin: auto" alt="Multiple Mailboxes">
+
 {{< /rawhtml >}}
+
 
 When creating an alias, you can choose which mailbox that *owns* this alias, meaning:
 
