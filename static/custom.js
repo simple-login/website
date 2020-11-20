@@ -124,7 +124,10 @@ var faqApp = new Vue({
       },
       {
         q: `I can't find an answer to my question here`,
-        a: `Please send your question to <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a>. You can also create an issue on our <a href="https://github.com/simple-login/app/issues">GitHub Issues</a>.`,
+        a: `
+          You can find the list of all frequent question/answer on the <a href="/faq">FAQ page</a>. <br>
+        If you don't find the answer there, please send your question to <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a>. <br>
+        You can also create an issue on our <a href="https://github.com/simple-login/app/issues">GitHub Issues</a>.`,
       },
     ],
   },
@@ -313,6 +316,13 @@ var faqTechApp = new Vue({
         you can delete your account. This operation is irreversible and we have no way to recover your data.
           `,
       },
+      {
+        q: "Can I use email aliases for important services like bank, government, etc?",
+        a: `
+        The short answer is yes you can. We use email aliases to run our business, manage our taxes, handle our bank operations and so far so good :). <br>
+        A longer answer is the email protocol is designed to be highly resilient and an email is almost never lost. If SimpleLogin cannot deliver the email to your mailbox, we will notify you so you can take appropriate action. You can also set up a secondary mailbox in addition to your primary mailbox that can be used as a backup.
+          `,
+      }
     ],
   },
 });
