@@ -197,6 +197,10 @@ var faqPricingApp = new Vue({
 
         Send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> if you want to use other payment options (e.g. IBAN transfer, Cryptocurrency, etc).`,
       },
+      {
+        q: `Do you have a refund policy?`,
+        a: `No we don't have a refund policy because SimpleLogin has a trial period where you can try all premium features.`,
+      },
     ],
   },
 });
