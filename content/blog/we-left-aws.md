@@ -52,7 +52,7 @@ We started by moving our staging environment from AWS to UpCloud. The hardest pa
 
 After extensively testing the staging environment we took the plunge to migrate the rest of our cloud environment. Our entire infrastructure is now running on UpCloud. Despite our cautious expectations that the migration would be a rough journey, in the end, the move was smooth and downtime less than 10 minutes. After deploying all components on UpCloud, the longest step was just waiting for the DNS changes to propagate.
 
-Now our service has run on UpCloud for some time and our users report having much better success with email delivery. Time will tell, but so far we are pretty happy with UpCloud.
+Now our service has run on UpCloud for some time and our users report having much better success with email delivery. Time will tell, but so far we are pretty happy with UpCloud. If you want to try out UpCloud, please use this <a href="https://www.upcloud.com/register/?promo=simplelogin&utm_source=simplelogin.io&utm_medium=banner&utm_campaign=Simplelogin_logo">link</a> and we'll both have $50 credit.
 
 Our next step is to deploy SimpleLogin on another cloud provider for redundancy. Any recommendation is welcome!
 
