@@ -31,7 +31,8 @@ The goal was to facilitate setting up the email filter and make the reverse-alia
 
 However thanks to our users, we realized that this change wasn’t ideal as the original sender address can be programmatically extracted by your mailbox service, even if you have PGP enabled. PGP indeed only encrypts the email body and leaves the email headers like `From`, `To`, `Subject` fields in plaintext.
 
-Though this isn’t probably the case in practice, we decided to revert this change and make it optional. You can explicitly enable it on the [settings page](https://app.simplelogin.io/dashboard/setting#sender-in-ra). Starting from December 19 2020, the anonymous reverse-alias will be used by default, except if you have the option enabled.
+Though this isn’t probably the case in practice, we decided to revert this change and make it optional.
+You can explicitly enable it on the [settings page](https://app.simplelogin.io/dashboard/setting#sender-in-ra). Starting from December 23 2020, the anonymous reverse-alias will be used by default, except if you have the option enabled.
 
 We apologise for this final change and hope this doesn’t affect the email filters you set up in the last 2 weeks.
 
