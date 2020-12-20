@@ -9,3 +9,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 # and if you think your md file names or locations might change:
 [permalinks]
     post = "/blog/:title/"
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = true
+    startLevel = 3
