@@ -1,12 +1,17 @@
 {{ partial "header.html" . }}
 
-<main id="content" role="main">
+<main id="content" role="main" style="max-width: 720px; margin: auto">
   <div class="container space-2">
 
     <article class="mb-5">
       <header>
-        <h1 class="h2 text-center font-weight-medium">{{.Title}}</h1>
+        <h1 class="h2 text-center font-weight-medium">SimpleLogin Blog</h1>
       </header>
+      <p class="text-center mt-5 mb-7">
+        Hi! This blog is about our journey to build an open-source tool to protect your privacy, 
+        what we've learnt and some tips to take control of your privacy.
+      </p>  
+      <hr>
 
       {{.Content}}
     </article>
@@ -24,13 +29,16 @@
 
       <p class="mb-1">
         {{.Summary}}
-        <a href="{{.Permalink}}">read more</a>
+        <a href="{{.Permalink}}">read more →</a>
       </p>
 
       <small style="color: #77838f">
         {{ .Date.Format "January 2, 2006" }} -
         Reading time: {{.ReadingTime}} minutes
       </small>
+
+      <hr class="my-7">
+
 
     </div>
     {{ end }}
