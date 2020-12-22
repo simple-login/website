@@ -5,13 +5,15 @@ summary: "On August 11, 2020, some SimpleLogin users have experienced up to 8 ho
 author: "SimpleLogin team"
 authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
----
+layout: "single-toc"
+intro: "On August 11, 2020, some SimpleLogin users have experienced up to 8 hours of email delay. We deeply apologize for this incident and have made some measures to avoid this issue from happening again. No emails were lost during this time.
 
-On August 11, 2020, some SimpleLogin users have experienced up to 8 hours of email delay. We deeply apologize for this incident and have made some measures to avoid this issue from happening again. No emails were lost during this time.
 
 Here's the timeline of what happened and the measures we've done to better handle these situations.
+"
+---
 
-#### First vague
+### First vague
 
 In the morning, we noticed that the second server mx2.simplelogin.co had a peak of emails. This server is the failover of the principal one (mx1.simplelogin.co) and usually only handles a fraction of emails. We also received emails from some SimpleLogin users asking about the email delay.
 
@@ -19,11 +21,11 @@ Checking the server mx1, the email handler container was down even if it's set u
 
 We decided to scale up the main server. After redirecting most of the traffic to the second server, we increased the first server capacity 4x. Everything seemed to be back to normal and pending emails were quickly sent.
 
-#### Second vague
+### Second vague
 
 In the afternoon, we again noticed that the email queue was abnormally high. Turns out that all requests to SpamAssassin timed out which delayed Postfix email delivery. We had to proceed to the emergency solution of disabling the spam checking. Email delivery was back to the normal but we know that this is just a temporary solution.
 
-#### Actions
+### Actions
 
 We made the following actions to avoid similar issues from happening in the future:
 
@@ -33,7 +35,7 @@ We made the following actions to avoid similar issues from happening in the futu
 
 - We are studying an alternative to SpamAssassin that can be used as a failover. The current best candidate is Rspamd.
 
-#### Lessons
+### Lessons
 
 In this incident, we have learned to be extra careful when working with software that we don't have much control over. SpamAssassin seems to be the root cause of this incident but this can happen to any other software in the stack.
 
