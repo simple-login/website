@@ -19,17 +19,15 @@
 
         <div class="mb-3"></div>
 
-        <div>            
+        <p>
             {{$.Param "Intro" | markdownify}}
-
-
-        </div>
+        </p>
 
         <div class="bg-light p-4 my-3">
-            
+
             <h4>Table of contents </h4>
             {{ .TableOfContents }}
-            
+
         </div>
 
         {{ .Content }}

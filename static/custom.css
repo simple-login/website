@@ -1,6 +1,21 @@
+h1, h2, h3, h4, h5, h6 {
+    color: #1a202c;
+    font-weight: 700;
+}
+
+/*
+.blog h4, .blog h3, .blog h2, .blog h1 {
+    color: #343a40;
+}
+*/
+
+/* Darker than the default color #77838f which is too bright */
+p {
+    color: #2d3748
+}
 li {
     /* use the same color as p */
-    color: #77838f;
+    color: #2d3748;
 }
 
 code {
@@ -108,7 +123,5 @@ blockquote p {
 	transform: translateX(.9em);
 }
 
-.blog h4, .blog h3, .blog h2, .blog h1 {
-    color: #343a40;
-}
+
 
