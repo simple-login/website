@@ -4,7 +4,18 @@
     <div class="container space-1">
         <div class="row">
             <div class="col">
+                <a href="/blog" class="font-weight-bold" style="text-transform: uppercase;">← All posts</a>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col">
                 <h1>{{ .Title}}</h1>
+                <p class="text-secondary" style="font-size: .9rem">
+                    {{ .Date.Format "January 2, 2006" }} ·
+                    written by <img src='{{$.Param "AuthorAvatar"}}' style="width: 30px; border-radius: 50%;" alt="Author Image">
+                    {{$.Param "Author"}}
+                </p>
             </div>
         </div>
 
@@ -32,13 +43,6 @@
 
         {{ .Content }}
 
-        <p class="font-weight-lighter">
-            Written by <img src='{{$.Param "AuthorAvatar"}}' style="width: 30px; border-radius: 50%;" alt="Author Image">
-            {{$.Param "Author"}}
-            <a href='{{$.Param "AuthorLink"}}'>
-                [Follow on Twitter]
-            </a>
-        </p>
     </div>
 </main>
 
