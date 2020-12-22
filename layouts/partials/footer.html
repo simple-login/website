@@ -215,34 +215,6 @@
 </script>
 <script src="/local-storage-polyfill.js"></script>
 
-<script>
-  (function () {
-    // only enable on prod
-    let host = window.location.host;
-    const sl_hosts = ["simplelogin.io", "www.simplelogin.io", "simplelogin.fr", "www.simplelogin.fr", "simplelogin.co", "www.simplelogin.co"]
-
-    if (!sl_hosts.includes(host)) {
-      console.log("GoatCounter is only be enabled in prod");
-      return;
-    }
-
-    if (store.get('goatcounter-ignore') === 't') {
-      console.log("GoatCounter is disabled");
-      return;
-    }
-
-    console.log("init GoatCounter");
-
-    var script = document.createElement('script');
-    window.counter = 'https://sl.goatcounter.com/count'
-    script.async = 1;
-    script.src = '/lib/count.js';
-
-    var ins = document.getElementsByTagName('script')[0];
-    ins.parentNode.insertBefore(script, ins)
-  })();
-</script>
-
 <!--<script type="text/javascript"
   src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>-->
 
@@ -257,10 +229,7 @@
 
 <script src="/lib/bowser.js"></script>
 
-<script src="/custom.js?v=9"></script>
-
-<script async defer data-domain="simplelogin.io" src="https://plausible.simplelogin.io/js/index.js"></script>
-
+<script src="/custom.js?v=10"></script>
 
 </body>
 
