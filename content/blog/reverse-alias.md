@@ -5,10 +5,14 @@ summary: "Revert the change on reverse-alias generation"
 author: "SimpleLogin team"
 authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
+
+layout: "single-toc"
+intro: "We recently made a change in the **reverse-alias** generation algorithm that isn't the best choice in terms of privacy. Here's the details."
 ---
 
-A *reverse-alias* is the alias for your contact. It allows you to send emails to your contact from your alias. A reverse-alias is automatically created for every sender who sends an email to your alias.
+### What is an reverse-alias?
 
+A *reverse-alias* is the alias for your contact. It allows you to send emails to your contact from your alias. A reverse-alias is automatically created for every sender who sends an email to your alias.
 
 {{< rawhtml >}}
 
@@ -25,9 +29,13 @@ This video quickly shows how to use a reverse-alias:
 
 The reverse-alias used to be generated randomly and looked like `ra+abcdefgh…@simplelogin.co` (**ra+** stands for reverse-alias).
 
+### Recent change
+
 Last month we added a change that includes the original sender address in the reverse-alias . A reverse-alias now looks like `ra+sender.at.domain.com+random_string@simplelogin.co` if the sender is `sender@domain.com`
 
 The goal was to facilitate setting up the email filter and make the reverse-alias less “magical”.
+
+### Revert the change
 
 However thanks to our users, we realized that this change wasn’t ideal as the original sender address can be programmatically extracted by your mailbox service, even if you have PGP enabled. PGP indeed only encrypts the email body and leaves the email headers like `From`, `To`, `Subject` fields in plaintext.
 

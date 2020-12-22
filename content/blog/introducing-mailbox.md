@@ -5,11 +5,18 @@ summary: "The feature the most requested is finally ready: you can now add sever
 author: "SimpleLogin team"
 authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
+
+layout: "single-toc"
+intro: "Our most requested feature is finally ready: you can now add several **real** email addresses into SimpleLogin and choose which one to use when creating aliases!"
 ---
 
-Our most requested feature is finally ready: you can now add several **real** email addresses into SimpleLogin and choose which one to use when creating aliases! A real email address is called **mailbox** in SimpleLogin.
+### What is a mailbox?
 
-This feature is particularly useful if you have several email addresses, maybe for different uses: a Gmail account for social networks & forums, a Protonmail account for professional emails, etc.
+A real email address is called **mailbox** in SimpleLogin. Mailbox should be a "final" email address, that means that's where emails are stored and there's no futher forwarding.
+
+Mailbox mustn't be a temporary email address as it's where SimpleLogin forwards emails to and informs you of potential errors/issues.
+
+It is particularly useful if you already have several email addresses. For example, some people have a Gmail account for social networks & forums, a Protonmail account for professional emails, etc.
 
 {{< rawhtml >}}
 
@@ -17,6 +24,7 @@ This feature is particularly useful if you have several email addresses, maybe f
 
 {{< /rawhtml >}}
 
+### Mailbox in SimpleLogin
 
 When creating an alias, you can choose which mailbox that *owns* this alias, meaning:
 
@@ -30,4 +38,5 @@ The mailbox doesn't have to be your personal email: you can also create aliases 
 
 You can create and manage mailboxes on your [dashboard](https://app.simplelogin.io/dashboard/mailbox).
 
-Adding additional mailboxes is available in the Premium plan or during the trial period. Same for other features: mailboxes created during the trial period are kept and continue working normally when the trial ends.
+Adding additional mailboxes is available in the Premium plan or during the trial period.
+Mailboxes created during the trial period are kept and continue working normally when the trial ends.

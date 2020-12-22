@@ -5,11 +5,19 @@ summary: "I've always been using AWS for hosting from simple prototypes to criti
 author: "Son Nguyen Kim"
 authorLink: "https://twitter.com/nguyenkims"
 authorAvatar: "/images/son.jpg"
+
+layout: "single-toc"
+intro: "I've always been using AWS for hosting from simple prototypes to critical B2B systems. Here's why I decided to leave AWS
+"
 ---
 
-I've always been using AWS for hosting from simple prototypes to critical B2B systems. Thanks to its incredible catalog of products, almost all needs are covered.
+### Why AWS
+
+Thanks to AWS incredible catalog of products, almost all needs are covered. AWS is therefore chosen for SimpleLogin.
 
 So naturally, the first version of SimpleLogin is hosted on AWS. And as we are based in Paris, the Paris data center is picked for the proximity.
+
+### AWS and emails
 
 For past adventures, I mostly use third-party email delivery services like Postmark, SendGrid, SES, etc. Unfortunately, their pricing models are based on the number of emails, which are **not compatible** with the unlimited forwards/sends that SimpleLogin offers. Also, we want SimpleLogin to be easily self-hosted and its components fit on a single server. For these reasons, we decide to run our MTA (Mail Transfer Agent) on EC2 directly.
 
@@ -40,6 +48,8 @@ So we decided it’s maybe better to make SimpleLogin cloud-agnostic and we'll j
 - We could set up a true redundancy mechanism with SimpleLogin deployed on 2 (or more) separate cloud providers.
 - This point is not really important but it's just so refreshing to use a simple UI rather than the complex AWS Console.
 
+### Next destination
+
 We studied some popular options like DigitalOcean, OVH (OVH is very popular in France), Linode, etc and decided to give UpCloud a serious try due to several reasons:
 
 - They came highly recommended by our friend who has more than 100 cloud servers including some email servers on UpCloud and he seems to be pretty happy with their quality & support.
@@ -52,7 +62,7 @@ We started by moving our staging environment from AWS to UpCloud. The hardest pa
 
 After extensively testing the staging environment we took the plunge to migrate the rest of our cloud environment. Our entire infrastructure is now running on UpCloud. Despite our cautious expectations that the migration would be a rough journey, in the end, the move was smooth and downtime less than 10 minutes. After deploying all components on UpCloud, the longest step was just waiting for the DNS changes to propagate.
 
-Now our service has run on UpCloud for some time and our users report having much better success with email delivery. Time will tell, but so far we are pretty happy with UpCloud. If you want to try out UpCloud, please use this <a href="https://www.upcloud.com/register/?promo=simplelogin&utm_source=simplelogin.io&utm_medium=banner&utm_campaign=Simplelogin_logo">link</a> and we'll both have $50 credit.
+Now our service has run on UpCloud for some time and our users report having much better success with email delivery. Time will tell, but so far we are pretty happy with UpCloud. If you want to try out UpCloud, you can use this [link](https://www.upcloud.com/register/?promo=simplelogin&utm_source=simplelogin.io&utm_medium=banner&utm_campaign=Simplelogin_logo) and we'll both have $50 credit.
 
 Our next step is to deploy SimpleLogin on another cloud provider for redundancy. Any recommendation is welcome!
 
