@@ -123,5 +123,9 @@ blockquote p {
 	transform: translateX(.9em);
 }
 
+img {
+    max-width: 100%;
+}
+
 
 
