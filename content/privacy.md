@@ -78,15 +78,9 @@ In SimpleLogin, you have the option to delete your account. Your account along w
 
 - Native Applications: When you use our native applications such as iOS and Android apps, we (or the mobile app platform providers) may collect certain information in addition to the information mentioned elsewhere in this Policy. We may use mobile analytics software to send crash information to our developers so that we can fix bugs rapidly. Some platforms (such as the Google Play Store or the Apple App Store) may also collect aggregate, anonymous statistics governed by the privacy policy and terms and conditions of the Google Play Store or the Apple App Store. None of the software on our apps will ever access or track any location-based information from your device at any time. Any personal data acquired during this process is anonymized.
 
-- Analytics: We use [GoatCounter](https://www.goatcounter.com), a privacy-aware web statistics service. Below is the information GoatCounter collects. More info on [GoatCounter privacy policy](https://www.goatcounter.com/privacy).
+- Analytics: We use [Plausible](https://plausible.io), an open-source and privacy-aware web statistics service. Plausible does not collect any personal data or personally identifiable information (PII), does not use cookies and respect the privacy of the website visitors.
+More info on [Plausible privacy policy](https://plausible.io).
 
-	* URL of the visited page.
-	* Referer header.
-	* User-Agent header.
-	* Screen size.
-	* Country name based on IP address.
-
-	No personal information (such as IP address) is collected. Visitors are not tracked by using e.g. persistent cookies; it is virtually impossible to tie any of the collected information to a person.
 
 - Account activity: Due to limitations of the SMTP protocol, we have access to the following email metadata: sender and recipient email addresses, the IP address incoming messages originated from, message subject, and message sent and received times. We do NOT have access to encrypted message content but unencrypted messages sent from external providers to SimpleLogin are scanned for Spam and Viruses to pursue the legitimate interest of the protection of our users. We also have access to the following records of account activity: number of messages sent, amount of storage space used, total number of messages, last login time.
 

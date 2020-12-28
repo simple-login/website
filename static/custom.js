@@ -18,15 +18,6 @@
 
   console.log("init Analytics");
 
-  // GoatCounter
-  var script = document.createElement('script');
-  window.counter = 'https://sl.goatcounter.com/count'
-  script.async = 1;
-  script.src = '/lib/count.js';
-
-  var ins = document.getElementsByTagName('script')[0];
-  ins.parentNode.insertBefore(script, ins)
-
   // Plausible
   // <script async defer data-domain="simplelogin.io" src="https://plausible.simplelogin.io/js/index.js"></script>
   var plausibleScript = document.createElement('script');
