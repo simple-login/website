@@ -30,7 +30,7 @@ If you are a developer or work in QA, being able to quickly create a new email a
 
 An email alias is simply a forwarding email address. Emails sent to an email alias are forwarded to your original email address.
 
-Like the plus sign trick, SimpleLogin allows you to have a different email address for each website: just create a new email alias everytime you need an email address. 
+Like the plus sign trick, SimpleLogin allows you to have a different email address for each website: just create a new email alias everytime you need an email address.
 
 Usually an email alias only allows email forwarding but with SimpleLogin, you can also send emails or reply from your email alias.
 
@@ -48,7 +48,7 @@ Currently there are 4 ways of creating a new email alias in SimpleLogin:
 
 ### Plus sign trick email address isn't good for privacy
 
-Though practical, subaddressing is well-known and your real email address can be easily extracted: one just needs to remove the part after the plus sign. For this reason, if your subaddress appears in an email leak (that you can easily verify on https://haveibeenpwned.com), a bad actor can extract your real email address and uses it for a spam/phishing campaign or to match with other data breaches.
+Though practical, plus sign trick is well-known and your real email address can be easily extracted: one just needs to remove the part after the plus sign. For this reason, if your subaddress appears in an email leak (that you can easily verify on https://haveibeenpwned.com), a bad actor can extract your real email address and uses it for a spam/phishing campaign or to match with other data breaches.
 
 Email addresses that contain the plus sign are sometimes (incorrectly) considered invalid. Even worse, a website can silently drop the part after the plus sign and use your real email address instead.
 
@@ -60,11 +60,11 @@ An email alias is random and there's no way to link 2 email aliases to the same 
 
 For email aliases created with a catch-all domain, they can only be linked together if the domain is known to have the catch-all option enabled. There's no way to detect whether a domain has this option enabled or to know how many people are using a domain, a bad actor usually ignores these email addresses altogether.
 
-For email aliases created via **directory**, you can use a different separator than the plus sign to reduce the chance of your email aliases being linked together. SimpleLogin also supports the hash sign (#) and the slash sign (/) as separator and in the future, you can also use directory as a subdomain (i.e. `newsletter.simplelogin.fr`). You can then either use `newsletter/python@simplelogin.fr`, `newsletter#python@simplelogin.fr` or `newsletter@python.simplelogin.fr` as email address.
+For email aliases created via **directory**, you can use a different separator than the plus sign to reduce the chance of your email aliases being linked together. SimpleLogin also supports the hash sign (#) and the slash sign (/) as separator and in the future, you can also use directory as a subdomain (i.e. `newsletter.simplelogin.fr`). You can then either use `newsletter/python@simplelogin.fr`, `newsletter#python@simplelogin.fr` or `python@newsletter.simplelogin.fr` as email address.
 
 ### Email aliases reveal who are selling your data
 
-If you use a different email alias for each website and one of your aliases starts receiving emails it isn't supposed to receive, you can be sure that this alias is either leaked or sold. 
+If you use a different email alias for each website and one of your aliases starts receiving emails it isn't supposed to receive, you can be sure that this alias is either leaked or sold.
 
 For example, if your email alias for Facebook receives emails from LinkedIn, that means Facebook has sold your data to LinkedIn or they've had a data breach. Either way, you can just disable this alias. Your real email address stays hidden.
 
