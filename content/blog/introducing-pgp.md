@@ -35,6 +35,8 @@ With PGP enabled, all emails arrived at SimpleLogin are **encrypted** with your 
 
 As emails are not stored on SimpleLogin, only you can read your emails.
 
+All emails are also signed with our PGP key that you can download on [openpgp.org](https://keys.openpgp.org/search?q=signer%40simplelogin.io) that belongs to signer@simplelogin.io
+
 {{< rawhtml >}}
 <img src="/blog/with-pgp.png" class="w-100 my-3" style="max-width: 800px" alt="With PGP">
 {{< /rawhtml >}}
