@@ -347,10 +347,10 @@ var faqTechApp = new Vue({
       {
         q: "Where is SimpleLogin PGP key?",
         a: `
-        Our PGP key for <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> can be downloaded <a download href="/hi_at_simplelogin.asc">here</a>.
+        Our PGP key for <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> can be downloaded <a download href="/hi_at_simplelogin.asc">here</a> (fingerprint "BB03 4466 7D70 C5EC 30B5  A07C 704B 2826 4E7C A9E6").
         It's also available on <a href="https://keys.openpgp.org/search?q=hi%40simplelogin.io">keys.openpgp.org</a> <br>
 
-        If you enable PGP, all emails are signed with <b>signer@simplelogin.io</b> key which can be downloaded <a download href="/signer_at_simplelogin.asc">here</a>. It's also available on
+        If you enable PGP, all emails are signed with <b>signer@simplelogin.io</b> key which can be downloaded <a download href="/signer_at_simplelogin.asc">here</a> (fingerprint "7961 6C8F 8E0A 05D1 340F  FC20 4749 AAC8 4D4C 4810"). It's also available on
         <a href="https://keys.openpgp.org/search?q=signer%40simplelogin.io">keys.openpgp.org</a>
           `,
       },
