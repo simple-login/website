@@ -14,9 +14,3 @@ hugo server
 ```
 
 The website is now available on http://localhost:1313/
-
-The project uses https://zeit.co/home, a Static Hosting Service to deploy. To deploy
-
-```bash
-hugo && now -n new-website --prod public
-```
