@@ -165,7 +165,10 @@
             <ul class="js-scroll-nav navbar-nav align-items-md-center u-header__navbar-nav ml-auto">
 
               <li class="nav-item u-header__nav-item">
-                <a class="nav-link u-header__nav-link" href="/pricing">Pricing</a>
+                <a class="nav-link u-header__nav-link" 
+                  href='{{ cond (eq .Lang "en") "/pricing" (print "/" .Lang "/pricing") }}'>
+                  {{ i18n "header_pricing" }}
+                </a>
               </li>
 
               <li class="nav-item u-header__nav-item">
