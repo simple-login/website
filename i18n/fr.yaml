@@ -2,3 +2,13 @@
 header_login: Connexion
 header_signup: Inscription
 header_pricing: Offres
+# footer
+footer_1: SimpleLogin est une solution <b>open-source</b> pour protéger votre vie privée.
+
+footer_2: SimpleLogin offres de simples expériences à la fois pour les utilisateurs et développeurs.
+
+footer_3: SimpleLogin est le produit de SimpleLogin SAS, enregistré en France dont le SIREN est 884302134.
+
+footer_pricing: Offres
+footer_about: À propos
+footer_contact: Nous contacter

@@ -4,19 +4,20 @@
     <div class="row justify-content-lg-start mb-7">
       <div class="col-sm-7 col-lg-4 mb-7">
         <!-- Logo -->
-        <a class="d-inline-flex align-items-center mb-3" href="/" aria-label="SimpleLogin">
+        <a class="d-inline-flex align-items-center mb-3" href='{{ cond (eq .Lang "en") "/" (print "/" .Lang) }}'
+          aria-label="SimpleLogin">
           <span class="brand brand-light">SimpleLogin</span>
         </a>
         <!-- End Logo -->
 
         <p class="small text-white-70">
-          SimpleLogin is an open-source <b>email alias</b> solution to protect your email address.
+          {{ i18n "footer_1" | safeHTML }}
         </p>
         <p class="small text-white-70">
-          SimpleLogin strives to offer a <b>simple</b> experience for both users and partners/developers.
+          {{ i18n "footer_2" | safeHTML }}
         </p>
         <p class="small text-white-70">
-          SimpleLogin is the product of SimpleLogin SAS, registered in France under the SIREN number 884302134.
+          {{ i18n "footer_3" | safeHTML }}
         </p>
 
       </div>
@@ -57,7 +58,7 @@
           <li><a class="list-group-item list-group-item-action" href="/blog">Blog</a></li>
         </ul>
         <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-          <li><a class="list-group-item list-group-item-action" href="/about">About</a></li>
+          <li><a class="list-group-item list-group-item-action" href="/about">{{ i18n "footer_about" }}</a></li>
         </ul>
         <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
           <li><a class="list-group-item list-group-item-action"
@@ -65,7 +66,7 @@
         </ul>
         <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
           <li><a class="list-group-item list-group-item-action"
-              href="/contact">Contact us</a></li>
+              href="/contact">{{ i18n "footer_contact" }}</a></li>
         </ul>
         <!-- End List Group -->
       </div>
