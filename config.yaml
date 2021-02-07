@@ -19,3 +19,11 @@ markup:
     ordered: true
     startLevel: 3
 
+
+languages:
+  en:
+    weight: 1
+
+  fr:
+    title: "SimpleLogin | Protéger votre vie privée avec les alias mail"
+    weight: 2
