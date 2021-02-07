@@ -3,6 +3,71 @@ header_login: Login
 header_signup: Sign Up
 header_pricing: Pricing
 
+# hero section
+hero: Protect your privacy with email aliases
+
+hero_desc: >
+  With <em data-toggle="tooltip" data-html="true"
+  title="An email alias (or alias for short) is an email address that <b>doesn't store</b> emails: all emails sent to an alias are forwarded to your personal email.">email aliases</em>
+  , you can finally create a different identity for each website.
+  Defend against spams, phishing and data breach.
+  Open-source. Made and hosted in EU 🇪🇺
+
+hero_cta: Get your aliases today >>
+
+hero_button_underline: <b>2,000,000+</b> emails protected.
+
+# how it work section
+how_it_work_title: How it works
+
+how_it_work_desc: Shield your mailbox with email alias.
+
+how_it_work_1_title: A different email alias for each website.
+
+how_it_work_1_subtitle: The next time a website asks for your email address, just create a <span class="bigger">new</span> alias. <br>
+
+
+how_it_work_2_title: Receive emails safely in your mailbox.
+how_it_work_2_subtitle: >
+  Emails sent to an alias are <span class="bigger">forwarded</span> to your mailbox without the sender knowing anything. <br>
+  You can also <span class="bigger">send</span> emails or reply anonymously from your alias.
+
+# available everywhere section
+everywhere_title: Create and manage your aliases everywhere
+
+everywhere_subtitle: Quickly create an alias on the go. Sign up for a newsletter, create a new online account with a click.
+
+# Alias is the new email address Section
+alias_new_email_title: Alias is the new email address
+
+alias_new_email_a_title: A. Replace email by alias everywhere
+alias_new_email_a_text_1: Subscribe to mailing lists, create new online accounts with email alias.
+alias_new_email_a_text_2: Later on, simply <span class="highlight">block</span> an alias if it's too spammy.
+
+alias_new_email_b_title: B. Send emails from alias
+alias_new_email_b_text_1: >
+  Just hit "Reply" whenever you need to reply to a forwarded email:
+  the reply will <span class="highlight">come from</span> the alias and your personal mailbox stays hidden.
+alias_new_email_b_text_2: >
+  You can also
+  <em data-toggle="tooltip" data-html="true"
+    title="<b>Normal</b> email alias like the <b>+ trick </b> usually works in one way: you can only receive emails. <br>In SimpleLogin, you can easily reply/send emails from your alias.">send</em>
+  emails to any email address from your alias.
+
+alias_new_email_c_title: C. Run your business with alias
+alias_new_email_c_text_1: Use alias as your <span class="highlight">business email</span>.
+alias_new_email_c_text_2: >
+  Save $6/month
+
+  <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true"
+    title='GSuite starts at $6/month per user.'></i>
+  for each business email created with SimpleLogin.
+alias_new_email_c_text_3: 50+ and counting businesses trust SimpleLogin to run their emails.
+
+# Testimonials Section
+testimonial_title: SimpleLogin is loved by users
+
+
 # footer
 footer_1: SimpleLogin is an open-source <b>email alias</b> solution to protect your email address.
 
@@ -13,3 +78,4 @@ footer_3: SimpleLogin is the product of SimpleLogin SAS, registered in France un
 footer_pricing: Pricing
 footer_about: About Us
 footer_contact: Contact Us
+

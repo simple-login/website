@@ -14,23 +14,19 @@
 
 
             <h1 class="h4 font-weight-semi-bold mb-2" style="color: #ea319f">
-              Protect your privacy with email aliases
+              {{ i18n "hero" }}
             </h1>
 
             <p class="mb-2">
-              With <em data-toggle="tooltip" data-html="true"
-              title="An email alias (or alias for short) is an email address that <b>doesn't store</b> emails: all emails sent to an alias are forwarded to your personal email.">email aliases</em>
-              , you can finally create a different identity for each website.
-              Defend against spams, phishing and data breach.
-              Open-source. Made and hosted in EU 🇪🇺
+              {{ i18n "hero_desc" | safeHTML }}
             </p>
 
           </div>
 
-          <div class="mb-3" id="cta-app">
-            <a :href="link" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
+          <div class="mb-3">
+            <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
               <span style="font-weight: 400;">
-                [text]
+                {{ i18n "hero_cta" }}
               </span>
             </a>
           </div>
@@ -38,7 +34,7 @@
           <div class="mt-2 d-flex" style="height: 18px">
             <img src="/images/5-stars.svg" style="max-width: 100px;">
             <span class="text-secondary ml-2 align-center" style="font-size: 12px; font-weight: 400">
-              <b>2,000,000+</b> emails protected.
+              {{ i18n "hero_button_underline" | safeHTML }}
             </span>
           </div>
 
@@ -70,8 +66,12 @@
       <!-- Title -->
       <div class="w-md-80 w-lg-70 text-center mx-md-auto mb-2 py-5">
 
-        <h2 class="h4 font-weight-semi-bold text text-primary">How it works</h2>
-        <p>Shield your mailbox with email alias.</p>
+        <h2 class="h4 font-weight-semi-bold text text-primary">
+          {{ i18n "how_it_work_title" }}
+        </h2>
+        <p>
+          {{ i18n "how_it_work_desc" }}
+        </p>
 
       </div>
       <!-- End Title -->
@@ -80,13 +80,15 @@
         <div class="col-md-6">
           <div class="card-frame p-4 h-100" style="border-radius: 10px;">
             <div class="text-muted h3">1.</div>
-            <div class="h6 text-primary">A different email alias for each website.</div>
+            <div class="h6 text-primary">
+              {{ i18n "how_it_work_1_title" }}
+            </div>
 
             <img src="/images/one-click-alias.gif" class="w-100 mt-3 mb-4" alt="A different email alias for each website">
 
 
             <p class="">
-              The next time a website asks for your email address, just create a <span class="bigger">new</span> alias. <br>
+              {{ i18n "how_it_work_1_subtitle" | safeHTML }}
             </p>
           </div>
         </div>
@@ -95,11 +97,12 @@
         <div class="col-md-6">
           <div class="card-frame p-4 h-100" style="border-radius: 10px;">
             <div class="text-muted h3">2.</div>
-            <div class="h6 text-primary">Receive emails safely in your mailbox.</div>
+            <div class="h6 text-primary">
+              {{ i18n "how_it_work_2_title" | safeHTML }}
+            </div>
             <img src="/images/how-it-work-2.svg" class="w-100" alt="Receive emails safely in your mailbox">
             <p class="">
-              Emails sent to an alias are <span class="bigger">forwarded</span> to your mailbox without the sender knowing anything. <br>
-              You can also <span class="bigger">send</span> emails or reply anonymously from your alias.
+              {{ i18n "how_it_work_2_subtitle" | safeHTML }}
             </p>
           </div>
 
@@ -124,8 +127,12 @@
     <div class="container">
       <!-- Title -->
       <div class="w-md-80 w-lg-70 text-center mx-md-auto py-5">
-        <h2 class="h4 font-weight-semi-bold text-primary">Create and manage your aliases everywhere</h2>
-        <p>Quickly create an alias on the go. Sign up for a newsletter, create a new online account with a click.</p>
+        <h2 class="h4 font-weight-semi-bold text-primary">
+          {{ i18n "everywhere_title" | safeHTML }}
+        </h2>
+        <p>
+          {{ i18n "everywhere_subtitle" | safeHTML }}
+        </p>
       </div>
       <!-- End Title -->
 
@@ -196,37 +203,49 @@
   <div class="bg-light pt-2 pb-5 space-1">
     <div class="container">
       <div class="py-5">
-        <h2 class="h4 text-primary text-center" style="margin: auto;">Alias is the new email address</h2>
+        <h2 class="h4 text-primary text-center" style="margin: auto;">
+          {{ i18n "alias_new_email_title" | safeHTML }}
+        </h2>
       </div>
 
       <div class="row">
         <div class="col-md-4">
           <div class="p-3 h-100">
-            <h3 class="h6 font-weight-semi-bold mb-5">A. Replace email by alias everywhere</h3>
+            <h3 class="h6 font-weight-semi-bold mb-5">
+              {{ i18n "alias_new_email_a_title" | safeHTML }}
+            </h3>
             <figure id="featuresSVG1" class="svg-preloader w-100 mx-auto mb-4">
               <img class="js-svg-injector w-100" src="/images/custom-alias.png" alt="Custom Alias image"
                 data-parent="#featuresSVG1">
             </figure>
 
-            <p>Subscribe to mailing lists, create new online accounts with email alias.</p>
-            <p>Later on, simply <span class="highlight">block</span> an alias if it's too spammy.</p>
+            <p>
+              {{ i18n "alias_new_email_a_text_1" | safeHTML }}
+            </p>
+            <p>
+              {{ i18n "alias_new_email_a_text_2" | safeHTML }}
+            </p>
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="p-3 h-100">
-            <h3 class="h6 font-weight-semi-bold mb-5">B. Send emails from alias</h3>
+            <h3 class="h6 font-weight-semi-bold mb-5">
+              {{ i18n "alias_new_email_b_title" | safeHTML }}
+            </h3>
 
             <figure id="featuresSVG3" class="svg-preloader w-100 mx-auto mb-4">
               <img class="js-svg-injector w-100" src="/images/reply-alias.png" alt="Reply Alias image"
                 data-parent="#featuresSVG3">
             </figure>
 
-            <p>Just hit "Reply" whenever you need to reply to a forwarded email: the reply will <span class="highlight">come from</span> the alias and your personal mailbox stays hidden.</p>
+            <p>
+              {{ i18n "alias_new_email_b_text_1" | safeHTML }}
+            </p>
 
-            <p>You can also <em data-toggle="tooltip" data-html="true"
-                title="<b>Normal</b> email alias like the <b>+ trick </b> usually works in one way: you can only receive emails. <br>In SimpleLogin, you can easily reply/send emails from your alias.">send</em>
-              emails to any email address from your alias.</p>
+            <p>
+              {{ i18n "alias_new_email_b_text_2" | safeHTML }}
+            </p>
 
 
           </div>
@@ -234,22 +253,23 @@
 
         <div class="col-md-4">
           <div class="p-3 h-100">
-            <h3 class="h6 font-weight-semi-bold mb-5">C. Run your business with alias</h3>
+            <h3 class="h6 font-weight-semi-bold mb-5">
+              {{ i18n "alias_new_email_c_title" | safeHTML }}
+            </h3>
 
             <figure id="featuresSVG2" class="svg-preloader w-100 mx-auto mb-4">
               <img class="js-svg-injector w-100" src="/images/business-email.png" alt="Business email image"
                 data-parent="#featuresSVG2">
             </figure>
 
-            <p>Use alias as your <span class="highlight">business email</span>.</p>
-            <p>Save $6/month
-
-              <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true"
-                title='GSuite starts at $6/month per user.'></i>
-              for each business email created with SimpleLogin.
+            <p>
+              {{ i18n "alias_new_email_c_text_1" | safeHTML }}
             </p>
             <p>
-              50+ and counting businesses trust SimpleLogin to run their emails.
+              {{ i18n "alias_new_email_c_text_2" | safeHTML }}
+            </p>
+            <p>
+              {{ i18n "alias_new_email_c_text_3" | safeHTML }}
             </p>
 
           </div>
@@ -276,7 +296,9 @@
     <div class="container space-md-1">
       <!-- Title -->
       <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-2">
-        <h2 class="h4 font-weight-normal text-primary">SimpleLogin is loved by users</h2>
+        <h2 class="h4 font-weight-normal text-primary">
+          {{ i18n "testimonial_title" | safeHTML }}
+        </h2>
       </div>
       <!-- End Title -->
 

@@ -2,6 +2,67 @@
 header_login: Connexion
 header_signup: Inscription
 header_pricing: Offres
+
+hero: Protéger votre boîte mail avec les alias
+
+hero_desc: >
+  Avec les <em data-toggle="tooltip" data-html="true"
+  title="Un alias e-mail (ou juste alias) est une adresse mail
+  qui redirige vers une autre adresse">alias e-mail</em>,
+  vous pouvez finalement avoir une identité différente pour chaque site-web. Défendre contre les spams, phishing et fuites de données.
+  Open source. Fabriqué en 🇫🇷.
+
+hero_cta: Créer vos alias email >>
+
+hero_button_underline: <b>2,000,000+</b> mails protégés.
+
+how_it_work_title: Comment ça marche
+
+how_it_work_desc: Protéger votre boîte mail avec les alias.
+
+how_it_work_1_title: Un différent alias pour chaque site-web.
+
+how_it_work_1_subtitle: La prochaine fois un site vous demande une adresse mail, donnez-lui un <span class="bigger">nouveau</span> alias. <br>
+
+how_it_work_2_title: Recevoir les mails dans votre boîte mail.
+
+how_it_work_2_subtitle: >
+  Les mails envoyés à un alias sont <span class="bigger">redirigés</span> à votre boîte mail.
+  Vous pouvez aussi <span class="bigger">envoyer</span> un mail ou répondre de manière anonyme depuis votre alias.
+
+# available everywhere section
+everywhere_title: Créer et gérer vos alias partout
+
+everywhere_subtitle: S'inscrire pour un newsletter, créer un nouveau compte en un click.
+
+# Alias is the new email address Section
+alias_new_email_title: Alias est la nouvelle adresse mail
+
+alias_new_email_a_title: A. Utiliser les alias partout
+alias_new_email_a_text_1: S'abonner à un newsletter, créer un nouveau compte avec alias.
+alias_new_email_a_text_2: Désactiver un alias si vous ne voulez plus recevoir de mail.
+
+alias_new_email_b_title: B. Envoyer les mails depuis un alias
+alias_new_email_b_text_1: >
+  Cliquer sur "Répondre": la réponse sera envoyée depuis votre alias et votre adresse mail personnel est toujours cachée.
+alias_new_email_b_text_2: >
+  Vous pouvez aussi envoyer les mails depuis votre alias.
+
+alias_new_email_c_title: C. Alias comme solution de mail professionnelle
+alias_new_email_c_text_1: Utiliser les alias comme vos adresses mail <span class="highlight">business</span>.
+alias_new_email_c_text_2: >
+  Pas besoin de payer $6/mois
+
+  <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true"
+    title='GSuite commence à $6/mois par utilisateur.'></i>
+  pour chaque adresse mail professionnelle.
+alias_new_email_c_text_3: Rejoindre les +50 entreprises qui utilisent SimpleLogin comme une solution mail sécurisée et pas chère.
+
+# Testimonials Section
+testimonial_title: L'avis de nos utilisateurs
+
+
+
 # footer
 footer_1: SimpleLogin est une solution <b>open-source</b> pour protéger votre vie privée.
 
@@ -12,3 +73,4 @@ footer_3: SimpleLogin est le produit de SimpleLogin SAS, enregistré en France d
 footer_pricing: Offres
 footer_about: À propos
 footer_contact: Nous contacter
+
