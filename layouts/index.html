@@ -495,182 +495,29 @@
       <div class="w-md-80 w-lg-80 text-center mx-md-auto mb-9">
         <h2 class="h4 text-primary text-center">Privacy, security and features you’ll love</h2>
         <p>SimpleLogin is the most advanced email alias solution.</p>
-
       </div>
       <!-- End Title -->
 
-      <!-- Icon Blocks -->
       <div class="row">
-        <div class="col-sm-6 col-md-4 mb-7">
-          <!-- Icon Block -->
-          <div class="media align-items-center mb-2">
-            <figure id="icon28" class="svg-preloader ie-height-40 w-100 max-width-6 mr-3">
-              <img class="js-svg-injector" src="../../assets/svg/icons/icon-7.svg" alt="Dot Icon" data-parent="#icon28">
-            </figure>
-            <div class="media-body">
-              <h4 class="h6 mb-0">100% open-source</h4>
+        {{ with index site.Data.feature site.Language.Lang }}
+          {{ $texts := .text }}
+
+          {{ range $texts }}
+          <div class="col-sm-6 col-md-4 mb-7">
+            <div class="media align-items-center mb-2">
+              <i class="fa fa-check-square mr-2" style="color: #ea319f" ></i>
+              <div class="media-body">
+                <h4 class="h6 mb-0">
+                  {{ .title | safeHTML}}
+                </h4>
+              </div>
             </div>
+            <p> {{ .desc | safeHTML }} </p>
           </div>
-          <p>Built upon open-source technology,
-            <em data-toggle="tooltip" data-html="true" title="Including the server, Chrome/Firefox/Safari extensions, Android/iOS apps.">all</em>
-            SimpleLogin components are also open-source. <br>
-            You wouldn't trust a black box to handle your emails, would you?
-          </p>
-          <!-- End Icon Block -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-7">
-          <!-- Icon Block -->
-          <div class="media align-items-center mb-2">
-            <figure id="icon26" class="svg-preloader ie-height-40 w-100 max-width-6 mr-3">
-              <img class="js-svg-injector" src="../../assets/svg/icons/icon-15.svg" alt="Dot Icon" data-parent="#icon26">
-            </figure>
-            <div class="media-body">
-              <h4 class="h6 mb-0">Send emails from alias</h4>
-            </div>
-          </div>
-          <p>Not only can an alias receive emails, it can also <span class="highlight">send</span> emails. An alias is a full-fledged email
-            address.</p>
-          <!-- End Icon Block -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-7">
-          <!-- Icon Block -->
-          <div class="media align-items-center mb-2">
-            <figure id="icon29" class="svg-preloader ie-height-40 w-100 max-width-6 mr-3">
-              <img class="js-svg-injector" src="../../assets/svg/icons/icon-white-44.svg" alt="Dot Icon"
-                data-parent="#icon29">
-            </figure>
-            <div class="media-body">
-              <h4 class="h6 mb-0">Everywhere</h4>
-            </div>
-          </div>
-          <p>
-            Manage your aliases on SimpleLogin website or on our
-            <em data-toggle="tooltip" data-html="true" title="And other chromium-based browsers like Edge, Opera, Brave, etc">Chrome</em>,
-            Firefox, Safari extensions. <br>
-
-            Or on your phone with Android (Play Store, F-Droid) and iOS apps.
-
-          </p>
-          <!-- End Icon Block -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-7">
-          <!-- Icon Block -->
-          <div class="media align-items-center mb-2">
-            <figure id="icon31" class="svg-preloader ie-height-40 w-100 max-width-6 mr-3">
-              <img class="js-svg-injector" src="../../assets/svg/icons/icon-23.svg" alt="Dot Icon" data-parent="#icon31">
-            </figure>
-            <div class="media-body">
-              <h4 class="h6 mb-0">Custom domain</h4>
-            </div>
-          </div>
-          <p>
-            Bring your own domain and you don't have to buy yet another
-            <em data-toggle="tooltip" data-html="true" title="Like GSuite, Outlook or the ones sold by the domain registrars">email hosting solution</em>.
-
-            <br>
-
-            And do you know that you can have <em data-toggle="tooltip" data-html="true"
-              title="By enabling catch-all, you can create aliases on-the-fly: <b>anything@your-domain.com</b> will be automatically created the first time it receives an email.">catch-all</em>
-            alias with your domain?
-            <!-- End Icon Block -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-7">
-          <!-- Icon Block -->
-          <div class="media align-items-center mb-2">
-            <figure id="icon5" class="svg-preloader ie-height-40 w-100 max-width-6 mr-3">
-              <img class="js-svg-injector" src="../../assets/svg/icons/icon-40.svg" alt="Dot Icon" data-parent="#icon5">
-            </figure>
-            <div class="media-body">
-              <h4 class="h6 mb-0">Generous pricing</h4>
-            </div>
-          </div>
-          <p>All SimpleLogin plans have <span class="highlight">infinite</span> forwards/sends and <span class="highlight">unlimited</span> bandwidth. <br>
-            Receive and send emails as much as you like.
-          </p>
-          <!-- End Icon Block -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-7">
-          <!-- Icon Block -->
-          <div class="media align-items-center mb-2">
-            <figure id="icon7" class="svg-preloader ie-height-40 w-100 max-width-6 mr-3">
-              <img class="js-svg-injector" src="../../assets/svg/icons/icon-37.svg" alt="Dot Icon" data-parent="#icon7">
-            </figure>
-            <div class="media-body">
-              <h4 class="h6 mb-0">On-the-fly aliases with directory</h4>
-            </div>
-          </div>
-          <p>
-            Create your <em data-toggle="tooltip" data-html="true"
-              title="Directory is a great way to organize and create aliases on-the-fly. Just use
-              <b>your_directory/ANYTHING@simplelogin.co</b> when you quickly need an alias, the alias will be created when it receives the first email.">directory</em>, and use it to quickly create aliases without opening SimpleLogin web or mobile apps.
-            <a href="/blog/alias-directory/">Learn more</a>.
-          </p>
-          <!-- End Icon Block -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-7">
-          <!-- Icon Block -->
-          <div class="media align-items-center mb-2">
-            <figure id="icon8" class="svg-preloader ie-height-40 w-100 max-width-6 mr-3">
-              <img class="js-svg-injector" src="../../assets/svg/icons/icon-45.svg" alt="Dot Icon" data-parent="#icon8">
-            </figure>
-            <div class="media-body">
-              <h4 class="h6 mb-0">Multiple mailboxes</h4>
-            </div>
-          </div>
-          <p>
-            If you already have several mailboxes, this feature is for you: you can add your mailboxes into SimpleLogin and choose which one to use when creating an alias. <a href="/blog/introducing-mailbox/">Learn more</a>.
-          </p>
-          <!-- End Icon Block -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-7">
-          <!-- Icon Block -->
-          <div class="media align-items-center mb-2">
-            <figure id="icon9" class="svg-preloader ie-height-40 w-100 max-width-6 mr-3">
-              <img class="js-svg-injector" src="../../assets/svg/icons/icon-20.svg" alt="Dot Icon" data-parent="#icon9">
-            </figure>
-            <div class="media-body">
-              <h4 class="h6 mb-0">Privacy & Security</h4>
-            </div>
-          </div>
-          <p>
-            With <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP) is an encryption program that can encrypt your emails and let you communicate privately online.">PGP</em>, encrypt the forwarded emails with your own PGP key. Only you can then decrypt these emails.
-            Works perfectly with Protonmail or any OpenPGP tools (Enigmail, GPG Tools, etc).
-            <br><br>
-
-            To better secure your SimpleLogin account, you can enable 2FA with
-            <em data-toggle="tooltip" data-html="true" title="TOTP (Time-based One-time Passwords) is usually used with applications like Google Authenticator or Authy.">TOTP</em>
-            and/or
-            <em data-toggle="tooltip" data-html="true" title="WebAuthn is usually used with physical security keys like Yubikey, Google Titan, etc. Your phone and laptop can also be used as a security key.">WebAuthn (FIDO)</em>.
-          </p>
-
-          <!-- End Icon Block -->
-        </div>
-
-        <div class="col-sm-6 col-md-4 mb-7">
-          <!-- Icon Block -->
-          <div class="media align-items-center mb-2">
-            <figure id="icon37" class="svg-preloader ie-height-40 w-100 max-width-6 mr-3">
-              <img class="js-svg-injector" src="../../assets/svg/icons/icon-22.svg" alt="Dot Icon" data-parent="#icon37">
-            </figure>
-            <div class="media-body">
-              <h4 class="h6 mb-0">More than (just) alias</h4>
-            </div>
-          </div>
-          <p>SimpleLogin's ambition is to protect your online privacy and email is only the beginning. <br>
-            Stay tuned for upcoming features like single sign-on, phone number protection and credit card protection.
-          </p>
-          <!-- End Icon Block -->
-        </div>
-
+          {{ end }}
+        {{ end }}
       </div>
-      <!-- End Icon Blocks -->
+
     </div>
   </div>
   <!-- End Features Section -->

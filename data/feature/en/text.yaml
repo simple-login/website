@@ -1,0 +1,64 @@
+- title: 100% open-source
+  desc: >
+    Built upon open-source technology,
+    <em data-toggle="tooltip" data-html="true" title="Including the server, Chrome/Firefox/Safari extensions, Android/iOS apps.">all</em>
+    SimpleLogin components are also open-source. <br>
+    You wouldn't trust a black box to handle your emails, would you?
+
+- title: Send emails from alias
+  desc: >
+    Not only can an alias receive emails, it can also <span class="highlight">send</span> emails. An alias is a full-fledged email
+            address.
+
+- title: Everywhere
+  desc: >
+    Manage your aliases on SimpleLogin website or on our
+            <em data-toggle="tooltip" data-html="true" title="And other chromium-based browsers like Edge, Opera, Brave, etc">Chrome</em>,
+            Firefox, Safari extensions. <br>
+
+            Or on your phone with Android (Play Store, F-Droid) and iOS apps.
+
+- title: Custom domain
+  desc: >
+    Bring your own domain and you don't have to buy yet another
+    <em data-toggle="tooltip" data-html="true" title="Like GSuite, Outlook or the ones sold by the domain registrars">email hosting solution</em>.
+
+    <br>
+
+    And do you know that you can have <em data-toggle="tooltip" data-html="true"
+      title="By enabling catch-all, you can create aliases on-the-fly: <b>anything@your-domain.com</b> will be automatically created the first time it receives an email.">catch-all</em>
+    alias with your domain?
+
+- title: Generous pricing
+  desc: >
+    All SimpleLogin plans have <span class="highlight">infinite</span> forwards/sends and <span class="highlight">unlimited</span> bandwidth. <br>
+            Receive and send emails as much as you like.
+
+- title: On-the-fly aliases with directory
+  desc: >
+    Create your <em data-toggle="tooltip" data-html="true"
+      title="Directory is a great way to organize and create aliases on-the-fly. Just use
+      <b>your_directory/ANYTHING@simplelogin.co</b> when you quickly need an alias, the alias will be created when it receives the first email.">directory</em>, and use it to quickly create aliases without opening SimpleLogin web or mobile apps.
+    <a href="/blog/alias-directory/">Learn more</a>.
+
+- title: Multiple mailboxes
+  desc: >
+    If you already have several mailboxes, this feature is for you: you can add your mailboxes into SimpleLogin and choose which one to use when creating an alias. <a href="/blog/introducing-mailbox/">Learn more</a>.
+
+- title: Privacy & Security
+  desc: >
+    With <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP) is an encryption program that can encrypt your emails and let you communicate privately online.">PGP</em>, encrypt the forwarded emails with your own PGP key. Only you can then decrypt these emails.
+    Works perfectly with Protonmail or any OpenPGP tools (Enigmail, GPG Tools, etc).
+    <br><br>
+
+    To better secure your SimpleLogin account, you can enable 2FA with
+    <em data-toggle="tooltip" data-html="true" title="TOTP (Time-based One-time Passwords) is usually used with applications like Google Authenticator or Authy.">TOTP</em>
+    and/or
+    <em data-toggle="tooltip" data-html="true" title="WebAuthn is usually used with physical security keys like Yubikey, Google Titan, etc. Your phone and laptop can also be used as a security key.">WebAuthn (FIDO)</em>.
+
+- title: More than (just) alias
+  desc: >
+    SimpleLogin's ambition is to protect your online privacy and email is only the beginning. <br>
+    Stay tuned for upcoming features like single sign-on, phone number protection and credit card protection.
+
+

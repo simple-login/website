@@ -1,0 +1,54 @@
+- title: 100% open source
+  desc: >
+    Basé sur les technologies open source,
+    <em data-toggle="tooltip" data-html="true" title="Inclure le server, les extensions Chrome/Firefox/Safari et application Android/iOS">tous</em>
+    les composants de SimpleLogin sont aussi open source.
+    <br>
+
+- title: Envoyer depuis an alias
+  desc: >
+    Pas seulement un alias peut recevoir les mails, il peut aussi les <span class="highlight">envoyer</span>.
+    Un alias est donc comme une adresse mail "normale".
+
+- title: Partout
+  desc: >
+    Gérer vos alias sur notre site web, dans les extensions
+    <em data-toggle="tooltip" data-html="true" title="et les autres navigateurs basé sur Chromium comme Edge, Opera, Brave, etc">Chrome</em>,
+    Firefox, Safari, <br>
+    ou dans votre téléphone avec avec l'application Android (Play Store, F-Droid) et iOS.
+
+- title: Votre propre domaine
+  desc: >
+    Vous pouvez ajouter votre domaine et vous pouvez créer un alias comme <span class="highlight">contact@mon-domaine.fr</span>
+
+
+- title: Illimité
+  desc: >
+    Tous les plans de SimpleLogin n'ont pas limite sur la bande passante ou nombre de mails reçu/envoyés.
+
+- title: Créer un alias à la volée avec <span class="highlight">directory</span>
+  desc: >
+    Créer un alias sans ouvrir SimpleLogin: l'alias sera créé quand il reçoit le premier mail. Plus d'info sur
+    <a href="/blog/alias-directory/">qu'est-ce que c'est un directory</a>
+
+
+- title: Plusieurs boîte mails
+  desc: >
+    Si vous avez plusieurs boîtes mail, vous pouvez les ajouter dans SimpleLogin et choisir lequel/lesquels à utiliser quand vous créez un alias.
+     <a href="/blog/introducing-mailbox/">Plus d'info ici</a>.
+
+- title: Privacy & Sécurité
+  desc: >
+    Avec <em data-toggle="tooltip" data-html="true" title="PGP se propose de garantir la confidentialité et l'authentification pour la communication des données.">PGP</em>,
+    encrypter vos mails avec votre clé PGP. Personne d'autre ne peut lire vos mails.
+    Compatible avec Protonmail et les programmes OpenPGP(Enigmail, GPG Tools, etc)
+    <br>
+    SimpleLogin supporte aussi 2FA (TOTP et WebAuthn/FIDO)
+
+
+- title: Plus qu'un alias
+  desc: >
+    L'ambition de SimpleLogin est de protégrer votre vie privée en ligne et email est juste le commencement. <br>
+    Nous travaillons aussi sur le single sign-on, la protection de numéro de téléphone et de carte bancaire.
+
+
