@@ -542,8 +542,12 @@
     <div class="container mb-7">
       <!-- Title -->
       <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-9">
-        <span class="btn btn-xs btn-soft-success btn-pill mb-2 mt-7">Help</span>
-        <h2 class="text-primary h4">Frequently asked <span class="font-weight-semi-bold">questions</span></h2>
+        <span class="btn btn-xs btn-soft-success btn-pill mb-2 mt-7">
+          {{ i18n "faq_subtitle" }}
+        </span>
+        <h2 class="text-primary h4">
+          {{ i18n "faq_title" }}
+        </h2>
       </div>
       <!-- End Title -->
 
@@ -586,13 +590,13 @@
       <div class="row">
         <div class="col-6">
           <h3 class="h3 text-center text-white font-weight-medium">
-            Ready to get started?
+            {{ i18n "ready_get_started" }}
           </h3>
         </div>
 
-        <div id="cta-app2" class="col-6 text-center">
-          <a :href="link" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3 border border-primary">
-              [text]
+        <div class="col-6 text-center">
+          <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3 border border-primary">
+              {{ i18n "ready_get_started_cta" }}
           </a>
         </div>
       </div>
@@ -723,7 +727,9 @@
     <div class="container">
       <!-- Title -->
       <div class="w-md-80 w-lg-50 text-center mx-md-auto p-9">
-        <h2 class="h4 text-primary">Our partners</h2>
+        <h2 class="h4 text-primary">
+          {{ i18n "partner_title" }}
+        </h2>
       </div>
       <!-- End Title -->
 

@@ -12,7 +12,7 @@ hero_desc: >
   vous pouvez finalement avoir une identité différente pour chaque site-web. Défendre contre les spams, phishing et fuites de données.
   Open source. Fabriqué en 🇫🇷.
 
-hero_cta: Créer vos alias email >>
+hero_cta: Créer vos alias maintenant >>
 
 hero_button_underline: <b>2,000,000+</b> mails protégés.
 
@@ -65,6 +65,14 @@ testimonial_title: L'avis de nos utilisateurs
 feature_title: Privacy & sécurité
 feature_subtitle: SimpleLogin est la solution d'alias la plus avancée.
 
+# FAQ section
+faq_title: Foire Aux Questions
+faq_subtitle: Aide
+
+ready_get_started: Vous être prêt ?
+ready_get_started_cta: Créer vos alias maintenant >>
+
+partner_title: Nos partenaires
 
 # footer
 footer_1: SimpleLogin est une solution <b>open-source</b> pour protéger votre vie privée.
