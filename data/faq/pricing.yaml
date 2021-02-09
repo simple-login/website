@@ -1,0 +1,65 @@
+- question: What happens to my aliases when I stop the subscription?
+  answer: >
+    When your subscription ends, all aliases you created continue working normally, both on receiving and
+        sending emails. Concretely: <br>
+    - All aliases/domains/directories/mailboxes you have created are kept and continue working normally. <br>
+    - You cannot create new aliases if you exceed the free plan limit, i.e. have more than 15 aliases. <br>
+    - As features like catch-all or directory allow you to create aliases on-the-fly, those aliases cannot be
+    automatically created if you have more than 15 aliases. <br>
+    - You cannot add new domain, directory or mailbox. <br><br>
+
+    For example, if you have 100 aliases by the time your subscription ends, these
+    100 aliases will continue receiving and sending emails normally. You cannot however create new aliases.
+
+- question: What happens when I reach the maximum number of alias in free plan?
+  answer: >
+    If you are in the free plan, you cannot create new aliases when you reach the maximum number of aliases
+        (i.e. 15 aliases). <br>
+    Aliases that would otherwise be created automatically via the catch-all domain or directory feature also
+    cannot be created. <br>
+
+- question: Do you offer discounts?
+  answer: >
+    We offer students a premium license for free during the scholarship.
+    Just send us an email to <a href="mailto:edu@simplelogin.io">edu@simplelogin.io</a> from your school email (typically a .edu address) along with your SimpleLogin account so we can upgrade your account to 1 year of premium plan. If you don't have a school email address, a copy of your student card or another equivalent document suffices. <br><br>
+
+    By the end of each period (i.e. every year), you'll receive a reminder email to renew the license. If you are a student by that time, please send us another email from your .edu account for verification so that your license can be extended for another year. <br><br>
+
+    We also offer important discounts or free premium for: <br>
+
+    - professors or technical staffs working at an educational institute <br>
+    - activists, dissidents or journalists <br>
+    - charity organizations <br>
+
+    Please send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> for more info. <br><br>
+
+
+- question: Which payment methods do you support?
+  answer: >
+    We use <a href="https://paddle.com">Paddle</a> for handling payments and Paddle currently supports the
+        following payment methods: <br>
+    - Mastercard <br>
+    - Visa <br>
+    - Maestro <br>
+    - American Express <br>
+    - Discover <br>
+    - Diners Club <br>
+    - JCB <br>
+    - PayPal <br>
+    - Apple Pay <br>
+    - Wire Transfers (ACH/SEPA/BACS) <br>
+    More information can be found on <a
+      href="https://paddle.com/support/which-payment-methods-do-you-support/">Paddle supported payment
+      methods</a>. <br>
+
+    Send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> if you want to use other payment options (e.g. IBAN transfer, Cryptocurrency, etc).
+
+
+- question: Do you have a refund policy?
+  answer:
+
+
+
+- question: What exactly is an <b>email alias</b>?
+  answer: No we don't have a refund policy because SimpleLogin has a trial period where you can try all premium features.
+
