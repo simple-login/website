@@ -22,42 +22,45 @@
     </div>
     <!-- End Title -->
 
-    <!-- Basics Accordion -->
-    <div id="faq-tech-app">
-      <div id="basicsAccordion">
-        <!-- Card -->
-        <div class="card mb-3" v-for="(qa, index) in qas">
-          <div class="card-header card-collapse" :id="'tech-item-' + index">
-            <h5 class="mb-0">
-              <button
-                class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
-                data-toggle="collapse"
-                v-bind:data-target="'#tech-collapse-item-' + index"
-                aria-expanded="false"
-                v-bind:aria-controls="'tech-collapse-item-' + index"
-              >
-                <span v-html="qa.q"></span>
+    <div id="tech-faq">
+      {{ with index site.Data.faq }}
+        {{ $texts := .tech }}
+        {{range $index, $element := $texts}}
 
-                <span class="card-btn-arrow">
-                  <span class="fas fa-arrow-down small"></span>
-                </span>
-              </button>
-            </h5>
-          </div>
-          <div
-            :id="'tech-collapse-item-' + index"
-            class="collapse"
-            v-bind:aria-labelledby="'tech-item-' + index"
-            data-parent="#basicsAccordion"
-          >
-            <div class="card-body" style="line-height: 1.6;">
-              <p v-html="qa.a"></p>
+          <!-- Card -->
+          <div class="card mb-3">
+            <div class="card-header card-collapse" id='{{ (print "developer-faq-question" $index) }}'>
+              <h5 class="mb-0">
+                <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
+                  data-toggle="collapse"
+                  data-target='{{ print "#tech-faq-answer" $index }}'
+                  aria-controls='{{ print "tech-faq-answer" $index }}'
+                  aria-expanded="false"
+                  >
+                  <span>{{ ($element.question)|safeHTML }}</span>
+
+                  <span class="card-btn-arrow">
+                    <span class="fas fa-arrow-down small"></span>
+                  </span>
+                </button>
+              </h5>
+            </div>
+
+            <div id='{{ print "tech-faq-answer" $index }}'
+              class="collapse"
+              aria-labelledby='{{ print "faq-faq-question" $index }}'
+              data-parent="#tech-faq">
+              <div class="card-body">
+                <p>{{ ($element.answer)|safeHTML }}</p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- End Card -->
-      </div>
+          <!-- End Card -->
+
+        {{ end }}
+      {{ end }}
     </div>
+
   </div>
   <!-- END Tech questions -->
 

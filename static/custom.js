@@ -35,54 +35,6 @@
 // END Analytics
 
 
-
-var faqTechApp = new Vue({
-  el: "#faq-tech-app",
-  delimiters: ["[", "]"],
-  data: {
-    qas: [
-      {
-        q: `What is the maximum email size?`,
-        a: `The current limit is 25MB. For large attachments, we suggest using a file upload service and send the link instead. You can find some file sharing services that respect our privacy on <a href="https://www.privacytools.io/software/file-sharing/">PrivacyTools</a> <br>
-        Another reason of having this limit is the PGP encryption is a heavy process, supporting a bigger size can put a big load on our server. <br>
-        10MB is also the default size limit used in Postfix, a popular email MTA that SimpleLogin is using.
-          `,
-      },
-      {
-        q: `I accidentally deleted an alias, can I restore it?`,
-        a: `When an alias is deleted, it's put into a global <b>trash</b> and we make sure that it can't be reused. All historic information on the alias (the account that creates the alias, alias contacts, etc) are deleted to respect your privacy. <br>
-        This applies to all aliases created with SimpleLogin domains. <br>
-        You can however restore an alias created with your own domain.
-          `,
-      },
-      {
-        q: "Where is SimpleLogin PGP key?",
-        a: `
-        Our PGP key for <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> can be downloaded <a download href="/hi_at_simplelogin.asc">here</a> (fingerprint "BB03 4466 7D70 C5EC 30B5  A07C 704B 2826 4E7C A9E6").
-        It's also available on <a href="https://keys.openpgp.org/search?q=hi%40simplelogin.io">keys.openpgp.org</a> <br>
-
-        If you enable PGP, all emails are signed with <b>signer@simplelogin.io</b> key which can be downloaded <a download href="/signer_at_simplelogin.asc">here</a> (fingerprint "7961 6C8F 8E0A 05D1 340F  FC20 4749 AAC8 4D4C 4810"). It's also available on
-        <a href="https://keys.openpgp.org/search?q=signer%40simplelogin.io">keys.openpgp.org</a>
-          `,
-      },
-      {
-        q: "How can I delete my account?",
-        a: `
-        At the bottom of the <a href="https://app.simplelogin.io/dashboard/setting">Settings page</a>,
-        you can delete your account. This operation is irreversible and we have no way to recover your data.
-          `,
-      },
-      {
-        q: "Can I use email aliases for important services like bank, government, etc?",
-        a: `
-        The short answer is yes you can. We use email aliases to run our business, manage our taxes, handle our bank operations and so far so good :). <br>
-        A longer answer is the email protocol is designed to be highly resilient and an email is almost never lost. If SimpleLogin cannot deliver the email to your mailbox, we will notify you so you can take appropriate action. You can also set up a secondary mailbox in addition to your primary mailbox that can be used as a backup.
-          `,
-      }
-    ],
-  },
-});
-
 /** Display CTA action and text according to the device **/
 
 const ctaData = {
