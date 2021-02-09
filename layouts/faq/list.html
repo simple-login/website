@@ -69,42 +69,45 @@
     </div>
     <!-- End Title -->
 
-    <!-- Basics Accordion -->
-    <div id="faq-app">
-      <div id="basicsAccordion">
-        <!-- Card -->
-        <div class="card mb-3" v-for="(qa, index) in qas">
-          <div class="card-header card-collapse" :id="'basicsHeading' + index">
-            <h5 class="mb-0">
-              <button
-                class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
-                data-toggle="collapse"
-                v-bind:data-target="'#general-item-' + index"
-                aria-expanded="false"
-                v-bind:aria-controls="'general-item-' + index"
-              >
-                <span v-html="qa.q"></span>
+    <div id="general-faq">
+      {{ with index site.Data.faq }}
+        {{ $texts := .home }}
+        {{range $index, $element := $texts}}
 
-                <span class="card-btn-arrow">
-                  <span class="fas fa-arrow-down small"></span>
-                </span>
-              </button>
-            </h5>
-          </div>
-          <div
-            :id="'general-item-' + index"
-            class="collapse"
-            v-bind:aria-labelledby="'basicsHeading' + index"
-            data-parent="#basicsAccordion"
-          >
-            <div class="card-body">
-              <p v-html="qa.a"></p>
+          <!-- Card -->
+          <div class="card mb-3">
+            <div class="card-header card-collapse" id='{{ (print "basicsHeading" $index) }}'>
+              <h5 class="mb-0">
+                <button class="btn btn-link btn-block d-flex justify-content-between card-btn collapsed p-3"
+                  data-toggle="collapse"
+                  data-target='{{ print "#basicsCollapse" $index }}'
+                  aria-controls='{{ print "basicsCollapse" $index }}'
+                  aria-expanded="false"
+                  >
+                  <span>{{ ($element.question)|safeHTML }}</span>
+
+                  <span class="card-btn-arrow">
+                    <span class="fas fa-arrow-down small"></span>
+                  </span>
+                </button>
+              </h5>
+            </div>
+
+            <div id='{{ print "basicsCollapse" $index }}'
+              class="collapse"
+              aria-labelledby='{{ print "basicsHeading" $index }}'
+              data-parent="#general-faq">
+              <div class="card-body">
+                <p>{{ ($element.answer)|safeHTML }}</p>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- End Card -->
-      </div>
+          <!-- End Card -->
+
+        {{ end }}
+      {{ end }}
     </div>
+
   </div>
   <!-- END General questions -->
 
