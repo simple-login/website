@@ -22,9 +22,9 @@ how_it_work_desc: Protéger votre boîte mail avec les alias.
 
 how_it_work_1_title: Un différent alias pour chaque site-web.
 
-how_it_work_1_subtitle: La prochaine fois un site vous demande une adresse mail, donnez-lui un <span class="bigger">nouveau</span> alias. <br>
+how_it_work_1_subtitle: La prochaine fois un site vous demande une adresse mail, donnez-lui un <span class="bigger">nouvel</span> alias. <br>
 
-how_it_work_2_title: Recevoir les mails dans votre boîte mail.
+how_it_work_2_title: Recevez les mails dans votre boîte mail.
 
 how_it_work_2_subtitle: >
   Les mails envoyés à un alias sont <span class="bigger">redirigés</span> à votre boîte mail.
@@ -33,18 +33,18 @@ how_it_work_2_subtitle: >
 # available everywhere section
 everywhere_title: Créer et gérer vos alias partout
 
-everywhere_subtitle: S'inscrire pour un newsletter, créer un nouveau compte en un click.
+everywhere_subtitle: S'inscrire pour une newsletter, créer un nouveau compte en un click.
 
 # Alias is the new email address Section
-alias_new_email_title: Alias est la nouvelle adresse mail
+alias_new_email_title: L'alias est la nouvelle adresse mail
 
 alias_new_email_a_title: A. Utiliser les alias partout
-alias_new_email_a_text_1: S'abonner à un newsletter, créer un nouveau compte avec alias.
+alias_new_email_a_text_1: Abonnez-vous à une newsletter, créez un nouveau compte avec un alias.
 alias_new_email_a_text_2: Désactiver un alias si vous ne voulez plus recevoir de mail.
 
 alias_new_email_b_title: B. Envoyer les mails depuis un alias
 alias_new_email_b_text_1: >
-  Cliquer sur "Répondre": la réponse sera envoyée depuis votre alias et votre adresse mail personnel est toujours cachée.
+  Cliquer sur "Répondre": la réponse sera envoyée depuis votre alias et votre adresse mail personnelle est toujours cachée.
 alias_new_email_b_text_2: >
   Vous pouvez aussi envoyer les mails depuis votre alias.
 
@@ -75,9 +75,9 @@ ready_get_started_cta: Créer vos alias maintenant >>
 partner_title: Nos partenaires
 
 # footer
-footer_1: SimpleLogin est une solution <b>open-source</b> pour protéger votre vie privée.
+footer_1: SimpleLogin est une solution <b>open source</b> pour protéger votre vie privée.
 
-footer_2: SimpleLogin offres de simples expériences à la fois pour les utilisateurs et développeurs.
+footer_2: SimpleLogin offre de simples expériences à la fois pour les utilisateurs et développeurs.
 
 footer_3: SimpleLogin est le produit de SimpleLogin SAS, enregistré en France dont le SIREN est 884302134.
 

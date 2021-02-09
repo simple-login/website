@@ -7,7 +7,7 @@
 
 - title: Envoyer depuis an alias
   desc: >
-    Pas seulement un alias peut recevoir les mails, il peut aussi les <span class="highlight">envoyer</span>.
+    Non seulement un alias peut recevoir les mails, il peut aussi les <span class="highlight">envoyer</span>.
     Un alias est donc comme une adresse mail "normale".
 
 - title: Partout
@@ -32,7 +32,7 @@
     <a href="/blog/alias-directory/">qu'est-ce que c'est un directory</a>
 
 
-- title: Plusieurs boîte mails
+- title: Plusieurs boîtes mail
   desc: >
     Si vous avez plusieurs boîtes mail, vous pouvez les ajouter dans SimpleLogin et choisir lequel/lesquels à utiliser quand vous créez un alias.
      <a href="/blog/introducing-mailbox/">Plus d'info ici</a>.
@@ -48,7 +48,7 @@
 
 - title: Plus qu'un alias
   desc: >
-    L'ambition de SimpleLogin est de protégrer votre vie privée en ligne et email est juste le commencement. <br>
+    L'ambition de SimpleLogin est de protéger votre vie privée en ligne et email est juste le commencement. <br>
     Nous travaillons aussi sur le single sign-on, la protection de numéro de téléphone et de carte bancaire.
 
 
