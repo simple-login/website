@@ -1,0 +1,33 @@
+- question: Qu'est-ce que c'est un <b>alias</b> exactement?
+  answer: >
+    Un alias reçoit des mails et les redirige à votre "vraie" boîte mail (e.g. Gmail, Outlook, protonmail). <br>
+    Grâce à la technologie de SimpleLogin, vous pouvez aussi envoyer des mails depuis an alias. <br>
+    Pour votre correspondant, l'alias est votre adresse mail.
+
+
+
+- question: Quelle est la différence entre SimpleLogin et l'ajout de plus (+) chez Gmail?
+  answer: >
+    L'ajout de plus (+) est une forme simple d'alias e-mail. <br>
+    Certes pratique, cette astuce a plusieurs inconvénients et ne protège pas vraiment votre privacy. <br>
+    Nous avons écrit un <a href="/blog/email-alias-vs-plus-sign/">article</a> sur le sujet :).
+
+
+- question: Quelle est la différence entre SimpleLogin et les services d'adresse mail temporaires?
+  answer: >
+    Un alias est permanent, contrairement à une adresse mail temporaire qui est expiré après certain temps. <br>
+    SimpleLogin ne stocke pas les mails et les simplement redirige à votre vraie boîte mail.
+
+
+- question: Où sont les serveurs SimpleLogin ?
+  answer: Nous utilisons <a href="https://upcloud.com/">UpCloud</a>, un service cloud finlandais. Nos serveurs sont actuellement dans le datacenter de France-Allemande et Pays-Bas.
+
+
+- question: Je ne trouve pas la réponse à ma question
+  answer: >
+    Vous pouvez voir la liste de toutes les questions/réponses sur
+    <a href="/faq">la page FAQ</a>. <br>
+    Si vous ne trouvez pas la réponse de votre question sur cette page, veuillez nous envoyer un mail à
+    <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a>. <br>
+    Vous pouvez aussi rejoindre notre <a href="https://www.reddit.com/r/Simplelogin/">Reddit</a> ou notre <a href="https://twitter.com/simple_login">Twitter</a>
+
