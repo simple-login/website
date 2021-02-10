@@ -5,7 +5,7 @@
     les composants de SimpleLogin sont aussi open source.
     <br>
 
-- title: Envoyer depuis an alias
+- title: Envoyer depuis un alias
   desc: >
     Non seulement un alias peut recevoir les mails, il peut aussi les <span class="highlight">envoyer</span>.
     Un alias est donc comme une adresse mail "normale".
