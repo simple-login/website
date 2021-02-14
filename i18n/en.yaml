@@ -110,3 +110,8 @@ pricing_enterprise_cta: Contact us
 pricing_premium_yearly_price: $30/year
 pricing_premium_monthly_price: or $3/month
 
+# <<< FAQ page >>>
+faq_tech_question: Tech questions
+faq_general_question: General questions
+faq_developer_question: Partner/Developer questions
+faq_pricing_question: Plan/Pricing questions
