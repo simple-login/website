@@ -4,7 +4,7 @@ date: 2021-02-24T00:00:00+01:00
 summary: "People often tell me they don't care about their privacy, because they have nothing to hide. But like Edward Snowden puts it, that's like saying freedom of speech doesn't matter because you have nothing to say."
 author: "Maxime Desalle"
 authorLink: "https://twitter.com/maxdesalle"
-authorAvatar: "/images/max.jpg"
+authorAvatar: "/about/max.jpg"
 layout: "single-toc"
 intro: "People often tell me they don't care about their privacy, because they have nothing to hide. But like Edward Snowden puts it, that's like saying freedom of speech doesn't matter because you have nothing to say."
 
