@@ -17,7 +17,7 @@ permalinks:
 params:
   description: Protect your email address with email ALIAS. Create a different email alias for each website. No more phishings, spams.
   images:
-    - /open-graph.png
+    - https://simplelogin.io/open-graph.png
 
 markup:
   tableOfContents:
