@@ -2,14 +2,12 @@
 <html lang="en">
 <head>
   {{ partial "seo_schema" . }}
-  <!-- Title -->
+
   <title>{{ .Title }}</title>
 
-  {{ if .Description }}
-    <meta name="description" content="{{ .Description }}">
-  {{ else }}
-    <meta name="description" content="Protect your email address with email ALIAS. Create a different email alias for each website. No more phishings, spams.">
-  {{ end }}
+  <!-- Inspired from "_internal/opengraph.html" template -->
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
