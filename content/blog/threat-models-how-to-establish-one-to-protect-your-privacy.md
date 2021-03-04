@@ -8,7 +8,7 @@ authorAvatar: "/about/max.jpg"
 layout: "single-toc"
 intro: "Establishing a threat model isn't something easy to do. What is a threat model even? In this 0-to-1 guide, you will learn what a threat model is, how it can help you with your digital privacy, and how you can establish one correctly."
 images:
-  - https://simplelogin.io/open-graph.png
+  - https://simplelogin.io/blog/threat-model.png
 ---
 
 ### What is a threat model?
