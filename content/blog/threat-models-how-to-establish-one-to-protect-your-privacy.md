@@ -11,7 +11,7 @@ intro: "Establishing a threat model isn't something easy to do. What is a threat
 ---
 
 ### What is a threat model?
-First, the essential question. What is that thing? **A threat model allows you to precisely know what you are trying to protect yourself from when putting measures in place regarding your privacy**.
+First, the essential question. What is that thing? **A threat model allows you to precisely know what you are trying to protect yourself from** when putting measures in place regarding your privacy.
 
 Hesitating between using [Tor](https://torproject.org) or a [VPN](https://en.wikipedia.org/wiki/Virtual_private_network)? A threat model will help you decide which option is the best one for you. In this example, you would say, "well, it's obviously Tor! What is this guy thinking?", which is a fair point. In terms of privacy and security, Tor is ideal. However, that doesn't necessarily mean everyone should use it. The user experience is pretty bad compared to VPNs, a lot of websites request captchas when using Tor, and the connection is slower on average than when using a VPN.
 
@@ -19,7 +19,7 @@ So while Tor is definitely the best option (hands down) in terms of privacy, it'
 
 However, imagine you are the creator of an illegal marketplace on the dark web. In that case, you should use Tor. Obviously. Because in that situation, the privacy you will have is much, much, much more important than the bad user experience you will have with Tor.
 
-This is why threat models are essential. **They help you decide and identify what you are protecting yourself from, and what measures you should put in place to efficiently do so**.
+This is why threat models are essential. They help you decide and identify what you are protecting yourself from, and **what measures you should put in place to efficiently do so**.
 
 ### How to establish a threat model
 
@@ -46,11 +46,6 @@ The less extreme version of that would be to:
 2. Use a DNS resolver to block tracking domains Facebook uses
 3. Use a "Use Signal" profile picture to progressively redirect friends to Signal
 4. Avoid posting anything on Facebook, Instagram,...
-
----
-***Interested in privacy?*** Make sure to [**join our subreddit**](https://www.reddit.com/r/Simplelogin/) where you can discuss with like-minded individuals!
-
----
 
 #### Case study: Protecting yourself from Google
 
