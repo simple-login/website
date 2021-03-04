@@ -17,25 +17,11 @@
 
   <meta property="fb:app_id" content="388804475105146"/>
 
-  {{ if .Params.canonicalUrl }}
-    <meta property="og:url"                content="{{ .Params.canonicalUrl }}" />
-  {{ else }}
-    <meta property="og:url"                content="https://simplelogin.io" />
-  {{ end }}
-
-  <meta property="og:title"              content="{{ .Title }}" />
+  <!-- Open Graph -->
+  {{ template "_internal/opengraph.html" . }}
   <meta property="og:site_name" content="SimpleLogin">
-
-
   <meta property="og:type"              content="website" />
 
-  {{ if .Description }}
-    <meta property="og:description"        content="{{ .Description }}" />
-  {{ else }}
-    <meta property="og:description" content="Protect your email address with email ALIAS. Create a different email alias for each website. No more phishings, spams.">
-  {{ end }}
-
-  <meta property="og:image"              content="https://simplelogin.io/open-graph.png" />
 
   <!-- Bing -->
   <meta name="msvalidate.01" content="2A313A69CBFD1A378C3B91734DC221A8" />
@@ -49,12 +35,12 @@
     <link rel="canonical" href="https://simplelogin.io">
   {{ end }}
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:description" content="Protect your email address with email ALIAS. Create a different email alias for each website. No more phishings, spams." />
-  <meta name="twitter:title" content="SimpleLogin | Open-source email alias solution" />
+  <!-- Twitter -->
+  {{ template "_internal/twitter_cards.html" . }}
   <meta name="twitter:site" content="@simple_login" />
-  <meta name="twitter:image" content="https://simplelogin.io/open-graph.png" />
   <meta name="twitter:creator" content="@simple_login" />
+
+  {{ template "_internal/schema.html" . }}
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="/favicon.ico">
@@ -138,7 +124,7 @@
         <!-- Nav -->
         <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space">
           <!-- Logo -->
-          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center"             
+          <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center"
             href='{{ cond (eq .Lang "en") "/" (print "/" .Lang) }}'
             aria-label="SimpleLogin">
             <img src="/logo.png" alt="SimpleLogin logo">
@@ -163,7 +149,7 @@
             <ul class="js-scroll-nav navbar-nav align-items-md-center u-header__navbar-nav ml-auto">
 
               <li class="nav-item u-header__nav-item">
-                <a class="nav-link u-header__nav-link" 
+                <a class="nav-link u-header__nav-link"
                   href='{{ cond (eq .Lang "en") "/pricing" (print "/" .Lang "/pricing") }}'>
                   {{ i18n "header_pricing" }}
                 </a>

@@ -2,6 +2,7 @@
 #baseURL = "https://simplelogin.io/"
 languageCode: "en-us"
 title: "SimpleLogin | Open-source email alias solution"
+
 enableRobotsTXT: true
 canonifyURLs: true
 disableKinds:
@@ -12,6 +13,11 @@ disableKinds:
 # and if you think your md file names or locations might change:
 permalinks:
     post: "/blog/:title/"
+
+params:
+  description: Protect your email address with email ALIAS. Create a different email alias for each website. No more phishings, spams.
+  images:
+    - /open-graph.png
 
 markup:
   tableOfContents:
