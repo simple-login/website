@@ -1,15 +1,10 @@
-- question: Why should I implement SimpleLogin on my website instead of Facebook/Google login?
+- question: Why should I implement SimpleLogin on my website instead of "Login with Facebook/Google"?
   answer: >
-    That's a very good question! Do you know that Facebook and Google use these buttons to <a
-        href="https://dev.to/simplelogin/if-you-care-about-user-privacy-do-not-use-facebook-js-sdk-1j3e">track</a>
-      your users browsing history so that they can provide more personalized ads? And do you get any of
-      these ad-generated revenue? <br>
-    SimpleLogin, with a transparent pricing model (you know where our revenue comes from) with a single
-    product that focus solely on improving the login experiences yet still giving users total control over
-    their data, does not have any incentive to utilize your user data. <br>
-    In addition, we believe in a fair model: users come to your website because your website brings value
-    to them and we are in a win-win relationship, so you deserve to have a share of the benefit.
-
+    Do you know that Facebook and Google use these buttons to <a
+        href="/blog/do-not-use-facebook-sdk/">track</a>
+      your users browsing history so that they can provide more personalized ads? <br><br>
+    As SimpleLogin isn't fueled by advertising and gives users total control over
+    their data, we don't have any incentive to utilize your user data.
 
 - question: Ok, got it. But how about the recent "Sign in with Apple" ?
   answer: >
@@ -17,53 +12,20 @@
         themselves, how can we be sure ... <br>
         Apple can also be considered as an ad platform with their Apple Search Ads so better to not put Apple
         in a (much) higher position than Facebook or Google in terms of privacy. <br>
-        Arguments about transparent pricing and fair model apply to Apple too 😉
 
 - question: Why should I trust SimpleLogin?
   answer: >
-    SimpleLogin code is fully open-source on <a href="https://github.com/simple-login">Github</a> and
-    can be self-hosted. Anyone can freely audit the code or setup their own SimpleLogin server. <br>
+    All SimpleLogin code is fully open-source on <a href="https://github.com/simple-login">Github</a> and
+    can be self-hosted. <br><br>
+    Anyone can freely audit the code or setup their own SimpleLogin server. <br><br>
     SimpleLogin revenue is based on a transparent and sustainable model that allows us to have a
     privacy-first and tracker-free product.
 
 - question: Do you plan to release a SDK to support native, windows, etc app?
   answer: >
     Yes absolutely! We started with the web platform simply because they can be used for mobile app as
-    well via a Android WebView or IOS UIWebView. We plan to provide a SDK and some examples for Android,
+    well via a Android WebView or IOS UIWebView. <br><br>
+    We plan to provide a SDK and some examples for Android,
     iOS, Windows quite soon. Stay tuned!
 
-- question: How does the "revenue sharing" work?
-  answer: >
-    The current advertising model is based on an unfair model where big players (Google, Facebook, etc)
-        take almost all benefit and app/content creators get almost nothing. We strongly believe a
-        sustainable model should be fair: our partners should get an important part of the revenue because
-        together with SimpleLogin, we provide a great login experience to user while respecting user privacy
-        at the same time.
-    <br>
-
-      The revenue formula is still work-in-progress as we need to take into account different factors
-      (mostly payment processing fee and tax rate) but hopefully this can give you a rough idea on how it
-      works.
-    <br>
-
-      The payment period is monthly and works as following: <br>
-      - a user John opts for the premium subscription. John pays 20$/year. After processing fee and taxes,
-      let's assume SimpleLogin receives 12$ net (this number is quite optimist in France 😉), which is
-      1$/month. Half of this will be distributed to partners. <br>
-      - John uses N apps that implement SimpleLogin: each app will get an equal part of the revenue.
-    <br>
-
-      Let's put this into a concrete example. The following numbers are of course hypothesis.<br>
-      - the average number of app a user uses per month is about 10, half of them implement SimpleLogin,
-      that makes N=5. <br>
-      - you have a website/app that has 1M users, half of them use SingleLogin and 10% of them are paying
-      customers, that is 1 000 000*0.5*0.1=50 000 paying users.
-    <br>
-
-      Using our formula, each month you will receive: <br>
-      monthly_revenue = total_number_of_paying_user * 1/2 * monthly_net_revenue / average_app_number <br>
-    <br>
-
-      monthly_revenue = 50000 * 1/2 * 1 / 5 = 5000$
-    <br>
 
