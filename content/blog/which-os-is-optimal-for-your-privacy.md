@@ -8,7 +8,7 @@ authorAvatar: "/about/max.jpg"
 layout: "single-toc"
 intro: "In this blog post, we will explore these three operating systems and see which one fits best according to your threat model."
 images:
-  - https://simplelogin.io/blog/threat-model.png
+  - https://simplelogin.io/blog/optimal-os.png
 ---
 
 You probably know 2 and maybe 3 OSes: Windows, MacOS and Linux (which is actually an ecosystem of operating systems).
@@ -41,15 +41,15 @@ To summarize, MacOS is great in terms of user experience and privacy **if** you 
 
 ### Linux
 
-Linux isn't really an operating system. It's more like an ecosystem of different operating systems with each have their own differentiators. These operating systems are called distributions. There are countless distributions, from the traditional ones like Ubuntu or Fedora, to the more exotic ones like Tails or Whonix (these two are widely used to access the dark web), or even Qubes which is considered by many as the most secure operating system in the world.
+Linux isn't really an operating system. It's more like an ecosystem of different operating systems with each have their own differentiators. These operating systems are called *distributions*. There are countless distributions, from the traditional ones like Ubuntu or Fedora, to the more exotic ones like [Tails](https://tails.boum.org) or [Whonix](https://www.whonix.org) (these two are widely used to access the dark web), or even [Qubes](https://www.qubes-os.org) which is considered by many as the most secure operating system in the world.
 
 The reason why so many Linux distributions exist is simply because the Linux community is driven by the love for open-source. This is also why Ubuntu and Debian (another distribution) are fairly similar, as Ubuntu is in fact based on Debian.
 
-Linux requires some technical know-how, and compared to MacOS, it doesn't just work out of the box. You will need to configure things, browse the internet to figure out why some app has a bug,... It's definitely **not** a fitted for the average user. Additionally, while there are a lot of great open-source apps, the user experience is really a major problem on Linux. Again, it doesn't work out of the box like MacOS does.
+Linux requires some technical know-how, and compared to MacOS, it doesn't just work out of the box. You will need to configure things, browse the internet to figure out why some app has a bug, etc. It's definitely **not** a fitted for the average user. Additionally, while there are a lot of great open-source apps, the user experience can be a problem on Linux. Again, it doesn't work out of the box like MacOS does.
 
 ### Which one should you chose?
 
-Simply put, it all depends on 1. your threat model, and 2. your technical know-how. If you are looking to protect yourself from GAFAM companies for example, you should probably look into Linux. If you are simply trying to protect yourself from regular companies harvesting your data, MacOS is fine.
+Simply put, it all depends on 1. your threat model, and 2. your technical know-how. If you are looking to protect yourself from Big Tech for example, you should probably look into Linux. If you are simply trying to protect yourself from regular companies harvesting your data, MacOS is fine.
 
 On the other side, technical knowledge is required for Linux. If you don't know what the Terminal is, or how to use it, don't even bother looking into it. As a former Linux user, I can guarantee you will be using it a lot (which isn't necessarily a problem for most users).
 
