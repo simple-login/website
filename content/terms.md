@@ -9,8 +9,6 @@ layout: "single_markdown"
 
 **Last updated: 2021-03-17**
 
-## Welcome to SimpleLogin
-
 Thanks for using our products and services ("Services"). The Services are provided by SimpleLogin, located at 147 BD Henri Sellier, 92150, France.
 
 By using our Services, you are agreeing to these terms. Please read them carefully.
