@@ -127,5 +127,14 @@ img {
     max-width: 100%;
 }
 
+/* to make text selectable in the testimonial */
+.slick-slider {
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
 
 
