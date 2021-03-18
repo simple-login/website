@@ -7,7 +7,7 @@ description: "SimpleLogin Terms and Condition. By using our Services, you are ag
 layout: "single_markdown"
 ---
 
-**Last updated: 2021-03-17**
+**Last updated: 2021-03-18**
 
 Thanks for using our products and services ("Services"). The Services are provided by SimpleLogin, located at 147 BD Henri Sellier, 92150, France.
 
@@ -24,7 +24,7 @@ Do not use any resource created within the Services for illegal activity. Using 
 
 It is prohibited to use the Services to send spams, junk mail, bulk emails. It is also forbidden to use your aliases to forward spams from "spambots". Any activity that aims to deteriorate the Services email delivery capability is prohibited and can lead to immediate account suspension.
 
-It is forbidden to use an email alias, a disposable or forwarding email address as SimpleLogin "mailbox".
+It is prohibited to use a disposable or forwarding email address as SimpleLogin "mailbox".
 
 The Services are provided exclusively to persons. Accounts registered by bots or any automated methods are not authorized and will be terminated.
 
