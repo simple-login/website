@@ -13,9 +13,9 @@ Hi! Our [FAQ](/faq) is a great place for most answers, but if you can’t find y
 
 Our [privacy page](/privacy) and [security page](/security) contain a great deal of information on what data we store and for how long.
 
-If you want to report a bug, you can either send us an email or use our [Github issue](https://github.com/simple-login/app/issues) page. Please make sure that the bug hasn't already been reported.
+If you want to report a bug, you can either send us an email or submit an issue our [GitHub](https://github.com/simple-login/app/issues) page. Please make sure that the bug hasn't already been reported.
 
-For feature request, please use our [open roadmap](https://trello.com/b/4d6A69I4/open-roadmap). Please search the feature first to make sure it hasn't been requested. Feel free to upvote the feature you want to happen soon :).
+For feature request, please use our [GitHub forum](https://github.com/simple-login/app/discussions/categories/feature-requests). Please search the forum first to make sure it hasn't been requested. Feel free to upvote the feature you want to happen soon :).
 
 For mailserver related questions, please contact us at postmaster@simplelogin.io
 
