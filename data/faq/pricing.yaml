@@ -58,3 +58,6 @@
 - question: Do you have a refund policy?
   answer: No we don't have a refund policy because SimpleLogin has a trial period where you can try all premium features.
 
+
+- question: Do you have a family plan?
+  answer: No we don't have a family plan but offer 30% reduction for additional subscriptions. Please contact us at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> for more information.
