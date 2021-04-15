@@ -136,5 +136,9 @@ img {
   user-select: text;
 }
 
+.seen-on {
+    filter: grayscale(70%);
+
+}
 
 
