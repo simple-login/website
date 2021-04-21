@@ -1,8 +1,7 @@
 - question: What is the maximum email size?
   answer: >
     The current limit is 25MB. For large attachments, we suggest using a file upload service and send the link instead. You can find some file sharing services that respect our privacy on <a href="https://www.privacytools.io/software/file-sharing/">PrivacyTools</a> <br>
-    Another reason of having this limit is the PGP encryption is a heavy process, supporting a bigger size can put a big load on our server. <br>
-    10MB is also the default size limit used in Postfix, a popular email MTA that SimpleLogin is using.
+    Another reason of having this limit is the PGP encryption is a heavy process, supporting a bigger size put an important load on SimpleLogin servers.
 
 - question: I accidentally deleted an alias, can I restore it?
   answer: >
