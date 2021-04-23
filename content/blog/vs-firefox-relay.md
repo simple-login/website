@@ -32,7 +32,7 @@ All SimpleLogin components, including the web app, iOS/Android apps, Chrome/Fire
 
 Firefox Relay is free and you can create up to 5 aliases. As Firefox Relay is financed by the Mozilla Foundation, having a sustainable business model at the beginning isn't probably necessary. However as [Mozilla recently lays off 250 people and planned a ‘new focus’ on making money](https://www.theverge.com/2020/8/11/21363424/mozilla-layoffs-quarter-staff-250-people-new-revenue-focus), Mozilla might need to think about a monetization strategy for Firefox Relay soon.
 
-SimpleLogin has two pricing tiers. The **free** tier gives you access to all the essentials to get started with email aliases. There is no limit on bandwidth, TOTP is included, and you can create up to 15 aliases. The **premium** tier includes advanced features like PGP encryption, unlimited aliases and custom domains, etc for $3/month or $30/year.
+SimpleLogin has two pricing tiers. The **free** tier gives you access to all the essentials to get started with email aliases. There is no limit on bandwidth, TOTP is included, and you can create up to 15 aliases. The **premium** tier includes advanced features like PGP encryption, unlimited aliases and custom domains, etc for $4/month or $30/year.
 
 ### Platform lock-in
 
