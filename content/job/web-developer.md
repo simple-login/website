@@ -1,6 +1,6 @@
 ---
-title: "Web Developer"
-pageTitle: "Web Developer"
+title: "SimpleLogin Web Developer"
+pageTitle: "SimpleLogin Web Developer"
 url: "/job/web-developer/"
 canonicalUrl: "https://simplelogin.io/job/web-developer/"
 description: "We are looking for a web developer to help deliver more features :)"
@@ -9,34 +9,38 @@ layout: "single"
 
 #### About SimpleLogin
 
-As our privacy is threatened, SimpleLogin’s mission is to help users protect their online privacy. 
+As our privacy is threatened, SimpleLogin’s mission is to help people protect their online privacy. We don't strive to become a unicorn but to create a sustainable business and have a meaningful impact. 
 
-Based on a transparent and open source model, SimpleLogin is highly recommended by the privacy community.
+All SimpleLogin code is [open source](https://github.com/simple-login/) and our work happens on GitHub. Having a single person on the web side until now, we are looking for someone to help deliver new features faster.
 
-Having a single person on the web side until now, we are looking for someone to help deliver new features faster :).
+#### Why joining us?
+
+- Work on an open source product (it's fun!), interact daily with SimpleLogin community.
+- Fair compensation. Including salary, bonus and company shares.
+- Work-life balance: there's no such thing as "work hard, play hard" at SimpleLogin. Your code is better when you're happy and healthy. 
+- Be part of the founder team.
+- 100% remote (might be restricted to France at the moment, due to the our received funding)
+- Make a positive impact.
 
 #### Skills Needed
 
-- Solid experiences in web development, preferably in Python and VueJS.
-- Good knowledge about SQL, Unix, Git.
-- (Plus) Understand the current privacy challenge
+- Solid experiences in web development, preferably in Python(Flask, Sqlalchemy).
+- Good knowledge about Html, Js, Css.
+- Famililar with Git-based environments (Pull request, Code review, etc)
+- Good communicator. Most works happen on GitHub so a good writing skill is a must.
+- (Plus) good sense of UX/UI.
+- (Plus) experiences with DevOps tools like Ansible.
+
 
 #### Day to Day Responsibilities
 
-- Contribute to the web code.
-- Work closely with the team to develop, test, and execute new ideas
+- Contribute to the web app and Chrome/Firefox extension.
+- Work closely with the team to develop, test, and execute new ideas.
 
 
-#### Why Joining SimpleLogin?
+#### How to apply
 
-- The freedom and responsibility to execute your own ideas
-- Be part of the founder team 
-- Compensation includes salary, bonus and company shares
-- 100% remote
-- Work on a an open source product, interact with our community.
-
-
-To join SimpleLogin, send us an email at talent@simplelogin.io
+Please send us an email at talent@simplelogin.io and introduce yourself. Tell us about your experiences and why you want to join SimpleLogin. We respond within a week, usually less than 24h. 
 
 
 
