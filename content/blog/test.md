@@ -1,0 +1,56 @@
+---
+title: "This is a test"
+date: 2021-07-01T00:00:00+01:00
+author: "SimpleLogin team"
+authorLink: "https://twitter.com/simple_login"
+authorAvatar: "/logo-square.svg"
+layout: "single-toc"
+draft: false
+summary: >
+    On June 16, 2021, we have experienced important delays in email delivery that has caused several issues. We are deeply sorry for this incident. Here's what happened, the investigation, and how to prevent this incident from happening again in the future.
+
+
+intro: >
+    On June 16, 2021, we have experienced important delays in email delivery that has caused several issues. We are deeply sorry for this incident. Here's what happened, the investigation, and how to prevent this incident from happening again in the future.
+
+
+---
+
+# What happened
+
+On this date, we have received emails from multiple users alerting us about hours of delay in email delivery. The same issue is also raised on SimpleLogin community on Reddit and Twitter.
+
+### Investigation
+
+For some past incidents, simple operations like increasing the server capacity, restarting all email related programs can be enough but after looking at the server stats, the email delay doesn't seem to be related to server capacity.
+
+We noticed the Postfix queue is abnormally full and flushing doesn't empty the queue fast enough.
+
+Looking at the log, there was a lot of `421 Retry later` SMTP status which suggests an issue with the rate-limiting algorithm. The logs also indicate that an abnormal amount of emails are coming for a single account.
+
+For the context, we have our own rate-limiting algorithm to avoid too many emails from being forwarded to a single mailbox that might lead to SimpleLogin server being blocked by a mailbox service. At that time, we are using a "soft" implementation that simply delays the email delivery when that happens by returning to Postfix a 421 status code and leaving the delay job to Postfix. This implementation allows all emails will be eventually forwarded.
+
+This implementation turns out to be harmful in this situation as Postfix queue is full and delays by consequent other users messages.
+
+We have immediately alerted the user in question and disabled the aliases that receive too many emails. After that, the Postfix queue is quickly coming back to an empty state and the email delivery becomes instant again.
+
+### How to make sure this issue never happens again
+
+This issue has allowed us to learn multiple important lessons
+
+- Use a more standard and aggressive approach in terms of rate-limiting. Popular email services simply return 550 status (i.e. bounces) when there are too many emails sent to the same mailbox in a short period of time. We decided to change our algorithm to use the same approach. This way, we don't run into the risk of having the Postfix queue full.
+
+- Add more monitoring for the email delivery delay and Postfix queue. Have alerts properly set up so we can be informed when a similar issue is going to happen.
+
+- When the issue happened, all the team is on vacation and we didn't react as fast as normally. We'll make sure to have better planning to always have at least an on-call team member.
+
+- Make sure to highlight that SimpleLogin is for personal use and isn't meant to be a transactional or marketing email service. Any robot-like usage on SimpleLogin is prohibited.
+
+### Conclusion
+
+We are grateful for the support from our community during this incident. Though we have more and more automatic monitoring, please send us an email at hi[at]simplelogin.io, tag our [Twitter account](https://twitter.com/simple_login), or [Reddit account](https://www.reddit.com/user/RealSimplelogin/) whenever you notice anything abnormal.
+
+
+
+
+
