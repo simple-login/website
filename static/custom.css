@@ -137,7 +137,7 @@ img {
 }
 
 .seen-on {
-    filter: grayscale(70%);
+    /*filter: grayscale(70%);*/
 
 }
 
