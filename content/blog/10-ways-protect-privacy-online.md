@@ -1,5 +1,5 @@
 ---
-title: "10 Ways To Protect Your Privacy Online"
+title: "10 Free Ways To Protect Your Privacy Online"
 date: 2021-07-19
 author: "Giorgio"
 authorLink: "https://twitter.com/simple_login"
