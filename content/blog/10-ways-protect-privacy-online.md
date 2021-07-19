@@ -5,6 +5,7 @@ author: "Giorgio"
 authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
+url: "/blog/10-free-ways-to-protect-your-privacy-online"
 draft: false
 summary: >
     10 tips to protect your privacy online. Effective, easy to implement, and free to use. Take back control, and enjoy a new peace of mind when browsing the web.
