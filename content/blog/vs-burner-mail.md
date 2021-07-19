@@ -75,21 +75,21 @@ The **competition against ourselves** is what drives the price lower.
 
 ### Able to send emails from alias
 
-In order to send emails from an alias, you need to go Burner Mail website and compose an email there. Burner Mail doesn't support replying to a forwarded email or sending emails from an alias from your email client. 
+In order to send an email from an alias, you need to go Burner Mail website and compose the email there. Burner Mail also doesn't support replying to a forwarded email from your email client. 
 
-SimpleLogin supports sending emails from alias using your usual email client. You can reply to a forwarded email just like a normal email: the email will be sent from your alias and your personal mailbox stays hidden. 
+SimpleLogin supports sending emails from your alias using your usual email client. You can reply to a forwarded email just like a normal email: the email will be sent from your alias and your personal mailbox stays hidden. 
 
 ### PGP encryption
 
 ![PGP encryption](/blog/vs-burnermail/6.png)
 
-Pretty Good Privacy (PGP) is an encryption system used for both sending encrypted emails and encrypting sensitive files. Since its invention back in 1991, PGP has become the de facto standard for email security.
-
-PGP uses both symmetric encryption and public-key encryption, it allows users who have never met to send encrypted messages to each other without exchanging private encryption keys.
+Pretty Good Privacy (PGP) allows you to encrypt your emails so your email service can't read the email content. This adds another layer of security, especially for popular email services that don't have PGP built in like Gmail, Outlook, Yahoo. 
 
 This method of encryption **significantly increases the security of the messages** you exchange online. 
 
-PGP is provided by default by some email services such as Protonmail or enabled with existing email services via PGP software.
+PGP is provided by default by some email services such as Protonmail or enabled with existing email services via PGP softwares.
+
+SimpleLogin [adds support for PGP on March 2020](/blog/introducing-pgp/). Burner Mail doesn't support PGP at the moment. 
 
 
 ### Crypto Payments
@@ -128,7 +128,7 @@ Burner Mail is doing a great job by providing an easy-to-use and intuitive way t
 
 UX/UI is one of the challenges for SimpleLogin so email alias can be more mainstream and available to the more people.
 
-We welcome any feedback from existing SimpleLogin users on our UX/UI, so if there's something you'd like to see don't hesitate to let us know!
+We welcome any feedback from existing SimpleLogin users on our UX/UI, so if there's something you'd like to see, don't hesitate to let us know!
 
 
 #### Conclusions
