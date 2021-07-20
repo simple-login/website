@@ -149,9 +149,9 @@ Also, additional perks of using a VPN include being able to **enjoy the full Net
 
 VPNs can be extremely cheap, and in some cases they're free.
 
-**You can get a free VPN by using the** [**Brave Browser on Mobile**](https://brave.com/) **or by installing** [**1.1.1.1**](https://1.1.1.1/) **from Cloudflare.**
+You can get a free VPN by using the [**Brave Browser on Mobile**](https://brave.com/)
 
-When on desktop, you can use the [Opera Browser](https://www.opera.com/features/free-vpn), **which includes a VPN with four locations completely free of charge.**
+When on desktop, you can use the [Opera Browser](https://www.opera.com/features/free-vpn), **which includes a VPN with four locations completely free of charge**. ProtonVPN offers a free tier as well.
 
 Please do NOT use free VPNs from unverified sources. Those can be even more dangerous than not using a VPN in the first place.
 
