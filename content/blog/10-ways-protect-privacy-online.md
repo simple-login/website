@@ -159,7 +159,7 @@ The ones mentioned in this blog article are reliable and coming from authorities
 
 If you'll need more regions or are ready to go premium, **here are a few options worth considering:**
 
-*   [NordVPN](https://nordvpn.com/) (industry-leader)
+*   [Mullvad](https://mullvad.net/)
 *   [SurfShark](https://surfshark.com/) (great family plans)
 *   [ExpressVPN](https://www.expressvpn.com/) (industry-leader)
 *   [Mozilla VPN](https://www.mozilla.org/en-US/products/vpn/) (best-for-privacy)
