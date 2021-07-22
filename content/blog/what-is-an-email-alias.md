@@ -6,26 +6,30 @@ authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 url: "/blog/what-is-an-email-alias"
-draft: true
+draft: false
 summary: >
      In this article, we explore what is an email alias and you can use aliases to protect your digital identity. Do more with your email.
 intro: >
-An email alias is a unique email address you’ve created that functions like a nickname, or an **on-the-fly email address** that you can use to use when you need it.
+     An email alias is a unique email address you’ve created that functions like a nickname, or an **on-the-fly email address** that you can use to use when you need it.
 
-**SimpleLogin built an entire business around them, and you may be asking... why?**
 
-What's so special about email aliases?
+     **SimpleLogin built an entire business around them, and you may be asking... why?**
 
-Well, the underlying technology is quite simple, but **grants you way more power than you think right now.**
 
-In this article, we'd like to explore why you should consider using one email alias for each service you subscribe to online.
+     What's so special about email aliases?
+
+
+     Well, the underlying technology is quite simple, but **grants you way more power than you think right now.**
+     
+
+     In this article, we'd like to explore why you should consider using one email alias for each service you subscribe to online.
 
 keywords:  
  - 'what is an email alias'
  - 'how email aliases protect your privacy'
 ---
 
-## Your email is a gateway to your identity
+### Your email is a gateway to your identity
 ![Email alias to protect privacy](/blog/email-alias/1.png)
 
 
@@ -61,7 +65,7 @@ In this example, which is very real and practical, **you entered your email four
 
 If you do that every day, it's **1460 sites, hence 1460 databases**, in control of your email address.
 
-## **Why is it a problem?**
+### **Why is it a problem?**
 ![Why having one single identity online is a problem](/blog/email-alias/3.png)
 
 
@@ -83,7 +87,7 @@ When you subscribe to their database with your email, you're giving a total stra
 
 It means **they can bombard you with emails**, give your email to other third parties for advertising purposes, or just straight-out sell your address to bidders online.
 
-## Isn't regulation enough to protect my privacy online?
+### Isn't regulation enough to protect my privacy online?
 ![GDPR regulations](/blog/email-alias/4.png)
 
 
@@ -110,7 +114,7 @@ We **don't**:
 
 However, **small bloggers and e-commerce owners might need to**, and we're not saying you shouldn't support them just because they can't afford a 10-people team to oversight the cybersecurity in the company.
 
-## Why email aliases protect your identity on websites
+### Why email aliases protect your identity on websites
 ![Email aliases give you a kill switch](/blog/email-alias/5.png)
 
 
@@ -137,7 +141,7 @@ As of the national health records, **you may want to remove your email address f
 
 Regarding the **newsletter**, you have to click the "Unsubscribe" button at the bottom of an email they sent you and hope they delete it forever.
 
-## Do you see any problem with this approach?
+### Do you see any problem with this approach?
 
 We see two:
 
@@ -153,7 +157,7 @@ Do you remember what we said about them at the beginning of the articles?
 
 Great, let's see how this can be the key to a better life online for you and your family.
 
-## An email alias is fundamental to have a kill-switch for every online service you register for
+### An email alias is fundamental to have a kill-switch for every online service you register for
 ![Unsubscribe in one click](/blog/email-alias/6.png)
 
 
@@ -192,7 +196,7 @@ And by the way, this is coming from marketing professionals. We love to give you
 
 Receiving emails and promotions is like sex. It's good only if it's consensual.
 
-## Do you have to use SimpleLogin to create email aliases?
+### Do you have to use SimpleLogin to create email aliases?
 ![What to use](/blog/email-alias/2.png)
 
 
@@ -221,7 +225,7 @@ Also, **our code is open-source**, so if you have the technical know-how you can
 
 For free. All premium features included.
 
-## Is this all email aliases can do?
+### Is this all email aliases can do?
 
 
 **Nope**. Email aliases can be used to save money, protect your identity and **send secure communication from non-secure addresses** (such as Gmail addresses) thanks to PGP.
