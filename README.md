@@ -14,5 +14,3 @@ hugo server
 ```
 
 The website is now available on http://localhost:1313/
-
-Test Giorgio
