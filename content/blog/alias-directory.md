@@ -47,5 +47,3 @@ This feature is currently only available in the premium plan.
 
 
 
-
-
