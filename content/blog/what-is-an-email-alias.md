@@ -24,14 +24,14 @@ intro: >
 
      In this article, we'd like to explore why you should consider using one email alias for each service you subscribe to online.
 
+![Email alias to protect privacy](/blog/email-alias/1.png)
+
 keywords:  
  - 'what is an email alias'
  - 'how email aliases protect your privacy'
 ---
 
 ### Your email is a gateway to your identity
-![Email alias to protect privacy](/blog/email-alias/1.png)
-
 
 **We cared about privacy online before it was trendy.**
 
