@@ -163,6 +163,7 @@ Great, let's see how this can be the key to a better life online for you and you
 
 This is what using an email alias for each website / service looks like:
 
+![SimpleLogin screenshot](/blog/email-alias/screenshot-chrome.png)
 
 *Screenshot from our Chrome Extension*
 
