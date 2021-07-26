@@ -29,6 +29,8 @@ intro: >
 keywords:  
  - 'what is an email alias'
  - 'how email aliases protect your privacy'
+  images:
+  - https://simplelogin.io/blog/email-alias/1.png
 ---
 
 ### Your email is a gateway to your identity
