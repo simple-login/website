@@ -29,7 +29,8 @@ intro: >
 keywords:  
  - 'what is an email alias'
  - 'how email aliases protect your privacy'
-  images:
+
+images:
   - https://simplelogin.io/blog/email-alias/1.png
 ---
 
