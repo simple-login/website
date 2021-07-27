@@ -12,18 +12,20 @@ summary: >
 intro: >
      You understood the importance of using email aliases, and you're looking for the best **free email alias generator**.
 
-	SimpleLogin is an open-source software that generates up to 15 email aliases for you for free. **There are no hidden fees of any kind.**
+     SimpleLogin is an open-source software that generates up to 15 email aliases for you for free. **There are no hidden fees of any kind.**
 
-	Today, we'll show you how to set up your account and get started with your free email alias right away!
+     Today, we'll show you how to set up your account and get started with your free email alias right away!
 
-	If you need a refresher on what we're talking about, you can read our full article on [what is an email alias](https://simplelogin.io/blog/what-is-an-email-alias/). 
+     If you need a refresher on what we're talking about, you can read our full article on [what is an email alias](https://simplelogin.io/blog/what-is-an-email-alias/). 
 
      ![Free Email Alias](/blog/free-email-alias/intro.png)
 
 keywords:  
  - 'free email alias'
-  images:
-  - https://simplelogin.io//blog/free-email-alias/intro.png
+
+
+images:
+ - https://simplelogin.io//blog/free-email-alias/intro.png
 
 
 ---
@@ -132,6 +134,7 @@ Which covers over 90% of mobile users at the moment. As an example, here's how o
 and by clicking on the "+" icon in the top right corner you will get to the familiar set up screen:
 
 (![Free Email Alias](/blog/free-email-alias/while-creating.jpeg)
+
 
 Just create your new alias and start using it online for free! Isn't that easy-peesy? :)
 
