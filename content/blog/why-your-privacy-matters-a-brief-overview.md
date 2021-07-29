@@ -8,6 +8,8 @@ authorAvatar: "/about/max.jpg"
 layout: "single-toc"
 intro: "People often tell me they don't care about their privacy, because they have nothing to hide. But like Edward Snowden puts it, that's like saying freedom of speech doesn't matter because you have nothing to say."
 
+images:
+ - https://simplelogin.io/blog/privacy-matters.png
 ---
 
 People often tell me they don't care about their privacy, because they have nothing to hide. But like [Edward Snowden](https://edwardsnowden.com/) puts it, [that's like saying freedom of speech doesn't matter because you have nothing to say](https://www.ted.com/talks/edward_snowden_here_s_how_we_take_back_the_internet).
