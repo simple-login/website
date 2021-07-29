@@ -6,7 +6,7 @@ authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 url: "/blog/free-email-alias"
-draft: true
+draft: false
 summary: >
      Create email aliases for free. Protect your email from spam and safeguard your privacy online with a few clicks. No hidden fees, ever.
 intro: >
@@ -17,6 +17,7 @@ intro: >
      Today, we'll show you how to set up your account and get started with your free email alias right away!
 
      If you need a refresher on what we're talking about, you can read our full article on [what is an email alias](https://simplelogin.io/blog/what-is-an-email-alias/). 
+
 
      ![Free Email Alias](/blog/free-email-alias/intro.png)
 
@@ -44,7 +45,6 @@ To get started, click on the "Sign Up" button in the top right corner:
 And fill the form up with your data:
 
 ![Free Email Alias](/blog/free-email-alias/sign-up-captcha.png)
-*Sign up for your free email alias. No hidden scores.*
 
 We only require your:
 
@@ -67,12 +67,12 @@ The most extensive solution to create an alias and set up all the advanced setti
 
 It looks like this:
 
-(![Free Email Alias](/blog/free-email-alias/chrome-first-in-dashboard.png)
+![Free Email Alias](/blog/free-email-alias/chrome-first-in-dashboard.png)
 *Dashboard email aliases SimpleLogin: complete overview of the solution*
 
 Once you click on "Create New Alias", you'll be brought to the setup screen:
 
-(![Free Email Alias](/blog/free-email-alias/chrome-in-dashboard.png)
+![Free Email Alias](/blog/free-email-alias/chrome-in-dashboard.png)
 
 
 Here, you'll be able to specify your alias and **select from a list of public domains** (the domain that appears after the @). All of those are **free to use**, and we offer more than one just in case the website you're signing up to blocked one of them.
@@ -93,7 +93,7 @@ All Chromium Browsers that support Chrome Extensions will do as well. For exampl
 
 The process to create an email alias with SimpleLogin's extension is pretty much identical:
 
-(![Free Email Alias](/blog/free-email-alias/chrome-in-app.png)
+![Free Email Alias](/blog/free-email-alias/chrome-in-app.png)
 
 Simply click on the SL icon in your toolbar, and create an alias in one click.
 
@@ -103,17 +103,17 @@ Also, enabling the browser extension will add a button to auto-generate an email
 
 Here's an example:
 
-(![Free Email Alias](/blog/free-email-alias/appsumo-button.png)
+![Free Email Alias](/blog/free-email-alias/appsumo-button.png)
 
 If you click on it, a new alias forwarding to your main email address will be generated on the fly in less than one second.
 
-(![Free Email Alias](/blog/free-email-alias/appsumo-alias.png)
+![Free Email Alias](/blog/free-email-alias/appsumo-alias.png)
 
 **It's literally faster than typing your real email address in**, and gives you the added peace of mind that your email is safe.
 
 **Pro tip: if the icon gets in the way, you can move it to the side from the settings panel.**
 
-(![Free Email Alias](/blog/free-email-alias/show-external.PNG)
+![Free Email Alias](/blog/free-email-alias/show-external.PNG)
 
 ### Generate an email alias from our applications
 
@@ -129,11 +129,11 @@ Subscriptions give us the opportunity to provide a free service while building a
 
 Which covers over 90% of mobile users at the moment. As an example, here's how our iOS app looks like:
 
-(![Free Email Alias](/blog/free-email-alias/external-creating.png)
+![Free Email Alias](/blog/free-email-alias/external-creating.png)
 
 and by clicking on the "+" icon in the top right corner you will get to the familiar set up screen:
 
-(![Free Email Alias](/blog/free-email-alias/while-creating.jpeg)
+![Free Email Alias](/blog/free-email-alias/while-creating.jpeg)
 
 
 Just create your new alias and start using it online for free! Isn't that easy-peesy? :)
