@@ -17,6 +17,9 @@ intro: >
     In this post, we take a look at the similarities and differences between Burner Mail and SimpleLogin.
 
     ![Burner Mail or SimpleLogin](/blog/vs-burnermail/1.png)
+    
+images: 
+ - https://simplelogin.io/blog/vs-burnermail/1.png
 
 ---
 
