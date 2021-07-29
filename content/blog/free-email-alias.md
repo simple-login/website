@@ -26,7 +26,7 @@ keywords:
 
 
 images:
- - https://simplelogin.io//blog/free-email-alias/intro.png
+ - https://simplelogin.io/blog/free-email-alias/intro.png
 
 
 ---

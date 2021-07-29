@@ -34,6 +34,9 @@ intro: >
 keywords:  
  - 'how to protect your identity online'
  - 'protect your privacy online'
+ 
+images: 
+ - https://simplelogin.io/blog/10-way/1.png
 ---
 
 
