@@ -14,6 +14,9 @@ For example, if your email address is `name@email.com`, you can quickly create a
 
 Here's a closer look at the pros and cons of using the plus sign trick, especially when compared with email aliases.
 "
+
+images:
+ - https://simplelogin.io/blog/plus-sign/plus-sign.png
 ---
 
 ### Plus sign trick advantages

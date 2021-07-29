@@ -8,6 +8,8 @@ authorAvatar: "/logo-square.svg"
 
 layout: "single-toc"
 intro: "Our most requested feature is finally ready: you can now add several **real** email addresses into SimpleLogin and choose which one to use when creating aliases!"
+
+
 ---
 
 ### What is a mailbox?
