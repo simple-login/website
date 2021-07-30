@@ -39,8 +39,7 @@ However, because the installation and setup is still a little complicated for le
 
 To get started, click on the "Sign Up" button in the top right corner:
 
-![Free Email Alias](/blog/free-email-alias/simple-login-signup.png)
-*Get your free email alias with SimpleLogin today in three steps*
+![Get your free email alias with SimpleLogin today in three steps](/blog/free-email-alias/simple-login-signup.png)
 
 And fill the form up with your data:
 
@@ -67,8 +66,7 @@ The most extensive solution to create an alias and set up all the advanced setti
 
 It looks like this:
 
-![Free Email Alias](/blog/free-email-alias/chrome-first-in-dashboard.png)
-*Dashboard email aliases SimpleLogin: complete overview of the solution*
+![Dashboard email aliases SimpleLogin: complete overview of the solution](/blog/free-email-alias/chrome-first-in-dashboard.png)
 
 Once you click on "Create New Alias", you'll be brought to the setup screen:
 
