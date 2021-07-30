@@ -113,7 +113,7 @@ If you click on it, a new alias forwarding to your main email address will be ge
 
 **Pro tip: if the icon gets in the way, you can move it to the side from the settings panel.**
 
-![Free Email Alias](/blog/free-email-alias/show-external.PNG)
+![Free Email Alias](/blog/free-email-alias/show-external.png)
 
 ### Generate an email alias from our applications
 
@@ -129,7 +129,7 @@ Subscriptions give us the opportunity to provide a free service while building a
 
 Which covers over 90% of mobile users at the moment. As an example, here's how our iOS app looks like:
 
-![Free Email Alias](/blog/free-email-alias/external-creating.png)
+![Free Email Alias](/blog/free-email-alias/external-creating.PNG)
 
 and by clicking on the "+" icon in the top right corner you will get to the familiar set up screen:
 
