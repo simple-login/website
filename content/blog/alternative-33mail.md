@@ -153,5 +153,3 @@ In conclusion, we believe SimpleLogin could be better for you if you’re lookin
 33Mail is great software, and we support every business revolving around users' privacy. They've been around for a long time and we respect their business model and commitment towards a better future for the World Wide Web.
 
 However, if you need to secure your email content with PGP, add unlimited email domains and have a **more complete experience overall**, SimpleLogin will probably be a better solution for you and your business.
-
-
