@@ -20,7 +20,6 @@ images:
 ---
 
 ### Unlimited email alias
-![What do you get](/blog/vs-burnermail/9.png)
 
 33Mail sets their limits on bandwidth, not number of email alias generated. This means **you don't have a limit to the number of alias you can generate with a free 33Mail subscription**.
 
