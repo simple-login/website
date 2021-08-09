@@ -41,7 +41,6 @@ Both approaches can be good, and it all depends on your needs.
 **We believe setting the limit on the number of aliases frees you up from understanding how much bandwidth you need**, which is something most customers would not be able to do before actually trying.
 
 ### Reply with your Alias
-![What do you get](/blog/vs-burnermail/9.png)
 
 33Mail provides a great feature to let you reply with your email aliases. However, **this feature is restricted to PRO accounts, and it starts at 1$ per month for 20 replies.**
 
