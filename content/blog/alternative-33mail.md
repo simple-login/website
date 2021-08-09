@@ -1,6 +1,6 @@
 ---
 title: "A great alternative to 33mail"
-date: 2021-08-8
+date: 2021-08-08
 author: "Giorgio"
 authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
