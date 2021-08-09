@@ -1,7 +1,7 @@
 ---
 title: "SimpleLogin protects you better than Sign In With Apple"
-url: "/blog/vs-sign-in-with-apple"
-date: 2021-08-07
+url: "/blog/vs-33mail"
+date: 2021-08-06
 author: "Giorgio"
 authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
