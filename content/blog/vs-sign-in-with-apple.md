@@ -1,6 +1,7 @@
 ---
 title: "What makes SimpleLogin a great Sign In With Apple alternative?"
-date: 2021-07-12
+url: "/blog/vs-sign-in-with-apple"
+date: 2021-08-09
 author: "Giorgio"
 authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
