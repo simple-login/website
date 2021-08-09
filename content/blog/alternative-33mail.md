@@ -10,9 +10,9 @@ summary: >
     33Mail is a fantastic service to create email alias and they've been online for more than 10 years. Here are the main differences between our services.
 
 intro: >
-    S33Mail is a fantastic service to create email alias and they've been online for more than 10 years. Here are the main differences between our services..
+    33Mail is a fantastic service to create email alias and they've been online for more than 10 years. Here are the main differences between our services.
 
-    ![Burner Mail or SimpleLogin](/blog/vs-33mail/1.png)
+    ![33mail or SimpleLogin](/blog/vs-33mail/1.png)
     
 images: 
  - https://simplelogin.io/blog/vs-33mail/1.png
