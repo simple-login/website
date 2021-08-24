@@ -1,30 +1,37 @@
 ---
-author :  'undefined'
-date :  2021-08-24T11:00:59.013Z
-title : |
- 'What to do in case your email gets in a data breach'
-description : |
- 
-keywords :  
- - 
+title: "What to do in case your email gets in a data breach"
+date: 2021-08-21
+author: "Giorgio"
+authorLink: "https://twitter.com/simple_login"
+authorAvatar: "/logo-square.svg"
+layout: "single-toc"
+url: "/blog/email-data-breach-what-to-do"
+draft: false
+summary: >
+	In this article, we explore what is an email alias and you can use aliases to protect your digital identity. Do more with your email.
+intro: >
+	Protecting your privacy online should be your top priority. The chances are that you use email aliases to ensure that your real email address does not get compromised.
+
+	You might have thought about what to do if **your email has been breached.** 
+
+	Being prepared for breached email is important. Although you cannot disable your main inbox, **you will be able to disable your email alias.**
+
+	The fact is that cybercriminals use sophisticated methods for accessing personal data and all other accounts. 
+
+	Since we link everything to our emails, such as online banking and federal taxes, you need to know how to protect against email breaches. **You must act quickly** if you want to ensure that damage in terms of your identity and finances is minimized. 
+
+	One is likely to think "my email has been leaked" or "email data breach what to do." Well, there is no need to worry as we have prepared a guide that will help you navigate and learn **how to protect against email breaches** and what to do if your email has been breached. 
+
+     ![Email alias to protect privacy](/blog/data-breach/Email-1.png)
+
+keywords:  
+ - 'what is an email alias'
+ - 'how email aliases protect your privacy'
+
+images:
+  - https://simplelogin.io/blog/email-alias/1.png
 ---
-
-     
-
-What to do in case your email gets in a data breach
-===================================================
-
-Protecting your privacy online should be your top priority. The chances are that you use email aliases to ensure that your real email address does not get compromised.
-
-You might have thought about what to do if **your email has been breached.** 
-
-Being prepared for breached email is important. Although you cannot disable your main inbox, **you will be able to disable your email alias.**
-
-The fact is that cybercriminals use sophisticated methods for accessing personal data and all other accounts. 
-
-Since we link everything to our emails, such as online banking and federal taxes, you need to know how to protect against email breaches. **You must act quickly** if you want to ensure that damage in terms of your identity and finances is minimized. 
-
-One is likely to think "my email has been leaked" or "email data breach what to do." Well, there is no need to worry as we have prepared a guide that will help you navigate and learn **how to protect against email breaches** and what to do if your email has been breached.  
+     
 
 ## **How Aliases Make Things So Much Simpler?**
 
