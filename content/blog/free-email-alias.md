@@ -176,7 +176,7 @@ Our team is very small and we don't need huge HR teams or to manage dozens of em
 
 This is probably the hardest question that a company has to answer :).
 
-As we are using SimpleLogin on a daily basis, for both our personal and professinal usage, in the worst case, **we will close registrations for new users so SimpleLogin can only be used by existing users.**
+As we are using SimpleLogin on a daily basis, for both our personal and professional usage, in the worst case, **we will close registrations for new users so SimpleLogin can only be used by existing users.**
 
 For information, [Spamgourmet](https://www.spamgourmet.com/index.pl), a similar email forwarding service has been running for more than 20 years now.
 
