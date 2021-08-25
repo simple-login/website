@@ -6,7 +6,7 @@ authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 url: "/blog/email-data-breach-what-to-do"
-draft: false
+draft: true
 summary: >
     In this article, we explore what is an email alias and you can use aliases to protect your digital identity. Do more with your email.
 
