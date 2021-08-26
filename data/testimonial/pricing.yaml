@@ -8,11 +8,11 @@
 
 
 - text: >
-    SimpleLogin is one of my favorite go-to products for privacy and security. <br>
-    The premium plan gives instant access to custom domains, which allows you to manage all your custom domains with catch-all rules for example and use them on the fly. <br>
-    The major benefit of using email aliases like SimpleLogin allows, is that in case of a data breach, it's impossible for the hackers to find your other accounts, as you would have a different alias for each account. <br>
-    Breaches take place on a **daily** basis. And once your email account is in the wild, it will stay there forever. There is no way to get it back.<br>
-    And for those who are wondering, you can even send emails from an alias straight from your email provider (like Gmail or ProtonMail), to always maintain your privacy even when exchanging with people via email.<br>
+    SimpleLogin is one of my favorite go-to products for privacy and security. <br><br>
+    The premium plan gives instant access to custom domains, which allows you to manage all your custom domains with catch-all rules for example and use them on the fly. <br><br>
+    The major benefit of using email aliases like SimpleLogin allows, is that in case of a data breach, it's impossible for the hackers to find your other accounts, as you would have a different alias for each account. <br><br>
+    Breaches take place on a **daily** basis. And once your email account is in the wild, it will stay there forever. There is no way to get it back.<br><br>
+    And for those who are wondering, you can even send emails from an alias straight from your email provider (like Gmail or ProtonMail), to always maintain your privacy even when exchanging with people via email.<br><br>
     I **highly** recommend using SimpleLogin, and I **highly** recommend taking the very generous premium plan. I have been using their service since a few months now, and I really can't recommend it enough.
   name: Maxime Desalle
 
@@ -47,8 +47,8 @@
 
 
 - text: >
-    I've found SimpleLogin last year and subscribed to premium before my trial expired. In my opinion it's the first solution of this kind which is fully thought out through. I especially appreciate support for replies and custom domains. Thanks to the latter feature I was able to migrate my catch-all email domain to SimpleLogin and kill off some compromised aliases used only by spammers. <br>
-    My only wish is if there were integration with password managers (especially Bitwarden), but that's not really a Simplelogin's issue. <br>
+    I've found SimpleLogin last year and subscribed to premium before my trial expired. In my opinion it's the first solution of this kind which is fully thought out through. I especially appreciate support for replies and custom domains. Thanks to the latter feature I was able to migrate my catch-all email domain to SimpleLogin and kill off some compromised aliases used only by spammers. <br><br>
+    My only wish is if there were integration with password managers (especially Bitwarden), but that's not really a Simplelogin's issue. <br><br>
     Oh and did I mention it's fully open-source with nice documentation for self-hosting?
   name: Jan V.
 
