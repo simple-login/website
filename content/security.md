@@ -53,10 +53,10 @@ Here are Hardenize reports for our domains:
 
 ## Mail Servers
 
-Currently SimpleLogin has 2 mail servers located at
+Currently SimpleLogin has 2 mail servers located at Netherlands datacenter.
 
-- mx1.simplelogin.co (Germany datacenter) and
-- mx2.simplelogin.co (Netherlands datacenter).
+- mx1.simplelogin.co and
+- mx2.simplelogin.co
 
 Our mail servers support the following security standards.
 

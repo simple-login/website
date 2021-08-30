@@ -172,9 +172,51 @@
   </div>
   <!-- End Pricing Section -->
 
+  <div class="container">
+    <h2 class="h2 text-center text-primary font-size-md-down-3 font-weight-semi-bold my-7">
+        What people say about SimpleLogin
+    </h2>
+
+    <div class="card-columns">
+
+      {{ with index site.Data.testimonial }}
+        {{ $texts := .pricing }}
+        {{range $index, $element := $texts}}
+        <div class="card">
+          <div class="card-body">
+            <p class="truncate" style="font-size: 15px;">
+              {{ ($element.text)|safeHTML }}
+            </p>
+
+            <div>
+              {{ with $element.url }}
+              <a href="{{ . }}">
+              {{ end }}
+
+              {{ with $element.image }}
+              <img class="img-fluid rounded-circle" style="width: 30px" src="{{ . }}" alt="{{ $element.name }}">
+              {{ end }}
+
+              {{ with $element.url }}
+              </a>
+              {{ end }}
+
+              <span style="font-weight: 500; font-style: italic;">
+                {{ $element.name }}
+              </span>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
 
 
 
+
+
+  <!--
   <div class="" style="min-height: 500px">
     <div class="container">
 
@@ -194,6 +236,7 @@
 
     </div>
   </div>
+  -->
 
 
   <div class="container-fluid pb-7 mb-7" style="max-width: 80rem; margin-top: 120px;">
