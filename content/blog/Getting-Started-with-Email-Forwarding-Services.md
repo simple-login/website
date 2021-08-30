@@ -48,3 +48,33 @@ The obvious flaw here is that much like with a VPN, all you’ve really done her
 ### Email forwarding will declutter your inbox
 
 When I set out to write this post, I had originally envisioned a broad walkthrough of what I do, but as I began to write I realized that using a forwarding email service is actually very simple and incredibly user friendly in and of itself. Rather, much like privacy itself, **it’s less about the technical details of the tool and more about the critical thinking and the mindset that goes into it.** With privacy, I encourage people to simply ask questions about every decision they make: “does this person really need this information they’re asking for?” “What are the risks?” “Is there a way I can make this more private?” With email masking, the same general principle applies. Rather than getting caught up in the weeds of “should I use random words or random characters?” focus instead on things like when to use a custom domain and if you should take advantage of subject-changing features. And of course, be sure to vet your email forwarding service of choice. Read the privacy policy and do your research because, as I said, you’re transferring trust. Make sure this person is trustworthy.
+
+{{< rawhtml >}}
+<style>
+h2 {font-family: "Poppins", sans serif;}
+p {font-family: "Poppins" font-size: 16px;}
+.main {width:100%;
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding:20px;
+  border-radius: 16px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+a {color: #ED5AB1; font-family: "Poppins", sans serif}
+
+
+ </style>
+<div id="container" class="main">
+  <div id="titledesc" class="secondary">
+    <h2> Nate at TheNewOil </h2>
+    <p> Nathan Bartram is the founder
+and editor of The New Oil, a website that produces blog posts, videos,
+and other content dedicated to helping non-tech-savvy beginners get
+started with data privacy and cybersecurity. </p>
+  </div>
+  <div id="socials">
+    <a href="https://thenewoil.xyz" target="blank"> Read more at TheNewOil </a>
+  </div>
+</div>
+
+{{< /rawhtml >}}
