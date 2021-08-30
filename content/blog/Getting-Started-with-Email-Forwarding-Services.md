@@ -8,11 +8,11 @@ layout: "single-toc"
 url: "/blog/email-forwarding-declutter-inbox"
 draft: false
 summary: >
-	Our contributor, Nate, explains how to use email forwarding to simplify your digital life and why masking your address can protect you from threats online.
+    Our contributor, Nate, explains how to use email forwarding to simplify your digital life and why masking your address can protect you from threats online.
 intro: >
-	Our contributor, Nate, explains how to use email forwarding to simplify your digital life and why masking your address can protect you from threats online.
-    
- ![Email alias to protect privacy](/blog/Email-forwarding-nate/Email-Forwarding.png)
+    Our contributor, Nate, explains how to use email forwarding to simplify your digital life and why masking your address can protect you from threats online.
+
+    ![Email alias to protect privacy](/blog/Email-forwarding-nate/Email-Forwarding.png)
 
 keywords:  
  - 'what is an email alias'
