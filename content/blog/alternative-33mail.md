@@ -7,10 +7,10 @@ authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 draft: false
 summary: >
-    33Mail is a fantastic service to create email alias and they've been online for more than 10 years. Here are the main differences between our services.
+    33Mail is a fantastic service to create email aliases and it's been online for more than 10 years. Here are the main differences between SimpleLogin and 33Mail.
 
 intro: >
-    33Mail is a fantastic service to create email alias and they've been online for more than 10 years. Here are the main differences between our services..
+    33Mail is a fantastic service to create email aliases and it's been online for more than 10 years. Here are the main differences between SimpleLogin and 33Mail.
 
     ![Burner Mail or SimpleLogin](/blog/vs-33mail/1.png)
     
@@ -19,134 +19,98 @@ images:
 
 ---
 
-### Unlimited email alias
+### Number of email alias & bandwidth
 
-33Mail sets their limits on bandwidth, not number of email alias generated. This means **you don't have a limit to the number of alias you can generate with a free 33Mail subscription**.
+With a 33Mail free subscription, you can create an unlimited number of aliases. SimpleLogin does limit the number of aliases to 15 per free account.
 
-SimpleLogin does limit the aliases to 15 per free account.
+33Mails only has **10MB monthly bandwidth** in the free plan. We can quickly reach the 10MB if emails contain attachments or if they are heavy HTML based (as most emails nowadays are).
 
-However, it's worth noting **the 10MB monthly bandwidth limit is quite strict if your number of aliases increases or if you receive lots of emails.**
+SimpleLogin doesn’t have any limit on the bandwidth as we believe this gives you peace of mind.
 
-Having unlimited aliases is really nice if you only want to use the emails as temporary burner addresses, but if you need a reliable alias for each website you subscribe for you'll reach the 10MB monthly limit quite fast.
+### Send/Reply from your Alias
 
-### Unlimited Bandwidth
-![What do you get](/blog/vs-33mail/4.png)
+In the 33Mail paid account, you can reply to the forwarded email. It starts at 1$ per month for 20 replies.
 
-Here at SimpleLogin, **we decided to cap you on the number of aliases but give you unlimited bandwidth.**
+With SimpleLogin, you get unlimited replies. You can also send emails from your aliases.
 
-We believe this gives you peace of mind you'll keep receiving your emails even when the file attachments are big or the data exchanged exceeds 10MB per month.
+### Open Source
 
-Both approaches can be good, and it all depends on your needs.
-
-**We believe setting the limit on the number of aliases frees you up from understanding how much bandwidth you need**, which is something most customers would not be able to do before actually trying.
-
-### Reply with your Alias
-
-33Mail provides a great feature to let you reply with your email aliases. However, **this feature is restricted to PRO accounts, and it starts at 1$ per month for 20 replies.**
-
-That's **quite limiting**, and the next plan is 5$ per month for unlimited replies.
-
-**With SimpleLogin, you get unlimited replies from 15 aliases for free**, and you can step it up and go unlimited with a flat fee.
-
-We'll talk about this more in the Pricing section, but as a general note 33Mail prefers to price by the usage (great for techies) while SimpleLogin prefers to price by the feature.
-
-This is because we already provide a great solution for techie users, and it's our Open Source, self-hosted solution.
-
-### Open Source and Self-Hosted Solution
 ![What do you get](/blog/vs-33mail/2.png)
 
-33Mail is a private company, and their code is not open source.
+One of the key differences between the SimpleLogin and 33Mail is that **SimpleLogin is completely open-source**. This means countless developers constantly audited the code. SimpleLogin can also **be installed on your own servers.**
 
-One of the main differences between the two solutions is that **SimpleLogin is completely open-source**. This means the code is constantly audited by countless developers. SimpleLogin can also **be installed on your own servers.**
+Emails contain personal, sensitive information, and therefore open-source email services should be preferred over closed-source, proprietary ones.
 
-If for any reason SimpleLogin goes out of business, you can download the code and run it on your own server. Emails contain personal, sensitive information, and therefore open-source email services should be preferred over closed-source, proprietary ones.
+If for any reason SimpleLogin goes out of business, you can download the code and run it on your own server. You can then export your aliases from SimpleLogin and import them into your server.
 
-**Open Source and transparency are at the core of who we are and what we do.** Our mission is to provide the best solution to protect your identity online - and email is just the first step in that direction.
-
-Techie users don't actually need our cloud-hosted service (although it's affordable and easy to use), so we prefer to aim our pricing plan details at non-techies to bring email alias to the public with easier-to-understand limits.
+SimpleLogin development also happens in the open, and new features are frequently released. You are also welcome to take part in discussions about future features. In fact, SimpleLogin community actually created some features.
 
 ### Cross-Platform
+
 ![What do you get](/blog/vs-33mail/3.png)
 
-**SimpleLogin can be used everywhere.** It’s available on:
+**You can use SimpleLogin everywhere.** It’s available on:
 
 *   iOS app store
+
 *   Android official store
+
 *   Android unofficial stores
+
 *   Chromium-based browsers (Chrome, Brave, Edge, etc), Firefox-based browsers (Firefox, Tor Browser, Waterfox, etc), and Safari.
 
-One SimpleLogin account can be used on all of these devices at the same time.
+One SimpleLogin account can be used on these devices at the same time.
 
 **33Mail is only available on Web and doesn’t provide mobile apps.**
 
+### Email aliases on the fly
+
+33mail allows you to create new email aliases on the fly using the **username**: you can just use anything@your-username.33mail.com and this address will be created the first time it receives an email.
+
+SimpleLogin has a similar feature called [directory](/blog/alias-directory/). The email format is a bit different: your_directory+anything@simplelogin.co is used instead. The email is also created the first time it receives an email. This format allows a stricter DMARC and improves therefore email deliverability. SimpleLogin team is currently working on a revamp of this feature to make it compatible with your custom domain and support more formats. 
+
 ### Pricing Plans
+
 ![What do you get](/blog/vs-33mail/5.png)
 
-33Mail and SimpleLogin took a different approach at pricing. As mentioned above, **we prefer to price by the feature instead of pricing by usage**, but that's not the only difference.
+33Mail and SimpleLogin take different approaches to pricing. 33Mail has several options, ranging from $1/month to $50/month. SimpleLogin has only 1 premium plan that offers almost everything unlimited.
 
-You'll notice that **33Mail is only cheaper if you don't use aliases often**. In that case, their 1$/monthly plan could work for your needs with these limits:
-
-*   _50MB monthly bandwidth_
-*   _20 Anonymous replies limit_
-*   _1 Custom Domain_
-*   _No Ads_
-
-**SimpleLogin doesn't serve ads. Ever. So that's a given on the free plan as well.**
-
-Also, you can send Unlimited Anonymous replies and send/receive unlimited data for free.
-
-The only difference is the "Custom Domain" feature. You don't have it on the free plan of SimpleLogin, and you'd need to upgrade to our Pro plan at 4$ per month or 30$ per year.
-
-However, please note **our Pro Plan gives you:**
-
-*   _Unlimited domains instead of 1_
-*   _PGP encryption_
-*   _Unlimited aliases_
-
-Basically, we remove the only limits there were in the free version. There's no extra you can purchase or anything like that. **30$ yearly is all you pay.**
-
-With 33Mail, however, you'll need to pay **50$ PER MONTH** to get unlimited domains and very high limits on bandwidth.
-
-If you care about **saving money** and don't worry about usage limits, SimpleLogin is likely the best choice for you.
+33Mail free plan comes with ads. SimpleLogin, on the other hand, doesn’t serve ads as ads usually come with trackers and are powered by big Techs like Google, Facebook. For the same reason, SimpleLogin uses an open source, privacy focused analytics solution. 
 
 ### PGP Encryption
+
 ![What do you get](/blog/vs-33mail/6.png)
 
 Pretty Good Privacy (PGP) allows you to encrypt your emails so your email service can’t read the email content. This adds another layer of security, especially for popular email services that don’t have PGP built in like Gmail, Outlook, Yahoo.
 
-This method of encryption **significantly increases the security of the messages** you exchange online.
+This method of encryption **significantly increases the security of the messages** you exchange online.
 
-PGP is provided by default by some email services such as Protonmail or enabled with existing email services via PGP softwares.
+PGP is provided by default by some email services such as ProtonMail or enabled with existing email services via PGP softwares.
 
-SimpleLogin [adds support for PGP on March 2020](https://simplelogin.io/blog/introducing-pgp/). 33Mail doesn’t support PGP at the moment.
+SimpleLogin [adds support for PGP on March 2020](https://simplelogin.io/blog/introducing-pgp/). 33Mail doesn’t support PGP at the moment.
 
 ### Crypto Payments
+
 ![What do you get](/blog/vs-33mail/7.png)
 
-33Mail only accepts fiat payments, as in $, €, or £. This is fine for most people, but not for our customer base and not for the niche we’re in.
+33Mail only accepts fiat payments, as in $, €, or £. 
 
-More than 25% of our users do not even use Google Properties, so why would we expect them to use standard banking solutions.
-
-SimpleLogin **now integrates with CoinBase Commerce, which means you can pay with your favorite cryptocurrencies at the checkout.**
-
-This is also another big difference when compared to setting up your own instance, as that will come with a hosting plan which will likely ask for fiat payments.
-
-**We currently support Bitcoin, Bitcoin Cash, DAI, Ethereum, Litecoin, and USD Coin.**
+SimpleLogin **now integrates with Coinbase Commerce, which means you can pay with your favorite cryptocurrencies at the checkout.**
 
 ### HaveIBeenPwned integration
+
 ![What do you get](/blog/vs-33mail/8.png)
 
 On all free and paid plans, SimpleLogin integrates with HaveIBeenPwned and lets you know if your alias is exposed in a mail breach.
 
-This integration is important as it **allows you to quickly turn the alias off as soon as the breach happens**, and protect yourself from unwanted emails or bigger problems that may arise from a data breach (such as stolen identities and/or credit fraud)
+This integration is important as it **allows you to quickly turn the alias off as soon as the breach happens**, and protect yourself from unwanted emails or bigger problems that may arise from a data breach (such as stolen identities and/or credit fraud)
 
-We will also send you an email as soon as one of your alias gets into a data breach, and provide details on how to deactivate it immediately.
+SimpleLogin will also send you an email as soon as one of your alias gets into a data breach and provide details on how to deactivate it immediately.
 
 ### Conclusion
+
 ![What do you get](/blog/vs-33mail/9.png)
 
-In conclusion, we believe SimpleLogin could be better for you if you’re looking for an **easier platform that doesn't require you to understand the tech behind email aliases.**
+33Mail is good software, and we support every business promoting email aliases, a great weapon to protect our privacy. 
 
-33Mail is great software, and we support every business revolving around users' privacy. They've been around for a long time and we respect their business model and commitment towards a better future for the World Wide Web.
-
-However, if you need to secure your email content with PGP, add unlimited email domains and have a **more complete experience overall**, SimpleLogin will probably be a better solution for you and your business.
+In conclusion, we believe 33Mail is a better choice if you need a free solution with an unlimited number of email aliases. SimpleLogin could be a better fit for you if you’re looking for a privacy-focused, feature-rich solution.
