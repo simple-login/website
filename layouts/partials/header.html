@@ -151,7 +151,7 @@
 
               <li class="nav-item u-header__nav-item">
                 <a class="nav-link u-header__nav-link"
-                  href='{{ cond (eq .Lang "en") "/pricing" (print "/" .Lang "/pricing") }}'>
+                  href='{{ cond (eq .Lang "en") "/pricing/" (print "/" .Lang "/pricing/") }}'>
                   {{ i18n "header_pricing" }}
                 </a>
               </li>
