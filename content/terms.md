@@ -2,7 +2,6 @@
 title: "SimpleLogin | Terms and Condition"
 pageTitle: "Terms and Condition"
 url: "/terms"
-canonicalUrl: "https://simplelogin.io/terms/"
 description: "SimpleLogin Terms and Condition. By using our Services, you are agreeing to these terms. Please read them carefully."
 layout: "single_markdown"
 ---

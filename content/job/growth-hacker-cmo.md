@@ -2,7 +2,6 @@
 title: "SimpleLogin Growth Hacker (Future CMO)"
 pageTitle: "SimpleLogin Growth Hacker (Future CMO)"
 url: "/job/growth-hacker-cmo/"
-canonicalUrl: "https://simplelogin.io/job/growth-hacker-cmo/"
 description: "We are looking for a growth hacker (future CMO) to help grow our user base and make SimpleLogin a mainstream solution."
 layout: "single"
 ---

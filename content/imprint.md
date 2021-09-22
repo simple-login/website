@@ -2,7 +2,6 @@
 title: "SimpleLogin Company Imprint"
 pageTitle: "SimpleLogin Company Imprint"
 url: "/imprint"
-canonicalUrl: "https://simplelogin.io/imprint/"
 description: "SimpleLogin Company Imprint"
 layout: "single_markdown"
 ---

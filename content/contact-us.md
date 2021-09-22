@@ -2,7 +2,6 @@
 title: "SimpleLogin Contact"
 pageTitle: "Contact Us"
 url: "/contact"
-canonicalUrl: "https://simplelogin.io/contact/"
 description: "How to get in touch with SimpleLogin team."
 layout: "single_markdown"
 ---

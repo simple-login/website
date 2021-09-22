@@ -32,9 +32,8 @@
   <!-- Yandex -->
   <meta name="yandex-verification" content="c9e5d4d68bc983a1" />
 
-  {{ if .Params.canonicalUrl }}
-    <link rel="canonical" href="{{ .Params.canonicalUrl }}">
-  {{ else if .Params.url }}
+
+  {{ if .Params.url }}
     <link rel="canonical" href='{{ path.Join "https://simplelogin.io" .Params.url }}'>
   {{ else }}
     <link rel="canonical" href="https://simplelogin.io">
