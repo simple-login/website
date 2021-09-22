@@ -34,7 +34,7 @@
 
 
   {{ if .Params.url }}
-    <link rel="canonical" href='{{ path.Join "https://simplelogin.io" .Params.url }}'>
+    <link rel="canonical" href='{{ delimit (slice "https://simplelogin.io" .Params.url "/") "" }}'>
   {{ else }}
     <link rel="canonical" href="https://simplelogin.io">
   {{ end }}
