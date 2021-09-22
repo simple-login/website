@@ -1,6 +1,6 @@
 ---
 title: SimpleLogin | Blog
 pageTitle: "SimpleLogin Blog"
-url: "/blog/"
+url: "/blog"
 description: "SimpleLogin Blog"
 ---

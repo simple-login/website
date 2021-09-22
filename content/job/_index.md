@@ -1,6 +1,6 @@
 ---
 title: "SimpleLogin Open Jobs"
 pageTitle: "SimpleLogin Jobs"
-url: "/job/"
+url: "/job"
 description: "Open Positions at SimpleLogin"
 ---
