@@ -1,7 +1,7 @@
 ---
 title: "SimpleLogin Web Developer"
 pageTitle: "SimpleLogin Web Developer"
-url: "/job/web-developer/"
+url: "/job/web-developer"
 description: "We are looking for a web developer to help deliver more features :)"
 layout: "single"
 ---
