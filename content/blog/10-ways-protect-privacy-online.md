@@ -278,7 +278,7 @@ However, if you want to **sustain your favorite bloggers and YouTubers while kee
 
 #### Blockchain and Crypto-rewards
 
-We already mentioned the [Brave Browser](brave.com) when talking about VPNs, but they actually have a huge ecosystem that blocks ads AND rewards creators.
+We already mentioned the [Brave Browser](https://brave.com) when talking about VPNs, but they actually have a huge ecosystem that blocks ads AND rewards creators.
 
 What they do is **give you the option to watch ads to get rewards**. The rewards are in the form of a cryptocoin called BAT.
 
@@ -290,7 +290,7 @@ This gives value to your time, rewards the creators that can't benefit from you 
 
 New blockchain-based social networks like [read.cash](https://read.cash), [hive.blog](https://hive.blog), [odysee.com](https://odysee.com) and [publish0x.com](https://publish0x.com) are also switching to a creator-focused environment where people are rewarded with an internal coin rather than forcing everyone to watch spammy ads.
 
-If you're in the UK, there's a **new browser named** [**Gener8ads**](gener8ads.com) **that does the same thing** and is supported by the "Dragons" of the famous UK-based show "Dragons' Den".
+If you're in the UK, there's a **new browser named** [**Gener8ads**](https://gener8ads.com) **that does the same thing** and is supported by the "Dragons" of the famous UK-based show "Dragons' Den".
 
 ### Use alternative search engines
 
@@ -302,7 +302,7 @@ However, if you think about it, there are already countries where Google is not 
 
 Yandex is the most popular search engine in Russia, and Baidu is the one used in China.
 
-**20% of our website's traffic comes from** [**DuckDuckGo**](duckduckgo.com)**, a privacy-first search engine.**
+**20% of our website's traffic comes from** [**DuckDuckGo**](https://duckduckgo.com)**, a privacy-first search engine.**
 
 > Ever notice ads constantly following you around? That’s in part because Google tracks your searches and hides trackers on millions of websites. By contrast, our private search engine doesn’t track your searches and our [DuckDuckGo browser extension and mobile app](https://duckduckgo.com/app) block Google’s (and many other companies’) trackers across the Internet, helping to keep your browsing history more private, as it should be. And that’s just the beginning — by using DuckDuckGo you also escape the manipulation of the filter bubble and can use the Internet faster (after all that tracking code is disabled).[](https://spreadprivacy.com/why-use-duckduckgo-instead-of-google/) - DuckDuckGo website.
 
