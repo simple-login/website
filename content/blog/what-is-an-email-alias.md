@@ -24,14 +24,14 @@ intro: >
 
      In this article, we'd like to explore why you should consider using one email alias for each service you subscribe to online.
 
-     ![Email alias to protect privacy](/blog/email-alias/1.png)
+     ![Email alias to protect privacy](/blog/email-alias/1.jpeg)
 
 keywords:  
  - 'what is an email alias'
  - 'how email aliases protect your privacy'
 
 images:
-  - https://simplelogin.io/blog/email-alias/1.png
+  - https://simplelogin.io/blog/email-alias/1.jpeg
 ---
 
 ### Your email is a gateway to your identity
@@ -69,7 +69,7 @@ In this example, which is very real and practical, **you entered your email four
 If you do that every day, it's **1460 sites, hence 1460 databases**, in control of your email address.
 
 ### **Why is it a problem?**
-![Why having one single identity online is a problem](/blog/email-alias/3.png)
+![Why having one single identity online is a problem](/blog/email-alias/3.jpeg)
 
 
 Hackers can use your email to gain access to your accounts. To prevent this, you should use an alias to protect your email address. You should only use an alias that is not known and is not in the public domain. If you use your main email address and for instance your email alias on a social site, the information is now out there.
@@ -91,7 +91,7 @@ When you subscribe to their database with your email, you're giving a total stra
 It means **they can bombard you with emails**, give your email to other third parties for advertising purposes, or just straight-out sell your address to bidders online.
 
 ### Isn't regulation enough to protect my privacy online?
-![GDPR regulations](/blog/email-alias/4.png)
+![GDPR regulations](/blog/email-alias/4.jpeg)
 
 
 GDPR, HIPAA, and dozens of other privacy laws are certainly helping, and that's why the European Union is pioneering the movement towards a healthier, safer internet for everyone.
@@ -118,7 +118,7 @@ We **don't**:
 However, **small bloggers and e-commerce owners might need to**, and we're not saying you shouldn't support them just because they can't afford a 10-people team to oversight the cybersecurity in the company.
 
 ### Why email aliases protect your identity on websites
-![Email aliases give you a kill switch](/blog/email-alias/5.png)
+![Email aliases give you a kill switch](/blog/email-alias/5.jpeg)
 
 
 So, what's the solution?
@@ -161,12 +161,12 @@ Do you remember what we said about them at the beginning of the articles?
 Great, let's see how this can be the key to a better life online for you and your family.
 
 ### An email alias is fundamental to have a kill-switch for every online service you register for
-![Unsubscribe in one click](/blog/email-alias/6.png)
+![Unsubscribe in one click](/blog/email-alias/6.jpeg)
 
 
 This is what using an email alias for each website / service looks like:
 
-![SimpleLogin screenshot](/blog/email-alias/screenshot-chrome.png)
+![SimpleLogin screenshot](/blog/email-alias/screenshot-chrome.jpeg)
 
 *Screenshot from our Chrome Extension*
 
@@ -201,7 +201,7 @@ And by the way, this is coming from marketing professionals. We love to give you
 Receiving emails and promotions is like sex. It's good only if it's consensual.
 
 ### Do you have to use SimpleLogin to create email aliases?
-![What to use](/blog/email-alias/2.png)
+![What to use](/blog/email-alias/2.jpeg)
 
 
 Look, we're a business, and we go through many hassles every single day to make sure our service is fast, responsive and worth your money (or time, if you stay with the free plan).
