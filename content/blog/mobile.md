@@ -1,13 +1,13 @@
 ---
 title: "Introducing SimpleLogin Android and iOS app"
 date: 2020-05-07T10:13:42+01:00
-summary: 'SimpleLogin Android & iOS apps are finally available, big thanks to [Thanh-Nhon](/about), our iOS/Mac/Android expert!'
+summary: 'SimpleLogin Android & iOS apps are finally available, big thanks to [Thanh-Nhon](/about/), our iOS/Mac/Android expert!'
 author: "SimpleLogin team"
 authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
 
 layout: "single-toc"
-intro: "We are happy to announce that SimpleLogin Android & iOS apps are now available, big thanks to [Thanh-Nhon](/about), our mobile guy!"
+intro: "We are happy to announce that SimpleLogin Android & iOS apps are now available, big thanks to [Thanh-Nhon](/about/), our mobile guy!"
 ---
 
 ### Where to install

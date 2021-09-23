@@ -99,7 +99,7 @@
 
 - question: I can't find an answer to my question here
   answer: >
-    You can find the list of all frequent question/answer on the <a href="/faq">FAQ page</a>. <br>
+    You can find the list of all frequent question/answer on the <a href="/faq/">FAQ page</a>. <br>
     If you don't find the answer there, please send your question to <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a>. <br>
     You can also create an issue on our <a href="https://github.com/simple-login/app/issues">GitHub Issues</a>.
 

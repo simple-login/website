@@ -67,7 +67,7 @@ So what should we do to provide the "Login with Facebook" button to our users? T
 
 This way, you only call Facebook server when a user clicks on the "Login with Facebook" button. This call is also from your server so Facebook doesn't receive any information about a user browser or IP Address.
 
-If you only need authentication, you can also use a more privacy-focused identity provider like SimpleLogin (Disclaimer: I'm SimpleLogin founder) which is open-source and created for developers. More info on [SimpleLogin developer page](/developer).
+If you only need authentication, you can also use a more privacy-focused identity provider like SimpleLogin (Disclaimer: I'm SimpleLogin founder) which is open-source and created for developers. More info on [SimpleLogin developer page](/developer/).
 
 Here are some resources to implement OAuth2/OpenID in your app for different languages/frameworks:
 

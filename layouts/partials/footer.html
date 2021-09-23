@@ -31,7 +31,7 @@
         <!-- List Group -->
         <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
           <li>
-            <a class="list-group-item list-group-item-action" href="/developer">
+            <a class="list-group-item list-group-item-action" href="/developer/">
               Sign in with SimpleLogin
             </a>
           </li>
@@ -69,11 +69,11 @@
         </ul>
 
         <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-          <li><a class="list-group-item list-group-item-action" href="/job">{{ i18n "footer_join_us" }}</a></li>
+          <li><a class="list-group-item list-group-item-action" href="/job/">{{ i18n "footer_join_us" }}</a></li>
         </ul>
 
         <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-          <li><a class="list-group-item list-group-item-action" href="/about">{{ i18n "footer_about" }}</a></li>
+          <li><a class="list-group-item list-group-item-action" href="/about/">{{ i18n "footer_about" }}</a></li>
         </ul>
         <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
           <li><a class="list-group-item list-group-item-action"
@@ -81,15 +81,15 @@
         </ul>
         <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
           <li><a class="list-group-item list-group-item-action"
-              href="/contact">{{ i18n "footer_contact" }}</a></li>
+              href="/contact/">{{ i18n "footer_contact" }}</a></li>
         </ul>
         <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
           <li><a class="list-group-item list-group-item-action"
-              href="/imprint">{{ i18n "footer_imprint" }}</a></li>
+              href="/imprint/">{{ i18n "footer_imprint" }}</a></li>
         </ul>
         <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
           <li><a class="list-group-item list-group-item-action"
-              href="/press">Press</a></li>
+              href="/press/">Press</a></li>
         </ul>
         <!-- End List Group -->
       </div>
@@ -104,7 +104,7 @@
           <li><a class="list-group-item list-group-item-action" href="/security">Security</a></li>
           <li>
             <a class="list-group-item list-group-item-action"
-              href='{{ cond (eq .Lang "en") "/faq" (print "/" .Lang "/faq") }}'>
+              href='{{ cond (eq .Lang "en") "/faq/" (print "/" .Lang "/faq/") }}'>
               FAQ
             </a>
           </li>

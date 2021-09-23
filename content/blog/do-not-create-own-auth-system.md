@@ -27,7 +27,7 @@ So why choose the hard path and face the risk of password leaks, database hackin
 
 **So which 3rd-party verification should my app use?**
 
-This depends on your app. If getting a user's Facebook feed can be a big plus to your app, then you should probably go with **Login with Facebook**. If having access to a user's Twitter feed is valuable, then **Login with Twitter** is more appropriate. If your app only requires user basic information like email, name, avatar picture then [Sign in with SimpleLogin](/developer) is probably the easiest choice.
+This depends on your app. If getting a user's Facebook feed can be a big plus to your app, then you should probably go with **Login with Facebook**. If having access to a user's Twitter feed is valuable, then **Login with Twitter** is more appropriate. If your app only requires user basic information like email, name, avatar picture then [Sign in with SimpleLogin](/developer/) is probably the easiest choice.
 
 We should all stop requiring users to choose a username and password. There are better alternatives.
 
