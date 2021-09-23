@@ -21,10 +21,8 @@
 
 
   <!-- Open Graph -->
-  {{ template "_internal/opengraph.html" . }}
+  {{ partial "opengraph.html" . }}
   <meta property="og:site_name" content="SimpleLogin">
-  <meta property="og:type"              content="website" />
-
 
   <!-- Bing -->
   <meta name="msvalidate.01" content="2A313A69CBFD1A378C3B91734DC221A8" />
@@ -40,11 +38,11 @@
   {{ end }}
 
   <!-- Twitter -->
-  {{ template "_internal/twitter_cards.html" . }}
+  {{ partial "twitter_cards.html" . }}
   <meta name="twitter:site" content="@simple_login" />
   <meta name="twitter:creator" content="@simple_login" />
 
-  {{ template "_internal/schema.html" . }}
+  {{ partial "schema.html" . }}
 
   <!-- Favicon -->
   <link rel="shortcut icon" href="/favicon.ico">
