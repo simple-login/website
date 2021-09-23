@@ -5,9 +5,11 @@
 
   <title>{{ .Title }}</title>
 
-  <!-- Inspired from "_internal/opengraph.html" template -->
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-
+  {{ if .Description }}
+    <meta name="description" content="{{ .Description }}" />
+  {{ else }}
+    <meta name="description" content="{{ .Site.Params.description }}" />
+  {{ end }}
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
