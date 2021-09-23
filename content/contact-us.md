@@ -9,7 +9,7 @@ Hi! Our [FAQ](/faq/) is a great place for most answers, but if you can’t find 
 [here](/hi_at_simplelogin.asc) (fingerprint `BB03 4466 7D70 C5EC 30B5  A07C 704B 2826 4E7C A9E6`).
 
 
-Our [privacy page](/privacy) and [security page](/security) contain a great deal of information on what data we store and for how long.
+Our [privacy page](/privacy/) and [security page](/security/) contain a great deal of information on what data we store and for how long.
 
 If you want to report a bug, you can either send us an email or submit an issue our [GitHub](https://github.com/simple-login/app/issues) page. Please make sure that the bug hasn't already been reported.
 

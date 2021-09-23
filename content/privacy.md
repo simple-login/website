@@ -55,7 +55,7 @@ All data is encrypted via [SSL/TLS](https://en.wikipedia.org/wiki/Transport_Laye
 
 Our servers are provided by [UpCloud](http://upcloud.com) and [AWS](http://aws.amazon.com). We are using datacenters that are located in Germany, Netherlands and France.
 
-For more information on our server security, you can consult our [security page](/security).
+For more information on our server security, you can consult our [security page](/security/).
 
 ---
 
