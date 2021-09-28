@@ -47,8 +47,8 @@
 
 - title: Privacy & Security
   desc: >
-    With <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP) is an encryption program that can encrypt your emails and let you communicate privately online.">PGP</em>, encrypt the forwarded emails with your own PGP key. Only you can then decrypt these emails.
-    Works perfectly with Protonmail or any OpenPGP tools (Enigmail, GPG Tools, etc).
+    With <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP) is an encryption program that can encrypt your emails and let you communicate privately online.">PGP</em>, emails are encrypted with your own PGP key before being forwarded to your mailbox. Only you can then decrypt these emails.
+    Works perfectly with Protonmail or any PGP tools (Thunderbird, GPGTools, etc).
     <br><br>
 
     To better secure your SimpleLogin account, you can enable 2FA with
