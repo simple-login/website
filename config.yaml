@@ -1,7 +1,7 @@
 ---
 #baseURL = "https://simplelogin.io/"
 languageCode: "en-us"
-title: "SimpleLogin | Open-source email alias solution"
+title: "SimpleLogin | Open source anonymous email service"
 
 enableRobotsTXT: true
 canonifyURLs: true
@@ -15,7 +15,9 @@ permalinks:
     post: "/blog/:title/"
 
 params:
-  description: Protect your email address with email ALIAS. Create a different email alias for each website. No more phishings, spams.
+  description: > 
+    With email aliases , you can be anonymous online and 
+    protect your inbox against spams and phishing.
   images:
     - https://simplelogin.io/open-graph.png
 

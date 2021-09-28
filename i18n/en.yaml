@@ -4,35 +4,42 @@ header_signup: Sign Up
 header_pricing: Pricing
 
 # hero section
-hero: Protect your privacy with email aliases
+hero: Receive and send emails anonymously
 
 hero_desc: >
-  With <em data-toggle="tooltip" data-html="true"
+  With  <em data-toggle="tooltip" data-html="true"
   title="An email alias (or alias for short) is an email address that <b>doesn't store</b> emails: all emails sent to an alias are forwarded to your personal email.">email aliases</em>
-  , you can finally create a different identity for each website.
-  Defend against spams, phishing and data breach.
-  Open-source. Made and hosted in EU 🇪🇺
+  , you can be anonymous online and protect your inbox
+  against spams and phishing.
+  Open-source. Made and hosted in Europe.
 
-hero_cta: Get your aliases today >>
+hero_cta: Get your aliases for free >>
 
-hero_button_underline: <b>500,000+</b> aliases created.
+hero_button_underline: <b>800,000+</b> aliases created.
 
 seen_on: As seen on
 
 # how it work section
 how_it_work_title: How it works
 
-how_it_work_desc: Shield your mailbox with email alias.
+how_it_work_desc: Shield your inbox with email aliases.
 
-how_it_work_1_title: A different email alias for each website.
+how_it_work_1_title: Use email alias everywhere
 
-how_it_work_1_subtitle: The next time a website asks for your email address, just create a <span class="bigger">new</span> alias. <br>
+how_it_work_1_subtitle: >
+  Next time a website asks for your email address, give an alias <span class="bigger">instead</span> of your real email.
 
 
-how_it_work_2_title: Receive emails safely in your mailbox.
+
+how_it_work_2_title: Receive emails safely in your inbox.
 how_it_work_2_subtitle: >
-  Emails sent to an alias are <span class="bigger">forwarded</span> to your mailbox without the sender knowing anything. <br>
-  You can also <span class="bigger">send</span> emails or reply anonymously from your alias.
+  Emails sent to an alias are <span class="bigger">forwarded</span> to your inbox without the sender knowing anything. <br>
+
+
+how_it_work_3_title: Send emails anonymously
+how_it_work_3_subtitle: >
+  Just hit "Reply" if you want to reply to a forwarded email: the reply is sent from your alias and your real email stays hidden. <br>
+  You can also easily <span class="bigger">send</span> emails from your alias.
 
 # available everywhere section
 everywhere_title: Create and manage your aliases everywhere
@@ -78,7 +85,10 @@ faq_title: Frequently asked questions
 faq_subtitle: Help
 
 ready_get_started: Ready to get started?
-ready_get_started_cta: Get your aliases today >>
+ready_get_started_cta: Protect your inbox today >>
+
+cta_2_title: Join more than 50,000 people who are protecting their inbox and privacy.
+cta_2_button: Protect your inbox today >>
 
 partner_title: Our partners
 

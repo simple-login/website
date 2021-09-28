@@ -3,11 +3,12 @@
     Email alias is similar to <a href="https://en.wikipedia.org/wiki/Email_forwarding">forward</a> email
     address: all emails sent to an alias will be forwarded to your inbox. <br>
     Thanks to SimpleLogin technology, you can also send emails <b>from</b> an alias. <br>
-    For your contact, the alias is therefore your email address.
+    For your contact, the alias is therefore your email address. 
+    More info about email alias on <a href="/blog/what-is-an-email-alias/">What is an email alias</a>.
 
-- question: I can use my plus(+) trick to create unlimited email addresses, why do I need SimpleLogin?
+- question: I can use my plus sign (+) trick to create unlimited email addresses, why do I need SimpleLogin?
   answer: >
-    Email subaddressing, also known as the plus (+) trick,  is popularized by Gmail and supported by some email services, allows you to create new email addresses by appending "+" to your current email address. Says your email is name@protonmail.com, you can quickly create another address like name+facebook@protonmail.com for Facebook, name+groupon@protonmail.com for Groupon, etc. <br>
+    Email subaddressing, also known as the plus (+) trick,  popularized by Gmail and supported by some email services, allows you to create new email addresses by appending "+" to your current email address. Says your email is name@protonmail.com, you can quickly create another address like name+facebook@protonmail.com for Facebook, name+groupon@protonmail.com for Groupon, etc. <br>
 
     Though practical, it has some downsides: <br>
 
@@ -19,9 +20,9 @@
 
     - By removing the + part, advertisers can link these + addresses together to have your browsing history. <br><br>
 
-    SimpleLogin aliases don't have any of these downsides. <br>
+    SimpleLogin aliases don't have any of these downsides. You can read more about the pros and cons of using the + trick on <a href="/blog/email-alias-vs-plus-sign/">What makes email alias a better alternative to email plus sign (+)</a>
 
-    In addition SimpleLogin could also help manage your <em>business emails</em>. If you own a domain and don't want to pay a full solution like GSuite, you could add the domain into SimpleLogin and create emails like <b>contact@my-domain.com</b>, <b>partner@my-domain.com</b> with aliases. All our business emails (the <b>@simplelogin.io</b>) are actually aliases.
+    
 
 - question: What is the difference between SimpleLogin and other email forwarding services?
   answer: >
@@ -96,6 +97,12 @@
 
 - question: Where are SimpleLogin servers located?
   answer: We use UpCloud, a Finland cloud provider. Our server is currently located in its France-Germany and Netherlands datacenter.
+
+- question: What is the <b>custom domain</b> feature?
+  answer: >
+    You can bring your own domains into SimpleLogin and create aliases like <b>contact@your-domain.com</b>, <b>hi@your-domain.com</b>. <br>
+    As you might have probably guessed, you can then use SimpleLogin to manage your <em>business emails</em> instead paying for an expensive solution like Google Workspace. <br>
+    All our business emails (e.g. <b>hi@simplelogin.io</b>) are actually aliases 🤫
 
 - question: I can't find an answer to my question here
   answer: >
