@@ -1,90 +1,73 @@
 ---
-title: "Outage on July 13 2021 and what we've learned"
-date: 2020-08-19T15:13:42+01:00
-summary: "On July 13 2021, some SimpleLogin users have experienced several hours of email delay. No emails were lost during this time. This post goes into the details of what happened and what measures we take to prevent this incident from happening again."
+title: "Outage on July 13, 2021 and what we've learned"
+date: 2021-09-28
+summary: "On July 13, some SimpleLogin users have experienced several hours of email delay. No emails were lost during this time. This post goes into the details of what happened and what measures we take to prevent this incident from happening again."
 author: "SimpleLogin team"
 authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
-intro: "On July 13 2021, some SimpleLogin users have experienced several hours of email delay. No emails were lost during this time. This post goes into the details of what happened and what measures we take to prevent this incident from happening again.
+intro: >
+    As promised to our community, we finally have time to write up about the outage on July 13, 2021. 
 
+    
+    On this date, some SimpleLogin users have experienced several hours of email delay. No emails were lost during this time. 
 
-Here's the timeline of what happened and the measures we've done to better handle these situations.
-"
-draft: true
+    
+    This post goes into the details of what happened and what measures we take to prevent this incident from happening again.
+
 ---
 
 ### First vague: Email delay
 
-In the morning, we received a lot of emails from users informing us about email delays being abnormally high. Similar posts are also posted on our Twitter and Reddit.
+In the morning, we received multiple emails informing us about abnormally high email delays. Similar complaints are also posted on our Twitter and Reddit.
 
-After investigation, the email processing time is in order of minutes which is a lot higher than the average 0.2-0.7 second. We turned on several debugging options and saw requests to the database are taking much more time than usual.
+After investigation, the email processing time is in order of minutes, which is much higher than the average 0.3 second. We enabled debugging options and noticed requests to the database are taking more time than usual.
 
-The database is immedialtely scaled up 2x in the hope of quickly unblocking the email queue. The email queue seems to become heathy again and emails are quicky processed.
+The database is immediately scaled up 2x in the hope of quickly unblocking the email queue. At first, the email queue seems to become heathy again and emails are quickly processed.
 
-### Second vague: the web app
+### Second vague: the Web app
 
-In the afternoon, we continue the receive the same report about email delay. In addition, we also receive reports about the api becoming extremely slow which affects all clients: web app, mobile app and browser extensions.
+In the afternoon, we notice the same email delay coming back. In addition, we also receive reports about the API becoming extremely slow which affects all frontend clients: web app, mobile app and browser extensions.
 
 Investigations show the same result as in the morning: requests to the database are slow and can take up to several minutes.
 
-Scaling up the database only seems to help tempoparily as the delay comes back after several minutes. We found the slowest query and disabled it. This seems to solve the problem.
+Scaling up the database only seems to help temporarily as the delay kicks back after several minutes. We found the slowest query and disabled it. This seems to solve the problem.
 
-However hours later, the api is down again and the database is again the bottlebeck. We are using AWS RDS as database as it promises a quick scalability. We tried different database optimization options but none seems to work. Asking the support now will take hours if not days to solve and we need to solve the issue fast.
+However, 2-3 hours later, the API becomes slow again, and the database is again the bottleneck. We have been using AWS RDS as database since the beginning, as it promises a high scalability. We tried different database optimization options but none seems to work. Asking the support now will take hours if not days to solve and we need to solve the issue fast.
 
 ### Database migration
 
-Having some doubts in the RDS itself, we decided to run the database locally and try to simulate the traffic. No delay was noticed in this configuration which confirms our hypothesis that something went wrong with RDS.
+Having doubts in the RDS, we ran the database locally and simulate the traffic. No delay was noticed in this configuration, which confirms our hypothesis that something went indeed wrong with RDS.
 
-We have a project in our backlog to replace RDS by another UpCloud database. We run the same test with a UpCloud database and there was indeed no delay. We decided to do the database migration now.
+We have a project in our backlog to replace RDS by UpCloud database which should have a better performance as we’re running our server in UpCloud. We run the same test with the smallest UpCloud database and there was indeed no delay. After some discussions about pros and cons, we decided to do the database migration now.
 
 The migration requires several steps:
 
-- Take down SimpleLogin API and email handler to avoid adding data to the database
-- Keep Postfix running so all pending emails can be processed later.
-- Export the database
-- Import the database to a UpCloud database
+- Take down SimpleLogin API and email handler to avoid new data being written to the database.
+
+- Keep Postfix running so all pending emails are kept and can be processed later.
+
+- Export the database from RDS and import it to a UpCloud database.
+
 - Change the API and email handler configuration to use the new database instead.
 
-After the move, the api returns to the normal speed and email queue is handled quickly.
+After the migration, the API returns to the normal speed and email queue is quickly processed.
 
 ### Lessons
 
-After the incident is solved, we spent the next days to discuss about what should be done to avoid this issue from happening again.
+After the incident is solved, we spent the next days to discuss what should be done to avoid this issue from happening again. Here are some actions:
 
-we noticed that the second server mx2.simplelogin.co had a peak of emails. This server is the failover of the principal one (mx1.simplelogin.co) and usually only handles a fraction of emails. We also received emails from some SimpleLogin users asking about the email delay.
+- Create and publish a [chart](https://chart-embed.service.eu.newrelic.com/herald/4543cfed-08a2-423c-abae-6f1d34de3673?height=600px&timepicker=true) on the email processing time.
 
-Checking the server mx1, the email handler container was down even if it's set up to automatically restart. We noticed that SpamAssassin, a program used for detecting spams is taking 100% of the CPU.
+- Set up multiple, redundant alert channels on email delay to make sure any abnormal delay is caught early. This alert has already paid off as the delay has once increased to 5 seconds last month. We have then been able to find the issue and fix it before anyone notices.
 
-We decided to scale up the main server. After redirecting most of the traffic to the second server, we increased the first server capacity 4x. Everything seemed to be back to normal and pending emails were quickly sent.
+- Document the mayday procedure so if the same database issue happens again, we can quickly run the procedure.
 
-### Second vague
+- Find a better solution for database fallback.
 
-In the afternoon, we again noticed that the email queue was abnormally high. Turns out that all requests to SpamAssassin timed out which delayed Postfix email delivery. We had to proceed to the emergency solution of disabling the spam checking. Email delivery was back to the normal but we know that this is just a temporary solution.
+AWS RDS is used by big software companies in the world and its scalability is well known. However, in case of incidents, it’s really hard to investigate and its bloated UI doesn’t make things easier: the UI is extremely slow and crashes several times during our debugging section.
 
-### Actions
+We’ve been using UpCloud database for almost 4 months now and the experience is excellent: everything is simple and fast. The options are not as rich as in AWS RDS but they are straightforward and just work.
 
-We made the following actions to avoid similar issues from happening in the future:
-
-- Rewrite the email spam detection to be more fault-tolerant. The spam detection is now handled in our email container instead of in Postfix. That leaves more room for customization so we can easily implement the timeout mechanism along with some monitoring. We spent several days writing this part - that's worth the effort as this allows better control over the SpamAssassin engine.
-
-- Add new monitoring that constantly watches the email delivery heath, especially the number of pending emails. Whenever this number reaches a threshold for consecutive periods, an alert is sent so we can act accordingly. We are building an automatic failover system that launches an urgent approach if necessary.
-
-- We are studying an alternative to SpamAssassin that can be used as a failover. The current best candidate is Rspamd.
-
-### Lessons
-
-In this incident, we have learned to be extra careful when working with software that we don't have much control over. SpamAssassin seems to be the root cause of this incident but this can happen to any other software in the stack.
-
-Things we learned when investigating the issue:
-
-- SpamAssassin suddenly starts timing out requests. Nothing really stands out in the log.
-
-- SpamAssassin times out if the email doesn't end with a linebreak "\n". Some email clients don't automatically add this character.
-
-- Messages in Postfix queue "remember" its destination so flushing Postfix queue doesn't help with this issue. The only solution we found is to re-queue all the messages.
-
-- The ecosystem around emails is scarce. We end up writing a lot of ad-hoc scripts to get the stats and monitor them.
-
-- Python support for asyncio is growing but not fast enough. A lot of our code uses SQLAlchemy which is one of the best ways to work with SQL databases in Python but its support for asyncio is limited. Its upcoming 2.0 version should have better support. We ended up using a lock that defeats the purpose of the async model.
+We haven’t made any further investigation on the AWS RDS issue as it seems to be unrelated to our code.
 
