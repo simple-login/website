@@ -30,7 +30,12 @@ how_it_work_2_title: Recevez les mails dans votre boîte mail.
 
 how_it_work_2_subtitle: >
   Les mails envoyés à un alias sont <span class="bigger">redirigés</span> à votre boîte mail.
-  Vous pouvez aussi <span class="bigger">envoyer</span> un mail ou répondre de manière anonyme depuis votre alias.
+  
+
+how_it_work_3_title: Envoyer des emails de manière anonyme
+how_it_work_3_subtitle: >
+  Répondre aux mails de la même façon comme d'habitude: la répsonse est envoyée depuis votre alias and votre adresse mail est toujours cachée. <br>
+  Vous pouvez aussi <span class="bigger">envoyer</span> un mail depuis votre alias.
 
 # available everywhere section
 everywhere_title: Créer et gérer vos alias partout
