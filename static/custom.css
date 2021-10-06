@@ -141,4 +141,11 @@ img {
 
 }
 
+.submenu-item {
+    padding: 6px 6px 0px 6px;   
+    border-radius: 6px;
+}
 
+.submenu-item:hover {
+    background-color: #e1e3eb;
+}

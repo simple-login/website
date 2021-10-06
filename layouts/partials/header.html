@@ -145,15 +145,83 @@
           <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
             <ul class="js-scroll-nav navbar-nav align-items-md-center u-header__navbar-nav ml-auto">
 
-              <li class="nav-item u-header__nav-item">
+              <!-- Community Menu -->
+              <li class="nav-item hs-has-mega-menu u-header__nav-item"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-max-width="600px"
+                  data-position="right">
+                <a id="shopMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Community</a>
+
+                
+                <div class="hs-mega-menu u-header__sub-menu u-header__mega-menu-position-right-fix--md" aria-labelledby="shopMegaMenu">
+                  <div class="u-header__mega-menu-wrapper">
+                    
+
+                    <div class="row">
+                      <div class="col">
+                        <ul class="u-header__sub-menu-nav-group">
+                          <li class="submenu-item">
+                            <a class="nav-link u-header__sub-menu-nav-link" href="/blog/">
+                              <div>
+                                <p class="font-weight-bold mb-1">Blog</p>
+                                <p>
+                                  Stories about our journey to build an open-source tool to protect your privacy, what we've learnt and tips to take control of your privacy.
+                                </p>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li class="submenu-item">
+                            <a class="nav-link u-header__sub-menu-nav-link" href="/docs/">
+                              <div>
+                                <p class="font-weight-bold  mb-1">Documentation</p>
+                                <p>
+                                  How to get the most from SimpleLogin.
+                                </p>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li class="submenu-item">
+                            <a class="nav-link u-header__sub-menu-nav-link" href="https://github.com/simple-login/app">
+                              <div>
+                                <p class="font-weight-bold  mb-1">GitHub Repo</p>
+                                <p>
+                                  Read, review our code. Make sure that SimpleLogin is doing what it says.
+                                </p>
+                              </div>
+                            </a>
+                          </li>
+
+                          <li class="submenu-item">
+                            <a class="nav-link u-header__sub-menu-nav-link" href="https://github.com/simple-login/app/discussions">
+                              <div>
+                                <p class="font-weight-bold  mb-1">Forum</p>
+                                <p>
+                                  Discuss about new features, ask questions, share best practices, etc.
+                                </p>
+                              </div>
+                            </a>
+                          </li>
+                          
+                        </ul>
+
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </li>
+              <!-- End Community Menu -->
+
+              <li class="nav-item u-header__nav-item mr-6">
                 <a class="nav-link u-header__nav-link"
                   href='{{ cond (eq .Lang "en") "/pricing/" (print "/" .Lang "/pricing/") }}'>
                   {{ i18n "header_pricing" }}
                 </a>
-              </li>
-
-              <li class="nav-item u-header__nav-item">
-                <a class="nav-link u-header__nav-link" href="/blog/">Blog</a>
               </li>
 
               <li class="nav-item u-header__nav-item">
@@ -162,7 +230,7 @@
                 </a>
               </li>
 
-              <li class="nav-item u-header__nav-item">
+              <li class="nav-item u-header__nav-item mr-6">
                 <a class="btn btn-primary btn-sm transition-3d-hover" href="https://app.simplelogin.io/auth/register">
                   {{ i18n "header_signup" }}
                 </a>
@@ -172,9 +240,9 @@
               <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" style="font-size: 12px">
                 <a id="langMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="langSubMenu">
                   {{ if eq .Lang "fr"}}
-                    Français
+                    FR
                   {{ else }}
-                    English
+                    EN
                   {{ end }}
                 </a>
 
