@@ -172,6 +172,34 @@
         <!-- End Social Networks -->
       </div>
 
+      <div class="col-sm-6 mb-3 mb-sm-0">
+        {{ if .IsTranslated }}
+        <div class="btn-group float-right">
+          <a class="btn btn-link btn-sm dropdown-toggle text-white" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 12px">
+            {{ if eq .Lang "fr"}}
+              Français
+            {{ else }}
+              English
+            {{ end }}
+          </a>
+        
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            {{ range .Translations }}
+
+              <a class="dropdown-item" href="{{ .Permalink }}" style="font-size: 12px">
+                {{ if eq .Lang "fr"}}
+                  Français
+                {{ else }}
+                  English
+                {{ end }}
+
+              </a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+
 
     </div>
   </div>

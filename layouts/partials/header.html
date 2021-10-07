@@ -236,35 +236,6 @@
                 </a>
               </li>
 
-              {{ if .IsTranslated }}
-              <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" style="font-size: 12px">
-                <a id="langMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="langSubMenu">
-                  {{ if eq .Lang "fr"}}
-                    FR
-                  {{ else }}
-                    EN
-                  {{ end }}
-                </a>
-
-                <!-- Submenu -->
-                <ul id="langSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer fadeOut" aria-labelledby="langMegaMenu" style="min-width: 230px; display: none;">
-                  {{ range .Translations }}
-                  <li><a class="nav-link u-header__sub-menu-nav-link" href="{{ .Permalink }}" style="font-size: 12px">
-                    {{ if eq .Lang "fr"}}
-                      Français
-                    {{ else }}
-                      English
-                    {{ end }}
-
-                  </a></li>
-                  {{ end }}
-                </ul>
-                <!-- End Submenu -->
-              </li>
-              {{ end }}
-
-
-
             </ul>
           </div>
           <!-- End Navigation -->
