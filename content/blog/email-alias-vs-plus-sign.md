@@ -41,7 +41,7 @@ Currently there are 4 ways of creating a new email alias in SimpleLogin:
 
 - If you are on a laptop/PC, the [Firefox](https://addons.mozilla.org/firefox/addon/simplelogin/) or [Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn) extension allows creating a new email alias by clicking on the SimpleLogin icon in the email field. You can also use the right click menu to create a new email alias.
 
-![](https://sldev.ovh/images/one-click-alias.gif)
+![](/images/one-click-alias.gif)
 
 - Using one of SimpleLogin apps: [website](https://app.simplelogin.io), Firefox/Chrome extension popup or [Android](https://play.google.com/store/apps/details?id=io.simplelogin.android)/[iOS](https://apps.apple.com/app/id1494359858) app for more customization. This is the most flexible way and offers advanced options.
 
