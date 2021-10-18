@@ -39,7 +39,7 @@ However, 2-3 hours later, the API becomes slow again, and the database is again 
 
 Having doubts in the RDS, we ran the database locally and simulate the traffic. No delay was noticed in this configuration, which confirms our hypothesis that something went indeed wrong with RDS.
 
-We have a project in our backlog to replace RDS by UpCloud database which should have a better performance as we’re running our server in UpCloud. We run the same test with the smallest UpCloud database and there was indeed no delay. After some discussions about pros and cons, we decided to do the database migration now.
+We have a project in our backlog to replace RDS by [UpCloud](https://upcloud.com/) database which should have a better performance as we’re running our server in UpCloud. We run the same test with the smallest UpCloud database and there was indeed no delay. After some discussions about pros and cons, we decided to do the database migration now.
 
 The migration requires several steps:
 
