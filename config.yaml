@@ -1,5 +1,5 @@
 ---
-#baseURL = "https://simplelogin.io/"
+baseURL: "https://simplelogin.io/"
 languageCode: "en-us"
 title: "SimpleLogin | Open source anonymous email service"
 
@@ -15,8 +15,8 @@ permalinks:
     post: "/blog/:title/"
 
 params:
-  description: > 
-    With email aliases , you can be anonymous online and 
+  description: >
+    With email aliases , you can be anonymous online and
     protect your inbox against spams and phishing.
   images:
     - https://simplelogin.io/open-graph.png
