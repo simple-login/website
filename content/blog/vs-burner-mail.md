@@ -45,6 +45,8 @@ SimpleLogin can be used on almost all platforms. It's available on:
 
 One SimpleLogin account can be used on all of these devices at the same time.
 
+> Nov 10 2021 update: Burner Mail now has iOS and Android apps.
+
 
 ### Pricing model
 
@@ -68,6 +70,10 @@ Burner Mail also doesn't support replying to a forwarded email from your email c
 
 SimpleLogin supports sending emails from your alias using your usual email client (Gmail, Thunderbird, Apple Mail, etc). You can also reply to a forwarded email just like a normal email: the email will be sent from your alias and your personal mailbox stays hidden.
 
+SimpleLogin also supports multiple recipients emails (i.e. with several addresses in To: and CC:) and can be used in a any email context. For that reason, SimpleLogin business emails are actually email aliases.
+
+> Nov 10 2021 update: BurnerMail seems to support reply to forwarded emails from your email client.
+
 ### PGP encryption
 
 [Pretty Good Privacy](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) (PGP) allows you to encrypt your emails so your email service can't read the email content. This adds another layer of security, especially for popular email services that don't have PGP built in like Gmail, Outlook, Yahoo. 
@@ -75,7 +81,6 @@ SimpleLogin supports sending emails from your alias using your usual email clien
 PGP is provided by default by some email services such as ProtonMail or enabled with [PGP software](https://www.openpgp.org/software/).
 
 SimpleLogin [adds support for PGP on March 2020](/blog/introducing-pgp/). Burner Mail doesn't support PGP at the moment. 
-
 
 ### HaveIBeenPwned integration
 
@@ -90,6 +95,15 @@ Burner Mail advertises a [data breach checker](https://burnermail.io/resources/d
 Burner Mail accepts fiat payments and you can pay via credit card or PayPal.
 
 Cryptocurrency is an anonymous payment solution and therefore resonates with SimpleLogin goal of protecting our privacy. Therefore, in addition to the credit card and PayPal payment, SimpleLogin supports popular cryptocurrencies at the checkout, thanks to CoinBase Commerce integration.
+
+
+### No Ads, no tracking
+
+Some alias email services choose to use ads to push users to upgrade: this is understandable as a business needs to be sustainable. However as email is personal, SimpleLogin never modifies an email without your permission. 
+
+For the same reason, you never see a message to push to upgrade in any email from SimpleLogin.
+
+All data collected by SimpleLogin is documented in the [terms and condition](/terms/), [privacy policy](/privacy/). 
 
 #### Conclusions
 
