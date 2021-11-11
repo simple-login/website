@@ -1,10 +1,21 @@
 {{ partial "header.html" . }}
 
-<main id="content" role="main" class="blog">
+<main id="content" role="main" class="blog"  style="max-width: 720px; margin: auto">
     <div class="container space-1">
         <div class="row">
             <div class="col">
-                <h1 class="h2">{{ .Title}}</h1>
+                <a href="/blog/" class="font-weight-bold" style="text-transform: uppercase;">← All posts</a>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col">
+                <h1>{{ .Title}}</h1>
+                <p class="text-secondary" style="font-size: .9rem">
+                    {{ .Date.Format "January 2, 2006" }} ·
+                    written by <img src='{{$.Param "AuthorAvatar"}}' style="width: 30px; border-radius: 50%;" alt="Author Image">
+                    {{$.Param "Author"}}
+                </p>
             </div>
         </div>
 
