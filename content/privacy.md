@@ -6,7 +6,7 @@ description: "SimpleLogin Privacy Policy. The privacy of your data — and it is
 layout: "single_markdown"
 ---
 
-**Last updated: 2021-10-18**
+**Last updated: 2021-11-12**
 
 The privacy of your data — and it is your data, not ours! — is a big deal to us. In this policy, we lay out: what data we collect and why; how your data is handled; and your rights to your data.
 
@@ -83,7 +83,13 @@ More info on [Plausible privacy policy](https://plausible.io).
 
 - Account activity: Due to limitations of the SMTP protocol, we have access to the following email metadata: sender and recipient email addresses, the IP address incoming messages originated from, message subject, and message sent and received times. We do NOT have access to encrypted message content but unencrypted messages sent from external providers to SimpleLogin are scanned for Spam and Viruses to pursue the legitimate interest of the protection of our users. We also have access to the following records of account activity: number of messages sent, amount of storage space used, total number of messages, last login time.
 
+---
+
+## Third party services
+
 - hCaptcha: we use [hCaptcha](https://www.hcaptcha.com) on our login and register page to protect SimpleLogin against bots. hCaptcha is a privacy focused captcha solution. Its privacy policy page is on https://www.hcaptcha.com/privacy
+
+- CloudFlare: we use [CloudFlare](https://www.cloudflare.com/en-gb/) for managing our DNS records.
 
 ---
 
