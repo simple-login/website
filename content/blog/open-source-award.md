@@ -6,10 +6,6 @@ author: SimpleLogin team
 authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
 layout: "single"
-intro: We are happy to receive the best open source award (concours des Acteurs du Libre 2021) from CNLL.
-
-images:
- - https://simplelogin.io/blog/gmail-alias/og.png
 ---
 
 On November 9 2021, we are honored to receive the best open source award ("Prix du meilleur projet Open Source") from [CNLL](https://cnll.fr/news/le-cnll-annonce-les-lauréats-du-concours-des-acteurs-du-libre-2021/). The award was given during the [Open Source Experience](https://www.opensource-experience.com/en/) event which is a meeting with the European open source community.
