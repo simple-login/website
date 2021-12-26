@@ -33,23 +33,29 @@
 
 - question: Which payment methods do you support?
   answer: >
-    We use <a href="https://paddle.com">Paddle</a> for handling payments and Paddle currently supports the
-        following payment methods: <br>
-    - Mastercard <br>
-    - Visa <br>
-    - Maestro <br>
-    - American Express <br>
-    - Discover <br>
-    - Diners Club <br>
-    - JCB <br>
-    - PayPal <br>
-    - Apple Pay <br>
-    - Wire Transfers (ACH/SEPA/BACS) <br>
+    We use <a href="https://paddle.com">Paddle</a> for handling payments via credit cards and PayPal. Paddle currently supports the following payment methods: <br>
+
+    <ul>
+      <li>Mastercard</li>
+      <li>Visa</li>
+      <li>PayPal</li>
+      <li>Apple Pay</li>
+      <li>Wire Transfers (ACH/SEPA/BACS)</li>
+      <li>Maestro</li>
+      <li>American Express</li>
+      <li>Discover</li>
+      <li>Diners Club</li>
+      <li>JCB</li>
+    </ul>
+
+
     More information can be found on <a
       href="https://paddle.com/support/which-payment-methods-do-you-support/">Paddle supported payment
       methods</a>. <br>
 
-    Send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> if you want to use other payment options (e.g. IBAN transfer, Cryptocurrency, etc).
+    For cryptocurrency, we use <a href="https://commerce.coinbase.com">Coinbase Commerce</a> that currently supports Bitcoin, Bitcoin Cash, Dai, Ethereum, Litecoin and USD Coin. In the future, we are going to support Monero as well. In the meantime, please send us an email at <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> if you want to use this cryptocurrency.
+
+
 
 
 - question: Do you have a refund policy?
