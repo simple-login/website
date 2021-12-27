@@ -148,7 +148,7 @@ Connecting to a VPN also protects your data from leaks, hackers, network monitor
 
 By using a VPN, you can get your internet connection delivered through encrypted connections, which keep your information private and secure.
 
-Also, additional perks of using a VPN include being able to **enjoy the full Netflix catalog**, watch anime from Japan and other cool add-ons not related to privacy.
+Also, additional perks of using a VPN include being able to [enjoy the full Netflix catalog](https://cybernews.com/best-vpn/vpn-for-netflix/), watch anime from Japan and other cool add-ons not related to privacy.
 
 VPNs can be extremely cheap, and in some cases they're free.
 
