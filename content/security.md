@@ -117,7 +117,7 @@ We take reasonable security measures such as password protection, two-factor aut
 
 ## Database & File Storage
 
-Currently our database and file storage system are hosted in AWS Paris datacenter.
+Currently our database and file storage system are hosted on UpCloud.
 The database is using Postgresql, is encrypted at rest and backed up everyday. Backups older than 7 days are deleted. The database is only accessible from our mail and web servers.
 
 File storage is based on [S3](https://aws.amazon.com/s3/) which is used to store user profile pictures and temporary bounced emails. The bounced emails are deleted after 7 days.
