@@ -9,13 +9,11 @@
     This applies to all aliases created with SimpleLogin domains. <br>
     You can however restore an alias created with your own domain.
 
-- question: Where is SimpleLogin PGP key?
+- question: Where are SimpleLogin PGP keys?
   answer: >
-    Our PGP key for <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a> can be downloaded <a download href="/hi_at_simplelogin.asc">here</a> (fingerprint "BB03 4466 7D70 C5EC 30B5  A07C 704B 2826 4E7C A9E6").
-    It's also available on <a href="https://keys.openpgp.org/search?q=hi%40simplelogin.io">keys.openpgp.org</a> <br>
+    Our PGP keys are on <a href="/pgp-key">PGP keys</a> page.
 
-    If you enable PGP, all emails are signed with <b>signer@simplelogin.io</b> key which can be downloaded <a download href="/signer_at_simplelogin.asc">here</a> (fingerprint "7961 6C8F 8E0A 05D1 340F  FC20 4749 AAC8 4D4C 4810"). It's also available on
-    <a href="https://keys.openpgp.org/search?q=signer%40simplelogin.io">keys.openpgp.org</a>
+    If you enable PGP, all emails are signed with the <b>signer@simplelogin.io</b> key.
 
 - question: How can I delete my account?
   answer: >
