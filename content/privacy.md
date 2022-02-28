@@ -6,7 +6,7 @@ description: "SimpleLogin Privacy Policy. The privacy of your data — and it is
 layout: "single_markdown"
 ---
 
-**Last updated: 2021-11-12**
+**Last updated: 2022-02-28**
 
 The privacy of your data — and it is your data, not ours! — is a big deal to us. In this policy, we lay out: what data we collect and why; how your data is handled; and your rights to your data.
 
@@ -61,9 +61,10 @@ For more information on our server security, you can consult our [security page]
 
 ## When you delete your account
 
-In SimpleLogin, you have the option to delete your account. Your account along with all your information are deleted immediately in the running database. All your information will be purged from our system in 7 days, including:
-- our database backups that are kept up to 7 days
-- our logs that are deleted after 7 days
+In SimpleLogin, you have the option to delete your account. Your account along with all your information are deleted immediately in the running database. All your information will be purged from our system in maximum 30 days, including:
+
+- Database backups that are kept up to 14 days
+- System logs that are deleted after 30 days
 
 ---
 
@@ -90,6 +91,8 @@ More info on [Plausible privacy policy](https://plausible.io).
 - hCaptcha: we use [hCaptcha](https://www.hcaptcha.com) on our login and register page to protect SimpleLogin against bots. hCaptcha is a privacy focused captcha solution. Its privacy policy page is on https://www.hcaptcha.com/privacy
 
 - CloudFlare: we use [CloudFlare](https://www.cloudflare.com/en-gb/) for managing our DNS records.
+
+- Zendesk: we use [Zendesk](https://www.zendesk.com) for managing support tickets. 
 
 ---
 
