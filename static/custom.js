@@ -19,12 +19,12 @@
   console.log("init Analytics");
 
   // Plausible
-  // <script async defer data-domain="simplelogin.io" src="https://plausible.simplelogin.io/js/index.js"></script>
+  // <script async defer data-domain="simplelogin.io" src="/p.outbound.js"></script>
   var plausibleScript = document.createElement('script');
   plausibleScript.defer = 1;
   plausibleScript.async = 1;
   plausibleScript.dataset.domain = "simplelogin.io";
-  plausibleScript.src = 'https://plausible.simplelogin.io/js/index.js';
+  plausibleScript.src = '/p.outbound.js';
 
   var ins = document.getElementsByTagName('script')[0];
   ins.parentNode.insertBefore(plausibleScript, ins)
