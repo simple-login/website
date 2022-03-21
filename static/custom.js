@@ -23,6 +23,7 @@
   var plausibleScript = document.createElement('script');
   plausibleScript.defer = 1;
   plausibleScript.async = 1;
+  plausibleScript.dataset.api = "/p/api/event";
   plausibleScript.dataset.domain = "simplelogin.io";
   plausibleScript.src = '/p.outbound.js';
 
