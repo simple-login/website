@@ -30,19 +30,19 @@ All SimpleLogin components, including the web app, iOS/Android apps, Chrome/Fire
 
 ### Business model
 
-Firefox Relay is free and you can create up to 5 aliases. As Firefox Relay is financed by the Mozilla Foundation, having a sustainable business model at the beginning isn't probably necessary. However as [Mozilla recently lays off 250 people and planned a ‘new focus’ on making money](https://www.theverge.com/2020/8/11/21363424/mozilla-layoffs-quarter-staff-250-people-new-revenue-focus), Mozilla might need to think about a monetization strategy for Firefox Relay soon.
+Firefox Relay includes a free tier and a new premium tier. The free tier allows creation of up to 5 aliases, while the premium tier provides access to unlimited aliases, ability to reply to forwarded emails, and an optional custom subdomain. Currently, the premium tier costs $0.99/month on limited time pricing.
 
 SimpleLogin has two pricing tiers. The **free** tier gives you access to all the essentials to get started with email aliases. There is no limit on bandwidth, TOTP is included, and you can create up to 15 aliases. The **premium** tier includes advanced features like PGP encryption, unlimited aliases and custom domains, etc for $4/month or $30/year.
 
-### Platform lock-in
+### Platform availability
 
-Firefox Relay is currently available through the Firefox browser or via a web app. It doesn't provide an extension for Chromium-based browsers like Chrome, Brave, Vivaldi, etc and doesn't have a mobile app. This dependence on the Mozilla ecosystem (albeit a great one) is comparable to using "Sign in with Apple" might lock users in the Apple ecosystem.
+Firefox Relay is currently available through the Firefox browser, via the web app, or browser extensions for Chromium-based browsers like Chrome, Brave, Vivaldi, etc. However, a mobile app is not available at this time.
 
 SimpleLogin is platform-agnostic: the browser extension is available on Chromium-based browsers, Firefox and Safari. SimpleLogin also has mobile apps for Android (PlayStore, F-Droid) and iOS.
 
 ### Able to send emails from alias
 
-Firefox Relay doesn't support replying to a forwarded email or sending emails from an alias. Though most people use aliases for receiving emails, we might run into a situation that requires sending emails from an alias, for example to contact the support or to answer a personalized email. 
+Firefox Relay premium users now have the ability to reply to forwarded emails within 3 months. The time limit on ability to reply could detract from use as more than just an email forwarding service.
 
 SimpleLogin supports sending emails from alias. You can also reply to a forwarded email just like a normal email: the email will be sent from your alias and your personal mailbox stays hidden. For this reason, a SimpleLogin alias can be used as a fully-fledged email address. In fact, SimpleLogin is sometimes used as an email solution for small businesses (our company email addresses are actually aliases).
 
@@ -71,9 +71,7 @@ SimpleLogin doesn't rely on any external service. It is cloud agnostic and can b
 
 #### Email size
 
-Firefox Relay supports email attachments and the email size is limited 150K. This limit is 25M on SimpleLogin.
-
-As attaching a document or an image can exceed 150K, Firefox Relay is probably more suitable for automatic (e.g. newsletters or transactional) emails than personal ones.
+Firefox Relay supports email attachments with an email size limited of 10M. This limit is 25M on SimpleLogin.
 
 #### PGP encryption
 
@@ -85,7 +83,7 @@ SimpleLogin [adds support for PGP on March 2020](/blog/introducing-pgp/).
 
 #### Alias domains
 
-Firefox has one alias domain at **relay.firefox.com**. Your alias will then look like ```anything@relay.firefox.com```.
+Firefox Relay started with the **relay.firefox.com** domain. Aliases looked like ```anything@relay.firefox.com```. The service recently switched to and exclusively uses the domain **mozmail.com**. Aliases now look like ```anything@mozmail.com```. Premium users have the option to utilize a custom domain such as ```anything@custom.mozmail.com```.
 
 Some websites unfortunately don't accept email aliases as they consider email aliases the same as temporary email addresses and people using email aliases as suspicious.
 
@@ -97,9 +95,9 @@ We also recommend users to have their own domain as this allows a greater flexib
 
 #### Specific features
 
-Firefox Relay seems to be pretty early in its development. Because of that, it doesn't provide additional features aside from the forwarding capacity.
+Firefox Relay is relatively early in its development. Because of that, feature sets are slowly rolled out. Recent features released include custom subdomains for premium users and a promotional email blocking setting that attempts to forward important emails while blocking marketing based emails.
 
-Some noteworthy features:
+Some noteworthy Simplelogin features:
 
 **1.** Directory: to be able to create aliases on-the-fly, i.e. without going to SimpleLogin apps or website. More info on [Introducing Alias Directory](/blog/alias-directory/)
 
