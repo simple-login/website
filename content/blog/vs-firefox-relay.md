@@ -83,7 +83,7 @@ SimpleLogin [adds support for PGP on March 2020](/blog/introducing-pgp/).
 
 #### Alias domains
 
-Firefox Relay started with the **relay.firefox.com** domain. Aliases looked like ```anything@relay.firefox.com```. The service recently switched to and exclusively uses the domain **mozmail.com**. Aliases now look like ```anything@mozmail.com```. Premium users have the option to utilize a custome domain such as ```anything@custom.mozmail.com```.
+Firefox Relay started with the **relay.firefox.com** domain. Aliases looked like ```anything@relay.firefox.com```. The service recently switched to and exclusively uses the domain **mozmail.com**. Aliases now look like ```anything@mozmail.com```. Premium users have the option to utilize a custom domain such as ```anything@custom.mozmail.com```.
 
 Some websites unfortunately don't accept email aliases as they consider email aliases the same as temporary email addresses and people using email aliases as suspicious.
 
@@ -95,7 +95,7 @@ We also recommend users to have their own domain as this allows a greater flexib
 
 #### Specific features
 
-Firefox Relay is relatively early in its development. Because of that, feature sets are slowly rolled out. Recent features released include custom subdoamins for premium users and a promotional email blocking setting that attempts to forward important emails while blocking marketing based emails.
+Firefox Relay is relatively early in its development. Because of that, feature sets are slowly rolled out. Recent features released include custom subdomains for premium users and a promotional email blocking setting that attempts to forward important emails while blocking marketing based emails.
 
 Some noteworthy Simplelogin features:
 
@@ -107,7 +107,7 @@ Some noteworthy Simplelogin features:
 
 ### Conclusion
 
-Using email aliases aren't mainstream (yet) and has probably the same popularity as password managers 10 years ago. For this reason, we don't see Firefox Relay as a concurrent but rather a co-pilot in the fight to gain back control of our data.
+Using email aliases isn't mainstream (yet) and has probably the same popularity as password managers 10 years ago. For this reason, we don't see Firefox Relay as a concurrent but rather a co-pilot in the fight to gain back control of our data.
 
 Having reputed companies investing in the email aliases technology like Apple and Firefox also validates the need for email aliases.
 
