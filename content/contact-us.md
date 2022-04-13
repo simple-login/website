@@ -12,7 +12,7 @@ If you can’t find what you need there and if you have a SimpleLogin account, p
 If you want to report a bug in SimpleLogin applications, you can submit an issue on our different GitHub pages:
 
 - [WebApp](https://github.com/simple-login/app/issues) page for issues related to the web app.
-- [Browser extension](hhttps://github.com/simple-login/browser-extension/issues) page for issues related to the browser extension.  
+- [Browser extension](https://github.com/simple-login/browser-extension/issues) page for issues related to the browser extension.  
 - [iOS](https://github.com/simple-login/Simple-Login-iOS/issues) page for issues related to the iOS app. 
 - [Android](https://github.com/simple-login/Simple-Login-Android/issues) page for issues related to the Android app. 
 
