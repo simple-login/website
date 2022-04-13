@@ -5,16 +5,18 @@ url: "/contact"
 layout: "single_markdown"
 ---
 
-Hi! Our [FAQ](/faq/) is a great place for most answers, but if you can’t find your answer there, please do contact us at hi@simplelogin.io. Download our PGP Key
-[here](/hi_at_simplelogin.asc) (fingerprint `BB03 4466 7D70 C5EC 30B5  A07C 704B 2826 4E7C A9E6`).
+Hi! Our [FAQ](/faq/) and [documentation](https://simplelogin.io/docs/) is a great place for most answers. Our [privacy page](/privacy/) and [security page](/security/) contain a great deal of information on what data we store and for how long. 
 
+If you can’t find what you need there and if you have a SimpleLogin account, please contact us via our [support page](https://app.simplelogin.io/dashboard/support). You can also reach out to us by email at support@simplelogin.zendesk.com
 
-Our [privacy page](/privacy/) and [security page](/security/) contain a great deal of information on what data we store and for how long.
+If you want to report a bug in SimpleLogin applications, you can submit an issue on our different GitHub pages:
 
-If you want to report a bug, you can either send us an email or submit an issue our [GitHub](https://github.com/simple-login/app/issues) page. Please make sure that the bug hasn't already been reported.
+- [WebApp](https://github.com/simple-login/app/issues) page for issues related to the web app.
+- [Browser extension](hhttps://github.com/simple-login/browser-extension/issues) page for issues related to the browser extension.  
+- [iOS](https://github.com/simple-login/Simple-Login-iOS/issues) page for issues related to the iOS app. 
+- [Android](https://github.com/simple-login/Simple-Login-Android/issues) page for issues related to the Android app. 
 
-For feature request, please use our [GitHub forum](https://github.com/simple-login/app/discussions/categories/feature-requests). Please search the forum first to make sure it hasn't been requested. Feel free to upvote the feature you want to happen soon :).
+New feature can be requested on our [GitHub forum](https://github.com/simple-login/app/discussions/categories/feature-requests). Please make sure the same feature hasn't been requested before and feel free to upvote the feature you want to support.
 
-For mailserver related questions, please contact us at postmaster@simplelogin.io
-
+For any security issues, please contact us at security@proton.ch
 
