@@ -3,7 +3,7 @@
     Email alias is similar to <a href="https://en.wikipedia.org/wiki/Email_forwarding">forward</a> email
     address: all emails sent to an alias will be forwarded to your inbox. <br>
     Thanks to SimpleLogin technology, you can also send emails <b>from</b> an alias. <br>
-    For your contact, the alias is therefore your email address. 
+    For your contact, the alias is therefore your email address.
     More info about email alias on <a href="/blog/what-is-an-email-alias/">What is an email alias</a>.
 
 - question: I can use my plus sign (+) trick to create unlimited email addresses, why do I need SimpleLogin?
@@ -22,7 +22,7 @@
 
     SimpleLogin aliases don't have any of these downsides. You can read more about the pros and cons of using the + trick on <a href="/blog/email-alias-vs-plus-sign/">What makes email alias a better alternative to email plus sign (+)</a>
 
-    
+
 
 - question: What is the difference between SimpleLogin and other email forwarding services?
   answer: >
@@ -102,11 +102,11 @@
   answer: >
     You can bring your own domains into SimpleLogin and create aliases like <b>contact@your-domain.com</b>, <b>hi@your-domain.com</b>. <br>
     As you might have probably guessed, you can then use SimpleLogin to manage your <em>business emails</em> instead paying for an expensive solution like Google Workspace. <br>
-    All our business emails (e.g. <b>hi@simplelogin.io</b>) are actually aliases 🤫
+    All our business emails (e.g. <b>contact@simplelogin.io</b>) are actually aliases 🤫
 
 - question: I can't find an answer to my question here
   answer: >
     You can find the list of all frequent question/answer on the <a href="/faq/">FAQ page</a>. <br>
-    If you don't find the answer there, please send your question to <a href="mailto:hi@simplelogin.io">hi@simplelogin.io</a>. <br>
+    If you don't find the answer there, please send your question to <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>. <br>
     You can also create an issue on our <a href="https://github.com/simple-login/app/issues">GitHub Issues</a>.
 
