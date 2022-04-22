@@ -6,6 +6,9 @@
 - title: Catch-all (ou wildcard)
   subtitle: Créer un alias à la volée sans ouvrir SimpleLogin.
 
+- title: Envoyer un nouvel mail depuis votre alias
+  subtitle: Vous pouvez créer un reverse-alias pour envoyer un mail à un nouveau contact.
+
 - title: 5 sous-domaines <span class="badge badge-success">new</span>
 
 - title: 50 directory

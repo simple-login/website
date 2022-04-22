@@ -5,10 +5,10 @@
 - title: Unlimited custom domains
   subtitle: Bring your own domain to create aliases like contact@your-domain.com
 
+- title: Catch-all (or wildcard) domain
+
 - title: Initiate a new email from your alias
   subtitle: You can create a reverse-alias to send an email to a new contact.
-
-- title: Catch-all (or wildcard) domain
 
 - title: 5 subdomains <span class="badge badge-success">new</span>
 
