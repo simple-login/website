@@ -6,7 +6,7 @@ description: "SimpleLogin Privacy Policy. The privacy of your data — and it is
 layout: "single_markdown"
 ---
 
-**Last updated: 2022-02-28**
+**Last updated: 2022-04-22**
 
 The privacy of your data — and it is your data, not ours! — is a big deal to us. In this policy, we lay out: what data we collect and why; how your data is handled; and your rights to your data.
 
@@ -53,7 +53,7 @@ Our default practice is to not access your information. The only times we’ll e
 
 All data is encrypted via [SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) when transmitted from our servers to your browser. The database backups are also encrypted. Most data are not encrypted while they live in our database (since it needs to be ready to send to you when you need it), but we go to great lengths to secure your data at rest.
 
-Our servers are provided by [UpCloud](http://upcloud.com) and [AWS](http://aws.amazon.com). We are using datacenters that are located in Germany, Netherlands and France.
+Our servers are provided by [Proton](https://protonmail.com), [UpCloud](http://upcloud.com) and [AWS](http://aws.amazon.com). We are using datacenters that are located in Germany, Switzerland, Netherlands and France.
 
 For more information on our server security, you can consult our [security page](/security/).
 
