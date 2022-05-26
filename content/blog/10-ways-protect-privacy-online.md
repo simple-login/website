@@ -237,7 +237,7 @@ In order to use PGP, you'll need a service that supports it.
 
 Also, as the PGP is linked to your aliases, you can keep using your insecure email client (such as Gmail or Outlook) without compromising on your privacy. It's a win-win.
 
-However, **if you do want to try a more privacy-focused and secure email provider, we suggest  [**ProtonMail**](https://protonmail.com/)**.
+However, **if you do want to try a more privacy-focused and secure email provider, we suggest  [**ProtonMail**](https://proton.me/mail)**.
 
 Lots of web professionals and cybersecurity enthusiasts are using ProtonMail daily, and their popularity is growing rapidly.
 

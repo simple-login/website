@@ -10,11 +10,11 @@ layout: "single"
 
 ---
 
-The past 6 months have been intense for SimpleLogin, with many new users, many new features, and many new technical challenges. I'm now happy to share this news with you: SimpleLogin is now part of the [Proton](https://protonmail.com) family.
+The past 6 months have been intense for SimpleLogin, with many new users, many new features, and many new technical challenges. I'm now happy to share this news with you: SimpleLogin is now part of the [Proton](https://proton.me/) family.
 
 SimpleLogin was started in 2019. After more than a year of coding, we launched a beta version in 2020 and a public version at the beginning of 2021. SimpleLogin's mission is to protect your online identity and we follow a transparency model since the beginning: the code is 100% open source and product development decisions are discussed openly with the community. SimpleLogin has received a lot of positive feedback from the privacy community and with your help, we have built many new features while maintaining high reliability and stability. 
 
-Proton is a Swiss privacy company best known for [ProtonMail](https://protonmail.com) (the world’s largest encrypted email service) and [ProtonVPN](https://protonvpn.com) (one of the world’s largest VPN services). Proton has been an inspiration for SimpleLogin. We like Proton’s mission and its transparency, open-source nature, and user-first culture. Many of you also like Proton, as quite a few SimpleLogin users are also using ProtonMail. 
+Proton is a Swiss privacy company best known for [ProtonMail](https://proton.me/) (the world’s largest encrypted email service) and [ProtonVPN](https://protonvpn.com) (one of the world’s largest VPN services). Proton has been an inspiration for SimpleLogin. We like Proton’s mission and its transparency, open-source nature, and user-first culture. Many of you also like Proton, as quite a few SimpleLogin users are also using ProtonMail. 
 
 #### What this means for the community
 
