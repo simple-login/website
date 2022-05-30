@@ -34,12 +34,12 @@
     All SimpleLogin plans have <span class="highlight">infinite</span> forwards/sends and <span class="highlight">unlimited</span> bandwidth. <br>
             Receive and send emails as much as you like.
 
-- title: On-the-fly aliases with directory
+- title: On-the-fly aliases with subdomain
   desc: >
     Create your <em data-toggle="tooltip" data-html="true"
-      title="Directory is a great way to organize and create aliases on-the-fly. Just use
-      <b>your_directory/ANYTHING@simplelogin.co</b> when you quickly need an alias, the alias will be created when it receives the first email.">directory</em>, and use it to quickly create aliases without opening SimpleLogin web or mobile apps.
-    <a href="/blog/alias-directory/">Learn more</a>.
+      title="Subdomain is a great way to organize and create aliases on-the-fly. Just use
+      <b>ANYTHING@your-subdomain.simplelogin.com</b> when you quickly need an alias, the alias will be created when it receives the first email.">subdomain</em>, and use it to quickly create aliases without opening SimpleLogin web or mobile apps.
+    <a href="/blog/subdomains/">Learn more</a>.
 
 - title: Multiple mailboxes
   desc: >

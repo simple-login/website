@@ -78,7 +78,7 @@ There are currently several ways of creating a new SimpleLogin alias:
 
 - Creating email aliases on the fly via **catch-all** domain. If you own a domain, you can enable the catch-all option that allows you to use `can_be_anything@your-domain.com`: it's automatically created when an email is sent to this address.
 
-- Creating email aliases on the fly via [directory](/blog/alias-directory/): this is actually similar to the plus sign trick. If you have a directory called **newsletter**, you can then use `newsletter+python@simplelogin.fr` when signing for a Python newsletter.
+- Creating email aliases on the fly via [subdomains](/blog/subdomains/): in case you don't have your own domain, you can use a subdomain provided by SimpleLogin. anything@your-subdomain.simplelogin.com will be created the first time it receives an email. 
 
 ### SimpleLogin aliases protect your privacy
 

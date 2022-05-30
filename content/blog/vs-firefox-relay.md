@@ -99,11 +99,11 @@ Firefox Relay is relatively early in its development. Because of that, feature s
 
 Some noteworthy Simplelogin features:
 
-**1.** Directory: to be able to create aliases on-the-fly, i.e. without going to SimpleLogin apps or website. More info on [Introducing Alias Directory](/blog/alias-directory/)
+**1.** Multiple mailboxes: an alias can forward emails to several mailboxes. This can be useful if you share an alias with a friend/spouse.
 
-**2.** Multiple mailboxes: an alias can forward emails to several mailboxes. This can be useful if you share an alias with a friend/spouse.
+**2.** Custom domain. You can add your own domain and create aliases like hi@my-domain.com
 
-**3.** Custom domain. You can add your own domain and create aliases like hi@my-domain.com
+**3.** Subdomain. In case you don't have a domain, you can use a subdomain provided by SimpleLogin, you can then create aliases on the fly like anything@my-subdomain.simplelogin.com. More info on [Subdomains](/blog/subdomains/)
 
 ### Conclusion
 

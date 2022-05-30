@@ -67,7 +67,7 @@ One SimpleLogin account can be used on these devices at the same time.
 
 33mail allows you to create new email aliases on the fly using the **username**: you can just use anything@your-username.33mail.com and this address will be created the first time it receives an email.
 
-SimpleLogin has a similar feature called [directory](/blog/alias-directory/). The email format is a bit different: your_directory+anything@simplelogin.co is used instead. The email is also created the first time it receives an email. This format allows a stricter DMARC and improves therefore email deliverability. SimpleLogin team is currently working on a revamp of this feature to make it compatible with your custom domain and support more formats. 
+SimpleLogin has a similar feature called [subdomain](/blog/subdomains/). It works similarly to 33mail username: anything@your-subdomain.simplelogin.com is created the first time it receives an email. 
 
 ### Pricing Plans
 

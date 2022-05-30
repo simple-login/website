@@ -26,10 +26,10 @@
   desc: >
     Tous les plans de SimpleLogin n'ont pas limite sur la bande passante ou nombre de mails reçu/envoyés.
 
-- title: Créer un alias à la volée avec <span class="highlight">directory</span>
+- title: Alias à la volée avec <span class="highlight">sous-domaine</span>
   desc: >
     Créer un alias sans ouvrir SimpleLogin: l'alias sera créé quand il reçoit le premier mail. Plus d'info sur
-    <a href="/blog/alias-directory/">qu'est-ce que c'est un directory</a>
+    <a href="/blog/subdomains/">qu'est-ce que c'est une sous-domaine</a>
 
 
 - title: Plusieurs boîtes mail
