@@ -21,7 +21,7 @@ Proton is a Swiss privacy company best known for [ProtonMail](https://proton.me/
 In terms of values and philosophy, Proton and SimpleLogin are well-aligned. Because of this, not much is changing:
 
 * SimpleLogin’s current model will continue (100% open source)
-* SimpleLogin stays email provider agnostics (SimpleLogin remains compatible with all email services)
+* SimpleLogin stays email provider agnostic (SimpleLogin remains compatible with all email services)
 * SimpleLogin will continue to develop (but now with additional resources from Proton)
 
 SimpleLogin will continue to operate as an independent service and SimpleLogin SAS will continue to be based in Paris, France.
