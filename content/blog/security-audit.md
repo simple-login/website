@@ -1,7 +1,7 @@
 ---
 title: SimpleLogin passes an independent security audit
 date: 2022-06-15
-summary: "TSimpleLogin has completed a third party security audit with leading security firm Securitum which found no critical vulnerability."
+summary: "SimpleLogin has completed a third party security audit with leading security firm Securitum which found no critical vulnerability."
 
 author: Son
 authorLink: "https://twitter.com/simple_login"
