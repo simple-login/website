@@ -40,7 +40,7 @@ Before we dive into how to check email data breaches or what to do if my email h
 
 The fact is that email aliases make it a lot easier for you to **kill the switch and prevent further damage**. You can use a service like Simple Login to create email aliases within seconds. 
 
-Even if you use our free plan, you will get to generate 15 aliases and benefit from 1 mailbox. We also offers unlimited reply/send from aliases and unlimited bandwidth. 
+Even if you use our free plan, you will get to generate 10 aliases and benefit from 1 mailbox. We also offers unlimited reply/send from aliases and unlimited bandwidth. 
 
 Other email alias solutions are fine too - just stick to whatever is comfortable to you (but we hope you'll give us a try).
 

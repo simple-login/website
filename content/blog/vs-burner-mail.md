@@ -54,7 +54,7 @@ Both SimpleLogin and Burner Mail offer a free tier and a paid tier.
 
 With Burner Mail free tier, you get 5 aliases. You can't send emails or reply from aliases.
 
-With SimpleLogin free tier, you can create up to 15 aliases. You can send emails or reply from aliases.
+With SimpleLogin free tier, you can create up to 10 aliases. You can send emails or reply from aliases.
 
 On the paid plan, SimpleLogin offers unlimited domain names, PGP encryption, and 50 directories at 30$ per year.
 

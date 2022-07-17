@@ -206,7 +206,7 @@ Receiving emails and promotions is like sex. It's good only if it's consensual.
 
 Look, we're a business, and we go through many hassles every single day to make sure our service is fast, responsive and worth your money (or time, if you stay with the free plan).
 
-**Our free plan gives you 15 aliases you can use and "kill" whenever you want. Easy.**
+**Our free plan gives you 10 aliases you can use and "kill" whenever you want. Easy.**
 
 If you need more, we offer a premium plan for $30 per year, with heavy discounts for families, students and non-profits.
 

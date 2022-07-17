@@ -3,9 +3,9 @@
     When your subscription ends, all aliases you created continue working normally, both on receiving and
         sending emails. Concretely: <br>
     - All aliases/domains/directories/mailboxes you have created are kept and continue working normally. <br>
-    - You cannot create new aliases if you exceed the free plan limit, i.e. have more than 15 aliases. <br>
+    - You cannot create new aliases if you exceed the free plan limit, i.e. have more than 10 aliases. <br>
     - As features like catch-all or directory allow you to create aliases on-the-fly, those aliases cannot be
-    automatically created if you have more than 15 aliases. <br>
+    automatically created if you have more than 10 aliases. <br>
     - You cannot add new domain, directory or mailbox. <br><br>
 
     For example, if you have 100 aliases by the time your subscription ends, these
@@ -14,7 +14,7 @@
 - question: What happens when I reach the maximum number of alias in free plan?
   answer: >
     If you are in the free plan, you cannot create new aliases when you reach the maximum number of aliases
-        (i.e. 15 aliases). <br>
+        (i.e. 10 aliases). <br>
     Aliases that would otherwise be created automatically via the catch-all domain or directory feature also
     cannot be created. <br>
 

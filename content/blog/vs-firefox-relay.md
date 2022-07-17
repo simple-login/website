@@ -32,7 +32,7 @@ All SimpleLogin components, including the web app, iOS/Android apps, Chrome/Fire
 
 Firefox Relay includes a free tier and a new premium tier. The free tier allows creation of up to 5 aliases, while the premium tier provides access to unlimited aliases, ability to reply to forwarded emails, and an optional custom subdomain. Currently, the premium tier costs $0.99/month on limited time pricing.
 
-SimpleLogin has two pricing tiers. The **free** tier gives you access to all the essentials to get started with email aliases. There is no limit on bandwidth, TOTP is included, and you can create up to 15 aliases. The **premium** tier includes advanced features like PGP encryption, unlimited aliases and custom domains, etc for $4/month or $30/year.
+SimpleLogin has two pricing tiers. The **free** tier gives you access to all the essentials to get started with email aliases. There is no limit on bandwidth, TOTP is included, and you can create up to 10 aliases. The **premium** tier includes advanced features like PGP encryption, unlimited aliases and custom domains, etc for $4/month or $30/year.
 
 ### Platform availability
 

@@ -12,7 +12,7 @@ summary: >
 intro: >
      You understood the importance of using email aliases, and you're looking for the best **free email alias generator**.
 
-     SimpleLogin is an open-source software that generates up to 15 email aliases for you for free. **There are no hidden fees of any kind.**
+     SimpleLogin is an open-source software that generates up to 10 email aliases for you for free. **There are no hidden fees of any kind.**
 
      Today, we'll show you how to set up your account and get started with your free email alias right away!
 
@@ -156,11 +156,11 @@ If you prefer to have an uptime guarantee and work with us to build a safer inte
 
 ## How many free email aliases can I create for free?
 
-You can create 15 email aliases for free.
+You can create 10 email aliases for free.
 
-However, please note you can always delete an alias and create a new one until you get to 15 again.
+However, please note you can always delete an alias and create a new one until you get to 10 again.
 
-In short, the limit is 15 active alias, not 15 generated aliases. As long as you don't need to keep more than **15 aliases working at any time**, the free version will be more than enough to cover your needs.
+In short, the limit is 10 active alias, not 10 generated aliases. As long as you don't need to keep more than **10 aliases working at any time**, the free version will be more than enough to cover your needs.
 
 ## Is your business model sustainable? Will I get updates for free?
 
