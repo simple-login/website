@@ -1,16 +1,26 @@
-SimpleLogin - privacy-first email alias and Single Sign-On (SSO) Identity Provider
+SimpleLogin - One of the first privacy respecting Email Aliasing and Single Sign-On (SSO) Identity Service(s).
 ---
 
-https://simplelogin.io
+# Bio
+This repository contains the everything related to the website of SimpleLogin SAS.
 
-This repo contains the code behind the main website at https://www.simplelogin.io
+# Online Presence
+[Website](https://simplelogin.io)
+[Twitter](https://twitter.com/simple_login)
+[Reddit](https://www.reddit.com/r/Simplelogin/)
+[Producthunt](https://www.producthunt.com/products/simplelogin)
+[Other](#)
 
-It's developed using https://gohugo.io, a static site generator.
+# Credit
+This website is developed using a pice of free and open source (FOSS) software called [hugo](https://gohugo.io), a static website generator for all.
 
-To run it locally, please install `hugo` first (see https://gohugo.io/getting-started/quick-start/ for how to install Hugo), then run the following command:
+# Website Testing
+
+To test and run the website locally, please install `hugo` first (see https://gohugo.io/getting-started/quick-start/ for how to install Hugo), then run the following command:
 
 ```bash
 hugo server
 ```
+Done!
 
-The website is now available on http://localhost:1313/
+Now the website should be available at http://localhost:1313/
