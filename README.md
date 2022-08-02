@@ -8,8 +8,6 @@ This repository contains the everything related to the website of SimpleLogin SA
 [Website](https://simplelogin.io)
 [Twitter](https://twitter.com/simple_login)
 [Reddit](https://www.reddit.com/r/Simplelogin/)
-[Producthunt](https://www.producthunt.com/products/simplelogin)
-[Other](#)
 
 # Credit
 This website is developed using a pice of free and open source (FOSS) software called [hugo](https://gohugo.io), a static website generator for all.
