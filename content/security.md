@@ -35,7 +35,7 @@ Without DNSSEC, a malicious hacker can point SimpleLogin MX record to their own 
 
 CAA provides a way for domain holders to reduce that risk. Without CAA, someone could potentially obtain an unauthorized SSL certificate for SimpleLogin domains that could allow man-in-the-middle hacks.
 
-All SimpleLogin certificates are issued by [Letsencrypt](https://letsencrypt.org). Witch is one of the most trusted CA's in the world.
+All SimpleLogin certificates are issued by [Letsencrypt](https://letsencrypt.org). which is one of the most trusted CA's in the world.
 
 #### Hardenize
 
@@ -45,9 +45,7 @@ Here are Hardenize reports for our domains:
 
 - [simplelogin.io](https://www.hardenize.com/report/simplelogin.io)
 - [simplelogin.co](https://www.hardenize.com/report/simplelogin.co)
-- [simplelogin.fr](https://www.hardenize.com/report/simplelogin.fr)
 - [simplelogin.com](https://www.hardenize.com/report/simplelogin.com)
-- [slmail.me](https://www.hardenize.com/report/slmail.me)
 
 ---
 
@@ -103,9 +101,9 @@ SimpleLogin currently runs two web app instances.
 
 All of the data in transit btween SimpleLogin servers and end users are encrypted via [SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security).
 
-We again, also inmplment the following additional measures in conjunction with SSL/TLS encryption:
+We again, also implement the following additional measures in conjunction with SSL/TLS encryption:
 
-- Versions we support: TLS v1.2 and v1.3. TLS v1.3 supports [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy).
+- Versions we only support: TLS v1.2 and v1.3. TLS v1.3 supports [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy).
 - [DANE](https://tools.ietf.org/id/draft-ietf-dane-ops-02.html)
 - [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
 - [CSP](https://en.wikipedia.org/wiki/Content_Security_Policy)
