@@ -9,9 +9,6 @@ This repository contains the everything related to the website of SimpleLogin SA
 [Twitter](https://twitter.com/simple_login)
 [Reddit](https://www.reddit.com/r/Simplelogin/)
 
-# Credit
-This website is developed using a pice of free and open source (FOSS) software called [hugo](https://gohugo.io), a static website generator for all.
-
 # Website Testing
 
 To test and run the website locally, please install `hugo` first (see https://gohugo.io/getting-started/quick-start/ for how to install Hugo), then run the following command:
