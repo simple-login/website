@@ -6,7 +6,7 @@ description: "SimpleLogin Security. Keeping your data safe and secure is a huge 
 layout: "single_markdown"
 ---
 
-Keeping your data safe and secure is a huge responsibility and a top priority for us at SimpleLogin. Here's how we make the magic happen.
+Keeping your data safe and secure is a huge responsibility and a top priority for us at SimpleLogin.
 
 ---
 
@@ -16,10 +16,8 @@ SimpleLogin currently operates on the following domains:
 
 - simplelogin.io
 - simplelogin.co
-- simplelogin.fr
 - simplelogin.com
-- slmail.me
-- And others we shall not reveal. ;)
+- And others we shall not reveal.
 
 Most of our domains implement the following standards:
 
@@ -35,7 +33,7 @@ Without DNSSEC, a malicious hacker can point SimpleLogin MX record to their own 
 
 CAA provides a way for domain holders to reduce that risk. Without CAA, someone could potentially obtain an unauthorized SSL certificate for SimpleLogin domains that could allow man-in-the-middle hacks.
 
-All SimpleLogin certificates are issued by [Letsencrypt](https://letsencrypt.org). which is one of the most trusted CA's in the world.
+All SimpleLogin certificates are issued by [Letsencrypt](https://letsencrypt.org). Which is a certificate authority SipleLogin trusts.
 
 #### Hardenize
 
