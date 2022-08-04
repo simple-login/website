@@ -2,7 +2,7 @@ SimpleLogin - One of the first privacy respecting Email Aliasing and Single Sign
 ---
 
 # Bio
-This repository contains the everything related to the website of SimpleLogin SAS.
+This repository contains everything related to the website of SimpleLogin SAS email aliasing service.
 
 # Online Presence
 [Website](https://simplelogin.io)
