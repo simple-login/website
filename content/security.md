@@ -6,10 +6,9 @@ description: "SimpleLogin Security. Keeping your data safe and secure is a huge 
 layout: "single_markdown"
 ---
 
-Keeping your data safe and secure is a huge responsibility and a top priority for us. Here's how we make it happen.
+Keeping your data safe and secure is a huge responsibility and a top priority for us at SimpleLogin.
 
 ---
-
 
 ## Domains
 
@@ -17,12 +16,12 @@ SimpleLogin currently operates on the following domains:
 
 - simplelogin.io
 - simplelogin.co
-- simplelogin.fr
-- slmail.me
+- simplelogin.com
+- And others we shall not reveal.
 
-All domains implement the following standards:
+Most of our domains implement the following standards:
 
-#### DNSSEC
+#### Domain Name System Security Extension (DNSSEC)
 
 [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) or Domain Name System Security Extensions is an extension of the DNS protocol that provides cryptographic assurance of the authenticity and integrity of responses. It's intended as a defense against network attackers who are able to manipulate DNS to redirect their victims to servers of their choice.
 
@@ -34,44 +33,42 @@ Without DNSSEC, a malicious hacker can point SimpleLogin MX record to their own 
 
 CAA provides a way for domain holders to reduce that risk. Without CAA, someone could potentially obtain an unauthorized SSL certificate for SimpleLogin domains that could allow man-in-the-middle hacks.
 
-All SimpleLogin certificates are issued by [Letsencrypt](https://letsencrypt.org).
+All SimpleLogin certificates are issued by [Letsencrypt](https://letsencrypt.org). Which is a certificate authority SipleLogin trusts.
 
-#### Hardenize reports
+#### Hardenize
 
-[Hardenize](https://www.hardenize.com) is a comprehensive security tool that provides assessment of web site network and security configuration.
+[Hardenize](https://www.hardenize.com) is a comprehensive security tool that provides assessments of website and network security configuration.
 
 Here are Hardenize reports for our domains:
 
-- [simplelogin.io](https://www.hardenize.com/report/simplelogin.io/1587326588)
-- [simplelogin.fr](https://www.hardenize.com/report/simplelogin.fr/1587547515)
-- [simplelogin.co](https://www.hardenize.com/report/simplelogin.co/1587326594)
-- [slmail.me](https://www.hardenize.com/report/slmail.me/1587417887#email_dmarc)
-
+- [simplelogin.io](https://www.hardenize.com/report/simplelogin.io)
+- [simplelogin.co](https://www.hardenize.com/report/simplelogin.co)
+- [simplelogin.com](https://www.hardenize.com/report/simplelogin.com)
 
 ---
 
 ## Mail Servers
 
-Currently SimpleLogin has 2 mail servers located at Netherlands datacenter.
+Currently SimpleLogin operates two mail servers with the help of ([Proton AG.](https://proton.me/about)).
 
-- mx1.simplelogin.co and
+- mx1.simplelogin.co
 - mx2.simplelogin.co
 
 Our mail servers support the following security standards.
 
-#### SPF
+#### Sender Policy Framework (SPF)
 
 [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework)(Sender Policy Framework) is a protocol that allows domain name owners to control which internet hosts are allowed to send email on their behalf.
 
 By default, only our mail servers can send emails on behalf of SimpleLogin. We use the  **strictest** SPF policy which is `-all`. Without SPF, anyone can send emails that seem to come from SimpleLogin.
 
-#### DKIM
+#### DomainKeys Identified Mail (DKIM)
 
 [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) (Domain Keys Identified Mail) is an email authentication technique that allows the receiver to check that an email was indeed sent and authorized by the owner of that domain. This is done by giving the email a digital signature.
 
 All emails sent from SimpleLogin servers, including emails forwarded to your mailbox and emails sent from your mailbox are DKIM-signed.
 
-#### DMARC
+#### Domain based Message Authentication, Reporting, and Conformance (DMARC)
 
 [DMARC](https://en.wikipedia.org/wiki/DMARC) is an email-validation system. It is designed to give email domain owners the ability to protect their domain from unauthorized use, commonly known as email spoofing.
 
@@ -79,45 +76,46 @@ Built around SPF and DKIM, a DMARC policy tells the receiving mail server what t
 
 SimpleLogin uses a strict DMARC policy that rejects emails that fail the SPF or DKIM check.
 
-#### Email TLS
+#### Email Encryption
 
-Emails sent to our servers are encrypted using TLS 1.1, 1.2 or 1.3. Network attackers can't uncover what is being communicated, even when they can see all the traffic.
+Emails sent to & from our servers are encrypted using TLS versions 1.1, 1.2, or 1.3. Network attackers won't be able to man-in-the-middle (MITM) attack the emails being sent and received by you and your recipient this way.
 
-#### Others
+#### Additional Measures and Precautions
 
-In addition to the above standards, SimpleLogin mail servers also implement the following recommended standards:
+In addition to the measures and precautions stated above, SimpleLogin mail servers also implement the following standards:
 
 - [MTA-STS](https://www.hardenize.com/blog/mta-sts)
 - [TLS-RPT](https://www.hardenize.com/blog/smtp-tls-reporting-tls-rpt)
 - [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities)
 
-
 ---
 
 ## Web Servers
 
-SimpleLogin currently has 2 web servers located at
+SimpleLogin currently runs two web app instances.
 
-- app.simplelogin.io (Germany datacenter) and
-- mx2.simplelogin.co (Netherlands) as failover.
+- app.simplelogin.io
+- mx2.simplelogin.co (fallback)
 
-All data is encrypted via [SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) when transmitted from our servers to your browser.
+All of the data in transit btween SimpleLogin servers and end users are encrypted via [SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security).
 
-In addition, we also implement the following measures:
+We again, also implement the following additional measures in conjunction with SSL/TLS encryption:
 
-- Only support TLS v1.2 and v1.3. TLS v1.3 supports [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy).
-- Do not support previous versions (SSL, TLS 1.0, TLS 1.1) that are deprecated.
-- [DANE](https://tools.ietf.org/id/draft-ietf-dane-ops-02.html), [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security), [CSP](https://en.wikipedia.org/wiki/Content_Security_Policy), [SRI](https://en.wikipedia.org/wiki/Subresource_Integrity), [Expect CT](https://tools.ietf.org/html/rfc6962), [X-Frame-Options](https://tools.ietf.org/html/rfc7034), [XSS Protection](https://en.wikipedia.org/wiki/Cross-site_scripting)
+- Versions we only support: TLS v1.2 and v1.3. TLS v1.3 supports [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy).
+- [DANE](https://tools.ietf.org/id/draft-ietf-dane-ops-02.html)
+- [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+- [CSP](https://en.wikipedia.org/wiki/Content_Security_Policy)
+- [SRI](https://en.wikipedia.org/wiki/Subresource_Integrity)
+- [Expect CT](https://tools.ietf.org/html/rfc6962)
+- [X-Frame-Options](https://tools.ietf.org/html/rfc7034)
+- [XSS Protection](https://en.wikipedia.org/wiki/Cross-site_scripting)
 
-We take reasonable security measures such as password protection, two-factor authentication for internal logins, and a whitelist of people who can deploy changes to the server. Our web app does not serve any 3rd party hosted JavaScript, except a script from [Paddle](http://paddle.com), our payment processor.
-
+We take more than reasonable security measures such as using strong, unique, and long passwords, two-factor authentication, and a whitelist of people who can deploy changes to our servers.
 
 ---
 
-
 ## Database & File Storage
 
-Currently our database and file storage system are hosted on UpCloud.
-The database is using Postgresql, is encrypted at rest and backed up everyday. Backups older than 7 days are deleted. The database is only accessible from our mail and web servers.
+Our database uses Postgresql to store and encrypt user data at rest and are backed up everyday. Backups older than 7 days are deleted. The database is only accessible from our mail and servers. Nobody but us has access to our database.
 
-File storage is based on [S3](https://aws.amazon.com/s3/) which is used to store user profile pictures and temporary bounced emails. The bounced emails are deleted after 7 days.
+For file storage we use [AWS S3](https://aws.amazon.com/s3/) which is used to store user profile pictures and temporary bounced emails. All bounced emails are deleted after 7 days.
