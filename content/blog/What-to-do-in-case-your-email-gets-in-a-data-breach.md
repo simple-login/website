@@ -132,7 +132,7 @@ It's possible that your provider does not take the necessary steps for mitigatin
 
 **Select a service that provides default encryption for emails**. Keep your private emails concealed with data encryption even if the server gets breached. Unless hackers have the proper security key, they would be unable to unlock your data.
 
-We suggest you use [ProtonMail](https://proton.me/mail). And again, this step is only necessary if you didn't use aliases.
+We suggest you use [Proton Mail](https://proton.me/mail). And again, this step is only necessary if you didn't use aliases.
 
 ### **8\. Contact Credit Agencies**
 

@@ -2,12 +2,12 @@
 title: How to send anonymous emails
 date: 2021-11-12
 draft: true
-summary: Sometimes you want to send an email without revealing your identity. Using your usual Gmail, Outlook, ProtonMail mailbox isn't a good idea as the recipient can see your real email address and trace you back from there.
+summary: Sometimes you want to send an email without revealing your identity. Using your usual Gmail, Outlook, Proton Mail mailbox isn't a good idea as the recipient can see your real email address and trace you back from there.
 author: "SimpleLogin team"
 authorLink: "https://twitter.com/simple_login"
 authorAvatar: "/logo-square.svg"
 layout: "single"
-intro: Sometimes you need to send an email without revealing your identity. Using your usual Gmail, Outlook, ProtonMail mailbox isn't a good idea as the recipient can see your real email address and trace you back from there.
+intro: Sometimes you need to send an email without revealing your identity. Using your usual Gmail, Outlook, Proton Mail mailbox isn't a good idea as the recipient can see your real email address and trace you back from there.
 
 ---
 

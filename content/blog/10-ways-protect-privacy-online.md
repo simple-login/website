@@ -100,6 +100,7 @@ That's why hacking their system won't get hackers access to your data. They'd ne
 
 Other secure cloud storage solutions:
 
+*   [Proton Drive](https://proton.me/drive)
 *   [Tresorit](https://tresorit.com/)
 *   [pCloud](https://www.pcloud.com/eu)
 *   [MEGA](https://mega.nz/pro)
@@ -154,7 +155,7 @@ VPNs can be extremely cheap, and in some cases they're free.
 
 You can get a free VPN by using the [**Brave Browser on Mobile**](https://brave.com/)
 
-When on desktop, you can use the [Opera Browser](https://www.opera.com/features/free-vpn), **which includes a VPN with four locations completely free of charge**. ProtonVPN offers a free tier as well.
+When on desktop, you can use the [Opera Browser](https://www.opera.com/features/free-vpn), **which includes a VPN with four locations completely free of charge**. Proton VPN offers a free tier as well.
 
 Please do NOT use free VPNs from unverified sources. Those can be even more dangerous than not using a VPN in the first place.
 
@@ -162,6 +163,7 @@ The ones mentioned in this blog article are reliable and coming from authorities
 
 If you'll need more regions or are ready to go premium, **here are a few options worth considering:**
 
+*   [Proton VPN](https://protonvpn.com/)
 *   [Mullvad](https://mullvad.net/)
 *   [SurfShark](https://surfshark.com/) (great family plans)
 *   [ExpressVPN](https://www.expressvpn.com/) (industry-leader)
@@ -237,9 +239,9 @@ In order to use PGP, you'll need a service that supports it.
 
 Also, as the PGP is linked to your aliases, you can keep using your insecure email client (such as Gmail or Outlook) without compromising on your privacy. It's a win-win.
 
-However, **if you do want to try a more privacy-focused and secure email provider, we suggest  [**ProtonMail**](https://proton.me/mail)**.
+However, **if you do want to try a more privacy-focused and secure email provider, we suggest  [**Proton Mail**](https://proton.me/mail)**.
 
-Lots of web professionals and cybersecurity enthusiasts are using ProtonMail daily, and their popularity is growing rapidly.
+Lots of web professionals and cybersecurity enthusiasts are using Proton Mail daily, and their popularity is growing rapidly.
 
 Their pricing can be hard to justify if you're a small user, but it can be quite cheap if you're a business.
 

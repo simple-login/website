@@ -41,7 +41,7 @@
   desc: >
     Avec <em data-toggle="tooltip" data-html="true" title="PGP se propose de garantir la confidentialité et l'authentification pour la communication des données.">PGP</em>,
     encrypter vos mails avec votre clé PGP. Personne d'autre ne peut lire vos mails.
-    Compatible avec Protonmail et les programmes OpenPGP(Enigmail, GPG Tools, etc)
+    Compatible avec Proton Mail et les programmes OpenPGP(Enigmail, GPG Tools, etc)
     <br>
     SimpleLogin supporte aussi 2FA (TOTP et WebAuthn/FIDO)
 

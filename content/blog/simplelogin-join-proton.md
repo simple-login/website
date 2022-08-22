@@ -14,7 +14,7 @@ The past 6 months have been intense for SimpleLogin, with many new users, many n
 
 SimpleLogin was started in 2019. After more than a year of coding, we launched a beta version in 2020 and a public version at the beginning of 2021. SimpleLogin's mission is to protect your online identity and we follow a transparency model since the beginning: the code is 100% open source and product development decisions are discussed openly with the community. SimpleLogin has received a lot of positive feedback from the privacy community and with your help, we have built many new features while maintaining high reliability and stability. 
 
-Proton is a Swiss privacy company best known for [ProtonMail](https://proton.me/) (the world’s largest encrypted email service) and [ProtonVPN](https://protonvpn.com) (one of the world’s largest VPN services). Proton has been an inspiration for SimpleLogin. We like Proton’s mission and its transparency, open-source nature, and user-first culture. Many of you also like Proton, as quite a few SimpleLogin users are also using ProtonMail. 
+Proton is a Swiss privacy company best known for [Proton Mail](https://proton.me/) (the world’s largest encrypted email service) and [Proton VPN](https://protonvpn.com) (one of the world’s largest VPN services). Proton has been an inspiration for SimpleLogin. We like Proton’s mission and its transparency, open-source nature, and user-first culture. Many of you also like Proton, as quite a few SimpleLogin users are also using Proton Mail. 
 
 #### What this means for the community
 
@@ -28,11 +28,11 @@ SimpleLogin will continue to operate as an independent service and SimpleLogin S
 
 #### What’s improving
 
-SimpleLogin will benefit from Proton infrastructure and expertise of running an email service that's been battle-tested. With a 24/7 team, SimpleLogin infra will also have a better uptime and incidents (if any) will be solved much faster. SimpleLogin will also be able to leverage Proton’s expertise in email and application security, and benefit from ProtonMail’s anti-abuse and anti-spam technologies in order to solve increasing challenging abuse issues at scale. 
+SimpleLogin will benefit from Proton infrastructure and expertise of running an email service that's been battle-tested. With a 24/7 team, SimpleLogin infra will also have a better uptime and incidents (if any) will be solved much faster. SimpleLogin will also be able to leverage Proton’s expertise in email and application security, and benefit from Proton Mail’s anti-abuse and anti-spam technologies in order to solve increasing challenging abuse issues at scale. 
 
 By working together, we have already hardened SimpleLogin’s infrastructure, performed a security audit of SimpleLogin’s code, and improved our monitoring to ensure we can quickly act in case of attacks. With more people in the team, feature development is also faster, so look for more announcements in the coming days.
 
-Proton users can expect to have an optional integration in the next coming months between ProtonMail and SimpleLogin that will come with an improved user experience. SimpleLogin support team is now doubling in size with Proton help, so expect a faster time if you have a question. 
+Proton users can expect to have an optional integration in the next coming months between Proton Mail and SimpleLogin that will come with an improved user experience. SimpleLogin support team is now doubling in size with Proton help, so expect a faster time if you have a question. 
 
 #### Staying user first
 
