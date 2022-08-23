@@ -52,7 +52,7 @@ The less extreme version of that would be to:
 
 In order to protect me from Google, I can take the following measures:
 
-1. Deactivate my Google account, and start using [ProtonMail](https://protonmail.com)/[Tutanota](https://tutanota.com)/[MailBox](https://mailbox.org)/... as an alternative for emails
+1. Deactivate my Google account, and start using [Proton Mail](https://proton.me/mail)/[Tutanota](https://tutanota.com)/[MailBox](https://mailbox.org)/... as an alternative for emails
 2. Watch YouTube videos through an RSS feed or using [Invidio.us](https://redirect.invidious.io/)
 3. Use a privacy-friendly search engine, like [DuckDuckGo](https://duckduckgo.com), [StartPage](https://startpage.com), or [SearX](https://searx.me)
 4. Probably other measures too, depending on which Google product you are regularly using

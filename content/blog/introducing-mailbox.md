@@ -18,7 +18,7 @@ A real email address is called **mailbox** in SimpleLogin. Mailbox should be a "
 
 Mailbox mustn't be a temporary email address as it's where SimpleLogin forwards emails to and informs you of potential errors/issues.
 
-It is particularly useful if you already have several email addresses. For example, some people have a Gmail account for social networks & forums, a Protonmail account for professional emails, etc.
+It is particularly useful if you already have several email addresses. For example, some people have a Gmail account for social networks & forums, a Proton Mail account for professional emails, etc.
 
 {{< rawhtml >}}
 

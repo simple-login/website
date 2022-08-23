@@ -23,7 +23,7 @@ images:
 
 ---
 
-A frequent question I get in my work is how I approach email masking. Whether it’s via a forwarding service like SimpleLogin or the email aliases offered by providers such as ProtonMail, a lot of people fortunately seem to understand the value of such a powerful technique but aren’t really sure how to make the most of it. So in this post, with the help of SimpleLogin – one such service I recommend whole-heartedly – I’m going to share my top three considerations in the hopes that it will give others some ideas on how they can use these services to full effect.
+A frequent question I get in my work is how I approach email masking. Whether it’s via a forwarding service like SimpleLogin or the email aliases offered by providers such as Proton Mail, a lot of people fortunately seem to understand the value of such a powerful technique but aren’t really sure how to make the most of it. So in this post, with the help of SimpleLogin – one such service I recommend whole-heartedly – I’m going to share my top three considerations in the hopes that it will give others some ideas on how they can use these services to full effect.
 
 ### Custom Domains
 

@@ -8,7 +8,7 @@
 
 - question: I can use my plus sign (+) trick to create unlimited email addresses, why do I need SimpleLogin?
   answer: >
-    Email subaddressing, also known as the plus (+) trick,  popularized by Gmail and supported by some email services, allows you to create new email addresses by appending "+" to your current email address. Says your email is name@protonmail.com, you can quickly create another address like name+facebook@protonmail.com for Facebook, name+groupon@protonmail.com for Groupon, etc. <br>
+    Email subaddressing, also known as the plus (+) trick,  popularized by Gmail and supported by some email services, allows you to create new email addresses by appending "+" to your current email address. Says your email is name@proton.me, you can quickly create another address like name+facebook@proton.me for Facebook, name+groupon@proton.me for Groupon, etc. <br>
 
     Though practical, it has some downsides: <br>
 

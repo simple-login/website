@@ -85,7 +85,7 @@ Pretty Good Privacy (PGP) allows you to encrypt your emails so your email servic
 
 This method of encryption **significantly increases the security of the messages** you exchange online.
 
-PGP is provided by default by some email services such as ProtonMail or enabled with existing email services via PGP softwares.
+PGP is provided by default by some email services such as Proton Mail or enabled with existing email services via PGP softwares.
 
 SimpleLogin [adds support for PGP on March 2020](https://simplelogin.io/blog/introducing-pgp/). 33mail doesn’t support PGP at the moment.
 

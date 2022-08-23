@@ -78,7 +78,7 @@ SimpleLogin also supports multiple recipients emails (i.e. with several addresse
 
 [Pretty Good Privacy](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) (PGP) allows you to encrypt your emails so your email service can't read the email content. This adds another layer of security, especially for popular email services that don't have PGP built in like Gmail, Outlook, Yahoo. 
 
-PGP is provided by default by some email services such as ProtonMail or enabled with [PGP software](https://www.openpgp.org/software/).
+PGP is provided by default by some email services such as Proton Mail or enabled with [PGP software](https://www.openpgp.org/software/).
 
 SimpleLogin [adds support for PGP on March 2020](/blog/introducing-pgp/). Burner Mail doesn't support PGP at the moment. 
 
