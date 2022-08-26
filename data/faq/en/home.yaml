@@ -63,17 +63,6 @@
 - question: What is SimpleLogin's business model?
   answer: Our revenue comes only from subscriptions, that means the product will stay ad-free forever.
 
-- question: What happens if SimpleLogin is gone?
-  answer: >
-    This is probably the hardest question that a company has to answer :). <br><br>
-
-    As we are using SimpleLogin on a daily basis, for both our personal and professional usage, in the worst case, we will close registrations for new users so SimpleLogin can only be used by existing users. <br><br>
-
-    For information, <a href="https://www.spamgourmet.com/index.pl">Spamgourmet</a>, a similar email forwarding service has been running for more than 20 years now. Spamgourmet is actually <a href="/blog/spamgourmet/">an inspiration</a> for SimpleLogin.
-    <br><br>
-
-    If all this is still not enough, you can also run a SimpleLogin instance yourself as SimpleLogin code is open-source and we give detailed instructions on how to run it.
-
 - question: What is <b>alias directory</b> or <b>catch-all</b> feature?
   answer: >
     These 2 features both allow you to create alias <em>on-the-fly</em>, meaning you don't have to open SimpleLogin to create a new alias. <br>
