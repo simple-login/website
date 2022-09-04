@@ -1,0 +1,100 @@
+- question: Czym dokładnie jest <b>alias e-mailowy</b>?
+  answer: >
+    Alias e-mailowy jest podobny do <a href="https://en.wikipedia.org/wiki/Email_forwarding">forward</a> adresu
+    e-mail: wszystkie e-maile wysyłane na alias będą przekazywane do Twojej skrzynki odbiorczej. <br>
+    Dzięki technologii SimpleLogin można również wysyłać e-maile <b>z</b> aliasa. <br>
+    Dla Twojego kontaktu alias jest zatem Twoim adresem e-mail.
+    Więcej informacji o aliasie e-mailowym na <a href="/blog/what-is-an-email-alias/">Co to jest alias e-mailowy</a>.
+
+- question: Mogę użyć mojej sztuczki ze znakiem plus (+), aby stworzyć nieograniczoną liczbę adresów e-mail, dlaczego potrzebuję SimpleLogin?
+  answer: >
+    Podadresowanie e-mail, znany również jako plus (+) trick, spopularyzowany przez Gmail i obsługiwany przez niektóre usługi e-mail, pozwala na tworzenie nowych adresów e-mail przez dołączenie "+" do bieżącego adresu e-mail. Jeśli Twój adres e-mail to name@proton.me, możesz szybko utworzyć inny adres, np. name+facebook@proton.me dla Facebooka, name+groupon@proton.me dla Groupona itp. <br>
+
+    Choć praktyczne, ma pewne minusy: <br>
+
+    - Nie możesz odpowiedzieć z adresu +: Twój prawdziwy e-mail pojawi się jako nadawca. <br>
+
+    - Sztuczka z + jest znana i niektóre strony nie pozwalają na zapisy z adresami e-mail, które zawierają +. <br>
+
+    - Using + trick doesn't protect your privacy: one can easily remove the + part to have your real email. If your + address appears in the data breach, your real address is probably also in the hands of spammers. You could check whether your email is leaked using website like <a href="https://haveibeenpwned.com">czy zostałem pwned</a> <br>
+
+    - Usuwając część +, reklamodawcy mogą połączyć te + adresy razem, aby mieć swoją historię przeglądania. <br><br>
+
+    Aliasy SimpleLogin nie mają żadnego z tych minusów. Możesz przeczytać więcej o zaletach i wadach używania sztuczki + na stronie <a href="/blog/email-alias-vs-plus-sign/">Co sprawia, że email alias jest lepszą alternatywą dla znaku plus (+)</a>
+
+
+
+- question: Jaka jest różnica między SimpleLogin a innymi usługami przekazywania wiadomości e-mail?
+  answer: >
+    SimpleLogin to najbardziej zaawansowane rozwiązanie w zakresie aliasów e-mail i jest w trakcie aktywnego rozwoju. Oto kilka różnic między SimpleLogin a innymi usługami przekierowania/aliasów e-mail: <br><br>
+
+    <ul>
+    <li>W pełni open-source: zarówno serwer SimpleLogin jak i kod klienta (rozszerzenie przeglądarki, biblioteka JS, aplikacje mobilne) są <a href="https://github.com/simple-login/app">open-source</a>, wiec każdy może swobodnie przeglądać i poprwiać kod.
+    </li>
+
+    <li>Obejmuje wszystkie główne platformy: Rozszerzenie Chrome/Firefox/Safari dla desktopu, aplikacje iOS i Android dla mobile. </li>
+
+    <li>Jedyne rozwiązanie do przekazywania wiadomości e-mail, które może być <em>samodzielnie hostowane</em>, tj. możesz uruchomić SimpleLogin na swoim serwerze. Dzięki naszym szczegółowym instrukcjom dotyczącym samodzielnego hostingu i większości komponentów działających jako kontener Docker, każdy, kto zna ssh, jest w stanie wdrożyć SimpleLogin na swoim serwerze.</li>
+
+    <li>Możesz wysyłać/odpowiadać na e-maile z aliasu. Nie ma ograniczeń co do ilości wysyłanych/odpowiadanych wiadomości.</li>
+
+    <li>Nieograniczona przepustowość. </li>
+
+    <li>Bez reklam, bez trackerów.</li>
+
+    <li>Nie tylko alias e-mailowy: SimpleLogin to także zorientowany na prywatność i przyjazny dla programistów <em>dostawca tożsamości</em>, który: <br>
+    - szanuje prywatność użytkowników <br>
+    - jest prosty w użyciu dla programistów. <br>
+    SimpleLogin oferuje skoncentrowaną na prywatności alternatywę dla przycisków "Zaloguj się za pomocą Facebooka/Google/Apple".
+    </li>
+
+
+    <li>Mnóstwo funkcji: rozszerzenie przeglądarki, niestandardowa domena, alias catch-all, biblioteki OAuth itp. i wiele więcej w przyszłości.</li>
+
+    <li>Otwórz mapę drogową na stronie <a href="https://github.com/simple-login/app/projects/1">GitHub</a>: znasz ekscytujące funkcje, nad którymi pracujemy.</li>
+    </ul>
+
+- question: Czym SimpleLogin różni się od tymczasowych usług e-mail?
+  answer: >
+    Aliasy SimpleLogin są stałe, w przeciwieństwie do tymczasowych adresów e-mail tworzonych w serwisach takich jak <a href="https://temp-mail.org/en/">temp-mail.org</a>, <a href="https://10minutemail.net">10minutemail.net</a>, itp. <br>
+    SimpleLogin nie przechowuje również e-maili, są one przechowywane w twojej skrzynce pocztowej. <br>
+    SimpleLogin to po prostu inny produkt dla innych potrzeb.
+
+- question: Jaki jest model biznesowy firmy SimpleLogin?
+  answer: Nasze dochody pochodzą wyłącznie z subskrypcji, co oznacza, że produkt pozostanie wolny od reklam na zawsze.
+
+- question: Co to jest funkcja <b>katalog aliasów</b> lub <b>catch-all</b>?
+  answer: >
+    Obie te funkcje umożliwiają tworzenie aliasów <em>w locie</em>, co oznacza, że nie musisz otwierać SimpleLogin, aby utworzyć nowy alias. <br>
+    Włączenie <b>catch-all</b> w swojej domenie pozwala używać <em>COKOLWIEK@moja-domena.com</em> jako aliasu, gdy <b>COKOLWIEK</b> jest dowolnym słowem. Jedynym ograniczeniem jest to, że musi mieć mniej niż 128 znaków. <br>
+
+    <b>Katalog Aliasów</b> jest podobny do catch-all, możesz użyć <em>swój_katalog+COKOLWIEK@simplelogin.co</em> jako aliasu. <b>Twój_katalog</b> to nazwa utworzonego katalogu.
+
+- question: Otrzymuję wiadomość e-mail przesłaną na mój osobisty adres e-mail z aliasu. Jak mogę odpowiedzieć na tę wiadomość? Czy muszę przejść do SimpleLogin, aby zainicjować odpowiedź?
+  answer: >
+    Możesz odpowiedzieć bezpośrednio ze swojego klienta poczty e-mail. Wystarczy kliknąć przycisk "odpowiedz", odpowiedź zostanie przekierowana przez SimpleLogin, a SimpleLogin sprawi, że będzie pochodzić z twojego aliasu. Twój osobisty e-mail pozostanie niewidoczny dla pierwotnego nadawcy. <br><br>
+    Technicznie rzecz biorąc, nagłówek <b>Od</b> w wiadomości e-mail jest zastępowany specjalnym aliasem generowanym dynamicznie dla każdego nadawcy. Kiedy odpowiadasz, Twoja odpowiedź jest faktycznie wysyłana na ten specjalny alias, a SimpleLogin przekaże odpowiedź z powrotem do nadawcy, upewniając się, że wiadomość e-mail jest wysyłana z Twojego aliasu. Wszystkie informacje o Twoim osobistym adresie e-mail są usuwane podczas tego procesu.
+
+- question: Co to jest <b>odwrotny alias</b>?
+  answer: >
+    Odwrotny alias to <b>specjalny</b> alias, który umożliwia wysyłanie wiadomości e-mail <b>z Twojego aliasu</b>. <br>
+    Odwrotny alias jest tworzony dla każdego aliasu, z którego chcesz wysyłać wiadomości e-mail, i każdego kontaktu, do którego chcesz wysłać wiadomość e-mail. <br>
+    Gdy wyślesz wiadomość e-mail na odwrotny alias z osobistego adresu e-mail, wiadomość e-mail zostanie wysłana z Twojego aliasu do kontaktu.
+
+- question: Czy alias e-mail jest stały?
+  answer: Jak zwykły adres e-mail, alias e-mail jest zawsze dostępny, chyba że go usuniesz.
+
+- question: Gdzie znajdują się serwery SimpleLogin?
+  answer: Korzystamy z UpCloud, dostawcy chmury w Finlandii. Nasz serwer znajduje się obecnie w centrum danych we Francji, Niemczech i Holandii.
+
+- question: Co to jest funkcja <b>domeny niestandardowej</b>?
+  answer: >
+    Możesz wprowadzić własne domeny do SimpleLogin i tworzyć aliasy, takie jak <b>kontakt@twoja-domena.com</b>, <b>hi@twoja-domena.com</b>. <br>
+    Jak zapewne się domyślasz, możesz użyć SimpleLogin do zarządzania <em>biznesowymi adresami e-mail</em>, zamiast płacić za drogie rozwiązanie, takie jak Google Workspace. <br>
+    Wszystkie nasze biznesowe adresy e-mail (np. <b>contact@simplelogin.io</b>) są w rzeczywistości aliasami 🤫
+
+- question: Nie mogę znaleźć tutaj odpowiedzi na moje pytanie
+  answer: >
+    Listę wszystkich częstych pytań/odpowiedzi znajdziesz na <a href="/faq/">stronie FAQ</a>. <br>
+    Jeśli nie znajdziesz tam odpowiedzi, wyślij swoje pytanie na adres <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>. <br>
+    Możesz również utworzyć zgłoszenie w naszych <a href="https://github.com/simple-login/app/issues">problemach z GitHub</a>.
