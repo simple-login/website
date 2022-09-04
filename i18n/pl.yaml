@@ -1,0 +1,129 @@
+# header
+header_login: Zaloguj się
+header_signup: Zarejestruj się
+header_pricing: Cennik
+
+# hero section
+hero: Anonimowo odbieraj i wysyłaj e-maile
+
+hero_desc: >
+  With  <em data-toggle="tooltip" data-html="true"
+  title="Alias e-mailowy (lub w skrócie alias) to adres e-mail, który <b>nie przechowuje</b> e-maili: wszystkie wiadomości e-mail wysłane na alias są przekazywane na twój osobisty e-mail.">aliasy e-mailowe</em>
+  , możesz być anonimowy w sieci i chronić swoją skrzynkę pocztową
+  przed spamem i phishingiem.
+  Otwarto źródłowe. Zrobione i hostowane w Europie.
+
+hero_cta: Uzyskaj swoje aliasy za darmo >>
+
+hero_button_underline: <b>800,000+</b> utworzonych aliasów.
+
+seen_on: Jak widać na
+
+# how it work section
+how_it_work_title: Jak to działa
+
+how_it_work_desc: Chroń swoją skrzynkę odbiorczą aliasami e-mail.
+
+how_it_work_1_title: Wszędzie używaj aliasów e-mailowych
+
+how_it_work_1_subtitle: >
+  Następnym razem, gdy strona internetowa poprosi o podanie adresu e-mail, podaj alias <span class="bigger">zamiast</span> swojego prawdziwego maila.
+
+
+
+how_it_work_2_title: Odbieraj wiadomości e-mail bezpiecznie w swojej skrzynce odbiorczej.
+how_it_work_2_subtitle: >
+  E-maile wysyłane na alias są <span class="bigger">przekazywane</span> do twojej skrzynki odbiorczej bez wiedzy nadawcy. <br>
+
+
+how_it_work_3_title: Wysyłaj e-maile anonimowo
+how_it_work_3_subtitle: >
+  Po prostu naciśnij "Odpowiedz", jeśli chcesz odpowiedzieć na przekazaną wiadomość: odpowiedź jest wysyłana z twojego aliasu, a twój prawdziwy e-mail pozostaje ukryty. <br>
+  Możesz też łatwo <span class="bigger">wysyłać</span> maile z twojego aliasu.
+
+# available everywhere section
+everywhere_title: Twórz i zarządzaj swoimi aliasami wszędzie
+
+everywhere_subtitle: Szybko utwórz alias w podróży. Zapisz się do newslettera, utwórz nowe konto online jednym kliknięciem.
+
+# Alias is the new email address Section
+alias_new_email_title: Alias to nowy adres e-mail
+
+alias_new_email_a_title: A. Wszędzie zastępuj e-mail aliasem
+alias_new_email_a_text_1: Zapisuj się na listy mailingowe, twórz nowe konta internetowe z aliasem e-mail.
+alias_new_email_a_text_2: Później, po prostu <span class="highlight">zablokuj</span> alias jeśli jest zbyt spamerski.
+
+alias_new_email_b_title: B. Wysyłaj wiadomości e-mail z aliasu
+alias_new_email_b_text_1: >
+  Wystarczy nacisnąć "Odpowiedz", gdy trzeba odpowiedzieć na przekazaną wiadomość e-mail:
+  odpowiedź <span class="highlight">nadejdzie z</span> aliasu, a Twoja osobista skrzynka pocztowa pozostanie ukryta.
+alias_new_email_b_text_2: >
+  Możesz również
+  <em data-toggle="tooltip" data-html="true"
+    title="<b>Normal</b> alias e-mailowy jak <b>+ trick </b> zwykle działa w jeden sposób: można odbierać tylko e-maile. <br>W SimpleLogin możesz łatwo odpowiadać/wysyłać e-maile ze swojego aliasu.">send</em>
+  wiadomości e-mail na dowolny adres e-mail z Twojego aliasu.
+
+alias_new_email_c_title: C. Prowadź swój biznes z aliasem
+alias_new_email_c_text_1: Użyj aliasu jako swojego <span class="highlight">biznesowego e-maila</span>.
+alias_new_email_c_text_2: >
+  Zaoszczędź 6$/miesiąc
+
+  <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true"
+    title='GSuite zaczyna się od 6$/miesiąc za użytkownika.'></i>
+  dla każdego maila biznesowego utworzonego za pomocą SimpleLogin.
+alias_new_email_c_text_3: Ponad 50 firm zaufało SimpleLogin w zakresie obsługi ich poczty elektronicznej.
+
+# Testimonials Section
+testimonial_title: SimpleLogin jest uwielbiany przez użytkowników
+
+# Features section
+feature_title: Prywatność, bezpieczeństwo i funkcje, które pokochasz
+feature_subtitle: SimpleLogin to najbardziej zaawansowane rozwiązanie aliasów e-mail.
+
+# FAQ section
+faq_title: Najczęściej zadawane pytania
+faq_subtitle: Pomoc
+
+ready_get_started: Gotowy żeby zacząć?
+ready_get_started_cta: Chroń swoją skrzynkę odbiorczą już dziś >>
+
+cta_2_title: Dołącz do ponad 50 000 osób, które chronią swoją skrzynkę pocztową i prywatność.
+cta_2_button: Chroń swoją skrzynkę odbiorczą już dziś >>
+
+partner_title: Nasi partnerzy
+
+# footer
+footer_1: SimpleLogin jest otwarto źródłowym rozwiązaniem <b>aliasów e-mailowych</b>, aby chronić Twój adres e-mail.
+
+footer_3: SimpleLogin jest produktem firmy SimpleLogin SAS, zarejestrowanej we Francji pod numerem SIREN 884302134.
+
+footer_pricing: Cennik
+footer_about: O nas
+footer_contact: Skontaktuj się z nami
+footer_imprint: Nadruk
+footer_join_us: Dołącz do nas
+
+# pricing
+pricing_title: Cennik
+pricing_subtitle: >
+  SimpleLogin jest otwarto-źródłowe, może być samodzielnie hostowany i jest w 100% finansowany przez społeczność.
+  Nie używamy Twoich danych, nie śledzimy Cię ani nie pokazujemy Ci reklam. SimpleLogin zależy od Twojego wsparcia,
+  aby utrzymać działanie usługi i rozwijać nowe funkcje.
+
+pricing_free_title: Bezpłatne
+pricing_premium_title: Premium
+pricing_enterprise_title: Przedsiębiorstwo
+pricing_enterprise_subtitle: Serwer dedykowany dla Twojego przedsiębiorstwa.
+
+pricing_free_cta: Zarejestruj się
+pricing_premium_cta: Zacznij chronić swoją pocztę elektroniczną
+pricing_enterprise_cta: Skontaktuj się z nami
+
+pricing_premium_yearly_price: 30$ rozliczane rocznie
+pricing_premium_monthly_price: lub $4 rozliczane miesięcznie
+
+# <<< FAQ page >>>
+faq_tech_question: Pytania techniczne
+faq_general_question: Pytania ogólne
+faq_developer_question: Pytania partnera/dewelopera
+faq_pricing_question: Pytania dotyczące planu/cen
