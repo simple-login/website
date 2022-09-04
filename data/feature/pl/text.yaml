@@ -1,0 +1,62 @@
+- title: Otwarto-źródłowe w 100%
+  desc: >
+    Zbudowany na bazie technologii open-source,
+    <em data-toggle="tooltip" data-html="true" title="W tym serwer, rozszerzenia Chrome/Firefox/Safari, aplikacje Android/iOS.">all</em>
+    Komponenty SimpleLogin są również open-source. <br>
+    Nie powierzyłbyś czarnej skrzynce obsługi swoich e-maili, prawda?
+
+- title: Wysyłaj e-maile z aliasu
+  desc: >
+    Alias może nie tylko odbierać e-maile, ale także <span class="highlight">wysyłać</span> e-maile. Alias to pełnoprawny adres e-mail.
+
+- title: Wszędzie
+  desc: >
+    Zarządzaj swoimi aliasami na stronie SimpleLogin lub na naszej
+            <em data-toggle="tooltip" data-html="true" title="I inne przeglądarki oparte na chromie jak Edge, Opera, Brave itp.">Chrome</em>,
+            Rozszerzenia do Firefoxa, Safari. <br>
+
+            Albo na telefonie dzięki aplikacjom na Androida (Sklep Play, F-Droid) i iOS.
+
+- title: Własna domena
+  desc: >
+    Wprowadź własną domenę i nie musisz kupować kolejnej
+    <em data-toggle="tooltip" data-html="true" title="Jak GSuite, Outlook lub te sprzedawane przez rejestratorów domen.">email hosting solution</em>.
+
+    <br>
+
+    A czy wiesz, że możesz mieć <em data-toggle="tooltip" data-html="true"
+      title="Włączając catch-all, możesz tworzyć aliasy w locie: <b>cokolwiek@twoja-domena.com</b> zostanie automatycznie utworzony przy pierwszym otrzymaniu wiadomości e-mail.">catch-all</em>
+    alias z twoją domeną?
+
+- title: Hojne ceny
+  desc: >
+    Wszystkie plany SimpleLogin mają <span class="highlight">nieograniczone</span> przekazywania/odsyłania i <span class="highlight">nieograniczona</span> przepustowość. <br>
+            Odbieraj i wysyłaj wiadomości e-mail tak często, jak chcesz.
+
+- title: Aliasy w locie z subdomeną
+  desc: >
+    Stwórz swój <em data-toggle="tooltip" data-html="true"
+      title="Subdomena to świetny sposób na organizowanie i tworzenie aliasów w locie. Po prostu użyj 
+      <b>COKOLWIEK@twoja-subdomena.simplelogin.com</b> jeśli szybko potrzebujesz aliasu, alias zostanie utworzony po otrzymaniu pierwszego e-maila.">subdomain</em> i używaj go do szybkiego tworzenia aliasów bez otwierania aplikacji internetowych lub mobilnych SimpleLogin.
+    <a href="/blog/subdomains/">Dowiedz się więcej</a>.
+
+- title: Wiele skrzynek pocztowych
+  desc: >
+    Jeśli masz już kilka skrzynek pocztowych, ta funkcja jest dla Ciebie: możesz dodać swoje skrzynki do SimpleLogin i wybrać, która z nich będzie używana podczas tworzenia aliasu. <a href="/blog/introducing-mailbox/">Dowiedz się więcej</a>.
+
+- title: Prywatność i bezpieczeństwo
+  desc: >
+    Z <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP) to program szyfrujący, który może zaszyfrować Twoje e-maile i pozwolić Ci na prywatną komunikację online.">PGP</em>, e-maile są szyfrowane Twoim własnym kluczem PGP zanim zostaną przekazane do Twojej skrzynki pocztowej. Tylko Ty możesz odszyfrować te wiadomości.
+    Działa doskonale z Proton Mail lub dowolnymi narzędziami PGP (Thunderbird, GPGTools, itp.).
+    <br><br>
+
+    Aby lepiej zabezpieczyć swoje konto SimpleLogin, możesz włączyć funkcję 2FA za pomocą
+    <em data-toggle="tooltip" data-html="true" title="TOTP (Time-based One-time Passwords) jest zwykle używany z aplikacjami takimi jak Google Authenticator czy Authy.">TOTP</em>
+    i/lub
+    <em data-toggle="tooltip" data-html="true" title="WebAuthn jest zwykle używany z fizycznymi kluczami bezpieczeństwa, takimi jak Yubikey, Google Titan itp. Twój telefon i laptop mogą być również używane jako klucz bezpieczeństwa.">WebAuthn (FIDO)</em>.
+
+- title: Więcej niż (tylko) alias
+  desc: >
+    Ambicją SimpleLogin jest ochrona Twojej prywatności online, a poczta elektroniczna to dopiero początek. <br>
+    Bądź na bieżąco z nadchodzącymi funkcjami, takimi jak pojedyncze logowanie, ochrona numeru telefonu i ochrona karty kredytowej.
+
