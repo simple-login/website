@@ -97,9 +97,9 @@ SimpleLogin currently runs two web app instances.
 
 All of the data in transit btween SimpleLogin servers and end users are encrypted via [SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security).
 
-We again, also implement the following additional measures in conjunction with SSL/TLS encryption:
+We also implement the following additional scurity measures in conjunction with SSL/TLS encryption:
 
-- Versions we only support: TLS v1.2 and v1.3. TLS v1.3 supports [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy).
+- We only support TLS versions v1.2 and v1.3. (TLS v1.3 also supports [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy)).
 - [DANE](https://tools.ietf.org/id/draft-ietf-dane-ops-02.html)
 - [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
 - [CSP](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -108,12 +108,12 @@ We again, also implement the following additional measures in conjunction with S
 - [X-Frame-Options](https://tools.ietf.org/html/rfc7034)
 - [XSS Protection](https://en.wikipedia.org/wiki/Cross-site_scripting)
 
-We take more than reasonable security measures such as using strong, unique, and long passwords, two-factor authentication, and a whitelist of people who can deploy changes to our servers.
+We take more than reasonable security measures (such as using strong, unique, and long passwords, two-factor authentication, a whitelist of people who can deploy changes to our infrastructure, etc) to protect our employees from getting hack and to prevent their permissions from getting abused.
 
 ---
 
 ## Database & File Storage
 
-Our database uses Postgresql to store and encrypt user data at rest and are backed up everyday. Backups older than 7 days are deleted. The database is only accessible from our mail and servers. Nobody but us has access to our database.
+Our database uses Postgresql to store and encrypt user data at rest, which is than back up everyday. Backups older than 7 days are deleted. The database is only accessible to our staff and not a third party.
 
-For file storage we use [AWS S3](https://aws.amazon.com/s3/) which is used to store user profile pictures and temporary bounced emails. All bounced emails are deleted after 7 days.
+For storaging files and other sorts of data, we use a [Amazon AWS S3 Bucket](https://aws.amazon.com/s3/) which is used to store user profile pictures and temporary bounced emails. All bounced emails are deleted after 7 days.
