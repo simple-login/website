@@ -58,13 +58,13 @@ Our mail servers support the following security standards.
 
 #### Sender Policy Framework (SPF)
 
-[SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework)(Sender Policy Framework) is a protocol that allows domain name owners to control which internet hosts are allowed to send email on their behalf.
+[SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) is a protocol that allows domain name owners to control which internet hosts are allowed to send email on their behalf.
 
 By default, only our mail servers can send emails on behalf of SimpleLogin. We use the  **strictest** SPF policy which is `-all`. Without SPF, anyone can send emails that seem to come from SimpleLogin.
 
 #### DomainKeys Identified Mail (DKIM)
 
-[DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) (Domain Keys Identified Mail) is an email authentication technique that allows the receiver to check that an email was indeed sent and authorized by the owner of that domain. This is done by giving the email a digital signature.
+[DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) is an email authentication technique that allows the receiver to check that an email was indeed sent and authorized by the owner of that domain. This is done by giving the email a digital signature.
 
 All emails sent from SimpleLogin servers, including emails forwarded to your mailbox and emails sent from your mailbox are DKIM-signed.
 
