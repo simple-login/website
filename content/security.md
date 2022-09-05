@@ -60,19 +60,17 @@ Our mail servers support the following security standards.
 
 [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) is a protocol that allows domain name owners to control which internet hosts are allowed to send email on their behalf.
 
-By default, only our mail servers can send emails on behalf of SimpleLogin. We use the  **strictest** SPF policy which is `-all`. Without SPF, anyone can send emails that seem to come from SimpleLogin.
+By default, only our mail servers can send emails on behalf of SimpleLogin domains, becuase of the fact we use the strictest SPF policy out there which is "`v=spf1 include:simplelogin.co -all`". Without an SPF policy, anyone can send emails as if they come from SimpleLogin it self.
 
 #### DomainKeys Identified Mail (DKIM)
 
-[DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) is an email authentication technique that allows the receiver to check that an email was indeed sent and authorized by the owner of that domain. This is done by giving the email a digital signature.
+[DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) is an email authentication technique that allows the receiver of an email to check that said email they recived was indeed sent and authorized by the owner of that domain. This is done by giving the email a digital signature.
 
-All emails sent from SimpleLogin servers, including emails forwarded to your mailbox and emails sent from your mailbox are DKIM-signed.
+All emails sent from SimpleLogin servers and domains (including emails forwarded to your mailbox) are signed with SimpleLogin's DKIM signature.
 
 #### Domain based Message Authentication, Reporting, and Conformance (DMARC)
 
-[DMARC](https://en.wikipedia.org/wiki/DMARC) is an email-validation system. It is designed to give email domain owners the ability to protect their domain from unauthorized use, commonly known as email spoofing.
-
-Built around SPF and DKIM, a DMARC policy tells the receiving mail server what to do if neither of those authentication methods passes.
+[DMARC](https://en.wikipedia.org/wiki/DMARC) is an email-validation system. It is designed to give domain owners the ability to protect their domain from unauthorized use, commonly known as email spoofing, by alrting and setting a policy for other mail servers on what to do with spoofed emails.
 
 SimpleLogin uses a strict DMARC policy that rejects emails that fail the SPF or DKIM check.
 
