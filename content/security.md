@@ -97,7 +97,7 @@ SimpleLogin currently runs two web app instances.
 
 All of the data in transit btween SimpleLogin servers and end users are encrypted via [SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security).
 
-We also implement the following additional scurity measures in conjunction with SSL/TLS encryption:
+We also implement the following additional security measures in conjunction with SSL/TLS encryption:
 
 - We only support TLS versions v1.2 and v1.3. (TLS v1.3 also supports [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy)).
 - [DANE](https://tools.ietf.org/id/draft-ietf-dane-ops-02.html)
