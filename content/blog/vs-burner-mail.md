@@ -2,7 +2,7 @@
 title: "What makes SimpleLogin a great Burner Mail alternative?"
 date: 2021-07-12
 author: "Giorgio"
-authorLink: "https://twitter.com/simple_login"
+authorLink: "https://twitter.com/simplelogin"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 draft: false

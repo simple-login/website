@@ -3,7 +3,7 @@ title: "What makes SimpleLogin aliases a better alternative to Gmail aliases"
 date: 2021-10-11
 summary: "Gmail aliases allow you to create a new email address by appending the plus sign(**+**) or dot sign (**.**) to your current Gmail address. A closer look at its pros and cons."
 author: "SimpleLogin team"
-authorLink: "https://twitter.com/simple_login"
+authorLink: "https://twitter.com/simplelogin"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 intro: "Gmail aliases allow you to create a new email address by appending the plus sign(**+**) or dot sign (**.**) to your current Gmail address. 

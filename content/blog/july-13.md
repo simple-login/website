@@ -3,7 +3,7 @@ title: "Outage on July 13, 2021 and what we've learned"
 date: 2021-09-28
 summary: "On July 13, some SimpleLogin users have experienced several hours of email delay. No emails were lost during this time. This post goes into the details of what happened and what measures we take to prevent this incident from happening again."
 author: "SimpleLogin team"
-authorLink: "https://twitter.com/simple_login"
+authorLink: "https://twitter.com/simplelogin"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 intro: >

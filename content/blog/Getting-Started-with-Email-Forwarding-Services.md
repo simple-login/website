@@ -2,7 +2,7 @@
 title: "Getting Started with Email Forwarding Services"
 date: 2021-08-21
 author: "Nate"
-authorLink: "https://twitter.com/simple_login"
+authorLink: "https://twitter.com/simplelogin"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 url: "/blog/email-forwarding-declutter-inbox"
