@@ -4,7 +4,7 @@ date: 2022-02-26
 summary: Google announced recently that it will end support for the G Suite legacy free edition on July 1, 2022 and that customers will have to subscribe to a paid Google Workspace plan to continue using Google services. Email aliases can be a cost-effective and arguably easier to use alternative.
 
 author: SimpleLogin team
-authorLink: "https://twitter.com/simple_login"
+authorLink: "https://twitter.com/simplelogin"
 authorAvatar: "/logo-square.svg"
 layout: "single"
 

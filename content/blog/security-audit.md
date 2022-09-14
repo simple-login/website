@@ -4,7 +4,7 @@ date: 2022-06-15
 summary: "SimpleLogin has completed a third party security audit with leading security firm Securitum which found no critical vulnerability."
 
 author: Son
-authorLink: "https://twitter.com/simple_login"
+authorLink: "https://twitter.com/simplelogin"
 authorAvatar: "https://simplelogin.io/about/me.jpeg"
 layout: "single"
 
@@ -26,4 +26,4 @@ The final report was overall positive and the only important issue was already a
 
 SimpleLogin isn’t what it is today without the open-source technologies it relies on. The principles of openness are therefore core values to our team. We believe being transparent and open to discussion is the way to create the best product for users.
 
-For any questions or comments about the security audit for SimpleLogin apps, please share them with us on [GitHub](https://github.com/simple-login/app), [Twitter](https://twitter.com/simple_login) and [Reddit](https://www.reddit.com/r/Simplelogin/).
+For any questions or comments about the security audit for SimpleLogin apps, please share them with us on [GitHub](https://github.com/simple-login/app), [Twitter](https://twitter.com/simplelogin) and [Reddit](https://www.reddit.com/r/Simplelogin/).

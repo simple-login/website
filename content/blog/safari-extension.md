@@ -3,7 +3,7 @@ title: "Introducing SimpleLogin Safari extension"
 date: 2020-02-05T10:13:42+01:00
 summary: 'After months of working, the first version of our Safari extension is finally available!'
 author: "SimpleLogin team"
-authorLink: "https://twitter.com/simple_login"
+authorLink: "https://twitter.com/simplelogin"
 authorAvatar: "/logo-square.svg"
 ---
 

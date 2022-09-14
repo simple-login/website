@@ -3,7 +3,7 @@ title: "What happened on August 11 and what we've learned"
 date: 2020-08-19T15:13:42+01:00
 summary: "On August 11, 2020, some SimpleLogin users have experienced up to 8 hours of email delay. We deeply apologize for this incident and will make sure this issue will never happen again. No emails were lost during this time"
 author: "SimpleLogin team"
-authorLink: "https://twitter.com/simple_login"
+authorLink: "https://twitter.com/simplelogin"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 intro: "On August 11, 2020, some SimpleLogin users have experienced up to 8 hours of email delay. We deeply apologize for this incident and have made some measures to avoid this issue from happening again. No emails were lost during this time.

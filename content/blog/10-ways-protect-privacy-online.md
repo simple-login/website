@@ -2,7 +2,7 @@
 title: "10 Free Ways To Protect Your Privacy Online"
 date: 2021-07-19
 author: "Giorgio"
-authorLink: "https://twitter.com/simple_login"
+authorLink: "https://twitter.com/simplelogin"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 url: "/blog/10-free-ways-to-protect-your-privacy-online"

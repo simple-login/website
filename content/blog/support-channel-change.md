@@ -4,7 +4,7 @@ date: 2022-02-22
 summary: Currently SimpleLogin support happens via emails. Anyone can reach out to our support address with any question/request and usually receives the response within 24h. This flow doesn't scale well when SimpleLogin grows.
 
 author: Son
-authorLink: "https://twitter.com/simple_login"
+authorLink: "https://twitter.com/simplelogin"
 authorAvatar: "https://simplelogin.io/about/me.jpeg"
 layout: "single"
 

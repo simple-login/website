@@ -2,7 +2,7 @@
 title: "A great alternative to 33mail"
 date: 2021-08-08
 author: "Giorgio"
-authorLink: "https://twitter.com/simple_login"
+authorLink: "https://twitter.com/simplelogin"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 draft: false

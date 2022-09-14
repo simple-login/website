@@ -4,7 +4,7 @@ date: 2022-04-08
 summary: "The past 6 months have been intense for SimpleLogin, with many new users, many new features, and many new technical challenges. I'm now happy to share this news with you: SimpleLogin is now part of the Proton family."
 
 author: Son
-authorLink: "https://twitter.com/simple_login"
+authorLink: "https://twitter.com/simplelogin"
 authorAvatar: "https://simplelogin.io/about/me.jpeg"
 layout: "single"
 
@@ -40,4 +40,4 @@ This move does not in any way diminish our vision of staying user first. Since t
 
 As Geneva is just 3 hours by train from Paris, we've been able to visit the Proton office, meet the Proton leadership team and we can feel a similar culture and work ethic. Due to our shared vision, there have been a number of informal contacts over the years and Proton has stood out to be the best fit. We are convinced and want to be part of the Proton mission which is to build a better Internet that respects privacy. It’s exciting to know what we can do with Proton experiences and resources. 
 
-Transparency is a big part of SimpleLogin and we will continue asking your feedback on our social media and our forum. As a start, what would you like to see next from SimpleLogin + Proton? Just ping us on [Twitter](https://twitter.com/simple_login), [Reddit](https://www.reddit.com/r/Simplelogin/), [Github](https://github.com/simple-login/app/discussions) with any ideas you have!
+Transparency is a big part of SimpleLogin and we will continue asking your feedback on our social media and our forum. As a start, what would you like to see next from SimpleLogin + Proton? Just ping us on [Twitter](https://twitter.com/simplelogin), [Reddit](https://www.reddit.com/r/Simplelogin/), [Github](https://github.com/simple-login/app/discussions) with any ideas you have!
