@@ -3,7 +3,7 @@ title: "What makes email alias a better alternative to email plus sign (+) "
 date: 2020-12-19T00:00:00+01:00
 summary: "Email subaddressing, also known as Gmail plus sign (+) trick allows you to create a new email address by appending the plus sign(**+**) to your current email address. A closer look at its pros and cons."
 author: "SimpleLogin team"
-authorLink: "https://twitter.com/simplelogin"
+authorLink: "https://twitter.com/SimpleLogin"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 intro: "[Email subaddressing](https://en.wikipedia.org/wiki/Email_address#Subaddressing), also known as plus sign (+) trick, is popularized by Gmail and now supported by most email providers. It allows creating a new email address by simply appending the plus sign(**+**) to your current email address.

@@ -3,7 +3,7 @@ title: Introducing subdomains
 date: 2021-11-13
 summary: If you don't have a custom domain, this new feature allows you to own a subdomain on SimpleLogin and create aliases with it. Just make up an alias like anything@your-sub.aleeas.com when you need to provide an email address. The alias will be created the first time it receives an email.
 author: SimpleLogin team
-authorLink: "https://twitter.com/simplelogin"
+authorLink: "https://twitter.com/SimpleLogin"
 authorAvatar: "/logo-square.svg"
 layout: "single"
 

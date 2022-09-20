@@ -3,7 +3,7 @@ title: "SimpleLogin receives the best open source award from CNLL"
 date: 2021-11-11
 summary: We are happy to receive the best open source award (concours des Acteurs du Libre 2021) from CNLL.
 author: SimpleLogin team
-authorLink: "https://twitter.com/simplelogin"
+authorLink: "https://twitter.com/SimpleLogin"
 authorAvatar: "/logo-square.svg"
 layout: "single"
 ---

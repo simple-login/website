@@ -2,7 +2,7 @@
 title: "What is an email alias and how it protects your privacy"
 date: 2021-07-21
 author: "Giorgio"
-authorLink: "https://twitter.com/simplelogin"
+authorLink: "https://twitter.com/SimpleLogin"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 url: "/blog/what-is-an-email-alias"

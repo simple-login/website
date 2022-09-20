@@ -3,7 +3,7 @@ title: "Introducing Mailboxes"
 date: 2020-02-27T10:13:42+01:00
 summary: "The feature the most requested is finally ready: you can now add several *real* email addresses into SimpleLogin and choose which one to use when creating aliases..."
 author: "SimpleLogin team"
-authorLink: "https://twitter.com/simplelogin"
+authorLink: "https://twitter.com/SimpleLogin"
 authorAvatar: "/logo-square.svg"
 
 layout: "single-toc"

@@ -3,7 +3,7 @@ title: "Revert reverse-alias generation algorithm"
 date: 2020-12-06T00:00:00+01:00
 summary: "Revert the change on reverse-alias generation"
 author: "SimpleLogin team"
-authorLink: "https://twitter.com/simplelogin"
+authorLink: "https://twitter.com/SimpleLogin"
 authorAvatar: "/logo-square.svg"
 
 layout: "single-toc"
