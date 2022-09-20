@@ -120,51 +120,7 @@
         </div>
         <!-- End Premium Plan -->
 
-        <!-- Pricing -->
-        <div class="card">
-          <div class="card-header text-center p-5" style="height: 200px">
 
-            <h3 class="mb-1 font-weight-normal">
-              {{ i18n "pricing_enterprise_title" | safeHTML }}
-            </h3>
-            <div class="mt-3" style="font-size: 14px">
-              {{ i18n "pricing_enterprise_subtitle" | safeHTML }}
-            </div>
-
-          </div>
-
-          <div class="card-body p-7">
-            <div class="row">
-              <ul class="list-unstyled mb-0">
-                {{ with index site.Data.pricing site.Language.Lang }}
-                  {{ $texts := .enterprise }}
-
-                  {{ range $texts }}
-                    <li class="media mb-2">
-                      <small class=" mr-3">
-                        <small class="fas fa-check"></small>
-                      </small>
-                      <div class="media-body font-size-1">
-                        {{ .title | safeHTML}}
-                        <div style="font-size: 12px" class="text-secondary">
-                          {{ .subtitle | safeHTML}}
-                        </div>
-                      </div>
-                    </li>
-                  {{ end }}
-                {{ end }}
-
-              </ul>
-            </div>
-          </div>
-
-          <div class="card-footer border-0 pt-0 px-7 pb-7">
-            <a class="btn btn-block btn-soft-primary transition-3d-hover" href="mailto:b2b@simplelogin.io">
-              {{ i18n "pricing_enterprise_cta" | safeHTML }}
-            </a>
-          </div>
-        </div>
-        <!-- End Pricing -->
       </div>
 
 

@@ -112,12 +112,9 @@ pricing_subtitle: >
 
 pricing_free_title: Free
 pricing_premium_title: Premium
-pricing_enterprise_title: Enterprise
-pricing_enterprise_subtitle: Dedicated server for your enterprise.
 
 pricing_free_cta: Sign Up
 pricing_premium_cta: Start Protecting your Email
-pricing_enterprise_cta: Contact us
 
 pricing_premium_yearly_price: $30 billed yearly
 pricing_premium_monthly_price: or $4 billed monthly
