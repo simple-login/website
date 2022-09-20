@@ -2,7 +2,7 @@
 title: "Free Email Alias: get yours today in five minutes"
 date: 2021-07-26
 author: "Giorgio"
-authorLink: "https://twitter.com/simplelogin"
+authorLink: "https://twitter.com/SimpleLogin"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 url: "/blog/free-email-alias"

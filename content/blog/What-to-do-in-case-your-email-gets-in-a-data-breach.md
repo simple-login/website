@@ -2,7 +2,7 @@
 title: "What to do in case your email gets in a data breach"
 date: 2021-08-21
 author: "Giorgio"
-authorLink: "https://twitter.com/simplelogin"
+authorLink: "https://twitter.com/SimpleLogin"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 url: "/blog/email-data-breach-what-to-do"

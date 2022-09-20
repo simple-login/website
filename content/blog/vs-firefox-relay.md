@@ -2,7 +2,7 @@
 title: "What makes SimpleLogin a great Firefox Relay alternative?"
 date: 2021-03-12T00:00:00+01:00
 author: "Max & Son"
-authorLink: "https://twitter.com/simplelogin"
+authorLink: "https://twitter.com/SimpleLogin"
 authorAvatar: "/logo-square.svg"
 layout: "single-toc"
 draft: false

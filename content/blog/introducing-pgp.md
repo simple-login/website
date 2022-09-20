@@ -3,7 +3,7 @@ title: "Introducing PGP"
 date: 2020-03-19T15:13:42+01:00
 summary: "Pretty Good Privacy (PGP) is a program to encrypt your emails, texts, files, etc. As emails on Gmail, Yahoo, Outlook and other popular email services are stored in **cleartext**, PGP can be a solution to keep your emails from being read & analyzed by these big techs."
 author: "SimpleLogin team"
-authorLink: "https://twitter.com/simplelogin"
+authorLink: "https://twitter.com/SimpleLogin"
 authorAvatar: "/logo-square.svg"
 
 layout: "single-toc"
