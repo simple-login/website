@@ -30,7 +30,7 @@ how_it_work_2_title: Recevez les mails dans votre boîte mail.
 
 how_it_work_2_subtitle: >
   Les mails envoyés à un alias sont <span class="bigger">redirigés</span> à votre boîte mail.
-  
+
 
 how_it_work_3_title: Envoyer des emails de manière anonyme
 how_it_work_3_subtitle: >
@@ -100,12 +100,9 @@ pricing_subtitle: >
 
 pricing_free_title: Gratuit
 pricing_premium_title: Premium
-pricing_enterprise_title: Entreprise
-pricing_enterprise_subtitle: Server dédidé pour votre entreprise.
 
 pricing_free_cta: S'inscrire
 pricing_premium_cta: Protéger votre mail maintenant
-pricing_enterprise_cta: Nous contacter
 
 pricing_premium_yearly_price: $30/an
 pricing_premium_monthly_price: or $4/mois
