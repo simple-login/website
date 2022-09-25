@@ -138,11 +138,14 @@ img {
 
 .seen-on {
     /*filter: grayscale(70%);*/
+    max-height: 48px;
+    width: auto;
+    height: auto;
 
 }
 
 .submenu-item {
-    padding: 6px 6px 0px 6px;   
+    padding: 6px 6px 0px 6px;
     border-radius: 6px;
 }
 
