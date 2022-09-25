@@ -16,7 +16,7 @@ If you want to report a bug in SimpleLogin applications, you can submit an issue
 - [iOS](https://github.com/simple-login/Simple-Login-iOS/issues) page for issues related to the iOS app. 
 - [Android](https://github.com/simple-login/Simple-Login-Android/issues) page for issues related to the Android app. 
 
-New feature can be requested on our [GitHub forum](https://github.com/simple-login/app/discussions/categories/feature-requests). Please make sure the same feature hasn't been requested before and feel free to upvote the feature you want to support.
+New features can be requested on our [GitHub forum](https://github.com/simple-login/app/discussions/categories/feature-requests). Please make sure the same feature hasn't been requested before and feel free to upvote the feature you want to support.
 
 For any security issues, please contact us at security@proton.ch
 
