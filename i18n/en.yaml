@@ -8,8 +8,8 @@ hero: Receive and send emails anonymously
 
 hero_desc: >
   With  <em data-toggle="tooltip" data-html="true"
-  title="An email alias (or alias for short) is an email address that <b>doesn't store</b> emails: all emails sent to an alias are forwarded to your personal email.">email aliases</em>
-  , you can be anonymous online and protect your inbox
+  title="An email alias (or alias for short) is an email address that <b>doesn't store</b> emails: all emails sent to an alias are forwarded to your personal email.">email aliases</em>, 
+  you can be anonymous online and protect your inbox
   against spams and phishing.
   Open-source. Made and hosted in Europe.
 
