@@ -1,8 +1,8 @@
 ---
-title: "SimpleLogin | Terms and Condition"
-pageTitle: "Terms and Condition"
+title: "SimpleLogin | Terms and Conditions"
+pageTitle: "Terms and Conditions"
 url: "/terms"
-description: "SimpleLogin Terms and Condition. By using our Services, you are agreeing to these terms. Please read them carefully."
+description: "SimpleLogin Terms and Conditions. By using our Services, you are agreeing to these terms. Please read them carefully."
 layout: "single_markdown"
 ---
 
