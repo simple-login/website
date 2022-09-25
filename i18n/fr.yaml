@@ -82,7 +82,7 @@ cta_2_button: Protéger votre boîte mail aujourd'hui >>
 partner_title: Nos partenaires
 
 # footer
-footer_1: SimpleLogin est une solution <a href="https://github.com/simple-login">open source</a> pour protéger votre vie privée.
+footer_1: SimpleLogin est une solution <b><a href="https://github.com/simple-login">open source</a></b> pour protéger votre vie privée.
 
 footer_3: SimpleLogin est le produit de SimpleLogin SAS, enregistré en France dont le SIREN est 884302134. SimpleLogin SAS fait partie de <a href="https://proton.me">Proton AG</a>.
 
