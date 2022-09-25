@@ -11,7 +11,7 @@ hero_desc: >
   title="An email alias (or alias for short) is an email address that <b>doesn't store</b> emails: all emails sent to an alias are forwarded to your personal email.">email aliases</em>, 
   you can be anonymous online and protect your inbox
   against spams and phishing.
-  Open-source. Made and hosted in Europe.
+  <a href="https://github.com/simple-login">Open-source</a>. Made and hosted in Europe.
 
 hero_cta: Get your aliases for free >>
 
@@ -93,7 +93,7 @@ cta_2_button: Protect your inbox today >>
 partner_title: Our partners
 
 # footer
-footer_1: SimpleLogin is an open-source <b>email alias</b> solution to protect your email address.
+footer_1: SimpleLogin is an <a href="https://github.com/simple-login">open-source</a> <b>email alias</b> solution to protect your email address.
 
 footer_3: SimpleLogin is the product of SimpleLogin SAS, registered in France under the SIREN number 884302134. SimpleLogin SAS is part of <a href="https://proton.me">Proton AG</a>.
 
@@ -106,7 +106,7 @@ footer_join_us: Join Us
 # pricing
 pricing_title: Pricing
 pricing_subtitle: >
-  SimpleLogin is open-source, can be self-hosted and is 100% funded by the community.
+  SimpleLogin is <a href="https://github.com/simple-login">open-source</a>, can be self-hosted and is 100% funded by the community.
   We do not use your data, track you or show you ads. SimpleLogin depends on your support
   to keep the service running and develop new features.
 
