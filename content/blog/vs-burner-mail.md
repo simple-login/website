@@ -103,7 +103,7 @@ Some alias email services choose to use ads to push users to upgrade: this is un
 
 For the same reason, you never see a message to push to upgrade in any email from SimpleLogin.
 
-All data collected by SimpleLogin is documented in the [terms and condition](/terms/), [privacy policy](/privacy/). 
+All data collected by SimpleLogin is documented in the [terms and conditions](/terms/), [privacy policy](/privacy/). 
 
 #### Conclusions
 
