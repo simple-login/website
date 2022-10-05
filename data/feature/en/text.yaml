@@ -1,8 +1,8 @@
-- title: 100% open-source
+- title: 100% open source
   desc: >
-    Built upon open-source technology,
+    Built upon open source technology,
     <em data-toggle="tooltip" data-html="true" title="Including the server, Chrome/Firefox/Safari extensions, Android/iOS apps.">all</em>
-    SimpleLogin components are also open-source. <br>
+    SimpleLogin components are also open source. <br>
     You wouldn't trust a black box to handle your emails, would you?
 
 - title: Send emails from alias
