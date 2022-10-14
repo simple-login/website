@@ -24,7 +24,7 @@
   plausibleScript.defer = 1;
   plausibleScript.async = 1;
   plausibleScript.dataset.api = "/p/api/event";
-  plausibleScript.dataset.domain = "simplelogin.io";
+  plausibleScript.dataset.domain = "simplelogin.io,everything.simplelogin.com";
   plausibleScript.src = '/p.outbound.js';
 
   var ins = document.getElementsByTagName('script')[0];
