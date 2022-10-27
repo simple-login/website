@@ -72,7 +72,7 @@ SimpleLogin doesn't rely on any external service. It is cloud agnostic and can b
   <div style="padding: 35px; background-color: #f8f9fa; border-radius: 15px;">
     <p class="mb-2 h5"><strong>Try SimpleLogin for free</strong></p>
     <p class="mb-2">
-        Still hesitant on the best option to choose to <strong>mask your email</strong> address between Firefox Relay and SimepleLogin. SimpleLogin has a generous freemium plan that allows you to use up to <strong>10 aliases for free</strong>.
+        Still hesitant on how to <strong>mask your email</strong> address between Firefox Relay and SimepleLogin? SimpleLogin has a generous freemium plan that allows you to use up to <strong>10 aliases for free</strong>.
     </p><br>
     <div class="mb-3">
             <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
@@ -136,7 +136,7 @@ Having reputed companies investing in the email aliases technology like Apple an
     <br><br><br>
     <p class="mb-2 h5"><strong>The best email aliasing service</strong></p>
     <p class="mb-2">
-        Thanks to SimpleLogin <strong>browser extensions and mobile apps</strong> (iOS & Android), create email aliases from all of your devices. You can even use SimepleLogin's Firefox add-on.
+        Thanks to SimpleLogin <strong>browser extensions and mobile apps</strong> (iOS & Android), create email aliases from all of your devices. You can even use <a href="https://addons.mozilla.org/firefox/addon/simplelogin"/">SimepleLogin's Firefox add-on</a>.
     </p><br>
     <div class="mb-3">
             <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
