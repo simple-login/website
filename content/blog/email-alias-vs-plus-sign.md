@@ -64,7 +64,7 @@ If you use Gmail, you can't also reply from the subaddress. When you reply to an
     <br><br><br> -->
     <p class="mb-2 h5"><strong>Regain control of your inbox with SimpleLogin</strong></p>
     <p class="mb-2">
-        SimpleLogin offers a better protect your identity while browsing online then subaddressing. With SimpleLogin you can generate a unique <em data-toggle="tooltip" data-html="true" title="" data-original-title="An email alias (or alias for short) is an email address that <b>doesn't store</b> emails: all emails sent to an alias are forwarded to your personal email.">email aliases</em> that <strong>forwards instantly</strong> all incoming emails to your primary email address.
+        SimpleLogin offers a better protection for your identity than subaddressing. With SimpleLogin you can generate a unique <em data-toggle="tooltip" data-html="true" title="" data-original-title="An email alias (or alias for short) is an email address that <b>doesn't store</b> emails: all emails sent to an alias are forwarded to your personal email.">email alias</em> that <strong>forwards instantly</strong> all incoming emails to your inbox.
     </p><br>
     <div class="mb-3">
             <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
