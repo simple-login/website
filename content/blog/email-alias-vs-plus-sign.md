@@ -67,12 +67,12 @@ If you use Gmail, you can't also reply from the subaddress. When you reply to an
         SimpleLogin offers a better protection for your identity than subaddressing. With SimpleLogin you can generate a unique <em data-toggle="tooltip" data-html="true" title="" data-original-title="An email alias (or alias for short) is an email address that <b>doesn't store</b> emails: all emails sent to an alias are forwarded to your personal email.">email alias</em> that <strong>forwards instantly</strong> all incoming emails to your inbox.
     </p><br>
     <div class="mb-3">
-            <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
-              <span style="font-weight: 400;">
-                Protect your inbox >
-              </span>
-            </a>
-          </div>
+      <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
+        <span style="font-weight: 400;">
+          Protect your inbox >
+        </span>
+      </a>
+    </div>
   </div>
 <br><br>
 {{< /rawhtml >}}
@@ -130,12 +130,12 @@ With multiple advantages over plus sign trick, email aliases is a great tool to 
         Use your alias as <a href="/temporary-email/">temporary email address</a> or to sign up on any website and add a layer of <strong>privacy and security</strong> while browsing online.
     </p><br>
     <div class="mb-3">
-            <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
-              <span style="font-weight: 400;">
-                Create an email alias >
-              </span>
-            </a>
-          </div>
+      <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
+        <span style="font-weight: 400;">
+          Create an email alias >
+        </span>
+      </a>
+    </div>
   </div>
 <br><br>
 {{< /rawhtml >}}
