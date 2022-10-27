@@ -57,6 +57,26 @@ Email addresses that contain the plus sign are sometimes (incorrectly) considere
 
 If you use Gmail, you can't also reply from the subaddress. When you reply to an email sent to a `name+newsletter@gmail.com`, the reply will come from your real email address `name@gmail.com`
 
+{{< rawhtml >}}
+<br>
+  <div style="padding: 35px; background-color: #f8f9fa; border-radius: 15px;">
+<!--     <img src="/logo.svg" style="height:35px;"/>
+    <br><br><br> -->
+    <p class="mb-2 h5"><strong>Regain control of your inbox with SimpleLogin</strong></p>
+    <p class="mb-2">
+        SimpleLogin offers a better protect your identity while browsing online then subaddressing. With SimpleLogin you can generate a unique <em data-toggle="tooltip" data-html="true" title="" data-original-title="An email alias (or alias for short) is an email address that <b>doesn't store</b> emails: all emails sent to an alias are forwarded to your personal email.">email aliases</em> that <strong>forwards instantly</strong> all incoming emails to your primary email address.
+    </p><br>
+    <div class="mb-3">
+            <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
+              <span style="font-weight: 400;">
+                Protect your inbox >
+              </span>
+            </a>
+          </div>
+  </div>
+<br><br>
+{{< /rawhtml >}}
+
 ### Email aliases protect your privacy
 
 An email alias is random and there's no way to link 2 email aliases to the same person.
@@ -99,4 +119,24 @@ Though primarily focused on privacy, email aliases are a good way to increase yo
 With multiple advantages over plus sign trick, email aliases is a great tool to protect your online privacy. It's recommended to use a password manager to help remember the email aliases used on different websites.
 
 [Sign up](https://app.simplelogin.io/auth/register) for a new SimpleLogin account to explore how email aliases can help protect your online privacy. If you have used email aliases in the past, you might be surprised by how easy it becomes now ;).
+
+{{< rawhtml >}}
+<br>
+  <div style="padding: 35px; background-color: #f8f9fa; border-radius: 15px;">
+    <img src="/logo.svg" style="height:35px;"/>
+    <br><br><br>
+    <p class="mb-2 h5"><strong>Hide your primary email address</strong></p>
+    <p class="mb-2">
+        Use your alias as <a href="/temporary-email/">temporary email address</a> or to sign up on any website and add a layer of <strong>privacy and security</strong> when using your email address while browsing online.
+    </p><br>
+    <div class="mb-3">
+            <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
+              <span style="font-weight: 400;">
+                Create an email alias >
+              </span>
+            </a>
+          </div>
+  </div>
+<br><br>
+{{< /rawhtml >}}
 

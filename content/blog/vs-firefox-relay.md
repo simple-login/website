@@ -67,6 +67,24 @@ Firefox Relay relies on Amazon SES to receive and forward emails to your mailbox
 
 SimpleLogin doesn't rely on any external service. It is cloud agnostic and can be run anywhere, either on a small home server for people who want self host or on a powerful dedicated server. We did use Amazon for SimpleLogin first version but [decided to leave the platform in February 2020](/blog/we-left-aws/).
 
+{{< rawhtml >}}
+<br>
+  <div style="padding: 35px; background-color: #f8f9fa; border-radius: 15px;">
+    <p class="mb-2 h5"><strong>Try SimpleLogin for free</strong></p>
+    <p class="mb-2">
+        Still hesitant on the best option to choose to <strong>mask your email</strong> address between Firefox Relay and SimepleLogin. SimpleLogin has a generous freemium plan that allows you to use up to <strong>10 aliases for free</strong>.
+    </p><br>
+    <div class="mb-3">
+            <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
+              <span style="font-weight: 400;">
+                Try SimpleLogin for free >
+              </span>
+            </a>
+          </div>
+  </div>
+<br><br>
+{{< /rawhtml >}}
+
 ### Features comparison
 
 #### Email size
@@ -110,5 +128,25 @@ Some noteworthy Simplelogin features:
 Using email aliases isn't mainstream (yet) and has probably the same popularity as password managers 10 years ago. For this reason, we don't see Firefox Relay as a concurrent but rather a co-pilot in the fight to gain back control of our data.
 
 Having reputed companies investing in the email aliases technology like Apple and Firefox also validates the need for email aliases.
+
+{{< rawhtml >}}
+<br>
+  <div style="padding: 35px; background-color: #f8f9fa; border-radius: 15px;">
+    <img src="/logo.svg" style="height:35px;"/>
+    <br><br><br>
+    <p class="mb-2 h5"><strong>The best email aliasing service</strong></p>
+    <p class="mb-2">
+        Thanks to SimpleLogin <strong>browser extensions and mobile apps</strong> (iOS & Android), create email aliases from all of your devices. You can even use SimepleLogin's Firefox add-on.
+    </p><br>
+    <div class="mb-3">
+            <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
+              <span style="font-weight: 400;">
+                Start my free trial >
+              </span>
+            </a>
+          </div>
+  </div>
+<br><br>
+{{< /rawhtml >}}
 
 
