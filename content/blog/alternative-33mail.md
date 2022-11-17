@@ -21,7 +21,7 @@ images:
 
 ### Number of email alias & bandwidth
 
-With a 33mail free subscription, you can create an unlimited number of aliases. SimpleLogin does limit the number of aliases to 15 per free account.
+With a 33mail free subscription, you can create an unlimited number of aliases. SimpleLogin does limit the number of aliases to 10 per free account.
 
 33mails only has **10MB monthly bandwidth** in the free plan. We can quickly reach the 10MB if emails contain attachments or if they are heavy HTML based (as most emails nowadays are).
 
