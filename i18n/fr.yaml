@@ -5,6 +5,10 @@ header_pricing: Offres
 
 hero: Protéger votre boîte mail avec les alias
 
+# script
+testscript: >
+  COUCOU
+
 hero_desc: >
   Avec les <em data-toggle="tooltip" data-html="true"
   title="Un alias e-mail (ou juste alias) est une adresse mail
