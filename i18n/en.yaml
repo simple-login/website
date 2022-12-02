@@ -6,6 +6,16 @@ header_pricing: Pricing
 # hero section
 hero: Receive and send emails anonymously
 
+# script
+seo_script_product: >
+  <script type="application/ld+json">
+  {"@context":"https://schema.org/","@type":"Product","name":"Email Alias","image":"https://simplelogin.io/images/hero.svg","description":"With email aliases, you can be anonymous online and protect your inbox against spams and phishing. Open source. Made and hosted in Europe.","brand":{"@type":"Brand","name":"SimpleLogin"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","bestRating":"5","worstRating":"0","ratingCount":"6","reviewCount":"6"},"review":[{"@type":"Review","reviewBody":"Once I used it, it was a game changer. SimpleLogin is in my book criminally underrated.","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"0"},"author":{"@type":"Person","name":"Techlore"}},{"@type":"Review","reviewBody":"SimpleLogin seems to me ahead of the game. It's all open-source and I mean everything, the apps, the service, the website.","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"0"},"author":{"@type":"Person","name":"Michael Bazzell"}},{"@type":"Review","reviewBody":"I like to use SimpleLogin for trowaway accounts like restaurant reservations or newsletters. I opt for SimpleLogin because it allows me easily to shut off an address. SimpleLogin is a very effective SPAM control measure.","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"0"},"author":{"@type":"Person","name":"Naomi Brockwell"}},{"@type":"Review","reviewBody":"I personaly use SimpleLogin as my email aliasing tool. SimpleLogin login is an important part of my strategy.","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"0"},"author":{"@type":"Person","name":"Josh, All Things Secured"}},{"@type":"Review","reviewBody":"I usually have to enter my email while subscribing to new services online, albeit without much confidence. SimpleLogin gives me a trustworthy alternative and helps me controlling my privacy on the Internet.","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"0"},"author":{"@type":"Person","name":"Nguyen Nhat Cuong"}},{"@type":"Review","reviewBody":"SimpleLogin gives me the convenience of a social login button with the privacy of an anonymous email address. I like that some of the money I spend on the service goes toward paying website owners, it allows me to feel less guilty about using uBlock Origin.","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"0"},"author":{"@type":"Person","name":"Max Schumacher"}}]}
+  </script>
+seo_script_howto: >
+  <script type="application/ld+json">
+  {"@context":"https://schema.org/","@type":"HowTo","name":"How does Email Alias work?","description":"Email alias is similar to forward email address: all emails sent to an alias will be forwarded to your inbox.","image":"https://simplelogin.io/images/hero.svg","step":[{"@type":"HowToStep","text":"Next time a website asks for your email address, give an alias instead of your real email.","image":"https://simplelogin.io/images/one-click-alias.gif","name":"1. Use Email Alias everywhere"},{"@type":"HowToStep","text":"Emails sent to an alias are instantly forwarded to your inbox without the sender knowing anything.","image":"https://simplelogin.io/images/how-it-work-2.svg","name":"2. Receive emails safely in your inbox."},{"@type":"HowToStep","text":"Just hit 'Reply' if you want to reply to a forwarded email: the reply is sent from your alias and your real email stays hidden. You can also easily send emails from your alias.","image":"https://simplelogin.io/images/how-it-work-3.svg","name":"3. Send emails anonymously"}]}
+  </script>
+
 hero_desc: >
   With  <em data-toggle="tooltip" data-html="true"
   title="An email alias (or alias for short) is an email address that <b>doesn't store</b> emails: all emails sent to an alias are forwarded to your personal email.">email aliases</em>, you can be anonymous online and protect your inbox
@@ -19,11 +29,11 @@ hero_button_underline: <b>800,000+</b> aliases created.
 seen_on: Recommended by
 
 # how it work section
-how_it_work_title: How it works
+how_it_work_title: How does Email Alias work?
 
 how_it_work_desc: Shield your inbox with email aliases.
 
-how_it_work_1_title: Use email alias everywhere
+how_it_work_1_title: Use Email Alias everywhere
 
 how_it_work_1_subtitle: >
   Next time a website asks for your email address, give an alias <span class="bigger">instead</span> of your real email.
@@ -73,7 +83,7 @@ alias_new_email_c_text_2: >
 alias_new_email_c_text_3: 50+ and counting businesses trust SimpleLogin to run their emails.
 
 # Testimonials Section
-testimonial_title: SimpleLogin is loved by users
+testimonial_title: Email aliasing loved by users
 
 # Features section
 feature_title: Privacy, security and features you’ll love
