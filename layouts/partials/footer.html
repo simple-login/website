@@ -179,24 +179,12 @@
         {{ if .IsTranslated }}
         <div class="btn-group float-right">
           <a class="btn btn-link btn-sm dropdown-toggle text-white" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-size: 12px">
-            {{ if eq .Lang "fr"}}
-              Français
-            {{ else }}
-              English
-            {{ end }}
+            {{ .Language.LanguageName }}
           </a>
 
           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             {{ range .Translations }}
-
-              <a class="dropdown-item" href="{{ .Permalink }}" style="font-size: 12px">
-                {{ if eq .Lang "fr"}}
-                  Français
-                {{ else }}
-                  English
-                {{ end }}
-
-              </a>
+              <a class="dropdown-item" title="{{ .Language.LanguageName }}" href="{{ .Permalink }}" style="font-size: 12px">{{ .Language.LanguageName }}</a>
             {{ end }}
           </div>
         </div>
