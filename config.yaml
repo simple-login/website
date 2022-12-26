@@ -30,8 +30,12 @@ markup:
 
 languages:
   en:
+    languageName: "English"
+    languageCode: "en_US"
     weight: 1
 
   fr:
     title: "SimpleLogin | Protéger votre vie privée avec les alias mail"
+    languageName: "Français"
+    languageCode: "fr"
     weight: 2
