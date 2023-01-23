@@ -39,11 +39,11 @@
     Create your <em data-toggle="tooltip" data-html="true"
       title="Subdomain is a great way to organize and create aliases on-the-fly. Just use
       <b>ANYTHING@your-subdomain.simplelogin.com</b> when you quickly need an alias, the alias will be created when it receives the first email.">subdomain</em>, and use it to quickly create aliases without opening SimpleLogin web or mobile apps.
-    <a href="/blog/subdomains/">Learn more</a>.
+    <a href="/blog/subdomains/" title="simplelogin subdomains">Learn more</a>.
 
 - title: Multiple mailboxes
   desc: >
-    If you already have several mailboxes, this feature is for you: you can add your mailboxes into SimpleLogin and choose which one to use when creating an alias. <a href="/blog/introducing-mailbox/">Learn more</a>.
+    If you already have several mailboxes, this feature is for you: you can add your mailboxes into SimpleLogin and choose which one to use when creating an alias. <a href="/blog/introducing-mailbox/" title="simplelogin multiple mailboxes">Learn more</a>.
 
 - title: Privacy & Security
   desc: >
