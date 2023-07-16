@@ -108,7 +108,10 @@ pricing_premium_title: Premium
 pricing_free_cta: S'inscrire
 pricing_premium_cta: Protéger votre mail maintenant
 
-pricing_premium_yearly_price: $30/an
+pricing_what_people_say: Ce que les gens disent à propos de SimpleLogin
+
+pricing_premium_yearly_price: $30
+pricing_premium_yearly_year: an
 pricing_premium_monthly_price: or $4/mois
 
 # <<< FAQ page >>>
