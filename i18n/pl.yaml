@@ -1,0 +1,136 @@
+# header
+header_login: Zaloguj się
+header_signup: Zarejestruj się
+header_pricing: Cennik
+
+# hero section
+hero: Odbieraj i wysyłaj wiadomości e-mail anonimowo
+
+# script
+seo_script_product: >
+  <script type="application/ld+json">
+  {"@context":"https://schema.org/","@type":"Product","name":"Email Alias","image":"https://simplelogin.io/images/hero.svg","description":"With email aliases, you can be anonymous online and protect your inbox against spams and phishing. Open source. Made and hosted in Europe.","brand":{"@type":"Brand","name":"SimpleLogin"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","bestRating":"5","worstRating":"0","ratingCount":"6","reviewCount":"6"},"review":[{"@type":"Review","reviewBody":"Once I used it, it was a game changer. SimpleLogin is in my book criminally underrated.","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"0"},"author":{"@type":"Person","name":"Techlore"}},{"@type":"Review","reviewBody":"SimpleLogin seems to me ahead of the game. It's all open-source and I mean everything, the apps, the service, the website.","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"0"},"author":{"@type":"Person","name":"Michael Bazzell"}},{"@type":"Review","reviewBody":"I like to use SimpleLogin for trowaway accounts like restaurant reservations or newsletters. I opt for SimpleLogin because it allows me easily to shut off an address. SimpleLogin is a very effective SPAM control measure.","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"0"},"author":{"@type":"Person","name":"Naomi Brockwell"}},{"@type":"Review","reviewBody":"I personaly use SimpleLogin as my email aliasing tool. SimpleLogin login is an important part of my strategy.","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"0"},"author":{"@type":"Person","name":"Josh, All Things Secured"}},{"@type":"Review","reviewBody":"I usually have to enter my email while subscribing to new services online, albeit without much confidence. SimpleLogin gives me a trustworthy alternative and helps me controlling my privacy on the Internet.","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"0"},"author":{"@type":"Person","name":"Nguyen Nhat Cuong"}},{"@type":"Review","reviewBody":"SimpleLogin gives me the convenience of a social login button with the privacy of an anonymous email address. I like that some of the money I spend on the service goes toward paying website owners, it allows me to feel less guilty about using uBlock Origin.","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5","worstRating":"0"},"author":{"@type":"Person","name":"Max Schumacher"}}]}
+  </script>
+seo_script_howto: >
+  <script type="application/ld+json">
+  {"@context":"https://schema.org/","@type":"HowTo","name":"How does Email Alias work?","description":"Email alias is similar to forward email address: all emails sent to an alias will be forwarded to your inbox.","image":"https://simplelogin.io/images/hero.svg","step":[{"@type":"HowToStep","text":"Next time a website asks for your email address, give an alias instead of your real email.","image":"https://simplelogin.io/images/one-click-alias.gif","name":"1. Use Email Alias everywhere"},{"@type":"HowToStep","text":"Emails sent to an alias are instantly forwarded to your inbox without the sender knowing anything.","image":"https://simplelogin.io/images/how-it-work-2.svg","name":"2. Receive emails safely in your inbox."},{"@type":"HowToStep","text":"Just hit 'Reply' if you want to reply to a forwarded email: the reply is sent from your alias and your real email stays hidden. You can also easily send emails from your alias.","image":"https://simplelogin.io/images/how-it-work-3.svg","name":"3. Send emails anonymously"}]}
+  </script>
+
+hero_desc: >
+  Dzięki  <em data-toggle="tooltip" data-html="true" 
+  title="Alias e-mail (lub w skrócie alias) to adres e-mail, który <b>nie przechowuje</b> wiadomości e-mail: wszystkie wiadomości wysłane na alias są przekazywane na Twój prywatny adres e-mail">aliasom e-mail</em> możesz być anonimowy online i chronić swoją skrzynkę odbiorczą przed spamem i phishingiem.
+  <a href="https://github.com/simple-login/">Otwarto źródłowe</a>. Stworzone i hostowane w Europie.
+
+
+hero_cta: Zdobądź swoje aliasy za darmo >>
+
+hero_button_underline: Utworzono ponad <b>800 000</b> aliasów.
+
+seen_on: Polecane przez
+
+# how it work section
+how_it_work_title: Jak działa alias e-mail?
+
+how_it_work_desc: Chroń swoją skrzynkę odbiorczą za pomocą aliasów e-mail.
+
+how_it_work_1_title: Używaj aliasów e-mail wszędzie
+
+how_it_work_1_subtitle: >
+  Następnym razem, gdy witryna poprosi o Twój adres e-mail, podaj alias <span class="bigger">zamiast</span> prawdziwego adresu e-mail.
+
+how_it_work_2_title: Odbieraj e-maile bezpiecznie w swojej skrzynce odbiorczej.
+how_it_work_2_subtitle: >
+  Wiadomości e-mail wysyłane na alias są <span class="bigger">natychmiast przekazywane</span> do Twojej skrzynki odbiorczej bez wiedzy nadawcy. <br>
+
+
+how_it_work_3_title: Wysyłaj e-maile anonimowo
+how_it_work_3_subtitle: >
+  Po prostu naciśnij „Odpowiedz” jeśli chcesz odpowiedzieć na przesłaną wiadomość e-mail: odpowiedź jest wysyłana z Twojego aliasu, a prawdziwy adres e-mail pozostaje ukryty. <br>
+  Możesz równie łatwo <span class="bigger">wysyłać</span> e-maile ze swojego aliasu.
+
+# available everywhere section
+everywhere_title: Twórz aliasy i zarządzaj nimi wszędzie
+
+everywhere_subtitle: Szybko utwórz alias. Zapisz się do newslettera, załóż nowe konto online jednym kliknięciem.
+
+# Alias is the new email address Section
+alias_new_email_title: Alias jest nowym adresem e-mail
+
+alias_new_email_a_title: A. Zastąp swój adres e-mail aliasem
+alias_new_email_a_text_1: Subskrybuj newslettery, twórz nowe konta za pomocą aliasu
+alias_new_email_a_text_2: Później po prostu <span class="highlight">zablokuj</span> alias, jeśli dostajesz na niego za dużo wiadomości
+
+alias_new_email_b_title: B. Wysyłaj e-maile z aliasu
+alias_new_email_b_text_1: >
+  Po prostu naciśnij "Odpowiedz" gdy chcesz odpisać na e-mail, który został do Ciebie dostarczony: Just hit "Reply" whenever you need to reply to a forwarded email:
+  odpowiedź zostanie  <span class="highlight">come from</span> the alias and your personal mailbox stays hidden.
+alias_new_email_b_text_2: >
+  You can also
+  <em data-toggle="tooltip" data-html="true"
+    title="<b>Normal</b> email alias like the <b>+ trick </b> usually works in one way: you can only receive emails. <br>In SimpleLogin, you can easily reply/send emails from your alias.">send</em>
+  emails to any email address from your alias.
+
+
+alias_new_email_c_title: C. Run your business with alias
+alias_new_email_c_text_1: Use alias as your <span class="highlight">business email</span>.
+alias_new_email_c_text_2: >
+  Save $6/month
+
+  <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true"
+    title='GSuite starts at $6/month per user.'></i>
+  for each business email created with SimpleLogin.
+alias_new_email_c_text_3: 50+ and counting businesses trust SimpleLogin to run their emails.
+
+# Testimonials Section
+testimonial_title: Aliasy e-mail są uwielbiane przez użytkowników
+
+# Features section
+feature_title: Prywatność, bezpieczeństwo i funkcje, które pokochasz
+feature_subtitle: SimpleLogin jest najbardziej zaawansowanym rozwiązaniem aliasów e-mail.
+
+# FAQ section
+faq_title: Najczęściej zadawane pytania
+faq_subtitle: Pomoc
+
+ready_get_started: Ready to get started?
+ready_get_started_cta: Chroń swoją skrzynkę odbiorczą już dziś >
+
+cta_2_title: Dołącz do ponad 50 000 osób, które chronią swoją skrzynkę odbiorczą i prywatność.
+cta_2_button: Chroń swoją skrzynkę odbiorczą już dziś >>
+
+partner_title: Nasi partnerzy
+
+# footer
+footer_1: SimpleLogin jest <a href="https://github.com/simple-login">otwarto źródłowym</a> rozwiązaniem <b>aliasów e-mail</b>, które chroni Twój adres e-mail.
+
+footer_3: SimpleLogin jest produktem SimpleLogin SAS, zarejestrowanym we Francji pod numerem SIREN 884302134. SimpleLogin SAS jest częścią <a href="https://proton.me">Proton AG</a>.
+
+footer_pricing: Cennik
+footer_about: O nas
+footer_contact: Kontakt
+footer_imprint: Imprint
+footer_join_us: Dołącz do nas
+
+# pricing
+pricing_title: Cennik
+pricing_subtitle: >
+  SimpleLogin jest <a href="https://github.com/simple-login">otwarto źródłowe</a>, może być hostowany samodzielnie i jest w 100% finansowany przez społeczność.
+  Nie wykorzystujemy Twoich danych, nie śledzimy Cię ani nie wyświetlamy Ci reklam. SimpleLogin zależy od Twojego wsparcia w utrzymaniu działania usługi i opracowywaniu nowych funkcji.
+
+pricing_free_title: Darmowy
+pricing_premium_title: Premium
+
+pricing_free_cta: Zarejestruj się
+pricing_premium_cta: Zacznij chronić swoją pocztę e-mail
+
+pricing_what_people_say: Opinie o SimpleLogin
+
+pricing_premium_yearly_price: 30$
+pricing_premium_yearly_year: rok
+pricing_premium_monthly_price: lub 4$ rozliczane miesięcznie
+
+# <<< FAQ page >>>
+faq_tech_question: Pytania techniczne
+faq_general_question: Pytania ogólne
+faq_developer_question: Partner/Developer questions
+faq_pricing_question: Plan/Pricing questions
