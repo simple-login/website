@@ -205,9 +205,10 @@ One of the most popular ones is [Google Authenticator](https://support.google.co
 
 **Here are the services we recommend instead:**
 
+*   [Proton Pass](https://proton.me/pass)
+*   [Aegis](https://github.com/beemdevelopment/Aegis)
 *   [Duo](https://duo.com/product/multi-factor-authentication-mfa/two-factor-authentication-2fa)
 *   [Authy](https://authy.com/)
-*   [LastPass](https://www.lastpass.com/two-factor-authentication)
 
 ### Use PGP when sending important emails from your insecure client
 
