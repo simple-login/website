@@ -59,26 +59,14 @@ If a human brain can remember it in 3 minutes, how much time do you think it wil
 
 There are tons of password managers out there. Our favorites are:
 
+*   [Proton Pass](https://proton.me/pass) (open source)
 *   [Bitwarden](https://bitwarden.com/) (open source)
-*   [1Password](https://1password.com/it/) (great family plan)
-*   [LastPass](https://www.lastpass.com/) (industry-standard)
-*   [Nordpass](https://nordpass.com/) (from VPN-behemoth)
+*   [1Password](https://1password.com/)
 
-Most of them offer a free trial, and **Bitwarden has a very generous free plan you can use to store unlimited passwords.**
+Most of them offer a free trial, and **Proton Pass and Bitwarden have a very generous free plan you can use to store unlimited passwords.**
 
-We discourage the use of browser-based ones, such as Google Chrome Passwords, as they tend to be very liable and not as universal.
+When using a password manager, **remember that your account or master password cannot be reset**. If you lose it, you lose access to ALL your accounts. 
 
-For example, you can use Bitwarden from any device, while you can use Google Chrome Password only when using Google Chrome.
-
-This defeats the purpose of having a password manager in the first place.
-
-Also, Google Chrome Passwords are linked to your Google Account, which is not a safe way to store your passwords at all.
-
-[Read more about the security risks of using your web browser password manager.](https://www.howtogeek.com/447345/why-you-shouldnt-use-your-web-browsers-password-manager/)[](https://www.howtogeek.com/447345/why-you-shouldnt-use-your-web-browsers-password-manager/)
-
-When using a password manager, **remember that your master password cannot be retrieved**. If you lose it, you lose access to ALL your accounts. Keep it safe, and possibly off-the-cloud, like on a physical hard-drive or piece of paper.
-
-If you want to save it online, use an encrypted and secure cloud.
 
 ### Use a secure cloud
 
