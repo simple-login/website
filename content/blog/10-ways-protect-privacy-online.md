@@ -344,5 +344,3 @@ Also, it removes the need to follow the annoying guidelines of websites, like "m
 Trust us, from techies, this is easy and will actually be fun and enjoyable once you start.
 
 Let us know if you use any of these services and, if you do, **make sure to mention us on Twitter,** so we can join the discussion!
-
-If you found this article useful, feel free to follow our [Substack Newsletter](https://simplelogin.substack.com/) where we share our articles and industry-related updates and tools. No spam - guaranteed.
