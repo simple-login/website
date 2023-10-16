@@ -125,7 +125,7 @@ With multiple advantages over plus sign trick, email aliases is a great tool to 
     <br><br><br>
     <p class="mb-2 h5"><strong>Hide your primary email address</strong></p>
     <p class="mb-2">
-        Use your alias as <a href="/temporary-email/">temporary email address</a> or to sign up on any website and add a layer of <strong>privacy and security</strong> while browsing online.
+        Use your alias to sign up on any website and add a layer of <strong>privacy and security</strong> while browsing online.
     </p><br>
     <div class="mb-3">
       <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
