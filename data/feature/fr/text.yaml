@@ -1,54 +1,72 @@
-- title: 100% open source
+- title: 100 % open source
   desc: >
-    Basé sur les technologies open source,
-    <em data-toggle="tooltip" data-html="true" title="Inclure le server, les extensions Chrome/Firefox/Safari et application Android/iOS">tous</em>
-    les composants de SimpleLogin sont aussi open source.
-    <br>
-
-- title: Envoyer depuis un alias
+    Basés sur une technologie open source, <em data-toggle="tooltip" data-html="true"
+    title="Incluant le serveur, les extensions Chrome/Firefox/Safari, les applications
+    Android/iOS.">tous les composants de SimpleLogin</em> sont aussi open source.
+    <br>Cette transparence est un gage de confiance.
+- title: Envoyez des messages depuis un alias
   desc: >
-    Non seulement un alias peut recevoir les mails, il peut aussi les <span class="highlight">envoyer</span>.
-    Un alias est donc comme une adresse mail "normale".
-
+    Un alias peut recevoir des messages, mais aussi en <span class="highlight">envoyer</span>.
+    Un alias est une adresse e-mail à part entière.
 - title: Partout
   desc: >
-    Gérer vos alias sur notre site web, dans les extensions
-    <em data-toggle="tooltip" data-html="true" title="et les autres navigateurs basé sur Chromium comme Edge, Opera, Brave, etc">Chrome</em>,
-    Firefox, Safari, <br>
-    ou dans votre téléphone avec avec l'application Android (Play Store, F-Droid) et iOS.
-
-- title: Votre propre domaine
+    Gérez vos alias sur le site internet de SimpleLogin ou sur nos extensions pour
+    <em data-toggle="tooltip" data-html="true" title="Et d'autres navigateurs basés
+    sur chrome comme Edge, Opera, Brave…">Chrome</em>, Firefox et Safari. <br>
+    Vous pouvez aussi les gérer sur votre téléphone avec les applications pour Android
+    (Play Store, F-Droid) et iOS.
+- title: Domaine personnalisé
   desc: >
-    Vous pouvez ajouter votre domaine et vous pouvez créer un alias comme <span class="highlight">contact@mon-domaine.fr</span>
-
-
-- title: Illimité
-  desc: >
-    Tous les plans de SimpleLogin n'ont pas limite sur la bande passante ou nombre de mails reçu/envoyés.
-
-- title: Alias à la volée avec <span class="highlight">sous-domaine</span>
-  desc: >
-    Créer un alias sans ouvrir SimpleLogin: l'alias sera créé quand il reçoit le premier mail. Plus d'info sur
-    <a href="/blog/subdomains/">qu'est-ce que c'est une sous-domaine</a>
-
-
-- title: Plusieurs boîtes mail
-  desc: >
-    Si vous avez plusieurs boîtes mail, vous pouvez les ajouter dans SimpleLogin et choisir lequel/lesquels à utiliser quand vous créez un alias.
-     <a href="/blog/introducing-mailbox/">Plus d'info ici</a>.
-
-- title: Privacy & Sécurité
-  desc: >
-    Avec <em data-toggle="tooltip" data-html="true" title="PGP se propose de garantir la confidentialité et l'authentification pour la communication des données.">PGP</em>,
-    encrypter vos mails avec votre clé PGP. Personne d'autre ne peut lire vos mails.
-    Compatible avec Proton Mail et les programmes OpenPGP(Enigmail, GPG Tools, etc)
+    Utilisez votre propre domaine et vous n'aurez pas besoin d'acheter une autre <em
+    data-toggle="tooltip" data-html="true" title="Comme GSuite, Outlook ou ceux vendus
+    par les registraires de noms de domaine.">solution d'hébergement de messagerie
+    électronique</em>.
     <br>
-    SimpleLogin supporte aussi 2FA (TOTP et WebAuthn/FIDO)
-
-
-- title: Plus qu'un alias
+    De plus, vous pouvez avoir la <em data-toggle="tooltip" data-html="true" title="En
+    activant la fonction catch-all, vous pouvez créer des alias directement : <b>l'adresse
+    tout@votre-domaine.fr</b> sera automatiquement créé la première fois qu'elle recevra
+    un message.">fonction catch-all</em> avec votre nom de domaine.
+- title: Tarif avantageux
   desc: >
-    L'ambition de SimpleLogin est de protéger votre vie privée en ligne et email est juste le commencement. <br>
-    Nous travaillons aussi sur le single sign-on, la protection de numéro de téléphone et de carte bancaire.
+    Tous les abonnements SimpleLogin disposent d'un nombre <span class="highlight">illimité</span>
+    de transferts et d'envois, ainsi que d'une bande passante <span class="highlight">illimitée</span>.
+    <br> Recevez et envoyez des messages autant que vous le voulez.
+- title: Alias en temps réel avec sous-domaine
+  desc: >
+    Créez votre <em data-toggle="tooltip" data-html="true" title="Le sous-domaine
+    est un excellent moyen d'organiser et de créer des alias directement. Il suffit
+    d'utiliser <b>TOUT@votre-sous-domaine.simplelogin.com</b> quand vous avez rapidement
+    besoin d'un alias. Il sera créé quand il recevra le premier message.">sous-domaine</em>
+    et utilisez-le pour créer rapidement des alias sans ouvrir les applications web
+    ou mobile de SimpleLogin. <a href="/blog/subdomains/" title="simplelogin subdomains">En
+    savoir plus</a>.
+- title: Plusieurs adresses e-mail
+  desc: >
+    Si vous avez plusieurs adresses e-mail, cette fonctionnalité est pour vous : vous
+    pouvez ajouter vos adresses e-mail dans SimpleLogin et choisir celle à utiliser
+    lors de la création d'un alias. <a href="/blog/introducing-mailbox/" title="simplelogin
+    multiple mailboxes">En savoir plus</a>.
+- title: Protection de la vie privée et sécurité
+  desc: >
+    Avec <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP)
+    est un programme de chiffrement qui peut chiffrer vos messages et vous permettre
+    de communiquer en ligne de manière privée.">PGP</em>, les messages sont chiffrés
+    avec votre propre clé PGP avant d'être transférés dans votre boite mail. Personne
+    d'autre que vous ne peut déchiffrer ces messages. Cette solution fonctionne parfaitement
+    avec Proton Mail ou tout autre outil PGP (Thunderbird, GPGTools…). <br><br>
+    Pour mieux sécuriser votre compte SimpleLogin, vous pouvez activer l'authentification
+    à deux facteurs (A2F) avec <em data-toggle="tooltip" data-html="true" title="TOTP
+    (mot de passe à usage unique basé sur le temps) est généralement utilisé avec
+    des applications comme Google Authenticator ou Authy.">TOTP (mot de passe à usage
+    unique basé sur le temps)</em> et/ou <em data-toggle="tooltip" data-html="true"
+    title="WebAuthn est généralement utilisé avec des clés de sécurité physiques de
+    type Yubikey, Google Titan... Votre téléphone et votre ordinateur portable peuvent
+    aussi être utilisés comme clé de sécurité.">WebAuthn (FIDO)</em>.
+- title: Plus qu'un simple alias
+  desc: >
+    L'ambition de SimpleLogin est de protéger votre vie privée en ligne et la messagerie
+    électronique n'est qu'un début. <br> Ne manquez pas les prochaines fonctionnalités
+    comme l'authentification unique, la protection des numéros de téléphone et la
+    protection des cartes bancaires.
 
 
