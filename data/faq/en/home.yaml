@@ -85,7 +85,7 @@
   answer: As a normal email address, an email alias is always there unless you delete it.
 
 - question: Where are SimpleLogin servers located?
-  answer: We use UpCloud, a Finland cloud provider. Our server is currently located in its France-Germany and Netherlands datacenter.
+  answer: We use servers from Proton and UpCloud - a cloud provider based in Finland.
 
 - question: What is the <b>custom domain</b> feature?
   answer: >
