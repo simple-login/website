@@ -1,0 +1,35 @@
+default:
+    interruptible: true
+
+stages:
+    - l10n
+
+include:
+    - project: 'translations/generator'
+      ref: master
+      file: '/jobs/sync-crowdin.gitlab-ci.yml'
+
+    - project: 'translations/generator'
+      ref: master
+      file: '/jobs/commit-locales.gitlab-ci.yml'
+
+#### l10n jobs
+
+# Send source strings to crowdin when a new commit is created inside to main branch
+i18n-sync-crowdin:
+    stage: l10n
+    variables:
+        I18N_SYNC_CROWDIN_PROJECT: 'website-simplelogin'
+        I18N_SYNC_BRANCH: 'master'
+    extends: .i18n-sync-crowdin-common-rules
+
+# Get translations inside the project as a MR
+# :warning: it's a schedule job filtered by the var I18N_SCHEDULES_FILTER
+# added inside the schedule variables via UI.
+i18n-commit-translations:
+    stage: l10n
+    variables:
+        I18N_COMMIT_CROWDIN_PROJECT: 'website-simplelogin'
+        I18N_COMMIT_BRANCH_PUSH: 'master'
+        I18N_COMMIT_BRANCH_ALLOWED: 'master'
+    extends: .i18n-commit-locales-shared
