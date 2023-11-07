@@ -33,7 +33,7 @@ Without DNSSEC, a malicious hacker can point SimpleLogin MX record to their own 
 
 CAA provides a way for domain holders to reduce that risk. Without CAA, someone could potentially obtain an unauthorized SSL certificate for SimpleLogin domains that could allow man-in-the-middle hacks.
 
-All SimpleLogin certificates are issued by [Letsencrypt](https://letsencrypt.org). Which is a certificate authority SipleLogin trusts.
+All SimpleLogin certificates are issued by [Letsencrypt](https://letsencrypt.org). Which is a certificate authority SimpleLogin trusts.
 
 #### Hardenize
 
@@ -58,7 +58,7 @@ Our mail servers support the following security standards.
 
 #### Sender Policy Framework (SPF)
 
-[SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework)(Sender Policy Framework) is a protocol that allows domain name owners to control which internet hosts are allowed to send email on their behalf.
+[SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) (Sender Policy Framework) is a protocol that allows domain name owners to control which internet hosts are allowed to send email on their behalf.
 
 By default, only our mail servers can send emails on behalf of SimpleLogin. We use the  **strictest** SPF policy which is `-all`. Without SPF, anyone can send emails that seem to come from SimpleLogin.
 
@@ -97,7 +97,7 @@ SimpleLogin currently runs two web app instances.
 - app.simplelogin.io
 - mx2.simplelogin.co (fallback)
 
-All of the data in transit btween SimpleLogin servers and end users are encrypted via [SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security).
+All of the data in transit between SimpleLogin servers and end users are encrypted via [SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security).
 
 We again, also implement the following additional measures in conjunction with SSL/TLS encryption:
 
