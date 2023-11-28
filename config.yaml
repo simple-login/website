@@ -39,3 +39,9 @@ languages:
     languageName: "Français"
     languageCode: "fr"
     weight: 2
+
+  pl:
+    title: "SimpleLogin | Chroń prywatność za pomocą aliasów mailowych"
+    languageName: "Polski"
+    languageCode: "pl"
+    weight: 3
