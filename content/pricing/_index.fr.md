@@ -1,5 +1,6 @@
 ---
-title: "SimpleLogin | Abonnements | Comparer les offres"
+title: "SimpleLogin | Tarifs"
 url: "/fr/pricing"
-description: "SimpleLogin est open source, peut être installé sur votre server et 100% financé par la communauté."
+description: "SimpleLogin est financé à 100 % par la communauté. Nous dépendons de votre soutien pour continuer à faire fonctionner le service et développer de nouvelles fonctionnalités."
 ---
+
