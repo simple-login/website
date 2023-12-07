@@ -1,6 +1,6 @@
 ---
 title: "SimpleLogin | ყველაზე პროგრამისტთან-მეგობრული სოციალური შესვლის გადაწყვეტილება"
-url: "/developer"
+url: "/ka/developer"
 description: "აგებული 0-დან, SimpleLogin თვალწარმტაცია პროგრამისტებისთვის."
 ---
 
