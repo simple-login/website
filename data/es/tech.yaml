@@ -1,0 +1,37 @@
+  - question: '¿Cuál es el tamaño máximo del correo electrónico?'
+    answer: >
+      El límite actual es de 25 MB. Para archivos adjuntos grandes, sugerimos utilizar
+      un servicio de carga de archivos y enviar el enlace en su lugar. Puedes encontrar
+      algunos servicios para compartir archivos que respetan nuestra privacidad en
+      <a href="https://www.privacyguides.org/file-sharing/">Privacy Guides</a> <br>,
+      otrra razón para tener este límite es que el cifrado PGP es un proceso pesado
+      que admite un tamaño mayor supone una carga importante para los servidores SimpleLogin.
+  - question: He eliminado accidentalmente un alias. ¿Puedo restaurarlo?
+    answer: >
+      Cuando se elimina un alias, se coloca en una <b>papelera</b> global y nos aseguramos
+      de que no se pueda reuitlizar. Toda la información histórica sobre el alias
+      (la cuenta que crea el alias, los contactos del alias, etc.) se elimina para
+      respetar tu privacidad. <br> Esto se aplica a todos los alias creados con dominios
+      SimpleLogin. <br> Sin embargo, puedes restaurar un alias creado con tu propio
+      dominio.
+  - question: '¿Dónde están las claves PGP de SimpleLogin?'
+    answer: >
+      Nuestras claves PGP están en la página <a href="/pgp-key">Claves PGP</a>.
+      Si activas PGP, todos los correos son firmados con la clave <b>signer@simplelogin.io</b>.
+  - question: '¿Cómo elimino mi cuenta?'
+    answer: >
+      En la parte inferior de la <a href="https://app.simplelogin.io/dashboard/setting">página
+      de ajustes</a>, puedes eliminar tu cuenta. Esta operación es irreversible y
+      no tenemos forma de recuperar tus datos.
+  - question: '¿Puedo utilizar alias de correo para servicios importantes como bancos,
+      gobierno, etc.?'
+    answer: >
+      La respuesta corta es sí, puedes. Utilizamos alias de correo para administrar
+      nuestro negocio, administrar nuestros impuestos, manejar nuestras operaciones
+      bancarias y hasta ahora todo bien :). <br> Una respuesta más larga es que el
+      protocolo de correo electrónico está diseñado para ser muy resistente y un correo
+      casi nunca se pierde. Si SimpleLogin no puede entregar el correo electrónico
+      a tu buzón, te lo notificaremos para que puedas tomar las medidas adecuadas.
+      También puedes configurar un buzón secundario además de tu buzón principal que
+      puedes utilizar como respaldo.
+

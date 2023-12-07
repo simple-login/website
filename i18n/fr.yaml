@@ -5,7 +5,7 @@ hero: Recevez et envoyez des messages de manière anonyme #hero section
 hero_desc: >
   Avec les <em data-toggle="tooltip" data-html="true" title="Un alias d'adresse e-mail (ou alias tout court) est une adresse e-mail qui <b>ne stocke pas</b> les messages : tous les messages envoyés à un alias sont transférés vers votre adresse e-mail personnelle.">alias d'adresse e-mail</em>, vous pouvez rester anonyme en ligne et protéger votre boite mail contre les indésirables/spam et le phishing/hameçonnage. SimpleLogin est <a href="https://github.com/simple-login/">open source</a> et est développé et hébergé en Europe.
 hero_cta: >
-  Créer vos alias maintenant >>
+
 hero_button_underline: <b>Plus de 800 000</b> alias ont été créés.
 seen_on: Recommandé par
 how_it_work_title: Comment fonctionne un alias d'adresse e-mail ? #how it work section
@@ -46,7 +46,7 @@ ready_get_started_cta: >
 
 cta_2_title: Rejoignez plus de 50 000 personnes qui protègent leur messagerie et leur vie privée.
 cta_2_button: >
-  Protéger votre boîte mail aujourd'hui >>
+
 partner_title: Nos partenaires
 footer_1: SimpleLogin est une solution <a href="https://github.com/simple-login">open source</a> <b>d'alias d'adresse e-mail</b> qui protège votre adresse e-mail. #footer
 footer_3: SimpleLogin est le produit de la société SimpleLogin SAS, enregistrée en France sous le numéro SIREN 884302134. SimpleLogin SAS fait partie de <a href="https://proton.me">Proton AG</a>.
@@ -58,12 +58,12 @@ footer_join_us: Rejoignez-nous
 pricing_title: Tarifs #pricing
 pricing_subtitle: >
   SimpleLogin est <a href="https://github.com/simple-login">open source</a>, peut être auto-hébergé et est financé à 100 % par la communauté. Nous n'utilisons pas vos données, nous ne suivons pas vos activités et nous ne vous diffusons aucune publicité. SimpleLogin dépend de votre soutien pour continuer à faire fonctionner le service et développer de nouvelles fonctionnalités.
-pricing_free_title: Free
+pricing_free_title: Gratuit
 pricing_premium_title: Premium
 pricing_free_cta: Créer un compte
 pricing_premium_cta: Commencez à protéger votre messagerie
 pricing_what_people_say: Ce qu'ils disent de SimpleLogin
-pricing_premium_yearly_price: 30 €
+pricing_premium_yearly_price: '30 €'
 pricing_premium_yearly_year: an
 pricing_premium_monthly_price: ou 4 €/mois
 faq_tech_question: Questions techniques #<<< FAQ page >>>
