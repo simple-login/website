@@ -1,11 +1,11 @@
-  - title: 10 alias
-  - title: Bande passante illimitée
-  - title: Nombre illimité de réponses et d'envois à partir d'un alias
-  - title: 1 boite mail (véritable adresse e-mail)
-  - title: Extensions de navigateur
-    subtitle: Chrome, Firefox et Safari
-  - title: Applications iOS, Android
-  - title: Sécurisez votre compte avec le TOTP (mot de passe à usage unique basé sur
-      le temps) et/ou WebAuthn (FIDO)
-  - title: Se connecter avec SimpleLogin
+- title: 10 alias
+- title: Bande passante illimitée
+- title: Nombre illimité de réponses et d'envois à partir d'un alias
+- title: 1 boite mail (véritable adresse e-mail)
+- title: Extensions de navigateur
+  subtitle: Chrome, Firefox et Safari
+- title: Applications iOS, Android
+- title: Sécurisez votre compte avec le TOTP (mot de passe à usage unique basé sur
+    le temps) et/ou WebAuthn (FIDO)
+- title: Se connecter avec SimpleLogin
 
