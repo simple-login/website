@@ -1,0 +1,40 @@
+  - question: Quelle est la taille maximale d'un e-mail ?
+    answer: >
+      La limite actuelle est de 25 Mo. Pour les pièces jointes volumineuses, nous
+      vous conseillons d'utiliser un service de transfert de fichiers et d'envoyer
+      le lien à la place. Vous pouvez trouver des services de partage de fichiers
+      qui respectent votre vie privée sur <a href="https://www.privacyguides.org/fr/file-sharing/">Privacy
+      Guides</a>. <br> Cette limite s'explique aussi du fait que le chiffrement PGP
+      est un processus lourd et que la prise en charge d'une taille plus importante
+      représente une charge importante pour les serveurs de SimpleLogin.
+  - question: Est-il possible de restaurer un alias supprimé accidentellement ?
+    answer: >
+      Quand un alias est supprimé, il est placé dans une <b>corbeille</b> globale
+      et nous nous assurons qu'il ne peut pas être réutilisé. Toutes les informations
+      concernant l'alias (le compte qui l'a créé, les contacts associés…) sont supprimées
+      pour respecter votre vie privée. <br> Ceci s'applique à tous les alias créés
+      avec les domaines SimpleLogin. <br> Vous pouvez néanmoins restaurer un alias
+      créé avec votre propre domaine.
+  - question: Où se trouvent les clés PGP de SimpleLogin ?
+    answer: >
+      Nos clés PGP se trouvent sur la page des <a href="/pgp-key">clés PGP</a>.
+      Si vous activez PGP, tous les messages électroniques sont signés avec la clé
+      <b>signer@simplelogin.io</b>.
+  - question: Comment supprimer son compte ?
+    answer: >
+      En bas de la <a href="https://app.simplelogin.io/dashboard/setting">page Paramètres</a>,
+      vous pouvez supprimer votre compte. Cette opération est irréversible et nous
+      n'avons aucun moyen de récupérer vos données.
+  - question: Peut-on utiliser des alias d'adresse e-mail pour des services essentiels
+      comme la banque, l'administration… ?
+    answer: >
+      Pour faire court, la réponse est oui. Nous utilisons des alias d'adresse e-mail
+      pour gérer notre entreprise, nos impôts, nos opérations bancaires et jusqu'à
+      présent tout va bien :). <br> La réponse plus longue est que le protocole de
+      messagerie est conçu pour être très résistant et qu'un message électronique
+      n'est presque jamais perdu. Si SimpleLogin ne peut pas délivrer l'e-mail dans
+      votre boite aux lettres, nous vous en informerons pour que vous puissiez prendre
+      les mesures nécessaires. Vous pouvez aussi configurer une boite aux lettres
+      secondaire, en plus de votre boite aux lettres principale, qui peut être utilisée
+      comme sauvegarde.
+
