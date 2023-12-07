@@ -1,65 +1,65 @@
-- title: 100% ღია კოდი
-  desc: >
-    აგებულია ღია კოდის ტექნოლოგიაზე, <em data-toggle="tooltip" data-html="true" title="Including
-    the server, Chrome/Firefox/Safari extensions, Android/iOS apps.">ყველა</em> SimpleLogin-ის
-    კომპონენტიც ღია კოდითაა.<br>თქვენ არასდროს ანდობდით თქვენს ელფოსტას გუდიან კაცს,
-    ხომ?
-- title: გააგზავნეთ ელფოსტები ფსევდონიმიდან
-  desc: >
-    ფსევდონიმს ელფოსტის არა, მხოლოდ, მიღება, არამედ <span class="highlight">გაგზავნაც</span>
-    შეუძლია. ფსევდონიმი სრულფასოვანი ელფოსტის მისამართია.
-- title: ყველგან
-  desc: >
-    მართეთ თქვენი ფსევდონიმები SimpleLogin-ის ვებგვერდზე, ან ჩვენს <em data-toggle="tooltip"
-    data-html="true" title="And other chromium-based browsers like Edge, Opera, Brave,
-    etc">Chrome</em>-ის, Firefox-ის ან Safari-ის გაფართოებებით.<br>
-    ან თქვენს ტელეფონზე, Android (Play Store, F-Droid) და iOS-ის აპით.
-- title: მომხმარებლის დომენი
-  desc: >
-    მოიტანეთ თქვენი დომენი და სხვა <em data-toggle="tooltip" data-html="true" title="Like
-    GSuite, Outlook or the ones sold by the domain registrars">ელფოსტის ჰოსტის</em>
-    შეძენა აღარ დაგჭირდებათ.
-    <br>
-    და იცოდით, რომ შეგიძლიათ, <em data-toggle="tooltip" data-html="true" title="By
-    enabling catch-all, you can create aliases on-the-fly: <b>anything@your-domain.com</b>
-    იქონიოთ: ის ავტომატურად შეიქმნება, როცა პირველად მიიღებს ელფოსტას.">catch-all</em>
-    ფსევდონიმით თქვენი დომენით?
-- title: დაბალი ფასები
-  desc: >
-    ყველა SimpleLogin-ის ტარიფს აქვს <span class="highlight">უსასრულო</span> გადაგზავნა/გაგზავნების
-    და <span class="highlight">განუსაზღვრელი</span> გამტარობის რაოდენობა.<br>გააგზავნეთ
-    და მიიღეთ იმდენი ელფოსტა, რამდენიც გნებავთ.
-- title: შექმენით ფსევდონიმები სურვილისამებრ, ქვედომენებით
-  desc: >
-    შექმენით თქვენი <em data-toggle="tooltip" data-html="true" title="Subdomain is
-    a great way to organize and create aliases on-the-fly. Just use <b>anything@your-subdomain.simplelogin.com</b>,
-    როცა სწრაფად გჭირდებათ ფსევდონიმი. ის შეიქმნება, როცა პირველ ელფოსტას, ">subdomain</em>
-    მიიღებს და გამოიყენეთ ის სწრაფად, SimpleLogin-ის ვების ან მობილური აპის გახსნის
-    გარეშე.<a href="/blog/subdomains/" title="simplelogin subdomains">გაიგეთ მეტი</a>.
-- title: ერთზე მეტი საფოსტო ყუთი
-  desc: >
-    თუ უკვე გაქვთ რამდენიმე საფოსტო ყუთი, ეს ფუნქცია თქვენთვისაა: შეგიძლიათ, თქვენი
-    საფოსტო ყუთები SimpleLogin-ში დაამატოთ და აირჩიოთ, რომელს გამოიყენებთ, როცა ფსევდონიმს
-    შექმნით. <a href="/blog/introducing-mailbox/" title="simplelogin multiple mailboxes">გაიგეთ
-    მეტი</a>.
-- title: კონფიდენციალურობა და უსაფრთხოება
-  desc: >
-    <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP) is
-    an encryption program that can encrypt your emails and let you communicate privately
-    online.">PGP</em>-სთან ერთად თქვენი ელფოსტა საფოსტო ყუთში გადაგზავნამდე თქვენი
-    საკუთარი PGP გასაღებით იშიფრება. მხოლოდ, თქვენ შეგიძლიათ, გაშიფროთ ისინი. მუშაობს
-    ძალიან კარგად Proton Mail-თან და PGP-ის პროგრამებთან ერთად (Thunderbird, GPGTols
-    და ა.შ.). <br><br>
-    იმისათვის, რომ თქვენი SimpleLogin-ის ანგარიში უკეთ დაიცვათ, შეგიძლიათ, 2FA ჩართოთ.<em
-    data-toggle="tooltip" data-html="true" title="TOTP (Time-based One-time Passwords)
-    is usually used with applications like Google Authenticator or Authy.">TOTP</em>-ის
-    ან/და<em data-toggle="tooltip" data-html="true" title="WebAuthn is usually used
-    with physical security keys like Yubikey, Google Titan, etc. Your phone and laptop
-    can also be used as a security key.">WebAuthn-ის (FIDO)</em> საშუალებით.
-- title: მეტი, ვიდრე (უბრალოდ) ფსევდონიმი
-  desc: >
-    SimpleLogin-ის ამბიციაა, რომ ფაქტი, რომ ის იცავს თქვენს ონლაინ-კონფიდენციალობას
-    და ელფოსტას, მხოლოდ, დასაწყისია. <br>მოგვყევით ისეთი მომავალი ფუნქციებისთვის,
-    როგორიცაა SSO, ტელეფონის ნომრისა და საკრედიტო ბარატის დაცვა.
+  - title: 100% ღია კოდი
+    desc: >
+      აგებულია ღია კოდის ტექნოლოგიაზე, <em data-toggle="tooltip" data-html="true"
+      title="Including the server, Chrome/Firefox/Safari extensions, Android/iOS apps.">ყველა</em>
+      SimpleLogin-ის კომპონენტიც ღია კოდითაა.<br>თქვენ არასდროს ანდობდით თქვენს ელფოსტას
+      გუდიან კაცს, ხომ?
+  - title: გააგზავნეთ ელფოსტები ფსევდონიმიდან
+    desc: >
+      ფსევდონიმს ელფოსტის არა, მხოლოდ, მიღება, არამედ <span class="highlight">გაგზავნაც</span>
+      შეუძლია. ფსევდონიმი სრულფასოვანი ელფოსტის მისამართია.
+  - title: ყველგან
+    desc: >
+      მართეთ თქვენი ფსევდონიმები SimpleLogin-ის ვებგვერდზე, ან ჩვენს <em data-toggle="tooltip"
+      data-html="true" title="And other chromium-based browsers like Edge, Opera,
+      Brave, etc">Chrome</em>-ის, Firefox-ის ან Safari-ის გაფართოებებით.<br>
+      ან თქვენს ტელეფონზე, Android (Play Store, F-Droid) და iOS-ის აპით.
+  - title: მომხმარებლის დომენი
+    desc: >
+      მოიტანეთ თქვენი დომენი და სხვა <em data-toggle="tooltip" data-html="true" title="Like
+      GSuite, Outlook or the ones sold by the domain registrars">ელფოსტის ჰოსტის</em>
+      შეძენა აღარ დაგჭირდებათ.
+      <br>
+      და იცოდით, რომ შეგიძლიათ, <em data-toggle="tooltip" data-html="true" title="By
+      enabling catch-all, you can create aliases on-the-fly: <b>anything@your-domain.com</b>
+      იქონიოთ: ის ავტომატურად შეიქმნება, როცა პირველად მიიღებს ელფოსტას.">catch-all</em>
+      ფსევდონიმით თქვენი დომენით?
+  - title: დაბალი ფასები
+    desc: >
+      ყველა SimpleLogin-ის ტარიფს აქვს <span class="highlight">უსასრულო</span> გადაგზავნა/გაგზავნების
+      და <span class="highlight">განუსაზღვრელი</span> გამტარობის რაოდენობა.<br>გააგზავნეთ
+      და მიიღეთ იმდენი ელფოსტა, რამდენიც გნებავთ.
+  - title: შექმენით ფსევდონიმები სურვილისამებრ, ქვედომენებით
+    desc: >
+      შექმენით თქვენი <em data-toggle="tooltip" data-html="true" title="Subdomain
+      is a great way to organize and create aliases on-the-fly. Just use <b>anything@your-subdomain.simplelogin.com</b>,
+      როცა სწრაფად გჭირდებათ ფსევდონიმი. ის შეიქმნება, როცა პირველ ელფოსტას, ">subdomain</em>
+      მიიღებს და გამოიყენეთ ის სწრაფად, SimpleLogin-ის ვების ან მობილური აპის გახსნის
+      გარეშე.<a href="/blog/subdomains/" title="simplelogin subdomains">გაიგეთ მეტი</a>.
+  - title: ერთზე მეტი საფოსტო ყუთი
+    desc: >
+      თუ უკვე გაქვთ რამდენიმე საფოსტო ყუთი, ეს ფუნქცია თქვენთვისაა: შეგიძლიათ, თქვენი
+      საფოსტო ყუთები SimpleLogin-ში დაამატოთ და აირჩიოთ, რომელს გამოიყენებთ, როცა
+      ფსევდონიმს შექმნით. <a href="/blog/introducing-mailbox/" title="simplelogin
+      multiple mailboxes">გაიგეთ მეტი</a>.
+  - title: კონფიდენციალურობა და უსაფრთხოება
+    desc: >
+      <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP)
+      is an encryption program that can encrypt your emails and let you communicate
+      privately online.">PGP</em>-სთან ერთად თქვენი ელფოსტა საფოსტო ყუთში გადაგზავნამდე
+      თქვენი საკუთარი PGP გასაღებით იშიფრება. მხოლოდ, თქვენ შეგიძლიათ, გაშიფროთ ისინი.
+      მუშაობს ძალიან კარგად Proton Mail-თან და PGP-ის პროგრამებთან ერთად (Thunderbird,
+      GPGTols და ა.შ.). <br><br>
+      იმისათვის, რომ თქვენი SimpleLogin-ის ანგარიში უკეთ დაიცვათ, შეგიძლიათ, 2FA ჩართოთ.<em
+      data-toggle="tooltip" data-html="true" title="TOTP (Time-based One-time Passwords)
+      is usually used with applications like Google Authenticator or Authy.">TOTP</em>-ის
+      ან/და<em data-toggle="tooltip" data-html="true" title="WebAuthn is usually used
+      with physical security keys like Yubikey, Google Titan, etc. Your phone and
+      laptop can also be used as a security key.">WebAuthn-ის (FIDO)</em> საშუალებით.
+  - title: მეტი, ვიდრე (უბრალოდ) ფსევდონიმი
+    desc: >
+      SimpleLogin-ის ამბიციაა, რომ ფაქტი, რომ ის იცავს თქვენს ონლაინ-კონფიდენციალობას
+      და ელფოსტას, მხოლოდ, დასაწყისია. <br>მოგვყევით ისეთი მომავალი ფუნქციებისთვის,
+      როგორიცაა SSO, ტელეფონის ნომრისა და საკრედიტო ბარატის დაცვა.
 
 

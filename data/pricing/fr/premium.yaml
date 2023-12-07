@@ -1,14 +1,14 @@
-- title: Tout ce qui est dans l'abonnement Free
-- title: Nombre illimité d'alias
-- title: Nombre illimité de domaines personnalisés
-  subtitle: Utilisez votre propre domaine pour créer des alias contact@votre-domaine.fr.
-- title: Domaine catch-all (ou wildcard)
-- title: Créer un nouveau message à partir de votre alias
-  subtitle: Vous pouvez créer un alias inversé pour envoyer un message à un nouveau
-    contact.
-- title: 5 sous-domaines <span class="badge badge-success">Nouveauté</span>
-- title: 50 répertoires/noms d'utilisateur
-- title: Nombre illimité de boites mail (véritables adresses e-mail)
-- title: Chiffrement PGP
+  - title: Tout ce qui est dans l'abonnement Free
+  - title: Nombre illimité d'alias
+  - title: Nombre illimité de domaines personnalisés
+    subtitle: Utilisez votre propre domaine pour créer des alias contact@votre-domaine.fr.
+  - title: Domaine catch-all (ou wildcard)
+  - title: Créer un nouveau message à partir de votre alias
+    subtitle: Vous pouvez créer un alias inversé pour envoyer un message à un nouveau
+      contact.
+  - title: 5 sous-domaines <span class="badge badge-success">Nouveauté</span>
+  - title: 50 répertoires/noms d'utilisateur
+  - title: Nombre illimité de boites mail
+  - title: Chiffrement PGP
 
 

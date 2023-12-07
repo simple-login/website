@@ -1,4 +1,3 @@
----
 baseURL: "https://simplelogin.io/"
 languageCode: "en-us"
 title: "SimpleLogin | Open source anonymous email service"
@@ -12,7 +11,7 @@ disableKinds:
 
 # and if you think your md file names or locations might change:
 permalinks:
-    post: "/blog/:title/"
+  post: "/blog/:title/"
 
 params:
   description: >
@@ -35,12 +34,32 @@ languages:
     weight: 1
 
   fr:
-    title: "SimpleLogin | Protéger votre vie privée avec les alias mail"
+    title: "SimpleLogin | Service de messagerie anonyme open source"
     languageName: "Français"
     languageCode: "fr"
     weight: 0
 
+    params:
+      description: >
+        Avec les alias d'adresse e-mail, vous pouvez garder votre anonymat en ligne
+        et protéger
+        votre boite de réception contre les messages de type indésirable/spam et phishing/hameçonnage.
   ka:
     languageName: "Ქართული"
     languageCode: "ka"
     weight: 0
+    title: SimpleLogin | ღია კოდის მქონე ანონიმური ელფოსტის სერვისი
+    params:
+      description: >
+        ელფოსტის მისამართებით თქვენ, ონლაინ, ანონიმური იქნებით და დაიცავთ თქვენს საფოსტო
+        ყუთს სპამისა და ფიშინგისგან.
+  es:
+    languageCode: es
+    languageName: Español (España)
+    weight: 0
+    title: SimpleLogin | Servicio de correo electrónico anónimo de código abierto
+    params:
+      description: >
+        Con alias de correo, puedes ser anónimo en línea y proteger tu buzón contra
+        el spam
+        y la suplantación de identidad.
