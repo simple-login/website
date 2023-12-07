@@ -38,4 +38,9 @@ languages:
     title: "SimpleLogin | Protéger votre vie privée avec les alias mail"
     languageName: "Français"
     languageCode: "fr"
-    weight: 2
+    weight: 0
+
+  ka:
+    languageName: "Ქართული"
+    languageCode: "ka"
+    weight: 0

@@ -1,6 +1,6 @@
 ---
 title: SimpleLogin | ბლოგი
 pageTitle: "SimpleLogin-ის ბლოგი"
-url: "/blog"
+url: "/ka/blog"
 ---
 
