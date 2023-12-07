@@ -134,7 +134,7 @@
 
     <div class="card-columns">
 
-      {{ with index site.Data.testimonial }}
+      {{ with index site.Data.testimonial site.Language.Lang  }}
         {{ $texts := .pricing }}
         {{range $index, $element := $texts}}
         <div class="card">
@@ -207,7 +207,7 @@
 
     <div>
       <div id="pricing-faq" class="w-lg-75 mx-lg-auto">
-        {{ with index site.Data.faq }}
+        {{ with index site.Data.faq site.Language.Lang }}
           {{ $texts := .pricing }}
           {{range $index, $element := $texts}}
 

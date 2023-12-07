@@ -359,7 +359,7 @@ app.use('/profile', (req, res) => {
       <!-- End Title -->
 
       <div id="developer-faq">
-        {{ with index site.Data.faq }}
+        {{ with index site.Data.faq site.Language.Lang }}
           {{ $texts := .developer }}
           {{range $index, $element := $texts}}
 
