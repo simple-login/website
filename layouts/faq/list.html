@@ -23,7 +23,7 @@
     <!-- End Title -->
 
     <div id="tech-faq">
-      {{ with index site.Data.faq }}
+      {{ with index site.Data.faq site.Language.Lang}}
         {{ $texts := .tech }}
         {{range $index, $element := $texts}}
 
@@ -123,7 +123,7 @@
     <!-- End Title -->
 
     <div id="developer-faq">
-      {{ with index site.Data.faq }}
+      {{ with index site.Data.faq site.Language.Lang}}
         {{ $texts := .developer }}
         {{range $index, $element := $texts}}
 
@@ -173,7 +173,7 @@
     <!-- End Title -->
 
     <div id="pricing-faq">
-      {{ with index site.Data.faq }}
+      {{ with index site.Data.faq site.Language.Lang}}
         {{ $texts := .pricing }}
         {{range $index, $element := $texts}}
 
