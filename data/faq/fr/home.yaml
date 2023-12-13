@@ -1,3 +1,12 @@
+- question: SimpleLogin est-il un fournisseur de messagerie jetable ?
+  answer: >
+  Non! SimpleLogin n'est pas un fournisseur de courrier jetable car
+  - Vous avez besoin d'un compte pour utiliser SimpleLogin
+  - Tous les alias générés sont uniques
+  - Plusieurs automatismes anti-abus
+  - Limitations anti-SPAM
+  - Tous les alias SimpleLogin sont permanents, jusqu'à ce que l'utilisateur décide de les supprimer.
+  - L'enregistrement de plusieurs comptes sur le même service par un seul utilisateur n'est pas autorisé [par les ToS] (https://simplelogin.io/terms/)
   - question: Qu'est-ce qu'un <b>alias d'adresse e-mail</b> ?
     answer: >
       Un alias d'adresse e-mail fonctionne de la même manière qu'un <a href="https://fr.wikipedia.org/wiki/Alias_%28adresse_%C3%A9lectronique%29">transfert
