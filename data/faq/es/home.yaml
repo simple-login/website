@@ -1,12 +1,3 @@
-- question: ¿Es SimpleLogin un proveedor de correo desechable?
-  answer: >
-  No. SimpleLogin <b>no</b> es correo desechable porque
-  - Necesitas una cuenta para usar SimpleLogin
-  - Todos los alias generados son únicos
-  - Automatización antiabuso múltiple
-  - Limitaciones antiSPAM
-  - Todos los alias de SimpleLogin son permanentes, hasta que el usuario decida eliminarlos.
-  - El registro de múltiples cuentas en el mismo servicio por un único usuario no está permitido [por ToS](https://simplelogin.io/terms/)
   - question: '¿Qué es exactamente un <b>alias de correo</b>?'
     answer: >
       Un alias de correo es similar a direcciones de <a href="https://en.wikipedia.org/wiki/Email_forwarding">reenvío</a>:
