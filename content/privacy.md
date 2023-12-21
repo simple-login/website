@@ -53,7 +53,7 @@ Our default practice is to not access your information. The only times we’ll e
 
 All data is encrypted via [SSL/TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) when transmitted from our servers to your browser. The database backups are also encrypted. Most data are not encrypted while they live in our database (since it needs to be ready to send to you when you need it), but we go to great lengths to secure your data at rest.
 
-Our servers are provided by [Proton](https://proton.me/), [UpCloud](http://upcloud.com) and [AWS](http://aws.amazon.com). We are using datacenters that are located in Germany, Switzerland, Netherlands and France.
+Our servers are provided by [Proton](https://proton.me/) and [UpCloud](http://upcloud.com). We are using datacenters that are located in Germany, Switzerland, Netherlands and France.
 
 For more information on our server security, you can consult our [security page](/security/).
 

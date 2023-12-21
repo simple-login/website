@@ -118,4 +118,4 @@ We take more than reasonable security measures such as using strong, unique, and
 
 Our database uses Postgresql to store and encrypt user data at rest and are backed up everyday. Backups older than 7 days are deleted. The database is only accessible from our mail and servers. Nobody but us has access to our database.
 
-For file storage we use [AWS S3](https://aws.amazon.com/s3/) which is used to store user profile pictures and temporary bounced emails. All bounced emails are deleted after 7 days.
+For file storage we use [UpCloud Object Storage](https://upcloud.com/products/object-storage) which is used to store user profile pictures and temporary bounced emails. All bounced emails are deleted after 7 days.
