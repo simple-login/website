@@ -9,6 +9,8 @@ Hi! Our [FAQ](/faq/) and [documentation](https://simplelogin.io/docs/) is a grea
 
 If you can’t find what you need there and if you have a SimpleLogin account, please contact us via our [support page](https://app.simplelogin.io/dashboard/support). You can also reach out to us by email at support@simplelogin.zendesk.com
 
+If you need help, feel free to join our official [forum](https://forum.simplelogin.io)
+
 If you want to report a bug in SimpleLogin applications, you can submit an issue on our different GitHub pages:
 
 - [WebApp](https://github.com/simple-login/app/issues) page for issues related to the web app.
