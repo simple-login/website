@@ -176,17 +176,19 @@ Could you guess what it does? 😊
 
 **Click it. Aaaaand... puff.**
 
-**Your email alias is gone**. Each service assigned to it will never be able to email you again, sell your address or market to you.
+**Your email alias is disabled**. Each service assigned to it will never be able to email you again, sell your address or market to you.
 
 🔥 In **ONE** click 🔥
 
 Would you agree **this is quicker than going through a multi-step unsubscribe process** and crossing your finger the provider will go through with their promise?
 
+By the way, you can re-enable aliases at any time. All aliases are permanent and can be re-activated until you decide to delete them.
+
 This also means **you don't have to worry about subscribing to many newsletters that will not interest you anymore** in the future.
 
 Get your freedom back... subscribe to whatever you want.
 
-Once you're done, filter through all your aliases, find the service you're not interested in anymore, and **kill the alias**.
+Once you're done, filter through all your aliases, find the service you're not interested in anymore, and **disable the alias**.
 
 It's that simple, no joke.
 
@@ -206,7 +208,7 @@ Receiving emails and promotions is like sex. It's good only if it's consensual.
 
 Look, we're a business, and we go through many hassles every single day to make sure our service is fast, responsive and worth your money (or time, if you stay with the free plan).
 
-**Our free plan gives you 10 aliases you can use and "kill" whenever you want. Easy.**
+**Our free plan gives you 10 aliases you can use and disable whenever you want. Easy.**
 
 If you need more, we offer a premium plan for $30 per year, with heavy discounts for families, students and non-profits.
 
