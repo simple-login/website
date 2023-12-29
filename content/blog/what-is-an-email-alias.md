@@ -182,7 +182,7 @@ Could you guess what it does? 😊
 
 Would you agree **this is quicker than going through a multi-step unsubscribe process** and crossing your finger the provider will go through with their promise?
 
-By the way, you can re-enable aliases at any time. All aliases are permanent and can be re-activated until you decide to delete them.
+By the way, you can re-enable aliases at any time. All of them are permanent and can be re-activated until you decide to delete them.
 
 This also means **you don't have to worry about subscribing to many newsletters that will not interest you anymore** in the future.
 
