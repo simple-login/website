@@ -6,13 +6,13 @@ description: "SimpleLogin Privacy Policy. The privacy of your data — and it is
 layout: "single_markdown"
 ---
 
-**Last updated: 2022-04-22**
+**Last updated: 2024-01-01**
 
 The privacy of your data — and it is your data, not ours! — is a big deal to us. In this policy, we lay out: what data we collect and why; how your data is handled; and your rights to your data.
 
-In the following policy, SimpleLogin refers to the service offered by SimpleLogin SAS (the "Company" or "We") through the https://simplelogin.io website (the "Service").
+In the following policy, SimpleLogin refers to the service offered by Proton AG (the "Company" or "We") through the https://simplelogin.io website (the "Service").
 
-The Company is registered in France under the SIREN number 884302134.
+The Company is registered in Switzerland under number CHE-354.686.492.
 
 By visiting our website and using the Service provided here, you agree to the terms outlined in this privacy policy.
 
@@ -45,7 +45,7 @@ Our default practice is to not access your information. The only times we’ll e
 
 - To investigate, prevent, or take action regarding restricted uses. Accessing a customer’s account when investigating potential abuse is a measure of last resort. We have an obligation to protect the privacy and safety of both our customers and the people reporting issues to us. We do our best to balance those responsibilities throughout the process. If we do discover you are using our products for a restricted purpose, we will report the incident to the appropriate authorities.
 
-- When required under applicable law. If the appropriate law enforcement authorities have the necessary warrant, criminal subpoena, or court order requiring we share data, we have to comply. And unless we’re legally prevented from it, we’ll always inform you when such requests are made. **We have never received a such request from the government**.
+- When required under applicable law. If the appropriate law enforcement authorities have the necessary warrant, or court order requiring we share data, we have to comply. And unless we’re legally prevented from it, we’ll always inform you when such requests are made.
 
 ---
 

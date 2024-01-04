@@ -6,9 +6,9 @@ description: "SimpleLogin Terms and Conditions. By using our Services, you are a
 layout: "single_markdown"
 ---
 
-**Last updated: 2022-12-30**
+**Last updated: 2024-01-01**
 
-Thanks for using our products and services ("Services"). The Services are provided by SimpleLogin, located at 147 BD Henri Sellier, 92150, France.
+Thanks for using our products and services ("Services"). The Services are provided by Proton AG, located at Route de la Galaise 32, 1228 Plan-les-Ouates.
 
 By using our Services, you are agreeing to these terms. Please read them carefully.
 
@@ -17,9 +17,11 @@ In the rare case that additional terms or product requirements (including age re
 ## 1. Using our services
 You must follow any policies made available to you within the Services.
 
-Don't misuse our Services. For example, don't interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. Any kind of reverse-engineering, without prior agreement, is prohibited. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations. We may suspend or stop providing our Services to you if you do not comply with our terms or policies or if we are investigating suspected misconduct.
+Don't misuse our Services. For example, don't interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. Any kind of reverse-engineering, without prior agreement, is prohibited. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations. 
 
 Do not use any resource created within the Services for illegal activity. Using SimpleLogin email alias on illegal website is therefore prohibited.
+
+We may suspend or stop providing our Services to you if you do not comply with our terms or policies or if we are investigating suspected misconduct.
 
 It is prohibited to use the Services to send spams, junk mail, bulk emails. It is also forbidden to use your aliases to forward spams from "spambots". Any activity that aims to deteriorate the Services email delivery capability is prohibited and can lead to immediate account suspension.
 
