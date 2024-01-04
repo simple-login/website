@@ -2,7 +2,7 @@
 <footer class="gradient-half-primary-v1" id="footer">
   <div class="container space-top-2 space-bottom-1">
     <div class="row justify-content-lg-start mb-7">
-      <div class="col-sm-7 col-lg-6">
+      <div class="col">
         <!-- Logo -->
         <a
           href='{{ cond (eq .Lang "en") "/" (print "/" .Lang "/") }}'
@@ -53,7 +53,7 @@
         <!-- End List Group -->
       </div>
 
-      <div class="col-sm-4 col-lg-2 mb-4">
+      <div class="col-sm-4 col-lg-3 mb-4">
         <h3 class="h6 text-white">Company</h3>
 
         <!-- List Group -->
@@ -70,39 +70,42 @@
         </ul>
 
         <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-          <li><a class="list-group-item list-group-item-action" href="/job/">{{ i18n "footer_join_us" }}</a></li>
-        </ul>
-
-        <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
           <li><a class="list-group-item list-group-item-action" href="/about/">{{ i18n "footer_about" }}</a></li>
         </ul>
-        <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-          <li><a class="list-group-item list-group-item-action"
-              href="https://github.com/simple-login/app/projects/1">Roadmap</a></li>
-        </ul>
+        
         <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
           <li><a class="list-group-item list-group-item-action"
               href="/contact/">{{ i18n "footer_contact" }}</a></li>
         </ul>
-        <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-          <li><a class="list-group-item list-group-item-action"
-              href="/imprint/">{{ i18n "footer_imprint" }}</a></li>
-        </ul>
+        
         <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
           <li><a class="list-group-item list-group-item-action"
               href="/press/">Press</a></li>
         </ul>
+
+        <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+          <li><a class="list-group-item list-group-item-action"
+              href="/terms/">Terms</a></li>
+        </ul>
+
+        <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+          <li><a class="list-group-item list-group-item-action"
+              href="/privacy/">Privacy</a></li>
+        </ul>
+
+        <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
+          <li><a class="list-group-item list-group-item-action"
+              href="/security/">Security</a></li>
+        </ul>
         <!-- End List Group -->
       </div>
 
-      <div class="col-sm-4 col-lg-2 mb-4">
+      <div class="col-sm-4 col-lg-3 mb-4">
         <h3 class="h6 text-white">Resources</h3>
 
         <!-- List Group -->
         <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-          <li><a class="list-group-item list-group-item-action" href="/terms/">Terms</a></li>
-          <li><a class="list-group-item list-group-item-action" href="/privacy/">Privacy</a></li>
-          <li><a class="list-group-item list-group-item-action" href="/security/">Security</a></li>
+          
           <li>
             <a class="list-group-item list-group-item-action"
               href='{{ cond (eq .Lang "en") "/faq/" (print "/" .Lang "/faq/") }}'>
@@ -118,22 +121,7 @@
         <!-- End List Group -->
       </div>
 
-      <div class="col-sm-4 col-lg-2 mb-4">
-        <h3 class="h6 text-white">Features</h3>
-
-        <!-- List Group -->
-        <ul class="list-group list-group-transparent list-group-white list-group-flush list-group-borderless mb-0">
-          <li><a class="list-group-item list-group-item-action" href="/anti-spam/">Anti-Spam filter</a></li>
-          <li><a class="list-group-item list-group-item-action" href="/email-forwarding/">Email forwarding</a></li>
-          <li><a class="list-group-item list-group-item-action" href="/email-relay/">Email relay</a></li>
-          <li><a class="list-group-item list-group-item-action" href="/blog/email-alias-vs-plus-sign/">vs Plus Sign (+) Trick </a></li>
-          <li><a class="list-group-item list-group-item-action" href="/blog/vs-firefox-relay/">vs Firefox Relay</a></li>
-          <li><a class="list-group-item list-group-item-action" href="/vs-apple-hide-my-email/">vs Hide My Email</a></li>
-        </ul>
-        <!-- End List Group -->
-      </div>
-
-      <div class="col-sm-4 col-lg-2 mb-4">
+      <div class="col-sm-4 col-lg-3 mb-4">
         <h3 class="h6 text-white">Downloads</h3>
 
         <!-- List Group -->
