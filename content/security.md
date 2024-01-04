@@ -109,6 +109,7 @@ We again, also implement the following additional measures in conjunction with S
 - [Expect CT](https://tools.ietf.org/html/rfc6962)
 - [X-Frame-Options](https://tools.ietf.org/html/rfc7034)
 - [XSS Protection](https://en.wikipedia.org/wiki/Cross-site_scripting)
+- [CSRF Protection](https://en.wikipedia.org/wiki/Cross-site_request_forgery)
 
 We take more than reasonable security measures such as using strong, unique, and long passwords, two-factor authentication, and a whitelist of people who can deploy changes to our servers.
 
