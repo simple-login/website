@@ -7,8 +7,7 @@
 
 - title: Send emails from alias
   desc: >
-    Not only can an alias receive emails, it can also <span class="highlight">send</span> emails. An alias is a full-fledged email
-            address.
+    Not only can an alias receive emails, it can also <span class="highlight"><a href="https://simplelogin.io/docs/getting-started/send-email/" target="_blank">send</a></span> emails. An alias is a full-fledged email address.
 
 - title: Everywhere
   desc: >
@@ -28,6 +27,10 @@
     And do you know that you can have <em data-toggle="tooltip" data-html="true"
       title="By enabling catch-all, you can create aliases on-the-fly: <b>anything@your-domain.com</b> will be automatically created the first time it receives an email.">catch-all</em>
     alias with your domain?
+
+- title: Custom subdomains
+  desc: >
+    If you don't have personal domain, you can use our <a href="https://simplelogin.io/docs/subdomain/new/">subdomain feature</a>.
 
 - title: Generous pricing
   desc: >

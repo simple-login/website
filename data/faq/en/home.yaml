@@ -93,9 +93,14 @@
     As you might have probably guessed, you can then use SimpleLogin to manage your <em>business emails</em> instead paying for an expensive solution like Google Workspace. <br>
     All our business emails (e.g. <b>contact@simplelogin.io</b>) are actually aliases 🤫
 
+- question: What is our <b>subdomain</b> feature?
+  answer: >
+    Having a subdomain allows you to quickly create aliases on the fly, without having personal domain.
+    For example, if you own the subdomain <span class="highlight">my-sub.aleeas.com</span>, you can make up an alias like <span class="highlight">mcdonald@my-sub.aleeas.com</span> when you are ordering a McDonald burger without opening SimpleLogin app.
+
 - question: I can't find an answer to my question here
   answer: >
     You can find the list of all frequent question/answer on the <a href="/faq/">FAQ page</a>. <br>
     If you don't find the answer there, please send your question to <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>. <br>
-    You can also create an issue on our <a href="https://github.com/simple-login/app/issues">GitHub Issues</a>.
+    You can also create an issue on our <a href="https://forum.simplelogin.io/">official forum</a>.
 
