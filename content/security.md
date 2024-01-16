@@ -102,7 +102,7 @@ All of the data in transit between SimpleLogin servers and end users are encrypt
 We again, also implement the following additional measures in conjunction with SSL/TLS encryption:
 
 - Versions we only support: TLS v1.2 and v1.3. TLS v1.3 supports [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy).
-- [DANE](https://tools.ietf.org/id/draft-ietf-dane-ops-02.html)
+- [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities)
 - [HSTS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
 - [CSP](https://en.wikipedia.org/wiki/Content_Security_Policy)
 - [SRI](https://en.wikipedia.org/wiki/Subresource_Integrity)
