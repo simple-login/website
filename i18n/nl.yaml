@@ -1,0 +1,72 @@
+header_login: Inloggen #header
+header_signup: Registreren
+header_pricing: Prijzen
+hero: Ontvang en verzend e-mails anoniem #hero section
+hero_desc: >
+  Met  <em data-toggle="tooltip" data-html="true" title="Een e-mail alias (of in het kort alias) is een e-mailadres dat <b>geen e-mails opslaat</b>: alle e-mails die verzonden worden naar een alias worden doorgestuurd naar uw persoonlijke e-mail .">e-mail aliassen</em>, kunt u anoniem online zijn en uw postvak beschermen tegen spam en phishing. <a href="https://github.com/simple-login/">Open source</a>. Gemaakt en gehost in Europa.
+hero_cta: >
+
+hero_button_underline: <b>800 000+</b> aliassen aangemaakt.
+seen_on: Aanbevolen door
+how_it_work_title: Hoe werkt E-mail Alias? #how it work section
+how_it_work_desc: Scherm uw postvak af met e-mail aliassen.
+how_it_work_1_title: Gebruik E-mail Alias overal
+how_it_work_1_subtitle: >
+  De volgende keer dat een website naar uw e-mailadres vraagt, geef dan een alias op <span class="bigger">in plaats van</span> uw echte e-mail.
+how_it_work_2_title: Ontvang e-mails veilig in uw postvak.
+how_it_work_2_subtitle: >
+  E-mails verzonden naar een alias worden <span class="bigger">direct doorgestuurd</span> naar uw postvak zonder dat de verzender dit weet. <br>
+how_it_work_3_title: Verzend e-mails anoniem
+how_it_work_3_subtitle: >
+  Klik eenvoudig op "Antwoorden" als u wilt antwoorden op een doorgestuurde e-mail: het antwoord wordt verzonden vanuit uw alias en uw echte e-mailadres blijft verborgen. <br> U kunt ook eenvoudig e-mails <span class="bigger">verzenden</span> vanuit uw alias.
+everywhere_title: Creëer en beheer uw aliassen overal #available everywhere section
+everywhere_subtitle: Maak per direct een alias. Schrijf in voor een nieuwsbrief, creëer een nieuwe online account met een klik.
+alias_new_email_title: Alias is het nieuwe e-mailadres #Alias is the new email address Section
+alias_new_email_a_title: A. Vervang e-mail overal door alias
+alias_new_email_a_text_1: Abonneer op mailing lijsten, creëer nieuwe online accounts met e-mail alias.
+alias_new_email_a_text_2: U kunt later simpelweg een alias <span class="highlight">blokkeren</span> als het teveel spam bevat.
+alias_new_email_b_title: B. Zend e-mails vanuit alias
+alias_new_email_b_text_1: >
+  Klik eenvoudig op "Antwoorden" wanneer u dient te antwoorden op een doorgestuurde e-mail: het antwoord <span class="highlight">komt vanaf</span> de alias en uw persoonlijke mailbox blijft verborgen.
+alias_new_email_b_text_2: >
+  U kunt ook <em data-toggle="tooltip" data-html="true" title="<b>Normale</b> e-mail alias zoals de <b>+ trick </b> werkt gewoonlijk in één richting: u kunt enkel e-mails ontvangen. <br>In SimpleLogin, kunt u eenvoudig e-mails antwoorden/verzenden vanuit uw alias.">verzend</em> e-mails naar ieder willekeurig e-mailadres vanuit uw alias.
+alias_new_email_c_title: C. Werk met uw bedrijf met alias
+alias_new_email_c_text_1: Gebruik alias als uw <span class="highlight">zakelijke e-mail</span>.
+alias_new_email_c_text_2: >
+  Bespaar € 6/maand
+  <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true" title='GSuite starts at $6/month per user.'></i> voor elke zakelijke e-mail gecreëerd met SimpleLogin.
+alias_new_email_c_text_3: 50+ en stijgende aantal bedrijven vertrouwen SimpleLogin om hun e-mails te verwerken.
+testimonial_title: E-mailaliassen geliefd door gebruikers #Testimonials Section
+feature_title: Privacy, beveiliging en functies waar u van houdt #Features section
+feature_subtitle: SimpleLogin is de meest geavanceerde e-mailalias oplossing.
+faq_title: Veelgestelde vragen #FAQ section
+faq_subtitle: Hulp
+ready_get_started: Bent u er klaar voor?
+ready_get_started_cta: >
+
+cta_2_title: Sluit u aan bij meer dan 50 000 mensen die hun postvak en privacy beschermen.
+cta_2_button: >
+
+partner_title: Onze partners
+footer_1: SimpleLogin is een <a href="https://github.com/simple-login">open source</a> <b>e-mail alias</b> oplossing om uw e-mailadres te beschermen. #footer
+footer_3: SimpleLogin is een product van SimpleLogin SAS, geregistreerd in Frankrijk onder SIREN nummer 884302134. SimpleLogin SAS is onderdeel van <a href="https://proton.me">Proton AG</a>.
+footer_pricing: Prijzen
+footer_about: Over ons
+footer_contact: Contacteer ons
+footer_imprint: Colofon
+footer_join_us: Sluit u aan bij ons
+pricing_title: Prijzen #pricing
+pricing_subtitle: >
+  SimpleLogin is <a href="https://github.com/simple-login">open source</a>, kan zelf gehost worden en is 100% gefinancierd door de community. We gebruiken niet uw data, volgen u niet en tonen u geen advertenties. SimpleLogin is afhankelijk van uw ondersteuning om de dienst draaiende te houden en nieuwe functies te ontwikkelen.
+pricing_free_title: Gratis
+pricing_premium_title: Premium
+pricing_free_cta: Registreren
+pricing_premium_cta: Begin met het beschermen van uw e-mails.
+pricing_what_people_say: Wat mensen zeggen over SimpleLogin
+pricing_premium_yearly_price: '€ 30'
+pricing_premium_yearly_year: jaar
+pricing_premium_monthly_price: of € 4 maandelijks gefactureerd
+faq_tech_question: Technische vragen #<<< FAQ page >>>
+faq_general_question: Algemene vragen
+faq_developer_question: Partner/Ontwikkelaar vragen
+faq_pricing_question: Abonnement/Prijs vragen

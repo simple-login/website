@@ -63,3 +63,159 @@ languages:
         Con alias de correo, puedes ser anónimo en línea y proteger tu buzón contra
         el spam
         y la suplantación de identidad.
+  de:
+    languageCode: de
+    languageName: Deutsch
+    weight: 0
+    title: SimpleLogin | Quelloffener anonymer E-Mail-Dienst
+    params:
+      description: >
+        Mit E-Mail-Aliassen kannst du online anonym bleiben und deinen Posteingang
+        vor Spam
+        und Phishing schützen.
+  es-419:
+    languageCode: es-419
+    languageName: Español (Latinoamérica)
+    weight: 0
+    title: SimpleLogin | Servicio de correo electrónico anónimo de código abierto
+    params:
+      description: >
+        Con alias de correo, puede ser anónimo en línea y proteger su buzón contra
+        el spam
+        y la suplantación de identidad.
+  it:
+    languageCode: it
+    languageName: Italiano
+    weight: 0
+    title: SimpleLogin | Servizio di posta elettronica anonima open source
+    params:
+      description: >
+        Con gli alias email puoi essere anonimo online e puoi proteggere la tua posta
+        in
+        arrivo da spam e phishing.
+  nl:
+    languageCode: nl
+    languageName: Nederlands
+    weight: 0
+    title: SimpleLogin | Open source anonieme e-maildienst
+    params:
+      description: >
+        Met e-mailaliassen kan u online anoniem zijn en uw postvak beschermen tegen
+        spam
+        en phishing.
+  pt-BR:
+    languageCode: pt-BR
+    languageName: Português (Brasil)
+    weight: 0
+    title: SimpleLogin | Serviço de e-mail anônimo de código aberto
+    params:
+      description: >
+        Com aliases de e-mail, você pode permanecer anônimo on-line e proteger sua
+        caixa
+        de entrada contra spam e phishing.
+  tr:
+    languageCode: tr
+    languageName: Türkçe
+    weight: 0
+    title: SimpleLogin | Açık kaynaklı anonim e-posta hizmeti
+    params:
+      description: >
+        E-posta takma adları ile çevrim içinde anonim kalabilir, gelen kutunuzu istenmeyen
+        ve kimlik avı e-postalarından koruyabilirsiniz.
+  be:
+    languageCode: be
+    languageName: Беларуская
+    weight: 0
+    title: SimpleLogin | Ананімны сэрвіс электроннай пошты з адкрытым зыходным кодам
+    params:
+      description: >
+        З псеўданімамі электроннай пошты, вы можаце заставацца ананімнымі ў інтэрнэце
+        і
+        абараняць сваю паштовую скрыню ад спама і фішынга.
+  cs:
+    languageCode: cs
+    languageName: Čeština
+    weight: 0
+    title: SimpleLogin | Anonymní e-mailová služba s otevřeným zdrojovým kódem
+    params:
+      description: >
+        Pomocí e-mailových aliasů můžete být anonymní online a chránit svou e-mailovou
+        schránku
+        před spamem a phishingem.
+  da:
+    languageCode: da
+    languageName: Dansk
+    weight: 0
+    title: SimpleLogin | Open source anonym e-mailtjeneste
+    params:
+      description: >
+        Med e-mail-aliasser, kan du være anonym online og beskytte din indbakke mod
+        spam
+        og phishing.
+  el:
+    languageCode: el
+    languageName: Ελληνικά
+    weight: 0
+    title: SimpleLogin | Υπηρεσία ανώνυμου ηλεκτρονικού ταχυδρομείου ανοιχτού κώδικα
+    params:
+      description: >
+        Με τα ψευδώνυμα ηλεκτρονικού ταχυδρομείου, μπορείτε να είστε ανώνυμοι στο
+        διαδίκτυο
+        και να προστατεύετε τα εισερχόμενά σας από ανεπιθύμητα μηνύματα και ηλεκτρονικό
+        ψάρεμα.
+  ko:
+    languageCode: ko
+    languageName: 한국어
+    weight: 0
+    title: SimpleLogin | 오픈소스 익명 이메일 서비스
+    params:
+      description: >
+        이메일 별명으로, 온라인에서 익명을 유지하고 피싱과 스팸 없는 깨끗한 편지함을 유지할 수 있어요.
+  id:
+    languageCode: id
+    languageName: Bahasa (Indonesia)
+    weight: 0
+    title: SimpleLogin | Layanan surel anonim bersumber terbuka
+    params:
+      description: >
+        Dengan alias surel, Anda dapat menjadi anonim secara daring dan lindungi kotak
+        masuk
+        Anda dari spam dan phishing.
+  ja:
+    languageCode: ja
+    languageName: 日本語
+    weight: 0
+    title: SimpleLogin | オープンソースの匿名メール サービス
+    params:
+      description: >
+        電子メール エイリアスを使用すると、オンラインで匿名になり、スパムやフィッシングから受信トレイを保護できます。
+  ro:
+    languageCode: ro
+    languageName: Română
+    weight: 0
+    title: SimpleLogin | Serviciu de e-mail anonim cu sursa publică
+    params:
+      description: >
+        Cu aliasurile de e-mail, vă păstrați anonimitatea online și vă puteți proteja
+        adresa
+        reală de e-mail împotriva mesajelor abuzive sau înșelătoare.
+  sk:
+    languageCode: sk
+    languageName: Slovenčina
+    weight: 0
+    title: SimpleLogin | Open source anonymná emailová služba
+    params:
+      description: >
+        Pomocou emailových aliasov môžete v online svete zostať v anonymite a chrániť
+        tak
+        svoju schránku pred spamom a phishingom.
+  nb:
+    languageCode: nb
+    languageName: Norsk bokmål
+    weight: 0
+    title: SimpleLogin | Anonym e-posttjeneste med åpen kildekode
+    params:
+      description: >
+        Med e-postaliaser kan du være anonym på nettet og beskytte innboksen din mot
+        søppelpost
+        og nettfisking.

@@ -1,0 +1,34 @@
+  - question: Jaká je maximální velikost e-mailu?
+    answer: >
+      Aktuální limit je 25 MB. V případě velkých příloh doporučujeme použít službu
+      pro odesílání souborů a místo toho odeslat odkaz. Některé služby pro sdílení
+      souborů, které respektují naše soukromí, najdete v <a href="https://www.privacyguides.org/file-sharing/">Příručce
+      soukromím</a> <br> Dalším důvodem tohoto omezení je, že PGP šifrování je náročný
+      proces a podpora větší velikosti značně zatěžuje servery SimpleLogin.
+  - question: Omylem jsem smazal/a alias, mohu ho obnovit?
+    answer: >
+      Když je alias odstraněn, je uložen do globálního <b>koše</b> a my zajistíme,
+      aby nemohl být znovu použit. Všechny historické informace o aliasu (účet, který
+      alias vytvořil, aliasy kontaktů atd.) jsou smazány, aby bylo respektováno vaše
+      soukromí. <br> To platí pro všechny aliasy vytvořené pomocí domén SimpleLogin.
+      <br> Můžete však obnovit alias vytvořený s vlastní doménou.
+  - question: Kde jsou klíče PGP SimpleLogin?
+    answer: >
+      Naše klíče PGP najdete na stránce <a href="/pgp-key">Klíče PGP</a>.
+      Pokud povolíte PGP, budou všechny e-maily podepsány klíčem <b>signer@simplelogin.io</b>.
+  - question: Jak mohu smazat svůj účet?
+    answer: >
+      V dolní části <a href="https://app.simplelogin.io/dashboard/setting">stránky
+      Nastavení</a> můžete svůj účet smazat. Tato operace je nevratná a nemáme možnost
+      vaše data obnovit.
+  - question: Mohu používat e-mailové aliasy pro důležité služby, jako jsou banky,
+      úřady atd.?
+    answer: >
+      Stručná odpověď zní: ano, můžete. Používáme e-mailové aliasy pro firemní účely,
+      správu daní i pro bankovní operace a zatím je vše v pořádku :). <br> Delší odpověď
+      zní: E-mailový protokol je navržen tak, aby byl vysoce odolný a téměř nikdy
+      nedojde ke ztrátě e-mailu. Pokud se společnosti SimpleLogin nepodaří doručit
+      e-mail do vaší schránky, upozorníme vás na to, abyste mohli podniknout příslušné
+      kroky.   Kromě primární poštovní schránky si můžete nastavit i sekundární schránku,
+      která může sloužit jako záloha.
+

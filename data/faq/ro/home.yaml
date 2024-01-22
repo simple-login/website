@@ -1,0 +1,128 @@
+  - question: Ce este mai exact un <b>alias de e-mail</b>?
+    answer: >
+      Aliasul de e-mail este similară cu <a href="https://en.wikipedia.org/wiki/Email_forwarding">redirecționare</a>
+      adresei de e-mail: toate mesajele trimise către un alias vor fi redirecționate
+      către adresa reală de e-mail. <br> Datorită tehnologiei SimpleLogin, puteți
+      și trimite mesaje <b>de la</b> un alias. <br> Pentru destinatar, aliasul este,
+      prin urmare, adresa dvs. de e-mail. Mai multe informații despre aliasul de e-mail
+      la <a href="/blog/what-is-an-email-alias/">Ce este un alias de e-mail</a>.
+  - question: Pot folosi opțiunea cu semnul plus (+) pentru a crea adrese de e-mail
+      nelimitate, de ce aș avea nevoie de SimpleLogin?
+    answer: >
+      Subadresarea de e-mail, cunoscută și sub numele de trucul cu plus (+), popularizat
+      de Gmail și susținut de unele servicii de e-mail, vă permite să creați adrese
+      noi de e-mail adăugând „+” la adresa de e-mail curentă. Presupunând că aveți
+      adresa nume@proton.me, puteți crea rapid o altă adresă, cum ar fi nume+facebook@proton.me
+      pentru Facebook, nume+groupon@proton.me pentru Groupon etc. <br>Deși practic,
+      aceasta are câteva dezavantaje: <br>
+      - Nu puteți răspunde de la adresa cu „+”: adresa reală de e-mail va apărea ca
+      expeditor. <br>
+      - Trucul cu „+” este binecunoscut și unele site-uri web nu permit înscrieri
+      cu adrese de e-mail care conțin caracterul „+”. <br>
+      - Utilizarea trucului cu „+” nu vă protejează confidențialitatea: puteți elimina
+      cu ușurință partea de după „+” pentru a ști adresa de e-mailul reală. Dacă adresa
+      cu „+” este în lista de adrese divulgate, atunci adresa reală este probabil
+      și ea în mâinile abuzatorilor de mesaje. Puteți verifica dacă adresa de e-mail
+      a fost divulgată folosind site-uri web cum ar fi <a href="https://haveibeenpwned.com">Have
+      I Been Pwned</a> <br>
+      - Prin eliminarea părții „+”, agenții de publicitate pot corela aceste adrese
+      „+” împreună pentru a vă afla istoricul de navigare. <br><br>
+      Aliasurile SimpleLogin nu au niciunul dintre aceste dezavantaje. Puteți citi
+      mai multe despre avantajele și dezavantajele utilizării trucului cu „+” pe <a
+      href="/blog/email-alias-vs-plus-sign/">Ce face ca aliasul de e-mail să fie o
+      alternativă mai bună la adresa de e-mail cu plus  (+)</a>.
+  - question: Care este diferența dintre SimpleLogin și alte servicii de redirecționare
+      a adreselor de e-mail?
+    answer: >
+      SimpleLogin este cea mai avansată soluție de alias de e-mail și se află în dezvoltare
+      activă. Iată câteva diferențe între SimpleLogin și alte servicii de redirecționare/alias
+      de e-mail: <br><br>
+      <ul> <li>Are sursa publică în întregime: atât serverul SimpleLogin, cât și codul
+      client (extensie de navigator, bibliotecă JS, aplicații mobile) au <a href="https://github.com/simple-login/app">sursa
+      publică</a>, astfel încât oricine poate inspecta și îmbunătăți liber codul.
+      </li> <li>Acoperă toate platformele majore: extensie Chrome/Firefox/Safari pentru
+      desktop, aplicații iOS și Android pentru mobile. </li>
+      <li>Singura soluție de redirecționare a e-mailurilor care poate fi <em>autogăzduită</em>,
+      adică puteți rula SimpleLogin pe serverul personal. Cu instrucțiunile noastre
+      detaliate de auto-găzduire și cu majoritatea componentelor care rulează în container
+      Docker, oricine cunoaște ssh poate implementa SimpleLogin pe serverul său.</li>
+      <li>Puteți trimite/răspunde la e-mailuri de la alias. Nu există limite pentru
+      numărul de trimiteri/răspunsuri</li>
+      <li>Lățime de bandă nelimitată.</li>
+      <li>Fără reclame, fără instrumente de urmărire.</li>
+      <li>Nu doar alias de e-mail: SimpleLogin este, de asemenea, un <em>furnizor
+      de identitate</em> orientat spre confidențialitate și prietenos cu dezvoltatorii,
+      care: <br> - respectă confidențialitatea utilizatorului <br> - este ușor de
+      utilizat pentru dezvoltatori. <br>
+      SimpleLogin oferă o alternativă axată pe confidențialitate la butoanele „Conectați-vă
+      cu Facebook/Google/Apple”. </li>
+
+      <li>O mulțime de funcții: extensie de navigator web, domeniu personal, alias
+      general, biblioteci OAuth etc. și multe altele care urmează.</li>
+      <li>Deschideți foaia de parcurs de la <a href="https://github.com/simple-login/app/projects/1">GitHub</a>:
+      aflați funcțiile interesante la care lucrăm.</li> </ul>
+  - question: Cât de diferit este SimpleLogin față de serviciile temporare de e-mail?
+    answer: >
+      Aliasurile SimpleLogin sunt permanente, spre deosebire de adresele de e-mail
+      temporare create pe servicii precum <a href="https://temp-mail.org/en/">temp-mail.org</a>,
+      <a href="https://10minutemail.net">10minutemail.net</a> etc. <br> De asemenea,
+      SimpleLogin nu stochează mesajele, acestea sunt stocate în adresa reală de e-mail.
+      <br> SimpleLogin este pur și simplu un produs diferit pentru o nevoie diferită.
+  - question: Care este modelul de afaceri al SimpleLogin?
+    answer: Venitul nostru provine doar din abonamente, ceea ce înseamnă că produsul
+      va rămâne fără reclame pentru totdeauna.
+  - question: Ce este funcția <b>folder alias</b> sau <b>colectare toate</b>?
+    answer: >
+      Aceste două funcții vă permit să creați un alias <em>din mers</em>, ceea ce
+      înseamnă că nu trebuie să deschideți SimpleLogin pentru a crea un nou alias.
+      <br> Activarea funcției <b>colectare toate</b> pe domeniul personal vă permite
+      să utilizați <em>ORICE@domeniul-meu.com</em> ca alias cu <b>ORICE</b> fiind
+      orice cuvânt. Singura limită este că trebuie să aibă mai puțin de 128 de caractere.
+      <br>
+      <b>Folderul alias</b> este similar cu funcția „colectare toate”, putând utiliza
+      <em>folder_personal+ORICE@simplelogin.co</em> ca și alias. <b>folder_personal</b>
+      este numele folderului pe care l-ați creat.
+  - question: Am primit un e-mail redirecționat către e-mailul meu personal de la
+      un alias. Cum pot răspunde la acel e-mail? Trebuie să merg la SimpleLogin pentru
+      a iniția răspunsul?
+    answer: >
+      Puteți răspunde direct de la clientul de e-mail. Doar faceți clic pe butonul
+      „Răspunde”, iar răspunsul va fi direcționat prin SimpleLogin și SimpleLogin
+      îl va face să provină de la aliasul atribuit. Adresa de e-mail personală reală
+      va rămâne invizibilă pentru expeditorul inițial. <br><br> Din punct de vedere
+      tehnic, antetul <b>De la</b> din e-mail este înlocuit cu un alias special generat
+      dinamic pentru fiecare expeditor. Când răspundeți, răspunsul vă este trimis
+      de fapt către acest alias special și SimpleLogin va transmite răspunsul mai
+      departe către expeditor, asigurându-vă că e-mailul este trimis de la aliasul
+      personal. Toate informațiile despre adresa de e-mail personală sunt șterse în
+      timpul acestui proces.
+  - question: Ce este un <b>alias inversat</b>?
+    answer: >
+      Un alias invers este un alias <b>special</b> care vă permite să trimiteți un
+      e-mail <b>de la aliasul personal</b>. <br> Este creat un alias invers pentru
+      fiecare alias de la care doriți să trimiteți e-mailuri și pentru fiecare contact
+      la care doriți să trimiteți e-mailuri. <br> Când trimiteți un e-mail către un
+      alias invers din e-mailul personal, e-mailul va fi trimis din alias către persoana
+      de contact.
+  - question: Este un alias de e-mail permanent?
+    answer: Ca și o adresă de e-mail normală, un alias de e-mail este permanent, cu
+      excepția cazului în care îl ștergeți.
+  - question: Unde se află serverele SimpleLogin?
+    answer: Folosim servere de la Proton și UpCloud - un furnizor de cloud cu sediul
+      în Finlanda.
+  - question: Ce este funcția <b>domeniu personal</b>?
+    answer: >
+      Vă puteți aduce propriile domenii în SimpleLogin și puteți crea aliasuri precum
+      <b>contact@domeniul-meu.com</b>, <b>salut@domeniul-tau.com</b>. <br> După cum
+      probabil ați ghicit, apoi puteți utiliza SimpleLogin pentru a vă gestiona <em>mesajele
+      de afaceri</em>, în loc să plătiți pentru o soluție costisitoare precum Google
+      Workspace. <br> Toate adresele noastre de afaceri (de exemplu, <b>contact@simplelogin.io</b>)
+      sunt de fapt pseudonime. 🤫
+  - question: Nu găsesc un răspuns la întrebarea mea aici
+    answer: >
+      Puteți găsi lista cu toate întrebările/răspunsurile frecvente pe pagina de &lt;a
+      href=&quot;/faq/&quot;&gt;Întrebări frecvente&lt;/a&gt;. &lt;br&gt; Dacă nu
+      găsiți răspunsul acolo, puteți trimite întrebarea la &lt;a href=&quot;mailto:support@simplelogin.zendesk.com&quot;&gt;support@simplelogin.zendesk.com&lt;/a&gt;.
+      &lt;br&gt; De asemenea, puteți crea o solicitare în &lt;a href=&quot;https://github.com/simple-login/app/issues&quot;&gt;Probleme
+      GitHub&lt;/a&gt;.
+

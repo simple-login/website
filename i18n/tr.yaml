@@ -1,0 +1,72 @@
+header_login: Oturum aç #header
+header_signup: Hesap aç
+header_pricing: Ücretler
+hero: E-postaları anonim olarak gönderip alın #hero section
+hero_desc: >
+  <em data-toggle="tooltip" data-html="true" title="Bir e-posta takma adı (ya da kısaca takma ad) e-postaları <b>saklamayan</b> bir e-posta adresidir. Bir takma ada gönderilen tüm e-postalar kişisel e-postanıza iletilir.">E-posta takma adları</em>, çevrim içi anonim olabilir ve gelen kutunuzu istenmeyen e-posta ve oltalama saldırılarına karşı koruyabilirsiniz. <a href="https://github.com/simple-login/">Açık kaynaklı</a>. Avrupa'da geliştirildi ve barındırılıyor.
+hero_cta: >
+
+hero_button_underline: <b>800,000 üzerinde</b> takma ad oluşturuldu.
+seen_on: Önerenler
+how_it_work_title: E-posta takma adı nasıl çalışır? #how it work section
+how_it_work_desc: Gelen kutunuzu e-posta takma adları ile koruyun.
+how_it_work_1_title: Her yerde e-posta takma adı kullanın
+how_it_work_1_subtitle: >
+  Bir dahaki sefere bir site e-posta adresinizi istediğinde, gerçek e-posta adresinizin <span class="bigger">yerine</span> bir takma ad verin.
+how_it_work_2_title: E-postaları gelen kutunuza güvenle alın.
+how_it_work_2_subtitle: >
+  Bir takma ada gönderilen e-postalar, gönderici hiçbir şey bilmeden <span class="bigger">anında gelen kutunuza iletilir</span>. <br>
+how_it_work_3_title: Anonim e-posta gönderin
+how_it_work_3_subtitle: >
+  İletilen bir e-postayı yanıtlamak istiyorsanız "Yanıtla" üzerine basmanız yeterlidir: Yanıt, e-posta takma adınızdan gönderilir ve gerçek e-posta adresiniz gizli kalır. <br> Takma adınızdan kolayca e-posta <span class="bigger">gönderebilirsiniz</span>.
+everywhere_title: Her yer için takma adlar oluşturun ve yönetin #available everywhere section
+everywhere_subtitle: Bir bültene abone olurken ya da bir tıklama ile yeni bir çevrim içi hesap oluştururken olduğu gibi gerektiği anda hızla bir takma ad oluşturun.
+alias_new_email_title: Takma ad yeni e-posta adresidir #Alias is the new email address Section
+alias_new_email_a_title: A. Her yerde e-posta yerine takma adı kullanın
+alias_new_email_a_text_1: E-posta listelerine abone olun, e-posta takma adıyla yeni çevrim içi hesaplar oluşturun.
+alias_new_email_a_text_2: Daha sonra bir takma ad çok fazla istenmeyen e-posta almaya başlarsa kolayca <span class="highlight">engelleyin</span>.
+alias_new_email_b_title: B. Takma ad üzerinden e-postalar gönderin
+alias_new_email_b_text_1: >
+  İletilen bir e-postayı yanıtlamanız gerektiğinde "Yanıtla" üzerine basmanız yeterlidir: Yanıt takma addan <span class="highlight">gönderilir</span> ve kişisel e-posta kutunuz gizli kalır.
+alias_new_email_b_text_2: >
+  <em data-toggle="tooltip" data-html="true" title="<b>Normal</b> e-posta adresinizle, <b>+ kullanım </b> gibi bir biçimde bir takma ad oluşturabilirsiniz. Ancak bu biçim genellikle tek bir şekilde çalışır: E-postaları yalnızca alabilir. <br>SimpleLogin üzerinde, takma adınızdan herhangi bir e-posta adresine kolayca yanıt verebilir ve e-posta gönderebilirsiniz.">gönderebilirsiniz</em>.
+alias_new_email_c_title: C. İşiniz için takma ad kullanın
+alias_new_email_c_text_1: Takma adı <span class="highlight">iş e-posta adresiniz</span> olarak kullanın.
+alias_new_email_c_text_2: >
+  SimpleLogin ile oluşturulan her iş e-posta adresi için aylık $6 indirim kazanın.
+  <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true" title='GSuite starts at $6/month per user.'></i>.
+alias_new_email_c_text_3: 50 üzerindeki işletme e-postaları için SimpleLogin kullanıyor.
+testimonial_title: Kullanıcıların sevdiği e-posta takma adı #Testimonials Section
+feature_title: Seveceğiniz gizlilik, güvenlik ve ek özellikler #Features section
+feature_subtitle: SimpleLogin en gelişmiş e-posta takma adı çözümüdür.
+faq_title: Sıkça sorulan sorular #FAQ section
+faq_subtitle: Yardım
+ready_get_started: Başlamaya hazır mısınız?
+ready_get_started_cta: >
+
+cta_2_title: Gelen kutularını ve gizliliklerini koruyan 50.000 üzerindeki kişiye katılın.
+cta_2_button: >
+
+partner_title: İş ortaklarımız
+footer_1: SimpleLogin, e-posta adresinizi koruyan <a href="https://github.com/simple-login">açık kaynaklı</a> bir <b>e-posta takma adı</b> çözümüdür. #footer
+footer_3: SimpleLogin, Fransa'da 884302134 SIREN numarası ile kayıtlı SimpleLogin SAS kuruluşunun ürünüdür. SimpleLogin SAS, <a href="https://proton.me">Proton AG</a> kuruluşunun bir parçasıdır.
+footer_pricing: Ücretler
+footer_about: Hakkımızda
+footer_contact: Bize ulaşın
+footer_imprint: Kurumsal bilgiler
+footer_join_us: Bize katılın
+pricing_title: Ücretler #pricing
+pricing_subtitle: >
+  SimpleLogin <a href="https://github.com/simple-login">açık kaynaklıdır</a>, özel barındırma üzerinde kullanılabilir ve %100 oranında topluluk tarafından finanse edilir. Verilerinizi kullanmayız, sizi izlemeyiz veya size reklam göstermeyiz. SimpleLogin, sizden alacağı desteklerle hizmeti çalışır durumda tutar ve yeni özellikler geliştirir.
+pricing_free_title: Free
+pricing_premium_title: Premium
+pricing_free_cta: Hesap aç
+pricing_premium_cta: E-postanızı korumaya başlayın.
+pricing_what_people_say: İnsanlar SimpleLogin hakkında ne diyor
+pricing_premium_yearly_price: '$30'
+pricing_premium_yearly_year: yıl
+pricing_premium_monthly_price: ya da $4 aylık faturalanır
+faq_tech_question: Teknik sorular #<<< FAQ page >>>
+faq_general_question: Genel sorular
+faq_developer_question: İş ortağı/geliştirici soruları
+faq_pricing_question: Tarife/ücret soruları

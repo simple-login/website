@@ -1,0 +1,72 @@
+header_login: Уваход #header
+header_signup: Рэгістрацыя
+header_pricing: Цэны
+hero: Ананімна атрымлівайце і адпраўляйце лісты #hero section
+hero_desc: >
+  З дапамогай  <em data-toggle="tooltip" data-html="true" title="Псеўданім электроннай пошты (ці проста псеўданім) гэта адрэс электроннай пошты, які <b>не захоўвае</b> лісты: усе лісты, якія адпраўлены на псеўданім, перасылаюцца на вашу асабістую электронную пошту.">псеўданімы электроннай пошты</em>, вы можаце быць ананімнымі ў інтэрнэце і абараняць сваю паштовую скрыню ад спама і фішынга. <a href="https://github.com/simple-login/">Адкрыты зыходны код</a>. Зроблена і размяшчаецца ў Еўропе.
+hero_cta: >
+
+hero_button_underline: <b>Больш за 800 000</b> псеўданімаў ужо створана.
+seen_on: Рэкамендавана
+how_it_work_title: Як працуюць псеўданімы электроннай пошты? #how it work section
+how_it_work_desc: Абараніце сваю паштовую скрыню з дапамогай псеўданімаў электроннай пошты.
+how_it_work_1_title: Выкарыстоўвайце псеўданімы электроннай пошты ў любым месцы
+how_it_work_1_subtitle: >
+  Наступны раз, калі вэб-сайт спытае вас адрас электроннай, скарыстайцеся псеўданімам <span class="bigger">замест</span> вашага рэальнага адраса электроннай пошты.
+how_it_work_2_title: Бяспечна атрымлівайце лісты ў сваю паштовую скрыню.
+how_it_work_2_subtitle: >
+  Лісты, якія адпраўляюцца на ваш псеўданім <span class="bigger">адразу перасылаюцца</span> ў вашу паштовую скрыню і адпраўнік нічога не будзе ведаць пра гэта. <br>
+how_it_work_3_title: Адпраўляйце лісты ананімна
+how_it_work_3_subtitle: >
+  Проста націсніце "Адказаць", калі вы захочаце адказаць на перасланы ліст: адказ адправіцца з вашага псеўданіма і ваша рэальная пошта застанецца схаванай. <br> Вы таксама можаце лёгка <span class="bigger">адпраўляць</span> лісты з вашага псеўданіма.
+everywhere_title: Стварайце і кіруйце сваімі псеўданімамі ў любым месцы #available everywhere section
+everywhere_subtitle: Хутка стварайце псеўданім у дарозе. Падпісвайцеся на інфармацыйную рассылку, стварайце новыя ўліковыя запісы ў інтэрнэце адным націскам мышы.
+alias_new_email_title: Псеўданім - гэта новы адрас электроннай пошты #Alias is the new email address Section
+alias_new_email_a_title: A. Замяніце электронную пошту псеўданімам у любым месцы
+alias_new_email_a_text_1: Падпісвайцеся на спіс рассыланняў, стварайце новыя ўліковыя запісы ў інтэрнэце з дапамогай псеўданімаў электроннай пошты.
+alias_new_email_a_text_2: А потым проста <span class="highlight">заблакіруйце</span> псеўданім, калі на яго пачне прыходзіць непажаданая пошта.
+alias_new_email_b_title: B. Адпраўляйце лісты ад псеўданіма
+alias_new_email_b_text_1: >
+  Проста націсніце "Адказаць" у той момант, калі вам спатрэбіцца адказаць на перасланы ліст: адказ <span class="highlight">прыйдзе ад</span> псеўданіма і ваша асабістая скрыня застанецца схаванай.
+alias_new_email_b_text_2: >
+  Вы таксама можаце <em data-toggle="tooltip" data-html="true" title="<b>Звычайны</b> псеўданім электроннай пошты, такі як <b>+ трук </b>, які звычайна працуе ў адным кірунку: вы можаце толькі прымаць лісты. <br>У SimpleLogin вы можаце без намаганняў адказаць/адправіць лісты са свайго псеўданіма.">адпраўляць</em> лісты на любы адрас электроннай пошты са свайго псеўданіма.
+alias_new_email_c_title: C. Кіруйце сваім бізнесам з дапамогай псеўданіма
+alias_new_email_c_text_1: Выкарыстоўвайце псеўданім у якасці <span class="highlight">электроннай пошты для бізнесу</span>
+alias_new_email_c_text_2: >
+  Зэканомце 6 $ у месяц
+  <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true" title='GSuite starts at $6/month per user.'></i> за кожны адрас электроннай пошты для бізнесу створаны з дапамогай SimpleLogin.
+alias_new_email_c_text_3: Больш за 50 кампаній давяраюць SimpleLogin апрацоўку сваіх лістоў.
+testimonial_title: Карыстальнікі станоўча ацэньваюць псеўданімы #Testimonials Section
+feature_title: Прыватнасць, бяспека і функцыі, якія вы палюбіце #Features section
+feature_subtitle: SimpleLogin - гэта самае перадавое рашэнне для псеўданімаў электроннай пошты.
+faq_title: Частыя пытанні #FAQ section
+faq_subtitle: Даведка
+ready_get_started: Гатовы пачаць працу?
+ready_get_started_cta: >
+
+cta_2_title: Далучайцеся да больш чым 50 000 чалавек, якія абараняюць сваю паштовую скрыню і прыватнасць.
+cta_2_button: >
+
+partner_title: Нашы партнёры
+footer_1: SimpleLogin - гэта рашэнне з <a href="https://github.com/simple-login">адкрытым зыходным кодам</a> <b>псеўданімаў электроннай пошты</b>, якое прызначана для абароны вашага адраса электроннай пошты. #footer
+footer_3: SimpleLogin - гэта праграмны прадукт, які распрацаваны SimpleLogin SAS і зарэгістраваны ў Францыі пад нумарам SIREN 884302134. SimpleLogin SAS з'яўляецца часткай <a href="https://proton.me">Proton AG</a>.
+footer_pricing: Цэны
+footer_about: Пра нас
+footer_contact: Звязацца з намі
+footer_imprint: Прававыя звесткі
+footer_join_us: Далучайцеся да нас
+pricing_title: Цэны #pricing
+pricing_subtitle: >
+  SimpleLogin мае <a href="https://github.com/simple-login">адкрыты зыходны код</a>, можа быць самастойна размешчаны і на 100% фінансуецца супольнасцю. Мы не выкарыстоўваем вашы даныя, не адсочваем вас і не паказваем рэкламу. SimpleLogin залежыць ад вашай падтрымкі, каб падтрымліваць працаздольнасць сэрвісу і распрацоўваць новыя функцыі.
+pricing_free_title: Бясплатна
+pricing_premium_title: Прэміяльныя
+pricing_free_cta: Зарэгіструйцеся
+pricing_premium_cta: Пачніце абараняць сваю электронную пошту.
+pricing_what_people_say: Што людзі кажуць пра SimpleLogin
+pricing_premium_yearly_price: 30 $
+pricing_premium_yearly_year: год
+pricing_premium_monthly_price: або 4 $ штомесяц
+faq_tech_question: Тэхнічныя пытанні #<<< FAQ page >>>
+faq_general_question: Агульныя пытанні
+faq_developer_question: Пытанні партнёраў або распрацоўшчыкаў
+faq_pricing_question: Пытанні пра тарыфныя планы і цэны

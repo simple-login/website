@@ -1,0 +1,35 @@
+  - question: Hvad er den maksimale størrelse på en e-mail?
+    answer: >
+      Den nuværende grænse er 25 MB. Ved store vedhæftede filer foreslår vi, at du
+      bruger en filuploadtjeneste og sender linket i stedet. Du kan finde nogle fildelingstjenester,
+      der respekterer vores privatliv, på <a href="https://www.privacyguides.org/file-sharing/">Privacy
+      Guides</a> <br> En anden grund til at have denne grænse er, at PGP-kryptering
+      er en tung proces, og at understøttelse af en større størrelse lægger en stor
+      belastning på SimpleLogin-serverne.
+  - question: Jeg kom til at slette et alias, kan jeg gendanne det?
+    answer: >
+      Når et alias slettes, placeres det i en global <b>papirkurv</b> og vi sørger
+      for, at det ikke kan genbruges. Alle historiske oplysninger om aliasset (den
+      konto, der opretter aliasset, aliassets kontakter osv.) slettes for at respektere
+      dit privatliv. <br> Dette gælder for alle aliasser, der er oprettet med SimpleLogin-domæner.
+      <br> Du kan dog gendanne et alias, der er oprettet med dit eget domæne.
+  - question: Hvor er SimpleLogins PGP-nøgler?
+    answer: >
+      Vores PGP-nøgler er på <a href="/pgp-key">PGP-nøgler</a> siden.
+      Hvis du aktiverer PGP, vil alle e-mails blive signeret med <b>signer@simplelogin.io</b>-nøglen.
+  - question: Hvordan sletter jeg min konto?
+    answer: >
+      Nederst på <a href="https://app.simplelogin.io/dashboard/setting">siden med
+      indstillinger</a>, kan du slette din konto. Denne handling er irreversibel,
+      og vi har ingen mulighed for at gendanne dine data.
+  - question: Kan jeg bruge e-mail-aliasser til vigtige tjenester som bank, myndigheder
+      osv?
+    answer: >
+      Det korte svar er ja, det kan du. Vi bruger e-mail-alias til at drive vores
+      virksomhed, administrere vores skat, håndtere vores bankforretninger, og så
+      langt så godt. :). <br> Et længere svar er, at e-mail-protokollen er designet
+      til at være meget modstandsdygtig, og en e-mail går næsten aldrig tabt. Hvis
+      SimpleLogin ikke kan levere e-mailen til din postkasse, giver vi dig besked,
+      så du kan træffe de nødvendige foranstaltninger.   Du kan også oprette en sekundær
+      postkasse ud over din primære postkasse, som kan bruges som backup.
+

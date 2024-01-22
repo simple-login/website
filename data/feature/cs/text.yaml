@@ -1,0 +1,66 @@
+  - title: 100% otevřený zdrojový kód
+    desc: >
+      SimpleLogin a <em data-toggle="tooltip" data-html="true" title="Including the
+      server, Chrome/Firefox/Safari extensions, Android/iOS apps.">všechny</em> jeho
+      součásti mají otevřený zdrojový kód. <br> Přece byste nesvěřili vyřizování e-mailů
+      uzavřené černé skříňce?
+  - title: Odesílejte e-maily z aliasu
+    desc: >
+      Alias může e-maily nejen přijímat, ale také <span class="highlight">odesílat</span>.
+      Alias je plnohodnotná e-mailová adresa.
+  - title: Všude
+    desc: >
+      Spravujte své aliasy na webových stránkách SimpleLogin nebo pomocí našich rozšíření
+      prohlížečů <em data-toggle="tooltip" data-html="true" title="A další prohlížeče
+      založené na chromiu, jako je Edge, Opera, Brave, atd.">Chrome</em>, Firefox
+      a Safari. <br> Můžete použít také telefon, díky aplikacím pro Android (Obchod
+      Play, F-Droid) a iOS.
+  - title: Vlastní doména
+    desc: >
+      Přidejte si vlastní doménu a nemusíte kupovat další <em data-toggle="tooltip"
+      data-html="true" title="Jako je GSuite, Outlook nebo jiné, které prodávají registrátoři
+      domén">e-mailové hostingové řešení</em>.
+      <br>
+      A víte, že můžete na své doméně používat aliasy v rámci funkce <em data-toggle="tooltip"
+      data-html="true" title="Aktivací doménového koše můžete vytvářet aliasy za běhu:
+      <b>cokoli@vase-domena.cz</b>, která se automaticky vytvoří při prvním přijetí
+      e-mailu.">doménový koš</em>?
+  - title: Velkorysé ceny
+    desc: >
+      Všechny tarify SimpleLogin mají <span class="highlight">neomezené</span> přeposílání/odesílání
+      a <span class="highlight">neomezený</span> datový přenos. <br> Přijímejte a
+      odesílejte tolik e-mailů, kolik potřebujete.
+  - title: Aliasy za běhu se subdoménou
+    desc: >
+      Vytvořte si <em data-toggle="tooltip" data-html="true" title="Subdoména je skvělý
+      způsob, jak si uspořádat a vytvářet aliasy za běhu. Jednoduše použijte <b>cokoli@vase-subdomena.simplelogin.com</b>
+      jakmile potřebujete alias. Alias se vytvoří, jakmile obdrží první e-mail.">subdoménu</em>,
+      a používejte ji k rychlému vytváření aliasů, aniž byste museli otevírat webovou
+      nebo mobilní aplikaci SimpleLogin. <a href="/blog/subdomains/" title="simplelogin
+      subdomény">Více informací</a>.
+  - title: Více e-mailových schránek
+    desc: >
+      Pokud již máte několik poštovních schránek, je tato funkce určena právě pro
+      vás: můžete přidat své poštovní schránky do služby SimpleLogin a vybrat, kterou
+      z nich chcete použít při vytváření aliasu. <a href="/blog/introducing-mailbox/"
+      title="simplelogin multiple mailboxes">Více informací</a>.
+  - title: Soukromí a bezpečnost
+    desc: >
+      S <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP)
+      je program, který šifruje vaše e-maily a umožňuje vám soukromou komunikaci online.">PGP</em>
+      jsou e-maily před odesláním do vaší poštovní schránky zašifrovány vaším vlastním
+      klíčem PGP. Tyto e-maily pak můžete dešifrovat pouze vy. Funguje perfektně s
+      aplikací Proton Mail a dalšími nástroji PGP (Thunderbird, GPGTools atd.). <br><br>
+      Pro lepší zabezpečení účtu SimpleLogin můžete povolit 2FA pomocí <em data-toggle="tooltip"
+      data-html="true" title="TOTP (Time-based One-time Passwords) je obvykle používáno
+      v aplikacích jako je Google Authenticator nebo Authy.">TOTP</em> a/nebo <em
+      data-toggle="tooltip" data-html="true" title="WebAuthn je obvykle používáno
+      ve fyzických bezpečnostních klíčích Yubikey, Google Titan, atd. Váš telefon
+      a tablet může být také použit jako bezpečnostní klíč.">WebAuthn (FIDO)</em>.
+  - title: Více než (jen) alias
+    desc: >
+      Ochrana vašeho online soukromí a e-mailu je jen jeden z cílů SimpleLogin. <br>
+      Očekávejte nové funkce jako je jednotné přihlášení, ochrana telefonního čísla
+      a platebních karet.
+
+

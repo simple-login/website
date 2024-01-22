@@ -1,0 +1,35 @@
+  - question: Hva er maksimal e-poststørrelse?
+    answer: >
+      Den nåværende grensen er 25 MB. For store vedlegg foreslår vi at du bruker en
+      filopplastingstjeneste og sender koblingen i stedet. Du kan finne noen fildelingstjenester
+      som respekterer personvernet vårt på <a href="https://www.privacyguides.org/file-sharing/">Veiledninger
+      om personvern</a><br>En annen grunn til å ha denne grensen er at PGP-kryptering
+      er en tung prosess, å støtte en større størrelse legger en betydelig belastning
+      på SimpleLogin-tjenere.
+  - question: Jeg slettet et alias ved et uhell, kan jeg gjenopprette det?
+    answer: >
+      Når et alias slettes, legges det i en global <b>papirkurv</b>, og vi sørger
+      for at det ikke kan brukes på nytt. All historisk informasjon på aliaset (kontoen
+      som oppretter aliaset, aliaskontaktene osv.) slettes for å respektere personvernet
+      ditt. <br> Dette gjelder alle aliaser opprettet med SimpleLogin-domener. <br>
+      Du kan imidlertid gjenopprette et alias som er opprettet med ditt eget domene.
+  - question: Hvor er SimpleLogin-PGP-nøkler?
+    answer: >
+      Våre PGP-nøkler er på <a href="/pgp-key">PGP-nøkler</a> siden.  Hvis du aktiverer
+      PGP, signeres alle e-postmeldinger med <b>signer@simplelogin.io</b>-nøkkelen.
+  - question: Hvordan kan jeg slette kontoen min?
+    answer: >
+      Nederst på siden <a href="https://app.simplelogin.io/dashboard/setting">Innstillinger</a>
+      kan du slette kontoen din. Denne operasjonen er irreversibel, og vi har ingen
+      måte å gjenopprette dataene dine på.
+  - question: Kan jeg bruke e-postaliaser for viktige tjenester som bank, myndigheter
+      osv?
+    answer: >
+      Det korte svaret er ja, det kan du. Vi bruker e-postaliaser for å drive virksomheten
+      vår, administrere skattene våre, håndtere bankdriften vår og så langt så bra
+      :).<br> Et lengre svar er at e-postprotokollen er designet for å være svært
+      motstandsdyktig og en e-post går nesten aldri tapt. Hvis SimpleLogin ikke kan
+      levere e-posten til postkassen din, vil vi varsle deg slik at du kan iverksette
+      nødvendige tiltak.  Du kan også konfigurere en sekundær postboks i tillegg til
+      den primære postboksen som kan brukes som sikkerhetskopi.
+

@@ -1,0 +1,132 @@
+  - question: Apa itu <b>alias surel</b>?
+    answer: >
+      Alias surel memiliki prinsip yang serupa dengan <a href="https://en.wikipedia.org/wiki/Surel_forwarding">alamat
+      surel penerusan</a>: seluruh surel yang masuk ke alias akan diteruskan ke kotak
+      surat Anda. <br> Namun, berkat teknologi SimpleLogin, Anda juga dapat <b>mengirim
+      surel</b> dari alias. <br> Bagi kontak Anda, alias ini adalah alamat surel Anda.
+      Informasi lebih lanjut mengenai alias surel dapat Anda lihat pada artikel <a
+      href="/blog/what-is-an-surel-alias/">Apa itu alias surel</a>.
+  - question: Saya bisa menggunakan metode tanda tambah (+) untuk membuat alamat surel
+      dengan jumlah tak terhingga, kenapa saya membutuhkan SimpleLogin
+    answer: >
+      Sub-alamat email, atau yang juga dikenal sebagai trik tanda tambah (+) sebagaimana
+      yang dipopulerkan oleh Gmail dan didukung oleh beberapa layanan email lainnya,
+      memungkinkan Anda untuk membuat alamat email baru dengan menambahkan tanda "+"
+      ke alamat email Anda saat ini. Sebagai contoh, apabila alamat email Anda adalah
+      namaAnda@proton.me, Anda dapat dengan cepat membuat alamat lain seperti namaAnda+facebook@proton.me
+      untuk Facebook, namaAnda+groupon@proton.me untuk Groupon, dan lain sebagainya.
+      <br>
+      Meskipun praktis, metode ini memiliki beberapa kekurangan: <br>
+      - Anda tidak dapat mengirim balasan dari alamat +: alamat email asli Anda akan
+      muncul sebagai pengirim. <br>
+      - Trik ini sudah cukup dikenal luas, dan beberapa situs web sudah tidak mengizinkan
+      pendaftaran melalui alamat email yang mengandung tanda +. <br>
+      - Trik ini tidak melindungi privasi Anda: siapa pun dapat dengan mudah menghapus
+      bagian + yang bersangkutan untuk mendapatkan alamat email asli Anda. Apabila
+      alamat + Anda muncul dalam rekam data alamat yang terbobol, kemungkinan besar
+      alamat asli Anda juga telah jatuh ke tangan para pengirim spam. Anda dapat memeriksa
+      apakah alamat email Anda telah terbobol melalui situs web seperti <a href="https://haveibeenpwned.com">have
+      i been pwned</a>. <br>
+      - Dengan menghapus bagian +, para pengiklan dapat saling menautkan alamat +
+      ini untuk menyingkap riwayat penelusuran Anda. <br><br>
+      Alias SimpleLogin tidak memiliki berbagai kekurangan di atas. Anda dapat membaca
+      lebih lanjut seputar pro dan kontra penggunaan trik tanda + pada artikel <a
+      href="/blog/surel-alias-vs-plus-sign/">Apa yang membuat alias email sebagai
+      alternatif yang lebih baik dari alamat email bertanda plus (+)</a>.
+  - question: Apa perbedaan antara SimpleLogin dan layanan penerusan surel lainnya?
+    answer: >
+      SimpleLogin merupakan solusi alias email tercanggih dan sedang dalam pengembangan
+      aktif. Berikut merupakan beberapa perbedaan antara SimpleLogin dan layanan penerusan
+      email/alias lainnya: <br><br>
+      <ul> <li>Sepenuhnya open-source: server SimpleLogin dan kode klien (ekstensi
+      browser, pustaka JS, aplikasi seluler) bersifat <a href="https://github.com/simple-login/app">open-source</a>,
+      sehingga siapa pun dapat dengan bebas memeriksa dan menyempurnakan kode yang
+      ada. </li>
+      <li>Mencakup seluruh platform utama: SimpleLogin memiliki ekstensi Chrome/Firefox/Safari
+      untuk desktop dan aplikasi iOS dan Android untuk seluler. </li>
+      <li>Satu-satunya solusi penerusan email yang dapat <em>di-host secara mandiri</em>:
+      Anda dapat menjalankan SimpleLogin pada server Anda. Dengan instruksi hosting
+      mandiri kami yang terperinci di mana sebagian besar komponen yang ada berjalan
+      sebagai wadah Docker, siapa pun yang memahami seluk-beluk SSH dapat menjalankan
+      SimpleLogin pada server mereka.</li>
+      <li>Anda dapat mengirim/membalas email dari alias. Tidak ada batasan jumlah
+      pengiriman/balasan.</li>
+      <li>Tanpa batasan bandwidth. </li>
+      <li>Tanpa iklan, tanpa pelacak.</li>
+      <li>Tidak hanya sekadar alias email: SimpleLogin juga merupakan <em>penyedia
+      identitas</em> yang berfokus pada privasi dan ramah pengembang yang: <br> -
+      menghormati privasi penggunanya <br> - mudah digunakan oleh pengembang. <br>
+      SimpleLogin menawarkan alternatif terhadap tombol "Masuk dengan Facebook/Google/Apple"
+      yang berfokus pada privasi. </li>
+
+      <li>Kaya akan fitur: SimpleLogin menawarkan ekstensi browser, domain khusus,
+      alias generik, pustaka OAuth, dan lain sebagainya dengan berbagai fitur yang
+      masih akan hadir ke depannya.</li>
+      <li>Buka roadmap kami di <a href="https://github.com/simple-login/app/projects/1">GitHub</a>:
+      Anda akan dapat menelusuri berbagai fitur menarik yang sedang kami kerjakan.</li>
+      </ul>
+  - question: Apa saja perbedaan SimpleLogin dengan layanan surel sementara?
+    answer: >
+      Tidak seperti alamat surel sementara yang dihasilkan oleh layanan seperti <a
+      href="https://temp-mail.org/en/">temp-mail.org</a>, <a href="https://10minutsurel.net">10minutsurel.net</a>,
+      dan lain sebagainya, alias SimpleLogin bersifat permanen. <br> Selain itu, SimpleLogin
+      juga tidak menyimpan surel apa pun, karena seluruh surel yang masuk akan tersimpan
+      pada kotak masuk Anda. <br> SimpleLogin adalah produk yang berbeda untuk kebutuhan
+      yang berbeda.
+  - question: Model bisnis seperti apa yang dianut oleh SimpleLogin?
+    answer: Seluruh pendapatan kami murni berasal dari biaya langganan pengguna, yang
+      berarti bahwa produk kami akan selamanya bebas dari iklan.
+  - question: Apa itu <b>direktori alias</b> atau fitur <b>catch-all</b>?
+    answer: >
+      Kedua fitur ini memungkinkan Anda untuk membuat alias secara <em>on-the-fly</em>,
+      yang berarti bahwa Anda tidak perlu membuka SimpleLogin untuk membuat alias
+      baru. <br> Dengan mengaktifkan alamat <b>catch-all</b> pada domain Anda, Anda
+      akan dapat menggunakan alamat <em>APASAJA@domain-saya.com</em> sebagai nama
+      alias. Anda bebas untuk menamai <b>APASAJA</b> di sini dengan nama apa pun,
+      selama tidak melebihi batas 128 karakter. <br>
+      Serupa dengan catch-all, <b>Direktori Alias</b> memungkinkan Anda untuk membuat
+      alamat <em>direktori_anda+APASAJA@simplelogin.com</em> sebagai alias Anda, dengan
+      <b>direktori_anda</b> merupakan nama direktori yang telah Anda buat.
+  - question: Saya menerima surel yang diteruskan dari alias pada alamat surel pribadi
+      saya. Bagaimana saya dapat membalas surel ini? Apakah saya perlu untuk membuka
+      SimpleLogin untuk membalas?
+    answer: >
+      Anda dapat mengirimkan balasan secara langsung dari klien surel Anda. Cukup
+      klik tombol "balas", dan balasan Anda akan dialihkan ke alias Anda melalui SimpleLogin.
+      Alamat surel pribadi Anda tetap tidak akan terlihat oleh pengirim pesan. <br><br>
+      Secara teknis, setiap kali Anda menerima pesan baru, kolom <b>Dari</b> yang
+      ada pada surel akan diganti dengan alias khusus yang dihasilkan secara unik
+      bagi masing-masing pengirim. Ketika Anda mengirimkan balasan, pesan balasan
+      Anda akan terkirim ke alias khusus ini dan SimpleLogin akan meneruskan pesan
+      ini ke pengirim aslinya. Seluruh informasi mengenai alamat surel pribadi Anda
+      akan dihapus selama proses ini berlangsung.
+  - question: Apa itu <b>reverse-alias</b>?
+    answer: >
+      Alias terbalik adalah alias <b>khusus</b> yang memungkinkan Anda mengirim surel
+      <b>dari alias Anda</b>. <br> Alias terbalik dibuat untuk setiap alias yang ingin
+      Anda kirim surel dan setiap kontak yang ingin Anda kirim surel. <br> Saat Anda
+      mengirim surel ke alias terbalik dari surel pribadi Anda, surel tersebut akan
+      dikirim dari alias Anda ke kontak.
+  - question: Apakah alias surel bersifat permanen?
+    answer: Alias surel berlaku sama halnya dengan alamat surel lain pada umumnya,
+      dan akan tetap ada sampai Anda menghapusnya.
+  - question: Di manakah server SimpleLogin terletak?
+    answer: Kami menggunakan server dari Proton dan UpCloud - penyedia layanan cloud
+      yang berbasis di Finlandia.
+  - question: Apa itu fitur <b>domain khusus</b>?
+    answer: >
+      Anda dapat membawa domain milik Anda ke SimpleLogin dan membuat alias seperti
+      <b>kontak@domain-anda.com</b> atau <b>hai@domain-anda.com</b>. <br>Sebagaimana
+      yang mungkin telah Anda duga, Anda kemudian akan dapat menggunakan SimpleLogin
+      untuk mengelola <em>email bisnis</em> Anda alih-alih membayar mahal untuk solusi
+      serupa seperti Google Workspace. <br> Tidak hanya itu, seluruh email bisnis
+      kami (mis. <b>kontak@simplelogin.io</b>) juga sebenarnya adalah alias 🤫
+  - question: Saya tidak dapat menemukan jawaban atas pertanyaan saya di sini
+    answer: >
+      Anda daftar menemukan daftar berbagai pertanyaan umum beserta jawabannya pada
+      <a href="/faq/">halaman FAQ</a>.
+      <br> Apabila Anda tidak menemukan jawaban yang sesuai, silakan kirimkan pertanyaan
+      Anda ke <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>.  <br>
+      Anda juga dapat membuka isu baru pada halaman <a href="https://github.com/simple-login/app/issues">GitHub
+      Issues</a> kami.
+

@@ -1,0 +1,37 @@
+  - question: Care este dimensiunea maximă a mesajelor pe e-mail?
+    answer: >
+      Limita actuală este de 25 MiB. Pentru atașamente mari, vă sugerăm să utilizați
+      un serviciu de încărcare de fișiere și să trimiteți legătura sa web pe e-mail.
+      Puteți găsi unele servicii de partajare a fișierelor care ne respectă confidențialitatea
+      pe <a href="https://www.privacyguides.org/file-sharing/">Ghidurile de confidențialitate</a>
+      <br> Un alt motiv pentru a avea această limită este deoarece criptarea PGP este
+      un proces greu, suportarea unei dimensiuni mai mari pune o sarcină importantă
+      pe serverele SimpleLogin .
+  - question: Am șters accidental un alias. Îl pot reface?
+    answer: >
+      Când un alias este șters, acesta este pus într-un <b>coș de gunoi</b> global
+      și ne asigurăm că nu poate fi reutilizat. Toate informațiile istorice despre
+      alias (contul care creează aliasul, contactele din alias etc.) sunt șterse pentru
+      a vă respecta confidențialitatea. <br> Acest lucru se aplică tuturor alias-urilor
+      create cu domenii SimpleLogin. <br> Cu toate acestea, puteți restaura un alias
+      creat cu propriul domeniu.
+  - question: Unde sunt cheile PGP ale SimpleLogin?
+    answer: >
+      Cheile noastre PGP sunt pe pagina <a href="/pgp-key">Chei PGP</a>.
+      Dacă activați PGP, toate e-mailurile sunt semnate cu cheia <b>signer@simplelogin.io</b>.
+  - question: Cum îmi pot șterge contul?
+    answer: >
+      În partea de jos a <a href="https://app.simplelogin.io/dashboard/setting">paginii
+      Setări</a>, vă puteți șterge contul. Această operațiune este ireversibilă și
+      nu avem nicio modalitate de a vă recupera datele.
+  - question: Pot folosi aliasuri de e-mail pentru servicii importante precum bancă,
+      guvern etc.?
+    answer: >
+      Pe scurt da, puteți. Folosim aliasuri de e-mail pentru a ne gestiona afacerea,
+      a ne gestiona taxele, a ne gestiona operațiunile bancare și până acum e bine
+      :). <br> Un răspuns mai lung este că protocolul de e-mail este conceput pentru
+      a fi foarte rezistent și un e-mail nu se pierde aproape niciodată. Dacă SimpleLogin
+      nu poate livra e-mailul la adresa dvs., vă vom anunța pentru a putea lua măsurile
+      corespunzătoare. De asemenea, puteți configura o adresă de e-mail secundară,
+      pe lângă cea principală, care poate fi folosită ca rezervă.
+

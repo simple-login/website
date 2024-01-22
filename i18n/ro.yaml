@@ -1,0 +1,72 @@
+header_login: Autentificare #header
+header_signup: Înscriere
+header_pricing: Prețuri
+hero: Primiți și trimiteți mesaje anonim #hero section
+hero_desc: >
+  Cu <em data-toggle="tooltip" data-html="true" title="Un alias de e-mail (sau alias pe scurt) este o adresă de e-mail care <b>nu stochează</b> mesajele: toate mesajele trimise către un alias sunt redirecționate către adresa de e-mail personală.">aliasuri de e-mail</em>, vă păstrați anonimitatea online și vă puteți proteja adresa de e-mail împotriva mesajelor nedorite și a înșelăciunilor. <a href="https://github.com/simple-login/">Cu sursa publică</a>. Creat și găzduit în Europa.
+hero_cta: >
+
+hero_button_underline: <b>Peste 800.000</b> de aliasuri create.
+seen_on: Recomandat de
+how_it_work_title: Cum funcționează un alias de e-mail? #how it work section
+how_it_work_desc: Protejați-vă adresa de e-mail cu aliasuri.
+how_it_work_1_title: Folosiți aliasuri de e-mail oriunde
+how_it_work_1_subtitle: >
+  Data viitoare când un site web vă solicită adresa de e-mail, folosiți un alias <span class="bigger">în loc</span> de adresa de e-mail reală.
+how_it_work_2_title: Primiți mesaje în siguranță.
+how_it_work_2_subtitle: >
+  Mesajele trimise către un alias sunt <span class="bigger">redirecționate instantaneu</span> către adresa de e-mail reală fără ca expeditorul să știe asta.<br>
+how_it_work_3_title: Trimiteți mesaje anonim
+how_it_work_3_subtitle: >
+  Doar apăsați pe „Răspunde” dacă doriți să răspundeți la un mesaje redirecționat: răspunsul este trimis de la alias și adresa de e-mail reală rămâne ascunsă. <br> Puteți <span class="bigger">trimite</span> cu ușurință mesaje și din adresa alias.
+everywhere_title: Creați și gestionați aliasuri peste tot #available everywhere section
+everywhere_subtitle: Creați rapid un alias din mers. Înscrieți-vă la un buletin informativ, creați un nou cont online cu un clic.
+alias_new_email_title: Aliasul este noua adresă de e-mail #Alias is the new email address Section
+alias_new_email_a_title: A. Înlocuiți adresa de e-mail cu aliasuri peste tot
+alias_new_email_a_text_1: Abonați-vă la liste de corespondență, creați noi conturi online cu aliasuri de e-mail.
+alias_new_email_a_text_2: Mai târziu, pur și simplu <span class="highlight">blocați</span> un alias dacă este abuzat de mesaje nedorite.
+alias_new_email_b_title: B. Trimiteți mesaje din alias
+alias_new_email_b_text_1: >
+  Doar apăsați pe „Răspunde” ori de câte ori trebuie să răspundeți la un mesaje redirecționat: răspunsul va <span class="highlight">veni de la</span> alias și adresa reală de e-mail personală va rămâne ascunsă.
+alias_new_email_b_text_2: >
+  Puteți și să &lt;em data-toggle=&quot;tooltip&quot; data-html=&quot;true&quot; title=&quot;Adresele alias de e-mail &lt;b&gt;obișnuite&lt;/b&gt;, cum ar fi &lt;b&gt;+contfals &lt;/b&gt;, de obicei funcționează într-un singur fel: puteți doar primi mesaje pe acestea. &lt;br&gt;În SimpleLogin, puteți răspunde/trimite cu ușurință mesaje de la alias.&quot;&gt;trimiteți&lt;/em&gt; mesaje la orice adresă de e-mail cu aliasul.
+alias_new_email_c_title: C. Conduceți-vă afacerea cu aliasuri
+alias_new_email_c_text_1: Folosiți aliasul ca adresă de &lt;span class=&quot;highlight&quot;&gt;e-mail de afaceri&lt;/span&gt;.
+alias_new_email_c_text_2: >
+  Economisiți 6 €/lună
+  <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true" title='GSuite starts at $6/month per user.'></i> pentru fiecare adresă de e-mail de afaceri creată cu SimpleLogin.
+alias_new_email_c_text_3: Peste 50 de companii au încredere în SimpleLogin pentru a-și gestiona mesajele pe e-mail.
+testimonial_title: Folosirea de aliasuri pentru e-mail este preferată de către utilizatori #Testimonials Section
+feature_title: Confidențialitate, securitate și funcții pe care le veți aprecia #Features section
+feature_subtitle: SimpleLogin este cea mai avansată soluție de alias pentru e-mail.
+faq_title: Întrebări frecvente #FAQ section
+faq_subtitle: Ajutor
+ready_get_started: Sunteți gată să începeți?
+ready_get_started_cta: >
+
+cta_2_title: Alăturați-vă celor peste 50.000 de persoane care își protejează adresa de e-mail și confidențialitatea.
+cta_2_button: >
+
+partner_title: Partenerii noștri
+footer_1: SimpleLogin este o soluție <a href="https://github.com/simple-login">cu sursa publică</a> de <b>alias pentru e-mail</b> pentru a vă proteja adresa de e-mail. #footer
+footer_3: SimpleLogin este produsul de la SimpleLogin SAS, înregistrat în Franța sub numărul SIREN 884302134. SimpleLogin SAS face parte din <a href="https://proton.me">Proton AG</a>.
+footer_pricing: Prețuri
+footer_about: Despre noi
+footer_contact: Contactați-ne
+footer_imprint: Date companie
+footer_join_us: Alăturați-vă
+pricing_title: Prețuri #pricing
+pricing_subtitle: >
+  SimpleLogin are <a href="https://github.com/simple-login">sursa publică</a>, poate fi auto-găzduit și este finanțat 100% de comunitate. Nu vă folosim datele, nu vă urmărim și nu vă arătăm reclame. SimpleLogin depinde de sprijinul dvs. pentru a menține serviciul în funcțiune și pentru a dezvolta noi funcții.
+pricing_free_title: Gratuit
+pricing_premium_title: Premium
+pricing_free_cta: Înscriere
+pricing_premium_cta: Începeți să vă protejați adresa de e-mail
+pricing_what_people_say: Ce spun oamenii despre SimpleLogin
+pricing_premium_yearly_price: 30 $
+pricing_premium_yearly_year: an
+pricing_premium_monthly_price: sau 4 $ facturat lunar
+faq_tech_question: Întrebări tehnice #<<< FAQ page >>>
+faq_general_question: Întrebări generale
+faq_developer_question: Întrebări partener/dezvoltator
+faq_pricing_question: Întrebări planuri/prețuri

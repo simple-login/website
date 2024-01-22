@@ -1,0 +1,71 @@
+  - title: '%100 açık kaynaklı'
+    desc: >
+      Açık kaynak teknolojisi üzerine geliştirildi. <em data-toggle="tooltip" data-html="true"
+      title="Sunucu, Chrome/Firefox/Safari eklentileri, Android/iOS uygulamaları ile.">tüm</em>
+      SimpleLogin bileşenleri açık kaynaklıdır. <br> E-postalarınızı yönetmek için
+      bir kara kutuya güvenmezsiniz, değil mi?
+  - title: Takma ad üzerinden e-posta gönderin
+    desc: >
+      Takma ad yalnızca e-posta almakla kalmaz, aynı zamanda e-posta <span class="highlight">gönderebilir</span>.
+      Takma ad tam işlevli bir e-posta adresidir.
+  - title: Her yerde
+    desc: >
+      Takma adlarınızı SimpleLogin sitesinden ya da <em data-toggle="tooltip" data-html="true"
+      title="Ve Edge, Opera, Brave gibi diğer Chrome tabanlı tarayıcılarda">Chrome</em>,
+      Firefox, Safari eklentileri üzerinden yönetebilirsiniz. <br>
+      Ya da telefonunuzda Android (Play Store, F-Droid) ve iOS uygulamalarını kullanabilirsiniz.
+  - title: Özel etki alanı
+    desc: >
+      Kendi etki alanınızı getirebilirsiniz. Böylece başka bir <em data-toggle="tooltip"
+      data-html="true" title="GSuite, Outlook ya da etki alanı kayıt kuruluşları tarafından
+      satılanlar gibi">e-posta barındırma hizmeti satın almanıza gerek kalmaz </em>.
+      <br>
+      Ayrıca etki alanınız için, <em data-toggle="tooltip" data-html="true" title="Tümünü
+      toplama özelliğini açarak, anında takma adlar oluşturabileceğinizi biliyor musunuz:
+      Bir adrese ilk kez e-posta gönderildiğinde <b>birsey@etki-alaniniz.com</b> adresi
+      otomatik olarak oluşturulur.">tümünü toplama</em> takma adı kullanabileceğinizi
+      biliyor musunuz?
+  - title: Cömert ücretlendirme
+    desc: >
+      Tüm SimpleLogin tarifelerinde <span class="highlight">sonsuz</span> sayıda gönderme/alma
+      ve <span class="highlight">sınırsız</span> bant genişliği sunulur. <br> Dilediğiniz
+      kadar e-posta alıp gönderebilirsiniz.
+  - title: Alt etki alanı ile anında takma adlar
+    desc: >
+      Kendiniz için bir <em data-toggle = "tooltip" data-html = "true" title = "Alt
+      etki alanınızı oluşturun, anında takma adlar oluşturmanın ve ayarlamanın harika
+      bir yoludur. Bir takma ada hızlı bir şekilde gerek duyduğunuzda, yalnızca <b>BIRSEY@alt-etki
+      alaniniz.simplelogin.com</b> adresinizi oluşturun. Bu adrese ilk kez e-posta
+      gönderildiğinde takma ad oluşturulur.">alt etki alanı</em> oluşturabilir ve
+      SimpleLogin sitesini ya da mobil uygulamaları açmadan hızlı bir şekilde takma
+      ad oluşturmak için bunu kullanabilirsiniz. <a href="/blog/subdomains/" title="simplelogin
+      subdomains">Ayrıntılı bilgi alın</a>.
+  - title: Birden fazla e-posta kutusu
+    desc: >
+      Zaten birden fazla e-posta kutunuz varsa bu özellik tam size göre: E-posta kutularınızı
+      SimpleLogin üzerine ekleyebilir ve takma ad oluştururken hangisinin kullanılacağını
+      seçebilirsiniz. <a href="/blog/introducing-mailbox/" title="simplelogin multiple
+      mailboxes">Ayrıntılı bilgi alın</a>.
+  - title: Gizlilik ve güvenlik
+    desc: >
+      <em data-toggle="tooltip" data-html="true" title="Oldukça iyi gizlilik (PGP),
+      e-postalarınızı şifreleyebilen ve çevrim içi olarak gizli iletişim kurmanızı
+      sağlayan bir şifreleme programıdır.">PGP</em> ile, e-postalar, e-posta kutunuza
+      iletilmeden önce kişisel PGP anahtarınızla şifrelenir. Bu e-postaların şifresini
+      yalnızca siz çözebilirsiniz. Proton Mail veya herhangi bir PGP aracıyla (Thunderbird,
+      GPGTools gibi) sorunsuz çalışır. <br><br>
+      SimpleLogin hesabınız için daha iyi güvenlik sağlamak amacıyla iki adımlı doğrulamayı
+      <em data-toggle="tooltip" data-html="true" title="TOTP (tek kullanımlık parolalar)
+      kullanacak şekilde ayarlayabilirsiniz. Genellikle Google Authenticator veya
+      Authy gibi uygulamalarla kullanılır.">tek kullanımlık parolaları</em> ve/veya
+      <em data-toggle="tooltip" data-html="true" title="WebAuthn genellikle Yubikey,
+      Google Titan gibi fiziksel güvenlik anahtarlarıyla kullanabilirsiniz. Telefonunuz
+      ve dizüstü bilgisayarınız da güvenlik anahtarı olarak kullanılabilir.">WebAuthn
+      (FIDO)</em> özelliğini kullanabilirsiniz.
+  - title: (Yalnızca) takma addan fazlası
+    desc: >
+      SimpleLogin hizmetinin amacı çevrim içi gizliliğinizi korumaktır ve e-posta
+      yalnızca başlangıçtır. <br> Tek oturum açma, telefon numarası koruması ve kredi
+      kartı koruması gibi yeni özellikler için bizi izleyin.
+
+

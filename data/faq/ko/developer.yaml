@@ -1,0 +1,17 @@
+  - question: 내 웹사이트에 "Facebook/Google 로그인" 대신에 SimpleLogin을 사용할 이유가 있냐고요?
+    answer: >
+      알고 계셨습니까? Facebook과 Google은 이러한 버튼으로 이용자들의 브라우징 히스토리를 <a href="/blog/do-not-use-facebook-sdk/">추적</a>해서
+      더욱 개인화된 광고를 제공합니다. <br><br> SimpleLogin은 광고 업체와 관련이 없으므로, 당신의 데이터를 사용해서 얻을 수
+      있는 이득이 없어 사용자가 자신의 데이터에 대한 완전한 통제권을 가질 수 있습니다.
+  - question: SimpleLogin을 신뢰할 이유가 있나요?
+    answer: >
+      SimpleLogin의 모든 코드는 <a href="https://github.com/simple-login">GitHub</a>에서 완전한
+      오픈 소스입니다<br><br> 누구나 코드를 감사하거나 자신만의 SimpleLogin 서버를 구축할 수 있다는 뜻입니다. <br><br>
+      SimpleLogin의 수익구조는 투명하고 지속가능한 모델에 기반하여 프라이버시를 최우선하고 추적기가 없는 상품을 제공할 수 있습니다.
+  - question: Native, Windows, 그 외 기타 운영체제의 앱을 지원할 SDK를 출시할 계획이 있나요?
+    answer: >
+      당연합니다! 저희가 웹 플랫폼부터 시작한 것은 심플하게 그것을 Android WebView와 IOS UIWebView를 통한 모바일 앱으로도
+      이용할 수 있기 때문입니다. <br><br> 머지 않아 Android, iOS, Windows용 SDK와 예제를 제공할 계획입니다. 지켜봐
+      주세요!
+
+

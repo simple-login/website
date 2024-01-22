@@ -1,0 +1,45 @@
+  - question: 구독을 멈췄을 때 내 별명은 어떻게 되나요?
+    answer: >
+      구독을 중단하더라도 생성하신 별명은 수발신을 포함한 기능들이 정상적으로 작동합니다. 구체적인 변경 사항은 다음과 같습니다: <br> -
+      모든 생성한 별명/도메인/디렉토리/메일함이 유지되며 계속 작동합니다. <br> - 무료 플랜 갯수 (10개 이상) 제한에 도달했을 시에는
+      더 이상 새 별명 생성이 불가합니다. <br> - catch-all 또는 디렉토리와 같은 기능을 사용하면 즉시 별명을 만들 수 있으나 별명이
+      10개 이상인 경우에는 이러한 별칭을 자동으로 만들 수 없습니다. <br> - 새 도메인, 디렉토리 및 메일함 생성이 불가합니다. <br><br>
+      예시로, 만약 고객님이 구독 종료 기간까지 100개를 가지고 계셨다면, 이 100개 별명은 계속 이메일 수발신이 가능하지만, 그 이상의
+      별명은 생성이 불가합니다.
+  - question: 무료 플랜 내의 최대 별명 수에 도달하면 어떻게 되나요?
+    answer: >
+      만약 무료 플랜 이용시, 플랜의 최대 별명 수(10개 별명) 까지만 생성이 가능합니다. <br> 그렇지 않으면 catch-all 도메인
+      또는 디렉토리 기능을 통해 자동으로 생성되는 별명을 만들 수 없습니다. <br>
+  - question: 할인 혜택도 제공하나요?
+    answer: >
+      다음 사항에 해당되는 분들께는 대폭 할인 및 무료로 프리미엄 플랜을 제공합니다. <br>
+      - 교육 기관에 재직 중인 학생, 교사 및 기술 지원 담당인 자 <br> - 운동가, 반체제인사 또는 언론인인 자 <br> - 자선 단체에
+      재직 중인 자 <br>
+      자세한 사항에 대해서는 <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>에
+      문의해 주십시오. <br><br>
+      당사에서는 2021년 6월 17일 까지 학생용 무료 프리미엄 계정을 제공했으나 현재는 이 프로그램이 종료되었습니다. 다만 이 프로그램 종료
+      전 신청하여 혜택을 받으시는 분들은 계정에 관련해 아무런 영향을 받지 않음을 참고해 주십시오.
+  - question: 지원되는 결제 수단이 무엇인가요?
+    answer: >
+      신용 카드 및 PayPal를 통한 결제를 하시는 분들을 위해 <a href="https://paddle.com">Paddle</a>을 사용하고
+      있습니다. Paddle은 다음 결제 수단들을 제공 중에 있습니다: <br>
+      <ul> <li>Mastercard</li> <li>Visa</li> <li>PayPal</li> <li>Apple Pay</li> <li>Wire
+      Transfers (ACH/SEPA/BACS)</li> <li>Maestro</li> <li>American Express</li> <li>Discover</li>
+      <li>Diners Club</li> <li>JCB</li> </ul>
+
+      자세한 사항은 <a href="https://paddle.com/support/which-payment-methods-do-you-support/">Paddle
+      지원 결제 수단</a>에서 찾으실 수 있습니다. <br>
+      가상화폐 사용자 분들을 위해, Bitcoin, Bitcoin Cash, Dai, Ethereum, Litcoin 및 USD Coin을 지원하고
+      있는 <a href="https://commerce.coinbase.com">Coinbase Commerce</a> 서비스를 채용해 사용
+      중입니다. 추후 Monero 또한 제공될 예정입니다. Monero 가상 화폐로 구매하고자 하시는 분은 <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>으로
+      연락해 주세요.
+  - question: 환불 정책이 있나요?
+    answer: 모든 프리미엄 기능을 모든 분들께서 사용할 수 있도록 무료 체험 기간을 제공하고 있기 때문에 환불 정책은 존재하지 않습니다.
+  - question: 가족용 플랜도 있나요?
+    answer: 가족 플랜은 없지만 추가 구독 사용자를 위해 30%를 할인하고 있습니다. 자세한 정보는 <a 
+      href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>에
+      문의해 주십시오.
+  - question: SimpleLogin 구독을 구매할 다른 방법도 있나요?
+    answer: 공식 리셀러인 <a href="https://proxysto.re/en/index.html">ProxyStore</a>에서 SimpleLogin
+      구독 쿠폰을 구매하실 수 있습니다.
+

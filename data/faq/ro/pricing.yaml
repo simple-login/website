@@ -1,0 +1,59 @@
+  - question: Ce se întâmplă cu aliasurile mele când opresc abonamentul?
+    answer: >
+      Când se termină abonamentul, toate aliasurile pe care le-ați creat continuă
+      să funcționeze normal, atât la primirea, cât și la trimiterea e-mailurilor.
+      Concret: <br> - Toate aliasurile/domeniile/folderele/adresele de e-mail pe care
+      le-ați creat sunt păstrate și continuă să funcționeze normal. <br> - Nu puteți
+      crea aliasuri noi dacă depășiți limita planului gratuit, adică aveți mai mult
+      de 10 aliasuri. <br> - Deoarece funcții precum adresa colectoare sau folderele
+      vă permit să creați aliasuri din mers, acele aliasuri nu pot fi create automat
+      dacă aveți mai mult de 10 aliasuri. <br> - Nu puteți adăuga un nou domeniu,
+      folder sau adresă de e-mail. <br><br>
+      De exemplu, dacă aveți 100 de aliasuri până la încheierea abonamentului, aceste
+      100 de aliasuri vor continua să primească și să trimită e-mailuri în mod normal.
+      Cu toate acestea, nu puteți crea aliasuri noi.
+  - question: Ce se întâmplă când ating numărul maxim de aliasuri în planul gratuit?
+    answer: >
+      Dacă aveți planul gratuit, nu puteți crea aliasuri noi când atingeți numărul
+      maxim de aliasuri (adică 10 aliasuri). <br> Nu pot fi create aliasuri care altfel
+      ar fi create automat prin funcția de colectare a tuturor mesajelor sau funcția
+      folder. <br>
+  - question: Oferiți reduceri?
+    answer: >
+      Oferim reduceri importante sau planuri premium gratuite pentru: <br>
+      - studenți, profesori sau personal tehnic care lucrează la un institut de învățământ
+      <br> - activiști, dizidenți sau jurnaliști <br> - organizații de caritate <br>
+      Vă rugăm să ne trimiteți un e-mail la <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      pentru mai multe informații. <br><br>
+      Obișnuiam să oferim conturi premium gratuite pentru studenți, dar acest program
+      s-a încheiat la 17 iunie 2021. Vă rugăm să rețineți că acest lucru nu afectează
+      conturile existente care au beneficiat deja de program sau solicitările trimise
+      înainte de această dată.
+  - question: Ce metode de plată acceptați?
+    answer: >
+      Folosim <a href="https://paddle.com">Paddle</a> pentru gestionarea plăților
+      prin carduri de credit și PayPal. Paddle acceptă în prezent următoarele metode
+      de plată: <br>
+      <ul> <li>Mastercard</li> <li>Visa</li> <li>PayPal</li> <li>Apple Pay</li> <li>Transferuri
+      bancare (ACH/SEPA/BACS)</li> <li>Maestro</li> <li>American Express</li> <li>Discover</li>
+      <li>Diners Club</li> <li>JCB</li> </ul>
+
+      Mai multe informații pot fi găsite în <a href="https://paddle.com/support/which-payment-methods-do-you-support/">Metode
+      de plată acceptate pentru Paddle</a>. <br>
+      Pentru criptomonede, folosim <a href="https://commerce.coinbase.com">Coinbase
+      Commerce</a> care acceptă în prezent Bitcoin, Bitcoin Cash, Dai, Ethereum, Litecoin
+      și USD Coin. În viitor, vom sprijini și Monero. Între timp, vă rugăm să ne trimiteți
+      un e-mail la <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      dacă doriți să utilizați această criptomonedă.
+  - question: Aveți o politică de restituire a banilor?
+    answer: Nu, nu avem o politică de rambursare, deoarece SimpleLogin are o perioadă
+      de probă în care puteți încerca toate funcțiile premium.
+  - question: Aveți un plan pentru familie?
+    answer: Nu, nu avem un plan de familie, dar oferim o reducere de 30% pentru abonamente
+      suplimentare. Vă rugăm să ne contactați la <a 
+      href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      pentru mai multe informații.
+  - question: Există și alte modalități de a cumpăra abonamente SimpleLogin?
+    answer: Da, puteți cumpăra și cupoane de abonament SimpleLogin prin <a href="https://proxysto.re/en/index.html">ProxyStore</a>,
+      distribuitorul nostru oficial.
+

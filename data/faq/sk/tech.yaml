@@ -1,0 +1,36 @@
+  - question: Aká je maximálna veľkosť emailu?
+    answer: >
+      Aktuálny limit je 25 MB. Pri väčších prílohách odporúčame použiť službu zdieľania
+      súborov a namiesto toho poslať odkaz. Niektoré služby na zdieľanie súborov,
+      ktoré rešpektujú naše zásady ochrany osobných údajov, nájdete na stránke <a
+      href="https://www.privacyguides.org/file-sharing/">Privacy Guides</a> <br> Ďalším
+      dôvodom tohto limitu je skutočnosť, že šifrovanie PGP je náročný proces a podpora
+      väčšej veľkosti významne zaťažuje servery SimpleLogin.
+  - question: Nedopatrením bol odstránený alias, môžem ho obnoviť?
+    answer: >
+      Po odstránení aliasu je tento alias umiestnený do globálneho <b>koša</b> a my
+      zabezpečíme, aby nemohol byť opätovne použitý. Všetky historické informácie
+      o aliase (účet, ktorý alias vytvoril, kontakty aliasu atď.) sa odstránia, aby
+      sa rešpektovalo vaše súkromie. <br> Toto platí pre všetky aliasy vytvorené pomocou
+      domén SimpleLogin. <br> Môžete však obnoviť alias vytvorený vo vašej vlastnej
+      doméne.
+  - question: Kde sa nachádzajú PGP kľúče služby SimpleLogin?
+    answer: >
+      Naše PGP kľúče nájdete na stránke s <a href="/pgp-key">PGP kľúčmi</a>.
+      Ak povolíte PGP, všetky emaily budú podpísané kľúčom <b>signer@simplelogin.io</b>.
+  - question: Ako môžem svoje konto vymazať?
+    answer: >
+      V spodnej časti stránky <a href="https://app.simplelogin.io/dashboard/setting">Nastavenia</a>
+      môžete vymazať svoje konto. Táto operácia je nezvratná a my nebudeme mať možnosť
+      obnoviť vaše údaje.
+  - question: Môžem používať emailové aliasy aj pre dôležité služby, ako je banka,
+      štátna správa atď.?
+    answer: >
+      Stručná odpoveď znie: áno, môžete. Používame emailové aliasy na vedenie našej
+      firmy, správu daní, bankové operácie a zatiaľ je to v poriadku :). <br> Dlhšia
+      odpoveď je, že emailový protokol je navrhnutý tak, aby bol vysoko odolný a email
+      sa takmer nikdy nestratil. Ak služba SimpleLogin nedokáže doručiť email do vašej
+      schránky, upozorníme vás na to, aby ste mohli podniknúť príslušné kroky.   Takisto
+      si môžete okrem primárnej schránky nastaviť aj sekundárnu schránku, ktorá sa
+      môže používať ako záloha.
+

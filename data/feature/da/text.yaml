@@ -1,0 +1,64 @@
+  - title: 100% open source
+    desc: >
+      Bygget på open source teknologi, <em data-toggle="tooltip" data-html="true"
+      title="Inklusiv serveren, Chrome/Firefox/Safari udvidelser, Android/iOS apps.">alle</em>
+      SimpleLogin-komponenter er også open source. <br> Du ville ikke stole på en
+      sort boks til at håndtere dine e-mails, vel?
+  - title: Send e-mails fra alias
+    desc: >
+      Et alias kan ikke kun modtage e-mails, det kan også <span class="highlight">sende</span>
+      e-mails. Et alias er en fuldgyldig e-mailadresse.
+  - title: Overalt
+    desc: >
+      Administrer dine aliasser på SimpleLogin-hjemmesiden eller i vores <em data-toggle="tooltip"
+      data-html="true" title="Og andre chromium-baserede browsere som f.eks. Edge,
+      Opera, Brave, etc">Chrome</em>, Firefox, Safari-udvidelser. <br>
+      Eller på din telefon med Android (Play Store, F-Droid) og iOS apps.
+  - title: Brugerdomæne
+    desc: >
+      Medbring dit eget domæne, så slipper du for at købe endnu en <em data-toggle="tooltip"
+      data-html="true" title="Som GSuite, Outlook eller dem der sælges af domæneregistratorerne">e-mail-hostingløsning</em>.
+      <br>
+      Og vidste du godt at du kan have <em data-toggle="tooltip" data-html="true"
+      title="Ved at aktivere catch-all, kan du oprette aliasser på farten: <b>alt@dit-domæne.dk</b>
+      vil automatisk blive oprettet den første gang det modtager en e-mail.">catch-all</em>
+      aliasser med dit domæne?
+  - title: Generøse priser
+    desc: >
+      Alle SimpleLogin-abonnementer har <span class="highlight">ubegrænsede</span>
+      videresendelser/afsendelser og <span class="highlight">ubegrænset</span> båndbredde.
+      <br> Modtag og send e-mail så meget som du vil.
+  - title: Aliasser på farten med subdomæner
+    desc: >
+      Opret dit <em data-toggle="tooltip" data-html="true" title="Subdomæner er en
+      god måde at organisere og oprette aliasser på farten. Bare brug <b>ALT@dit-subdomæne.simplelogin.com</b>
+      når du hurtigt har brug for et alias, aliasser vil blive oprettet når det modtager
+      den første e-mail.">subdomæne</em>, og brug det til at oprette aliasser uden
+      at åbne SimpleLogins web- eller mobilapps. <a href="/blog/subdomains/" title="simplelogin
+      subdomains">Få mere at vide</a>.
+  - title: Flere postkasser
+    desc: >
+      Hvis du allerede har flere postkasser, er denne funktion for dig: du kan tilføje
+      alle dine postkasser til SimpleLogin og bestemme hvilken en der skal bruges
+      når du opretter et alias. <a href="/blog/introducing-mailbox/" title="simplelogin
+      multiple mailboxes">Få mere at vide</a>.
+  - title: Privatlivsbeskyttelse & Sikkerhed
+    desc: >
+      Med <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP)
+      er et krypteringsprogram der kan kryptere dine e-mails og lade dig kommunikere
+      privat online.">PGP</em>, bliver e-mails krypteret med din egen PGP-nøgle, før
+      de videresendes til din postkasse. Kun du kan så dekryptere disse e-mails. Virker
+      perfekt med Proton Mail eller andre PGP-værktøjer (ThunderBird, GPGTools osv.)<br><br>
+      For bedre at sikre din SimpleLogin-konto, kan du aktivere 2FA med <em data-toggle="tooltip"
+      data-html="true" title="TOTP (Time-based One-time Passwords) bruges normalt
+      med applikationer som Google Authenticator eller Authy.">TOTP</em> og/eller
+      <em data-toggle="tooltip" data-html="true" title="WebAuthn bruges normalt sammen
+      med fysiske sikkerhedsnøgler som Yubikey, Google Titan osv. Din telefon og laptop
+      kan også bruges som sikkerhedsnøgle.">WebAuthn (FIDO)</em>.
+  - title: Mere end (bare) aliasser
+    desc: >
+      SimpleLogin's ambition er at beskytte dit online privatliv, og e-mails er bare
+      begyndelsen. <br> Hold øje med kommende funktioner som single sign-on, beskyttelse
+      af telefonnumre og betalingskort.
+
+

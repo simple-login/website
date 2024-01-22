@@ -1,0 +1,70 @@
+  - title: 100% open source
+    desc: >
+      Dibuat dengan teknologi open source, <em data-toggle="tooltip" data-html="true"
+      title="Including the server, Chrome/Firefox/Safari extensions, Android/iOS apps.">seluruh</em>
+      komponen SimpleLogin juga tersedia secara open source. <br> Anda tidak ingin
+      surel Anda dikelola oleh sistem yang tidak transparan, bukan?
+  - title: Kirim surel dari alias
+    desc: >
+      Tidak hanya untuk menerima surel, alias juga dapat digunakan untuk <span class="highlight">mengirim</span>
+      surel. Dengan kata lain, alias merupakan alamat surel yang lengkap.
+  - title: Tersedia di mana saja
+    desc: >
+      Kelola alias Anda pada situs web SimpleLogin atau melalui ekstensi <em data-toggle="tooltip"
+      data-html="true" title="And other chromium-based browsers like Edge, Opera,
+      Brave, etc">Chrome</em>, Firefox, dan Safari kami. <br>
+      Anda juga dapat mengelola alias Anda melalui aplikasi Android (Play Store, F-Droid)
+      dan iOS.
+  - title: Domain khusus
+    desc: >
+      Bawa domain Anda ke layanan kami, dan Anda tidak akan perlu lagi untuk membeli
+      <em data-toggle="tooltip" data-html="true" title="Like GSuite, Outlook or the
+      ones sold by the domain registrars">solusi hosting email</em> lainnya.
+      <br>
+      Di samping itu, tahukah Anda bahwa Anda dapat memiliki <em data-toggle="tooltip"
+      data-html="true" title="By enabling catch-all, you can create aliases on-the-fly:
+      <b>apapun@domain-anda.com</b> akan dibuat secara otomatis pada saat alamat ini
+      menerima email untuk pertama kali.">alias catch-all</em> dengan domain Anda?
+  - title: Harga terjangkau
+    desc: >
+      Seluruh paket SimpleLogin meliputi penerusan/pengiriman surel <span class="highlight">tanpa
+      batas</span> dan bandwidth yang <span class="highlight">tak berhingga</span>.
+      <br> Anda dapat menerima dan mengirim surel sebanyak yang Anda inginkan.
+  - title: Alias on-the-fly dengan subdomain
+    desc: >
+      Buat domain <em data-toggle="tooltip" data-html="true" title="Subdomain is a
+      great way to organize and create aliases on-the-fly. Just use <b>APAPUN@subdomain-anda.simplelogin.com</b>
+      ketika Anda memerlukan alias dengan cepat, alias ini akan dihasilkan pada saat
+      alamat yang bersangkutan menerima surel untuk kali pertama.">subdomain</em>,
+      dan gunakan metode ini untuk membuat alias dengan cepat tanpa harus membuka
+      situs web atau aplikasi mobile SimpleLogin. <a href="/blog/subdomains/" title="simplelogin
+      subdomains">Pelajari lebih lanjut</a>.
+  - title: Dukungan lebih dari satu kotak surat
+    desc: >
+      Apabila Anda telah memiliki beberapa kotak surat, fitur ini cocok untuk Anda:
+      Anda dapat menambahkan beberapa kotak surat ke SimpleLogin dan memilih kotak
+      surat mana yang akan digunakan pada saat membuat alias. <a href="/blog/introducing-mailbox/"
+      title="simplelogin multiple mailboxes">Pelajari lebih lanjut</a>.
+  - title: Privasi & Keamanan
+    desc: >
+      Dengan <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy
+      (PGP) is an encryption program that can encrypt your emails and let you communicate
+      privately online.">PGP</em>, email yang masuk akan terlebih dahulu dienkripsi
+      dengan kunci PGP milik Anda sebelum diteruskan ke kotak surat. Oleh karenanya,
+      email ini hanya akan dapat didekripsi oleh Anda. Kunci PGP ini dapat digunakan
+      baik dengan Proton Mail atau dengan perangkat PGP mana pun (Thunderbird, GPGTools,
+      dll). <br><br>
+      Untuk membuat akun SimpleLogin Anda lebih aman, Anda dapat mengaktifkan 2FA
+      dengan <em data-toggle="tooltip" data-html="true" title="TOTP (Time-based One-time
+      Passwords) is usually used with applications like Google Authenticator or Authy.">TOTP</em>
+      dan/atau <em data-toggle="tooltip" data-html="true" title="WebAuthn is usually
+      used with physical security keys like Yubikey, Google Titan, etc. Your phone
+      and laptop can also be used as a security key.">WebAuthn (FIDO)</em>.
+  - title: Lebih dari (sekadar) alias
+    desc: >
+      SimpleLogin berambisi untuk melindungi privasi online Anda, dan perlindungan
+      surel hanyalah awal dari ambisi kami. <br>
+      Nantikan berbagai fitur lainnya yang akan datang seperti single sign-on (SSO),
+      perlindungan nomor telepon, dan perlindungan kartu kredit.
+
+

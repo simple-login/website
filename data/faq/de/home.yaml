@@ -1,0 +1,126 @@
+  - question: Was genau ist ein <b>E-Mail-Alias</b>?
+    answer: >
+      Ein E-Mail-Alias ist ähnlich wie eine <a href="https://en.wikipedia.org/wiki/Email_forwarding">weitergeleitete</a>
+      E-Mail-Adresse: alle E-Mails, die an einen Alias gesendet werden, werden an
+      deinen Posteingang weitergeleitet. <br> Dank der SimpleLogin Technologie kannst
+      du auch E-Mails <b>von</b> einem Alias senden. <br> Für deinen Kontakt ist der
+      Alias also deime E-Mail-Adresse. Mehr Informationen über E-Mail-Alias auf <a
+      href="/blog/what-is-an-email-alias/">Was ist ein E-Mail-Alias</a>.
+  - question: Ich kann mit meinem Pluszeichen (+) Trick eine unbegrenzte Anzahl von
+      E-Mail-Adressen erstellen, warum brauche ich SimpleLogin?
+    answer: >
+      Die E-Mail-Subadressierung, auch bekannt als Plus-Funktion (+), die von Google
+      Mail populär gemacht wurde und von einigen E-Mail-Diensten unterstützt wird,
+      ermöglicht es dir, neue E-Mail-Adressen zu erstellen, indem du ein "+" an deine
+      aktuelle E-Mail-Adresse anhängst. Wenn deine E-Mail-Adresse name@proton.me lautet,
+      kannst du schnell eine weitere Adresse erstellen, z. B. Name+facebook@proton.me
+      für Facebook, Name+groupon@proton.me für Groupon usw. <br>
+      Das ist zwar praktisch, hat aber auch einige Nachteile: <br>
+      - Du kannst von der + Adresse aus nicht antworten: Deine echte E-Mail wird als
+      Absender angezeigt. <br>
+      - Der +-Trick ist bekannt, und einige Websites lassen keine Anmeldungen mit
+      E-Mail-Adressen zu, die ein + enthalten. <br>
+      - Der +-Trick schützt deine Privatsphäre nicht: Man kann den +-Teil leicht entfernen,
+      um deine echte E-Mail-Adresse zu ermitteln. Wenn deine +-Adresse in einem Datenleak
+      auftaucht, befindet sich deine echte Adresse wahrscheinlich auch in den Händen
+      von Spammern. Du kannst überprüfen, ob deine E-Mail-Adresse preisgegeben wurde,
+      indem du eine Website wie <a href="https://haveibeenpwned.com">have i been pawned</a>
+      besuchst. <br>
+      - Durch das Entfernen des +-Teils können Werbetreibende diese +-Adressen miteinander
+      verknüpfen, um deinen Browserverlauf zu erhalten. <br><br>
+      SimpleLogin-Aliasse haben keine dieser Nachteile. Mehr über die Vor- und Nachteile
+      der Verwendung des +-Tricks erfährst du auf <a href="/blog/email-alias-vs-plus-sign/">Was
+      macht E-Mail-Aliasse zu einer besseren Alternative zu E-Mail-Pluszeichen (+)</a>.
+  - question: Was ist der Unterschied zwischen SimpleLogin und anderen E-Mail-Weiterleitungsdiensten?
+    answer: >
+      SimpleLogin ist die fortschrittlichste E-Mail-Alias-Lösung und wird kontinuierlich
+      weiterentwickelt. Hier sind einige Unterschiede zwischen SimpleLogin und anderen
+      E-Mail-Weiterleitungs-/Aliasdiensten:<br><br>
+      <ul><li>Vollständig Open Source: Sowohl der SimpleLogin-Server als auch der
+      Client-Code (Browser-Erweiterung, JS-Bibliothek, mobile Anwendungen) sind <a
+      href="https://github.com/simple-login/app">Open Source</a> so dass jeder den
+      Code frei einsehen und verbessern kann.</li>
+      <li>Deckt alle wichtigen Plattformen ab: Chrome/Firefox/Safari-Erweiterung für
+      Desktop, iOS- und Android-Apps für Mobilgeräte. </li>
+      <li>Die einzige E-Mail-Weiterleitungslösung, die <em>selbstgehostet</em> werden
+      kann, d.h. zum Beispiel, dass du SimpleLogin auf deinem Server betreiben kannst.
+      Mit unserer detaillierten Anleitung zum Selbsthosten und den meisten Komponenten,
+      die als Docker-Container laufen, kann jeder, der ssh kennt, SimpleLogin auf
+      seinem Server installieren.</li>
+      <li>Du kannst von einem Alias aus E-Mails senden/beantworten. Es gibt keine
+      Beschränkungen bei der Anzahl der Sendungen/Antworten.</li>
+      <li>Unbegrenzte Bandbreite</li>
+      <li>Keine Werbung, kein Tracker</li>
+      <li>Nicht nur E-Mail-Alias: SimpleLogin ist auch ein datenschutzorientierter
+      und entwicklerfreundlicher <em>Identitätsanbieter</em>, der: <br>- die Privatsphäre
+      der Nutzer respektiert <br>- für Entwickler einfach zu bedienen ist. <br> SimpleLogin
+      bietet eine datenschutzfreundliche Alternative zu den "Login mit Facebook/Google/Apple"-Buttons.</li>
+
+      <li>Zahlreiche Funktionen: Browsererweiterung, benutzerdefinierte Domäne, Catch-All-Alias,
+      OAuth-Bibliotheken usw. und vieles mehr ist in Vorbereitung.</li>
+      <li>Rufe die Roadmap bei <a href="https://github.com/simple-login/app/projects/1">GitHub</a>
+      auf, um die spannenden Funktionen kennenzulernen, an denen wir gerade arbeiten.</li></ul>
+  - question: Wie unterscheidet sich SimpleLogin von temporären E-Mail-Diensten?
+    answer: >
+      SimpleLogin Aliase sind dauerhaft, im Gegensatz zu den temporären E-Mail-Adressen,
+      die bei Diensten wie <a href="https://temp-mail.org/en/">temp-mail.org</a>,
+      <a href="https://10minutemail.net">10minutemail.net</a>, usw.<br>SimpleLogin
+      speichert auch keine E-Mails, die werden in deinem Postfach gespeichert. <br>
+      SimpleLogin ist einfach ein anderes Produkt für unterschiedliche Bedürfnisse.
+  - question: Was ist das Geschäftsmodell von SimpleLogin?
+    answer: Unsere Einkünfte stammen ausschließlich aus Abonnements, d. h. das Produkt
+      wird für immer werbefrei bleiben.
+  - question: Was ist ein <b>Alias-Verzeichnis</b> oder eine <b>Catch-all-Funktion</b>?
+    answer: >
+      Diese beiden Funktionen ermöglichen es dir, Aliasse <em>im Handumdrehen</em>
+      zu erstellen, d.h. du musst SimpleLogin nicht erst öffnen, um einen neuen Alias
+      zu erstellen. <br>Wenn du <b>Catch-all</b> auf deiner Domain aktivierst, kannst
+      du <em>IRGENDETWAS@meinedomain.com</em> als Alias verwenden, wobei <b>IRGENDETWAS</b>
+      ein beliebiges Wort ist. Die einzige Einschränkung ist, dass es weniger als
+      128 Zeichen haben muss. <br>
+      <b>Alias Verzeichnis</b> ist ähnlich wie catch-all, du kannst <em>dein_verzeichnis+IRGENDETWAS@simplelogin.co</em>
+      als Alias verwenden. <b>dein_verzeichnis</b> ist der Name des Verzeichnisses,
+      das du erstellt hast.
+  - question: Ich erhalte eine E-Mail von einem Alias, die an meine persönliche E-Mail
+      weitergeleitet wird. Wie kann ich auf diese E-Mail antworten? Muss ich zu SimpleLogin
+      gehen, um die Antwort zu verfassen?
+    answer: >
+      Du kannst direkt von deinem E-Mail-Client aus antworten. Klicke einfach auf
+      die Schaltfläche "Antworten", die Antwort wird über SimpleLogin weitergeleitet
+      und SimpleLogin wird sie von deinem Alias aus senden. Deine persönliche E-Mail
+      bleibt für den ursprünglichen Absender unsichtbar. <br><br>Technisch gesehen
+      wird der <b>Absender</b> in der Kopfzeile deiner E-Mail durch einen speziellen
+      Alias ersetzt, der dynamisch für jeden Absender generiert wird. Wenn du antwortest
+      wird deine Antwort tatsächlich an diesen speziellen Alias gesendet, SimpleLogin
+      leitet die Antwort an den Absender zurück und stellt sicher, dass deine E-Mail
+      von deinem Alias gesendet wird. Alle Informationen über deine persönliche E-Mail-Adresse
+      werden während dieses Prozesses herausgenommen.
+  - question: Was ist ein <b>Reverse-Alias</b>?
+    answer: >
+      Ein Reverse-Alias ist ein <b>spezieller</b> Alias, der es dir ermöglicht, E-Mails
+      <b>von deinem Alias</b> aus zu versenden. <br>Es wird für jeden Alias, von dem
+      du E-Mails senden möchtest, und für jeden Kontakt, an den du E-Mails senden
+      möchtest, ein Reverse-Alias erstellt. <br> Wenn du eine E-Mail von deiner persönlichen
+      E-Mail an einen Reverse-Alias sendest, wird die E-Mail von deinem Alias an den
+      Kontakt gesendet.
+  - question: Ist ein E-Mail-Alias dauerhaft?
+    answer: Wie eine normale E-Mail-Adresse ist auch ein E-Mail-Alias immer vorhanden,
+      es sei denn, du löschst ihn.
+  - question: Wo sind die Standorte von den SimpleLogin-Servern?
+    answer: Wir verwenden Server von Proton und UpCloud - einem Cloud-Anbieter mit
+      Sitz in Finnland.
+  - question: Was ist die Funktion <b>Benutzerdefinierte Domain</b>?
+    answer: >
+      Du kannst deine eigenen Domains in SimpleLogin einbringen und Aliasnamen wie
+      <b>kontakt@deine-domain.com</b> oder <b>hallo@deine-domain.com</b> erstellen.
+      <br>Wie du vielleicht schon vermutet hast, kannst du dann SimpleLogin zur Verwaltung
+      deiner <em>Geschäfts-E-Mails</em> verwenden, anstatt für eine teure Lösung wie
+      Google Workspace zu bezahlen. <br>Alle unsere Geschäfts-E-Mails (z. B. <b>kontakt@simplelogin.io</b>)
+      sind eigentlich Aliase. 🤫
+  - question: Ich kann hier keine Antwort auf meine Frage finden
+    answer: >
+      Eine Liste aller häufigen Fragen/Antworten findest du auf der <a href="/faq/">FAQ-Seite</a>.<br>
+      Wenn du dort keine Antwort findest, sende uns deine Frage bitte an <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a><br>Du
+      kannst auch eine Anfrage auf unserem <a href="https://github.com/simple-login/app/issues">GitHub
+      Issues</a> erstellen.
+

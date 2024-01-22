@@ -1,0 +1,60 @@
+  - question: O que acontece com meus aliases quando interrompo a assinatura?
+    answer: >
+      Quando sua assinatura termina, todos os aliases que você criou continuam funcionando
+      normalmente, tanto no recebimento quanto no envio de e-mails. Concretamente:
+      <br> - Todos os aliases/domínios/diretórios/caixas de correio que você criou
+      são mantidos e continuam funcionando normalmente. <br> - Você não poderá criar
+      novos aliases se exceder o limite do plano gratuito, ou seja, tiver mais de
+      10 aliases. <br> - Como recursos como catch-all ou diretório permitem que você
+      crie aliases dinamicamente, esses aliases não poderão ser criados automaticamente
+      se você tiver mais de 10 aliases. <br> - Você não pode adicionar novo domínio,
+      diretório ou caixa de correio. <br><br>
+      Por exemplo, se você tiver 100 aliases quando sua assinatura terminar, esses
+      100 aliases continuarão recebendo e enviando e-mails normalmente. No entanto,
+      você não pode criar novos aliases.
+  - question: O que acontece quando eu atingir o número máximo de alias no plano gratuito?
+    answer: >
+      Se você estiver no plano gratuito, não poderá criar novos aliases quando atingir
+      o número máximo de aliases (ou seja, 10 aliases). <br> Aliases que de outra
+      forma seriam criados automaticamente por meio do recurso de domínio ou diretório
+      pega-tudo também não podem ser criados. <br>
+  - question: Vocês oferecem descontos?
+    answer: >
+      Oferecemos descontos importantes ou premium grátis para: <br>
+      - estudantes, professores ou técnicos que trabalham numa instituição de ensino
+      <br> - ativistas, dissidentes ou jornalistas <br> - organizações de caridade
+      <br>
+      Envie-nos um e-mail para <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      para obter mais informações. <br><br>
+      Costumávamos oferecer contas premium gratuitas para estudantes, mas este programa
+      terminou em 17 de junho de 2021. Observe que isso não afeta contas existentes
+      que já se beneficiaram do programa ou solicitações enviadas antes desta data.
+  - question: Quais métodos de pagamento vocês suportam?
+    answer: >
+      Usamos o <a href="https://paddle.com">Paddle</a> para lidar com pagamentos via
+      cartões de crédito e PayPal. Paddle atualmente suporta os seguintes métodos
+      de pagamento: <br>
+      <ul><li>Mastercard</li><li>Visa</li><li>PayPal</li><li>Apple Pay</li><li>Transferências
+      eletrônicas (ACH/SEPA/BACS)</li>
+      <li>Maestro</li><li>American Express</li><li>Discover</li><li>Diners Club</li><li>JCB</li></ul>
+
+      Mais informações podem ser encontradas nos <a href="https://paddle.com/support/which-payment-methods-do-you-support/">
+      métodos de pagamento suportados pelo Paddle</a>. <br>
+      Para criptomoedas, usamos <a href="https://commerce.coinbase.com">Coinbase Commerce</a>
+      que atualmente suporta Bitcoin, Bitcoin Cash, Dai, Ethereum, Litecoin e USD
+      Coin. No futuro, também apoiaremos o Monero. Enquanto isso, envie-nos um e-mail
+      para <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      se quiser usar esta criptomoeda.
+  - question: Vocês possuem uma política de reembolso?
+    answer: Não, não temos uma política de reembolso porque o SimpleLogin tem um período
+      de teste onde você pode experimentar todos os recursos premium.
+  - question: Vocês possuem um plano familiar?
+    answer: Não, não temos um plano familiar, mas oferecemos redução de 30% para assinaturas
+      adicionais. Entre em contato conosco em <a 
+      href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      para obter mais informações.
+  - question: Existem outras maneiras de comprar assinaturas SimpleLogin?
+    answer: Sim, você também pode comprar cupom de assinatura SimpleLogin através
+      do <a href="https://proxysto.re/en/index.html">ProxyStore</a>, nosso revendedor
+      oficial.
+

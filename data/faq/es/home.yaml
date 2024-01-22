@@ -96,19 +96,17 @@
       sobre tu dirección de correo personal se elimina durante ese proceso.
   - question: '¿Qué es un <b>alias inverso</b>?'
     answer: >
-      Un alias inverso es un alias &lt;b&gt;especial&lt;/b&gt; que te permite enviar
-      correos &lt;b&gt;desde tu alias&lt;/b&gt;. &lt;br&gt; Se crea un alias inverso
-      para cada alias desde el que quieres enviar un correo y cada contacto al que
-      quieres enviar un correo electrónico. &lt;br&gt; Cuando envías un correo a un
-      alias inverso desde tu correo electrónico personal, el correo se enviará desde
-      tu alias al contacto.
+      Un alias inverso es un alias <b>especial</b> que te permite enviar correos <b>desde
+      tu alias</b>. <br>Se crea un alias inverso para cada alias desde el que quieres
+      enviar un correo y cada contacto al que quieres enviar un correo electrónico.
+      <br> Cuando envías un correo a un alias inverso desde tu correo electrónico
+      personal, el correo se enviará desde tu alias al contacto.
   - question: '¿El alias de correo es permanente?'
     answer: Como una dirección de correo normal, el alias de correo siempre estará
       allí a menos que lo elimines.
   - question: '¿Dónde están ubicados los servidores de SimpleLogin?'
-    answer: Utilizamos UpCloud, un proveedor en la nube finlandés. Nuestro servidor
-      se encuentra actualmente en su centro de datos en Francia, Alemania y los Países
-      Bajos.
+    answer: Usamos servidores de Proton y UpCloud, un proveedor en la nube con sede
+      en Finlandia.
   - question: '¿Qué es la función de <b>dominio personalizado</b>?'
     answer: >
       Puedes incorporar tus propios dominios a SimpleLogin y crear alias como <b>contacto@tu-dominio.com</b>,

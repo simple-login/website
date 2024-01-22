@@ -1,0 +1,72 @@
+header_login: Logg på #header
+header_signup: Registrer deg
+header_pricing: Priser
+hero: Motta og send e-post anonymt #hero section
+hero_desc: >
+  Med <em data-toggle="tooltip" data-html="true" title="en e-postalias (eller alias) er en e-postadresse som <b>ikke lagrer</b>e-poster: alle e-postmeldinger som sendes til et alias, videresendes til din personlige e-postadresse.">e-postaliaser</em>, du kan være anonym på nettet og beskytte innboksen din mot søppelpost og nettfisking.<a href="https://github.com/simple-login/">Åpen kildekode</a>Laget og vertet i Europa.
+hero_cta: >
+
+hero_button_underline: <b>800,000+</b> aliaser opprettet.
+seen_on: Anbefalt av
+how_it_work_title: Hvordan fungerer e-postalias? #how it work section
+how_it_work_desc: Beskytt innboksen din med e-postaliaser.
+how_it_work_1_title: Bruk e-postaliaser hvor som helst
+how_it_work_1_subtitle: >
+  Neste gang et nettsted ber om e-postadressen din, gi et alias <span class="bigger">istedenfor</span> din virkelige e-post.
+how_it_work_2_title: Motta e-post trygt i innboksen din.
+how_it_work_2_subtitle: >
+  E-postmeldinger som sendes til et alias, <span class="bigger">videresendes umiddelbart</span> til innboksen din uten at avsenderen vet noe.<br>
+how_it_work_3_title: Send e-post anonymt
+how_it_work_3_subtitle: >
+  Bare trykk på "Svar" hvis du vil svare på en videresendt e-post: svaret sendes fra aliaset ditt, og den virkelige e-posten din forblir skjult. <br> Du kan også enkelt <span class="bigger">sende</span> e-post fra aliaset ditt.
+everywhere_title: Opprett og administrer aliasene dine overalt #available everywhere section
+everywhere_subtitle: Opprett raskt et alias mens du er på farten. Registrer deg for et nyhetsbrev, opprett en ny nettkonto med et klikk.
+alias_new_email_title: Alias er den nye e-postadressen #Alias is the new email address Section
+alias_new_email_a_title: A. Erstatt e-post med alias overalt
+alias_new_email_a_text_1: Abonner på e-postlister, opprett nye nettkontoer med e-postalias.
+alias_new_email_a_text_2: Senere, ganske enkelt <span class="highlight">blokkér</span> et alias hvis det sender ut søppelpost.
+alias_new_email_b_title: B. Send e-post fra alias
+alias_new_email_b_text_1: >
+  Bare trykk "Svar" når du trenger å svare på en videresendt e-post: svaret vil <span class="highlight"> komme fra</span> aliaset og din personlige postkasse forblir skjult.
+alias_new_email_b_text_2: >
+  Du kan også <em data-toggle="tooltip" data-html="true" title="<b>Normal</b> e-postalias som <b>+ trikset</b> fungerer vanligvis på en måte: du kan bare motta e-post.<br>I SimpleLogin kan du enkelt svare/sende e-post fra aliaset ditt.">send</em> e-post til hvilken som helst e-postadresse fra aliaset ditt.
+alias_new_email_c_title: C. Led virksomheten din med alias
+alias_new_email_c_text_1: Bruk alias som din <span class="highlight">virksomhets-e-post</span>.
+alias_new_email_c_text_2: >
+  Spar $6/måned
+  <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true" title='GSuite starts at $6/month per user.'></i> for hver virksomhets-e-post opprettet med SimpleLogin.
+alias_new_email_c_text_3: 50+ og tellende bedrifter klarérer SimpleLogin til å drifte e-postene sine.
+testimonial_title: E-postaliaser; elsket av brukere #Testimonials Section
+feature_title: Personvern, sikkerhet og funksjoner du vil elske #Features section
+feature_subtitle: SimpleLogin er den mest avanserte løsningen for e-postalias.
+faq_title: Ofte stilte spørsmål #FAQ section
+faq_subtitle: Hjelp
+ready_get_started: Klar for å komme i gang?
+ready_get_started_cta: >
+
+cta_2_title: Gjør som mer enn 50 000 personer som beskytter innboksen og personvernet sitt.
+cta_2_button: >
+
+partner_title: Våre partnere
+footer_1: SimpleLogin er en <a href="https://github.com/simple-login">åpen kildekode</a><b>e-postalias</b>-løsning for å beskytte din e-postadresse. #footer
+footer_3: SimpleLogin er et produkt fra SimpleLogin SAS, registrert i Frankrike under SIRENE-nummeret 884302134. SimpleLogin SAS er en del av <a href="https://proton.me">Proton AG.</a>
+footer_pricing: Priser
+footer_about: Om oss
+footer_contact: Kontakt oss
+footer_imprint: Ansvarlig utgiver
+footer_join_us: Bli med oss
+pricing_title: Priser #pricing
+pricing_subtitle: >
+  SimpleLogin er <a href="https://github.com/simple-login">åpen kildekode</a>, kan vertes selv og er 100% finansiert av samfunnet. Vi bruker ikke dataene dine, sporer deg ikke eller viser deg annonser. SimpleLogin er avhengig av din støtte for å holde tjenesten i gang og utvikle nye funksjoner.
+pricing_free_title: Gratis
+pricing_premium_title: Premium
+pricing_free_cta: Registrer deg
+pricing_premium_cta: Begynn å beskytte e-posten din
+pricing_what_people_say: Hva folk sier om SimpleLogin
+pricing_premium_yearly_price: 30 $
+pricing_premium_yearly_year: år
+pricing_premium_monthly_price: eller 4 $ fakturert månedlig
+faq_tech_question: Tekniske spørsmål #<<< FAQ page >>>
+faq_general_question: Generelle spørsmål
+faq_developer_question: Spørsmål om partnere/utviklere
+faq_pricing_question: Spørsel om plan/priser

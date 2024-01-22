@@ -11,9 +11,9 @@
       d'adresses e-mail ? Pourquoi utiliser SimpleLogin ?
     answer: >
       Le sous-adressage e-mail, connu sous le nom « d'astuce du plus signe plus (+) »
-      a été rendu populaire par Gmail et est pris en charge par certains services
-      de messagerie. Cela vous permet de créer de nouvelles adresses e-mail en ajoutant
-      le signe « + » à votre adresse e-mail. Si votre adresse est « prenom.nom@proton.me »,
+      a été rendu populaire par Gmail et fonctionne avec certains services de messagerie.
+      Cela vous permet de créer de nouvelles adresses e-mail en ajoutant le signe
+      « + » à votre adresse e-mail. Si votre adresse est « prenom.nom@proton.me »,
       vous pouvez par exemple créer une adresse comme « prenom.nom+facebook@proton.me »
       pour votre compte Facebook ou « prenom.nom+groupon@proton.me » pour votre compte
       Groupon.<br>
@@ -26,9 +26,8 @@
       de retirer cette partie de l'adresse pour avoir votre véritable adresse e-mail.
       Si votre adresse avec le signe plus (+) apparaît dans une fuite de données,
       votre véritable adresse est probablement aussi entre les mains de spammeurs.
-      Vous pouvez vérifier si votre adresse électronique a fait l'objet d'une fuite
-      en utilisant le site internet tel que <a href="https://haveibeenpwned.com">Have
-      I Been Pwned</a>.<br>
+      Vous pouvez vérifier si votre adresse e-mail a fait l'objet d'une fuite sur
+      des sites comme <a href="https://haveibeenpwned.com">Have I Been Pwned</a>.<br>
       - En supprimant la partie avec le signe plus (+), les annonceurs peuvent relier
       les adresses entre elles et obtenir votre historique de navigation. <br><br>
       Les alias SimpleLogin ne présentent aucun de ces inconvénients. Pour en savoir
@@ -47,8 +46,9 @@
       SimpleLogin (extension de navigateur, bibliothèque JS, applications mobiles)
       est <a href="https://github.com/simple-login/app">open source</a>, ce qui permet
       à tout le monde d'inspecter et d'améliorer librement le code. </li>
-      <li>SimpleLogin fonctionne sur les principales plateformes : extension Chrome/Firefox/Safari
-      pour les ordinateurs de bureau, applications iOS et Android pour les smartphones.</li>
+      <li>SimpleLogin fonctionne sur les principales plateformes : extensions Chrome,
+      Firefox et Safari pour les ordinateurs de bureau, applications iOS et Android
+      pour les smartphones.</li>
       <li>SimpleLogin est la seule solution de transfert automatique des messages
       qui peut être <em>auto-hébergée</em>, c'est-à-dire que vous pouvez exécuter
       SimpleLogin sur votre serveur. Avec nos instructions détaillées sur l'auto-hébergement,
@@ -59,10 +59,10 @@
       Il n'y a pas de limite au nombre d'envois et de réponses.</li>
       <li>SimpleLogin propose une bande passante illimitée. </li>
       <li>SimpleLogin est sans publicité et sans traqueur.</li>
-      <li>SimpleLogin va au-delà des alias d'adresse e-mail, en étant un <em>gestionnaire
-      d'identité</em> qui: <br>- respecte la vie privée <br> -s'adapte aux besoins
-      des développeurs. <br> SimpleLogin offre une solution respectueuse de la vie
-      privée à la place des boutons « Login with Facebook/Google/Apple ».</li>
+      <li>SimpleLogin va au-delà des alias d'adresse e-mail, c'est aussi un <em>gestionnaire
+      d'identité</em> :<br>- Respectueux la vie privée <br> - Adapté aux besoins des
+      développeurs <br> SimpleLogin offre une solution respectueuse de la vie privée
+      à la place des boutons « Login with Facebook/Google/Apple ».</li>
 
       <li>SimpleLogin dispose de nombreuses fonctionnalités : extension de navigateur,
       domaine personnalisé, alias catch-all, bibliothèques OAuth… et bien d'autres
@@ -75,8 +75,8 @@
       Les alias de SimpleLogin sont permanents, contrairement aux adresses e-mail
       temporaires créées sur des services comme <a href="https://temp-mail.org/en/">temp-mail.org</a>
       ou <a href="https://10minutemail.net">10minutemail.net</a>. <br> Par ailleurs,
-      SimpleLogin ne stocke pas les messages électroniques, ils sont stockés dans
-      votre boite mail. <br> SimpleLogin est un produit différent pour un besoin différent.
+      SimpleLogin ne conserve pas les messages, ils sont dans votre boite mail. <br>
+      SimpleLogin est un produit différent pour un besoin différent.
   - question: Quel est le modèle économique de SimpleLogin ?
     answer: Nos revenus proviennent uniquement des abonnements. SimpleLogin restera
       donc toujours sans publicité.
@@ -116,9 +116,8 @@
     answer: Comme une adresse e-mail normale, un alias d'adresse e-mail existe tant
       que vous ne l'avez pas supprimé.
   - question: Où se trouvent les serveurs de SimpleLogin ?
-    answer: Nous utilisons UpCloud, un fournisseur de services cloud finlandais. Nos
-      serveurs sont actuellement situés dans leurs centres de données en France, en
-      Allemagne et aux Pays-Bas.
+    answer: Nous utilisons des serveurs Proton et UpCloud (un fournisseur de cloud
+      basé en Finlande).
   - question: Qu'est-ce que la fonctionnalité <b>domaine personnalisé</b> ?
     answer: >
       Vous pouvez intégrer vos propres domaines à SimpleLogin et créer des alias comme
