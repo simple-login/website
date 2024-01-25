@@ -1,0 +1,23 @@
+  - question: Prečo mám na svojej webovej stránke implementovať SimpleLogin namiesto
+      "Prihlásenia cez Facebook/Google"?
+    answer: >
+      Viete, že Facebook a Google používajú tieto tlačidlá na <a href="/blog/do-not-use-facebook-sdk/">sledovanie</a>
+      histórie prehliadania používateľov, aby mohli poskytovať personalizovanejšie
+      reklamy? <br><br> Keďže SimpleLogin nie je financovaný reklamou a poskytuje
+      používateľom úplnú kontrolu nad ich údajmi, nemáme žiadnu motiváciu využívať
+      vaše používateľské údaje.
+  - question: Prečo môžem dôverovať službe SimpleLogin?
+    answer: >
+      Celý kód SimpleLogin je plne otvorený na <a href="https://github.com/simple-login">GitHube</a>
+      <br><br> Ktokoľvek môže kód voľne auditovať alebo si zriadiť vlastný server
+      SimpleLogin. <br><br> Príjmy SimpleLogin sú postavené na transparentnom a udržateľnom
+      modeli, ktorý nám umožňuje mať produkt zameraný predovšetkým na ochranu súkromia
+      a bez sledovania.
+  - question: Plánujete vydať SDK na podporu natívnych, windowsových atď. aplikácií?
+    answer: >
+      Rozhodne áno! Začali sme s webovou platformou jednoducho preto, že sa dá použiť
+      aj pre mobilnú aplikáciu prostredníctvom Android WebView alebo IOS UIWebView.
+      <br><br> Pomerne skoro plánujeme poskytnúť SDK a niekoľko príkladov pre Android,
+      iOS a Windows. Sledujte nás!
+
+

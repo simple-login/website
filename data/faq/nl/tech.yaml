@@ -1,0 +1,37 @@
+  - question: Wat is de maximale grootte voor e-mails?
+    answer: >
+      De huidige limiet is 25 MB. Voor grote bijlagen raden we aan om een bestand-uploadservice
+      te gebruiken en in plaats daarvan de link te verzenden. U kunt enkele bestandsdelingsservices
+      vinden die onze privacy respecteren op <a href="https://www.privacyguides.org/file-sharing/">Privacy
+      Guides</a>. <br> Een andere reden voor deze limiet is dat PGP-encryptie een
+      zwaar proces is; het ondersteunen van een grotere grootte legt een aanzienlijke
+      belasting op de servers van SimpleLogin.
+  - question: Ik heb per ongeluk een alias verwijderd, kan ik het herstellen?
+    answer: >
+      Wanneer een alias wordt verwijderd, wordt het in een algemene <b>prullenbak</b>
+      geplaatst en zorgen we ervoor dat het niet opnieuw kan worden gebruikt. Alle
+      historische informatie over de alias (het account dat de alias maakt, de alias-contacten
+      enz.) wordt verwijderd om uw privacy te respecteren. <br> Dit geldt voor alle
+      aliassen die zijn aangemaakt met SimpleLogin-domeinen. <br> U kunt echter wel
+      een alias herstellen die is aangemaakt met uw eigen domein.
+  - question: Waar bevinden zich de SimpleLogin PGP-sleutels?
+    answer: >
+      Onze PGP-sleutels staan op de pagina <a href="/pgp-key">PGP-sleutels</a>.
+      Als u PGP inschakelt, worden alle e-mails ondertekend met de sleutel <b>signer@simplelogin.io</b>.
+  - question: Hoe kan ik mijn account verwijderen?
+    answer: >
+      Onderaan de <a href="https://app.simplelogin.io/dashboard/setting">Instellingen-pagina</a>
+      kunt u uw account verwijderen. Deze handeling is onherroepelijk en we hebben
+      geen manier om uw gegevens te herstellen.
+  - question: Kan ik e-mailaliassen gebruiken voor belangrijke diensten zoals banken,
+      overheidsinstellingen, enzovoort?
+    answer: >
+      Het korte antwoord is ja, dat kan. Wij gebruiken e-mailaliassen voor ons bedrijf,
+      het beheer van onze belastingen, en het uitvoeren van banktransacties, en tot
+      nu toe gaat alles goed :). <br> Een langer antwoord is dat het e-mailprotocol
+      is ontworpen om zeer veerkrachtig te zijn, en een e-mail gaat vrijwel nooit
+      verloren. Als SimpleLogin de e-mail niet naar uw postvak kan bezorgen, zullen
+      wij u op de hoogte stellen, zodat u passende maatregelen kunt nemen. U kunt
+      ook een secundair postvak instellen naast uw primaire postvak dat als back-up
+      kan worden gebruikt.
+

@@ -1,0 +1,72 @@
+header_login: Anmelden #header
+header_signup: Registrieren
+header_pricing: Preise
+hero: Anonyme E-Mails empfangen und versenden #hero section
+hero_desc: >
+  Mit <em data-toggle="tooltip" data-html="true" title="Ein E-Mail Alias (oder kurz Alias) ist eine E-Mail Adresse, die <b>keine E-Mails speichert</b>: Alle an ein Alias gesendeten E-Mails werden an deine persönliche E-Mail  Adresse weitergeleitet.">E-Mail Aliassen</em> kannst du online anonym bleiben und deinen Posteingang vor Spam und Phishing schützen. <a href="https://github.com/simple-login/">Open source</a>. Entwickelt und gehostet in Europa.
+hero_cta: >
+
+hero_button_underline: <b>Mehr als 800.000</b> Aliasse erstellt.
+seen_on: Empfohlen von
+how_it_work_title: Wie funktioniert ein E-Mail-Alias? #how it work section
+how_it_work_desc: Schütze deinen Posteingang mit E-Mail-Aliassen.
+how_it_work_1_title: Verwende E-Mail-Aliasse überall
+how_it_work_1_subtitle: >
+  Wenn du das nächste Mal auf einer Website nach deiner E-Mail-Adresse gefragt wirst, gib einen Alias <span class="bigger">anstelle</span> deiner echten E-Mail-Adresse an.
+how_it_work_2_title: Erhalte E-Mails sicher in deinem Posteingang.
+how_it_work_2_subtitle: >
+  E-Mails, die an einen Alias gesendet werden, <span class="bigger">werden sofort an deinen Posteingang weitergeleitet</span>, ohne dass der Absender etwas davon weiß. <br>
+how_it_work_3_title: E-Mails anonym senden
+how_it_work_3_subtitle: >
+  Klicke einfach auf "Antworten", wenn du auf eine weitergeleitete E-Mail antworten möchtest: Die Antwort wird von deinem Alias aus gesendet und deine echte E-Mail-Adresse bleibt verborgen. <br> Du kannst auch ganz einfach E-Mails von deinem Alias aus <span class="bigger">versenden</span>.
+everywhere_title: Erstelle und verwalte deine Aliasse überall #available everywhere section
+everywhere_subtitle: Erstelle unterwegs schnell einen Alias. Melde dich für einen Newsletter an, erstelle mit einem Klick ein neues Online-Konto.
+alias_new_email_title: Alias ist die neue E-Mail-Adresse #Alias is the new email address Section
+alias_new_email_a_title: A. Ersetze E-Mail-Adressen überall durch Aliasse
+alias_new_email_a_text_1: Abonniere Mailinglisten, erstelle neue Online-Konten mit E-Mail-Aliassen.
+alias_new_email_a_text_2: Später kannst du einen Alias einfach <span class="highlight">blockieren</span>, wenn er zu Spam wird.
+alias_new_email_b_title: B. Sende E-Mails von einem Alias aus
+alias_new_email_b_text_1: >
+  Klicke einfach auf "Antworten", wenn du auf eine weitergeleitete E-Mail antworten musst: Die Antwort wird <span class="highlight">vom Alias kommen</span> und dein persönliches Postfach bleibt verborgen.
+alias_new_email_b_text_2: >
+  Du kannst auch E-Mails von deiner Alias-Adresse an jede beliebige E-Mail-Adresse <em data-toggle="tooltip" data-html="true" Ein <b>normaler</b> E-Mail-Alias wie der <b>+ Trick </b> funktioniert normalerweise nur in eine Richtung: Du kannst nur E-Mails empfangen. <br> Bei SimpleLogin kannst du jedoch problemlos E-Mails von deinem Alias beantworten/versenden.">senden</em>.
+alias_new_email_c_title: C. Führe dein Unternehmen mit Aliassen
+alias_new_email_c_text_1: Verwende einen Alias als deine <span class="highlight">Geschäfts-E-Mail</span>.
+alias_new_email_c_text_2: >
+  Spare $6/Monat
+  <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true" title='GSuite beginnt bei 6 $/Monat pro Benutzer.'></i> bei jeder geschäftlichen E-Mail-Adresse, die über SimpleLogin erstellt wurde.
+alias_new_email_c_text_3: Mehr als 50 Unternehmen vertrauen SimpleLogin bei der Verwaltung ihrer E-Mails.
+testimonial_title: Von Nutzern geliebte E-Mail-Aliasse #Testimonials Section
+feature_title: Datenschutz, Sicherheit und Funktionen, die du lieben wirst #Features section
+feature_subtitle: SimpleLogin ist die fortschrittlichste E-Mail-Alias-Lösung.
+faq_title: Häufig gestellte Fragen #FAQ section
+faq_subtitle: Hilfe
+ready_get_started: Bist du bereit, um loszulegen?
+ready_get_started_cta: >
+
+cta_2_title: Schließe dich mehr als 50.000 Menschen an, die ihren Posteingang und ihre Privatsphäre schützen.
+cta_2_button: >
+
+partner_title: Unsere Partner
+footer_1: SimpleLogin ist eine <a href="https://github.com/simple-login“>Open Source</a> <b>E-Mail-Alias-</b>Lösung, um deine E-Mail-Adresse zu schützen. #footer
+footer_3: SimpleLogin ist ein Produkt der SimpleLogin SAS und in Frankreich registriert unter der SIREN-Nummer 884302134. SimpleLogin SAS ist Teil der <a href="https://proton.me">Proton AG</a>.
+footer_pricing: Preise
+footer_about: Über uns
+footer_contact: Kontaktiere uns
+footer_imprint: Impressum
+footer_join_us: Tritt uns bei
+pricing_title: Preise #pricing
+pricing_subtitle: >
+  SimpleLogin ist <a href="https://github.com/simple-login">Open Source</a>, kann selbst gehostet werden und ist 100% über die Community finanziert. Wir nutzen weder deine Daten, noch tracken wir dich oder zeigen dir Werbung. SimpleLogin ist auf deine Unterstützung angewiesen, um den Service am Laufen zu halten und neue Funktionen zu entwickeln.
+pricing_free_title: Free
+pricing_premium_title: Premium
+pricing_free_cta: Registrieren
+pricing_premium_cta: Schütze jetzt deine E-Mails
+pricing_what_people_say: Was andere über SimpleLogin sagen
+pricing_premium_yearly_price: '$30'
+pricing_premium_yearly_year: Jahr
+pricing_premium_monthly_price: oder $4 monatlich
+faq_tech_question: Technische Fragen #<<< FAQ page >>>
+faq_general_question: Allgemeine Fragen
+faq_developer_question: Partner-/Entwicklerfragen
+faq_pricing_question: Abonnement-/Preisfragen

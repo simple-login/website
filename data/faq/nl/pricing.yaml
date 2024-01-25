@@ -1,0 +1,60 @@
+  - question: Wat gebeurt er met mijn aliassen wanneer ik het abonnement stopzet?
+    answer: >
+      Wanneer uw abonnement afloopt, blijven alle aliassen die u hebt aangemaakt normaal
+      werken, zowel voor het ontvangen als het verzenden van e-mails. Concreet: <br>
+      - Alle aliassen/domeinen/mappen/postbussen die u hebt aangemaakt, worden behouden
+      en blijven normaal werken. <br> - U kunt geen nieuwe aliassen aanmaken als u
+      het limiet van het gratis abonnement overschrijdt, bijvoorbeeld meer dan 10
+      aliassen. <br> - Aangezien functies zoals catch-all of map u in staat stellen
+      om aliassen op dat moment aan te maken, kunnen die aliassen niet automatisch
+      worden aangemaakt als u meer dan 10 aliassen hebt. <br> - U kunt geen nieuw
+      domein, map of postbus toevoegen. <br><br> Bijvoorbeeld, als u 100 aliassen
+      hebt op het moment dat uw abonnement eindigt, blijven deze 100 aliassen normaal
+      e-mails ontvangen en verzenden. U kunt echter geen nieuwe aliassen meer aanmaken.
+  - question: Wat gebeurt er wanneer het maximale aantal aliassen bereikt is in het
+      gratis abonnement?
+    answer: >
+      Als u zich in het gratis abonnement bevindt, kunt u geen nieuwe aliassen aanmaken
+      wanneer u het maximale aantal aliassen bereikt (dwz. 10 aliassen). <br> Aliassen
+      die anders automatisch zouden worden aangemaakt via het catch-all domein of
+      de mapfunctie kunnen ook niet worden gemaakt. <br>
+  - question: Bieden jullie kortingen?
+    answer: >
+      Wij bieden aanzienlijke kortingen of gratis premiumaccounts voor: <br>
+      - studenten, professoren of technisch personeel werkzaam bij een onderwijsinstelling
+      <br> - activisten, dissidenten of journalisten <br> - liefdadigheidsorganisaties
+      <br>
+      Stuur ons een e-mail naar <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      voor meer informatie. <br><br>
+      Wij boden eerder gratis premiumaccounts aan voor studenten, maar dit programma
+      eindigde op 17 juni 2021. Let op: dit heeft geen invloed op bestaande accounts
+      die al hebben geprofiteerd van het programma of verzoeken die vóór deze datum
+      zijn ingediend.
+  - question: Welke betaalmethoden ondersteunt jullie?
+    answer: >
+      Wij maken gebruik van <a href="https://paddle.com">Paddle</a> voor het afhandelen
+      van betalingen via creditcards en PayPal. Momenteel ondersteunt Paddle de volgende
+      betaalmethoden: <br>
+      <ul> <li>Mastercard</li> <li>Visa</li> <li>PayPal</li> <li>Apple Pay</li> <li>Overschrijvingen
+      (ACH/SEPA/BACS)</li> <li>Maestro</li> <li>American Express</li> <li>Discover</li>
+      <li>Diners Club</li> <li>JCB</li> </ul>
+
+      Meer informatie is te vinden op <a href="https://paddle.com/support/which-payment-methods-do-you-support/">Ondersteunde
+      betaalmethoden van Paddle</a>. <br>
+      Voor cryptocurrency maken we gebruik van <a href="https://commerce.coinbase.com">Coinbase
+      Commerce</a>, dat momenteel Bitcoin, Bitcoin Cash, Dai, Ethereum, Litecoin en
+      USD Coin ondersteunt. In de toekomst zullen we ook Monero ondersteunen. In de
+      tussentijd kunt u ons een e-mail sturen naar <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      als u deze cryptocurrency wilt gebruiken.
+  - question: Hebben jullie een restitutiebeleid?
+    answer: Nee, wij hanteren geen terugbetalingsbeleid, omdat SimpleLogin een proefperiode
+      heeft waarin u alle premium functies kunt uitproberen.
+  - question: Hebben jullie een familie-abonnement?
+    answer: Nee, we hebben geen familie-abonnement, maar bieden 30% korting voor aanvullende
+      abonnementen. Contacteer ons op <a 
+      href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      voor meer informatie.
+  - question: Zijn er andere manieren om een SimpleLogin-abonnement aan te schaffen?
+    answer: Ja, u kunt ook een SimpleLogin abonnementscoupon kopen via <a href="https://proxysto.re/en/index.html">ProxyStore</a>,
+      onze officiële wederverkoper.
+

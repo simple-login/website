@@ -1,0 +1,124 @@
+  - question: Wat is een <b>e-mailalias</b> juist?
+    answer: >
+      E-mail alias lijkt op <a href="https://en.wikipedia.org/wiki/Email_forwarding">forward</a>
+      e-mailadres: alle mails verzonden naar een alias zullen doorgestuurd worden
+      naar jouw inbox. <br> Met dank aan SimpleLogin technologie kan je ook mail sturen
+      <b>vanuit</b> een alias. <br> Voor uw contactpersoon is de alias uw e-mailadres.
+      Meer info over e-mail aliassen <a href="/blog/what-is-an-email-alias/">Wat is
+      een e-mail alias</a>.
+  - question: Ik kan mijn plus teken (+) gebruiken om ongelimiteerde e-mailadressen
+      aan te maken, waarom heb ik SimpleLogin nodig?
+    answer: >
+      E-mail subaddressing, ook wel bekend als de plus (+) truc, gepopulariseerd door
+      Gmail en ondersteund door sommige e-mailservices, stelt u in staat om nieuwe
+      e-mailadressen aan te maken door een "+" toe te voegen aan uw huidige e-mailadres.
+      Stel dat uw e-mailadres name@proton.me is, dan kan u snel een ander adres aanmaken
+      zoals name+facebook@proton.me voor Facebook, name+groupon@proton.me voor Groupon,
+      enzovoort. <br>
+      Hoewel praktisch, heeft het enkele nadelen: <br>
+      - U kan niet antwoorden vanaf het + adres: uw echte e-mailadres verschijnt als
+      de afzender. <br>
+      - De + truc is algemeen bekend en sommige websites staan geen aanmeldingen toe
+      met e-mailadressen die een + bevatten. <br>
+      - Het gebruik van de + truc beschermt uw privacy niet: iemand kan eenvoudig
+      het + gedeelte verwijderen om uw echte e-mailadres te achterhalen. Als uw +
+      adres voorkomt in een datalek, is uw echte adres waarschijnlijk ook in handen
+      van spammers. U kan controleren of uw e-mail is gelekt via een website zoals
+      <a href="https://haveibeenpwned.com">have i been pwned</a>. <br>
+      - Door het verwijderen van het + gedeelte kunnen adverteerders deze + adressen
+      aan elkaar koppelen om uw browsegeschiedenis te achterhalen. <br><br>
+      SimpleLogin-aliassen hebben geen van deze nadelen. Uw kan meer lezen over de
+      voor- en nadelen van het gebruik van de + truc op <a href="/blog/email-alias-vs-plus-sign/">Wat
+      maakt een e-mailalias een beter alternatief voor het plusteken in een e-mailadres
+      (+)</a>.
+  - question: Wat is het verschil tussen SimpleLogin en andere e-mail-doorstuurdiensten?
+    answer: >
+      SimpleLogin is de meest geavanceerde oplossing voor e-mailaliassen en wordt
+      actief ontwikkeld. Hier zijn enkele verschillen tussen SimpleLogin en andere
+      diensten voor e-mail doorsturen/aliassen: <br><br>
+      <ul> <li>SimpleLogin is volledig open source: zowel de server van SimpleLogin
+      als de clientcode (browserextensie, JS-bibliotheek, mobiele apps) zijn <a href="https://github.com/simple-login/app">open
+      source</a>, zodat u de code vrij kunt bekijken en verbeteren.</li>
+      <li>Het ondersteunt alle belangrijke platforms: er is een Chrome/Firefox/Safari-extensie
+      voor uw desktop en iOS- en Android-apps voor uw mobiele apparaten.</li>
+      <li>SimpleLogin is de enige oplossing voor e-maildoorsturen die <em>zelf gehost
+      kan worden</em>, wat betekent dat u SimpleLogin op uw eigen server kunt draaien.
+      Met onze gedetailleerde zelfhosting-instructies en de meeste componenten die
+      als Docker-container worden uitgevoerd, kunt u, als u bekend bent met SSH, SimpleLogin
+      op uw server implementeren.</li>
+      <li>U kunt e-mails verzenden/beantwoorden vanaf het alias. Er zijn geen limieten
+      voor het aantal verzonden/ontvangen e-mails.</li>
+      <li>Onbeperkte bandbreedte.</li>
+      <li>Geen advertenties en geen trackers.</li>
+      <li>SimpleLogin is niet alleen een e-mailalias: het is ook een op privacy gerichte
+      en ontwikkelaarsvriendelijke <em>identiteitsaanbieder</em> die: <br> - uw privacy
+      respecteert <br> - eenvoudig te gebruiken is voor ontwikkelaars. <br> Met SimpleLogin
+      hebt u een op privacy gericht alternatief voor de knoppen "Inloggen met Facebook/Google/Apple".</li>
+
+      <li>Er zijn tal van functies beschikbaar, waaronder een browserextensie, aangepast
+      domein, catch-all alias, OAuth-bibliotheken, enzovoort, en er komen nog veel
+      meer functies aan.</li>
+      <li>De open roadmap vindt u op <a href="https://github.com/simple-login/app/projects/1">GitHub</a>:
+      u kunt de spannende functies zien waaraan we werken.</li> </ul>
+  - question: Waarom is SimpleLogin verschillend ten opzicht van tijdelijke e-mail
+      diensten?
+    answer: >
+      SimpleLogin-aliassen zijn permanent in tegenstelling tot de tijdelijke e-mailadressen
+      die worden aangemaakt op diensten zoals <a href="https://temp-mail.org/en/">temp-mail.org</a>,
+      <a href="https://10minutemail.net">10minutemail.net</a>, enzovoort. <br> Ook
+      slaat SimpleLogin de e-mails niet op; deze worden opgeslagen in uw postvak.
+      <br> SimpleLogin is eenvoudigweg een ander product voor een andere behoefte.
+  - question: Wat is het businessmodel van SimpleLogin?
+    answer: Onze omzet komt enkel van abonnementen, dit betekent dat het product altijd
+      reclame vrij zal blijven.
+  - question: Wat is de <b>alias directory</b> of <b>catch-all</b> functie?
+    answer: >
+      Deze twee functies stellen u beide in staat om een alias <em>direct</em> aan
+      te maken, wat betekent dat u SimpleLogin niet hoeft te openen om een nieuwe
+      alias aan te maken. <br> Door <b>catch-all</b> in te schakelen voor uw domein,
+      kunt u <em>ALLES@mijn-domein.com</em> als alias gebruiken, waarbij <b>ALLES</b>
+      elk willekeurig woord is. De enige beperking is dat het minder dan 128 tekens
+      moet bevatten. <br>
+      <b>Alias Map</b> lijkt op catch-all, u kunt <em>uw_map+ALLES@simplelogin.co</em>
+      als alias gebruiken. <b>uw_map</b> is de naam van de map die u heeft aangemaakt.
+  - question: Ik ontvang een e-mail doorgestuurd naar mijn persoonlijke e-mail vanaf
+      een alias. Hoe kan ik antwoorden op die e-mail? Moet ik naar SimpleLogin gaan
+      om het antwoord te starten?
+    answer: >
+      U kunt rechtstreeks antwoorden vanuit uw e-mailclient. Klik gewoon op de "antwoord"
+      knop, het antwoord zal via SimpleLogin worden geleid en SimpleLogin zal ervoor
+      zorgen dat het van uw alias afkomstig lijkt te zijn. Uw persoonlijke e-mail
+      zal onzichtbaar blijven voor de oorspronkelijke afzender. <br><br> Technisch
+      gezien wordt de <b>Van</b>-header in uw e-mail vervangen door een speciale alias
+      die dynamisch wordt gegenereerd voor elke afzender. Wanneer u antwoordt, wordt
+      uw antwoord eigenlijk naar deze speciale alias gestuurd en SimpleLogin zal het
+      antwoord doorsturen naar de afzender, waarbij ervoor wordt gezorgd dat de e-mail
+      van uw alias wordt verzonden. Alle informatie over uw persoonlijke e-mailadres
+      wordt tijdens dat proces verwijderd.
+  - question: Wat is een <b>omgekeerde alias</b>?
+    answer: >
+      Een omgekeerde alias is een <b>speciale</b> alias waarmee u e-mails kunt verzenden
+      <b>vanaf uw alias</b>. <br> Voor elke alias waarvan u e-mails wilt versturen
+      en voor elk contact naar wie u e-mails wilt sturen, wordt een omgekeerde alias
+      aangemaakt. <br> Wanneer u een e-mail naar een omgekeerde alias vanuit uw persoonlijke
+      e-mail stuurt, wordt de e-mail vanuit uw alias naar het contact verzonden.
+  - question: Is een e-mail alias permanent?
+    answer: Een e-mailalias blijft altijd bestaan totdat u het verwijderd, zoals een
+      normaal e-mailadres.
+  - question: Waar bevinden de SimpleLogin servers zich?
+    answer: We use servers from Proton and UpCloud - a cloud provider based in Finland.
+  - question: Wat is een <b>aangepast domein</b> functie?
+    answer: >
+      U kunt uw eigen domeinen meenemen naar SimpleLogin en aliassen aanmaken zoals
+      <b>contact@uw-domein.com</b>, <b>hi@uw-domein.com</b>. <br> Zoals u waarschijnlijk
+      al had geraden, kunt u dan SimpleLogin gebruiken om uw <em>zakelijke e-mails</em>
+      te beheren in plaats van te betalen voor een dure oplossing zoals Google Workspace.
+      <br> Al onze zakelijke e-mails (bijv. <b>contact@simplelogin.io</b>) zijn eigenlijk
+      aliassen 🤫
+  - question: Ik vind het antwoord op mijn vraag hier niet
+    answer: >
+      U kan de lijst met veelgestelde vragen en antwoorden vinden op de <a href="/faq/">FAQ-pagina</a>.
+      <br> Als u daar het antwoord niet kan vinden, stuur dan uw vraag naar <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>.
+      <br> U kan ook een probleem aanmaken op onze <a href="https://github.com/simple-login/app/issues">GitHub
+      Issues</a>.
+

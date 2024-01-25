@@ -1,0 +1,60 @@
+  - question: Apa yang akan terjadi dengan alias saya ketika saya membatalkan langganan?
+    answer: >
+      Ketika langganan Anda berakhir, seluruh alias yang telah Anda buat akan tetap
+      berfungsi secara normal, baik dalam hal menerima atau mengirim email. Lebih
+      rincinya: <br> - Seluruh alias/domain/direktori/kotak surat yang telah Anda
+      buat akan tetap tersimpan dan dapat digunakan sebagaimana umumnya. <br> - Anda
+      tidak dapat membuat alias baru apabila Anda telah memiliki lebih dari 10 alias,
+      yang merupakan batas jumlah alias yang tersedia pada paket Free. <br> - Anda
+      tidak dapat menggunakan fitur catch-all atau direktori untuk membuat alias secara
+      on-the-fly apabila Anda telah memiliki lebih dari 10 alias. <br> - Anda tidak
+      dapat menambah domain, direktori, atau kotak surat baru ke akun Anda. <br><br>
+      Sebagai contoh, apabila Anda memiliki 100 alias pada saat langganan Anda berakhir,
+      Anda akan tetap dapat menerima dan mengirim email seperti biasa pada seluruh
+      alias ini. Meskipun demikian, Anda tidak akan dapat membuat alias baru.
+  - question: Apa yang akan terjadi apabila saya mencapai batas jumlah alias pada
+      paket Free?
+    answer: >
+      Apabila Anda berada pada paket Free, Anda tidak akan dapat membuat alias baru
+      setelah Anda mencapai batas jumlah alias yang diperkenankan (10 alias). <br>
+      Alias yang dihasilkan secara otomatis melalui domain catch-all atau fitur direkturi
+      juga tidak akan dapat dibuat. <br>
+  - question: Apakah SimpleLogin menawarkan diskon?
+    answer: >
+      Kami menawarkan diskon atau paket premium secara cuma-cuma bagi: <br>
+      - pelajar, profesor, atau staf teknis yang bekerja pada institusi pendidikan
+      <br> - aktivis, pembangkang, atau jurnalis <br> - organisasi amal <br>
+      Silakan kirimkan email kepada kami pada alamat <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      untuk informasi lebih lanjut. <br><br>
+      Kami dahulu menawarkan akun premium secara cuma-cuma kepada kalangan pelajar,
+      namun program ini telah diberhentikan per tanggal 17 Juni 2021. Mohon diperhatikan
+      bahwa hal ini tidak memengaruhi akun yang sebelumnya telah memperoleh manfaat
+      dari program ini atau permintaan akun gratis yang dikirim sebelum tanggal ini.
+  - question: Metode pembayaran apa saja yang didukung oleh SimpleLogin?
+    answer: >
+      Kami menggunakan <a href="https://paddle.com">Paddle</a> untuk mengelola pembayaran
+      yang masuk melalui kartu kredit atau PayPal. Paddle saat ini mendukung metode
+      pembayaran berikut: <br>
+      <ul> <li>Mastercard</li> <li>Visa</li> <li>PayPal</li> <li>Apple Pay</li> <li>Transfer
+      Antar Bank (ACH/SEPA/BACS)</li> <li>Maestro</li> <li>American Express</li> <li>Discover</li>
+      <li>Diners Club</li> <li>JCB</li> </ul>
+
+      Informasi lebih lanjut seputar hal ini dapat ditemukan pada halaman <a href="https://paddle.com/support/which-payment-methods-do-you-support/">Metode
+      pembayaran yang didukung oleh Paddle</a>. <br>
+      Untuk mata uang kripto, kami menggunakan <a href="https://commerce.coinbase.com">Coinbase
+      Commerce</a> yang pada saat ini mendukung Bitcoin, Bitcoin Cash, Dai, Ethereum,
+      Litecoin dan USD Coin. Ke depannya, kami juga akan mendukung Monero. Untuk sekarang,
+      silakan kirimkan kami email pada alamat <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      apabila Anda ingin menggunakan mata uang kripto ini.
+  - question: Apakah SimpleLogin memiliki kebijakan uang kembali?
+    answer: Tidak. Kami tidak memiliki kebijakan uang kembali karena SimpleLogin mengusung
+      masa uji coba yang dapat Anda gunakan untuk mencoba berbagai fitur premium.
+  - question: Apakah SimpleLogin memiliki paket keluarga?
+    answer: SimpleLogin tidak memiliki paket keluarga, namun kami menawarkan diskon
+      30% untuk setiap langganan tambahan. Silakan hubungi kami pada <a 
+      href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      untuk informasi lebih lanjut.
+  - question: Apakah terdapat cara lain untuk membeli langganan SimpleLogin?
+    answer: Ya, Anda juga dapat membeli kupon langganan SimpleLogin melalui <a href="https://proxysto.re/en/index.html">ProxyStore</a>
+      yang merupakan agen penjualan ulang resmi kami.
+

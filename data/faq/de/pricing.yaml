@@ -1,0 +1,62 @@
+  - question: Was passiert mit meinen Aliassen, wenn ich das Abonnement beende?
+    answer: >
+      Wenn dein Abonnement endet, funktionieren alle von dir erstellten Aliase weiterhin,
+      sowohl beim Empfang als auch beim Versand von E-Mails. Genauer gesagt: <br>
+      - Alle Aliasse/Domains/Verzeichnisse/Postfächer, die du erstellt hast, bleiben
+      erhalten und funktionieren normal weiter. <br> - Du kannst keine neuen Aliasse
+      erstellen, wenn du das Limit des kostenlosen Abonnements überschreitest, d.h.
+      mehr als 10 Aliasse hast. <br> - Da Funktionen wie Catch-All oder Verzeichnisse
+      es dir erlauben, Aliasse on-the-fly zu erstellen, können diese Aliase nicht
+      automatisch erstellt werden, wenn du mehr als 10 Aliasse hast. <br> - Du kannst
+      keine neuen Domains, Verzeichnisse oder Postfächer hinzufügen. <br><br>
+      Wenn du zum Beispiel 100 Aliasse hast, wenn dein Abonnement endet, werden diese
+      100 Aliasse weiterhin normal E-Mails empfangen und versenden. Du kannst jedoch
+      keine neuen Aliasse erstellen.
+  - question: Was passiert, wenn ich die maximale Anzahl von Aliassen im kostenlosen
+      Abonnement erreiche?
+    answer: >
+      Wenn du das kostenlose Abonnement nutzt, kannst du keine neuen Aliasse erstellen,
+      wenn du die maximale Anzahl von Aliassen (d. h. 10 Aliasse) erreicht hast. <br>Aliasse,
+      die sonst automatisch über die Catch-All-Domain- oder Verzeichnisfunktion erstellt
+      würden, können ebenfalls nicht erstellt werden. <br>
+  - question: Gibt es Rabatte?
+    answer: >
+      Wir bieten erhebliche Preisnachlässe oder kostenlose Premium-Abonnements für:
+      <br>
+      - Studenten, Professoren oder technisches Personal, die in einer Bildungseinrichtung
+      arbeiten <br> - Aktivisten, Dissidenten oder Journalisten <br> - Wohltätigkeitsorganisationen
+      <br>
+      Bitte sende uns eine E-Mail an <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      für weitere Informationen. <br><br>
+      Früher haben wir kostenlose Premium-Konten für Studenten angeboten, aber dieses
+      Programm wurde am 17. Juni 2021 eingestellt. Bitte beachte, dass dies keine
+      Auswirkungen auf bestehende Konten hat, die bereits von dem Programm profitiert
+      haben, oder auf Anträge, die vor diesem Datum gestellt wurden.
+  - question: Welche Zahlungsmethoden werden unterstützt?
+    answer: >
+      Wir verwenden <a href="https://paddle.com">Paddle</a> für die Abwicklung von
+      Zahlungen über Kreditkarten und PayPal. Paddle unterstützt derzeit die folgenden
+      Zahlungsarten: <br>
+      <ul> <li>Mastercard</li> <li>Visa</li> <li>PayPal</li> <li>Apple Pay</li> <li>Banküberweisung(ACH/SEPA/BACS)</li>
+      <li>Maestro</li> <li>American Express</li> <li>Discover</li> <li>Diners Club</li>
+      <li>JCB</li> </ul>
+
+      Weitere Informationen findest du bei den <a href="https://paddle.com/support/which-payment-methods-do-you-support/">von
+      Paddle unterstützen Zahlungsmethoden</a>. <br>
+      Für Kryptowährungen nutzen wir <a href="https://commerce.coinbase.com">Coinbase
+      Commerce</a>, das derzeit Bitcoin, Bitcoin Cash, Dai, Ethereum, Litecoin und
+      USD Coin unterstützt. In Zukunft werden wir auch Monero unterstützen. In der
+      Zwischenzeit sende uns bitte eine E-Mail an <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      wenn du diese Kryptowährung verwenden möchtest.
+  - question: Habt ihr eine Rückerstattungsrichtlinie?
+    answer: Nein, wir haben keine Rückerstattungsrichtlinie, weil SimpleLogin eine
+      Testphase hat, in der du alle Premium-Funktionen ausprobieren kannst.
+  - question: Gibt es ein Familienabonnement?
+    answer: Nein, wir haben kein Familienabonnement, aber wir bieten 30 % Ermäßigung
+      für zusätzliche Abonnements. Bitte kontaktiere uns unter <a 
+      href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      für weitere Informationen.
+  - question: Gibt es noch andere Möglichkeiten, SimpleLogin-Abonnements zu kaufen?
+    answer: Ja, du kannst einen SimpleLogin-Abonnementgutschein auch über <a href="https://proxysto.re/en/index.html">ProxyStore</a>,
+      unserem offiziellen Reseller, kaufen.
+

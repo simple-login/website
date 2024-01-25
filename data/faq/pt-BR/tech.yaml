@@ -1,0 +1,37 @@
+  - question: Qual é o tamanho máximo do e-mail?
+    answer: >
+      O limite atual é de 25 MB. Para anexos grandes, sugerimos usar um serviço de
+      upload de arquivos e enviar o link. Você pode encontrar alguns serviços de compartilhamento
+      de arquivos que respeitam nossa privacidade nos <a href="https://www.privacyguides.org/file-sharing/">Guias
+      de Privacidade</a>.<br> Outro motivo de ter esse limite é que a criptografia
+      PGP é um processo pesado, suportar um tamanho maior coloca uma carga importante
+      nos servidores SimpleLogin.
+  - question: Excluí acidentalmente um alias, posso restaurá-lo?
+    answer: >
+      Quando um alias é excluído, ele é colocado na <b>lixeira</b> global e garantimos
+      que ele não poderá ser reutilizado. Todas as informações históricas sobre o
+      alias (a conta que cria o alias, contatos do alias, etc.) são excluídas para
+      respeitar sua privacidade. <br> Isso se aplica a todos os aliases criados com
+      domínios SimpleLogin. <br> No entanto, você pode restaurar um alias criado com
+      seu próprio domínio.
+  - question: Onde estão as chaves PGP do SimpleLogin?
+    answer: >
+      Nossas chaves PGP estão na <a href="/pgp-key">página de </a>chaves PGP.
+      Se você habilitar o PGP, todos os e-mails serão assinados com a chave <b>signer@simplelogin.io</b>.
+  - question: Como posso excluir minha conta?
+    answer: >
+      Na parte inferior da <a href="https://app.simplelogin.io/dashboard/setting">página
+      Configurações</a>, você pode excluir sua conta. Esta operação é irreversível
+      e não temos como recuperar seus dados.
+  - question: Posso usar aliases de e-mail para serviços importantes como bancos,
+      governo, etc.?
+    answer: >
+      A resposta curta é sim, você pode. Usamos aliases de e-mail para administrar
+      nossos negócios, gerenciar nossos impostos, administrar nossas operações bancárias
+      e até agora tudo bem :). <br> Uma resposta mais longa é que o protocolo de e-mail
+      foi projetado para ser altamente resiliente e um e-mail quase nunca é perdido.
+      Se o SimpleLogin não conseguir entregar o e-mail em sua caixa de correio, iremos
+      notificá-lo para que você possa tomar as medidas cabíveis. Você também pode
+      configurar uma caixa de correio secundária além da caixa de correio principal
+      que pode ser usada como backup.
+

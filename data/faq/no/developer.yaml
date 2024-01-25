@@ -1,0 +1,21 @@
+  - question: Hvorfor bør jeg implementere SimpleLogin på nettsiden min i stedet for
+      "Logg på med Facebook/Google"?
+    answer: >
+      Vet du at Facebook og Google bruker disse knappene til å <a href="/blog/do-not-use-facebook-sdk/">spore</a>
+      brukernes nettleserhistorikk slik at de kan gi mer tilpassede annonser? <br><br>
+      Siden SimpleLogin ikke drives av reklame og gir brukerne total kontroll over
+      dataene sine, har vi ikke noe insentiv til å bruke brukerdataene dine.
+  - question: Hvorfor bør jeg klarére SimpleLogin?
+    answer: >
+      All SimpleLogin-kode er helt åpen kildekode på <a href="https://github.com/simple-login">GitHub</a>
+      <br><br> Hvem som helst kan fritt revidere koden eller sette opp sin egen SimpleLogin-tjener.
+      <br><br> SimpleLogin-inntektene er basert på en gjennomsiktig og bærekraftig
+      modell som lar oss ha et personvern-først og sporingsfritt produkt.
+  - question: Planlegger dere å utgi en SDK for å støtte Windows, osv app?
+    answer: >
+      Ja, absolutt! Vi startet med nettplattformen ganske enkelt fordi de også kan
+      brukes til mobilapp via en Android WebView eller IOS UIWebView. <br><br> Vi
+      planlegger å gi en SDK og noen eksempler for Android, iOS, Windows ganske snart.
+      Følg med!
+
+

@@ -3,8 +3,7 @@
       Construido sobre una tecnología de código abierto, <em data-toggle="tooltip"
       data-html="true" title="Incluyendo el servidor, extensiones Chrome/Firefox/Safari,
       aplicaciones Android/iOS.">todos</em> los componentes de SimpleLogin también
-      son de código abierto. <br> No confiarías en una caja negra para gestionar tus
-      correos electrónicos, ¿verdad?
+      son de código abierto. <br> Esta transparencia es una garantía de confianza.
   - title: Envía correos desde un alias
     desc: >
       Un alias no solamente recibe correos, también puede <span class="highlight">enviar</span>

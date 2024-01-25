@@ -1,0 +1,71 @@
+header_login: Masuk #header
+header_signup: Daftar
+header_pricing: Harga
+hero: Terima dan kirim surel secara anonim #hero section
+hero_desc: >
+  Dengan <em data-toggle="tooltip" data-html="true" title="Sebuah alias surel (atau alias) adalah alamat surel yang <b>tidak menyimpan</b> surel: semua surel yang dikirim ke sebuah alias akan diteruskan ke surel pribadi Anda.">alias surel</em>, Anda bisa menjadi anonim secara daring dan melindungi kotak masuk Anda terhadap spam dan phishing. <a href="https://github.com/simple-login/">Bersumber terbuka</a>. Dibuat dan dihost di Eropa.
+hero_cta: >
+
+hero_button_underline: <b>800,000+</b> alias telah dihasilkan.
+seen_on: Direkomendasikan oleh
+how_it_work_title: Bagaimana cara Surel Alias bekerja? #how it work section
+how_it_work_desc: Lindungi kotak masuk Anda dengan alias surel.
+how_it_work_1_title: Gunakan Surel Alias di mana saja
+how_it_work_1_subtitle: >
+  Apabila ada situs web yang meminta alamat surel Anda, cukup berikan mereka alias <span class="bigger">alih-alih</span> alamat surel asli Anda.
+how_it_work_2_title: Terima surel dengan aman pada kotak masuk Anda.
+how_it_work_2_subtitle: >
+  Surel yang dikirim ke alias akan <span class="bigger">segera diteruskan</span> ke kotak masuk Anda tanpa diketahui oleh pengirim pesan. <br>
+how_it_work_3_title: Kirimkan surel secara anonim
+how_it_work_3_subtitle: >
+  Cukup klik "Balas" untuk membalas surel yang diteruskan: Balasan ini akan dikirim dari alias dan alamat surel asli Anda akan tetap tersembunyi. <br> Anda juga dapat <span class="bigger">mengirim</span> surel dengan mudah dari alias Anda.
+everywhere_title: Buat dan kelola alias Anda di mana saja #available everywhere section
+everywhere_subtitle: Buat alias dengan cepat di mana pun Anda berada. Daftarkan diri Anda ke buletin berita dan buat akun online baru Anda dengan sekali klik.
+alias_new_email_title: Alias adalah alamat surel yang baru #Alias is the new email address Section
+alias_new_email_a_title: A. Ganti surel dengan alias di mana saja
+alias_new_email_a_text_1: Lakukan berbagai hal seperti berlangganan ke milis dan membuat akun online baru dengan alias surel.
+alias_new_email_a_text_2: Ke depannya, cukup <span class="highlight">blokir</span> alias tertentu apabila alias tersebut terlalu penuh dengan spam.
+alias_new_email_b_title: B. Kirim surel dari alias
+alias_new_email_b_text_1: >
+  Cukup klik "Balas" untuk membalas surel yang diteruskan: Balasan ini akan <span class="highlight">dikirim dari</span> alias dan kotak masuk pribadi Anda akan tetap tersembunyi.
+alias_new_email_b_text_2: >
+  Anda juga dapat alias surel <em data-toggle="tooltip" data-html="true" title="<b>Normal</b> seperti <b>trik +</b> yang biasanya bekerja dalam satu cara: Anda hanya dapat menerima surel. <br>Dalam SimpleLogin, Anda dapat membalas/mengirim surel dari alias Anda dengan mudah.">kirim</em> surel ke alamat surel mana pun dari alias Anda.
+alias_new_email_c_title: C. Kelola bisnis Anda dengan alias
+alias_new_email_c_text_1: Gunakan alias sebagai <span class="highlight">surel bisnis</span> Anda.
+alias_new_email_c_text_2: >
+  Hemat $6/bulan <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true" title='GSuite starts at $6/month per user.'></i> untuk setiap surel bisnis yang dibuat dengan SimpleLogin.
+alias_new_email_c_text_3: Lebih dari 50 bisnis telah memercayai SimpleLogin untuk mengelola surel mereka.
+testimonial_title: Penyamaran surel yang dicintai oleh pengguna #Testimonials Section
+feature_title: Privasi, keamanan, dan berbagai fitur yang akan Anda cintai #Features section
+feature_subtitle: SimpleLogin merupakan solusi alias surel termutakhir.
+faq_title: Pertanyaan umum #FAQ section
+faq_subtitle: Bantuan
+ready_get_started: Siap untuk memulai?
+ready_get_started_cta: >
+
+cta_2_title: Bergabunglah dengan lebih dari 50.000 orang yang telah melindungi kotak masuk dan privasi mereka.
+cta_2_button: >
+
+partner_title: Mitra kami
+footer_1: SimpleLogin merupakan solusi <b>alias surel</b> <a href="https://github.com/simple-login">open source</a> untuk melindungi alamat surel Anda. #footer
+footer_3: SimpleLogin merupakan produk dari SimpleLogin SAS, yang terdaftar di Perancis dengan nomor SIREN 884302134. SimpleLogin SAS merupakan bagian dari <a href="https://proton.me">Proton AG</a>.
+footer_pricing: Harga
+footer_about: Tentang Kami
+footer_contact: Hubungi Kami
+footer_imprint: Noktah Hukum
+footer_join_us: Bergabunglah Dengan Kami
+pricing_title: Harga #pricing
+pricing_subtitle: >
+  SimpleLogin bersifat <a href="https://github.com/simple-login">open source</a>, dapat di-host secara mandiri, dan 100% didanai oleh komunitas. Kami tidak menggunakan data Anda, melacak Anda, atau menampilkan iklan kepada Anda. SimpleLogin bergantung pada dukungan Anda untuk menjalankan layanan kami dan mengembangkan fitur baru.
+pricing_free_title: Gratis
+pricing_premium_title: Premium
+pricing_free_cta: Daftar
+pricing_premium_cta: Mulai Lindungi Surel Anda
+pricing_what_people_say: Apa yang orang-orang katakan mengenai SimpleLogin
+pricing_premium_yearly_price: '$30'
+pricing_premium_yearly_year: tahun
+pricing_premium_monthly_price: atau $4 per bulannya
+faq_tech_question: Pertanyaan teknis #<<< FAQ page >>>
+faq_general_question: Pertanyaan umum
+faq_developer_question: Pertanyaan Mitra/Pengembang
+faq_pricing_question: Pertanyaan Paket/Harga

@@ -1,34 +1,65 @@
-- 
-  question: Que deviennent les alias quand on arrête son abonnement ?
-  answer: >
-    Quand votre abonnement se termine, tous les alias que vous avez créés continuent à fonctionner normalement, que ce soit pour la réception ou l'envoi d'e-mails : <br> - Tous les alias, domaines, répertoires ou boites aux lettres que vous avez créés sont conservés et continuent à fonctionner normalement. <br> - Vous ne pouvez pas créer de nouveaux alias si vous dépassez le nombre maximum d'alias prévu dans l'abonnement gratuit, c'est-à-dire si vous avez plus de 10 alias. <br> - Comme les fonctionnalités de type catch-all ou répertoire vous permettent de créer des alias en temps réel, ces alias ne peuvent pas être créés si vous avez plus de 10 alias. <br> - Vous ne pouvez pas ajouter de nouveaux domaines, répertoires ou boites aux lettres. <br><br>
-    Si vous avez par exemple 100 alias au moment où votre abonnement se termine, ces 100 alias continueront à recevoir et à envoyer des e-mails, mais vous ne pourrez plus créer de nouveaux alias.
-- 
-  question: Que se passe-t-il quand on atteint le nombre maximum d'alias prévus dans l'abonnement gratuit ?
-  answer: >
-    Si vous utilisez l'abonnement gratuit, vous ne pouvez pas créer de nouveaux alias quand vous atteignez le nombre maximum de 10 alias. <br> Les alias qui peuvent être créés automatiquement, par le biais de la fonctionnalité catch-all (domaine ou répertoire), ne peuvent pas non plus être créés. <br>
-- 
-  question: Proposez-vous des réductions ?
-  answer: >
-    Nous offrons des réductions importantes ou un abonnement premium gratuit aux personnes suivantes : <br>
-    - Étudiants, professeurs ou personnel technique travaillant dans un établissement scolaire <br> - Militants, opposants ou journalistes <br> - Organisations humanitaires <br>
-    Pour plus d'informations, vous pouvez nous envoyer un message à l'adresse <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>. <br><br>
-    Nous proposions auparavant des comptes premium gratuits aux étudiants, mais ce programme s'est terminé le 17 juin 2021. Cela n'affecte pas les comptes existants qui ont déjà bénéficié de ce programme ou les demandes qui ont été envoyées avant cette date.
-- 
-  question: Quels moyens de paiement acceptez-vous ?
-  answer: >
-    Nous utilisons <a href="https://paddle.com">Paddle</a> pour gérer les paiements par carte et PayPal. Paddle accepte ces moyens de paiement : <br>
-    <ul> <li>Mastercard</li> <li>Visa</li> <li>PayPal</li> <li>Apple Pay</li> <li>Wire Transfers (ACH/SEPA/BACS)</li> <li>Maestro</li> <li>American Express</li> <li>Discover</li> <li>Diners Club</li> <li>JCB</li> </ul>
+  - question: Que deviennent les alias quand on arrête son abonnement ?
+    answer: >
+      Quand votre abonnement se termine, tous les alias que vous avez créés continuent
+      à fonctionner normalement, que ce soit pour la réception ou l'envoi d'e-mails :
+      <br> - Tous les alias, domaines, répertoires ou boites aux lettres que vous
+      avez créés sont conservés et continuent à fonctionner normalement. <br> - Vous
+      ne pouvez pas créer de nouveaux alias si vous dépassez le nombre maximum d'alias
+      prévu dans l'abonnement gratuit, c'est-à-dire si vous avez plus de 10 alias.
+      <br> - Comme les fonctionnalités de type catch-all ou répertoire vous permettent
+      de créer des alias en temps réel, ces alias ne peuvent pas être créés si vous
+      avez plus de 10 alias. <br> - Vous ne pouvez pas ajouter de nouveaux domaines,
+      répertoires ou boites aux lettres. <br><br>
+      Si vous avez par exemple 100 alias au moment où votre abonnement se termine,
+      ces 100 alias continueront à recevoir et à envoyer des e-mails, mais vous ne
+      pourrez plus créer de nouveaux alias.
+  - question: Que se passe-t-il quand on atteint le nombre maximum d'alias prévus
+      dans l'abonnement gratuit ?
+    answer: >
+      Si vous utilisez l'abonnement gratuit, vous ne pouvez pas créer de nouveaux
+      alias quand vous atteignez le nombre maximum de 10 alias. <br> Les alias qui
+      peuvent être créés automatiquement, par le biais de la fonctionnalité catch-all
+      (domaine ou répertoire), ne peuvent pas non plus être créés. <br>
+  - question: Proposez-vous des réductions ?
+    answer: >
+      Nous offrons des réductions importantes ou un abonnement premium gratuit aux
+      personnes suivantes : <br>
+      - Étudiants, professeurs ou personnel technique travaillant dans un établissement
+      scolaire <br> - Militants, opposants ou journalistes <br> - Organisations humanitaires
+      <br>
+      Pour plus d'informations, vous pouvez nous envoyer un message à l'adresse <a
+      href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>.
+      <br><br>
+      Nous proposions auparavant des comptes premium gratuits aux étudiants, mais
+      ce programme s'est terminé le 17 juin 2021. Cela n'affecte pas les comptes existants
+      qui ont déjà bénéficié de ce programme ou les demandes qui ont été envoyées
+      avant cette date.
+  - question: Quels moyens de paiement peut-on utiliser ?
+    answer: >
+      Nous utilisons <a href="https://paddle.com">Paddle</a> pour gérer les paiements
+      par carte et avec PayPal. Paddle accepte ces moyens de paiement : <br>
+      <ul> <li>Mastercard</li> <li>Visa</li> <li>PayPal</li> <li>Apple Pay</li> <li>Wire
+      Transfers (ACH/SEPA/BACS)</li> <li>Maestro</li> <li>American Express</li> <li>Discover</li>
+      <li>Diners Club</li> <li>JCB</li> </ul>
 
-    Vous pouvez trouver plus d'informations sur la page dédiée aux <a href="https://paddle.com/support/which-payment-methods-do-you-support/">moyens de paiement pris en charge par Paddle</a> (en anglais). <br>
-    Pour les cryptomonnaies, nous utilisons <a href="https://www.coinbase.com/fr/commerce">Coinbase Commerce</a> qui accepte Bitcoin, Bitcoin Cash, Dai, Ethereum, Litecoin et USD Coin. Prochainement, nous accepterons aussi Monero, mais vous pouvez nous envoyer un message à <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a> si vous voulez utiliser cette cryptomonnaie.
-- 
-  question: Est-il possible d'obtenir un remboursement ?
-  answer: Non, nous ne proposons pas de remboursement parce que SimpleLogin offre une période d'essai au cours de laquelle vous pouvez tester toutes les fonctionnalités premium.
-- 
-  question: Proposez-vous un abonnement familial ?
-  answer: Non, nous ne proposons pas d'abonnement familial, mais nous offrons une réduction de 30 % pour les abonnements supplémentaires. Pour plus d'informations, vous pouvez nous contacter à l'adresse <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>.
-- 
-  question: Peut-on acheter des abonnements SimpleLogin d'une autre manière ?
-  answer: Oui, vous pouvez aussi acheter des coupons d'abonnement SimpleLogin par le biais de <a href="https://proxysto.re/en/index.html">ProxyStore</a>, notre revendeur officiel.
+      Vous pouvez trouver plus d'informations sur la page dédiée aux <a href="https://paddle.com/support/which-payment-methods-do-you-support/">moyens
+      de paiement pris en charge par Paddle</a> (en anglais). <br>
+      Pour les cryptomonnaies, nous utilisons <a href="https://www.coinbase.com/fr/commerce">Coinbase
+      Commerce</a> qui accepte Bitcoin, Bitcoin Cash, Dai, Ethereum, Litecoin et USD
+      Coin. Prochainement, nous accepterons aussi Monero, mais vous pouvez nous envoyer
+      un message à <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      si vous voulez utiliser cette cryptomonnaie.
+  - question: Peut-on obtenir un remboursement ?
+    answer: Non, nous ne proposons pas de remboursement parce que SimpleLogin offre
+      une période d'essai au cours de laquelle vous pouvez tester toutes les fonctionnalités
+      premium.
+  - question: Proposez-vous un abonnement familial ?
+    answer: Non, nous ne proposons pas d'abonnement familial, mais nous offrons une
+      réduction de 30 % pour les abonnements supplémentaires. Pour plus d'informations,
+      vous pouvez nous contacter à l'adresse <a 
+      href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>.
+  - question: Peut-on acheter des abonnements SimpleLogin d'une autre manière ?
+    answer: Oui, vous pouvez aussi acheter des coupons d'abonnement SimpleLogin par
+      le biais de <a href="https://proxysto.re/en/index.html">ProxyStore</a>, notre
+      revendeur officiel.
 

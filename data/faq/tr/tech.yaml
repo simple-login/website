@@ -1,0 +1,37 @@
+  - question: En büyük e-posta boyutu nedir?
+    answer: >
+      Şu anda 25 MB sınırı var. Büyük ek dosyaları için bir dosya yükleme hizmeti
+      kullanmanızı ve dosya paylaşım bağlantısını göndermenizi öneririz. Gizliliğimize
+      saygı duyan bazı dosya paylaşım hizmetlerini <a href="https://www.privacyguides.org/file-sharing/">Gizlilik
+      rehberleri</a> bölümünde bulabilirsiniz <br> Bu sınırın bir nedeni de, PGP şifrelemenin
+      ağır bir işlem olması ve daha büyük boyutları desteklemenin SimpleLogin sunucularında
+      önemli bir yük oluşturmasıdır.
+  - question: Yanlışlıkla bir takma adı sildim, geri alabilir miyim?
+    answer: >
+      Bir takma ad silindiğinde genel bir <b>çöp kutusuna</b> konulur. Böylece yeniden
+      kullanılamayacağından emin oluruz. Takma adla ilgili tüm geçmiş bilgiler (takma
+      adı oluşturan hesap, takma ad kişileri gibi) gizliliğinize saygı gösterilmesi
+      amacıyla silinir. <br> Bu durum, SimpleLogin etki alanlarıyla oluşturulan tüm
+      takma adlar için geçerlidir. <br> Ancak kendi etki alanınızla oluşturulmuş takma
+      adları geri alabilirsiniz.
+  - question: SimpleLogin PGP anahtarlarını nereden bulabilirim?
+    answer: >
+      PGP anahtarlarımızı <a href="/pgp-key">PGP anahtarları</a> sayfasında bulabilirsiniz.
+      PGP kullandığınızda tüm e-postalar <b>signer@simplelogin.io</b> anahtarıyla
+      imzalanır.
+  - question: Hesabımı nasıl silebilirim?
+    answer: >
+      <a href="https://app.simplelogin.io/dashboard/setting">Ayarlar sayfasının</a>
+      alt bölümünden hesabınızı silebilirsiniz. Bu işlem geri alınamaz ve verilerinizi
+      kurtarmanın herhangi bir yolu yoktur.
+  - question: Banka ve devlet işlemleri gibi önemli hizmetler için e-posta takma adlarını
+      kullanabilir miyim?
+    answer: >
+      Kısaca evet yapabilirsiniz. İşimizi yürütmek, vergilerimizi ödemek, banka işlemlerimizi
+      yapmak için e-posta takma adlarını kullanıyoruz ve şu ana kadar her şey yolunda
+      :). <br> Daha ayrıntılı bakarsak, e-posta iletişim kuralı son derece dayanıklı
+      olacak şekilde tasarlanmıştır ve bir e-posta neredeyse hiç kaybolmaz. SimpleLogin
+      bir e-postayı kutunuza teslim edemezse, uygun işlemi yapabilmeniz için sizi
+      bilgilendiririz. Ayrıca, birincil e-posta kutunuza ek olarak yedek olarak kullanılabilecek
+      ikincil bir e-posta kutusu da ayarlayabilirsiniz.
+

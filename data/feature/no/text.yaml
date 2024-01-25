@@ -1,0 +1,64 @@
+  - title: 100% åpen kildekode
+    desc: >
+      Bygget på åpen kildekode-teknologi, <em data-toggle="tooltip" data-html="true"
+      title="Including the server, Chrome/Firefox/Safari extensions, Android/iOS apps.">alle</em>
+      SimpleLogin-komponenter er også åpen kildekode. <br> Du ville ikke klarére en
+      svart boks for å håndtere e-postene dine, ville du?
+  - title: Send e-post fra alias
+    desc: >
+      Ikke bare kan et alias motta e-post, det kan også <span class="highlight">sende</span>
+      e-post. Et alias er en fullverdig e-postadresse.
+  - title: Hvor som helst
+    desc: >
+      Administrer aliasene dine på SimpleLogin-nettstedet eller på våre <em data-toggle="tooltip"
+      data-html="true" title="And other chromium-based browsers like Edge, Opera,
+      Brave, etc">Chrome</em>, Firefox, Safari-utvidelser. <br>
+      Eller på telefonen din med Android (Play Store, F-Droid) og iOS-apper.
+  - title: Egendefinert domene
+    desc: >
+      Ta med ditt eget domene, og du trenger ikke å kjøpe enda en <em data-toggle="tooltip"
+      data-html="true" title="Like GSuite, Outlook eller de som selges av domeneregistratorene">e-post-verting-løsning</em>.
+      <br>
+      Og vet du at du kan ha <em data-toggle="tooltip" data-html="true" title="Ved
+      å aktivere catch-all kan du opprette aliaser på farten: <b>hvasomhelst@ditt-domene.com</b>
+      opprettes automatisk første gang den mottar en e-post.">catch-all-</em>alias
+      med domenet ditt?
+  - title: Sjenerøse priser
+    desc: >
+      Alle SimpleLogin-planer har <span class="highlight">uendelig</span> videresending/sending
+      og <span class="highlight">ubegrenset</span> båndbredde. <br> Motta og send
+      e-post så mye du vil.
+  - title: På-sparket-aliaser med underdomene
+    desc: >
+      Opprett ditt <em data-toggle="tooltip" data-html="true" title="Underdomene er
+      en fin måte å organisere og opprette aliaser på-sparket. Bare bruk <b>HVASOMHELST@ditt-underdomene.simplelogin.com</b>
+      når du raskt trenger et alias, alias opprettes når det mottar dets første e-post.">underdomene</em>,
+      og bruker den til å raskt opprette aliaser uten å åpne SimpleLogin web- eller
+      mobilapper. <a href="/blog/subdomains/" title="simplelogin subdomains">Lær mer</a>.
+  - title: Flere postbokser
+    desc: >
+      Hvis du allerede har flere postkasser, er denne funksjonen for deg: du kan legge
+      til postkassene dine i SimpleLogin og velge hvilken du vil bruke når du oppretter
+      et alias. <a href="/blog/introducing-mailbox/" title="simplelogin multiple mailboxes">Lær
+      mer</a>.
+  - title: Personvern & Sikkerhet
+    desc: >
+      Med <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP)
+      is an encryption program that can encrypt your emails and let you communicate
+      privately online.">PGP</em>, krypteres e-postmeldinger med din egen PGP-nøkkel
+      før de videresendes til postkassen din. Bare du kan deretter dekryptere disse
+      e-postene. Fungerer perfekt med Proton Mail eller alle PGP-verktøy (Thunderbird,
+      GPGTools, osv). <br><br>
+      For å bedre sikre SimpleLogin-kontoen din, kan du aktivere 2FA med <em data-toggle="tooltip"
+      data-html="true" title="TOTP (Time-based One-Time Passwords) brukes vanligvis
+      med applikasjoner som Google Authenticator eller Authy.">TOTP</em> og/eller
+      <em data-toggle="tooltip" data-html="true" title="WebAuthn brukes vanligvis
+      med fysiske sikkerhetsnøkler som Yubikey, Google Titan, etc. Telefonen og den
+      bærbare datamaskinen kan også brukes som sikkerhetsnøkkel.">WebAuthn (FIDO)</em>.
+  - title: Mer enn (bare) alias
+    desc: >
+      SimpleLogins ambisjon er å beskytte ditt personvern på nettet, og e-post er
+      bare begynnelsen. <br> Følg med for kommende funksjoner som enkel pålogging,
+      telefonnummerbeskyttelse og kredittkortbeskyttelse.
+
+

@@ -1,0 +1,119 @@
+  - question: Bir <b>e-posta takma adı</b> tam olarak nedir?
+    answer: >
+      E-posta takma adı, <a href="https://en.wikipedia.org/wiki/Email_forwarding">yönlendirme</a>
+      e-posta adreslerine benzer. Bir takma ada gönderilen tüm e-postalar, gelen kutunuza
+      iletilir. <br> SimpleLogin teknolojisi sayesinde, bir takma adı kullanarak da
+      <b>e-postalar</b> gönderebilirsiniz. <br> Kişiniz için takma ad e-posta adresiniz
+      olur. E-posta takma adı hakkında ayrıntılı bilgi almak için <a href="/blog/what-is-an-email-alias/">E-posta
+      takma adı nedir</a> bölümüne bakabilirsiniz.
+  - question: Sınırsız e-posta adresi oluşturmak için artı işareti (+) ile adres oluşturabilirim.
+      Neden SimpleLogin kullanmalıyım?
+    answer: >
+      Artı (+) uygulaması olarak da bilinen, Gmail tarafından yaygınlaştırılmış ve
+      bazı e-posta hizmetleri tarafından desteklenen alt e-posta adresleri, var olan
+      e-posta adresinize "+" ekleyerek yeni e-posta adresleri oluşturmanızı sağlar.
+      Örneğin e-posta adresiniz ad@proton.me olsun. Hızlıca Facebook için ad+facebook@proton.me,
+      Groupon için ad+groupon@proton.me gibi başka bir adres oluşturabilirsiniz. <br>
+      Bu yöntem pratik olmasına rağmen bazı sorunları vardır: <br>
+      - + adresinden yanıt veremezsiniz: Gönderici olarak gerçek e-posta adresiniz
+      görünür. <br>
+      - + yöntemi iyi bilinir ve bazı siteler içinde + geçen e-posta adresleriyle
+      hesap açılmasına izin vermez. <br>
+      - + yöntemini kullanmak gizliliğinizi korumaz: Gerçek e-postanızı bulmak için
+      + bölümü kolayca kaldırılabilir. Veriler ele geçirildiğinde + adresiniz görünüyorsa,
+      gerçek adresiniz de istenmeyen e-posta gönderenlerin eline geçmiş demektir.
+      <a href="https://haveibeenpwned.com">Have i been pwned</a> gibi bir siteyi kullanarak
+      e-posta adresinizin ele geçirilip geçirilmediğini kontrol edebilirsiniz <br>
+      - Reklam verenler, + bölümünü kaldırarak ve bu + adreslerini birbiriyle ilişkilendirerek
+      gezinme geçmişinizi elde edebilir. <br><br>
+      SimpleLogin takma adlarında bu olumsuzlukların hiçbiri yoktur. + yöntemini kullanmanın
+      artıları ve eksileri hakkında ayrıntılı bilgi almak için <a href="/blog/email-alias-vs-plus-sign/">E-posta
+      takma adını e-posta artı işaretine (+) göre daha iyi bir alternatif yapan nedir?</a>
+      yazısına bakabilirsiniz.
+  - question: SimpleLogin ile diğer e-posta iletme hizmetleri arasındaki fark nedir?
+    answer: >
+      SimpleLogin en gelişmiş e-posta takma adı çözümüdür ve sürekli geliştirilmektedir.
+      SimpleLogin ile diğer e-posta iletme/takma ad hizmetleri arasındaki bazı farklar
+      şunlardır: <br><br>
+      <ul> <li>Tümüyle açık kaynaklı: Hem SimpleLogin sunucusu hem de istemci kodu
+      (tarayıcı eklentisi, JavaScript kitaplığı, mobil uygulamalar) <a href="https://github.com/simple-login/app">açık
+      kaynaklıdır</a>. Böylece isteyen herkes kodu özgürce inceleyebilir ve geliştirebilir.
+      </li>
+      <li>Tüm önemli platformları kapsar: Bilgisayarlar için Chrome/Firefox/Safari
+      eklentisi, mobil aygıtlar için iOS ve Android uygulamaları. </li>
+      <li><em>Özel barındırma</em> ile kullanılabilen tek e-posta iletme çözümü. Kendi
+      sunucunuzda SimpleLogin çalıştırabilirsiniz. Ayrıntılı özel barındırma yönergelerimiz
+      ve çoğu bileşenin Docker kapsayıcısı olarak çalışması sayesinde, ssh bilen herkes
+      kendi sunucusuna SimpleLogin kurabilir.</li>
+      <li>Takma ad ile e-posta gönderebilir ve yanıtlayabilirsiniz. Gönderim veya
+      yanıt sayısında herhangi bir sınırlama yoktur.</li>
+      <li>Bant genişliği sınırı yoktur. </li>
+      <li>Reklam yoktur, etkinlik izleyici yoktur.</li>
+      <li>Yalnızca e-posta takma adı değildir: SimpleLogin aynı zamanda gizlilik odaklı
+      ve geliştirici dostu bir <em>kimlik hizmeti sağlayıcısıdır</em>: <br> - Kullanıcı
+      gizliliğine saygı duyar <br> - Geliştiricilerin kullanması kolaydır. <br> SimpleLogin,
+      "Facebook/Google/Apple ile oturum aç" düğmelerine gizlilik odaklı bir alternatif
+      sunar. </li>
+
+      <li>Çok sayıda özellik sunar: Tarayıcı eklentisi, özel etki alanı, tümünü toplama
+      takma adı, OAuth kitaplıkları gibi çok daha fazla özellik gelecek.</li>
+      <li><a href="https://github.com/simple-login/app/projects/1">GitHub</a> üzerindeki
+      yol haritasına bakarak üzerinde çalıştığımız heyecan verici özellikleri öğrenebilirsiniz.</li>
+      </ul>
+  - question: SimpleLogin neden geçici e-posta hizmetlerinden farklıdır?
+    answer: >
+      SimpleLogin takma adı, <a href="https://temp-mail.org/en/">temp-mail.org</a>,
+      <a href="https://10minutemail.net">10minutemail.net</a> gibi hizmetlerde oluşturulan
+      geçici e-posta adreslerinin aksine kalıcıdır.<br>SimpleLogin ayrıca e-postaları
+      tutmaz, e-posta kutunuza gönderir. <br>SimpleLogin farklı bir gereksinim için
+      farklı bir üründür.
+  - question: SimpleLogin iş modeli nedir?
+    answer: Gelirimiz yalnızca aboneliklerden geliyor. Yani ürün sonsuza kadar reklamsız
+      kalacak.
+  - question: <b>Takma ad klasörü</b> veya <b>tümünü toplama</b> özelliği nedir?
+    answer: >
+      Bu iki özellik <em>anında</em> takma ad oluşturmanızı sağlar. Yani yeni bir
+      takma ad oluşturmak için SimpleLogin açmanız gerekmez. <br>Etki alanınızda <b>tümünü
+      toplama</b> seçeneğini açmak, <em>BIRSEY@etki-alanim.com</em> adresini takma
+      ad olarak kullanmanızı sağlar ve <b>BIRSEY</b> herhangi bir sözcüktür. Tek sınır,
+      128 karakterden kısa olması gerektiğidir. <br><b>Takma ad klasörü</b> tümünü
+      toplama özelliğine benzer. Takma ad olarak <em>klasorunuz+BIRSEY@simplelogin.co</em>
+      adresini kullanabilirsiniz. <b>Klasörünüz</b>, oluşturduğunuz klasörün adıdır.
+  - question: Bir takma addan kişisel e-posta adresime iletilen bir e-posta aldım.
+      Bu e-postayı nasıl yanıtlayabilirim? Yanıtı hazırlamak için SimpleLogin üzerine
+      gitmem gerekir mi?
+    answer: >
+      Doğrudan e-posta istemcinizden yanıt verebilirsiniz. "Yanıtla" düğmesine tıklamanız
+      yeterlidir. Yanıt SimpleLogin üzerinden yönlendirilir ve SimpleLogin yanıtın
+      takma adınızdan gönderilmesini sağlar. Kişisel e-postanız özgün gönderici için
+      görünmez kalır. <br><br>Teknik olarak, e-postanızdaki <b>Kimden</b> üst bilgisi,
+      her gönderici için dinamik olarak oluşturulan özel bir takma adla değiştirilir.
+      Yanıt verdiğinizde yanıtınız aslında bu özel takma ada gönderilir ve SimpleLogin,
+      e-postanın takma adınızdan gönderildiğinden emin olarak yanıtı gönderene geri
+      iletir. Bu işlem sırasında kişisel e-posta adresinizle ilgili tüm bilgiler kaldırılır.
+  - question: <b>Ters takma ad</b> nedir?
+    answer: >
+      Ters takma ad, <b>takma adınızdan</b> e-posta göndermenizi sağlayan <b>özel</b>
+      bir takma addır. <br>E-posta göndermek istediğiniz her takma ad ve e-posta göndermek
+      istediğiniz her kişi için bir ters takma ad oluşturulur. <br>Kişisel e-postanızdan
+      ters takma ada bir e-posta gönderdiğinizde, e-posta takma adınızdan ilgili kişiye
+      gönderilir.
+  - question: E-posta takma adı kalıcı mıdır?
+    answer: Normal bir e-posta adresi gibi, e-posta takma adı siz onu silmediğiniz
+      sürece yerinde durur.
+  - question: SimpleLogin sunucuları nerede bulunuyor?
+    answer: Proton ve Finlandiya'dan UpCloud sunucularını kullanıyoruz.
+  - question: <b>Özel etki alanı</b> özelliği nedir?
+    answer: >
+      SimpleLogin üzerine kendi etki alanlarınızı getirebilir ve <b>iletisim@etki-alaniniz.com</b>,
+      <b>merhaba@etki-alaniniz.com</b> gibi takma adlar oluşturabilirsiniz. <br>Düşünebileceğiniz
+      gibi, Google Workspace gibi pahalı bir çözüme para ödemek yerine <em>iş e-postalarınızı</em>
+      yönetmek için SimpleLogin kullanabilirsiniz. <br>Tüm iş e-postalarımız (<b>iletisim@simplelogin.io</b>
+      gibi) aslında takma adlar olabilir 🤫
+  - question: Sorumun yanıtını burada bulamadım
+    answer: >
+      Sık sorulan tüm soruların ve yanıtların listesini <a href="/faq/">SSS sayfasında</a>
+      bulabilirsiniz. <br>Yanıtı orada bulamazsanız lütfen sorunuzu <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      adresine gönderin. <br>Ayrıca <a href="https://github.com/simple-login/app/issues">GitHub
+      konularımız</a> bölümünde de bir konu oluşturabilirsiniz.
+
