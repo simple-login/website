@@ -1,0 +1,72 @@
+header_login: ログイン #header
+header_signup: サインアップ
+header_pricing: 価格
+hero: 匿名でメールを受信・送信 #hero section
+hero_desc: >
+  「<em data-toggle="tooltip" data-html="true" title="An email alias (or alias for short) is an email address that 電子メールは<b>保存されません</b>。エイリアスに送信されたすべての電子メールは、個人の電子メールに転送されます。">電子メール エイリアス</em>」を使用すると、オンラインで匿名になり、スパムやフィッシングから受信トレイを保護できます。 <a href="https://github.com/simple-login/">オープンソース</a>。 ヨーロッパで作成およびホストされています。
+hero_cta: >
+
+hero_button_underline: <b>800,000 以上</b> のエイリアスが作成されました。
+seen_on: 推薦者
+how_it_work_title: メールエイリアスはどのように機能しますか？ #how it work section
+how_it_work_desc: メールエイリアスで受信トレイを保護しましょう。
+how_it_work_1_title: どこでもメールエイリアスを使う
+how_it_work_1_subtitle: >
+  次回ウェブサイトでメール アドレスの入力を求められるときは、実際のメール アドレスの<span class="bigger">代わりに</span>エイリアスを指定してください。
+how_it_work_2_title: 受信トレイで安全にメールを受信
+how_it_work_2_subtitle: >
+  エイリアスに送信されたメールは、送信者が何も知らないうちに受信トレイに<span class="bigger">即座に転送</span>されます。 <br>
+how_it_work_3_title: 匿名でメールを送る
+how_it_work_3_subtitle: >
+  転送されたメールに返信したい場合は、「返信」をクリックするだけです。返信はエイリアスから送信され、実際のメールは隠されたままになります。 <br> エイリアスから簡単にメールを<span class="bigger">送信</span>することもできます。
+everywhere_title: どこでもエイリアスを作成・管理 #available everywhere section
+everywhere_subtitle: 外出先で素早くエイリアスを作成。ニュースレターに登録したり、新しいオンライン・アカウントをワンクリックで作成できます。
+alias_new_email_title: エイリアスは新しいメールアドレス #Alias is the new email address Section
+alias_new_email_a_title: A. あらゆる場所で電子メールをエイリアスに置き換える
+alias_new_email_a_text_1: メーリングリストへの登録、電子メールエイリアスによる新しいオンラインアカウントの作成。
+alias_new_email_a_text_2: 後で、あまりにスパム的であれば、エイリアスを<span class="highlight">ブロック</span>するだけです。
+alias_new_email_b_title: B. エイリアスからメールを送信する
+alias_new_email_b_text_1: >
+  転送されたメールに返信する必要がある場合は、[返信] をクリックするだけです。返信はエイリアスから<span class="highlight">送信され</span>、個人のメールボックスは非表示のままになります。
+alias_new_email_b_text_2: >
+  エイリアスから任意の電子メール アドレスに電子メールを「<em data-toggle="tooltip" data-html="true" title="<b>+ トリック </b> のような<b>通常</b> のメール エイリアスは、通常、メールの受信のみが可能な 1 つの方法で機能します。 <br>SimpleLogin では、エイリアスから簡単にメールに返信/送信できます。">送信</em>」することもできます。
+alias_new_email_c_title: C. エイリアスでビジネスを運営する
+alias_new_email_c_text_1: <span class="highlight">ビジネスメール</span>としてエイリアスを使用します。
+alias_new_email_c_text_2: >
+  月額 $6 節約
+  <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true" title='GSuite starts at $6/month per user.'></i>SimpleLogin で作成されたビジネスメールごとに。
+alias_new_email_c_text_3: 50社以上の企業がSimpleLoginを信頼してメールを運用しています。
+testimonial_title: ユーザーに愛される電子メールのエイリアシング #Testimonials Section
+feature_title: プライバシー、セキュリティ、機能 #Features section
+feature_subtitle: SimpleLoginは最も先進的なEメールエイリアスソリューションです。
+faq_title: よくある質問 #FAQ section
+faq_subtitle: ヘルプ
+ready_get_started: 準備はできたか？
+ready_get_started_cta: >
+
+cta_2_title: 受信トレイとプライバシーを保護している50,000人以上の人々に加わりましょう。
+cta_2_button: >
+
+partner_title: パートナー
+footer_1: SimpleLogin は、電子メール アドレスを保護するための<a href="https://github.com/simple-login">オープン ソース</a>の<b>電子メール エイリアス</b> ソリューションです。 #footer
+footer_3: SimpleLogin は SimpleLogin SAS の製品であり、フランスでは SIREN 番号 884302134 で登録されています。SimpleLogin SAS は <a href="https://proton.me">Proton AG</a> の一部です。
+footer_pricing: 価格
+footer_about: 私たちについて
+footer_contact: お問い合わせ
+footer_imprint: 沿革
+footer_join_us: 参加する
+pricing_title: 価格 #pricing
+pricing_subtitle: >
+  SimpleLogin は<a href="https://github.com/simple-login">オープン ソース</a>であり、自己ホストすることができ、コミュニティによって 100% 資金提供されています。 当社はあなたのデータを使用したり、追跡したり、広告を表示したりすることはありません。 SimpleLogin は、サービスの実行を維持し、新しい機能を開発するために、お客様のサポートに依存しています。
+pricing_free_title: 無料
+pricing_premium_title: プレミアム
+pricing_free_cta: サインアップ
+pricing_premium_cta: 電子メールの保護を開始する
+pricing_what_people_say: SimpleLogin についての意見
+pricing_premium_yearly_price: '$30'
+pricing_premium_yearly_year: 年
+pricing_premium_monthly_price: または毎月4ドル請求
+faq_tech_question: 技術的な質問 #<<< FAQ page >>>
+faq_general_question: 一般的な質問
+faq_developer_question: パートナー/デベロッパーに関する質問
+faq_pricing_question: プラン/価格に関する質問

@@ -1,0 +1,71 @@
+header_login: 로그인 #header
+header_signup: 회원 가입
+header_pricing: 가격
+hero: 익명으로 이메일을 주고 받으세요 #hero section
+hero_desc: >
+  <em data-toggle="tooltip" data-html="true" title="이메일 별명은 <b>이메일을 저장하지 않는</b> 이메일 주소입니다: 이메일 별명으로 전송된 모든 이메일은 사용자의 개인 이메일으로 전달됩니다.">이메일 별명</em>으로, 온라인에서 익명 상태를 유지하고 스팸과 피니싱 없이 받은 편지함을 보호할 수 있습니다. <a href="https://github.com/simple-login/">오픈소스이며</a>, 유럽에서 개발 및 운영됩니다.
+hero_cta: >
+
+hero_button_underline: <b>800,000+개</b> 별명 생성됨.
+seen_on: 추천
+how_it_work_title: 이메일 별명은 어떻게 작동하나요? #how it work section
+how_it_work_desc: 받은 편지함을 이메일 별명으로 보호하세요.
+how_it_work_1_title: 이메일 별명을 어디서나 사용하기
+how_it_work_1_subtitle: >
+  다음 번에, 웹사이트가 사용자에게 실제 이메일 주소를 <span class="bigger">대신하여</span> 별명을 제공할지 물어봅니다.
+how_it_work_2_title: 받은 편지함에 이메일을 안전하게 받으세요.
+how_it_work_2_subtitle: >
+  별명으로 전송된 이메일들은 전송자가 아무 것도 알지 못한 채 받은 편지함으로 <span class="bigger">즉시 전달됩니다.</span> <br>
+how_it_work_3_title: 이메일을 익명으로 전송
+how_it_work_3_subtitle: >
+  만약 전달된 이메일에 답장을 하고 싶다면? "답장"만 누르세요: 답장은 사용자의 이메일 별명으로 부터 전송되며 항상 실제 이메일은 비공개로 유지됩니다. <br> 또한 별명에서도 쉽게 이메일을 <span class="bigger">전송</span> 할 수 있죠.
+everywhere_title: 언제 어디서나 별명을 생성 및 관리하세요 #available everywhere section
+everywhere_subtitle: 이동 중에도 빠르게 별명을 생성하세요. 뉴스레터를 회원 가입하거나 한 번의 클릭으로 온라인 계정을 생성하세요.
+alias_new_email_title: 별명은 새로운 이메일 주소입니다 #Alias is the new email address Section
+alias_new_email_a_title: A. 어디서나 이메일을 별명으로 대체하세요
+alias_new_email_a_text_1: 메일링 리스트를 구독하고, 이메일 별명으로 새 온라인 주소를 생성하세요.
+alias_new_email_a_text_2: 나중에, 스팸이 너무 많다면 간단히 별명을 <span class="highlight">차단</span>하세요.
+alias_new_email_b_title: B. 별명에서 이메일 전송하세요
+alias_new_email_b_text_1: >
+  전달된 이메일에 답장을 하고 싶으시다면 "답장"만 누르세요: 답장이 별명에서 <span class="highlight">전송되며</span> 사용자의 받은 편지함은 항상 비공개로 유지됩니다.
+alias_new_email_b_text_2: >
+  어떤 이메일 주소라도 별칭을 사용해서 <em data-toggle="tooltip" data-html="true" title="<b>+ 기호</b>를 붙여서 사용하는 <b>일반적인</b> 이메일 별칭은 보통 수신하는 경우에만 사용할 수 있습니다. <br>하지만 SimpleLogin에서는 별칭을 사용해서 수발신 모두 가능합니다.">보낼 수 있습니다</em>.
+alias_new_email_c_title: C. 별명으로 비즈니스를 운영하세요
+alias_new_email_c_text_1: 별명을 <span class="highlight">비즈니스 이메일</span>로 사용하세요.
+alias_new_email_c_text_2: >
+  SimpleLogin으로 비즈니스 이메일을 생성하여 6$/개월을 절약하세요<i class="fa fa-question-circle" data-toggle="tooltip" data-html="true" title='GSuite는 사용자 당 6$/개월입니다.'></i>
+alias_new_email_c_text_3: 50여개 이상 비즈니스가 이메일을 사용하는데 SimpleLogin을 신뢰하고 있습니다.
+testimonial_title: 사용자들로 부터 사랑 받은 이메일 별명 #Testimonials Section
+feature_title: 당신이 사랑할 개인정보 보호, 보안성 및 기능들 #Features section
+feature_subtitle: SimpleLogin은 가장 앞선 이메일 별명 솔루션 입니다.
+faq_title: 자주 묻는 질문 #FAQ section
+faq_subtitle: 지원
+ready_get_started: 시작할 준비가 되셨나요?
+ready_get_started_cta: >
+
+cta_2_title: 받은 편지함과 프라이버시의 보호를 그 누구보다 중시할 50,000명 이상의 사용자들과 함께하세요.
+cta_2_button: >
+
+partner_title: 파트너
+footer_1: SimpleLogin은 이메일 주소를 보호할 <a href="https://github.com/simple-login">오픈소스</a> <b>이메일 별명</b> 솔루션 입니다. #footer
+footer_3: SimpleLogin은 SIREN 번호 884302134 아래 프랑스에 설립된 SimpleLogin SAS의 제품입니다. SimpleLogin SAS는 <a href="https://proton.me">Proton AG</a>의 계열사 입니다.
+footer_pricing: 가격
+footer_about: 회사 소개
+footer_contact: 문의
+footer_imprint: 상표
+footer_join_us: 채용 안내
+pricing_title: 가격 #pricing
+pricing_subtitle: >
+  SimpleLogin은 <a href="https://github.com/simple-login">오픈 소스며</a>, 100% 커뮤니티에서 자금 지원되어 호스팅 됩니다. 사용자의 데이터를 수집 및 추적하거나 광고를 표시하지 않습니다. SimpleLogin은 새로운 기능을 개발하고 지속적으로 운영할 수 있도록 당신의 지원이 필요합니다.
+pricing_free_title: 무료
+pricing_premium_title: 프리미엄
+pricing_free_cta: 회원 가입
+pricing_premium_cta: 이메일 보호를 시작하세요
+pricing_what_people_say: SimpleLogin에 대해 말하는 사람들
+pricing_premium_yearly_price: '$30'
+pricing_premium_yearly_year: 연간
+pricing_premium_monthly_price: 또는 매달 $4 청구
+faq_tech_question: 기술적인 질문 #<<< FAQ page >>>
+faq_general_question: 일반적인 질문
+faq_developer_question: 파트너 및 개발자 질문
+faq_pricing_question: 플랜 및 가격 정책 질문

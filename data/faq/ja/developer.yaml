@@ -1,0 +1,15 @@
+  - question: '「 Facebook/Googleでログイン」ではなく、なぜSimpleLoginをウェブサイトに導入する必要があるのですか？'
+    answer: >
+      Facebook と Google は、よりパーソナライズされた広告を提供できるように、ユーザーの閲覧履歴を<a href="/blog/do-not-use-facebook-sdk/">追跡</a>するためにこれらのボタンを使用していることをご存知ですか?
+      <br><br> SimpleLogin は広告を利用しておらず、ユーザーが自分のデータを完全に制御できるため、ユーザー データを利用する動機はありません。
+  - question: SimpleLogin を信頼する必要があるのはなぜですか?
+    answer: >
+      SimpleLogin のコードは<a href="https://github.com/simple-login">GitHub</a>にあり、オープンソースです。<br><br>誰でも自由にコードを監査したり、独自の
+      SimpleLogin サーバーをセットアップしたりできます。 <br><br> SimpleLogin の収益は、透明性と持続可能なモデルに基づいており、これによりプライバシー最優先でトラッカーのない製品を実現できます。
+  - question: ネイティブ アプリ、Windows アプリなどをサポートする SDK をリリースする予定はありますか?
+    answer: >
+      そのとおり！ 私たちが Web プラットフォームから始めたのは、単に Android WebView または iOS UIWebView 経由でモバイル
+      アプリにも使用できるためです。 <br><br> Android、iOS、Windows 向けの SDK といくつかのサンプルを近々提供する予定です。
+      乞うご期待！
+
+

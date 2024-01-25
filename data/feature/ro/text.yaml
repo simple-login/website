@@ -1,0 +1,66 @@
+  - title: 100% cu sursa publică
+    desc: >
+      Construite pe baza tehnologiei cu sursă publică, <em data-toggle="tooltip" data-html="true"
+      title="Including the server, Chrome/Firefox/Safari extensions, Android/iOS apps.">toate</em>
+      componentele SimpleLogin sunt și acestea cu sursa publică. <br> Nu ați avea
+      încredere într-o cutie neagră pentru a vă gestiona e-mailurile, nu-i așa?
+  - title: Trimiteți mesaje cu aliasuri
+    desc: >
+      Un alias nu numai că poate primi mesaje, dar poate și <span class="highlight">trimite</span>
+      mesaje. Un alias este o adresă de e-mail cu drepturi depline.
+  - title: Oriunde
+    desc: >
+      Gestionați-vă aliasurile pe site-ul web SimpleLogin sau cu extensiile pentru
+      <em data-toggle="tooltip" data-html="true" title="And other chromium-based browsers
+      like Edge, Opera, Brave, etc">Chrome</em>, Firefox, Safari.<br>
+      Sau de pe telefon cu aplicații pentru Android (Magazin Play, F-Droid) și iOS.
+  - title: Domeniu personal
+    desc: >
+      Aduceți-vă propriul domeniu și nu trebuie să cumpărați încă o <em data-toggle="tooltip"
+      data-html="true" title="Like GSuite, Outlook or the ones sold by the domain
+      registrars">soluție de găzduire de e-mail</em>.
+      <br>
+      Și știți că puteți avea alias de <em data-toggle="tooltip" data-html="true"
+      title="Prin activarea colectare toate mesajele, puteți crea aliasuri din mers:
+      <b>orice@domeniul-meu.com</b> va fi creat automat prima dată când primește un
+      e-mail.">colectare toate mesajele</em> cu domeniul personal?
+  - title: Prețuri generoase
+    desc: >
+      Toate planurile SimpleLogin au redirecționări/trimiteri &lt;span class=&quot;highlight&quot;&gt;infinite&lt;/span&gt;
+      și lățime de bandă &lt;span class=&quot;highlight&quot;&gt;nelimitată&lt;/span&gt;.
+      &lt;br&gt; Primiți și trimiteți e-mailuri cât doriți.
+  - title: Aliasuri din mers cu subdomeniu
+    desc: >
+      Creați-vă <em data-toggle="tooltip" data-html="true" title="Subdomeniul este
+      o modalitate excelentă de a organiza și de a crea aliasuri din mers. Doar folosiți
+      <b>ORICE@subdomeniul-meu.simplelogin.com</b> când aveți nevoie rapid de un alias,
+      iar acesta va fi creat când primește primul e-mail.">subdomeniul personal</em>
+      și utilizați-l pentru a crea rapid aliasuri fără a deschide aplicațiile web
+      sau mobile SimpleLogin. <a href="/blog/subdomains/" title="simplelogin subdomains">Detalii</a>.
+  - title: Adrese de e-mail multiple
+    desc: >
+      Dacă aveți deja mai multe adrese de email, această funcție vi se adresează:
+      puteți să vă adăugați adresele în SimpleLogin și să alegeți pe care să le utilizați
+      atunci când creați un alias. <a href="/blog/introducing-mailbox/" title="simplelogin
+      multiple mailboxes">Detalii</a>.
+  - title: Confidențialitate și securitate
+    desc: >
+      Cu <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP)
+      is an encryption program that can encrypt your emails and let you communicate
+      privately online.">PGP</em>, e-mailurile sunt criptate cu propria cheie PGP
+      înainte de a fi redirecționate către căsuța poștală proprie. Numai dvs. puteți
+      decripta aceste e-mailuri. Funcționează perfect cu Proton Mail sau cu orice
+      instrument PGP (Thunderbird, GPGTools, etc). <br><br>
+      Pentru a vă securiza mai bine contul SimpleLogin, puteți activa A2F cu <em data-toggle="tooltip"
+      data-html="true" title="TOTP (Time-based One-time Passwords) is usually used
+      with applications like Google Authenticator or Authy.">TOTP</em> și/sau <em
+      data-toggle="tooltip" data-html="true" title="WebAuthn is usually used with
+      physical security keys like Yubikey, Google Titan, etc. Your phone and laptop
+      can also be used as a security key.">WebAuthn (FIDO)</em>.
+  - title: Mai mult decât (doar) un alias
+    desc: >
+      Ambiția SimpleLogin este de a vă proteja confidențialitatea online, iar e-mailul
+      este doar începutul. <br> Rămâneți la curent cu funcțiile viitoare, cum ar fi
+      conectarea unică, protecția numărului de telefon și protecția cardului de credit.
+
+

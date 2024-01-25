@@ -1,0 +1,68 @@
+  - title: 100% de código aberto
+    desc: >
+      Desenvolvido com base em tecnologia de código aberto, <em data-toggle="tooltip"
+      data-html="true" title="Incluindo o servidor, extensões Chrome/Firefox/Safari,
+      aplicativos Android/iOS.">todos</em> os componentes do SimpleLogin também são
+      de código aberto. <br> Você não confiaria em uma caixa preta para lidar com
+      seus e-mails, confiaria?
+  - title: Envie e-mails a partir de alias
+    desc: >
+      Um alias não apenas pode receber e-mails, mas também <span class="highlight">enviar</span>
+      e-mails. Um alias é um endereço de e-mail completo.
+  - title: Em todo lugar
+    desc: >
+      Gerencie seus codinomes no site da SimpleLogin ou em nossas extenções no <em
+      data-toggle="tooltip" data-html="true" title="And other chromium-based browsers
+      like Edge, Opera, Brave, etc">Chrome</em>, Firefor e Safari<br>.
+      Ou no seu celular com os apps para Android (Play Store, F-Droid) e iOS.
+  - title: Domínio personalizado
+    desc: >
+      Traga seu próprio domínio e você não precisará comprar outra <em data-toggle="tooltip"
+      data-html="true" title="Como GSuite, Outlook ou aquelas vendidas pelos registradores
+      de domínio">solução de hospedagem de e-mail </em>.
+      <br>
+      E você sabia que pode ter alias <em data-toggle="tooltip" data-html="true" title="Ao
+      ativar o catch-all, você pode criar aliases dinamicamente: <b>anything@seu-domínio.com</b>
+      será criado automaticamente na primeira vez que receber um e-mail.">catch-all</em>
+      com seu domínio?
+  - title: Preço generoso
+    desc: >
+      Todos os planos SimpleLogin tem <span class="highlight">infinitos</span> encaminhamentos/envios
+      e banda <span class="highlight">ilimitada</span>. <br> Receba e envie e-mails
+      o quanto quiser.
+  - title: Aliases instantâneos com subdomínio
+    desc: >
+      Crie seu <em data-toggle="tooltip" data-html="true" title="Subdomínio é uma
+      ótima maneira de organizar e criar aliases dinamicamente. Basta usar <b>QUALQUERCOISA@seu-subdominio.simplelogin.com</b>
+      quando você precisar rapidamente de um alias, o alias será criado quando receber
+      o primeiro e-mail.">subdomínio</em> e use-o para criar aliases rapidamente sem
+      abrir o SimpleLogin na web ou em aplicativos móveis. <a href="/blog/subdomains/"
+      title="simplelogin subdomains">Saiba mais</a>.
+  - title: Várias caixas de correio
+    desc: >
+      Se você já tem vários endereços de e-mail, esse recurso é para você: você pode
+      adicionar seus endereços de e-mails no SimpleLogin e escolher qual deles usar
+      quando criar um alias. <a href="/blog/introducing-mailbox/" title="simplelogin
+      multiple mailboxes"> Saiba mais</a>.
+  - title: Privacidade e segurança
+    desc: >
+      Com o <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy
+      (PGP) é um programa de criptografia que pode criptografar seus e-mails e permitir
+      que você se comunique de forma privada online.">PGP</em>, os e-mails são criptografados
+      com sua própria chave PGP antes de serem encaminhados para sua caixa de correio.
+      Somente você pode então descriptografar esses e-mails. Funciona perfeitamente
+      com o Proton Mail ou qualquer ferramenta de PGP (Thunderbird, GPGTools, etc).
+      <br><br>
+      Para melhorar a segurança da sua conta SimpleLogin, você pode ativar A2F com
+      <em data-toggle="tooltip" data-html="true" title="TOTP (One-time Passwords baseado
+      em Tempo) geralmente é usado com aplicativos como Google Authenticator ou Authy.">TOTP</em>
+      e/ou <em data-toggle="tooltip" data-html="true" title="WebAuthn geralmente é
+      usado com chaves de segurança físicas como Yubikey, Google Titan, etc. Seu telefone
+      e laptop também podem ser usados como chave de segurança.">WebAuthn (FIDO)</em>.
+  - title: Mais do que (apenas) alias
+    desc: >
+      A ambição do SimpleLogin em proteger sua privacidade online e e-mail é apenas
+      o começo. <br> Fique ligado nos próximos recursos, como logon único, proteção
+      de número de telefone e proteção de cartão de crédito.
+
+

@@ -1,0 +1,116 @@
+  - question: Co přesně je <b>e-mailový alias</b>?
+    answer: >
+      E-mailový alias je podobný jako <a href="https://en.wikipedia.org/wiki/Email_forwarding">přeposílání</a>
+      na e-mailovou adresu: všechny e-maily zaslané na alias budou přeposlány do vaší
+      doručené pošty. <br> Díky technologii SimpleLogin můžete také odesílat e-maily
+      <b>z</b> aliasu. <br> Pro váš kontakt je tedy aliasem vaše e-mailová adresa.
+      Více informací o e-mailovém aliasu najdete v části <a href="/blog/what-is-an-email-alias/">Co
+      je e-mailový alias</a>.
+  - question: Pomocí triku se znaménkem plus (+) mohu vytvořit neomezený počet e-mailových
+      adres, proč potřebuji SimpleLogin?
+    answer: >
+      E-mailové podadresy, známé také jako trik s plusem (+), který zpopularizoval
+      Gmail a podporují ho některé e-mailové služby, umožňuje vytvářet nové e-mailové
+      adresy připojením "+" k vaší stávající e-mailové adrese. Pokud je váš e-mail
+      jmeno@proton.me, můžete rychle vytvořit další adresu, například jmeno+facebook@proton.me
+      pro Facebook, jmeno+groupon@proton.me pro Groupon atd. <br>
+      Ačkoli je to praktické, má to i některé nevýhody: <br>
+      - Z adresy + nelze odpovídat: jako odesílatel se zobrazí váš skutečný e-mail.
+      <br>
+      - Trik s + je dobře známý a některé webové stránky neumožňují registraci s e-mailovými
+      adresami, které obsahují +. <br>
+      - Použití triku + nechrání vaše soukromí: někdo může snadno odstranit část +,
+      aby získal váš skutečný e-mail. Pokud se vaše adresa s + objeví v úniku dat,
+      vaše skutečná adresa je pravděpodobně také v rukou spammerů. Zda váš e-mail
+      unikl, můžete zkontrolovat pomocí webových stránek, jako je <a href="https://haveibeenpwned.com">have
+      i been pwned</a> <br>
+      - Odstraněním části + mohou inzerenti tyto + adresy propojit a mít tak vaši
+      historii prohlížení. <br><br>
+      Aliasy SimpleLogin nemají žádnou z těchto nevýhod. Více o výhodách a nevýhodách
+      používání triku s + si můžete přečíst na <a href="/blog/email-alias-vs-plus-sign/">Co
+      dělá e-mailový alias lepší alternativou k e-mailům se znaménkem plus (+)</a>
+  - question: Jaký je rozdíl mezi SimpleLogin a jinými službami pro přeposílání e-mailů?
+    answer: >
+      SimpleLogin je nejpokročilejší řešení e-mailových aliasů, které je aktivně vyvíjeno.
+      Zde jsou uvedeny některé rozdíly mezi službou SimpleLogin a jinými službami
+      pro přeposílání e-mailů/aliasy: <br><br>
+      <ul> <li>Plně open-source: kód serveru SimpleLogin i klienta (rozšíření prohlížeče,
+      knihovna JS, mobilní aplikace) mají <a href="https://github.com/simple-login/app">otevřený
+      zdrojový kód</a>, takže kdokoli může kód volně kontrolovat a vylepšovat. </li>
+      <li>Funguje na všech hlavních platformách: rozšíření Chrome/Firefoxu/Safari
+      pro stolní počítače, mobilní aplikace pro iOS a Android. </li>
+      <li>Jediné řešení pro přeposílání e-mailů, které lze <em>hostovat na vlastním
+      serveru</em>. Díky našim podrobným návodům pro selfhosting a většině komponent,
+      které běží jako kontejner Docker, může SimpleLogin na svém serveru nasadit každý,
+      kdo umí ssh.</li>
+      <li>Můžete odesílat/odpovídat na e-maily z aliasu. Počet odeslaných/odpovězených
+      e-mailů není omezen.</li>
+      <li>Neomezený přenos dat. </li>
+      <li>Žádné reklamy, žádné sledování.</li>
+      <li>Nejde o běžný e-mailový alias: SimpleLogin je také <em>poskytovatel identity</em>
+      zaměřený na ochranu soukromí a přátelský k vývojářům, který: <br>
+       - respektuje soukromí uživatelů <br>
+       - snadno použitelný vývojáři. <br>
+       SimpleLogin nabízí soukromí oproti tlačítkům "Přihlásit se pomocí Facebooku/Googlu/Apple".
+      </li>
+
+      <li>Spousta funkcí: rozšíření prohlížeče, vlastní doména, doménový koš (catch-all
+      alias), knihovny OAuth atd. a mnoho dalšího, co se chystá.</li>
+      <li>Veřejná roadmapa na <a href="https://github.com/simple-login/app/projects/1">GitHub</a>:
+      víte, na jakých zajímavých funkcích pracujeme.</li> </ul>
+  - question: Jak se SimpleLogin liší od dočasných e-mailových služeb?
+    answer: >
+      Aliasy SimpleLogin jsou trvalé na rozdíl od dočasných e-mailových adres vytvořených
+      ve službách, jako je např. <a href="https://temp-mail.org/en/">temp-mail.org</a>,
+      <a href="https://10minutemail.net">10minutemail.net</a>, atd. <br> SimpleLogin
+      také neukládá e-maily, ty jsou uloženy ve vaší e-mailové schránce. <br> SimpleLogin
+      je prostě jiný produkt pro jiné potřeby.
+  - question: Jaký je obchodní model SimpleLogin?
+    answer: Naše příjmy pocházejí pouze z předplatného, což znamená, že produkt zůstane
+      navždy bez reklam.
+  - question: Co jsou funkce <b>adresář aliasů</b> nebo <b>doménový koš</b>?
+    answer: >
+      Obě tyto funkce umožňují vytvářet aliasy <em>za běhu</em>, což znamená, že pro
+      vytvoření nového aliasu nemusíte otevírat aplikaci SimpleLogin. <br> Povolení
+      funkce <b>doménový koš</b> na vaší doméně vám umožní použít <em>COKOLI@moje-domena.cz</em>
+      jako alias s tím, že <b>COKOLI</b> je libovolné slovo. Jediným omezením je,
+      že musí mít méně než 128 znaků. <br> <b>Adresář aliasů</b> je podobný jako doménový
+      koš. Jako alias můžete použít <em>vas_adresar+COKOLI@simplelogin.co</em>. <b>vas_adresar</b>
+      je název adresáře, který jste vytvořili.
+  - question: Z aliasu je mi přeposlán e-mail na můj osobní e-mail. Jak mohu na tento
+      e-mail odpovědět? Musím kvůli tomu jít na SimpleLogin?
+    answer: >
+      Odpovědět můžete přímo z e-mailového klienta. Stačí kliknout na tlačítko "odpovědět",
+      odpověď bude přesměrována přes SimpleLogin a SimpleLogin zajistí, aby přišla
+      z vašeho aliasu. Váš osobní e-mail zůstane pro původního odesílatele neviditelný.
+      <br><br> Technicky vzato je hlavička <b>Od</b> v e-mailu nahrazena speciálním
+      aliasem dynamicky generovaným pro každého odesílatele. Když odpovíte, vaše odpověď
+      se skutečně odešle na tento speciální alias a SimpleLogin předá odpověď zpět
+      odesílateli, čímž zajistí, že e-mail bude odeslán z vašeho aliasu. Během tohoto
+      procesu jsou odstraněny všechny informace o vaší osobní e-mailové adrese.
+  - question: Co je <b>reverzní alias</b>?
+    answer: >
+      Reverzní alias je <b>zvláštní</b> alias, který umožňuje odesílat e-maily <b>z
+      vašeho aliasu</b>. <br> Reverzní alias se vytváří pro každý alias, ze kterého
+      chcete odesílat e-maily, a pro každý kontakt, kterému chcete posílat e-maily.
+      <br> Když odešlete e-mail na reverzní alias ze svého osobního e-mailu, bude
+      e-mail odeslán z vašeho aliasu danému kontaktu.
+  - question: Je e-mailový alias trvalý?
+    answer: Stejně jako běžná e-mailová adresa je i e-mailový alias vždy k dispozici,
+      pokud jej nesmažete.
+  - question: Kde jsou umístěny servery SimpleLogin?
+    answer: Používáme servery společnosti Proton a společnosti UpCloud, která je poskytovatelem
+      cloudu se sídlem ve Finsku.
+  - question: Co je funkce <b>vlastní doména</b>?
+    answer: >
+      Do služby SimpleLogin můžete přenést vlastní domény a vytvořit aliasy, například
+      <b>kontakt@vase-domena.cz</b>, <b>ahoj@vase-domena.cz</b>. <br> Jak jste asi
+      uhodli, můžete pak SimpleLogin používat ke správě <em>firemních e-mailů</em>
+      namísto placení za drahé řešení, jako je Google Workspace. <br> Všechny naše
+      pracovní e-maily (např. <b>contact@simplelogin.io</b>) jsou vlastně aliasy 🤫.
+  - question: Nemohu zde najít odpověď na svou otázku
+    answer: >
+      Seznam všech častých otázek/odpovědí najdete na <a href="/faq/">Stránce FAQ</a>.
+      <br> Pokud tam odpověď nenajdete, pošlete svůj dotaz na adresu <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>.
+      <br> Můžete také vytvořit problém na našem <a href="https://github.com/simple-login/app/issues">GitHubu</a>.
+

@@ -1,0 +1,72 @@
+header_login: Iniciar sessão #header
+header_signup: Criar conta
+header_pricing: Preços
+hero: Receba e envie e-mails anonimamente #hero section
+hero_desc: >
+  Com  <em data-toggle="tooltip" data-html="true" title="Um alias de email (ou alias para abreviar) é um endereço de e-mail que <b>não armazena</b> e-mails: todos os emails enviados a um alias de e-mail são encaminhados para o seu e-mail pessoal.">aliases de e-mail</em>, você pode permanecer anônimo on-line e proteger sua caixa de entrada contra spam e phishing. <a href="https://github.com/simple-login/">Código aberto</a>. Feito e hospedado na Europa.
+hero_cta: >
+
+hero_button_underline: <b>800.000+</b> alias criados.
+seen_on: Recomendado por
+how_it_work_title: Como funcionam os alias de e-mails? #how it work section
+how_it_work_desc: Proteja sua caixa de entrada com emails alternativos.
+how_it_work_1_title: Use alias de e-mails em qualquer lugar
+how_it_work_1_subtitle: >
+  Da próxima vez que um site solicitar seu endereço de e-mail, forneça um alias<span class="bigger">em vez</span> do seu e-mail real.
+how_it_work_2_title: Receba emails com segurança em sua caixa de entrada.
+how_it_work_2_subtitle: >
+  Os e-mails enviados para um alias são <span class="bigger">encaminhados instantaneamente</span> para sua caixa de entrada sem que o remetente saiba de nada. <br>
+how_it_work_3_title: Envie e-mails anonimamente
+how_it_work_3_subtitle: >
+  Basta clicar em "Responder" se quiser responder a um email encaminhado: a resposta é enviada de seu alias e seu e-mail real permanece oculto. <br> Você também pode facilmente <span class="bigger">enviar</span> e-mails de seu alias.
+everywhere_title: Crie e gerencie seus alias em qualquer lugar #available everywhere section
+everywhere_subtitle: Crie rapidamente um alias em qualquer lugar. Inscreva-se para receber um boletim informativo e crie uma nova conta online com um clique.
+alias_new_email_title: O alias é o novo e-mail #Alias is the new email address Section
+alias_new_email_a_title: A. Substituir e-mail por alias em todos os lugares
+alias_new_email_a_text_1: Inscreva-se em listas de e-mail, crie novas contas online com alias de e-mail
+alias_new_email_a_text_2: Mais tarde, simplesmente <span class="highlight">bloqueie</span> um alias se ele contiver muito spam.
+alias_new_email_b_title: B. Enviar e-mails a partir de alias
+alias_new_email_b_text_1: >
+  Basta clicar em "Responder" sempre que precisar responder a um e-mail encaminhado: a resposta <span class="highlight">virá</span> do alias e sua caixa de correio pessoal permanecerá oculta.
+alias_new_email_b_text_2: >
+  Você também pode <em data-toggle="tooltip" data-html="true" title="<b>Alias normais</b> como os do <b>truque do sinal de + </b> geralmente funcionam de uma maneira: você só pode receber e-mails. <br>No SimpleLogin, você pode facilmente responder/enviar e-mails do seu alias.">enviar</em> e-mails para qualquer endereço de e-mail do seu alias.
+alias_new_email_c_title: C. Administre seus negócios com alias
+alias_new_email_c_text_1: Use um alias como seu <span class="highlight">e-mail comercial</span>.
+alias_new_email_c_text_2: >
+  Economize US$ 6/mês
+  <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true" title='GSuite começa em US$ 6/mês por usuário.'></i> para cada e-mail comercial criado com SimpleLogin.
+alias_new_email_c_text_3: Mais de 50 empresas confiam no SimpleLogin para gerenciar seus e-mails.
+testimonial_title: Alias de e-mail amado pelos usuários #Testimonials Section
+feature_title: Privacidade, segurança e recursos que você vai adorar #Features section
+feature_subtitle: SimpleLogin é a solução de alias de e-mails mais avançada.
+faq_title: Perguntas frequentes #FAQ section
+faq_subtitle: Ajuda
+ready_get_started: Pronto para começar?
+ready_get_started_cta: >
+
+cta_2_title: Junte-se a mais de 50.000 pessoas que estão protegendo sua caixa de entrada e privacidade.
+cta_2_button: >
+
+partner_title: Nossos parceiros
+footer_1: SimpleLogin é uma solução de <a href="https://github.com/simple-login">código aberto</a> de <b> alias de e-mail </b> para proteger seu endereço de e-mail. #footer
+footer_3: SimpleLogin é o produto da SimpleLogin SAS, registrado na França sob o número SIREN 884302134. SimpleLogin SAS faz parte da <a href="https://proton.me">Proton AG</a>.
+footer_pricing: Preços
+footer_about: Sobre nós
+footer_contact: Contate-nos
+footer_imprint: Aviso legal
+footer_join_us: Junte-se a nós
+pricing_title: Preços #pricing
+pricing_subtitle: >
+  SimpleLogin é <a href="https://github.com/simple-login">código aberto</a>, pode ser auto-hospedado e é 100% financiado pela comunidade. Não usamos seus dados, não rastreamos você nem exibimos anúncios. O SimpleLogin depende do seu suporte para manter o serviço funcionando e desenvolver novos recursos.
+pricing_free_title: Grátis
+pricing_premium_title: Premium
+pricing_free_cta: Criar conta
+pricing_premium_cta: Comece a proteger seus e-mails.
+pricing_what_people_say: O que as pessoas estão falando sobre SimpleLogin
+pricing_premium_yearly_price: '$30'
+pricing_premium_yearly_year: ano
+pricing_premium_monthly_price: ou $4 cobrados mensalmente
+faq_tech_question: Perguntas técnicas #<<< FAQ page >>>
+faq_general_question: Perguntas gerais
+faq_developer_question: Perguntas do parceiro/desenvolvedor
+faq_pricing_question: Perguntas sobre planos/preços

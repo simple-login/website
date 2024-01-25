@@ -1,0 +1,57 @@
+  - title: 100% オープンソース
+    desc: >
+      オープン ソース テクノロジーに基づいて構築されており、<em data-toggle="tooltip" data-html="true" title="Including
+      the server, Chrome/Firefox/Safari extensions, Android/iOS apps.">すべての</em> SimpleLogin
+      コンポーネント もオープンソースです。 <br> ブラック ボックスで電子メールを処理できるとは信じられませんよね。
+  - title: エイリアスからメールを送信する
+    desc: >
+      エイリアスは電子メールを受信できるだけでなく、電子メールを<span class="highlight">送信</span>することもできます。 エイリアスは完全な電子メール
+      アドレスです。
+  - title: どこでも
+    desc: >
+      SimpleLogin Web サイトまたは <em data-toggle="tooltip" data-html="true" title="And
+      other chromium-based browsers like Edge, Opera, Brave, etc">Chrome</em>、Firefox、Safari
+      拡張機能でエイリアスを管理します。 <br>
+      または、Android (Play ストア、F-Droid) および iOS アプリを使用して携帯電話でご利用いただけます。
+  - title: カスタムドメイン
+    desc: >
+      独自のドメインを導入すると、 別の<em data-toggle="tooltip" data-html="true" title="Like GSuite,
+      Outlook or the ones sold by the domain registrars">メール ホスティング ソリューションを購入する必要はありません。
+      </em>。
+      <br>
+      そして、ドメインに「<em data-toggle="tooltip" data-html="true" title="By enabling catch-all,
+      you can create aliases on-the-fly: <b>anything@your-domain.com</b> は、初めてメールを受信したときに自動的に作成されます。」>キャッチオール</em>」エイリアスを使用できることをご存知ですか?
+  - title: 手厚い価格設定
+    desc: >
+      すべての SimpleLogin プランには、<span class="highlight">無制限</span> の転送/送信と<span class="highlight">無制限</span>
+      の帯域幅があります。 <br> 好きなだけメールを送受信できます。
+  - title: サブドメインを使用したオンザフライエイリアス
+    desc: >
+      <em data-toggle="tooltip" data-html="true" title="Subdomain is a great way to
+      organize and create aliases on-the-fly. Just use <b>ANYTHING@your-subdomain.simplelogin.com</b>
+      すぐにエイリアスが必要な場合は、最初のメールを受信したときにエイリアスが作成されます。">サブドメイン</em>を作成し、それを使用すると、SimpleLogin
+      Web アプリやモバイル アプリを開かずにエイリアスをすばやく作成できます。<a href="/blog/subdomains/" title="simplelogin
+      subdomains">より詳しく</a>
+  - title: 複数のメールボックス
+    desc: >
+      すでに複数のメールボックスがある場合は、この機能が役に立ちます。メールボックスを SimpleLogin に追加し、エイリアスを作成するときにどれを使用するかを選択できます。<a
+      href="/blog/introducing-mailbox/" title="simplelogin multiple mailboxes">詳細</a>をご覧ください。
+  - title: プライバシーとセキュリティ
+    desc: >
+      <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP)
+      is an encryption program that can encrypt your emails and let you communicate
+      privately online.">PGP</em> を使用すると、 電子メールは、メールボックスに転送される前に、独自の PGP キーで暗号化されます。
+      これらの電子メールを復号化できるのはあなただけです。 Proton Mail または任意の PGP ツール (Thunderbird、GPGTools
+      など) と完全に連携します。 <br><br>
+      SimpleLogin アカウントのセキュリティを強化するには、<em data-toggle="tooltip" data-html="true" title="TOTP
+      (Time-based One-time Passwords) is usually used with applications like Google
+      Authenticator or Authy.">TOTP</em> または<em data-toggle="tooltip" data-html="true"
+      title="WebAuthn is usually used with physical security keys like Yubikey, Google
+      Titan, etc. Your phone and laptop can also be used as a security key.">WebAuthn
+      (FIDO)</em>。
+  - title: (単なる)エイリアス以上のもの
+    desc: >
+      SimpleLogin の目標はオンライン プライバシーを保護することであり、電子メールは始まりにすぎません。 <br> シングル サインオン、電話番号保護、クレジット
+      カード保護などの今後の機能にご期待ください。
+
+

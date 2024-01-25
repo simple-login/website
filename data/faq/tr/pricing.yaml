@@ -1,0 +1,56 @@
+  - question: Aboneliğim sona erdiğinde takma adlarıma ne olacak?
+    answer: >
+      Aboneliğiniz sona erdiğinde, oluşturduğunuz tüm takma adlar hem e-posta alırken
+      hem de gönderirken normal şekilde çalışmayı sürdürür. Somut olarak: <br> - Oluşturduğunuz
+      tüm takma adlar/etki alanları/klasörler/e-posta kutuları korunur ve normal şekilde
+      çalışmayı sürdürür. <br> - Ücretsiz tarife sınırını aşarsanız, yani 10 taneden
+      fazla takma adınız varsa yeni takma ad oluşturamazsınız. <br> - Tümünü toplama
+      ya da klasör gibi özellikler anında takma adlar oluşturmanıza izin verdiğinden,
+      10 taneden fazla takma adınız varsa bu takma adlar otomatik olarak oluşturulamaz.
+      <br> - Yeni etki alanı, klasör veya e-posta kutusu ekleyemezsiniz. <br><br>
+      Örneğin, aboneliğiniz sona erdiğinde 100 takma adınız varsa, bu 100 takma ad
+      normal şekilde e-posta alıp göndermeyi sürdürür. Ancak yeni takma ad oluşturamazsınız.
+  - question: Free tarifesindeki en fazla takma ad sayısına ulaştığımda ne olur?
+    answer: >
+      Free tarifesini kullanıyorsanız en fazla takma ad sayısına (10 takma ad) ulaştığınızda
+      yeni takma ad oluşturamazsınız. <br>Tümünü toplama etki alanı veya klasör özelliği
+      ile otomatik olarak oluşturulacak takma adlar da oluşturulamaz. <br>
+  - question: İndirim sunuyor musunuz?
+    answer: >
+      Önemli indirimlerimiz veya ücretli özellikleri ücretsiz olarak sunduğumuz durumlar
+      var: <br>
+      - Bir eğitim kurumunda çalışan öğrenciler, öğretmenler veya teknik çalışanlar
+      <br> - Aktivistler, muhalifler veya gazeteciler <br> - Yardım kuruluşları <br>
+      Ayrıntılı bilgi almak için lütfen bize <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      adresinden e-posta gönderin. <br><br>
+      Öğrencilere ücretli özellikleri ücretsiz olarak sunuyorduk ancak bu program
+      17 Haziran 2021 tarihinde sona erdi. Bu durumun, bu olanaktan yararlanmış var
+      olan hesapları veya bu tarihten önce gönderilen istekleri etkilemediğini lütfen
+      unutmayın.
+  - question: Hangi ödeme yöntemlerini destekliyorsunuz?
+    answer: >
+      Kredi kartları ve PayPal ile ödemeler için <a href="https://paddle.com">Paddle</a>
+      kullanıyoruz. Paddle şu anda şu ödeme yöntemlerini destekliyor: <br>
+      <ul> <li>Mastercard</li> <li>Visa</li> <li>PayPal</li> <li>Apple Pay</li> <li>Banka
+      havalesi (ACH/SEPA/BACS)</li> li> <li>Maestro</li> <li>American Express</li>
+      <li>Discover</li> <li>Diners Club</li> <li>JCB</li> </ul>
+
+      Ayrıntılı bilgi almak için <a href="https://paddle.com/support/which-payment-methods-do-you-support/">Paddle
+      tarafından desteklenen ödeme yöntemleri</a> bölümüne bakabilirsiniz. <br>
+      Kripto para birimleri olarak şu anda Bitcoin, Bitcoin Cash, Dai, Ethereum, Litecoin
+      ve USD Coin destekleyen <a href="https://commerce.coinbase.com">Coinbase Commerce</a>
+      kullanıyoruz. Gelecekte Monero birimini de destekleyeceğiz. Bu arada, bu kripto
+      para birimini kullanmak istiyorsanız lütfen bize <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      adresinden bir e-posta gönderin.
+  - question: Ücreti geri ödeme ilkeniz var mı?
+    answer: Hayır, geri ödeme ilkemiz yok çünkü tüm ücretli SimpleLogin özelliklerini
+      deneyebileceğiniz bir deneme süresi sunuyoruz.
+  - question: Bir aile tarifeniz var mı?
+    answer: Hayır, herhangi bir aile tarifemiz yok ancak ek aboneliklerde %30 indirim
+      sunuyoruz. Ayrıntılı bilgi almak için lütfen <a 
+      href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      adresinden bizimle görüşün.
+  - question: SimpleLogin abonelikleri satın almanın başka yolları var mı?
+    answer: Evet, SimpleLogin abonelik kuponunu resmi satıcımız <a href="https://proxysto.re/en/index.html">ProxyStore</a>
+      üzerinden de alabilirsiniz.
+

@@ -1,0 +1,67 @@
+  - title: 100% open source
+    desc: >
+      Realizzato sulla base della tecnologia open source, anche <em data-toggle="tooltip"
+      data-html="true" title="Inclusi il server, le estenzioni Chrome/Firefox/Safari,
+      le app Android/iOS.">tutti</em> i componenti di SimpleLogin sono open source.
+      <br>Non ti fideresti di una scatola nera per gestire le tue email, giusto?
+  - title: Invia email da alias
+    desc: >
+      Un alias non può solo ricevere email, può anche <span class="highlight">inviarle</span>.
+      Un alias è un indirizzo email a tutti gli effetti.
+  - title: Ovunque
+    desc: >
+      Gestisci i tuoi alias sul sito web di SimpleLogin o con le nostre estensioni
+      per <em data-toggle="tooltip" data-html="true" title="E altri browser basati
+      su chromium come Edge, Opera, Brave, ecc.">Chrome</em>, Firefox o Safari. <br>
+      Oppure sul tuo telefono con le app Android (Play Store, F-Droid) e iOS.
+  - title: Dominio personalizzato
+    desc: >
+      Porta il tuo dominio e non dovrai comprare ancora un'altra <em data-toggle="tooltip"
+      data-html="true" title="Come GSuite, Outlook o quelle vendute dai registrar
+      di domini ">soluzione per ospitare le email</em>.
+      <br>
+      E sai che puoi avere alias <em data-toggle="tooltip" data-html="true" title="Abilitando
+      catch-all, puoi creare alias al volo: <b>qualsiasi_cosa@il-tuo-dominio.it</b>
+      verrà creato automaticamente quando riceverà un'email per la prima volta.">catch-all</em>
+      con il tuo dominio?
+  - title: Prezzi vantaggiosi
+    desc: >
+      Tutti i piani SimpleLogin hanno inoltri/invii <span class="highlight">infiniti</span>
+      e larghezza di banda <span class="highlight">illimitata</span>.
+      <br>Ricevi e invia email tutte le volte che vuoi.
+  - title: Alias al volo con un sottodominio
+    desc: >
+      Crea il tuo <em data-toggle="tooltip" data-html="true" title="Un sottodominio
+      è un ottimo modo per organizzare e creare alias al volo. Usa semplicemente <b>QUALSIASI_COSA@il-tuo-sottodominio.simplelogin.com</b>
+      quando hai bisogno velocemente di un alias, l'alias verrà creato quando riceve
+      la prima email.">sottodominio</em>, e usalo per creare velocemente alias senza
+      aprire il sito o le app mobili di SimpleLogin. <a href="/blog/subdomains/" title="simplelogin
+      subdomains">Scopri di più</a>.
+  - title: Più caselle di posta
+    desc: >
+      Se già possiedi diverse caselle di posta, questa funzionalità è per te: puoi
+      aggiungere le tue caselle di posta in SimpleLogin e scegliere quale usare quando
+      crei un alias. <a href="/blog/introducing-mailbox/" title="simplelogin multiple
+      mailboxes">Scopri di più</a>.
+  - title: Privacy e Sicurezza
+    desc: >
+      Con <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP)
+      è un programma di crittografia che può crittografare le tue email, permettendoti
+      di comunicare privatamente online">PGP</em>, le email vengono crittografate
+      con la tua chiave personale PGP prima di essere inoltrate alla tua casella di
+      posta. Solo tu potrai poi decriptare queste email. Funziona perfettamente con
+      Proton Mail o qualsiasi strumento PGP (Thunderbird, GPGTools, ecc.) <br><br>
+      Per rendere più sicuro il tuo account SimpleLogin, puoi abilitare 2FA con <em
+      data-toggle="tooltip" data-html="true" title="TOTP (Time-based One-time Passwords)
+      è solitamente usato con applicazioni come Google Authenticator o Authy">TOTP</em>
+      e/o <em data-toggle="tooltip" data-html="true" title="WebAuthn è solitamente
+      usato con chiavi di sicurezza fisiche come Yubikey, Google Titan, ecc. Anche
+      il tuo telefono o laptop può essere usato come una chiave di sicurezza.">WebAuthn
+      (FIDO)</em>.
+  - title: Più che (solo) alias
+    desc: >
+      L'obiettivo di SimpleLogin è di proteggere la tua privacy online, e l'email
+      è solo l'inizio. <br> Rimani aggiornato per le funzionalità in arrivo come single
+      sign-on, protezione del numero di telefono e protezione della carta di credito.
+
+

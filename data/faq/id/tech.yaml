@@ -1,0 +1,42 @@
+  - question: Berapa ukuran email maksimum yang diperkenankan?
+    answer: >
+      Batas ukuran email saat ini adalah 25MB. Untuk menyertakan lampiran berukuran
+      besar, kami menyarankan Anda untuk menggungah berkas ini ke layanan pengunggahan
+      berkas dan menyertakan tautannya. Anda dapat menemukan daftar sebagian layanan
+      berbagi berkas yang menghargai privasi kami pada halaman <a href="https://www.privacyguides.org/file-sharing/">Privacy
+      Guides</a>. <br> Alasan lain di balik batasan ini adalah proses enkripsi PGP
+      itu sendiri yang boros sumber daya, sehingga batasan yang lebih tinggi akan
+      membebankan server SimpleLogin lebih dari yang sewajarnya.
+  - question: Saya menghapus alias yang ada secara tidak sengaja. Apakah saya dapat
+      memulihkannya?
+    answer: >
+      Ketika suatu alias dihapus, alias tersebut akan ditempatkan pada folder <b>sampah</b>
+      global, di mana kami memastikan agar alias ini tidak dapat digunakan kembali
+      ke depannya. Seluruh informasi riwayat pada alias (akun yang menghasilkan alias,
+      kontak yang terdapat pada alias, dll.) akan dihapus untuk menghormati privasi
+      Anda. <br> Hal ini berlaku bagi seluruh alias yang dihasilkan dengan domain
+      SimpleLogin. <br> Meskipun demikian, Anda dapat memulihkan alias yang dihasilkan
+      dengan domain milik Anda.
+  - question: Di mana kunci PGP SimpleLogin terletak?
+    answer: >
+      Seluruh kunci PGP kami terletak pada halaman <a href="/pgp-key">kunci PGP</a>.
+      Apabila Anda mengaktifkan PGP, seluruh email akan ditandatangani oleh kunci
+      <b>pengirim@simplelogin.io</b>.
+  - question: Bagaimana caranya untuk menghapus akun saya?
+    answer: >
+      Pada bagian bawah <a href="https://app.simplelogin.io/dashboard/setting">halaman
+      Pengaturan</a>, Anda akan menemui pilihan untuk menghapus akun Anda. Tindakan
+      ini tidak dapat diurungkan dan kami tidak akan dapat memulihkan data Anda yang
+      telah dihapus.
+  - question: Dapatkah saya menggunakan alias email untuk berbagai layanan penting
+      seperti perbankan, pemerintahan, dan lain sebagainya?
+    answer: >
+      Singkatnya, ya, Anda bisa. Kami telah menggunakan alias email untuk menjalankan
+      bisnis, mengurus pajak, serta mengelola operasi perbankan kami, dan sejauh ini
+      kami tidak menemui masalah apapun :) <br> Lebih rincinya, protokol email kami
+      dirancang secara tangguh, sehingga email yang ada hampir tidak akan pernah hilang.
+      Apabila SimpleLogin tidak dapat meneruskan email tertentu ke kotak surat Anda,
+      kami akan memberi tahu Anda sehingga Anda dapat mengambil tindakan yang sesuai.
+      Anda juga dapat mengatur kotak surat kedua di samping kotak surat utama Anda
+      untuk digunakan sebagai cadangan.
+

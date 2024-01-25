@@ -1,0 +1,60 @@
+  - question: Cosa succede ai miei alias quando interrompo l'abbonamento?
+    answer: >
+      Quando termini il tuo abbonamento, tutti gli alias che hai creato continuano
+      a funzionare normalmente, sia nel ricevere sia nell'inviare email. Concretamente:
+      <br> - Tutti gli alias, i domini, le cartelle e le caselle di posta che hai
+      creato vengono mantenute e continuano a funzionare normalmente. <br> - Non puoi
+      creare nuovi alias se superi il limite del piano gratuito, ovvero se hai più
+      di 10 alias. <br> Siccome le funzioni come catch-all o le cartelle ti consentono
+      di creare alias al volo, quegli alias non possono essere creati automaticamente
+      se hai più di 10 alias. <br> Non puoi aggiungere un nuovo dominio, una nuova
+      cartella o una casella di posta. <br><br>
+      Per esempio, se hai 100 alias quando il tuo abbonamento termina, questi 100
+      alias continueranno a ricevere e inviare email normalmente. Tuttavia non puoi
+      creare nuovi alias.
+  - question: Cosa succede quando raggiungo il numero massimo di alias nel piano gratuito?
+    answer: >
+      Se sei nel piano gratuito, quando raggiungi il numero massimo di alias (ovvero
+      10 alias), non puoi crearne dei nuovi. <br> Anche gli alias che altrimenti verrebbero
+      creati automaticamente, tramite la funzione catch-all con i domini o le cartelle,
+      non possono essere creati. <br>
+  - question: Offrite sconti?
+    answer: >
+      Offriamo sconti importanti o il piano premium gratuitamente per: <br>
+      - studenti e professori o staff tecnici che lavorano in un istituto di formazione
+      <br> - attivisti, dissidenti o giornalisti <br> - organizzazioni benefiche <br>
+      Inviaci un'email a <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      per maggiori informazioni. <br><br>
+      Offrivamo account premium per studenti gratuitamente ma questo programma è terminato
+      il 17 Giugno 2021. Nota che questo non influisce sugli account già esistenti
+      che hanno già approfittato del programma o sulle richieste inviate prima di
+      questa data.
+  - question: Quali metodi di pagamento supportate?
+    answer: >
+      Usiamo <a href="https://paddle.com">Paddle</a> per gestire i pagamenti tramite
+      carte di credito e PayPal. Paddle attualmente supporta i seguenti metodi di
+      pagamento: <br>
+      <ul> <li>Mastercard</li> <li>Visa</li> <li>PayPal</li> <li>Apple Pay</li> <li>Bonifici
+      Bancari (ACH/SEPA/BACS)</li> <li>Maestro</li> <li>American Express</li> <li>Discover</li>
+      <li>Diners Club</li> <li>JCB</li> </ul>
+
+      Maggiori informazioni possono essere trovate su <a href="https://paddle.com/support/which-payment-methods-do-you-support/">Metodi
+      di pagamento supportati da Paddle</a>. <br>
+      Per le criptovalute, usiamo <a href="https://commerce.coinbase.com">Coinbase
+      Commerce</a>, che attualmente supporta Bitcoin, Bitcoin Cash, Dai, Ethereum,
+      Litecoin e USD Coin. In futuro, supporteremo anche Monero. Nel frattempo, inviaci
+      un'email a <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      se vuoi usare questa criptovaluta.
+  - question: Avete una politica di rimborso?
+    answer: No, non abbiamo una politica di rimborso perché SimpleLogin ha un periodo
+      di prova dove puoi provare tutte le funzionalità premium.
+  - question: Avete un piano famiglia?
+    answer: No, non abbiamo un piano famiglia ma offriamo una riduzione del 30% per
+      gli abbonamenti aggiuntivi. Contattaci a <a 
+      href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      per maggiori informazioni.
+  - question: Ci sono altri modi per comprare gli abbonamenti di SimpleLogin?
+    answer: Sì, puoi anche comprare un coupon di abbonamento a SimpleLogin tramite
+      <a href="https://proxysto.re/en/index.html">ProxyStore</a>, il nostro rivenditore
+      ufficiale.
+

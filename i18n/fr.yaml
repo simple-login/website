@@ -3,7 +3,7 @@ header_signup: Créer un compte
 header_pricing: Tarifs
 hero: Recevez et envoyez des messages de manière anonyme #hero section
 hero_desc: >
-  Avec les <em data-toggle="tooltip" data-html="true" title="Un alias d'adresse e-mail (ou alias tout court) est une adresse e-mail qui <b>ne stocke pas</b> les messages : tous les messages envoyés à un alias sont transférés vers votre adresse e-mail personnelle.">alias d'adresse e-mail</em>, vous pouvez rester anonyme en ligne et protéger votre boite mail contre les indésirables/spam et le phishing/hameçonnage. SimpleLogin est <a href="https://github.com/simple-login/">open source</a> et est développé et hébergé en Europe.
+  Avec les <em data-toggle="tooltip" data-html="true" title="Un alias d'adresse e-mail (ou alias tout court) est une adresse e-mail qui <b>ne stocke pas</b> les messages : tous les messages envoyés à un alias sont transférés vers votre adresse e-mail personnelle.">alias d'adresse e-mail</em>, vous pouvez garder l'anonymat en ligne et protéger votre boite mail contre les spams (indésirables) et le phishing (hameçonnage). SimpleLogin est <a href="https://github.com/simple-login/">open source</a> et est développé et hébergé en Europe.
 hero_cta: >
 
 hero_button_underline: <b>Plus de 800 000</b> alias ont été créés.
@@ -33,7 +33,7 @@ alias_new_email_b_text_2: >
 alias_new_email_c_title: C. Utilisez les alias pour votre entreprise
 alias_new_email_c_text_1: Utilisez des alias en tant qu'<span class="highlight">adresses e-mail professionnelles</span>.
 alias_new_email_c_text_2: >
-  Économisez près de 6 €/mois 
+  Économisez 6 €/mois 
   <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true" title='GSuite est proposé à partir de 6 € par utilisateur et par mois.'></i>pour chaque adresse professionnelle que vous créez avec SimpleLogin.
 alias_new_email_c_text_3: Plus de 50 entreprises font confiance à SimpleLogin pour gérer leurs adresses e-mail.
 testimonial_title: L'avis de nos utilisateurs #Testimonials Section
@@ -61,9 +61,9 @@ pricing_subtitle: >
 pricing_free_title: Gratuit
 pricing_premium_title: Premium
 pricing_free_cta: Créer un compte
-pricing_premium_cta: Commencez à protéger votre messagerie
+pricing_premium_cta: Commencez à protéger votre adresse e-mail
 pricing_what_people_say: Ce qu'ils disent de SimpleLogin
-pricing_premium_yearly_price: '30 €'
+pricing_premium_yearly_price: 30 €
 pricing_premium_yearly_year: an
 pricing_premium_monthly_price: ou 4 €/mois
 faq_tech_question: Questions techniques #<<< FAQ page >>>

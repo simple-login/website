@@ -1,0 +1,115 @@
+  - question: Hva er egentlig et <b>e-postalias</b>?
+    answer: >
+      E-postalias ligner på <a href="https://en.wikipedia.org/wiki/Email_forwarding">videresend</a>
+      e-postadresse: alle e-postmeldinger som sendes til et alias, blir videresendt
+      til innboksen din. <br> Takket være SimpleLogin-teknologien kan du også sende
+      e-post <b>fra</b> et alias. <br> For kontakten din er aliaset derfor e-postadressen
+      din. Mer informasjon om e-postalias på <a href="/blog/what-is-an-email-alias/">Hva
+      er et e-postalias</a>.
+  - question: Jeg kan bruke plusstegn(+) trikset mitt for å lage ubegrensede e-postadresser,
+      hvorfor trenger jeg SimpleLogin?
+    answer: >
+      Underadressering av e-post, også kjent som pluss (+) -trikset, popularisert
+      av Gmail og støttet av noen e-posttjenester, lar deg opprette nye e-postadresser
+      ved å legge til "+" til din nåværende e-postadresse. La oss si at e-posten din
+      er navn@proton.me, du kan raskt opprette en annen adresse som navn+facebook@proton.me
+      for Facebook, navn+groupon@proton.me for Groupon, osv.<br>
+      Selv om det er praktisk, har det noen ulemper:<br>
+      - Du kan ikke svare fra +-adressen: den virkelige e-postadressen din vises som
+      avsender.<br>
+      - +-trikset er velkjent, og noen nettsteder tillater ikke påmeldinger med e-postadresser
+      som inneholder +.<br>
+      - Å bruke + trikset beskytter ikke personvernet ditt: man kan enkelt fjerne
+      + -delen for å ha din virkelige e-post. Hvis +-adressen din vises i datainnbruddet,
+      er den virkelige adressen din sannsynligvis også i hendene på utsendere av søppelpost.
+      Du kan sjekke om e-posten din er lekket ved hjelp av nettsteder som <a href="https://haveibeenpwned.com">eier
+      noen meg</a> <br>
+      - Ved å fjerne +-delen kan annonsører koble disse + adressene sammen for å få
+      nettleserloggen din.<br><br>
+      SimpleLogin-aliaser har ingen av disse ulempene. Du kan lese mer om fordeler
+      og ulemper ved å bruke +-trikset på <a href="/blog/email-alias-vs-plus-sign/">Hva
+      gjør e-postalias til et bedre alternativ til e-postplusstegn (+)</a>
+  - question: Hva er forskjellen mellom SimpleLogin og andre e-post-videresendingstjenester?
+    answer: >
+      SimpleLogin er den mest avanserte e-postaliasløsningen og er i aktiv utvikling.
+      Her er noen forskjeller mellom SimpleLogin og andre videresendings-/aliastjenester:
+      <br><br>
+      <ul><li>Helt åpen kildekode: både SimpleLogin-tjener og klientkode (nettleserutvidelse,
+      JS-bibliotek, mobilapper) er <a href="https://github.com/simple-login/app">åpen
+      kildekode</a> så alle kan fritt inspisere og forbedre koden. </li>
+      <li>Dekker alle store plattformer: Chrome/Firefox/Safari-utvidelse for skrivebord,
+      iOS og Android-apper for mobil. </li>
+      <li>Den eneste videresendingsløsningen som kan <em>vertes selv</em>, det vil
+      si at du kan kjøre SimpleLogin på tjeneren din. Med våre detaljerte instruksjoner
+      for egenverting og de fleste komponenter som kjører som Docker-container, kan
+      alle som kjenner ssh distribuere SimpleLogin på tjeneren sin.</li>
+      <li>Du kan sende/motta e-post fra alias. Det er ingen begrensninger på antall
+      sendinger/svar.</li>
+      <li>Ubegrenset båndbredde. </li>
+      <li>Ingen annonser, ingen sporere.</li>
+      <li>Ikke bare e-postalias: SimpleLogin er også en personvernfokusert og utviklervennlig
+      <em>identitetsleverandør</em> som: - <br> respekterer brukernes personvern<br>
+      - er enkel å bruke for utviklere. <br> SimpleLogin tilbyr et personvernfokusert
+      alternativ til knappene "Logg inn med Facebook/Google/Apple". </li>
+
+      <li>Mange funksjoner: nettleserutvidelse, egendefinert domene, catch-all alias,
+      OAuth-biblioteker, osv. og mye mer som kommer.</li>
+      <li>Åpen veikart på <a href="https://github.com/simple-login/app/projects/1">GitHub</a>:
+      du kjenner de spennende funksjonene vi jobber med.</li> </ul>
+  - question: Hvor SimpleLogin er annerledes enn midlertidige e-posttjenester?
+    answer: >
+      SimpleLogin-aliaset er permanent i motsetning til de midlertidige e-postadressene
+      som er opprettet på tjenester som <a href="https://temp-mail.org/en/">temp-mail.org</a>,
+      <a href="https://10minutemail.net">10minutemail.net</a>, osv. <br> SimpleLogin
+      lagrer heller ikke e-postene, de lagres i postkassen din. <br> SimpleLogin er
+      rett og slett et annerledes produkt for et annet behov.
+  - question: Hva er SimpleLogins forretningsmodell?
+    answer: Inntektene våre kommer bare fra abonnementer, det betyr at produktet vil
+      forbli annonsefritt for alltid.
+  - question: Hva er <b>aliaskatalog</b> eller <b>catch-all</b>-funksjon?
+    answer: >
+      Disse 2 funksjonene lar deg begge lage alias <em>på farten</em>, noe som betyr
+      at du ikke trenger å åpne SimpleLogin for å opprette et nytt alias. <br> Aktivering
+      av <b>catch-all</b> på domenet ditt lar deg bruke <em>HVASOMHELST@mitt-domene.com</em>
+      som alias med <b>HVASOMHELST</b> som et hvilket som helst ord. Den eneste grensen
+      er at den må ha mindre enn 128 tegn. <br>
+      <b>Alias-Katalog</b> ligner på catch-all, du kan bruke <em>din_katalog+HVASOMHELST@simplelogin.com</em>
+      som alias. <b>din_katalog</b> er navnet på katalogen du opprettet.
+  - question: Jeg mottar en e-post videresendt til min personlige e-post fra et alias.
+      Hvordan kan jeg svare på den e-posten? Må jeg gå til SimpleLogin for å starte
+      svaret?
+    answer: >
+      Du kan svare direkte fra e-postklienten din. Bare klikk på "svar" -knappen,
+      svaret vil bli rutet via SimpleLogin og SimpleLogin vil få det til å komme fra
+      aliaset ditt. Din personlige e-post vil forbli usynlig for den opprinnelige
+      avsenderen. <br><br> Teknisk sett erstattes <b>Fra</b>-overskriften i e-postmeldingen
+      med et spesielt alias som genereres dynamisk for hver avsender. Når du svarer,
+      blir svaret ditt faktisk sendt til dette spesielle aliaset, og SimpleLogin vil
+      videresende svaret tilbake til avsenderen, og sørge for at e-posten sendes fra
+      aliaset ditt. All informasjon om din personlige e-postadresse blir fjernet under
+      denne prosessen.
+  - question: Hva er et <b>omvendt alias</b>?
+    answer: >
+      Et omvendt alias er et <b>spesielt</b> alias som lar deg sende e-post <b>fra
+      aliaset ditt</b>. <br> Det opprettes et omvendt alias for hvert alias du vil
+      sende e-post fra, og hver kontakt du vil sende e-post til. <br> Når du sender
+      en e-post til et omvendt alias fra din personlige e-post, vil e-posten bli sendt
+      fra aliaset ditt til kontakten.
+  - question: Er et e-postalias permanent?
+    answer: Som en vanlig e-postadresse er et e-postalias alltid der med mindre du
+      sletter det.
+  - question: Hvor er SimpleLogin-tjenere plassert?
+    answer: Vi bruker tjenere fra Proton og UpCloud - en skyleverandør basert i Finland.
+  - question: Hva er funksjonen for <b>egendefinert domene</b>?
+    answer: >
+      Du kan ta med dine egne domener inn i SimpleLogin og opprette aliaser som <b>kontakt@ditt-domene.com</b>,
+      <b>hei@ditt-domene.com</b>. <br> Som du kanskje sikkert har gjettet, kan du
+      deretter bruke SimpleLogin til å administrere <em>bedriftens e-post</em> i stedet
+      for å betale for en dyr løsning som Google Workspace. <br> Alle våre forretnings-e-poster
+      (f.eks. <b>kontakt@simplelogin.io</b>) er faktisk aliaser :P
+  - question: Jeg finner ikke svar på spørsmålet mitt her
+    answer: >
+      Du finner listen over alle vanlige spørsmål / svar på <a href="/faq/">FAQ-siden</a>.
+      <br> Hvis du ikke finner svaret der, kan du sende spørsmålet ditt til <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>.
+      <br> Du kan også opprette en sak på vår <a href="https://github.com/simple-login/app/issues">GitHub-problemer</a>.
+

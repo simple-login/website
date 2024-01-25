@@ -1,0 +1,66 @@
+  - text: >
+      SimpleLogin byla ta nejlepší věc, která mě kdy potkala (a předpokládám, že totéž
+      platí i pro ostatní, kteří ho vyzkoušeli :) ). Používám ho hlavně k ochraně
+      svého hlavního e-mailu před firmami, které potenciálně nerespektují zákony GDPR
+      nebo se s tím vůbec neobtěžují.
+    name: Verum Rex
+  - text: SimpleLogin používám téměř rok. Je velmi užitečný a dobře se páruje s ProtonMail
+      pro větší ochranu soukromí a identity.
+    name: Beatriz
+  - text: >
+      SimpleLogin je jedním z mých oblíbených produktů pro ochranu soukromí a zabezpečení.
+      <br><br> Prémiový tarif poskytuje okamžitý přístup k vlastním doménám, což vám
+      umožňuje spravovat všechny vlastní domény a za běhu provádět změny, jako je
+      aktivace doménového koše (catch-all). <br><br> Hlavní výhodou používání e-mailových
+      aliasů, které SimpleLogin umožňuje, je to, že v případě úniku dat z některé
+      webové služby, je pro hackery nemožné najít vaše další účty, protože každý účet
+      může být registrován na jiný e-mailový alias. <br><br> K únikům dat z webových
+      služeb dochází **každodenně**. A jakmile se jednou vaše e-mailová adresa dostane
+      do volného prostoru, zůstane tam navždy. Neexistuje žádný způsob, jak to vzít
+      zpět.<br><br> SimpleLogin také umožňuje použití e-mailového aliasu při odesílání
+      z e-mailové služby (například Gmail nebo ProtonMail), díky tomu si zachováte
+      soukromí při e-mailové komunikaci s druhými.<br><br> **Vřele** doporučuji používat
+      SimpleLogin a **vřele** doporučuji vybrat si štědrý prémiový tarif. Jejich službu
+      používám již několik měsíců a opravdu ji nemohu než doporučit.
+    name: Maxime Desalle
+  - text: SimpleLogin používám již nějakou dobu a líbí se mi zejména to, že je navržen
+      s ohledem na ochranu soukromí!
+    name: Yuko Fukushima
+  - text: Rozhodně doporučuji pro milovníky e-mailů. Super užitečné, pokud jde o soukromí.
+      SL vyniká tím, že umožňuje odesílání e-mailů. Dobrá práce, jen tak dál!
+    name: Minh-Duc Do
+  - text: SL je vedle DNS firewallu a správce hesel nejdůležitější službou, kterou
+      můžete (a měli byste!) používat pro zvýšení vašeho soukromí! SL miluji a používám
+      ho denně. Všechny mé e-maily jsou šifrovány pomocí PGP a přeposílány na můj
+      Proton Mail. Nedokáži si bez něj představit internet.
+    name: Atmos Black
+  - text: SimpleLogin již nějaký čas používám. Skvělá integrace do prohlížeče, snadno
+      se používá a navíc umožňuje zachovat soukromí, díky použití aliasu místo skutečné
+      e-mailové adresy.
+    name: Craig Bensemann
+  - text: Používám ho již několik let. Vytváření je rychlé a celkově úžasné. Produkt
+      je 10/10 za to, co dělá. Pekelně levný. Používám ho pro všechny své e-maily.
+      Super spolehlivé a snadné nastavení vlastní domény. Prostě skvělé.
+    name: Lucas
+  - text: Před rokem jsem se rozhodl používat SimpleLogin jako prostředek pro kontejnerizaci
+      velké části mých online aktivit, což bylo mimo jiné součástí snahy o zlepšení
+      mého soukromí. Jednoduchost správy mých aliasů je úžasná a je skvělé vědět,
+      že pokud/když je e-mailový alias zkompromitován nebo je spamován atd., mohu
+      ho jednoduše zrušit přepnutím přepínače a nemusím bojovat s e-maily, které nechci.
+      Jsem velmi spokojen s tím, jak mi to teď funguje.
+    name: Bean
+  - text: >
+      SimpleLogin jsem našel minulý rok a předplatil jsem si prémiovou verzi ještě
+      před vypršením zkušební verze. Podle mého názoru jde o první řešení tohoto druhu,
+      které je plně promyšlené. Oceňuji zejména podporu odpovědí a vlastních domén.
+      Díky posledně jmenované funkci jsem mohl do SimpleLogin přesunout svou doménu,
+      která mi slouží jako e-mailový doménový koš. Také jsem díky tomu mohl zlikvidovat
+      některé zkompromitované aliasy, používané pouze spammery. <br><br> Jediné, co
+      bych si přál, je, kdyby existovala integrace se správci hesel (zejména Bitwarden),
+      nejde ale o problém SimpleLoginu. <br><br> Jo a už jsem zmínil, že jde o řešení
+      se zcela otevřeným zdrojovým kódem a pěknou dokumentací pro self-hosting?
+    name: Jan V.
+
+
+
+

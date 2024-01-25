@@ -1,0 +1,68 @@
+  - title: 100% Open Source
+    desc: >
+      Basierend auf Open-Source-Technologie, <em data-toggle="tooltip" data-html="true"
+      title="Einschließlich des Servers, Chrome/Firefox/Safari-Erweiterungen, Android/iOS-Apps.">sind
+      alle</em> SimpleLogin-Komponenten ebenfalls Open Source. <br>Du würdest deine
+      E-Mails ja auch nicht einer Blackbox anvertrauen, oder?
+  - title: E-Mails von einem Alias versenden
+    desc: >
+      Ein Alias kann nicht nur E-Mails empfangen, sondern auch <span class="highlight">E-Mails
+      senden</span>. Ein Alias ist eine vollwertige E-Mail-Adresse.
+  - title: Überall
+    desc: >
+      Verwalte deine Aliasse auf der SimpleLogin-Website oder auf unseren <em data-toggle="tooltip"
+      data-html="true" title="Und anderen Chromium-basierten Browsern wie Edge, Opera,
+      Brave, etc">Chrome</em>, Firefox und Safari Erweiterungen. <br>
+      Oder auf deinem Smartphone mit Android- (Play Store, F-Droid) und iOS-Apps.
+  - title: Benutzerdefinierte Domain
+    desc: >
+      Bringe deine eigene Domain mit und du musst nicht noch eine weitere <em data-toggle="tooltip"
+      data-html="true" title="Wie GSuite, Outlook oder solche, die von den Domain-Registraren
+      verkauft werden">E-Mail-Hosting-Lösung</em> erwerben.
+      <br>
+      Und wusstest du schon, dass du <em data-toggle="tooltip" data-html="true" title="Durch
+      Aktivieren von Catch-All kannst du jederzeit Aliasnamen erstellen: <b>irgendwas@deine-domain.com</b>
+      wird automatisch erstellt, wenn diese das erste Mal eine E-Mail empfängt.">Catch-all</em>
+      Aliasse mit deiner Domain verwenden kannst?
+  - title: Großzügige Preisgestaltung
+    desc: >
+      Alle SimpleLogin-Abonnements haben <span class="highlight">unbegrenzte</span>
+      Weiterleitungen/Sendungen und <span class="highlight">unbegrenzte</span> Bandbreite.
+      <br>Empfange und versende E-Mails so oft du willst.
+  - title: Sofortige Aliasse mit Subdomain
+    desc: >
+      Erstelle deine <em data-toggle="tooltip" data-html="true" title="Subdomain ist
+      eine hervorragende Möglichkeit, Aliase zu organisieren und zu erstellen. Verwende
+      einfach <b>IRGENDWAS@deine-subdomain.simplelogin.com</b>, wenn du schnell einen
+      Alias benötigst. Der Alias wird erstellt, wenn er die erste E-Mail erhält.">Subdomain</em>,
+      und verwende sie, um schnell Aliase zu erstellen, ohne SimpleLogin Web oder
+      Mobile Apps zu öffnen. <a href="/blog/subdomains/" title="simplelogin subdomains"
+      >Mehr erfahren</a>.
+  - title: Mehrere Postfächer
+    desc: >
+      Wenn du bereits mehrere Postfächer hast, ist diese Funktion genau das Richtige
+      für dich: Du kannst deine Postfächer zu SimpleLogin hinzufügen und auswählen,
+      welche du beim Erstellen eines Alias verwenden möchtest. <a href="/blog/introducing-mailbox/"
+      title="simplelogin multiple mailboxes">Mehr erfahren</a>.
+  - title: Datenschutz und Sicherheit
+    desc: >
+      Mit <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP)
+      ist ein Verschlüsselungsprogramm, mit dem du deine E-Mails verschlüsseln und
+      privat online kommunizieren kannst.">PGP</em> werden die E-Mails mit deinem
+      eigenen PGP-Schlüssel verschlüsselt, bevor sie an dein Postfach weitergeleitet
+      werden. Nur du kannst diese E-Mails dann entschlüsseln. Funktioniert perfekt
+      mit Proton Mail oder anderen PGP-Tools (Thunderbird, GPGTools, etc.). <br><br>
+      Um dein SimpleLogin-Konto besser abzusichern, kannst du 2FA mit <em data-toggle="tooltip"
+      data-html="true" title="TOTP (Time-based One-time Passwords) wird normalerweise
+      mit Anwendungen wie Google Authenticator oder Authy verwendet.">TOTP</em> und/oder
+      <em data-toggle="tooltip" data-html="true" title="WebAuthn wird normalerweise
+      mit physischen Sicherheitsschlüsseln wie Yubikey, Google Titan usw. verwendet.
+      Dein Mobiltelefon und dein Laptop können ebenfalls als Sicherheitsschlüssel
+      verwendet werden.">WebAuthn (FIDO)</em> einrichten.
+  - title: Mehr als (nur) ein Alias
+    desc: >
+      Das Ziel von SimpleLogin ist es, deine Online-Privatsphäre zu schützen, und
+      E-Mail ist nur der Anfang. <br> Sei gespannt auf kommende Funktionen wie Single
+      Sign-On, Telefonnummernschutz und Kreditkartenschutz.
+
+

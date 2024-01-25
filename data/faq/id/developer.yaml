@@ -1,0 +1,25 @@
+  - question: Mengapa saya harus menerapkan SimpleLogin pada situs web saya alih-alih
+      tombol "Login dengan Facebook/Google"?
+    answer: >
+      Tahukah Anda bahwa Facebook dan Google menggunakan tombol login ini untuk <a
+      href="/blog/do-not-use-facebook-sdk/">melacak</a> riwayat penjelajahan Anda,
+      sehingga mereka dapat menyajikan iklan yang lebih personal kepada Anda? <br><br>
+      Berhubung SimpleLogin tidak dibiayai oleh iklan dan tidak memberikan pengguna
+      kontrol penuh terhadap data yang mereka miliki, kami tidak memiliki alasan apa
+      pun untuk memanfaatkan data pengguna Anda.
+  - question: Mengapa saya harus memercayai SimpleLogin?
+    answer: >
+      Seluruh kode sumber SimpleLogin bersifat open source dan tersedia di <a href="https://github.com/simple-login">GitHub</a>.
+      <br><br> Siapa pun bebas untuk mengaudit kode kami atau menyiapkan server SimpleLogin
+      milik sendiri. <br><br> Penghasilan SimpleLogin didasarkan pada model bisnis
+      yang transparan dan berkelanjutan, yang memungkinkan kami untuk menghadirkan
+      produk yang mengutamakan privasi dan bebas dari pelacak.
+  - question: Apakah SimpleLogin ke depannya berencana untuk merilis SDK demi mendukung
+      aplikasi native, Windows, dan lain sebagainya?
+    answer: >
+      Tentunya! Kami memulai dengan platform web karena platform ini dapat digunakan
+      untuk aplikasi seluler melalui Android WebView atau iOS UIWebView. <br><br>
+      Ke depannya, kami berencana untuk menyediakan SDK terkait beserta contoh penggunaannya
+      untuk Android, iOS, dan Windows. Nantikan tanggal rilisnya!
+
+

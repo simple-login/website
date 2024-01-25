@@ -1,0 +1,61 @@
+  - question: '¿Qué ocurre con mis alias cuando termine mi suscripción?'
+    answer: >
+      Cuando finalice su suscripción, todos los alias que haya creado seguirán funcionando
+      normalmente, tanto para recibir como para enviar correos electrónicos. Concretamente:
+      <br> - Todos los alias/dominios/directorios/buzones de correo que haya creado
+      se conservan y continúan funcionando normalmente. <br> - No puede crear alias
+      si excede el límite del plan gratuito, es decir, si tiene más de 10 alias. <br>
+      - Como funciones como el directorio general o el directorio le permiten crear
+      alias sobre la marcha, esos alias no se pueden crear automáticamente si tiene
+      más de 10 alias. <br> - No puede añadir un dominio, directorio o buzón nuevos.
+      <br><br>
+      Por ejemplo, si tiene 100 alias cuando finaliza su suscripción, esos 100 alias
+      seguirán recibiendo y enviando correos electrónicos normalmente. Sin embargo,
+      no puede crear más alias.
+  - question: '¿Qué ocurre cuando alcanzo el número máximo de alias en el plan gratuito?'
+    answer: >
+      Si está en el plan gratuito, no podrá crear alias cuando alcance el número máximo
+      de alias (es decir, 10 alias). <br> Tampoco se pueden crear alias que de otro
+      modo se crearían automáticamente a través de la función de directorio o dominio
+      general. <br>
+  - question: '¿Ofrecen descuentos?'
+    answer: >
+      Ofrecemos descuentos importantes o premium gratis para: <br>
+      - estudiantes, profesores o personal técnico que trabajan en un instituto educativo
+      <br> - activistas, disidentes o periodistas <br> - organizaciones benéficas
+      <br>
+      Envíenos un correo electrónico a <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      para obtener más información. <br><br>
+      Solíamos ofrecer cuentas premium gratuitas para estudiantes, pero este programa
+      finalizó el 17 de junio de 2021. Tome en cuenta que esto no afecta a las cuentas
+      existentes que ya se han beneficiado del programa ni las solicitudes enviadas
+      antes de esta fecha.
+  - question: '¿Cuáles métodos de pago se admiten?'
+    answer: >
+      Usamos <a href="https://paddle.com">Paddle</a> para gestionar pagos mediante
+      tarjetas de crédito y PayPal. Paddle actualmente admite los siguientes métodos
+      de pago: <br>
+      <ul> <li>Mastercard</li> <li>Visa</li> <li>PayPal</li> <li>Apple Pay</li> <li>Transferencias
+      bancarias (ACH/SEPA/BACS)</li> <li>Maestro</li> <li>American Express</li> <li>Discover</li>
+      <li>Diners Club</li> <li>JCB</li> </ul>
+
+      Puede encontrar más información en <a href="https://paddle.com/support/which-payment-methods-do-you-support/">métodos
+      de pago admitidos por Paddle</a>. <br>
+      Para las criptomonedas, usamos <a href="https://commerce.coinbase.com">Coinbase
+      Commerce</a> que actualmente admite Bitcoin, Bitcoin Cash, Dai, Ethereum, Litecoin
+      y USD Coin. En el futuro, también apoyaremos a Monero. Mientras tanto, envíenos
+      un correo electrónico a <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      si desea usar esta criptomoneda.
+  - question: '¿Cuentan con política de reembolso?'
+    answer: No, no tenemos una política de reembolso porque SimpleLogin tiene un periodo
+      de prueba donde puede probar todas funciones premium.
+  - question: '¿Tienen un plan familiar?'
+    answer: No, no tenemos un plan familiar pero ofrecemos una reducción del 30% en
+      suscripciones adicionales. Contáctenos en <a 
+      href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      para más información.
+  - question: '¿Hay otras maneras de comprar suscripciones de SimpleLogin?'
+    answer: Sí, también puede comprar cupones de suscripción de SimpleLogin en <a
+      href="https://proxysto.re/en/index.html">ProxyStore</a>, nuestro revendedor
+      oficial.
+

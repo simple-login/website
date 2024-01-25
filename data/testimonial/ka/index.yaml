@@ -1,13 +1,14 @@
-- 
-  text: როცა ის გამოვიყენე, მან ჩემი სამყარო სეცვალა. <br>SimpleLogin იმდენად დაუფასებელია, რომ ეს დანაშაულიც კია.
-  name: TechLore
-  image: /testimonial/techlore.svg
-  url: https://www.youtube.com/watch?v=JMWfsOVrDkw
-- 
-  text: SimpleLogin ამ თამაშში ყველას უსწრებს. <br>და ის ღია კოდითაა და ამაში იგულისხმება ყველაფერი. აპები, სერვისი და ვებგვერდი.
-  name: Michael Bazzell
-  image: /testimonial/inteltechniques100.png
-  url: https://inteltechniques.com/blog/2020/06/05/the-privacy-security-osint-show-episode-173/
+  - text: როცა ის გამოვიყენე, მან ჩემი სამყარო სეცვალა. <br>SimpleLogin იმდენად დაუფასებელია,
+      რომ ეს დანაშაულიც კია.
+    name: TechLore
+    image: /testimonial/techlore.svg
+    url: https://www.youtube.com/watch?v=JMWfsOVrDkw
+  - text: SimpleLogin ამ თამაშში ყველას უსწრებს. <br>და ის ღია კოდითაა და ამაში იგულისხმება
+      ყველაფერი. აპები, სერვისი და ვებგვერდი.
+    name: Michael Bazzell
+    image: /testimonial/inteltechniques100.png
+    url: 
+      https://inteltechniques.com/blog/2020/06/05/the-privacy-security-osint-show-episode-173/
 
 
 

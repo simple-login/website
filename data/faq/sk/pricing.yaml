@@ -1,0 +1,57 @@
+  - question: Čo sa stane s mojimi aliasmi, keď ukončím predplatné?
+    answer: >
+      Po skončení predplatného budú všetky vytvorené aliasy naďalej fungovať normálne,
+      ako pri prijímaní tak aj pri odosielaní emailov. Konkrétne: <br> - Všetky aliasy/domény/adresáre/mailové
+      schránky, ktoré ste vytvorili, zostanú zachované a budú naďalej normálne fungovať.
+      <br> - Ak prekročíte limit bezplatného plánu, t. j. máte viac ako 10 aliasov,
+      nemôžete vytvárať nové aliasy. <br> - Keďže funkcie ako doménový kôš, alebo
+      adresár umožňujú vytvárať aliasy za behu, tieto aliasy sa nebudú môcť automaticky
+      vytvárať, ak už máte viac ako 10 aliasov. <br> - Nemôžete pridať novú doménu,
+      adresár alebo poštovú schránku. <br><br>
+      Ak napríklad máte 100 aliasov v čase ukončenia predplatného, týchto 100 aliasov
+      bude naďalej normálne prijímať a odosielať emaily. Nemôžete však vytvárať aliasy
+      nové.
+  - question: Čo sa stane, keď dosiahnem maximálny počet aliasov v bezplatnom pláne?
+    answer: >
+      Ak používate bezplatný plán, nemôžete vytvárať nové aliasy, keď dosiahnete maximálny
+      počet aliasov (t.j. 10 aliasov). <br> Nie je možné vytvárať ani aliasy, ktoré
+      by sa inak vytvorili automaticky prostredníctvom funkcie doménového koša, alebo
+      funkciou adresára. <br>
+  - question: Ponúkate zľavy?
+    answer: >
+      Poskytujeme výrazné zľavy alebo bezplatné prémiové služby pre: <br>
+      - študentov, profesorov alebo technických pracovníkov pracujúcich vo vzdelávacej
+      inštitúcii <br> - aktivistov, disidentov alebo novinárov <br> - charitatívne
+      organizácie <br>
+      Pre viac informácií nám pošlite email na <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>.
+      <br><br>
+      Kedysi sme ponúkali bezplatné prémiové účty pre študentov, ale tento program
+      skončil 17. júna 2021. Upozorňujeme, že to nemá vplyv na existujúce účty, ktoré
+      už program využili, ani na žiadosti zaslané pred týmto dátumom.
+  - question: Aké metódy platby podporujete?
+    answer: >
+      Na spracovanie platieb prostredníctvom kreditných kariet a služby PayPal používame
+      systém <a href="https://paddle.com">Paddle</a>. Paddle momentálne podporuje
+      tieto spôsoby platby: <br>
+      <ul> <li>Mastercard</li> <li>Visa</li> <li>PayPal</li> <li>Apple Pay</li> <li>bankové
+      prevody (ACH/SEPA/BACS)</li> <li>Maestro</li> <li>American Express</li> <li>Discover</li>
+      <li>Diners Club</li> <li>JCB</li></ul>
+
+      Viac informácií nájdete na stránke o <a href="https://paddle.com/support/which-payment-methods-do-you-support/">podporovaných
+      platobných metódach Paddle</a>. <br>
+      Pre kryptomeny používame <a href="https://commerce.coinbase.com">Coinbase Commerce</a>,
+      ktorá v súčasnosti podporuje Bitcoin, Bitcoin Cash, Dai, Ethereum, Litecoin
+      a USD Coin. V budúcnosti sa chystáme podporovať aj Monero. Ak do tej doby chcete
+      túto kryptomenu používať, pošlite nám email na adresu <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>.
+  - question: Máte pravidlá na vrátenie peňazí?
+    answer: Nie, nemáme pravidlá na vrátenie peňazí, pretože SimpleLogin má skúšobné
+      obdobie, počas ktorého si môžete vyskúšať všetky prémiové funkcie.
+  - question: Máte rodinný plán?
+    answer: Nie, rodinný plán nemáme, ale ponúkame 30% zľavu na ďalšie predplatné.
+      Pre viac informácií nás prosím kontaktujte na <a 
+      href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>.
+  - question: Existujú aj iné spôsoby kúpy predplatného SimpleLogin?
+    answer: Áno, kupón na predplatné SimpleLogin si môžete kúpiť aj prostredníctvom
+      <a href="https://proxysto.re/en/index.html">ProxyStore</a>, nášho oficiálneho
+      predajcu.
+

@@ -8,8 +8,8 @@ hero_cta: >
 
 hero_button_underline: <b>Más de 800 000</b> alias creados.
 seen_on: Recomendado por
-how_it_work_title: '¿Cómo funciona el alias de correo?' #how it work section
-how_it_work_desc: Protege tu buzón con alias de correo.
+how_it_work_title: '¿Cómo funciona un alias de correo?' #how it work section
+how_it_work_desc: Protege tu buzón con los alias de correo.
 how_it_work_1_title: Utiliza alias de correo en cualquier lugar
 how_it_work_1_subtitle: >
   La próxima vez que un sitio web pregunte por tu dirección de correo, da un alias <span class="bigger">en lugar</span> de tu correo real.
@@ -18,7 +18,7 @@ how_it_work_2_subtitle: >
   Los correo enviados a un alias son <span class="bigger">reenviados inmediatamente</span> a tu buzón sin que el remitente lo sepa. <br>
 how_it_work_3_title: Envía correos anónimamente
 how_it_work_3_subtitle: >
-  Solo pulsa &quot;Responder&quot; si quieres responder a un correo reenviado: la respuesta es enviada desde tu alias y tu dirección real permanecerá oculta. &lt;br&gt; También puedes &lt;span class=&quot;bigger&quot;&gt;enviar&lt;/span&gt; correos desde tu alias fácilmente.
+  Solo pulsa "Responder" si quieres responder a un correo reenviado: la respuesta es enviada desde tu alias y tu dirección real permanecerá oculta. <br>También puedes <span class="bigger">enviar</span> correos desde tu alias fácilmente.
 everywhere_title: Crea y gestiona tus alias en cualquier lugar #available everywhere section
 everywhere_subtitle: Crea un alias rápidamente sobre la marcha. Regístrate en un boletín o crea una cuenta nueva con un clic.
 alias_new_email_title: Un alias es la nueva dirección de correo #Alias is the new email address Section
@@ -36,7 +36,7 @@ alias_new_email_c_text_2: >
   Ahorra 6$/mes
   <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true" title='GSuite starts at $6/month per user.'></i> por cada correo empresarial creado con SimpleLogin.
 alias_new_email_c_text_3: Más de 50 empresas y contando confían en SimpleLogin para llevar sus correos.
-testimonial_title: Alias de correo amado por los usuarios #Testimonials Section
+testimonial_title: Lo que dicen nuestros usuarios #Testimonials Section
 feature_title: Privacidad, seguridad y funciones que amarás #Features section
 feature_subtitle: SimpleLogin es la solución más avanzada en alias de correo.
 faq_title: Preguntas frecuentes #FAQ section
@@ -57,15 +57,15 @@ footer_imprint: Aviso legal
 footer_join_us: Únete a nosotros
 pricing_title: Precios #pricing
 pricing_subtitle: >
-  SimpleLogin es de <a href="https://github.com/simple-login">código abierto</a>, puede ser alojado propiamente y está 100% fundado por la comunidad. No utilizamos tus datos, te rastreamos o te mostramos anuncios. SimpleLogin depende de tu ayuda para mantener su servicio y desarrollar funciones nuevas.
+  SimpleLogin es de <a href="https://github.com/simple-login">código abierto</a>, puede ser alojado propiamente y está 100% fundado por la comunidad. No utilizamos tus datos, no te rastreamos o no te mostramos anuncios. SimpleLogin depende de tu ayuda para mantener su servicio y desarrollar funciones nuevas.
 pricing_free_title: Gratis
 pricing_premium_title: Premium
 pricing_free_cta: Regístrate
 pricing_premium_cta: Comienza a proteger tu correo
 pricing_what_people_say: Lo que la gente dice acerca de SimpleLogin
-pricing_premium_yearly_price: '30 $'
+pricing_premium_yearly_price: 30 $
 pricing_premium_yearly_year: año
-pricing_premium_monthly_price: o $4 facturado mensualmente
+pricing_premium_monthly_price: o $4 facturado cada mes
 faq_tech_question: Preguntas técnicas #<<< FAQ page >>>
 faq_general_question: Preguntas generales
 faq_developer_question: Preguntas de socio/desarrollador

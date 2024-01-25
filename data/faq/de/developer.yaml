@@ -1,0 +1,24 @@
+  - question: Warum sollte ich SimpleLogin auf meiner Website anstelle von "Login
+      mit Facebook/Google" implementieren?
+    answer: >
+      Wusstest du, dass Facebook und Google diese Schaltflächen verwenden, um den
+      Browserverlauf deiner Benutzer <a href="/blog/do-not-use-facebook-sdk/">nachzuverfolgen</a>,
+      damit sie personalisierte Werbung anbieten können? <br><br>Da SimpleLogin nicht
+      durch Werbung finanziert wird und den Benutzern die volle Kontrolle über ihre
+      Daten gibt, haben wir keinen Anreiz, die Daten deiner Benutzer zu verwenden.
+  - question: Warum sollte ich SimpleLogin vertrauen?
+    answer: >
+      Der gesamte SimpleLogin-Code ist vollständig quelloffen auf <a href="https://github.com/simple-login">Github</a>.
+      <br><br>Jeder kann den Code frei prüfen oder seinen eigenen SimpleLogin-Server
+      einrichten. <br><br>Die Einnahmen von SimpleLogin basieren auf einem transparenten
+      und nachhaltigen Modell, das es uns ermöglicht, ein datenschutzfreundliches
+      und trackerfreies Produkt anzubieten.
+  - question: Plant ihr die Veröffentlichung eines SDKs zur Unterstützung von nativen,
+      Windows- und anderen Anwendungen?
+    answer: >
+      Ja, auf jeden Fall! Wir haben mit der Web-Plattform begonnen, weil sie auch
+      für mobile Anwendungen über eine Android WebView oder IOS UIWebView verwendet
+      werden können. <br><br> Wir planen, ein SDK und einige Beispiele für Android,
+      iOS, Windows recht bald bereitzustellen. Seid gespannt!
+
+

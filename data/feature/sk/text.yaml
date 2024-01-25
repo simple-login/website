@@ -1,0 +1,68 @@
+  - title: 100 % open source
+    desc: >
+      Založené na open source technológii, <em data-toggle="tooltip" data-html="true"
+      title="Vrátane servera, rozšírení pre Chrome/Firefox/Safari a aplikácií pre
+      Android/iOS.">všetky</em> komponenty SimpleLogin sú taktiež open source. <br>
+      Nedôverovali by ste predsa čiernej skrinke so spracovaním svojich emailov?
+  - title: Odosielajte emaily z aliasu
+    desc: >
+      Nielenže alias emaily prijíma, ale dokáže ich tiež <span class="highlight">odosielať</span>.
+      Alias je plnohodnotná emailová adresa.
+  - title: Všade
+    desc: >
+      Spravujte svoje aliasy na stránkach SimpleLogin alebo v našich rozšíreniach
+      pre <em data-toggle="tooltip" data-html="true" title="A ďalšie prehliadače postavené
+      na chromiu, ako Edge, Opera, Brave atď.">Chrome</em>, Firefox a Safari. <br>
+      Alebo vo vašom telefóne s aplikáciami pre Android (Play Store, F-Droid) a iOS.
+  - title: Vlastná doména
+    desc: >
+      Preneste si vlastnú doménu a nemusíte kupovať ďalšie <em data-toggle="tooltip"
+      data-html="true" title="Ako Google Workspace, Outlook alebo služby poskytované
+      registrátormi domén">riešenie pre emailový hosting</em>.
+      <br>
+      A vedeli ste, že môžete mať alias <em data-toggle="tooltip" data-html="true"
+      title="Zapnutím funkcie doménový kôš môžete aliasy vytvárať za chodu: adresa
+      <b>cokolvek@vasa-domena.sk</b> bude automaticky vytvorená, po prijaží prvého
+      emailu.">doménového koša</em> pre vašu doménu?
+  - title: Veľkorysé ceny
+    desc: >
+      Všetky plány predplatného SimpleLogin majú <span class="highlight">nekonečné</span>
+      preposielanie/odosielanie a <span class="highlight">neobmedzený</span> prenos
+      dát. <br> Prijímajte a odosielajte emaily, koľko len chcete.
+  - title: Aliasy za pochodu so subdoménou
+    desc: >
+      Vytvorte vašu <em data-toggle="tooltip" data-html="true" title="Subdoména je
+      skvelý spôsob, ako organizovať a vytvárať aliasy za pochodu. Jednoducho použite
+      <b>COKOLVEK@vasa-subdomena.simplelogin.com</b>, keď rýchlo potrebujete alias
+      a alias bude vytvorený, keď dostane prvý email.">subdoménu</em> a používajte
+      ju na rýchle vytváranie aliasov bez otvárania SimpleLogin web stránky alebo
+      mobilných aplikácií. <a href="/blog/subdomains/" title="simplelogin subdomains">Zistiť
+      viac</a>.
+  - title: Viacero poštových schránok
+    desc: >
+      Ak už máte niekoľko poštových schránok, táto funkcia je pre vás: môžete svoje
+      poštové schránky pridať do služby SimpleLogin a pri vytváraní aliasu vybrať,
+      ktorú z nich použiť. <a href="/blog/introducing-mailbox/" title="simplelogin
+      multiple mailboxes">Zistiť viac</a>.
+  - title: Súkromie a bezpečnosť
+    desc: >
+      S <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP)
+      je šifrovancí program, ktorý môže vaše emaily zašifrovať a dovoľuje vám súkromne
+      komunikovať online.">PGP</em> sú emaily pred preposlaním do vašej poštovej schránky
+      šifrované vaším vlastným PGP kľúčom. Iba vy potom môžete tieto emaily dešifrovať.
+      Funguje dokonale s Proton Mail alebo akýmikoľvek PGP nástrojmi (Thunderbird,
+      GPGTools atď.). <br><br>
+      Aby ste svoj SimpleLogin účet lepšie zabezpečili, môžete povoliť 2FA pomocou
+      <em data-toggle="tooltip" data-html="true" title="TOTP (Time-based One-time
+      Passwords) sa zvyčajne používa s aplikáciami ako Google Authenticator alebo
+      Authy.">TOTP</em> a/alebo <em data-toggle="tooltip" data-html="true" title="WebAuthn
+      sa zvyčajne používa s fyzickými bezpečnostnými kľúčmi ako Yubikey, Google Titan
+      atď. Váš telefón a notebook môžu tiež slúžiť ako bezpečnostný kľúč.">WebAuthn
+      (FIDO)</em>.
+  - title: Viac než (len) alias
+    desc: >
+      Ambíciou spoločnosti SimpleLogin je chrániť vaše online súkromie a email je
+      len začiatok. <br> Zostaňte naladení na nadchádzajúce funkcie, ako napríklad
+      jednotné prihlásenie, ochrana telefónneho čísla a ochrana platobných kariet.
+
+

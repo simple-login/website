@@ -1,0 +1,39 @@
+  - question: Wie groß dürfen E-Mails maximal sein?
+    answer: >
+      Die derzeitige Grenze liegt bei 25 MB. Bei großen Anhängen empfehlen wir, einen
+      Datei-Upload-Dienst zu nutzen und stattdessen den Link zu senden. Du findest
+      einige File-Sharing-Dienste, die unsere Privatsphäre respektieren, unter <a
+      href="https://www.privacyguides.org/file-sharing/">Datenschutz-Leitfäden</a>
+      <br>Ein weiterer Grund für diese Begrenzung ist, dass die PGP-Verschlüsselung
+      ein aufwändiger Prozess ist und die Unterstützung einer größeren Größe die SimpleLogin-Server
+      stark belastet.
+  - question: Ich habe einen Alias versehentlich gelöscht, kann ich ihn wiederherstellen?
+    answer: >
+      Wenn ein Alias gelöscht wird, landet er in einem globalen <b>Papierkorb</b>
+      und wir stellen sicher, dass er nicht wiederverwendet werden kann. Alle historischen
+      Informationen über den Alias (das Konto, das den Alias erstellt, Alias-Kontakte
+      usw.) werden gelöscht, um deine Privatsphäre zu wahren. <br>Dies gilt für alle
+      Aliasse, die mit SimpleLogin-Domains erstellt wurden. <br>Du kannst jedoch einen
+      Alias wiederherstellen, der mit deiner eigenen Domain erstellt wurde.
+  - question: Wo befinden sich die SimpleLogin PGP-Schlüssel?
+    answer: >
+      Unsere PGP-Schlüssel befinden sich auf der <a href="/pgp-key">PGP-Schlüssel</a>-Seite.
+      Wenn du PGP aktivierst, werden alle E-Mails mit dem Schlüssel <b>signer@simplelogin.io</b>
+      signiert.
+  - question: Wie kann ich mein Konto löschen?
+    answer: >
+      Unten auf der Seite <a href="https://app.simplelogin.io/dashboard/setting">Einstellungen</a>
+      kannst du dein Konto löschen. Dieser Vorgang ist unwiderruflich und wir haben
+      keine Möglichkeit, deine Daten wiederherzustellen.
+  - question: Kann ich E-Mail-Aliasse für wichtige Dienste wie Banken, Behörden usw.
+      verwenden?
+    answer: >
+      Die kurze Antwort lautet: Ja, kannst du. Wir verwenden E-Mail-Aliasse, um unser
+      Unternehmen zu führen, unsere Steuern zu verwalten, unsere Bankgeschäfte zu
+      erledigen und so weit, so gut :). <br>Die längere Antwort ist, dass das E-Mail-Protokoll
+      so konzipiert ist, dass es sehr widerstandsfähig ist und eine E-Mail fast nie
+      verloren geht. Wenn SimpleLogin die E-Mail nicht an dein Postfach zustellen
+      kann, wirst du benachrichtigt, damit du entsprechende Maßnahmen ergreifen kannst.
+      Du kannst auch ein sekundäres Postfach zusätzlich zu deinem primären Postfach
+      einrichten, das als Backup verwendet werden kann.
+

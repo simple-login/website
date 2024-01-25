@@ -1,0 +1,56 @@
+  - title: 100% 오픈 소스
+    desc: >
+      오픈 소스 기술 기반으로, <em data-toggle="tooltip" data-html="true" title="Chrome/Firefox/Safari
+      확장 프로그램, Android/iOS 앱, 서버 포함">모든</em> SimpleLogin의 구성 요소는 오픈 소스입니다. <br> 이메일을
+      관리하기 위해 믿을 수 없는 서비스를 사용할 수는 없잖아요, 그죠?
+  - title: 별명에서 이메일 전송
+    desc: >
+      단순히 별명에서 이메일을 수신 받을 수 있는 것 뿐만 아니라, 이메일을 <span class="highlight">전송</span>할 수도
+      있답니다. 별명이 즉 이메일 주소라 볼 수 있죠.
+  - title: 어느 곳에서든 사용
+    desc: >
+      SimpleLogin 웹사이트 및 <em data-toggle="tooltip" data-html="true" title="및 Edge,
+      Opera, Brave 등의 chromium 기반 브라우저">Chrome</em>, Firefox, Safari 확장 프로그램에서 별명을
+      관리해 보세요. <br>
+      또는 Android (Play Store, F-Droid), iOS 앱에서 사용하세요.
+  - title: 지정 도메인
+    desc: >
+      소유하고 계신 도메인을 등록하면 <em data-toggle="tooltip" data-html="true" title="GSuite,
+      Outlook 및 도메인 등록 서비스에 의해 판매되는 제품입니다.">이메일 호스팅 솔류션</em>을 구입할 필요가 없습니다.
+      <br>
+      사용 중이신 도메인을 <em data-toggle="tooltip" data-html="true" title=catch-all을 활성화
+      하면, 즉석에서 별명을 생성할 수 있습니다:<b>anything@your-domain.com</b>이 자동으로 처음 생성되며 이메일로 받을
+      수 있습니다.">catch-all</em> 별명으로 사용할 수 있는 것도 아시나요?
+  - title: 가성비
+    desc: >
+      모든 SimpleLogin 요금제는 <span class="highlight">무제한</span> 수발신과 <span class="highlight">무제한</span>
+      대역폭을 제공합니다. <br> 원래 하시던 그래도 이메일을 주고 받아 보세요.
+  - title: 하위 도메인을 통한 즉석 별명
+    desc: >
+      <em data-toggle="tooltip" data-html="true" title=서브 도메인은 별명을 생성 및 관리를 즉석에서 할
+      수 있는 가장 좋은 방법입니다. 간단히 <b> ANYTHING@your-subdomain.simplelogin.com</b>을 입력만 하세요.
+      별명이 지금 바로 필요하다면, 해당 별명이 첫 이메일을 수신 받을 때 생성됩니다.">서브 도메인</em>을 생성하여 SimpleLogin
+      웹 및 모바일 앱 실행 없이 별명을 생성 및 사용하세요. <a href="/blog/subdomains/" title="simplelogin
+      subdomains">자세히 알아보세요</a>.
+  - title: 다중 메일함
+    desc: >
+      만약 여러 개의 메일함이 있으시다면, 이 기능은 당신을 위한 것입니다: SimpleLogin으로 메일함을 생성할 수 있으며 별명을 생성할
+      때 사용할 하나를 선택할 수 있습니다. <a href="/blog/introducing-mailbox/" title="simplelogin
+      multiple mailboxes">자세히 알아보세요.</a>
+  - title: 개인정보 및 보안
+    desc: >
+      <em data-toggle="tooltip" data-html="true" title=Pretty Good Privacy (PGP)는
+      온라인에서 비공개로 커뮤니케이션 하며 이메일을 암호화할 수 있는 암호화 프로그램 입니다.">PGP</em>로, 이메일이 사용자의 메일함에
+      전달되기 전에 자신의 PGP 키로 암호화 상태가 유지됩니다. 오직 당신만이 해당 이메일들을 복호화할 수 있죠. Proton Mail 및
+      타 PGP 툴 (Thunderbird, GPGTools 등)과도 잘 작동합니다. <br><br>
+      SimpleLogin을 더 안전하게 보호하기 위해, <em data-toggle="tooltip" data-html="true" title="TOTP
+      (Time-based One-time Passwords)는 Google Authenticator 및 Authy와 같은 앱들에 쓰이는 기술입니다.">TOTP</em>와
+      함께 2FA를 활성화 가능하며, 또는 <em data-toggle="tooltip" data-html="true" title="WebAuthn은
+      주로 Yubikey, Google Titan 등과 같은 물리 보안 키에 주로 사용됩니다. 소유 중인 스마트폰이나 컴퓨터 또한 보안키로 사용이
+      가능합니다.">WebAuthn (FIDO)</em>를 사용할 수 있습니다.
+  - title: 이메일 별명 서비스 그 이상
+    desc: >
+      SimpleLogin의 목표는 개개인의 온라인 개인 정보를 보호하는 것이며 이메일은 시작에 불과합니다. <br> 싱글 사인온, 전화 번호
+      보호 및 신용 카드 보호와 같은 다가오는 기능을 계속 지켜봐 주세요.
+
+

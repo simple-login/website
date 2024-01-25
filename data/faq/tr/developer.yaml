@@ -1,0 +1,23 @@
+  - question: Sitemde neden "Facebook/Google ile oturum aç" yerine SimpleLogin kullanmalıyım?
+    answer: >
+      Bu düğmelerin Facebook ve Google tarafından daha kişiselleştirilmiş reklamlar
+      sunabilmek amacıyla kullanıcılarınızın gezinme geçmişini <a href="/blog/do-not-use-facebook-sdk/">izlemek</a>
+      için kullanıldığını biliyor musunuz? <br><br> SimpleLogin reklamlarla desteklenmediğinden
+      ve kullanıcılara verileri üzerinde tam denetim sağladığından, kullanıcı verilerinizi
+      kullanmakla ilgilenmiyoruz.
+  - question: SimpleLogin hizmetine neden güveneyim?
+    answer: >
+      SimpleLogin kodunun tümünü <a href="https://github.com/simple-login">GitHub</a>
+      üzerinde açık kaynaklı olarak bulabilirsiniz. <br><br>İsteyen herkes kodu özgürce
+      denetleyebilir veya kendi SimpleLogin sunucusunu kurabilir. <br><br>SimpleLogin
+      gelirlerini, gizliliğe öncelik veren ve izlenmeyen bir ürün kullanmanızı sağlayan
+      şeffaf ve sürdürülebilir bir model ile sağlar.
+  - question: Yerel, Windows vb uygulamaları desteklemek için bir SDK yayınlamayı
+      düşünüyor musunuz?
+    answer: >
+      Evet kesinlikle! İnternet platformuyla başladık çünkü mobil uygulamalar için
+      olduğu kadar Android WebView veya IOS UIWebView ile de kullanılabiliyorlar.
+      <br><br>Çok yakında Android, iOS ve Windows için bir SDK ve bazı örnekler sunmayı
+      planlıyoruz. Bizi izleyin!
+
+

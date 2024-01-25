@@ -1,0 +1,72 @@
+header_login: Přihlásit se #header
+header_signup: Registrovat se
+header_pricing: Ceník
+hero: Anonymní přijímání a odesílání e-mailů #hero section
+hero_desc: >
+  Pomocí  <em data-toggle="tooltip" data-html="true" title="E-mailový alias (nebo zkráceně alias) je e-mailová adresa, která <b>neukládá</b> e-maily: všechny e-maily zaslané na alias jsou přeposílány na váš osobní e-mail.">emailových aliasů</em> můžete zůstat v anonymitě a chránit svou e-mailovou schránku před spamem a phishingem. <a href="https://github.com/simple-login/">Otevřený zdrojový kód</a>. Vyrobeno a hostováno v Evropě.
+hero_cta: >
+
+hero_button_underline: <b>800,000+</b> aliasů vytvořeno.
+seen_on: Doporučují
+how_it_work_title: Jak funguje e-mailový alias? #how it work section
+how_it_work_desc: Chraňte svou e-mailovou schránku pomocí e-mailových aliasů.
+how_it_work_1_title: Používejte e-mailové aliasy všude
+how_it_work_1_subtitle: >
+  Až vás příště nějaká webová stránka požádá o zadání e-mailové adresy, zadejte <span class="bigger">místo</span> svého skutečného e-mailu alias.
+how_it_work_2_title: Přijímejte e-maily bezpečně do své doručené pošty.
+how_it_work_2_subtitle: >
+  E-maily odeslané na alias jsou <span class="bigger">okamžitě přeposlány</span> do vaší schránky, aniž by se odesílatel cokoli dozvěděl. <br>
+how_it_work_3_title: Anonymní odesílání e-mailů
+how_it_work_3_subtitle: >
+  Pokud chcete odpovědět na přeposlaný e-mail, stačí stisknout tlačítko "Odpovědět": odpověď se odešle z vašeho aliasu a váš skutečný e-mail zůstane skrytý. <br> Z aliasu můžete také snadno <span class="bigger">odesílat</span> e-maily.
+everywhere_title: Vytvářejte a spravujte své aliasy kdekoli #available everywhere section
+everywhere_subtitle: Rychlé vytvoření aliasu. Přihlaste se k odběru newsletteru, a vytvořte si nový online účet jedním kliknutím.
+alias_new_email_title: Alias je nová e-mailová adresa #Alias is the new email address Section
+alias_new_email_a_title: A. Nahraďte svůj e-mail aliasem všude
+alias_new_email_a_text_1: Přihlaste se k odběru e-mailů, vytvořte nové online účty s e-mailovým aliasem.
+alias_new_email_a_text_2: Později jednoduše <span class="highlight">zablokujte</span> alias, pokud přijímá příliš spamu.
+alias_new_email_b_title: B. Odešlete e-maily z aliasu
+alias_new_email_b_text_1: >
+  Kdykoli potřebujete odpovědět na přeposlaný e-mail, stačí stisknout tlačítko "Odpovědět": odpověď <span class="highlight">přijde z</span> aliasu a vaše osobní e-mailová schránka zůstane skrytá.
+alias_new_email_b_text_2: >
+  Můžete také <em data-toggle="tooltip" data-html="true" title="<b>Normální</b> e-mailové aliasy jako <b>trik s +</b> obvykle pracují jiným způsobem: můžete přijímat pouze e-maily. <br>V SimpleLogin můžete snadno odpovídat/odesílat e-maily ze svého aliasu.">odesílat</em> e-maily na libovolnou e-mailovou adresu ze svého aliasu.
+alias_new_email_c_title: C. Provozujte své podnikání pomocí aliasu
+alias_new_email_c_text_1: Použijte alias jako svou <span class="highlight">firemní e-mailovou adresu</span>.
+alias_new_email_c_text_2: >
+  Ušetřete 6 USD/měsíc
+  <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true" title='GSuite začíná na $6/měsíc na uživatele.'></i> za každý firemní e-mail vytvořený pomocí SimpleLogin.
+alias_new_email_c_text_3: Více než 50 firem důvěřuje společnosti SimpleLogin při správě svých e-mailů.
+testimonial_title: Uživateli oblíbené aliasy e-mailů #Testimonials Section
+feature_title: Soukromí, zabezpečení a funkce, které si zamilujete #Features section
+feature_subtitle: SimpleLogin je nejpokročilejší řešení e-mailových aliasů.
+faq_title: Často kladené otázky #FAQ section
+faq_subtitle: Nápověda
+ready_get_started: Jste připraveni začít?
+ready_get_started_cta: >
+
+cta_2_title: Připojte se k více než 50 000 lidem, kteří chrání svou doručenou poštu a soukromí.
+cta_2_button: >
+
+partner_title: Naši partneři
+footer_1: SimpleLogin je řešení s <a href="https://github.com/simple-login">otevřeným zdrojovým kódem</a>, které chrání vaši e-mailovou adresu pomocí <b>e-mailového aliasu</b>. #footer
+footer_3: SimpleLogin je produktem SimpleLogin SAS, registrované ve Francii pod číslem SIREN 884302134. SimpleLogin SAS je součástí <a href="https://proton.me">Proton AG</a>.
+footer_pricing: Ceník
+footer_about: O nás
+footer_contact: Kontaktujte nás
+footer_imprint: Kontakt
+footer_join_us: Připojte se k nám
+pricing_title: Ceník #pricing
+pricing_subtitle: >
+  SimpleLogin má <a href="https://github.com/simple-login">otevřený zdrojový kód</a>, lze jej hostovat na vlastním serveru a je 100% financován komunitou. Nepoužíváme vaše údaje, nesledujeme vás ani vám nezobrazujeme reklamy. Funkčnost a vývoj SimpleLogin závisí na vaší podpoře.
+pricing_free_title: Zdarma
+pricing_premium_title: Prémium
+pricing_free_cta: Registrovat se
+pricing_premium_cta: Začněte chránit svůj e-mail
+pricing_what_people_say: Co lidé říkají o SimpleLogin
+pricing_premium_yearly_price: '$30'
+pricing_premium_yearly_year: ročně
+pricing_premium_monthly_price: nebo $4, účtováno měsíčně
+faq_tech_question: Technické otázky #<<< FAQ page >>>
+faq_general_question: Všeobecné otázky
+faq_developer_question: Otázky partnera/vývojáře
+faq_pricing_question: Otázky týkající se tarifu/ceníku

@@ -1,0 +1,122 @@
+  - question: Cos'è esattamente un <b>alias email</b>?
+    answer: >
+      L'alias email è simile a l'<a href="https://en.wikipedia.org/wiki/Email_forwarding">inoltro</a>
+      a un indirizzo email: tutte le email inviate a un alias verranno inoltrate alla
+      tua casella di posta. <br> Grazie alla tecnologia di SimpleLogin, puoi anche
+      inviare email <b>da</b> un alias. <br> Per il destinatario, dunque, l'alias
+      è il tuo indirizzo email. Più informazioni a riguardo degli alias email su <a
+      href="/blog/what-is-an-email-alias/">Cos'è un alias email</a>.
+  - question: Posso usare il trucco del simbolo più (+) per creare indirizzi email
+      illimitati, perché mi dovrebbe servire SimpleLogin?
+    answer: >
+      Il sub-indirizzamento email, conosciuto anche come il trucco del più (+), reso
+      popolare da Gmail e supportato da alcuni servizi di posta elettronica, ti permette
+      di creare nuovi indirizzi email aggiungendo "+" al tuo indirizzo email attuale.
+      Mettiamo per esempio che la tua email è nome@proton.me, puoi facilmente creare
+      un altro indirizzo email come nome+facebook@proton.me per Facebook, nome+groupon@proton.me
+      per Groupon, ecc.
+      <br>
+      Anche se comodo, ha alcuni difetti: <br>
+      - Non puoi inviare email dall'indirizzo con il "+": la tua vera email sarà mostrata
+      come mittente. <br>
+      - Il trucco del "+" e ben conosciuto e alcuni siti web non permettono di registrarsi
+      con indirizzi email che contengono il "+". <br>
+      - Usare il trucco del "+" non protegge la tua privacy: chiunque può rimuovere
+      la parte con il "+" per ottenere la tua vera email. Se il tuo indirizzo con
+      il "+" compare in una violazione dei dati, il tuo vero indirizzo è probabilmente
+      anche nelle mani degli spammer. Puoi vedere se la tua email è stata trapelata
+      usando un sito web come <a href="https://haveibeenpwned.com">have i been pwned</a>
+      <br>
+      - Rimuovendo la parte con il "+", gli inserzionisti possono collegare questi
+      indirizzi per avere la tua cronologia di navigazione. <br><br>
+      Gli alias di SimpleLogin non hanno nessuno di questi difetti. Puoi leggere di
+      più sui vantaggi e svantaggi di usare il trucco del "+" su <a href="/blog/email-alias-vs-plus-sign/">Cosa
+      rende gli alias email una migliore alternativa al trucco del più (+)</a>
+  - question: Qual è la differenza tra SimpleLogin e altri servizi di inoltro email?
+    answer: >
+      SimpleLogin è la soluzione di alias email più avanzata ed è attivamente sviluppata.
+      Ecco alcune differenze tra SimpleLogin e altri servizi di inoltro/alias email:
+      <br><br>
+       <ul> <li>Completamente open source: sia il codice del server di SimpleLogin
+      sia il codice del client (estensione per browser, libreria JS, app mobili) sono
+      <a href="https://github.com/simple-login/app">open source</a>, così che chiunque
+      possa liberamente ispezionare e migliorare il codice. </li>
+       <li>Copre tutte le principali piattaforme: estensione Chrome/Firefox/Safari
+      per desktop, app iOS e Android per dispositivi mobili. </li>
+       <li>L'unica soluzione di inoltro email che può essere <em>ospitata autonomamente</em>,
+      ovvero puoi eseguire SimpleLogin sul tuo server. Con le nostre istruzioni dettagliate
+      sul self-hosting e la maggior parte dei componenti in esecuzione come contenitore
+      Docker, chiunque conosca ssh è in grado di implementare SimpleLogin sul proprio
+      server.</li>
+       <li>Puoi inviare/rispondere alle email dall'alias. Non ci sono limiti al numero
+      di invii/risposte.</li>
+       <li>Larghezza di banda illimitata. </li>
+       <li>Nessuna pubblicità, nessun tracker.</li>
+       <li>Non solo alias email: SimpleLogin è anche un <em>fornitore di identità</em>
+      incentrato sulla privacy e ideale per gli sviluppatori, che: <br> - rispetta
+      la privacy dell'utente <br> - è semplice da usare per gli sviluppatori. <br>
+      SimpleLogin offre un'alternativa incentrata sulla privacy ai pulsanti "Accedi
+      con Facebook/Google/Apple". </li>
+
+       <li>Molte funzionalità: estensione per browser, dominio personalizzato, alias
+      catch-all, librerie OAuth, ecc. e molto altro in arrivo.</li>
+       <li>Apri la road map su <a href="https://github.com/simple-login/app/projects/1">GitHub</a>:
+      conosci le interessanti funzionalità su cui stiamo lavorando.</li> </ul>
+  - question: Com'è SimpleLogin differente dai servizi di email temporanee?
+    answer: >
+      Gli alias di SimpleLogin sono permanenti a differenza degli indirizzi email
+      temporanei creati con servizi come <a href="https://temp-mail.org/en/">temp-mail.org</a>,
+      <a href="https://10minutemail.net">10minutemail.net</a>, ecc. <br> SimpleLogin
+      inoltre non memorizza le email, queste vengono archiviate nella tua casella
+      di posta. <br> SimpleLogin è semplicemente un prodotto diverso per un uso diverso.
+  - question: Qual è il modello di business di SimpleLogin?
+    answer: Il nostro ricavo proviene esclusivamente dagli abbonamenti, ciò significa
+      che il prodotto rimarrà per sempre senza annunci pubblicitari.
+  - question: Cos'è la funzionalità <b>cartella alias</b> o <b>catch-all</b>?
+    answer: >
+      Entrambe queste 2 funzionalità ti consentono di creare alias <em>al volo</em>,
+      ciò significa che non è necessario aprire SimpleLogin per creare un nuovo alias.
+      <br> Abilitare <b>catch-all</b> sul tuo dominio ti permette di usare <em>QUALSIASI_COSA@mio-dominio.it</em>
+      come alias, con qualunque parola al posto di <b>QUALSIASI_COSA</b>. L'unico
+      limite è che deve avere meno di 128 caratteri. <br>
+      <b>Cartella alias</b> è simile a catch-all, puoi usare <em>la_tua_cartella+QUALSIASI_COSA@simplelogin.co</em>
+      come alias. <b>la_tua_cartella</b> è il nome della cartella che hai creato.
+  - question: Ricevo un'email inoltrata alla mia email personale da un alias. Come
+      posso rispondere a quell'email? Devo andare su SimpleLogin per iniziare la risposta?
+    answer: >
+      Puoi rispondere direttamente dal tuo client di posta elettronica. Devi solo
+      cliccare sul pulsante "rispondi", la risposta verrà instradata tramite SimpleLogin
+      e SimpleLogin la farà arrivare dal tuo alias. La tua email personale rimarrà
+      invisibile al mittente originale. <br><br> Tecnicamente, l'intestazione <b>Da</b>
+      nella tua email viene sostituita da un alias speciale generato dinamicamente
+      per ogni mittente. Quando rispondi, in realtà, la tua risposta viene inviata
+      a questo alias speciale e SimpleLogin inoltra la risposta al mittente, assicurandosi
+      che l'email venga inviata dal tuo alias. Tutte le informazioni sul tuo indirizzo
+      email personale vengono rimosse durante questo processo.
+  - question: Cos'è un <b>alias inverso</b>?
+    answer: >
+      Un alias inverso è un alias <b>speciale</b> che ti permette di inviare email
+      <b>dal tuo alias</b>. <br> Viene creato un alias inverso per ogni alias da cui
+      desideri inviare email e per ciascun contatto a cui desideri inviare email.
+      <br> Quando dalla tua email personale invii un'email a un alias, l'email verrà
+      inviata dal tuo alias al contatto.
+  - question: Un alias email è permanente?
+    answer: Come un normale indirizzo email, un alias email è sempre lì a meno che
+      non lo elimini.
+  - question: Dove sono localizzati i server di SimpleLogin?
+    answer: Utilizziamo i server di Proton e di UpCloud, un fornitore di servizi cloud
+      con sede in Finlandia.
+  - question: Cos'è la funzionalità <b>dominio personalizzato</b>?
+    answer: >
+      Puoi portare i tuoi domini in SimpleLogin e creare alias come <b>contatta@il-tuo-dominio.it</b>,
+      <b>ciao@il-tuo-dominio.it</b>. <br> Come probabilmente avrai intuito, puoi utilizzare
+      SimpleLogin per gestire le tue <em>email aziendali</em> invece di pagare per
+      una soluzione costosa come Google Workspace. <br>Tutte le nostre email aziendali
+      (ad esempio <b>contact@simplelogin.io</b>) sono in realtà alias 🤫
+  - question: Non trovo una risposta alla mia domanda qui
+    answer: >
+      Puoi trovare l'elenco di tutte le domande/risposte frequenti nella <a href="/faq/">pagina
+      FAQ</a>. <br> Se non trovi la risposta qui, invia la tua domanda a <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>.
+      <br> Puoi anche avviare un problema sui nostri <a href="https://github.com/simple-login/app/issues">Problemi
+      GitHub</a>.
+

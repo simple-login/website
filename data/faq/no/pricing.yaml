@@ -1,0 +1,59 @@
+  - question: Hva skjer med aliasene mine når jeg avslutter abonnementet?
+    answer: >
+      Når abonnementet ditt avsluttes, fortsetter alle aliasene du opprettet, å fungere
+      normalt, både ved mottak og sending av e-post. Konkret: <br> - Alle aliaser
+      / domener / kataloger / postkasser du har opprettet beholdes og fortsetter å
+      fungere normalt. <br> - Du kan ikke opprette nye aliaser hvis du overskrider
+      gratisplangrensen, det vil si har mer enn 10 aliaser. <br> - Siden funksjoner
+      som catch-all eller katalog lar deg opprette aliaser mens du er på farten, kan
+      ikke disse aliasene opprettes automatisk hvis du har mer enn 10 aliaser. <br>
+      - Du kan ikke legge til nytt domene, katalog eller postkasse. <br><br>
+      Hvis du for eksempel har 100 aliaser når abonnementet avsluttes, vil disse 100
+      aliasene fortsette å motta og sende e-post normalt. Du kan imidlertid ikke opprette
+      nye aliaser.
+  - question: Hva skjer når jeg når maksimalt antall alias i gratisplanen?
+    answer: >
+      Hvis du er i gratisplanen, kan du ikke opprette nye aliaser når du når maksimalt
+      antall aliaser (dvs. 10 aliaser). <br> Aliaser som ellers ville blitt opprettet
+      automatisk via catch-all-domenet eller katalogfunksjonen, kan heller ikke opprettes.
+      <br>
+  - question: Tilbyr dere rabatter?
+    answer: >
+      Vi tilbyr viktige rabatter eller gratis premium for: <br>
+      - studenter, professorer eller tekniske staber som arbeider ved et utdanningsinstitutt
+      - <br> aktivister, dissidenter eller journalister <br> - veldedighetsorganisasjoner
+      <br>
+      Vennligst send oss en e-post på <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      for mer info. <br><br>
+      Vi pleide å tilby gratis premiumkontoer for studenter, men dette programmet
+      ble avsluttet 17. juni 2021. Vær oppmerksom på at dette ikke påvirker eksisterende
+      kontoer som allerede har dratt nytte av programmet eller forespørsler sendt
+      før denne datoen.
+  - question: Hvilke betalingsmåter støtter dere?
+    answer: >
+      Vi bruker <a href="https://paddle.com">Paddle</a> for å håndtere betalinger
+      via kredittkort og PayPal. Paddle støtter for øyeblikket følgende betalingsmåter:
+      <br>
+      <ul><li>Mastercard</li><li>Visa</li><li>PayPal</li><li>Apple Pay</li><li>Bankoverføringer
+      (ACH/SEPA/BACS)</li><li>Maestro</li><li>American Express</li><li>Discover</li><li>Diners
+      Club</li><li>JCB</li></ul>
+
+      Mer informasjon finnes på <a href="https://paddle.com/support/which-payment-methods-do-you-support/">Betalingsmåter
+      som støttes av Paddle</a><br>
+      For kryptovaluta bruker vi <a href="https://commerce.coinbase.com">Coinbase
+      Commerce</a> som på nåværende tidspunkt støtter Bitcoin, Bitcoin Cash, Dai,
+      Ethereum, Litecoin og USD Coin. I fremtiden kommer vi også til å støtte Monero.
+      I mellomtiden kan du sende oss en e-post på <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      hvis du vil bruke denne kryptovalutaen.
+  - question: Har dere en refusjonspolicy?
+    answer: Nei, vi har ingen refusjonspolicy fordi SimpleLogin har en prøveperiode
+      hvor du kan prøve alle premiumfunksjoner.
+  - question: Har dere en familieplan?
+    answer: Nei, vi har ikke et familieabonnement, men tilbyr 30 % reduksjon for ekstra
+      abonnementer. Ta kontakt med oss på <a 
+      href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>
+      for mer informasjon.
+  - question: Finnes det andre måter å kjøpe SimpleLogin-abonnement på?
+    answer: Ja, du kan også kjøpe SimpleLogin abonnementskupong via <a href="https://proxysto.re/en/index.html">ProxyStore</a>,
+      vår offisielle forhandler.
+

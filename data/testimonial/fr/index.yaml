@@ -1,13 +1,14 @@
-- 
-  text: Quand j'ai commencé à l'utiliser, ça a vraiment tout changé. <br> À mon avis, SimpleLogin est totalement sous-estimé.
-  name: TechLore
-  image: /testimonial/techlore.svg
-  url: https://www.youtube.com/watch?v=JMWfsOVrDkw
-- 
-  text: 'SimpleLogin me semble avoir une longueur d''avance. <br> Tout est open source, vraiment tout : les applications, le service, le site internet.'
-  name: Michael Bazzell
-  image: /testimonial/inteltechniques100.png
-  url: https://inteltechniques.com/blog/2020/06/05/the-privacy-security-osint-show-episode-173/
+  - text: Quand j'ai commencé à l'utiliser, ça a vraiment tout changé. <br> À mon
+      avis, SimpleLogin est totalement sous-estimé.
+    name: TechLore
+    image: /testimonial/techlore.svg
+    url: https://www.youtube.com/watch?v=JMWfsOVrDkw
+  - text: 'SimpleLogin me semble avoir une longueur d''avance. <br> Tout est open
+      source, vraiment tout : les applications, le service, le site internet.'
+    name: Michael Bazzell
+    image: /testimonial/inteltechniques100.png
+    url: 
+      https://inteltechniques.com/blog/2020/06/05/the-privacy-security-osint-show-episode-173/
 
 
 

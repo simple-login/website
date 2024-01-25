@@ -1,0 +1,37 @@
+  - question: Qual è la dimensione massima delle email?
+    answer: >
+      Il limite attuale è 25MB. Per allegati di grandi dimensioni, suggeriamo di usare
+      un servizio di caricamento di file e inviare invece il link. Puoi trovare alcuni
+      servizi di condivisione di file che rispettano la nostra privacy su <a href="https://www.privacyguides.org/it/file-sharing/">Privacy
+      Guides</a> <br>Un altro motivo per avere questo limite è che la crittografia
+      PGP è un processo pesante, supportare email di dimensioni più grandi comporterebbe
+      un carico notevole sui server di SimpleLogin.
+  - question: Ho eliminato un alias per sbaglio, posso ripristinarlo?
+    answer: >
+      Quando un'alias viene eliminato, viene messo in un <b>cestino</b> globale e
+      ci assicuriamo che non possa essere usato nuovamente. Tutte le informazioni
+      storiche sull'alias (l'account che ha creato l'alias, i contatti dell'alias,
+      ecc.) vengono eliminate per rispettare la tua privacy. <br>Questo si applica
+      a tutti gli alias creati con i domini di SimpleLogin. <br>Tuttavia puoi ripristinare
+      un'alias creato con il tuo dominio.
+  - question: Dove sono le chiavi PGP di SimpleLogin?
+    answer: >
+      Le nostre chiavi PGP sono sulla pagina <a href="/pgp-key">Chiavi PGP</a>.
+      Se abiliti PGP, tutte le email vengono firmate con la chiave <b>signer@simplelogin.io</b>
+  - question: Come posso eliminare il mio account?
+    answer: >
+      Sul fondo della <a href="https://app.simplelogin.io/dashboard/setting">Pagina
+      delle Impostazioni</a>, puoi eliminare il tuo account. Questa operazione è irreversibile
+      e non abbiamo alcun modo di recuperare i tuoi dati.
+  - question: Posso usare gli alias email per servizi importanti come la banca, il
+      governo, ecc.?
+    answer: >
+      La risposta breve è: Sì, puoi farlo. Noi usiamo gli alias email per gestire
+      la nostra azienda, le nostre tasse e le nostre operazioni bancarie, e finora
+      è tutto apposto :) <br> Una risposta più completa è: il protocollo email è progettato
+      per essere altamente resistente, infatti un'email non viene quasi mai persa.
+      Se SimpleLogin non può consegnare le email alla tua casella di posta, ti avviseremo
+      in modo tale che puoi intervenire adeguatamente. Puoi anche configurare una
+      casella di posta secondaria, in aggiunta alla tua casella di posta primaria,
+      e usarla come backup.
+

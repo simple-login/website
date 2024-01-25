@@ -1,0 +1,68 @@
+  - title: 100 % open source
+    desc: >
+      Gebouwd op open source technologie, zijn <em data-toggle="tooltip" data-html="true"
+      title="Inclusief de server, Chrome/Firefox/Safari extensies, Android/iOS apps.">alle</em>
+      componenten van SimpleLogin ook open source. <br> U zou toch geen zwarte doos
+      vertrouwen om uw e-mails te beheren, of wel?
+  - title: Zend e-mails vanuit alias
+    desc: >
+      Niet alleen kan een alias e-mails ontvangen, het kan ook e-mails <span class="highlight">verzenden</span>.
+      Een alias is een volwaardig e-mailadres.
+  - title: Overal
+    desc: >
+      Beheer uw aliassen op de SimpleLogin website of via onze <em data-toggle="tooltip"
+      data-html="true" title="En andere op Chromium gebaseerde browsers zoals Edge,
+      Opera, Brave, enz.">Chrome</em>, Firefox, Safari-extensies. <br>
+      Of op uw telefoon met Android (Play Store, F-Droid) en iOS-apps.
+  - title: Aangepast domein
+    desc: >
+      Breng uw eigen domein mee en u hoeft niet nog een andere <em data-toggle="tooltip"
+      data-html="true" title="Zoals GSuite, Outlook of degene die door de domeinregistrars
+      worden verkocht">e-mailhostingoplossing</em> te kopen.
+      <br>
+      En weet u dat u met uw domein een <em data-toggle="tooltip" data-html="true"
+      title="Door catch-all in te schakelen, kunt u dynamisch aliassen maken: <b>anything@your-domain.com</b>
+      wordt automatisch aangemaakt de eerste keer dat het een e-mail ontvangt.">catch-all</em>-alias
+      kunt hebben?
+  - title: Gulle prijzen
+    desc: >
+      Alle SimpleLogin-abonnementen hebben <span class="highlight">oneindig</span>
+      aantal doorsturingen/verzendingen en <span class="highlight">onbeperkte</span>
+      bandbreedte. <br> Ontvang en verzend e-mails zoveel als u wilt.
+  - title: Aliases aanmaken op het moment zelf met subdomeinen
+    desc: >
+      Maak uw <em data-toggle="tooltip" data-html="true" title="Een subdomein is een
+      geweldige manier om aliassen snel te organiseren en aan te maken. Gebruik gewoon
+      <b>ALLES@jouw-subdomein.simplelogin.com</b> wanneer u snel een alias nodig hebt,
+      de alias wordt aangemaakt zodra het de eerste e-mail ontvangt.">subdomein</em>
+      aan en gebruik het om snel aliassen te maken zonder de SimpleLogin-web- of mobiele
+      apps te openen. <a href="/blog/subdomains/" title="eenvoudige login subdomeinen">Kom
+      meer te weten</a>.
+  - title: Meerdere mailboxen
+    desc: >
+      Als u al verschillende postvakken hebt, is deze functie iets voor u: u kan uw
+      postvakken aan SimpleLogin toevoegen en kiezen welke u wilt gebruiken bij het
+      aanmaken van een alias. <a href="/blog/introducing-mailbox/" title="meerdere
+      postvakken bij simplelogin">Kom meer te weten</a>.
+  - title: Privacy & Security
+    desc: >
+      Met <em data-toggle="tooltip" data-html="true" title="Pretty Good Privacy (PGP)
+      is een versleutelingsprogramma waarmee u e-mails kunt versleutelen en privé
+      online kunt communiceren.">PGP</em> worden e-mails versleuteld met uw eigen
+      PGP-sleutel voordat ze naar uw postvak worden doorgestuurd. Alleen u kan deze
+      e-mails dan ontcijferen. Dit werkt perfect met Proton Mail of andere PGP-tools
+      (Thunderbird, GPGTools, enzovoort). <br><br>
+      Om uw SimpleLogin-account beter te beveiligen, kun u 2FA inschakelen met <em
+      data-toggle="tooltip" data-html="true" title="TOTP (Tijd-gebaseerde Eenmalige
+      Wachtwoorden) wordt meestal gebruikt met applicaties zoals Google Authenticator
+      of Authy.">TOTP</em> en/of <em data-toggle="tooltip" data-html="true" title="WebAuthn
+      wordt meestal gebruikt met fysieke beveiligingssleutels zoals Yubikey, Google
+      Titan, enz. Uw telefoon en laptop kunnen ook als beveiligingssleutel worden
+      gebruikt.">WebAuthn (FIDO)</em>.
+  - title: Meer dan (gewoon) een alias
+    desc: >
+      De ambitie van SimpleLogin om uw online privacy te beschermen en e-mail is slechts
+      het begin. <br> Blijf op de hoogte van aankomende functies zoals single sign-on,
+      bescherming van uw telefoonnummer en bescherming van uw creditcardgegevens.
+
+
