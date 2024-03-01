@@ -29,9 +29,9 @@ It is prohibited to use a disposable or forwarding email address as SimpleLogin 
 
 The Services are provided exclusively to persons. Accounts registered by bots or any automated methods are not authorized and will be terminated.
 
-Having multiple free accounts on SimpleLogin is not considered an acceptable use of our service (e.g. bulk signups, a large number of free accounts created by a single organization or individual). Free accounts must also only be created and maintained by their effective users (e.g. it is not acceptable to create accounts in somebody else’s name and later transfer credentials to that third party).
+Having multiple accounts on SimpleLogin is not considered an acceptable use of our service. Accounts must also only be created and maintained by their effective users (e.g. it is not acceptable to create accounts in somebody else’s name and later transfer credentials to that third party).
 
-Abusive usage of aliases for third-party services is not acceptable. 
+Abusive usage of aliases for third-party services is not acceptable. For example, bulk signups using email aliases on a third party website is prohibited.
 
 We reserve the right to terminate or suspend access to the Services immediately, without prior notice or liability, for any harmful behavior that includes but not limited to: sending spams, spreading viruses, repeatedly marking emails from SimpleLogin as spam.
 
