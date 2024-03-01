@@ -45,7 +45,7 @@
       など) と完全に連携します。 <br><br>
       SimpleLogin アカウントのセキュリティを強化するには、<em data-toggle="tooltip" data-html="true" title="TOTP
       (Time-based One-time Passwords) is usually used with applications like Google
-      Authenticator or Authy.">TOTP</em> または<em data-toggle="tooltip" data-html="true"
+      Authenticator or Aegis.">TOTP</em> または<em data-toggle="tooltip" data-html="true"
       title="WebAuthn is usually used with physical security keys like Yubikey, Google
       Titan, etc. Your phone and laptop can also be used as a security key.">WebAuthn
       (FIDO)</em>。

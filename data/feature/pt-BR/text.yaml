@@ -55,7 +55,7 @@
       <br><br>
       Para melhorar a segurança da sua conta SimpleLogin, você pode ativar A2F com
       <em data-toggle="tooltip" data-html="true" title="TOTP (One-time Passwords baseado
-      em Tempo) geralmente é usado com aplicativos como Google Authenticator ou Authy.">TOTP</em>
+      em Tempo) geralmente é usado com aplicativos como Proton Pass ou Aegis.">TOTP</em>
       e/ou <em data-toggle="tooltip" data-html="true" title="WebAuthn geralmente é
       usado com chaves de segurança físicas como Yubikey, Google Titan, etc. Seu telefone
       e laptop também podem ser usados como chave de segurança.">WebAuthn (FIDO)</em>.

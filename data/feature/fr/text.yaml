@@ -59,7 +59,7 @@
       Pour mieux sécuriser votre compte SimpleLogin, vous pouvez activer l'authentification
       à deux facteurs (A2F) avec <em data-toggle="tooltip" data-html="true" title="TOTP
       (mot de passe à usage unique basé sur le temps) est généralement utilisé avec
-      des applications comme Google Authenticator ou Authy.">TOTP</em> et/ou <em data-toggle="tooltip"
+      des applications comme Proton Pass ou Aegis.">TOTP</em> et/ou <em data-toggle="tooltip"
       data-html="true" title="WebAuthn est généralement utilisé avec des clés de sécurité
       physiques de type Yubikey, Google Titan… Votre téléphone et votre ordinateur
       portable peuvent aussi être utilisés comme clé de sécurité.">WebAuthn (FIDO)</em>.

@@ -58,7 +58,7 @@
       Для павышэння бяспекі вашага ўліковага запісу SimpleLogin, вы можаце ўключыць
       функцыю двухфактарнай аўтэнтыфікацыі (2ФА) з дапамогай <em data-toggle="tooltip"
       data-html="true" title="TOTP (Time-based One-time Passwords) звычайна выкарыстоўвацца
-      з такімі праграмамі, як Google Authenticator або Authy.">TOTP</em> і/або <em
+      з такімі праграмамі, як Proton Pass або Aegis.">TOTP</em> і/або <em
       data-toggle="tooltip" data-html="true" title="WebAuthn звычайна выкарыстоўваецца
       з фізічнымі ключамі бяспекі такімі, як Yubikey, Google Titan і г.д. Ваш тэлефон
       або ноўтбук таксама могуць выкарыстоўвацца ў якасці ключа бяспекі.">WebAuthn

@@ -55,7 +55,7 @@
     <br><br>
 
     To better secure your SimpleLogin account, you can enable 2FA with
-    <em data-toggle="tooltip" data-html="true" title="TOTP (Time-based One-time Passwords) is usually used with applications like Google Authenticator or Authy.">TOTP</em>
+    <em data-toggle="tooltip" data-html="true" title="TOTP (Time-based One-time Passwords) is usually used with applications like Proton Pass or Aegis.">TOTP</em>
     and/or
     <em data-toggle="tooltip" data-html="true" title="WebAuthn is usually used with physical security keys like Yubikey, Google Titan, etc. Your phone and laptop can also be used as a security key.">WebAuthn (FIDO)</em>.
 

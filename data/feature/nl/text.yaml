@@ -54,8 +54,8 @@
       (Thunderbird, GPGTools, enzovoort). <br><br>
       Om uw SimpleLogin-account beter te beveiligen, kun u 2FA inschakelen met <em
       data-toggle="tooltip" data-html="true" title="TOTP (Tijd-gebaseerde Eenmalige
-      Wachtwoorden) wordt meestal gebruikt met applicaties zoals Google Authenticator
-      of Authy.">TOTP</em> en/of <em data-toggle="tooltip" data-html="true" title="WebAuthn
+      Wachtwoorden) wordt meestal gebruikt met applicaties zoals Proton Pass
+      of Aegis.">TOTP</em> en/of <em data-toggle="tooltip" data-html="true" title="WebAuthn
       wordt meestal gebruikt met fysieke beveiligingssleutels zoals Yubikey, Google
       Titan, enz. Uw telefoon en laptop kunnen ook als beveiligingssleutel worden
       gebruikt.">WebAuthn (FIDO)</em>.

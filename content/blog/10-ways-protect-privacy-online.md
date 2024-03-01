@@ -208,7 +208,7 @@ One of the most popular ones is [Google Authenticator](https://support.google.co
 *   [Proton Pass](https://proton.me/pass)
 *   [Aegis](https://github.com/beemdevelopment/Aegis)
 *   [Duo](https://duo.com/product/multi-factor-authentication-mfa/two-factor-authentication-2fa)
-*   [Authy](https://authy.com/)
+
 
 ### Use PGP when sending important emails from your insecure client
 
@@ -236,7 +236,7 @@ Their pricing can be hard to justify if you're a small user, but it can be quite
 
 ### Only browse sites with SSL certificates
 
-![SSL](/blog/10-way/9.png)
+![SSL](/blog/MK 10-way/9.png)
 
 This shouldn't even be on the list in 2021, but sadly, some websites still don't make use of secure HTTPS protocols through the use of SSL certificates.
 

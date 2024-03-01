@@ -53,7 +53,7 @@
       instrument PGP (Thunderbird, GPGTools, etc). <br><br>
       Pentru a vă securiza mai bine contul SimpleLogin, puteți activa A2F cu <em data-toggle="tooltip"
       data-html="true" title="TOTP (Time-based One-time Passwords) is usually used
-      with applications like Google Authenticator or Authy.">TOTP</em> și/sau <em
+      with applications like Proton Pass or Aegis.">TOTP</em> și/sau <em
       data-toggle="tooltip" data-html="true" title="WebAuthn is usually used with
       physical security keys like Yubikey, Google Titan, etc. Your phone and laptop
       can also be used as a security key.">WebAuthn (FIDO)</em>.
