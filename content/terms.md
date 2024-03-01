@@ -6,7 +6,7 @@ description: "SimpleLogin Terms and Conditions. By using our Services, you are a
 layout: "single_markdown"
 ---
 
-**Last updated: 2024-01-01**
+**Last updated: 2024-03-01**
 
 Thanks for using our products and services ("Services"). The Services are provided by Proton AG, located at Route de la Galaise 32, 1228 Plan-les-Ouates.
 
@@ -29,9 +29,9 @@ It is prohibited to use a disposable or forwarding email address as SimpleLogin 
 
 The Services are provided exclusively to persons. Accounts registered by bots or any automated methods are not authorized and will be terminated.
 
-Having multiple free accounts is not considered an acceptable use of our service (e.g. bulk signups, a large number of free accounts created by a single organization or individual). Abusive usage of aliases is not acceptable. This includes (but it is not limited to) abusive registration on third-party services or bulk managing registrations to third-party sites. 
+Having multiple free accounts on SimpleLogin is not considered an acceptable use of our service (e.g. bulk signups, a large number of free accounts created by a single organization or individual). Free accounts must also only be created and maintained by their effective users (e.g. it is not acceptable to create accounts in somebody else’s name and later transfer credentials to that third party).
 
-Free accounts must also only be created and maintained by their effective users (e.g. it is not acceptable to create accounts in anyone else’s name and later transfer credentials to that third party).
+Abusive usage of aliases for third-party services is not acceptable. 
 
 We reserve the right to terminate or suspend access to the Services immediately, without prior notice or liability, for any harmful behavior that includes but not limited to: sending spams, spreading viruses, repeatedly marking emails from SimpleLogin as spam.
 
