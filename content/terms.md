@@ -31,7 +31,7 @@ The Services are provided exclusively to persons. Accounts registered by bots or
 
 Having multiple accounts on SimpleLogin is not considered an acceptable use of our service. Accounts must also only be created and maintained by their effective users (e.g. it is not acceptable to create accounts in somebody else’s name and later transfer credentials to that third party).
 
-Abusive usage of aliases for third-party services is not acceptable. For example, bulk signups using email aliases on a third party website is prohibited.
+Abusive usage of aliases for third-party services is prohibited. For example, you shouldn't use email aliases for bulk signups on a third party website.
 
 We reserve the right to terminate or suspend access to the Services immediately, without prior notice or liability, for any harmful behavior that includes but not limited to: sending spams, spreading viruses, repeatedly marking emails from SimpleLogin as spam.
 
