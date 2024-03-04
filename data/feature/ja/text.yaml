@@ -45,13 +45,11 @@
       など) と完全に連携します。 <br><br>
       SimpleLogin アカウントのセキュリティを強化するには、<em data-toggle="tooltip" data-html="true" title="TOTP
       (Time-based One-time Passwords) is usually used with applications like Google
-      Authenticator or Aegis.">TOTP</em> または<em data-toggle="tooltip" data-html="true"
+      Proton Pass or Aegis.">TOTP</em> または<em data-toggle="tooltip" data-html="true"
       title="WebAuthn is usually used with physical security keys like Yubikey, Google
       Titan, etc. Your phone and laptop can also be used as a security key.">WebAuthn
       (FIDO)</em>。
   - title: (単なる)エイリアス以上のもの
     desc: >
-      SimpleLogin の目標はオンライン プライバシーを保護することであり、電子メールは始まりにすぎません。 <br> シングル サインオン、電話番号保護、クレジット
-      カード保護などの今後の機能にご期待ください。
-
-
+      SimpleLogin の目標はオンライン プライバシーを保護することであり、電子メールは始まりにすぎません。
+      電話番号保護、クレジットカード保護などの今後の機能にご期待ください。
