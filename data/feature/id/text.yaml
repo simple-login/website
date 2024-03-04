@@ -56,7 +56,7 @@
       dll). <br><br>
       Untuk membuat akun SimpleLogin Anda lebih aman, Anda dapat mengaktifkan 2FA
       dengan <em data-toggle="tooltip" data-html="true" title="TOTP (Time-based One-time
-      Passwords) is usually used with applications like Google Authenticator or Authy.">TOTP</em>
+      Passwords) is usually used with applications like Proton Pass or Aegis.">TOTP</em>
       dan/atau <em data-toggle="tooltip" data-html="true" title="WebAuthn is usually
       used with physical security keys like Yubikey, Google Titan, etc. Your phone
       and laptop can also be used as a security key.">WebAuthn (FIDO)</em>.

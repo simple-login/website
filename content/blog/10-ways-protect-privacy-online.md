@@ -141,7 +141,7 @@ Also, additional perks of using a VPN include being able to [enjoy the full Netf
 
 VPNs can be extremely cheap, and in some cases they're free.
 
-You can get a free VPN by using the [**Brave Browser on Mobile**](https://brave.com/)
+You can get a VPN by using the [**Brave Browser on Mobile**](https://brave.com/)
 
 When on desktop, you can use the [Opera Browser](https://www.opera.com/features/free-vpn), **which includes a VPN with four locations completely free of charge**. Proton VPN offers a free tier as well.
 
@@ -208,7 +208,7 @@ One of the most popular ones is [Google Authenticator](https://support.google.co
 *   [Proton Pass](https://proton.me/pass)
 *   [Aegis](https://github.com/beemdevelopment/Aegis)
 *   [Duo](https://duo.com/product/multi-factor-authentication-mfa/two-factor-authentication-2fa)
-*   [Authy](https://authy.com/)
+
 
 ### Use PGP when sending important emails from your insecure client
 

@@ -58,8 +58,8 @@
       GPGTools, κ.λπ.). <br><br>
       Για να ασφαλίσετε καλύτερα τον λογαριασμό σας SimpleLogin, μπορείτε να ενεργοποιήσετε
       το 2FA με <em data-toggle="tooltip" data-html="true" title="Το TOTP (Time-based
-      One-time Passwords) χρησιμοποιείται συνήθως με εφαρμογές όπως το Google Authenticator
-      ή το Authy.">TOTP</em> ή/και <em data-toggle="tooltip" data-html="true" title="Το
+      One-time Passwords) χρησιμοποιείται συνήθως με εφαρμογές όπως το Proton Pass
+      ή το Aegis.">TOTP</em> ή/και <em data-toggle="tooltip" data-html="true" title="Το
       WebAuthn χρησιμοποιείται συνήθως με φυσικά κλειδιά ασφαλείας όπως το Yubikey,
       το Google Titan κ.λπ. Το τηλέφωνο και ο φορητός υπολογιστής σας μπορούν επίσης
       να χρησιμοποιηθούν ως κλειδί ασφαλείας.">WebAuthn (FIDO).</em>

@@ -56,8 +56,8 @@
       GPGTools gibi) sorunsuz çalışır. <br><br>
       SimpleLogin hesabınız için daha iyi güvenlik sağlamak amacıyla iki adımlı doğrulamayı
       <em data-toggle="tooltip" data-html="true" title="TOTP (tek kullanımlık parolalar)
-      kullanacak şekilde ayarlayabilirsiniz. Genellikle Google Authenticator veya
-      Authy gibi uygulamalarla kullanılır.">tek kullanımlık parolaları</em> ve/veya
+      kullanacak şekilde ayarlayabilirsiniz. Genellikle Proton Pass veya
+      Aegis gibi uygulamalarla kullanılır.">tek kullanımlık parolaları</em> ve/veya
       <em data-toggle="tooltip" data-html="true" title="WebAuthn genellikle Yubikey,
       Google Titan gibi fiziksel güvenlik anahtarlarıyla kullanabilirsiniz. Telefonunuz
       ve dizüstü bilgisayarınız da güvenlik anahtarı olarak kullanılabilir.">WebAuthn

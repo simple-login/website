@@ -53,7 +53,7 @@
       o cualquier herramienta PGP (Thunderbird, GPGTools, etc.). <br><br>
       Para proteger mejor su cuenta de SimpleLogin, puede activar 2FA con <em data-toggle="tooltip"
       data-html="true" title="TOTP (contraseñas de un solo uso basadas en tiempo)
-      se usa generalmente con aplicaciones como Google Authenticator o Authy.">TOTP</em>
+      se usa generalmente con aplicaciones como Proton Pass o Aegis.">TOTP</em>
       y/o <em data-toggle="tooltip" data-html="true" title="WebAuthn generalmente
       se usa con claves de seguridad físicas como Yubikey, Google Titan, etc. Su teléfono
       y laptop también se pueden usar como llave de seguridad.">WebAuthn (FIDO)</em>.

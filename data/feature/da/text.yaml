@@ -51,7 +51,7 @@
       perfekt med Proton Mail eller andre PGP-værktøjer (ThunderBird, GPGTools osv.)<br><br>
       For bedre at sikre din SimpleLogin-konto, kan du aktivere 2FA med <em data-toggle="tooltip"
       data-html="true" title="TOTP (Time-based One-time Passwords) bruges normalt
-      med applikationer som Google Authenticator eller Authy.">TOTP</em> og/eller
+      med applikationer som Proton Pass eller Aegis.">TOTP</em> og/eller
       <em data-toggle="tooltip" data-html="true" title="WebAuthn bruges normalt sammen
       med fysiske sikkerhedsnøgler som Yubikey, Google Titan osv. Din telefon og laptop
       kan også bruges som sikkerhedsnøgle.">WebAuthn (FIDO)</em>.

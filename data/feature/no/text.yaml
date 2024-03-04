@@ -51,7 +51,7 @@
       GPGTools, osv). <br><br>
       For å bedre sikre SimpleLogin-kontoen din, kan du aktivere 2FA med <em data-toggle="tooltip"
       data-html="true" title="TOTP (Time-based One-Time Passwords) brukes vanligvis
-      med applikasjoner som Google Authenticator eller Authy.">TOTP</em> og/eller
+      med applikasjoner som Proton Pass eller Aegis.">TOTP</em> og/eller
       <em data-toggle="tooltip" data-html="true" title="WebAuthn brukes vanligvis
       med fysiske sikkerhetsnøkler som Yubikey, Google Titan, etc. Telefonen og den
       bærbare datamaskinen kan også brukes som sikkerhetsnøkkel.">WebAuthn (FIDO)</em>.

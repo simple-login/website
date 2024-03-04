@@ -54,8 +54,8 @@
       GPGTools atď.). <br><br>
       Aby ste svoj SimpleLogin účet lepšie zabezpečili, môžete povoliť 2FA pomocou
       <em data-toggle="tooltip" data-html="true" title="TOTP (Time-based One-time
-      Passwords) sa zvyčajne používa s aplikáciami ako Google Authenticator alebo
-      Authy.">TOTP</em> a/alebo <em data-toggle="tooltip" data-html="true" title="WebAuthn
+      Passwords) sa zvyčajne používa s aplikáciami ako Proton Pass alebo
+      Aegis.">TOTP</em> a/alebo <em data-toggle="tooltip" data-html="true" title="WebAuthn
       sa zvyčajne používa s fyzickými bezpečnostnými kľúčmi ako Yubikey, Google Titan
       atď. Váš telefón a notebook môžu tiež slúžiť ako bezpečnostný kľúč.">WebAuthn
       (FIDO)</em>.

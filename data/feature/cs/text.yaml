@@ -53,7 +53,7 @@
       aplikací Proton Mail a dalšími nástroji PGP (Thunderbird, GPGTools atd.). <br><br>
       Pro lepší zabezpečení účtu SimpleLogin můžete povolit 2FA pomocí <em data-toggle="tooltip"
       data-html="true" title="TOTP (Time-based One-time Passwords) je obvykle používáno
-      v aplikacích jako je Google Authenticator nebo Authy.">TOTP</em> a/nebo <em
+      v aplikacích jako je Proton Pass nebo Aegis.">TOTP</em> a/nebo <em
       data-toggle="tooltip" data-html="true" title="WebAuthn je obvykle používáno
       ve fyzických bezpečnostních klíčích Yubikey, Google Titan, atd. Váš telefon
       a tablet může být také použit jako bezpečnostní klíč.">WebAuthn (FIDO)</em>.

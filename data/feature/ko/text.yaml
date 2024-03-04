@@ -44,7 +44,7 @@
       전달되기 전에 자신의 PGP 키로 암호화 상태가 유지됩니다. 오직 당신만이 해당 이메일들을 복호화할 수 있죠. Proton Mail 및
       타 PGP 툴 (Thunderbird, GPGTools 등)과도 잘 작동합니다. <br><br>
       SimpleLogin을 더 안전하게 보호하기 위해, <em data-toggle="tooltip" data-html="true" title="TOTP
-      (Time-based One-time Passwords)는 Google Authenticator 및 Authy와 같은 앱들에 쓰이는 기술입니다.">TOTP</em>와
+      (Time-based One-time Passwords)는 Proton Pass 및 Aegis와 같은 앱들에 쓰이는 기술입니다.">TOTP</em>와
       함께 2FA를 활성화 가능하며, 또는 <em data-toggle="tooltip" data-html="true" title="WebAuthn은
       주로 Yubikey, Google Titan 등과 같은 물리 보안 키에 주로 사용됩니다. 소유 중인 스마트폰이나 컴퓨터 또한 보안키로 사용이
       가능합니다.">WebAuthn (FIDO)</em>를 사용할 수 있습니다.

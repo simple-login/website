@@ -54,7 +54,7 @@
       mit Proton Mail oder anderen PGP-Tools (Thunderbird, GPGTools, etc.). <br><br>
       Um dein SimpleLogin-Konto besser abzusichern, kannst du 2FA mit <em data-toggle="tooltip"
       data-html="true" title="TOTP (Time-based One-time Passwords) wird normalerweise
-      mit Anwendungen wie Google Authenticator oder Authy verwendet.">TOTP</em> und/oder
+      mit Anwendungen wie Proton Pass oder Aegis verwendet.">TOTP</em> und/oder
       <em data-toggle="tooltip" data-html="true" title="WebAuthn wird normalerweise
       mit physischen Sicherheitsschlüsseln wie Yubikey, Google Titan usw. verwendet.
       Dein Mobiltelefon und dein Laptop können ebenfalls als Sicherheitsschlüssel
