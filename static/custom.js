@@ -64,7 +64,7 @@ function ctaMounted(){
     // TODO: enable Safari & Mobile links later
     // // Safari Desktop
     // else if (browserName == "Safari" && platform == "desktop"){
-    //   this.link = "https://apps.apple.com/us/app/simplelogin/id6475835429";
+    //   this.link = "https://apps.apple.com/app/id6475835429";
     //   this.text = "Get SimpleLogin for Safari >>"
     // }
 
