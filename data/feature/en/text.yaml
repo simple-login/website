@@ -28,21 +28,17 @@
       title="By enabling catch-all, you can create aliases on-the-fly: <b>anything@your-domain.com</b> will be automatically created the first time it receives an email.">catch-all</em>
     alias with your domain?
 
-- title: Custom subdomains
+- title: On-the-fly aliases with subdomain
   desc: >
-    If you don't have personal domain, you can use our <a href="https://simplelogin.io/docs/subdomain/new/">subdomain feature</a>.
+    If you don't have your own domain, you can use our <em data-toggle="tooltip" data-html="true"
+      title="Subdomain is a great way to organize and create aliases on-the-fly. Just use
+      <b>ANYTHING@your-subdomain.simplelogin.com</b> when you quickly need an alias, the alias will be created when it receives the first email.">subdomain</em> to quickly create aliases without opening SimpleLogin web or mobile apps.
+    <a href="/blog/subdomains/" title="simplelogin subdomains">Learn more</a>.
 
 - title: Generous pricing
   desc: >
     All SimpleLogin plans have <span class="highlight">infinite</span> forwards/sends and <span class="highlight">unlimited</span> bandwidth. <br>
             Receive and send emails as much as you like.
-
-- title: On-the-fly aliases with subdomain
-  desc: >
-    Create your <em data-toggle="tooltip" data-html="true"
-      title="Subdomain is a great way to organize and create aliases on-the-fly. Just use
-      <b>ANYTHING@your-subdomain.simplelogin.com</b> when you quickly need an alias, the alias will be created when it receives the first email.">subdomain</em>, and use it to quickly create aliases without opening SimpleLogin web or mobile apps.
-    <a href="/blog/subdomains/" title="simplelogin subdomains">Learn more</a>.
 
 - title: Multiple mailboxes
   desc: >
@@ -63,5 +59,3 @@
   desc: >
     SimpleLogin's ambition is to protect your online privacy and email is only the beginning. <br>
     Stay tuned for upcoming features like phone number protection and credit card protection.
-
-
