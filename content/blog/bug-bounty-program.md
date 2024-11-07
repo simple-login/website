@@ -10,6 +10,10 @@ layout: "single"
 
 ---
 
+Update Nov 7 2024: this bug bounty program is now superseded by general [Proton bug bounty program](https://proton.me/security/bug-bounty)
+
+------
+
 SimpleLogin makes it easy for you to generate an anonymous email alias anytime you don’t want to share your real email address. As a service to protect your email address, we focused a great deal on security and privacy when we built SimpleLogin. Recently, we asked Securitum, a leading European cybersecurity firm, to run a [security audit on SimpleLogin apps](https://simplelogin.io/blog/security-audit/) and the result was positive overall. Today, we’re taking the step in improving our security and launching a bug bounty program.
 
 SimpleLogin has been open source since we began, and we’ve received multiple contributions from our community that have strengthened all aspects of our service. This bug bounty program provides our community another way to participate in our development, and extends the work that we already do on a daily basis to keep our service safe. With [SimpleLogin joining Proton](https://proton.me/blog/proton-and-simplelogin-join-forces), the Swiss company best known for [Proton Mail](https://proton.me/mail) and [Proton VPN](https://protonvpn.com), we decided to use the same bug bounty model it has successfully run since 2015.
@@ -23,7 +27,7 @@ We invite all security experts worldwide to participate in our bug bounty progra
 
 
 
-* SimpleLogin.io 
+* SimpleLogin.io
 * app.SimpleLogin.io
 * api.SimpleLogin.io
 
@@ -51,7 +55,7 @@ Web applications
 * Server-side code execution bugs
 * REST API vulnerabilities
 
-Server	
+Server
 
 
 
