@@ -6,7 +6,7 @@ hero_desc: >
   <em data-toggle="tooltip" data-html="true" title="Bir e-posta takma adı (ya da kısaca takma ad) e-postaları <b>saklamayan</b> bir e-posta adresidir. Bir takma ada gönderilen tüm e-postalar kişisel e-postanıza iletilir.">E-posta takma adları</em>, çevrim içi anonim olabilir ve gelen kutunuzu istenmeyen e-posta ve oltalama saldırılarına karşı koruyabilirsiniz. <a href="https://github.com/simple-login/">Açık kaynaklı</a>. Avrupa'da geliştirildi ve barındırılıyor.
 hero_cta: >
 
-hero_button_underline: <b>800,000 üzerinde</b> takma ad oluşturuldu.
+hero_button_underline: <b>1,000,000 üzerinde</b> takma ad oluşturuldu.
 seen_on: Önerenler
 how_it_work_title: E-posta takma adı nasıl çalışır? #how it work section
 how_it_work_desc: Gelen kutunuzu e-posta takma adları ile koruyun.

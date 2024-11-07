@@ -6,7 +6,7 @@ hero_desc: >
   「<em data-toggle="tooltip" data-html="true" title="An email alias (or alias for short) is an email address that 電子メールは<b>保存されません</b>。エイリアスに送信されたすべての電子メールは、個人の電子メールに転送されます。">電子メール エイリアス</em>」を使用すると、オンラインで匿名になり、スパムやフィッシングから受信トレイを保護できます。 <a href="https://github.com/simple-login/">オープンソース</a>。 ヨーロッパで作成およびホストされています。
 hero_cta: >
 
-hero_button_underline: <b>800,000 以上</b> のエイリアスが作成されました。
+hero_button_underline: <b>1,000,000 以上</b> のエイリアスが作成されました。
 seen_on: 推薦者
 how_it_work_title: メールエイリアスはどのように機能しますか？ #how it work section
 how_it_work_desc: メールエイリアスで受信トレイを保護しましょう。

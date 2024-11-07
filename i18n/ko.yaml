@@ -6,7 +6,7 @@ hero_desc: >
   <em data-toggle="tooltip" data-html="true" title="이메일 별명은 <b>이메일을 저장하지 않는</b> 이메일 주소입니다: 이메일 별명으로 전송된 모든 이메일은 사용자의 개인 이메일으로 전달됩니다.">이메일 별명</em>으로, 온라인에서 익명 상태를 유지하고 스팸과 피니싱 없이 받은 편지함을 보호할 수 있습니다. <a href="https://github.com/simple-login/">오픈소스이며</a>, 유럽에서 개발 및 운영됩니다.
 hero_cta: >
 
-hero_button_underline: <b>800,000+개</b> 별명 생성됨.
+hero_button_underline: <b>1,000,000+개</b> 별명 생성됨.
 seen_on: 추천
 how_it_work_title: 이메일 별명은 어떻게 작동하나요? #how it work section
 how_it_work_desc: 받은 편지함을 이메일 별명으로 보호하세요.
