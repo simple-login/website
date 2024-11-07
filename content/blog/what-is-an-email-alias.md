@@ -210,7 +210,7 @@ Look, we're a business, and we go through many hassles every single day to make 
 
 **Our free plan gives you 10 aliases you can use and disable whenever you want. Easy.**
 
-If you need more, we offer a premium plan for $30 per year, with heavy discounts for families, students and non-profits.
+If you need more, we offer a premium plan for $36 per year, with heavy discounts for families, students and non-profits.
 
 Also, if you're a business, you can use email aliases to run it without subscribing to Google Suite, and that will save you tons of dollars (article coming about this!).
 

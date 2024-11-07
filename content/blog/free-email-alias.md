@@ -152,7 +152,7 @@ Unlike some of our most popular competitors, **we are completely open source.**
 
 You can get all the premium features for free if you host SimpleLogin on your server.
 
-If you prefer to have an uptime guarantee and work with us to build a safer internet, we also provide premium plans at 30$ per year with great added benefits.
+If you prefer to have an uptime guarantee and work with us to build a safer internet, we also provide premium plans at $36 per year with great added benefits.
 
 ## How many free email aliases can I create for free?
 

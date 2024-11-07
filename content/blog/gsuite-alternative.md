@@ -28,7 +28,7 @@ As an email alias doesn't technically store/index emails, its cost is much lower
 
 ![](/blog/gsuite-alternative/alias.png)
 
-With SimpleLogin premium plan at $30/year or $4/month, you can create an **unlimited** number of email addresses on an **unlimited** number of domains. 
+With SimpleLogin premium plan at $36/year or $4/month, you can create an **unlimited** number of email addresses on an **unlimited** number of domains. 
 
 Says you want to set up your domain **family.com** for Alice, Bob and Carol, there are currently 2 ways to do that in SimpleLogin:
 
