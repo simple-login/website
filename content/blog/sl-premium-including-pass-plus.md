@@ -1,7 +1,7 @@
 ---
 title: Proton Pass premium features are now included in SimpleLogin premium plan
 date: 2024-11-07
-summary: "To simplify subscriptions, SimpleLogin Premium and Proton Pass Plus are now combined, offering features like autofill, secure sharing, Dark Web monitoring, and built-in 2FA. Existing SimpleLogin Premium users keep their $36/year rate, while new subscribers pay $35.88 annually.
+summary: "To simplify subscriptions, SimpleLogin Premium and Proton Pass Plus are now combined, offering features like autofill, secure sharing, Dark Web monitoring, and built-in 2FA. Existing SimpleLogin Premium users keep their $30/year rate, while new subscribers pay $36 annually.
 "
 
 author: Son
@@ -36,7 +36,7 @@ Until now, you had to maintain separate Proton Pass and SimpleLogin subscription
 * Built-in 2FA authenticator to streamline logging in
 * [Dark Web Monitoring](https://proton.me/pass/pass-monitor) that constantly checks for data breaches
 
-If you’re an existing SimpleLogin user, the price of your subscription will stay the same: you’ll still pay $36 annually.
+If you’re an existing SimpleLogin user, the price of your subscription will stay the same: you’ll still pay $30 annually.
 
 For new users, the price for the SimpleLogin annual subscription is increasing from $2.50/month (or $36/year) to $2.99/month (or $35.88/year), starting today.
 
