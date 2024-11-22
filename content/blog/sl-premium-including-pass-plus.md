@@ -38,7 +38,7 @@ Until now, you had to maintain separate Proton Pass and SimpleLogin subscription
 
 If you’re an existing SimpleLogin user, the price of your subscription will stay the same: you’ll still pay $30 annually.
 
-For new users, the price for the SimpleLogin annual subscription is increasing from $2.50/month (or $36/year) to $2.99/month (or $35.88/year), starting today.
+For new users, the price for the SimpleLogin annual subscription is increasing from $2.50/month (or $30/year) to $2.99/month (or $35.88/year), starting today.
 
 
 ## Proton Pass
