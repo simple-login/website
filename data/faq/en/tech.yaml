@@ -17,7 +17,7 @@
 
 - question: How can I delete my account?
   answer: >
-    At the bottom of the <a href="https://app.simplelogin.io/dashboard/setting">Settings page</a>,
+    At the bottom of the <a href="https://app.simplelogin.io/dashboard/account_setting">Settings page</a>,
         you can delete your account. This operation is irreversible and we have no way to recover your data.
 
 - question: Can I use email aliases for important services like bank, government, etc?
