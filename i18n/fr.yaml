@@ -33,7 +33,7 @@ alias_new_email_b_text_2: >
 alias_new_email_c_title: C. Utilisez les alias pour votre entreprise
 alias_new_email_c_text_1: Utilisez des alias en tant qu'<span class="highlight">adresses e-mail professionnelles</span>.
 alias_new_email_c_text_2: >
-  Économisez 6 €/mois 
+  Économisez 6 €/mois
   <i class="fa fa-question-circle" data-toggle="tooltip" data-html="true" title='GSuite est proposé à partir de 6 € par utilisateur et par mois.'></i>pour chaque adresse professionnelle que vous créez avec SimpleLogin.
 alias_new_email_c_text_3: Plus de 50 entreprises font confiance à SimpleLogin pour gérer leurs adresses e-mail.
 testimonial_title: L'avis de nos utilisateurs #Testimonials Section
@@ -63,7 +63,7 @@ pricing_premium_title: Premium
 pricing_free_cta: Créer un compte
 pricing_premium_cta: Commencez à protéger votre adresse e-mail
 pricing_what_people_say: Ce qu'ils disent de SimpleLogin
-pricing_premium_yearly_price: 30 €
+pricing_premium_yearly_price: 36 €
 pricing_premium_yearly_year: an
 pricing_premium_monthly_price: ou 4 €/mois
 faq_tech_question: Questions techniques #<<< FAQ page >>>

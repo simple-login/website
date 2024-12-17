@@ -8,7 +8,7 @@ hero_cta: >
 
 hero_button_underline: <b>Más de 800 000</b> alias creados.
 seen_on: Recomendado por
-how_it_work_title: '¿Cómo funciona un alias de correo?' #how it work section
+how_it_work_title: "¿Cómo funciona un alias de correo?" #how it work section
 how_it_work_desc: Protege tu buzón con los alias de correo.
 how_it_work_1_title: Utiliza alias de correo en cualquier lugar
 how_it_work_1_subtitle: >
@@ -41,7 +41,7 @@ feature_title: Privacidad, seguridad y funciones que amarás #Features section
 feature_subtitle: SimpleLogin es la solución más avanzada en alias de correo.
 faq_title: Preguntas frecuentes #FAQ section
 faq_subtitle: Ayuda
-ready_get_started: '¿Listo para comenzar?'
+ready_get_started: "¿Listo para comenzar?"
 ready_get_started_cta: >
 
 cta_2_title: Únete a más de 50 000 personas que protegen su buzón y privacidad.
@@ -63,7 +63,7 @@ pricing_premium_title: Premium
 pricing_free_cta: Regístrate
 pricing_premium_cta: Comienza a proteger tu correo
 pricing_what_people_say: Lo que la gente dice acerca de SimpleLogin
-pricing_premium_yearly_price: 30 $
+pricing_premium_yearly_price: 36 $
 pricing_premium_yearly_year: año
 pricing_premium_monthly_price: o $4 facturado cada mes
 faq_tech_question: Preguntas técnicas #<<< FAQ page >>>
