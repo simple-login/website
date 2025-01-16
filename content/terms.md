@@ -6,7 +6,7 @@ description: "SimpleLogin Terms and Conditions. By using our Services, you are a
 layout: "single_markdown"
 ---
 
-**Last updated: 2024-03-01**
+**Last updated: 2025-01-16**
 
 Thanks for using our products and services ("Services"). The Services are provided by Proton AG, located at Route de la Galaise 32, 1228 Plan-les-Ouates.
 
@@ -17,7 +17,7 @@ In the rare case that additional terms or product requirements (including age re
 ## 1. Using our services
 You must follow any policies made available to you within the Services.
 
-Don't misuse our Services. For example, don't interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. Any kind of reverse-engineering, without prior agreement, is prohibited. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations. 
+Don't misuse our Services. For example, don't interfere with our Services or try to access them using a method other than the interface and the instructions that we provide. Any kind of reverse-engineering, without prior agreement, is prohibited. You may use our Services only as permitted by law, including applicable export and re-export control laws and regulations.
 
 Do not use any resource created within the Services for illegal activity. Using SimpleLogin email alias on illegal website is therefore prohibited.
 
@@ -25,7 +25,7 @@ We may suspend or stop providing our Services to you if you do not comply with o
 
 It is prohibited to use the Services to send spams, junk mail, bulk emails. It is also forbidden to use your aliases to forward spams from "spambots". Any activity that aims to deteriorate the Services email delivery capability is prohibited and can lead to immediate account suspension.
 
-It is prohibited to use a disposable or forwarding email address as SimpleLogin "mailbox".
+It is prohibited to use a disposable or forwarding email address to register for a SimpleLogin account or to use it as a SimpleLogin "mailbox".
 
 The Services are provided exclusively to persons. Accounts registered by bots or any automated methods are not authorized and will be terminated.
 
@@ -45,7 +45,7 @@ When you respond to SimpleLogin emails we collect your email address, name and a
 
 ### B. Information that we collect automatically on our Sites.
 
-We use [Plausible](https://plausible.io), an open-source and privacy-aware web statistics service. Plausible does not collect any personal data or personally identifiable information (PII), does not use cookies and respect the privacy of the website visitors. 
+We use [Plausible](https://plausible.io), an open-source and privacy-aware web statistics service. Plausible does not collect any personal data or personally identifiable information (PII), does not use cookies and respect the privacy of the website visitors.
 Plausible data policy is available at https://plausible.io/data-policy
 
 ## 2. Privacy
