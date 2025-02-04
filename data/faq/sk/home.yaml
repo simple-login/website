@@ -60,8 +60,7 @@
   - question: V čom sa SimpleLogin líši od dočasných emailových služieb?
     answer: >
       SimpleLogin aliasy sú trvalé, na rozdiel od služieb poskytujúcich dočasné emailové
-      adresy, ako napr. <a href="https://temp-mail.org/en/">temp-mail.org</a>, <a
-      href="https://10minutemail.net">10minutemail.net</a> atď. <br> SimpleLogin taktiež
+      adresy, ako napr. <a href="https://temp-mail.org/en/">temp-mail.org</a>. <br> SimpleLogin taktiež
       neukladá emaily, tie sú uložené vo vašej schránke. <br> SimpleLogin je jednoducho
       iný produkt pre iné potreby.
   - question: Aký je obchodný model SimpleLogin?

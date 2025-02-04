@@ -63,8 +63,7 @@
   - question: Wie unterscheidet sich SimpleLogin von temporären E-Mail-Diensten?
     answer: >
       SimpleLogin Aliase sind dauerhaft, im Gegensatz zu den temporären E-Mail-Adressen,
-      die bei Diensten wie <a href="https://temp-mail.org/en/">temp-mail.org</a>,
-      <a href="https://10minutemail.net">10minutemail.net</a>, usw.<br>SimpleLogin
+      die bei Diensten wie <a href="https://temp-mail.org/en/">temp-mail.org</a>. <br>SimpleLogin
       speichert auch keine E-Mails, die werden in deinem Postfach gespeichert. <br>
       SimpleLogin ist einfach ein anderes Produkt für unterschiedliche Bedürfnisse.
   - question: Was ist das Geschäftsmodell von SimpleLogin?

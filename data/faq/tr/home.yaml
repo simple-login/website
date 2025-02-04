@@ -63,7 +63,7 @@
   - question: SimpleLogin neden geçici e-posta hizmetlerinden farklıdır?
     answer: >
       SimpleLogin takma adı, <a href="https://temp-mail.org/en/">temp-mail.org</a>,
-      <a href="https://10minutemail.net">10minutemail.net</a> gibi hizmetlerde oluşturulan
+      gibi hizmetlerde oluşturulan
       geçici e-posta adreslerinin aksine kalıcıdır.<br>SimpleLogin ayrıca e-postaları
       tutmaz, e-posta kutunuza gönderir. <br>SimpleLogin farklı bir gereksinim için
       farklı bir üründür.

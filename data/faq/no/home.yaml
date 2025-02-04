@@ -59,8 +59,8 @@
   - question: Hvor SimpleLogin er annerledes enn midlertidige e-posttjenester?
     answer: >
       SimpleLogin-aliaset er permanent i motsetning til de midlertidige e-postadressene
-      som er opprettet på tjenester som <a href="https://temp-mail.org/en/">temp-mail.org</a>,
-      <a href="https://10minutemail.net">10minutemail.net</a>, osv. <br> SimpleLogin
+      som er opprettet på tjenester som <a href="https://temp-mail.org/en/">temp-mail.org</a>.
+       <br> SimpleLogin
       lagrer heller ikke e-postene, de lagres i postkassen din. <br> SimpleLogin er
       rett og slett et annerledes produkt for et annet behov.
   - question: Hva er SimpleLogins forretningsmodell?

@@ -64,8 +64,7 @@
   - question: რით განსხვავდება SimpleLogin სხვა დროებითი ელფოსტის სერვისებისგან?
     answer: >
       SimpleLogin-ის ფსევდონიმები, მუდმივია, ისეთი დროებითი ელფოსტის მისამართებისგან
-      განსხვავებით, როგორიცაა<a href="https://temp-mail.org/en/">temp-mail.org</a>,<a
-      href="https://10minutemail.net">10minutemail.net</a> და სხვ.<br>ასევე, SimpleLogin
+      განსხვავებით, როგორიცაა<a href="https://temp-mail.org/en/">temp-mail.org</a>. <br>ასევე, SimpleLogin
       არ ინახავს ელფოსტებს. ის თქვენს საფოსტო ყუთში ინახება.<br> SimpleLogin, უბრალოდ,
       სხვა პროდუქტია სხვა მოთხოვნებისთვის.
   - question: რა არის SimpleLogin-ის ბიზნეს-მოდელი?

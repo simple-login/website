@@ -65,8 +65,8 @@
   - question: Com'è SimpleLogin differente dai servizi di email temporanee?
     answer: >
       Gli alias di SimpleLogin sono permanenti a differenza degli indirizzi email
-      temporanei creati con servizi come <a href="https://temp-mail.org/en/">temp-mail.org</a>,
-      <a href="https://10minutemail.net">10minutemail.net</a>, ecc. <br> SimpleLogin
+      temporanei creati con servizi come <a href="https://temp-mail.org/en/">temp-mail.org</a>.
+       <br> SimpleLogin
       inoltre non memorizza le email, queste vengono archiviate nella tua casella
       di posta. <br> SimpleLogin è semplicemente un prodotto diverso per un uso diverso.
   - question: Qual è il modello di business di SimpleLogin?

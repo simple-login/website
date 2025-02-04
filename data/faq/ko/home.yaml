@@ -41,7 +41,7 @@
       재현 중인 흥미로운 기능들에 대한 로드맵에 대해 알아보실 수 있습니다.</li> </ul>
   - question: SimpleLoginr과 임시 이메일 서비스와의 차이점이 뭐죠?
     answer: >
-      SimpleLogin 별명은 <a href="https://temp-mail.org/en/">temp-mail.org</a>, <a href="https://10minutemail.net">10minutemail.net</a>
+      SimpleLogin 별명은 <a href="https://temp-mail.org/en/">temp-mail.org</a>
       등과 같은 서비스에서 생성된 임시 이메일 주소와는 달리 영구적입니다. <br> SimpleLogin은 또한 이메일을 저장하지 않으며, 받은
       편지함에 저장됩니다. <br> SimpleLogin은 이들과 완전히 다른 서비스라고 보실 수 있습니다.
   - question: SimpleLogin의 비즈니스 모델이 뭐죠?

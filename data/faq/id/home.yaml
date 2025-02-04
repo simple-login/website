@@ -68,7 +68,7 @@
   - question: Apa saja perbedaan SimpleLogin dengan layanan surel sementara?
     answer: >
       Tidak seperti alamat surel sementara yang dihasilkan oleh layanan seperti <a
-      href="https://temp-mail.org/en/">temp-mail.org</a>, <a href="https://10minutsurel.net">10minutsurel.net</a>,
+      href="https://temp-mail.org/en/">temp-mail.org</a>,
       dan lain sebagainya, alias SimpleLogin bersifat permanen. <br> Selain itu, SimpleLogin
       juga tidak menyimpan surel apa pun, karena seluruh surel yang masuk akan tersimpan
       pada kotak masuk Anda. <br> SimpleLogin adalah produk yang berbeda untuk kebutuhan

@@ -64,8 +64,8 @@
   - question: Cât de diferit este SimpleLogin față de serviciile temporare de e-mail?
     answer: >
       Aliasurile SimpleLogin sunt permanente, spre deosebire de adresele de e-mail
-      temporare create pe servicii precum <a href="https://temp-mail.org/en/">temp-mail.org</a>,
-      <a href="https://10minutemail.net">10minutemail.net</a> etc. <br> De asemenea,
+      temporare create pe servicii precum <a href="https://temp-mail.org/en/">temp-mail.org</a>.
+       <br> De asemenea,
       SimpleLogin nu stochează mesajele, acestea sunt stocate în adresa reală de e-mail.
       <br> SimpleLogin este pur și simplu un produs diferit pentru o nevoie diferită.
   - question: Care este modelul de afaceri al SimpleLogin?

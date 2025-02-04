@@ -40,8 +40,7 @@
       </ul>
   - question: SimpleLoginは一時的なメールサービスとどう違うのですか？
     answer: >
-      SimpleLogin のエイリアスは、<a href="https://temp-mail.org/en/">temp-mail.org</a>や<a
-      href="https://10minutemail.net">10 minutesmail.net</a>などのサービスで作成される一時的な電子メール
+      SimpleLogin のエイリアスは、<a href="https://temp-mail.org/en/">temp-mail.org</a>やなどのサービスで作成される一時的な電子メール
       アドレスとは異なり、永続的です。<br> また、SimpleLogin は電子メールを保存せず、メールボックスに保存します。 <br> SimpleLogin
       は、単に異なるニーズに応じた異なる製品です。
   - question: SimpleLoginのビジネスモデルは？

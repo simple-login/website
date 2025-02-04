@@ -61,8 +61,7 @@
       midlertidige e-mails?
     answer: >
       SimpleLogin aliasser er permanente i forhold til midlertidige e-mailadresser
-      opretter på tjenester som <a href="https://temp-mail.org/en/">temp-mail.org</a>,
-      <a href="https://10minutemail.net">10minutemail.net</a> osv. <br> SimpleLogin
+      opretter på tjenester som <a href="https://temp-mail.org/en/">temp-mail.org</a>. <br> SimpleLogin
       gemmer heller ikke e-mails, de er gemt i din postkasse. <br> SimpleLogin er
       simpelthen et andet produkt til et andet behov.
   - question: Hvad er SimpleLogin's forretningsmodel?
