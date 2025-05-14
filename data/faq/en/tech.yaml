@@ -5,9 +5,14 @@
 
 - question: I accidentally deleted an alias, can I restore it?
   answer: >
-    When an alias is deleted, it's put into a global <b>trash</b> and we make sure that it can't be reused. All historic information on the alias (the account that creates the alias, alias contacts, etc) are deleted to respect your privacy. <br>
-    This applies to all aliases created with SimpleLogin domains. <br>
-    You can however restore an alias created with your own domain.
+    When an alias is deleted, depending on your setting, it's either <br>
+    - immediately put into a global <b>trash</b> and we make sure that it can't be reused. All historic information on the alias (the account that creates the alias, alias contacts, etc) are deleted to respect your privacy. <br>
+    
+    - moved to the global trash after 30 days. In the meantime, you can restore it. This is the default option. <br> <br>
+    
+    The above applies to all aliases created with SimpleLogin domains. <br>
+    For aliases created with your own domain or provided SimpleLogin subdomains, you can always restore them. <br>
+    
 
 - question: Where are SimpleLogin PGP keys?
   answer: >
