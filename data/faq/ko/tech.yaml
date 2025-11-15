@@ -1,7 +1,7 @@
   - question: 최대 이메일 크기가 어떻게 되죠?
     answer: >
       현재 제한은 25MB 입니다. 대용량 첨부 파일의 경우, 파일 업로드 서비스에서 링크를 받아 사용하시는 것을 추천합니다. 프라이버시를 존중하는
-      서비스를 찾으시다면 <a href="https://www.privacyguides.org/file-sharing/">프라이버시 가이드</a>를
+      서비스를 찾으시다면 <a href="https://www.privacyguides.org/en/file-sharing/">프라이버시 가이드</a>를
       참고하시는 것도 좋은 방법입니다.<br> 파일 크기 제한이 있는 이유는 PGP 암호화는 서버에 큰 과부화를 일으키기 때문에, 부득이하게
       해당 설정을 마련하게 되었습니다.
   - question: 별명을 실수로 지워버렸습니다. 복구 가능할까요?

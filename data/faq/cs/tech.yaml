@@ -2,7 +2,7 @@
     answer: >
       Aktuální limit je 25 MB. V případě velkých příloh doporučujeme použít službu
       pro odesílání souborů a místo toho odeslat odkaz. Některé služby pro sdílení
-      souborů, které respektují naše soukromí, najdete v <a href="https://www.privacyguides.org/file-sharing/">Příručce
+      souborů, které respektují naše soukromí, najdete v <a href="https://www.privacyguides.org/en/file-sharing/">Příručce
       soukromím</a> <br> Dalším důvodem tohoto omezení je, že PGP šifrování je náročný
       proces a podpora větší velikosti značně zatěžuje servery SimpleLogin.
   - question: Omylem jsem smazal/a alias, mohu ho obnovit?
