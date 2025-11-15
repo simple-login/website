@@ -55,8 +55,6 @@ Though practical, plus sign trick is well-known and your real email address can 
 
 Email addresses that contain the plus sign are sometimes (incorrectly) considered invalid. Even worse, a website can silently drop the part after the plus sign and use your real email address instead.
 
-If you use Gmail, you can't also reply from the subaddress. When you reply to an email sent to a `name+newsletter@gmail.com`, the reply will come from your real email address `name@gmail.com`
-
 {{< rawhtml >}}
 <br>
   <div style="padding: 35px; background-color: #f8f9fa; border-radius: 15px;">
