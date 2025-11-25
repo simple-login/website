@@ -2,7 +2,7 @@
     answer: >
       Den nuværende grænse er 25 MB. Ved store vedhæftede filer foreslår vi, at du
       bruger en filuploadtjeneste og sender linket i stedet. Du kan finde nogle fildelingstjenester,
-      der respekterer vores privatliv, på <a href="https://www.privacyguides.org/file-sharing/">Privacy
+      der respekterer vores privatliv, på <a href="https://www.privacyguides.org/en/file-sharing/">Privacy
       Guides</a> <br> En anden grund til at have denne grænse er, at PGP-kryptering
       er en tung proces, og at understøttelse af en større størrelse lægger en stor
       belastning på SimpleLogin-serverne.

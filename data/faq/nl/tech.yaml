@@ -2,7 +2,7 @@
     answer: >
       De huidige limiet is 25 MB. Voor grote bijlagen raden we aan om een bestand-uploadservice
       te gebruiken en in plaats daarvan de link te verzenden. U kunt enkele bestandsdelingsservices
-      vinden die onze privacy respecteren op <a href="https://www.privacyguides.org/file-sharing/">Privacy
+      vinden die onze privacy respecteren op <a href="https://www.privacyguides.org/nl/file-sharing/">Privacy
       Guides</a>. <br> Een andere reden voor deze limiet is dat PGP-encryptie een
       zwaar proces is; het ondersteunen van een grotere grootte legt een aanzienlijke
       belasting op de servers van SimpleLogin.

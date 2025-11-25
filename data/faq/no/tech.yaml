@@ -2,7 +2,7 @@
     answer: >
       Den nåværende grensen er 25 MB. For store vedlegg foreslår vi at du bruker en
       filopplastingstjeneste og sender koblingen i stedet. Du kan finne noen fildelingstjenester
-      som respekterer personvernet vårt på <a href="https://www.privacyguides.org/file-sharing/">Veiledninger
+      som respekterer personvernet vårt på <a href="https://www.privacyguides.org/en/file-sharing/">Veiledninger
       om personvern</a><br>En annen grunn til å ha denne grensen er at PGP-kryptering
       er en tung prosess, å støtte en større størrelse legger en betydelig belastning
       på SimpleLogin-tjenere.

@@ -2,7 +2,7 @@
     answer: >
       O limite atual é de 25 MB. Para anexos grandes, sugerimos usar um serviço de
       upload de arquivos e enviar o link. Você pode encontrar alguns serviços de compartilhamento
-      de arquivos que respeitam nossa privacidade nos <a href="https://www.privacyguides.org/file-sharing/">Guias
+      de arquivos que respeitam nossa privacidade nos <a href="https://www.privacyguides.org/en/file-sharing/">Guias
       de Privacidade</a>.<br> Outro motivo de ter esse limite é que a criptografia
       PGP é um processo pesado, suportar um tamanho maior coloca uma carga importante
       nos servidores SimpleLogin.
