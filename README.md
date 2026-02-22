@@ -7,7 +7,24 @@ This repo contains the code behind the main website at https://www.simplelogin.i
 
 It's developed using https://gohugo.io, a static site generator.
 
-To run it locally, please install `hugo` first (see https://gohugo.io/getting-started/quick-start/ for how to install Hugo), then run the following command:
+To run it locally, please install `hugo` first. This repo uses v0.92.1.
+
+**Install Hugo on macOS (Apple Silicon):**
+
+```bash
+mkdir -p ~/.local/bin
+curl -L https://github.com/gohugoio/hugo/releases/download/v0.92.1/hugo_extended_0.92.1_macOS-ARM64.tar.gz -o /tmp/hugo.tar.gz
+tar -xzf /tmp/hugo.tar.gz -C /tmp hugo
+mv /tmp/hugo ~/.local/bin/hugo
+```
+
+Make sure `~/.local/bin` is in your PATH (add to `~/.zshrc` if needed):
+
+```bash
+export PATH="$HOME/.local/bin:$PATH"
+```
+
+Then run the following command:
 
 ```bash
 hugo server
