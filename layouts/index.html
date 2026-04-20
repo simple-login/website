@@ -11,54 +11,55 @@
 <main id="content" role="main">
   <div class="bg-white">
     <!-- Hero Section -->
-    <div class="container mb-3">
-      <div class="row justify-content-lg-between mb-1">
+    <section class="container sl-hero-section">
+      <div class="row align-items-lg-center justify-content-lg-between">
 
-        <!-- Hero text & CTA-->
-        <div class="col-lg-6 mb-1 mb-lg-0 space-top-3">
-
-          <div class="mb-5">
-
-
-            <h1 class="h4 font-weight-semi-bold mb-2" style="color: #ea319f">
-              {{ i18n "hero" }}
+        <!-- Hero text & CTA -->
+        <div class="col-lg-6 sl-hero-copy-col">
+          <div class="sl-hero-copy-wrap">
+            <h1 class="sl-hero-headline mb-3">
+              {{ replace (i18n "hero") (i18n "hero_highlight_word") (print "<span class=\"sl-hero-headline-highlight\">" (i18n "hero_highlight_word") "</span>") | safeHTML }}
             </h1>
 
             <div>
               {{ i18n "seo_script_product" | safeHTML }}
             </div>
 
-            <p class="mb-2">
+            <p class="sl-hero-description mb-2">
               {{ i18n "hero_desc" | safeHTML }}
             </p>
 
-          </div>
-
-          <div class="mb-3">
-            <a href="https://app.simplelogin.io/auth/register" class="btn btn-primary btn-wide transition-3d-hover mb-2 mb-sm-0 mr-3">
-              <span style="font-weight: 400;">
+            <div class="sl-hero-cta-row d-flex flex-wrap align-items-center mt-4">
+              <a href="https://app.simplelogin.io/auth/register"
+                 class="btn sl-hero-btn sl-hero-btn-primary rounded-pill">
                 {{ i18n "hero_cta" }}
-              </span>
-            </a>
-          </div>
+              </a>
+              <a href="#how-it-works"
+                 class="btn sl-hero-btn sl-hero-btn-secondary rounded-pill">
+                {{ i18n "hero_cta_secondary" }}
+              </a>
+            </div>
 
-          <div class="mt-2 d-flex" style="height: 18px">
-            <img src="/images/5-stars.svg" style="max-width: 100px;" alt="Five stars">
-            <span class="text-secondary ml-2 align-center" style="font-size: 12px; font-weight: 400">
-              {{ i18n "hero_button_underline" | safeHTML }}
-            </span>
+            <div class="sl-hero-social-proof d-flex align-items-center mt-4">
+              <img src="/images/5-stars.svg" class="sl-hero-stars" alt="" aria-hidden="true">
+              <div class="sl-hero-stat">
+                <div class="sl-hero-stat-value">{{ i18n "hero_stat_value" }}</div>
+                <div class="sl-hero-stat-label">{{ i18n "hero_stat_label" }}</div>
+              </div>
+            </div>
           </div>
-
         </div>
         <!-- End Hero text & CTA -->
 
-        <div class="col-lg-6 mt-3">
-          <!-- SVG Illustration -->
-          <img src="/images/hero.svg" class="w-100" alt="Hero Image - Different email address for each website">
+        <div class="col-lg-6 d-none d-md-block sl-hero-media-col">
+          <div class="sl-hero-illustration-bg">
+            <div class="sl-hero-illustration-card">
+              <img src="/images/hero.svg" class="w-100 sl-hero-illustration" alt="" aria-hidden="true">
+            </div>
+          </div>
         </div>
       </div>
-
-    </div>
+    </section>
   </div>
   <!-- End Hero Section -->
 
@@ -150,7 +151,7 @@
   <!-- End SVG Top Shape -->
 
   <!-- How it works Section -->
-  <div class="bg-light" style="min-height: 50vh;">
+  <div id="how-it-works" class="bg-light" style="min-height: 50vh;">
     <div class="container space-md-1 pt-4 pb-7">
       <!-- Title -->
       <div class="w-md-80 w-lg-70 text-center mx-md-auto mb-2 py-5">
