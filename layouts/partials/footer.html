@@ -228,14 +228,6 @@
 <!-- JS Plugins Init. -->
 <script>
   $(window).on('load', function () {
-    // initialization of HSMegaMenu component
-    $('.js-mega-menu').HSMegaMenu({
-      event: 'hover',
-      pageContainer: $('.container'),
-      breakpoint: 767.98,
-      hideTimeOut: 0
-    });
-
     // initialization of svg injector module
     $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
   });
@@ -266,6 +258,133 @@
     // initialization of go to
     $.HSCore.components.HSGoTo.init('.js-go-to');
   });
+</script>
+
+<script>
+  (function () {
+    'use strict';
+
+    var navBar    = document.getElementById('navBar');
+    var closeBtn  = document.querySelector('.sl-drawer-close');
+    var hamburger = document.querySelector('.navbar-toggler');
+    var BREAKPOINT = navBar ? parseInt(navBar.getAttribute('data-breakpoint'), 10) : 1278;
+
+    if (!navBar || !hamburger) return;
+
+    function openDrawer() {
+      navBar.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+      hamburger.setAttribute('aria-expanded', 'true');
+    }
+
+    function closeDrawer() {
+      navBar.classList.remove('is-open');
+      document.body.style.overflow = '';
+      hamburger.setAttribute('aria-expanded', 'false');
+    }
+
+    hamburger.addEventListener('click', function () {
+      navBar.classList.contains('is-open') ? closeDrawer() : openDrawer();
+    });
+
+    if (closeBtn) closeBtn.addEventListener('click', closeDrawer);
+
+    window.addEventListener('resize', function () {
+      if (window.innerWidth >= BREAKPOINT) closeDrawer();
+    });
+  }());
+</script>
+
+<script>
+  (function () {
+    'use strict';
+
+    var navBar = document.getElementById('navBar');
+    var BREAKPOINT = navBar ? parseInt(navBar.getAttribute('data-breakpoint'), 10) : 1278;
+    var overlay    = document.getElementById('sl-nav-overlay');
+    var panels     = Array.from(document.querySelectorAll('.sl-mega-panel'));
+
+    if (!panels.length) return;
+
+    // Remember original DOM positions so panels can be restored after mobile use
+    var origins = new Map(panels.map(function (p) {
+      return [p, { parent: p.parentNode, next: p.nextSibling }];
+    }));
+
+    var active = { panel: null, trigger: null };
+
+    function isDesktop() {
+      return window.innerWidth >= BREAKPOINT;
+    }
+
+    function restoreOrigin(panel) {
+      var o = origins.get(panel);
+      if (panel.parentNode !== o.parent) {
+        o.parent.insertBefore(panel, o.next);
+      }
+    }
+
+    function positionPanel(panel, trigger) {
+      var rect = trigger.getBoundingClientRect();
+      var left = Math.min(rect.left, window.innerWidth - panel.offsetWidth - 16);
+      panel.style.top  = rect.bottom + 'px';
+      panel.style.left = Math.max(0, left) + 'px';
+    }
+
+    function close() {
+      if (!active.panel) return;
+      active.panel.classList.remove('is-open');
+      active.panel.style.top  = '';
+      active.panel.style.left = '';
+      active.trigger.setAttribute('aria-expanded', 'false');
+      restoreOrigin(active.panel);
+      if (overlay) overlay.classList.remove('is-visible');
+      active.panel = active.trigger = null;
+    }
+
+    function open(panel, trigger) {
+      if (active.panel === panel) { close(); return; }
+      if (active.panel) close();
+
+      if (!isDesktop()) {
+        // Slot panel into the drawer directly after its trigger's <li>
+        trigger.closest('li').insertAdjacentElement('afterend', panel);
+      }
+
+      panel.classList.add('is-open');
+      trigger.setAttribute('aria-expanded', 'true');
+      active.panel   = panel;
+      active.trigger = trigger;
+
+      if (isDesktop()) {
+        positionPanel(panel, trigger);
+        if (overlay) overlay.classList.add('is-visible');
+      }
+    }
+
+    document.addEventListener('click', function (e) {
+      var trigger = e.target.closest('#header [aria-haspopup="true"][aria-controls]');
+
+      if (trigger) {
+        var panel = document.getElementById(trigger.getAttribute('aria-controls'));
+        if (panel && panel.classList.contains('sl-mega-panel')) {
+          e.stopPropagation();
+          open(panel, trigger);
+          return;
+        }
+      }
+
+      if (active.panel && !active.panel.contains(e.target)) close();
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') close();
+    });
+
+    if (overlay) overlay.addEventListener('click', close);
+
+    window.addEventListener('resize', close);
+  }());
 </script>
 <script src="/local-storage-polyfill.js"></script>
 
