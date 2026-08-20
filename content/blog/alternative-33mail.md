@@ -95,7 +95,7 @@ SimpleLogin [adds support for PGP on March 2020](https://simplelogin.io/blog/int
 
 33mail only accepts fiat payments, as in $, €, or £. 
 
-SimpleLogin **now integrates with Coinbase Commerce, which means you can pay with your favorite cryptocurrencies at the checkout.**
+SimpleLogin **now integrates with [ProxyStore](https://proxysto.re/en/index.html), which means you can pay with your favorite cryptocurrencies at the checkout.**
 
 ### HaveIBeenPwned integration
 

@@ -94,7 +94,7 @@ Burner Mail advertises a [data breach checker](https://burnermail.io/resources/d
 
 Burner Mail accepts fiat payments and you can pay via credit card or PayPal.
 
-Cryptocurrency is an anonymous payment solution and therefore resonates with SimpleLogin goal of protecting our privacy. Therefore, in addition to the credit card and PayPal payment, SimpleLogin supports popular cryptocurrencies at the checkout, thanks to CoinBase Commerce integration.
+Cryptocurrency is an anonymous payment solution and therefore resonates with SimpleLogin goal of protecting our privacy. Therefore, in addition to the credit card and PayPal payment, SimpleLogin supports popular cryptocurrencies at the checkout, thanks to [ProxyStore](https://proxysto.re/en/index.html) integration.
 
 
 ### No Ads, no tracking
