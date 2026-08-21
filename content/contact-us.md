@@ -7,7 +7,7 @@ layout: "single_markdown"
 
 Hi! Our [FAQ](/faq/) and [documentation](https://simplelogin.io/docs/) is a great place for most answers. Our [privacy page](/privacy/) and [security page](/security/) contain a great deal of information on what data we store and for how long. 
 
-If you can’t find what you need there and if you have a SimpleLogin account, please contact us via our [support page](https://app.simplelogin.io/dashboard/support). You can also reach out to us by email at support@simplelogin.zendesk.com
+If you can’t find what you need there and if you have a SimpleLogin account, please contact us via our [support page](https://app.simplelogin.io/dashboard/support). You can also reach out to us by email at simplelogin@support.proton.me
 
 If you need help, feel free to join our official [forum](https://github.com/simple-login/app/discussions)
 

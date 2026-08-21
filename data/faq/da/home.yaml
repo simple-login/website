@@ -112,7 +112,7 @@
   - question: Jeg kan ikke finde et svar til mit spørgsmål her
     answer: >
       Du kan finde en liste over alle hyppige spørgsmål/svar på <a href="/faq/">FAQ-siden</a>.
-      <br> Hvis du ikke kan finde svaret der, kan du sende sit spørgsmål til <a href="mailto:support@simplelogin.zendesk.com">support@simplelogin.zendesk.com</a>.
+      <br> Hvis du ikke kan finde svaret der, kan du sende sit spørgsmål til <a href="mailto:simplelogin@support.proton.me">simplelogin@support.proton.me</a>.
       <br> Du kan også oprette et issue i vores <a href="https://github.com/simple-login/app/issues">GitHub
       Issues</a>.
 
