@@ -45,7 +45,8 @@ Linux isn't really an operating system. It's more like an ecosystem of different
 
 The reason why so many Linux distributions exist is simply because the Linux community is driven by the love for open-source. This is also why Ubuntu and Debian (another distribution) are fairly similar, as Ubuntu is in fact based on Debian.
 
-Linux requires some technical know-how, and compared to MacOS, it doesn't just work out of the box. You will need to configure things, browse the internet to figure out why some app has a bug, etc. It's definitely **not** a fitted for the average user. Additionally, while there are a lot of great open-source apps, the user experience can be a problem on Linux. Again, it doesn't work out of the box like MacOS does.
+Linux does require some technical know-how, and compared to macOS, it may not always just work out of the box. You may occasionally need to configure things, search online to understand why an application has a bug, or troubleshoot hardware and software issues. For this reason, Linux as a whole may not be the most straightforward choice for the average user. However, this varies significantly between distributions. **Linux Mint, for example, can be tried and used without much technical knowledge**, especially for everyday tasks such as browsing, watching videos, using office applications, and managing files. It offers a relatively familiar desktop experience for Windows users. While there are many excellent open-source applications available on Linux, the user experience can vary from application to application, and some may require additional configuration. So, while Linux Mint can be quite accessible to beginners, Linux in general still offers a more hands-on experience than macOS.
+
 
 ### Which one should you chose?
 
