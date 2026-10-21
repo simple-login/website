@@ -12,6 +12,12 @@ layout: "single"
 
 # Pay once for privacy forever with SimpleLogin and Proton Pass Lifetime 
 
+---
+
+**Update Oct 21 2026**: the SimpleLogin and Proton Pass Lifetime deal is now a permanent offer and is no longer limited to the 2024 end-of-year sale. Please note that we may pause the offer at any time.
+
+---
+
 For a limited time, you can get the best of SimpleLogin and Proton Pass forever for a one-time payment of $199.
 
 The SimpleLogin and Proton Pass Lifetime deal will be available until December 3 as part of our 2024 end-of-year sale. It’s an opportunity to invest in your privacy for the rest of your life with just one payment. 
