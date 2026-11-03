@@ -98,10 +98,10 @@
 
   <link rel="stylesheet" href="/prism.css">
 
-  <link rel="stylesheet" href="/custom.css?v=4">
+  <link rel="stylesheet" href="/custom.css?v=8">
 
 </head>
-<body class="d-flex flex-column" style="min-height: 100vh">
+<body class="d-flex flex-column sl-page-shell">
   <!-- Hello bar for announcement -->
 <!--   <div id="hello-bar" class="alert alert-success text-center" role="alert">
   </div> -->
@@ -109,152 +109,247 @@
 
 
   <!-- ========== HEADER ========== -->
-  <header id="header" class="u-header u-header--white-bg-on-scroll u-header--sticky-top-md u-header--bg-transparent"
+    <header id="header" class="u-header u-header--white-bg-on-scroll u-header--sticky-top-md u-header--bg-transparent sl-header-sticky"
           data-header-fix-moment="500"
-          data-header-fix-effect="slide"
-          style="position: static;"
-          >
+      data-header-fix-effect="slide">
     <div class="u-header__section">
-      <div id="logoAndNav" class="container">
+      <div id="logoAndNav" class="container-fluid">
         <!-- Nav -->
-        <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space">
+        <nav class="js-mega-menu sl-navbar navbar u-header__navbar u-header__navbar--no-space"
+             aria-label="Main navigation">
+
           <!-- Logo -->
           <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center"
-            href='{{ cond (eq .Lang "en") "/" (print "/" .Lang "/") }}'
-            aria-label="SimpleLogin">
+             href='{{ cond (eq .Lang "en") "/" (print "/" .Lang "/") }}'
+             aria-label="SimpleLogin">
             <img src="/logo.svg" alt="SimpleLogin logo">
           </a>
           <!-- End Logo -->
 
-          <!-- Responsive Toggle Button -->
+          <!-- Outside-collapse actions: visible progressively at 640px / 768px, hidden at 1278px+ -->
+          <div class="sl-header-actions ml-auto mr-2">
+            <a class="sl-header-signin-top btn-sign-in nav-link u-header__nav-link"
+               href="https://app.simplelogin.io/auth/login">
+              {{ i18n "header_login" }}
+            </a>
+            <a class="sl-header-cta-top btn btn-create-free-account transition-3d-hover"
+               href="https://app.simplelogin.io/auth/register">
+              {{ i18n "header_signup" }}
+            </a>
+          </div>
+
+          <!-- Hamburger Toggle: visible below 1278px -->
           <button type="button" class="navbar-toggler btn u-hamburger"
                   aria-label="Toggle navigation"
                   aria-expanded="false"
-                  aria-controls="navBar"
-                  data-toggle="collapse"
-                  data-target="#navBar">
+                  aria-controls="navBar">
             <span id="hamburgerTrigger" class="u-hamburger__box">
               <span class="u-hamburger__inner"></span>
             </span>
           </button>
-          <!-- End Responsive Toggle Button -->
+          <!-- End Hamburger Toggle -->
 
-          <!-- Navigation -->
-          <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
-            <ul class="js-scroll-nav navbar-nav align-items-md-center u-header__navbar-nav ml-auto">
+          <!-- Navigation Collapse -->
+          <div id="navBar" class="navbar-collapse u-header__navbar-collapse" data-breakpoint="1278">
 
-              <!-- Community Menu -->
-              <li class="nav-item hs-has-mega-menu u-header__nav-item"
-                  data-event="hover"
-                  data-animation-in="slideInUp"
-                  data-animation-out="fadeOut"
-                  data-max-width="600px"
-                  data-position="right">
-                <a id="shopMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Community</a>
+            <!-- Mobile drawer header: logo + close (hidden at desktop) -->
+            <div class="sl-drawer-header">
+              <a href='{{ cond (eq .Lang "en") "/" (print "/" .Lang "/") }}' aria-label="SimpleLogin">
+                <img src="/logo.svg" alt="SimpleLogin logo" height="28">
+              </a>
+              <button type="button" class="sl-drawer-close" aria-label="Close navigation">
+                <i class="fas fa-times" aria-hidden="true"></i>
+              </button>
+            </div>
 
+            <ul class="js-scroll-nav navbar-nav align-items-md-center u-header__navbar-nav w-100">
 
-                <div class="hs-mega-menu u-header__sub-menu u-header__mega-menu-position-right-fix--md" aria-labelledby="shopMegaMenu">
-                  <div class="u-header__mega-menu-wrapper">
-
-                    <div class="row p-0">
-                      <div class="col p-0">
-                        <ul class="u-header__sub-menu-nav-group">
-                          <li class="submenu-item p-1">
-                            <a class="nav-link u-header__sub-menu-nav-link" href="/blog/">
-                              <div>
-                                <p class="font-weight-bold mb-1">Blog</p>
-                                <p>
-                                  Stories about our journey to build an open-source tool to protect your privacy, what we've learnt and tips to take control of your privacy.
-                                </p>
-                              </div>
-                            </a>
-                          </li>
-
-                          <li class="submenu-item p-1">
-                            <a class="nav-link u-header__sub-menu-nav-link" href="/docs/">
-                              <div>
-                                <p class="font-weight-bold  mb-1">Documentation</p>
-                                <p>
-                                  How to get the most from SimpleLogin.
-                                </p>
-                              </div>
-                            </a>
-                          </li>
-
-                          <li class="submenu-item p-1">
-                            <a class="nav-link u-header__sub-menu-nav-link" href="https://github.com/simple-login/app">
-                              <div>
-                                <p class="font-weight-bold  mb-1">GitHub Repo</p>
-                                <p>
-                                  Read, review our code, share ideas. Make sure that SimpleLogin is doing what it says.
-                                </p>
-                              </div>
-                            </a>
-                          </li>
-
-                          <li class="submenu-item p-1">
-                            <a class="nav-link u-header__sub-menu-nav-link" href="https://github.com/simple-login/app/discussions">
-                              <div>
-                                <p class="font-weight-bold  mb-1">Forum</p>
-                                <p>
-                                  Discuss about new features, ask questions, share best practices, etc.
-                                </p>
-                              </div>
-                            </a>
-                          </li>
-
-                        </ul>
-
-
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="p-5" style="background-color: #f8f9fa; border-radius: 5px; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);">
-                    <h5>
-                      Comparisons
-                    </h5>
-
-                    <!-- List Group -->
-                    <ul class="list-group list-group-transparent list-group-flush list-group-borderless mb-0">
-                        <li><a class="list-group-item list-group-item-action text-dark" href="/blog/email-alias-vs-plus-sign/">vs Plus Sign (+) Trick </a></li>
-
-                        <li><a class="list-group-item list-group-item-action text-dark" href="/blog/vs-firefox-relay/">vs Firefox Relay</a></li>
-                        <li><a class="list-group-item list-group-item-action text-dark" href="/vs-apple-hide-my-email/">vs Apple's Hide My Email</a></li>
-                    </ul>
-                    <!-- End List Group -->
-
-                  </div>
-                </div>
-
+              <!-- Features Mega-menu -->
+              <li class="nav-item u-header__nav-item">
+                <button id="featuresMegaMenu"
+                        class="sl-menu-toggle nav-link u-header__nav-link u-header__nav-link-toggle"
+                        type="button"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-controls="featuresMegaMenuContent">{{ i18n "header_menu_features" }}</button>
               </li>
-              <!-- End Community Menu -->
+              <!-- End Features Mega-menu -->
 
-              <li class="nav-item u-header__nav-item mr-6">
+              <!-- Resources Mega-menu -->
+              <li class="nav-item u-header__nav-item">
+                <button id="resourcesMegaMenu"
+                        class="sl-menu-toggle nav-link u-header__nav-link u-header__nav-link-toggle"
+                        type="button"
+                        aria-haspopup="true"
+                        aria-expanded="false"
+                        aria-controls="resourcesMegaMenuContent">{{ i18n "header_menu_resources" }}</button>
+              </li>
+              <!-- End Resources Mega-menu -->
+
+              <!-- Pricing: mr-auto pushes Sign in + CTA to the right at desktop -->
+              <li class="nav-item u-header__nav-item sl-nav-pricing">
                 <a class="nav-link u-header__nav-link"
-                  href='{{ cond (eq .Lang "en") "/pricing/" (print "/" .Lang "/pricing/") }}'>
+                   href='{{ cond (eq .Lang "en") "/pricing/" (print "/" .Lang "/pricing/") }}'>
                   {{ i18n "header_pricing" }}
                 </a>
               </li>
 
-              <li class="nav-item u-header__nav-item">
-                <a class="nav-link u-header__nav-link" href="https://app.simplelogin.io/auth/login">
-                  {{ i18n "header_login" }}
+              <!-- CTA: in drawer below 640px and inline at 1278px+; hidden 640–1277px (shown outside collapse) -->
+              <li class="sl-nav-cta nav-item u-header__nav-item mr-3">
+                <a class="btn btn-create-free-account" href="https://app.simplelogin.io/auth/register">
+                  {{ i18n "header_signup" }}
                 </a>
               </li>
 
-              <li class="nav-item u-header__nav-item mr-6">
-                <a class="btn btn-primary btn-sm transition-3d-hover" href="https://app.simplelogin.io/auth/register">
-                  {{ i18n "header_signup" }}
+              <!-- Sign in: in drawer below 768px and inline at 1278px+; hidden 768–1277px (shown outside collapse) -->
+              <li class="sl-nav-signin nav-item u-header__nav-item">
+                <a class="btn btn-sign-in u-header__nav-link" href="https://app.simplelogin.io/auth/login">
+                  {{ i18n "header_login" }}
                 </a>
               </li>
 
             </ul>
           </div>
-          <!-- End Navigation -->
+          <!-- End Navigation Collapse -->
+
         </nav>
         <!-- End Nav -->
       </div>
     </div>
   </header>
   <!-- ========== END HEADER ========== -->
+
+  <div id="featuresMegaMenuContent" class="sl-mega-panel" aria-labelledby="featuresMegaMenu">
+    <div class="u-header__mega-menu-wrapper">
+      <ul class="u-header__sub-menu-nav-group p-0 m-0" role="list">
+
+        <li class="submenu-item" role="listitem">
+          <a class="nav-link u-header__sub-menu-nav-link" href="/" aria-label="Email Aliases">
+            <span class="sl-submenu-icon" aria-hidden="true"><i class="fas fa-at"></i></span>
+            <span>
+              <span class="sl-sumbenu-title font-weight-medium d-block mb-1">{{ i18n "header_feature_email_aliases" }}</span>
+              <span class="sl-submenu-desc" aria-hidden="true">{{ i18n "header_feature_email_aliases_desc" }}</span>
+            </span>
+          </a>
+        </li>
+
+        <li class="submenu-item" role="listitem">
+          <a class="nav-link u-header__sub-menu-nav-link" href="/docs/" aria-label="Custom Domains">
+            <span class="sl-submenu-icon" aria-hidden="true"><i class="fas fa-globe"></i></span>
+            <span>
+              <span class="sl-sumbenu-title font-weight-medium d-block mb-1">{{ i18n "header_feature_custom_domains" }}</span>
+              <span class="sl-submenu-desc" aria-hidden="true">{{ i18n "header_feature_custom_domains_desc" }}</span>
+            </span>
+          </a>
+        </li>
+
+        <li class="submenu-item" role="listitem">
+          <a class="nav-link u-header__sub-menu-nav-link" href="/docs/" aria-label="Browser Extensions">
+            <span class="sl-submenu-icon" aria-hidden="true"><i class="fas fa-puzzle-piece"></i></span>
+            <span>
+              <span class="sl-sumbenu-title font-weight-medium d-block mb-1">{{ i18n "header_feature_browser_extensions" }}</span>
+              <span class="sl-submenu-desc" aria-hidden="true">{{ i18n "header_feature_browser_extensions_desc" }}</span>
+            </span>
+          </a>
+        </li>
+
+        <li class="submenu-item" role="listitem">
+          <a class="nav-link u-header__sub-menu-nav-link" href="/developer/" aria-label="Sign in with SimpleLogin">
+            <span class="sl-submenu-icon" aria-hidden="true"><i class="fas fa-key"></i></span>
+            <span>
+              <span class="sl-sumbenu-title font-weight-medium d-block mb-1">{{ i18n "header_feature_signin_with_sl" }}</span>
+              <span class="sl-submenu-desc" aria-hidden="true">{{ i18n "header_feature_signin_with_sl_desc" }}</span>
+            </span>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+
+  <div id="resourcesMegaMenuContent" class="sl-mega-panel" aria-labelledby="resourcesMegaMenu">
+    <div class="u-header__mega-menu-wrapper pl-0">
+      <div class="row no-gutters">
+
+        <div class="col-7 sl-submenu-main-col py-0">
+          <ul class="u-header__sub-menu-nav-group p-0 m-0" role="list">
+
+            <li class="submenu-item" role="listitem">
+              <a class="nav-link u-header__sub-menu-nav-link" href="/blog/" aria-label="Blog">
+                <span class="sl-submenu-icon" aria-hidden="true"><i class="fas fa-rss"></i></span>
+                <span>
+                  <span class="sl-sumbenu-title font-weight-medium d-block mb-1">{{ i18n "header_resource_blog" }}</span>
+                  <span class="sl-submenu-desc" aria-hidden="true">{{ i18n "header_resource_blog_desc" }}</span>
+                </span>
+              </a>
+            </li>
+
+            <li class="submenu-item" role="listitem">
+              <a class="nav-link u-header__sub-menu-nav-link" href="/docs/" aria-label="Documentation">
+                <span class="sl-submenu-icon" aria-hidden="true"><i class="fas fa-book-open"></i></span>
+                <span>
+                  <span class="sl-sumbenu-title font-weight-medium d-block mb-1">{{ i18n "header_resource_documentation" }}</span>
+                  <span class="sl-submenu-desc" aria-hidden="true">{{ i18n "header_resource_documentation_desc" }}</span>
+                </span>
+              </a>
+            </li>
+
+            <li class="submenu-item" role="listitem">
+              <a class="nav-link u-header__sub-menu-nav-link"
+                 href='{{ cond (eq .Lang "en") "/faq/" (print "/" .Lang "/faq/") }}'
+                 aria-label="FAQ">
+                <span class="sl-submenu-icon" aria-hidden="true"><i class="fas fa-question-circle"></i></span>
+                <span>
+                  <span class="sl-sumbenu-title font-weight-medium d-block mb-1">{{ i18n "header_resource_faq" }}</span>
+                  <span class="sl-submenu-desc" aria-hidden="true">{{ i18n "header_resource_faq_desc" }}</span>
+                </span>
+              </a>
+            </li>
+
+            <li class="submenu-item" role="listitem">
+              <a class="nav-link u-header__sub-menu-nav-link" href="https://github.com/simple-login/app/discussions" aria-label="Forum">
+                <span class="sl-submenu-icon" aria-hidden="true"><i class="far fa-comments"></i></span>
+                <span>
+                  <span class="sl-sumbenu-title font-weight-medium d-block mb-1">{{ i18n "header_resource_forum" }}</span>
+                  <span class="sl-submenu-desc" aria-hidden="true">{{ i18n "header_resource_forum_desc" }}</span>
+                </span>
+              </a>
+            </li>
+
+            <li class="submenu-item" role="listitem">
+              <a class="nav-link u-header__sub-menu-nav-link" href="https://github.com/simple-login/app" aria-label="GitHub">
+                <span class="sl-submenu-icon" aria-hidden="true"><i class="fab fa-github"></i></span>
+                <span>
+                  <span class="sl-sumbenu-title font-weight-medium d-block mb-1">{{ i18n "header_resource_github" }}</span>
+                  <span class="sl-submenu-desc" aria-hidden="true">{{ i18n "header_resource_github_desc" }}</span>
+                </span>
+              </a>
+            </li>
+
+            <li class="submenu-item" role="listitem">
+              <a class="nav-link u-header__sub-menu-nav-link" href="https://status.simplelogin.io" aria-label="Status">
+                <span class="sl-submenu-icon" aria-hidden="true"><i class="fas fa-heartbeat"></i></span>
+                <span>
+                  <span class="sl-sumbenu-title font-weight-medium d-block mb-1">{{ i18n "header_resource_status" }}</span>
+                  <span class="sl-submenu-desc" aria-hidden="true">{{ i18n "header_resource_status_desc" }}</span>
+                </span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+
+        <div class="col-5 sl-submenu-sidebar rounded-4">
+          <p class="text-uppercase font-weight-bold text-muted sl-submenu-sidebar-title mb-3 mx-3">{{ i18n "header_resource_comparisons" }}</p>
+          <ul class="list-group list-group-transparent list-group-flush list-group-borderless mb-0 mx-3" role="list">
+            <li><a class="list-group-item list-group-item-action text-dark small" href="/blog/email-alias-vs-plus-sign/">vs Plus Sign (+) Trick</a></li>
+            <li><a class="list-group-item list-group-item-action text-dark small" href="/blog/vs-firefox-relay/">vs Firefox Relay</a></li>
+            <li><a class="list-group-item list-group-item-action text-dark small" href="/vs-apple-hide-my-email/">vs Apple's Hide My Email</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="sl-nav-overlay" class="sl-nav-overlay" aria-hidden="true"></div>
