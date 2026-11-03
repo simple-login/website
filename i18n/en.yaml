@@ -1,7 +1,32 @@
 # header
-header_login: Login
-header_signup: Sign Up
+header_login: Sign in
+header_signup: Create a free account
 header_pricing: Pricing
+header_menu_features: Features
+header_menu_resources: Resources
+
+header_feature_email_aliases: Email Aliases
+header_feature_email_aliases_desc: Protect your inbox with anonymous email addresses
+header_feature_custom_domains: Custom Domains
+header_feature_custom_domains_desc: Use your own domain to create aliases
+header_feature_browser_extensions: Browser Extensions
+header_feature_browser_extensions_desc: Create aliases in one click from Chrome, Firefox, Edge, or Safari
+header_feature_signin_with_sl: Sign in with SimpleLogin
+header_feature_signin_with_sl_desc: Privacy-first login button for your app or website
+
+header_resource_blog: Blog
+header_resource_blog_desc: Stories, tips and privacy guides from our team
+header_resource_documentation: Documentation
+header_resource_documentation_desc: Get the most out of SimpleLogin
+header_resource_faq: FAQ
+header_resource_faq_desc: Answers to the most common questions
+header_resource_forum: Forum
+header_resource_forum_desc: Discuss features, ask questions, share best practices
+header_resource_github: GitHub
+header_resource_github_desc: Review our open-source code and contribute
+header_resource_status: Status
+header_resource_status_desc: Check service uptime and incidents
+header_resource_comparisons: Comparisons
 
 # hero section
 hero: Receive and send emails anonymously

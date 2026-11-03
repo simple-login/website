@@ -150,5 +150,661 @@ img {
 }
 
 .submenu-item:hover {
-    background-color: #e1e3eb;
+    background-color: var(--sl-submenu-accent-light);
+}
+
+/* Header Nav */
+
+header nav .u-header__nav-link {
+    color: #1a202c;
+    transition: all 0.2s ease;
+}
+
+header nav .u-header__nav-item:hover > .u-header__nav-link,
+header nav .u-header__nav-item:focus-within > .u-header__nav-link {
+  color: var(--sl-submenu-accent);
+}
+
+header .btn-create-free-account,
+header nav .btn-sign-in {
+  border-radius: 16px;
+  font-size: 0.9em;
+  padding: 0.25rem 1rem;
+  text-decoration: none;
+}
+
+header .btn-create-free-account {
+    background-color: var(--sl-submenu-accent);
+    border-color: var(--sl-submenu-accent);
+    color: #fff;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+header .btn-create-free-account:hover {
+    background-color: #d1287f;
+    border-color: #d1287f;
+  color: #fff;
+}
+
+header .btn-create-free-account:focus,
+header .btn-create-free-account:active {
+  color: #fff;
+}
+
+header nav .btn-sign-in {
+  background-color: #fff;
+  color: var(--sl-submenu-accent);
+}
+
+header nav .btn-sign-in:hover,
+header nav .btn-sign-in:focus,
+header nav .btn-sign-in:active {
+  background-color: #d1287f;
+  border-color: #d1287f;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav .u-header__nav-item.sl-nav-signin:hover > .btn-sign-in,
+header nav .u-header__nav-item.sl-nav-signin:focus-within > .btn-sign-in {
+  color: #fff;
+}
+
+
+/* custom container */
+
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+    .container-fluid {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+/* Navbar */
+
+#header .navbar-nav {
+    width: 100%;
+}
+
+/* ============================================
+   HEADER — Modern Navigation
+   ============================================
+   Breakpoints (min-width, mobile-first):
+     <1278px → Full-screen drawer navigation
+     1278px+ → Full inline nav, no hamburger
+
+   CSS custom properties cannot be used inside
+   @media rules (spec limitation). Breakpoint
+   values are literals; all other design tokens
+   live in :root.
+   ============================================ */
+
+:root {
+  --sl-bp-cta:        640px;
+  --sl-bp-signin:     768px;
+  --sl-bp-nav:        1278px;
+  --sl-header-z:       100;
+  --sl-overlay-bg:     rgba(0, 0, 0, 0.40);
+  --sl-drawer-bg:      #fff;
+  --sl-drawer-border:  #e9ecef;
+  --sl-drawer-sep:     #f0f2f5;
+  --sl-drawer-shadow:  0 8px 20px rgba(0, 0, 0, 0.1);
+  --sl-submenu-bg:     #f8f9fa;
+  --sl-submenu-accent: #ea319f;
+  --sl-submenu-accent-light: #fdeaf5;
+  --sl-submenu-accent-dark:  #8f165c;
+  --sl-submenu-desc:   #4f5458;
+  --sl-submenu-radius: 8px;
+  --sl-flyout-shadow:  0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* ——— Always-on base rules ——— */
+
+#header .u-header__navbar {
+  padding: 16px;
+}
+
+#header {
+  z-index: var(--sl-header-z);
+}
+
+.sl-page-shell {
+  min-height: 100vh;
+}
+
+.sl-header-sticky {
+  position: sticky;
+  top: 0;
+}
+
+.sl-menu-toggle {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+/* Single source of truth for top-level mega-menu chevrons */
+.sl-navbar .u-header__nav-link-toggle::after {
+  content: '\f078';
+  color: var(--sl-submenu-accent);
+  flex-shrink: 0;
+  font-family: 'Font Awesome 5 Free';
+  font-size: 0.95rem;
+  font-weight: 900;
+  line-height: 1;
+  margin-left: 0.75rem;
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.sl-navbar .u-header__nav-link-toggle[aria-expanded="true"]::after {
+  transform: rotate(180deg);
+}
+
+.sl-header-actions {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.sl-header-cta-top,
+.sl-header-signin-top {
+  display: none;
+}
+
+/* =============================================
+   MEGA-MENU PANELS
+   Panels live outside the header in the DOM so
+   they are not trapped in its stacking context.
+   z-index 102 > overlay 101 > header 100.
+   ============================================= */
+
+.sl-mega-panel {
+  background: var(--sl-drawer-bg);
+  border-radius: var(--sl-submenu-radius);
+  box-shadow: var(--sl-flyout-shadow);
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  z-index: 102;
+}
+
+.sl-mega-panel.is-open {
+  display: block;
+}
+
+/* On mobile the panel is moved into the nav drawer by JS;
+   fixed positioning must be reset to flow naturally. */
+@media (max-width: 1277px) {
+  .sl-mega-panel {
+    border-top: 1px solid var(--sl-drawer-border);
+    box-shadow: none;
+    position: static;
+    width: 100%;
+  }
+
+  .sl-mega-panel .u-header__mega-menu-wrapper {
+    padding: 0;
+  }
+
+  .sl-submenu-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sl-mega-panel .u-header__sub-menu-nav-link {
+    padding: 0.625rem 1.5rem;
+  }
+
+  .sl-submenu-sidebar {
+    display: none;
+  }
+
+  #resourcesMegaMenuContent .row {
+    display: block;
+  }
+
+  #resourcesMegaMenuContent .col-7 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1278px) {
+  .sl-mega-panel .u-header__mega-menu-wrapper {
+    padding: 12px;
+  }
+
+  .sl-submenu-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sl-mega-panel .u-header__sub-menu-nav-link {
+    padding: 0.625rem 0.75rem;
+  }
+
+  .sl-submenu-sidebar {
+    display: block;
+  }
+
+  #resourcesMegaMenuContent .row {
+    display: flex;
+  }
+
+  #resourcesMegaMenuContent .col-7 {
+    flex: 0 0 58.333%;
+    max-width: 58.333%;
+    padding: 1rem;
+  }
+
+  .sl-submenu-main-col {
+    padding: 1rem;
+  }
+
+  .sl-submenu-sidebar {
+    padding: 1rem;
+  }
+}
+
+/* =============================================
+   SUBMENU SHARED STYLES
+   ============================================= */
+
+.sl-submenu-grid {
+  display: grid;
+  gap: 0.25rem;
+  list-style: none;
+}
+
+.sl-mega-panel .u-header__sub-menu-nav-link {
+  align-items: flex-start;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.sl-mega-panel .u-header__sub-menu-nav-link .sl-sumbenu-title {
+  color: var(--sl-submenu-accent-dark);
+}
+
+.sl-mega-panel .u-header__sub-menu-nav-link:hover .sl-sumbenu-title {
+  color: var(--sl-submenu-accent);
+}
+
+.sl-mega-panel .u-header__sub-menu-nav-link:hover,
+.sl-mega-panel .u-header__sub-menu-nav-link:focus {
+  color: var(--sl-submenu-accent);
+}
+
+.sl-submenu-icon {
+  align-items: center;
+  color: var(--sl-submenu-accent);
+  display: flex;
+  font-size: 1rem;
+  justify-content: center;
+  margin-top: 2px;
+  min-width: 20px;
+  width: 20px;
+}
+
+.sl-submenu-desc {
+  color: var(--sl-submenu-desc);
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-top: 1px;
+}
+
+.sl-submenu-sidebar {
+  background-color: var(--sl-submenu-bg);
+  border-radius: 0 var(--sl-submenu-radius) var(--sl-submenu-radius) 0;
+}
+
+.sl-submenu-sidebar-title {
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+}
+
+/* =============================================
+   MOBILE DRAWER — Full-screen drawer < 1278px
+   ============================================= */
+
+@media (max-width: 1277px) {
+  .sl-navbar .u-header__navbar-nav .sl-nav-pricing {
+    margin-right: 0;
+  }
+
+  #navBar {
+    background: var(--sl-drawer-bg);
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+    visibility: hidden;
+    z-index: 103;
+  }
+
+  #navBar.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+  /* Drawer logo + close row */
+  .sl-drawer-header {
+    align-items: center;
+    background: var(--sl-drawer-bg);
+    border-bottom: 1px solid var(--sl-drawer-border);
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    width: 100%;
+  }
+
+  .sl-drawer-close {
+    align-items: center;
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    color: #4a5568;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.1rem;
+    height: 36px;
+    justify-content: center;
+    padding: 0;
+    transition: background 0.15s ease, color 0.15s ease;
+    width: 36px;
+  }
+
+  .sl-drawer-close:hover {
+    background: var(--sl-drawer-sep);
+    color: #1a202c;
+  }
+
+  /* Overlay for drawer (slightly more opaque) */
+  .sl-nav-overlay {
+    background: rgba(0, 0, 0, 0.50);
+    z-index: 102;
+  }
+
+  .sl-nav-overlay.is-visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Nav items: scrollable middle area */
+  .sl-navbar .u-header__navbar-nav {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .sl-navbar .u-header__navbar-nav > .u-header__nav-item,
+  .sl-navbar .u-header__navbar-nav > .sl-mega-panel {
+    width: 100%;
+  }
+
+  .sl-navbar .u-header__navbar-nav > .u-header__nav-item {
+    border-bottom: 1px solid var(--sl-drawer-sep);
+    width: 100%;
+  }
+
+  /* Normalize horizontal gutters for Features, Resources and Pricing */
+  .sl-navbar #featuresMegaMenu,
+  .sl-navbar #resourcesMegaMenu,
+  .sl-navbar .u-header__navbar-nav > .u-header__nav-item:nth-child(3) > .u-header__nav-link {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  /* Nav links with improved spacing */
+  .sl-navbar .u-header__navbar-nav .u-header__nav-link {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1rem 1.5rem;
+    width: 100%;
+    font-weight: 500;
+    color: #1a202c;
+    font-size: 1rem;
+    letter-spacing: 0.3px;
+    transition: background-color 0.15s ease;
+  }
+
+  .sl-navbar .u-header__navbar-nav .u-header__nav-link:active,
+  .sl-navbar .u-header__navbar-nav .u-header__nav-link:focus {
+    background-color: #f0f2f5;
+  }
+
+  /* =============================================
+     ACTION BUTTONS SECTION
+     ============================================= */
+
+  /* CTA button — Create free account */
+  .sl-nav-cta {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    background: transparent;
+    border: none;
+  }
+
+  .sl-nav-cta .btn {
+    border-radius: 16px;
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0.85rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  .sl-navbar .u-header__navbar-nav .sl-nav-signin .btn-sign-in {
+    border-radius: 16px;
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    justify-content: center;
+    padding: 0.85rem 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  .sl-nav-cta .btn {
+    background-color: #ea319f;
+    border-color: #ea319f;
+    color: #fff;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px rgba(234, 49, 159, 0.25);
+  }
+
+  .sl-nav-cta .btn:active {
+    color: #fff;
+    transform: scale(0.98);
+  }
+
+  .sl-nav-cta .btn:hover,
+  .sl-nav-cta .btn:focus {
+    color: #fff;
+  }
+
+  /* Sign in button — outline style */
+  .sl-nav-signin {
+    width: 100%;
+    border: 0;
+    padding: 0 1.5rem 0.75rem 1.5rem;
+  }
+
+  .sl-navbar .u-header__navbar-nav .sl-nav-signin .btn-sign-in {
+    border: 2px solid var(--sl-submenu-accent);
+    background-color: #fff;
+    color: var(--sl-submenu-accent);
+  }
+
+  .sl-navbar .u-header__navbar-nav .sl-nav-signin .btn-sign-in:active {
+    background-color: #d1287f;
+    border-color: #d1287f;
+    color: #fff;
+  }
+
+  .sl-navbar .u-header__navbar-nav .sl-nav-signin .btn-sign-in:hover,
+  .sl-navbar .u-header__navbar-nav .sl-nav-signin .btn-sign-in:focus {
+    background-color: #d1287f;
+    border-color: #d1287f;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* =============================================
+     DRAWER MENU CONTENT
+     ============================================= */
+
+  /* Mega-menu panels in drawer mode */
+  .sl-mega-panel {
+    border-radius: 0;
+  }
+
+  .sl-mega-panel .u-header__mega-menu-wrapper {
+    padding: 0 1.5rem;
+  }
+
+  /* Features and Resources list items */
+  .sl-mega-panel .u-header__sub-menu-nav-link {
+    padding: 0.875rem 0;
+    gap: 0.875rem;
+  }
+
+  .sl-submenu-desc {
+    display: none; /* Hide descriptions in drawer to save space */
+  }
+
+  .sl-submenu-icon {
+    font-size: 1rem;
+    min-width: 24px;
+    width: 24px;
+  }
+
+  .sl-submenu-sidebar {
+    display: none; /* Hide comparisons sidebar in drawer */
+  }
+
+}
+
+/* Hide mobile-only drawer elements at desktop */
+@media (min-width: 1278px) {
+  .sl-drawer-header {
+    display: none;
+  }
+}
+
+/* 640px+: show top CTA and hide drawer CTA item */
+@media (min-width: 640px) and (max-width: 1277px) {
+  .sl-header-cta-top {
+    align-items: center;
+    display: inline-flex;
+  }
+
+  .sl-nav-cta {
+    display: none;
+  }
+}
+
+/* 768px+: show top Sign in and hide drawer Sign in item */
+@media (min-width: 768px) and (max-width: 1277px) {
+  .sl-header-signin-top {
+    align-items: center;
+    display: inline-flex;
+  }
+
+  .sl-nav-signin {
+    display: none;
+  }
+}
+
+/* =============================================
+   1278px — Full inline nav, no hamburger
+   ============================================= */
+
+@media (min-width: 1278px) {
+  .sl-navbar .navbar-toggler {
+    display: none;
+  }
+
+  /* ID selector (specificity 1,0,0) overrides Bootstrap's
+     .collapse:not(.show) { display: none } */
+  #navBar {
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
+  }
+
+  .sl-navbar .navbar-nav {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .sl-navbar .navbar-nav .u-header__nav-item > .u-header__nav-link {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .sl-navbar .u-header__navbar-nav .sl-nav-pricing {
+    margin-right: auto;
+  }
+
+  .sl-header-actions {
+    display: none;
+  }
+
+  .sl-nav-cta,
+  .sl-nav-signin {
+    display: list-item;
+  }
+
+  .sl-nav-cta .btn {
+    display: inline-block;
+    margin: 0;
+    width: auto;
+  }
+}
+
+/* =============================================
+   NAV OVERLAY
+   z-index 101: above header (100), below panels (102)
+   ============================================= */
+
+.sl-nav-overlay {
+  background: var(--sl-overlay-bg);
+  cursor: pointer;
+  inset: 0;
+  opacity: 0;
+  position: fixed;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+  visibility: hidden;
+  z-index: 101;
+}
+
+.sl-nav-overlay.is-visible {
+  opacity: 1;
+  visibility: visible;
 }
